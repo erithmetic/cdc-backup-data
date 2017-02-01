@@ -1,0 +1,292 @@
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/A/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/A/theme-orange.css");
+<!-- compliance patch for microsoft browsers -->
+<!--[if lt IE 7]>
+#content-secondary .rounders .inner,
+#content-secondary .rounders .t,
+#content-secondary .rounders .b,
+#content-secondary .rounders .b div{
+	background-image:url('/TemplatePackage/images/bg_smallRails-orange.gif');
+}
+<![endif]-->
+*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/A/theme-purple.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+.note 
+		{
+		color: #000000;
+		font-size: 90%;
+		}
+
+.top
+		{
+		font-size: 95%; 
+        text-align: center;
+        }
+               	
+
+.top a
+		{
+		text-decoration: underline;
+		}
+		
+.totop
+		{
+		font-size: 95%; 
+        text-align: center;
+        }
+               	
+
+.totop a
+		{
+		text-decoration: underline;
+		}		
+		
+.falshrighttext {padding-top: 15px;}
+
+===========================================================
+A to Z -- CONTENT STYLES (IF USED - SEE /az/a.html)
+===========================================================
+*/
+@import url('https://www.cdc.gov/TemplatePackage/css/A/theme-blueHome.css');
+
+#AZ-content {
+	float: left;
+	clear: none;
+	margin-left: 3px;
+	overflow: visible;
+	display: block;
+	position: relative;
+	width: 98%;
+}
+
+#AZ-content h1 span {
+	font-size: 1.4em;
+	color: #00539F;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 2px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	clear: left;
+}
+
+
+#AZ-content ul {
+	display:block;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	width: auto;
+	clear: left;
+}
+
+#AZ-content li {
+	background: transparent none repeat scroll 0% 0%;
+	display: block;
+	margin: 0px 0px 0px 3px;
+	padding: 1px;
+}
+
+#AZ-content li a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	width:100%;
+}
+
+#AZ-content li a:hover {
+	background: #fff9e5;
+	text-decoration: underline;
+}
+
+#AZ-content ul ul li {
+	margin-bottom: 0;
+	padding: 0;
+	list-style-type: none;
+	color: #565656;
+	font-size: .8em;
+	text-indent: 15px;
+	font-style: italic;
+}
+
+#AZ-content a .aznote {
+color: #000000;
+font-size: 90%;
+}
+
+#AZ-content ul ul li a {
+	margin: 0;
+	padding: 5px;
+	display: inline;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+
+div.AZlist-main-container {
+	margin-top: 5px;
+	margin-left: 0;
+	margin-bottom: 10px;
+	float: left;
+	clear: both;
+	overflow: visible;
+	position: relative;
+	width: 100%;
+}
+
+div ol.AZlist-main {
+	list-style: none;
+	padding: 0;
+	margin: 0px 0px 0px 3px;
+	font-size: 1.3em;
+	font-weight: normal;
+	color:#000000;
+	text-align: center;
+	float: left;
+	width: auto;
+	overflow: visible;
+	position: relative;
+}
+
+div ol.AZlist-main li {
+	display: inline;
+	float: left;
+ 	width: 19px;
+	margin: 1px;
+	padding: 0;
+	clear: none;
+	position: static;
+}
+
+/* For IE7 and Firefox */
+html > body div ol.AZlist-main li {
+	margin: 3px;
+}
+
+div ol.AZlist-main li a {
+	display: block;
+	width: 100%;
+	padding: 0;
+	border-width: 2px;
+	border-color: #ffe #aaab9c #ccc #fff;
+	border-style: solid;
+	color:#0a29a5;
+	text-decoration: none;
+	background: #f4f8ff;
+	font-weight: bold;
+}
+
+div ol.AZlist-main li#active a {
+	background: #f4f8ff;
+	color:#0a29a5;
+	text-decoration: none;
+}
+
+div ol.AZlist-main li#active a:visited {
+	background: #f4f8ff;
+	color:#0a29a5;
+	text-decoration: none;
+}
+
+div ol.AZlist-main li a:visited {
+	background: #f4f8ff;
+	color:#0a29a5;
+	text-decoration: none;
+}
+
+div ol.AZlist-main li a:hover {
+	color:#0a29a5;
+	font-weight:bold;
+	text-decoration: none;
+	background: #ffffff;
+	border-color: #aaab9c #fff #fff #ccc;
+}
+
+div ol.AZlist-main li#active a:hover {
+	color:#0a29a5;
+	font-weight: bold;
+	text-decoration: none;
+	background: #ffffff;
+	border-color: #aaab9c #fff #fff #ccc;
+}
+
+div ol.AZlist-main li.activeLetter{
+	font-size: 1.0em;
+	text-decoration: none;
+	background: #ffffff url(http://atsdrappdev.cdc.gov/img/yellow_downArrow.gif) no-repeat 0 23px;
+	color: #00539F;
+	width: 20px;
+	height: 35px;
+	margin: 3px 2px 3px 2px;
+	padding: 0;
+	font-weight: bold;
+}
+
+/* For IE7 and Firefox */
+html > body div  ol.AZlist-main li.activeLetter{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 0;
+	padding: 0;
+}
+
+div#content div#az-faqs.module {
+	margin: 18px 12px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: visible;
+	clear: left;
+}
+
+div#content div#az-faqs div.page-curl {
+	margin: 0px 0px 2px 0px;
+	padding: 0px 0px 8px 0px;
+	position: static;
+	overflow: visible;
+}
+
+
+
+.AZ-backtoMainAZIndexTop {
+	float:right;
+	font-weight:bold;
+	padding-right: 55px;
+	margin-top:10px;
+}
+.AZ-backtoMainAZIndexBottom {
+	margin-bottom:10px;
+	margin-left:120px;
+	margin-top:20px;
+	width:470px;
+	display: block;
+	clear: both;
+}
+html > body .AZ-backtoMainAZIndexTop {
+	padding-right: 125px;
+}
+
+.AZ-backtoMainAZIndexBottom p {
+	text-align:center;
+}
+.underlineme {
+	text-decoration:underline !important;
+}

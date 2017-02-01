@@ -1,0 +1,2426 @@
+/********** GENERAL LAYOUT/FORMATTING **********/
+
+#container
+		{
+		width: 760px;
+		\width: 780px;
+		w\idth: 760px;
+		border: 0px none;
+		margin: 0;
+		padding: 0;
+		}
+
+#banner	{
+		padding: 0;
+		margin-bottom: 10px;
+		}
+
+#content
+		{
+		padding: 0 0 20px 12px;
+		margin-left: 176px;
+		margin-right: 197px;
+		background-color: #fff;
+		border-top:1px solid #e5e5e5;
+		border-left:1px solid #e5e5e5;
+		}
+
+#sidebar-a
+		{
+		float: left;
+		width: 160px;
+		\width: 172px;
+		w\idth: 160px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0 0 0 12px;
+		background-color: #fff;
+		}
+
+#sidebar-b
+		{
+		float: right;
+		width: 186px;
+		\width: 196px;
+		w\idth: 186px;
+		margin: 0;
+		padding: 0 0 0 10px;
+		background-color: #fff;
+		}
+
+#footer	{
+		clear: both;
+		padding: 0;
+		margin-top: 0;
+		background-color: #fff;
+		}
+		
+
+form	{
+		margin: 0;
+		padding: 0;
+		}
+			
+body	{
+		padding: 0;
+		margin: 0;
+		background: #ffffff url('http://www.cdc.gov/i/bgMain.gif') fixed 0px 50%;
+		font: 12px Arial, Helvetica, sans-serif;
+		}
+		
+a		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+		
+a:hover	{
+		text-decoration: none
+		}
+		
+p, span, ul, ol, li
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #000;
+		}
+		
+table, td	{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #000;
+		}
+
+th, caption	{
+		font: bold 100% Arial, Helvetica, sans-serif;
+		color: #000;
+		}
+		
+.tE		{
+		font: 95% bold Arial, Helvetica, sans-serif;
+		}
+
+	
+/********** HEADER include **********/
+
+
+/**** GLOBAL NAV ****/
+
+#globalnav
+		{
+		width: 760px;
+		/**  height: 22px; **/ /* removed */
+		color: #fff;
+		background: #000;
+		/** padding-top: 6px; **/ /* removed */
+		padding-top: 3px;
+		padding-bottom: 3px; /* added */
+		margin: 0;		
+		}
+		
+#globalnav ul
+		{
+		margin: 0;  
+		/** padding: 0; **/ /* removed */
+		padding-left: 3px;
+		color: #fff;
+		white-space: nowrap;
+		list-style-type: none; /* added */
+		}
+		
+#globalnav li
+		{
+		/**  list-style-type: none; **/ /* removed */
+		display: inline;
+		padding-left: 8px;
+		/**  padding-right: 8px; **/ /* removed */
+		padding-right: 7px;
+		/**  border-right: 2px solid #fff; **/ /* removed */
+		border-right: 1px solid #fff;
+		margin: 0;
+		text-align: center;
+		}
+
+#globalnav li.last
+		{
+		list-style-type: none;
+		display: inline;
+		padding-left: 8px;
+		/**  padding-right: 8px; **/ /* removed */
+		padding-right: 7px;
+		border-right: none;
+		margin: 0;
+		text-align: center;
+		}
+
+#globalnav li a
+		{
+		text-decoration: underline;
+		text-align: center;
+		/** font: normal 100% Arial, Verdana, Helvetica, sans-serif; **/ /* removed */
+		font: normal 95% Arial, Verdana, Helvetica, sans-serif;
+		color: #fff;
+		padding-left: 0px;
+		padding-right: 0px;
+		}
+		
+#globalnav li a:hover
+		{
+    	text-decoration: none;
+		}
+
+
+/**** HEADER BLOCK ****/
+
+#header	{
+		margin: 0;
+		padding: 0;
+		/** background-image: url('http://www.cdc.gov/i/bgHdr.gif'); **/ /* removed */
+		width: 760px
+		}
+
+#header .logo
+		{
+		margin:0;
+		padding: 0;
+		/** height: 75px; **/ /* removed */
+		background-image: url('http://www.cdc.gov/nceh/tracking/images/bghdr.gif');
+		background-repeat: repeat;
+		height: 76px;
+		width: 760px;
+		/** margin-bottom: 10px; **/ /* removed */
+		}
+
+.logo img
+		{
+		margin: 0;
+		padding: 8px 0 8px 0;  
+		}
+
+#header .spanish
+		{
+		padding: 0;
+		color: #ffffff;
+		text-align: right;
+		position: absolute;
+		/** top: 42px; **/ /* removed */
+		top: 26px;
+		left: 560px;
+		margin: 0;
+		width: 189px;
+		/** height: 20px; **/ /* removed */
+		/** background: url('http://www.cdc.gov/nceh/tracking/images/hr_search.gif') no-repeat fixed bottom; **/  /* removed */
+		}
+		
+#header .spanish a
+		{
+		font-size: 12px;
+		color: #ffffff;
+		text-align: right;
+		}
+		
+#header .form
+		{
+		padding: 0;
+		color: #ffffff;
+		position: absolute;
+		/**  top: 67px; **/ /* removed */
+		top: 60px;
+		left: 560px;
+		margin: 0;
+		width: 189px;
+		/** height: 20px; **/ /* removed */
+		}
+
+#header .form p
+		{
+		padding: 0;
+		margin: 0;
+		color: #ffffff;
+		text-align: right;
+		}
+
+#header .form input[type=text]
+		{
+		margin: 0;
+		padding: 0;
+		}
+		
+#header .form input[type=image]
+		{
+		margin: 0;
+		padding: 0;
+		}
+		
+#header .form form
+		{
+		margin: 0
+		padding: 0;
+		}
+
+.searchButton
+		{
+		padding: 0;
+		vertical-align: bottom
+		}
+ 
+ 
+/********** LEFT NAV include **********/
+
+#leftnav	{
+		width: 160px;
+		background-color: #fff;
+		border: none;
+		padding: 0;
+		margin:0;
+		}
+		
+#topicnav h2	{
+		font-size: 110%;
+		font-weight: bold;
+		color: #000;
+		background-color: #ffecb9;
+		margin: 0;
+		padding: 4px 0 4px 8px;
+		}
+		
+#topicnav	{
+		background-color: #ffffe5;
+		padding: 0;
+		margin:0;
+		}
+
+#topiclist	{
+		padding: 0 1px 1px;
+		background: #ffffe5;
+		margin: 0;
+		}
+
+#topiclist li	{
+		border-bottom: 1px solid #e5e5ce;
+		text-align: left;
+		padding-left: 15px;     /* distance between marker and text */
+		margin: 0;
+		background: url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif') no-repeat 1.0em;
+		list-style-type:none;
+		}
+
+#topiclist li.first
+		{
+		border-top: 1px solid #e5e5ce;
+		}
+
+#topiclist  li a
+		{
+		display: block;
+		padding: 0.18em 0.5em 0.18em 0.75em;
+		background: #ffffe5;
+		text-decoration: underline;
+		}
+
+#topiclist  li a:hover
+		{
+		border-color: #ffffe5;
+		background: #ffffe5;
+		text-decoration: none;
+		}
+
+.ctrlink	{
+		margin-bottom: 0;
+		}	
+
+.divlink	{
+		margin-top: -5px;
+
+		}
+		
+.hr_tp		{
+		background: #fff url('https://www.cdc.gov/nceh/ciguatera/images/div_hrz_blackdot3.gif') no-repeat center center;
+		margin-top: 5px;
+		height: 15px;
+	    width: 160px
+		}
+		
+.hr_btm		{
+		background: #fff url('https://www.cdc.gov/nceh/ciguatera/images/div_hrz_blackdot3.gif') no-repeat center center;
+		margin-top: 0px;
+		height: 5px;
+	    width: 160px
+		}
+
+/********** FOOTER  include **********/
+
+#ftrwrap	{
+		width: 760px;
+		background-color: #fff;
+		border-top: 1px solid #e5e5e5;
+		padding-top: 20px;
+		margin:0;
+		}
+
+
+/**** BOTTOM NAV ****/
+
+#metrics {
+		width: 760px;
+		height: 20px;
+		background-color: #fff;
+		border-top: 1px solid #e5e5e5;
+		margin:0;
+		}
+
+#btmnav		{
+		width: 760px;
+		height: 15px;
+		margin: 0;
+		padding: 4px 0 4px 0;
+		background: #f5f5f5;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		border-right: none;
+		border-left: none;
+		}
+		
+#btmnav ul	{
+		margin: 0;
+		padding: 0;
+		}
+
+#btmnav li	{
+		display: inline;
+		border-right: 1px solid #000;
+		border-left: none;
+		padding: 0 7px 0 8px;
+		margin: 0;
+ 		list-style-type: none;
+ 		text-align: center;
+		}
+						
+#btmnav li.last
+		{
+		list-style-type: none;
+		display: inline;
+		padding: 0 7px 0 8px;
+		margin: 0;
+		border-right: none;
+		border-left: none;
+		text-align: center;
+		}
+
+#btmnav li a
+		{
+		text-decoration: underline;
+		color: #003366;
+		font: normal 11px Arial, Verdana, Helvetica, sans-serif;
+		text-align: center;
+		}
+
+#btmnav ul li a:hover
+		{
+		text-decoration: none;
+		}
+
+
+/**** FOOTER ****/
+
+#ftr		{
+		width: 760px;
+		height: 60px;
+		margin: 0;
+		padding: 0;
+		background: #e5e5e5;
+		}	
+
+#ftr .float1	{
+		float: left;
+		margin: 0 0 0 0;
+		padding: 10px 0 0 8px;
+		background: #e5e5e5;
+		width: 400px;
+		}
+#ftr .float1 img
+		{
+		margin: 0;
+		padding-bottom: 10px;
+		border: 0px none;
+		}
+
+#ftr .float2
+		{
+		float: left;
+		margin: 0 0 0 0;
+		padding: 5px 0 0 0;
+		background: #e5e5e5;
+		width: 147px;
+		}
+		
+#ftr .float2 img
+		{
+		margin: 0;
+		padding: 0;
+		border: 0px none;
+		}
+
+#ftr .float3	{
+		float: left;
+		margin: 0 0 0 0;
+		padding: 5px 0 0 0;
+		background: #e5e5e5;
+		width: 205px;
+		}
+		
+#ftr .float3 a
+		{
+		font-size: 11px;
+		}
+		
+#ftr .float3 img
+		{
+		margin: 0;
+		padding: 0;
+		border: 0px none;
+		float: left;
+		}
+
+#ftr .txtftrBottom
+		{
+		font-size: 9px;
+		line-height: 1em
+		}
+
+
+/********** CONTENT NAV include **********/
+
+#contentnav	{
+		width: 365px;
+		background-color: #fff;
+		border: solid 1px #e5e5e5;
+		padding: 0;
+		margin:0;
+		}
+		
+#contentnav h2	{
+		font-size: 110%;
+		color: #ffffff;
+		font-weight: bold;
+		background-color: #006633;
+		margin: 0;
+		padding: 5px 0 5px 10px;
+		}
+
+#contentnavlist	{
+		font-size: 100%;
+		list-style: square url('https://www.cdc.gov/nceh/ciguatera/images/blt2.gif');
+		padding-left: 0;
+		margin: .5em .5em 0 25px; /* bullet image is in left margin */
+		}
+	
+#contentnavlist li
+		{
+		font-size: 100%;
+  		margin-left: 0;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: .5em; /* a little spacing between list items */
+		}
+
+#contentnavlist a
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+		
+#contentnavlist a:hover
+		{
+		text-decoration: none
+		}
+		
+#contentnavlist a.tE
+		{
+		font-weight: bold;
+		}
+
+/********** SPOTLIGHT include **********/
+
+#spotlight {width: 365px; background-color: #ffecb9; border: solid 1px #e5e5e5; padding: 0; margin: 0;}
+		
+#spotlight h2 {font-size: 120%; color: #ffffff; font-weight: bold; background-color: #006633; margin: 0; padding: 3px 0 2px 10px;}
+
+ul#newslist	{
+		font-size: 95%;
+		list-style: none;
+		margin: 1.1em;
+		padding: 0;
+		}
+	
+#newslist li	{
+		margin: 0;
+		padding: 0 0 10px 0;
+		}
+		
+#newslist li.last
+		{
+		padding-bottom: 0;
+		}
+	
+#newslist img.thumb
+		{
+		float: left;
+		margin-right: 10px;
+		padding: 0;
+		border: solid 1px #999999;
+		}
+	
+#newslist a	{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+		
+#newslist a:hover
+		{
+		text-decoration: none
+		}
+		
+#newslist p, span
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #000;
+		}
+
+#spotlight a.tE
+{
+font: 100% Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #003366;
+text-decoration: underline
+}
+
+#spotlight a.tE:hover
+{
+text-decoration: none
+}
+		
+#newslist a.tE	{
+		font-weight: bold;
+		}
+
+#spotlight ul.thumblist
+{font-size: 95%;
+list-style: none;
+margin-left: 1.1em;
+margin-right: 1.1em;
+margin-top: 1.1em;
+margin-bottom: 0;
+padding: 0;
+}
+
+#spotlight li.st
+{
+font-size: 95%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/thumb_vr2005.gif');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0; padding-left:85px; padding-right:0px; padding-top: 0px; padding-bottom: 10px
+}
+
+#spotlight li.nd
+{
+font-size: 95%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/thumb_helix.gif');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0; padding-left:85px; padding-right:0px; padding-top: 0px; padding-bottom: 10px
+}
+
+#spotlight li.rd
+{
+font-size: 95%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/thumb_monograph.gif');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0; padding-left:85px; padding-right:0px; padding-top: 0px; padding-bottom: 10px
+}
+		
+/********** RIGHT NAV include **********/
+
+#rightnav	{
+		width: 169px;
+		background-color: #fff;
+		border: none;
+		padding: 0;
+		margin:0;
+		}
+
+#topiconlist	{
+		font-size: 100%;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		}
+	
+#topiconlist li	{
+		font-size: 100%;
+		margin: 0;
+		padding:  2px 10px 0 10px;
+		}
+
+#topiconlist li.first
+		{
+		font-size: 100%;
+		margin: 0;
+		padding:  0 10px 0 10px;
+		}
+
+#topiconlist li.last
+		{
+		padding: 2px 10px 10px 10px;
+		}
+	
+#topiconlist img.icon
+		{
+		float: left;
+		margin-right: 8px;
+		margin-top: 3px; 
+		padding: 0;
+		}
+
+#topiclist  li a
+		{
+		display: block;
+		padding: 0.18em 0.5em 0.18em 0.75em;
+		background: #ffffe5;
+		text-decoration: underline;
+		}
+	
+#rightnavlist1	{
+		font-size: 100%;
+		padding-left: 0;
+		list-style: square url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif');
+		margin: .5em .5em 0 24px; /* bullet image is in left margin */
+		}
+	
+#rightnavlist1 li
+		{
+		font-size: 100%;
+  		margin-left: .4em;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: .5em; /* a little spacing between list items */
+		}
+		
+#rightnavlist1 a
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+		
+#rightnavlist1 a:hover
+		{
+		text-decoration: none
+		}
+		
+#rightnavlist1 a.tE 
+		{
+		font-weight: bold;
+		}	
+
+#rightnavlist1 li.last
+		{
+		padding-bottom: 5px;
+		}
+	
+#rightnavlist2  
+		{
+		font-size: 100%;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		}
+
+#rightnavlist2 li 
+		{
+		font-size: 100%;
+		padding-top: 5px;
+		padding-bottom: 10px;
+		margin: 0;
+		}
+
+#rightnavlist2 a
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+		
+#rightnavlist2 a:hover
+		{
+		text-decoration: none
+		}
+		
+#rightnavlist2 a.tE 
+		{
+		font-weight: bold;
+		}
+
+#rightnavlist3	{
+		font-size: 100%;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		}
+
+#rightnavlist3 li 
+		{
+		font-size: 100%;
+		padding-top: 5px;
+		margin-bottom: .5em; /* a little spacing between list items */
+		}
+
+#rightnavlist3 li.last
+		{
+		padding-bottom: 5px;
+		}
+
+#rightnavlist3 a
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+		
+#rightnavlist3 a:hover
+		{
+		text-decoration: none
+		}
+		
+#rightnavlist3 a.tE 
+		{
+		font-weight: bold;
+		}
+
+/*** NESTED LISTS FOR KEY RESOURCES ***/
+
+#rightnavlist5	{
+		font-size: 100%;
+		padding: 0;
+		list-style: none;
+		margin: .5em 0 0 12px;
+		}
+	
+#rightnavlist5 li
+		{
+		font: 98% Arial, Helvetica, sans-serif;
+		font-weight: bold;
+  		margin-left: 0;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: .5em; /* a little spacing between list items */
+  		color: #003366;
+		}
+
+#rightnavlist5 li.last
+		{
+		padding-bottom: 5px;
+		}
+
+#rightnavlist5 a
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+#rightnavlist5 a.normal
+		{
+		font-weight: normal;
+		}
+	
+#rightnavlist5 a:hover
+		{
+		text-decoration: none
+		}
+	
+#rightnavlist4  
+		{
+		font-size: 100%;
+		font-weight: normal;
+		list-style: square url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif');
+		padding-left: 0;
+		margin: .5em .5em 0 24px; /* bullet image is in left margin */
+		}
+
+#rightnavlist4 li 
+		{
+		font-size: 100%;
+		font-weight: normal;
+		margin-left: .4em;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: .5em; /* a little spacing between list items */
+		}
+
+#rightnavlist4 a
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+	
+#rightnavlist4 a:hover
+		{
+		text-decoration: none
+		}
+
+.rightnavheading
+		{
+		margin: 0;
+		padding: 0;
+		}
+		
+.hr_1	{
+		background: #fff url('https://www.cdc.gov/nceh/ciguatera/images/div_hrz_blackdot3.gif') no-repeat top;
+		margin: 0;
+		padding: 0;
+		height: 5px;
+	    width: 160px;
+		}
+		
+.hr_2	{
+		background: #fff url('https://www.cdc.gov/nceh/ciguatera/images/div_hrz_blackdot3.gif') no-repeat center center;
+		margin-top: 0; /* changed from -8 pixel */
+		margin-bottom: 5px;
+		height: 15px;
+	    width: 160px;
+	 
+		}
+		
+.hr_3	{
+		background: #fff url('https://www.cdc.gov/nceh/ciguatera/images/div_hrz_blackdot3.gif') no-repeat center center;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		height: 15px;
+	    width: 160px;
+		}
+.hr_4	{
+		background: #fff url('https://www.cdc.gov/nceh/ciguatera/images/div_hrz_blackdot3.gif') no-repeat center center;
+		margin-top: -5px;
+		margin-bottom: 5px;
+		height: 15px;
+	    width: 160px;
+		}
+		
+.hr_5	{
+		background: #fff url('https://www.cdc.gov/nceh/ciguatera/images/div_hrz_blackdot3.gif') no-repeat center center;
+		margin-top: -5px;
+		margin-bottom: 0px;
+		height: 15px;
+	    width: 160px;
+		}
+
+	
+/********** WEB SITE TOOLS include **********/
+
+#toolsbox {width: 169px; background-color: #ffffff; border: solid 1px #e5e5e5; padding: 0; margin: 0;}
+#toolsbox h2 {font-size: 120%; color: #003366; font-weight: bold; background-color: #CCCCCC; padding: 2px 0 2px 0; text-align: center; margin: 0;}
+
+#toolsbox ul
+{font-size: 95%;
+list-style: none;
+margin-left: .6em;
+margin-right: .6em;
+padding: 0;
+}
+
+#toolsbox li.pdf
+{
+font-size: 95%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/small_pdf.gif');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0; padding-left: 25px; padding-right: 0px; padding-top: 0px; padding-bottom: 5px;
+}
+
+#toolsbox li.ppt
+{
+font-size: 95%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/small_ppt.gif');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0; padding-left: 25px; padding-right: 0px; padding-top: 0px; padding-bottom: 5px;
+}
+
+#toolsbox li.doc
+{
+font-size: 95%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/small_word.gif');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0; padding-left: 25px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;
+}
+
+#toolsbox .exlnknote
+		{
+		color: #FF0000;
+		}
+		
+
+/********** BREADCRUMBS **********/
+
+#content .breadcrumbs
+		{
+		font-size: 95%;
+		margin: -0.4em 0 .2em 0;
+		padding: 0;	
+		}
+
+#content .breadcrumbs ol
+		{
+		padding:0;
+		margin:0;
+		}
+
+#content .breadcrumbs li
+		{
+		display:inline;
+		color:#000;
+		}
+		
+#content .breadcrumbs a
+		{
+		color: #000;
+		}
+		
+		
+/********** MAIN CONTENT **********/
+		
+#content p, span, ul, li
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #000;
+		}
+
+#content p.update
+		{
+		font-weight: bold;
+		color: #ff0000;
+		text-align: right;
+		}
+
+#content p.first
+		{
+		margin-top: 15px;
+		padding-top: 0;
+		text-align: left;
+		}
+	
+#content a	{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+		
+#content a:hover
+		{
+		text-decoration: none
+		}
+		
+#content a.tE	{
+		font-weight: bold;	
+		}
+
+#content .banner
+		{
+		margin-bottom: 10px;
+		padding: 0;
+		text-align: left;
+		}
+		
+#content .banner img
+		{
+		border-bottom: 2px solid #fee57f;
+		margin-bottom: 0px;
+		padding: 0;
+		}
+		
+#cnt_wrap ul#contentlist ul.list
+		{
+		font-size: 100%;
+		padding-left: 0;
+		list-style: square url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif');
+		margin: 0 0 0 40px; /* bullet image is in left margin */
+		}
+
+#cnt_wrap ul#contentlist ul.list li
+		{
+		font-size: 100%;
+  		margin-left: 0;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: 0; /* a little spacing between list items */
+		}
+		
+#cnt_wrap ul#contentlist
+		{
+		font-size: 100%;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		}
+
+#cnt_wrap ul#contentlist li 
+		{
+		font-size: 100%;
+		padding-top: 5px;
+		margin-bottom: .5em; /* a little spacing between list items */
+		}
+
+#cnt_wrap ul#contentlist li.last
+		{
+		padding-bottom: 5px;
+		}
+	
+#cnt_wrap ul#contentlist li a.tE
+		{
+		font-size: 100%;
+		}
+
+#cnt_wrap ul#contentlist2
+		{
+		font-size: 100%;
+		padding-left: 0;
+		list-style: square url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif');
+		margin: 0 0 0 40px; /* bullet image is in left margin */
+		}
+
+#cnt_wrap ul#contentlist2 li 
+		{
+		font-size: 100%;
+		margin-left: 0;
+		padding-bottom: 10px;
+		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: 0; /* a little spacing between list items */
+		}
+
+#cnt_wrap ul#contentlist2 li. last
+		{
+		padding-bottom: 0;
+		}
+
+.spacer2	{
+		background-image: url('https://www.cdc.gov/nceh/ciguatera/images/s.gif'); /* forward slash for the path */
+		width: 1px; /* use you own image size; */
+		height: 5px; /* use you own image size; */
+		background-repeat: no-repeat;
+		background-position: left top;
+		text-align: center;
+		vertical-align: top
+		}
+
+.hr		{
+		background: #fff url('https://www.cdc.gov/nceh/ciguatera/images/div_hrz_blackdot3.gif') no-repeat center center;
+		margin-left: 5px;
+		margin-top: 5px;
+		height: 15px;
+	    width: 353px
+		}
+
+#cnt_wrap	{
+		width: 365px;
+		background-color: #fff;
+		border: none;
+		padding: 0;
+		margin: 0;
+		font: 12px Arial, Helvetica, sans-serif;
+		}
+
+#cnt_wrap h2	{
+		font-size: 120%;
+		color: #fff;
+		font-weight: bold;
+		background-color: #006633;
+		margin: 0;
+		padding: 3px 0 2px 10px;
+		}
+
+#cnt_wrap h3	{
+		font-size: 115%;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		margin: 0;
+		padding: 0;
+		}
+
+#cnt_wrap h4	{
+		font-size: 110%;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		margin: 0;
+		padding: 0;
+		}
+
+#cnt_wrap h4 img
+		{
+		border:none;
+		padding-right:.5em;
+		}
+
+#cnt_wrap h5	{
+		font-size: 100%;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		margin-bottom: -10px;
+		padding-top: 0px;
+		}
+
+#cnt_wrap .pdf_dwnld
+		{
+		padding: 0;
+		margin: 5px 0 5px 0;
+		color: #FF0000;
+		font-size: 95%;
+		text-align: right;
+		}
+
+#cnt_wrap .pdf_dwnld a
+		{
+		text-decoration: underline;
+		color: #FF0000;
+		font-size: 95%;
+		}
+
+#cnt_wrap .pdf_dwnld2
+		{
+		padding: 0;
+		margin: -.8em 0 0 .2em;
+		color: #FF0000;
+		font-size: 95%;
+		text-align: left;
+		}
+
+#cnt_wrap .pdf_dwnld2 a
+		{
+		text-decoration: underline;
+		color: #FF0000;
+		font-size: 95%;
+		}
+
+#cnt_wrap .pdf_dwnld3
+		{
+		padding: 0;
+		margin: .2em 0 0 .2em;
+		color: #FF0000;
+		font-size: 95%;
+		text-align: left;
+		}
+
+#cnt_wrap .pdf_dwnld3 a
+		{
+		text-decoration: underline;
+		color: #FF0000;
+		font-size: 95%;
+		}
+	
+#cnt_wrap .usmap
+		{
+		margin: 0;
+		padding: 10px 0 0 0;
+		text-align: center;
+		}
+
+#cnt_wrap .usmap a
+		{
+		font-size: 95%;
+		text-decoration: underline;
+		display: block;
+		text-align: right;
+		margin-bottom: 5px;
+		}
+
+#cnt_wrap ul	{
+		list-style: square;
+		}
+
+#cnt_wrap ul.none
+		{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		}
+
+#cnt_wrap img.float
+		{
+		float:right;
+		margin: 0 0 5px 7px;
+		padding: 0;
+		}
+
+#cnt_wrap img.float2
+		{
+		float:right;
+		margin: 0 0 5px 5px;
+		padding: 0;
+		border: solid 1px #999999;
+		}
+
+#cnt_wrap .float
+		{
+		margin: 0;
+		padding: 0;
+		}
+
+#cnt_wrap .float img
+		{
+		float:right;
+		margin: 0 0 15px 7px;
+		padding: 0;
+		}
+		
+.top		{
+		font-size: 95%; 
+               	text-align: right;
+               	}
+               	
+
+.top a		{
+		text-decoration: underline;
+		}
+
+.note		{
+		color: #FF0000;
+		font-size: 95%;
+		}
+
+p.indent
+		{
+		margin-left: 20px;
+		text-align: left;
+		}
+
+p.right
+		{
+		text-align: right;
+		}
+
+#box		{
+		margin: 0 0 15px 0;
+		padding: 0 8px 8px 8px;
+		border: dashed 1px #ded59c;
+		background-color: #F7F5E8;
+		}
+
+#box h5		{
+		font-size: 100%;
+		color: #CBBD62;
+		font-weight: bold;
+		background-color: #F7F5E8;
+		margin-bottom: -10px;
+		padding-top: 0;
+		}
+
+/**** STATES,CITIES,CC LIST ****/
+
+#statelist	{
+		margin: 0;
+		padding: 1em 0 1em 0;
+		background-color: #fff;
+		}
+
+#statelist ul 	{
+		margin: 0; 
+		padding: 0; 
+		font-size: 1em; 
+		list-style: none;
+		}
+
+#statelist li	{
+		line-height: 1.24em; /* depends on number of items on the list on each column */
+		padding: 0; 
+		background-image: url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif'); 
+		background-position: 0 50%; 
+		background-repeat: no-repeat; 
+		list-style-type:none; margin-left:.5em; margin-right:0; margin-top:0; margin-bottom:0;
+		}
+
+#statelist .stcol
+		{
+		margin-left: 1em;
+		}
+ 
+#statelist .ndcol
+		{
+		margin-left: 11em;
+		}
+ 
+#statelist .rdcol
+		{
+		margin-left: 21em;
+		}
+
+#statelist .coltopper1
+		{
+		margin-top: -8.7em;
+		} /* line-height times number of items on the list on each column */
+		
+#statelist .coltopper2
+		{
+		margin-top: -8.7em;
+		} /* line-height times number of items on the list on each column */
+
+#statelist a	{
+		display: block; 
+		position: relative; 
+		width: 7.8em; 
+		text-decoration: underline; 
+		padding-left: 1em;
+		}
+
+#statelist a:hover
+		{
+		text-decoration: none; 
+		}
+
+.cclist		{
+		margin: 0;
+		padding: 1em 0 1em 0;
+		background-color: #fff;
+		}
+
+.cclist ul	{
+		margin: 0; 
+		padding: 0; 
+		font-size: 1em; 
+		list-style: none;
+		}
+
+.cclist li	{
+		line-height: 1.24em; 
+		padding-left: 1em; 
+		background-image: url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif'); 
+		background-position: 0 50%; 
+		background-repeat: no-repeat; 
+		list-style-type:none; margin-left:1em; margin-right:0; margin-top:0; margin-bottom:0;
+		}
+
+
+/**** TABULAR DATA ****/
+
+		
+#cnt_wrap table {
+		margin: 0;
+		border: none;
+		border-collapse: collapse;
+		background-color: transparent;
+		}
+
+
+#cnt_wrap caption {
+		padding: 8px 0 8px 0;
+		}
+
+
+#cnt_wrap th	{
+		border: solid 1px #ded59c;
+		border-collapse: collapse;
+		background-color: #E9E5C3;
+		color: #716F64;
+		text-align: left;
+		vertical-align: top;
+		padding: 6px 12px 6px 12px;
+		}
+
+#cnt_wrap th.even
+		{
+		background: #fff;
+		}
+
+#cnt_wrap tr.odd th
+		{
+		background: #F7F5E8;
+		}
+
+#cnt_wrap tr.odd td
+		{
+      		background-color: #F7F5E8;
+		}
+		
+#cnt_wrap td	{
+		border: solid 1px #ded59c;
+		border-collapse: collapse;
+		background-color: #fff;
+		text-align: left;
+		vertical-align: top;
+		padding: 3px 12px 3px 12px;
+		font-size: 95%;
+		}
+
+#tblwrap	{
+		background-color: #fff;
+		border: none;
+		padding: 10px;
+		margin: 0;
+		font: 12px Arial, Helvetica, sans-serif;
+		text-align: center;
+		}
+
+#tblwrap table {
+		margin: 0;
+		border: none;
+		border-collapse: collapse;
+		background-color: transparent;
+		}
+
+
+#tblwrap caption {
+		padding: 8px 0 8px 0;
+		}
+
+
+#tblwrap th	{
+		border: solid 1px #ded59c;
+		border-collapse: collapse;
+		background-color: #E9E5C3;
+		color: #716F64;
+		text-align: left;
+		vertical-align: top;
+		padding: 6px 12px 6px 12px;
+		}
+
+#tblwrap th.even
+		{
+		background: #fff;
+		}
+
+#tblwrap tr.odd th
+		{
+		background: #F7F5E8;
+		}
+
+#tblwrap tr.odd td
+		{
+      		background-color: #F7F5E8;
+		}
+		
+#tblwrap td	{
+		border: solid 1px #ded59c;
+		border-collapse: collapse;
+		background-color: #fff;
+		text-align: left;
+		vertical-align: top;
+		padding: 3px 12px 3px 12px;
+		font-size: 95%;
+		}
+
+#tblwrap .close
+		{
+		text-align: right;
+		}
+
+
+/**** GRANTEE TABLE ****/
+
+#cnt_wrap table.grantee
+		{
+		width: 100%;
+		background-color: #fff;
+		padding: 0;
+		font: 12px Arial, Helvetica, sans-serif;
+		margin: 0;
+		border: none;
+		border-collapse: collapse;
+		background-color: transparent;
+		}
+
+#cnt_wrap table.grantee td
+		{
+		background-color: #fff;
+		border: none;
+		border-collapse: collapse;
+		margin: 0;
+		padding: 0 0 10px 0;
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #000;
+		width: 67%;
+		vertical-align: top;
+		}
+
+#cnt_wrap table.grantee td.last
+		{
+		margin: 0;
+		padding: 0;
+		}
+		
+#cnt_wrap table.grantee th
+		{
+		background-color: #fff;
+		border: none;
+		border-collapse: collapse;
+		margin: 0;
+		padding: 0 0 10px 0;
+		font: bold 100% Arial, Helvetica, sans-serif;
+		color: #000;
+		width: 33%;
+		vertical-align: top;
+		}
+
+#cnt_wrap table.grantee th.last
+		{
+		margin: 0;
+		padding: 0;
+		}
+
+
+/**** AGENDA TABULAR DATA ****/
+
+		
+#cnt_wrap table.agenda
+		{
+		margin: 0;
+		border: none;
+		border-collapse: collapse;
+		background-color: transparent;
+		}
+
+#cnt_wrap table.agenda th
+		{
+		border: none;
+		background-color: #E9E5C3;
+		color: #716F64;
+		text-align: left;
+		vertical-align: top;
+		padding: 6px 12px 6px 12px;
+		
+		}
+
+		
+#cnt_wrap table.agenda td
+		{
+		border-top: solid 1px #fff;
+		border-bottom: solid 1px #fff;
+		border-left: none;
+		border-right: none;
+		background-color: #F7F5E8;
+		text-align: left;
+		vertical-align: top;
+		padding: 3px 12px 3px 12px;
+		font-size: 100%;
+		}
+
+#cnt_wrap table.agenda td.colright
+		{
+		width: 64%;
+		}
+
+#cnt_wrap table.agenda td.textbold
+		{
+		font-weight: bold;
+		width: 33%;
+		}
+
+		
+/**** LARGE MAP ****/
+
+#map_wrap	{
+		background-color: #fff;
+		border: none;
+		padding: 10px;
+		margin: 0;
+		font: 12px Arial, Helvetica, sans-serif;
+		}
+
+#map_wrap .usmap
+		{
+		margin: 0;
+		padding-bottom: 10px;
+		}
+		
+#map_wrap .close
+		{
+		text-align: right;
+		}
+
+#map_wrap .legendbox
+		{
+		border: solid 1px #e5e5e5;
+		padding: 0;
+		margin: 0;
+		}
+
+#map_wrap ul#legend
+		{	
+		list-style: none;
+		margin: 0.6em;
+		padding: 0;
+		}
+		
+#legend li	{
+		margin: 0;
+		padding: 0 0 6px 0;
+		font-weight: bold;
+		}
+		
+#legend li.last
+		{
+		padding-bottom: 0px;
+		}
+	
+#legend img.lgnd
+		{
+		float: left;
+		margin-right: 4px;
+		margin-bottom: 0;
+		padding: 0;
+		}
+
+				
+/**** LEGENDS ****/
+
+#cnt_wrap .legendbox
+		{
+		background-color: #fff;
+		border: solid 1px #e5e5e5;
+		padding: 0;
+		margin: 0;
+		}
+
+#cnt_wrap ul#lgndlist
+		{
+		font-size: 95%;
+		list-style: none;
+		margin: 0.6em;
+		padding: 0;
+		}
+		
+#lgndlist li	{
+		margin: 0;
+		padding: 0 0 6px 0;
+		font-weight: bold;
+		}
+		
+#lgndlist li.last
+		{
+		padding-bottom: 0px;
+		}
+	
+#lgndlist img.lgnd
+		{
+		float: left;
+		margin-right: 4px;
+		margin-bottom: 6px;
+		padding: 0;
+		}
+
+
+/**** THEME LEGENDS ****/
+
+#cnt_wrap #themebox
+		{
+		background-color: #fff;
+		border: solid 1px #e5e5e5;
+		padding: 0.6em;
+		margin: 0;
+		}
+
+#cnt_wrap #themebox ul	{
+		font-size: 95%;
+		list-style: none;
+		margin: 0;
+		padding: 8px 0 0 0;
+		}
+
+#cnt_wrap #themebox li	{
+		margin: 0;
+		padding: 0 0 5px 0;
+		}
+
+#cnt_wrap #themebox img.lgnd
+		{
+		float: left;
+		margin: 0;
+		padding-right: 8px;
+		padding-bottom: 5px;
+		}
+
+
+/**** THEME BOX ****/
+
+#cnt_wrap .theme1
+		{
+		border: 1px solid #006666;
+		padding: 5px;
+		margin:0;
+		}
+
+#cnt_wrap .theme2
+		{
+		border: 1px solid #999999;
+		padding: 5px;
+		margin:0;
+		}
+
+#cnt_wrap .theme3
+		{
+		border: 1px solid #660066;
+		padding: 5px;
+		margin:0;
+		}
+
+#cnt_wrap .theme4
+		{
+		border: 1px solid #33cc00;
+		padding: 5px;
+		margin:0;
+		}
+
+#cnt_wrap .theme5
+		{
+		border: 1px solid #003399;
+		padding: 5px;
+		margin:0;
+		}
+
+#cnt_wrap .themehdr1
+		{
+		background: #006666;
+		border: 1px solid #006666;
+		color: #fff;
+		font-style: italic;
+		font-weight: bold;
+		padding: 5px;
+		margin: 0;
+		}
+
+#cnt_wrap .themehdr2
+		{
+		background: #999999;
+		border: 1px solid #999999;
+		color: #fff;
+		font-style: italic;
+		font-weight: bold;
+		padding: 5px;
+		margin: 0;
+		}
+
+#cnt_wrap .themehdr3
+		{
+		background: #660066;
+		border: 1px solid #660066;
+		color: #fff;
+		font-style: italic;
+		font-weight: bold;
+		padding: 5px;
+		margin: 0;
+		}
+
+#cnt_wrap .themehdr4
+		{
+		background: #33cc00;
+		border: 1px solid #33cc00;
+		color: #fff;
+		font-style: italic;
+		font-weight: bold;
+		padding: 5px;
+		margin: 0;
+		}
+
+#cnt_wrap .themehdr5
+		{
+		background: #003399;
+		border: 1px solid #003399;
+		color: #fff;
+		font-style: italic;
+		font-weight: bold;
+		padding: 5px;
+		margin: 0;
+		}
+
+/**** DEFINITION LIST ****/
+
+#cnt_wrap dl
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #000;
+		margin: 0;
+		padding: 0;
+		}
+
+#cnt_wrap dt
+		{
+		font-weight: bold;
+		margin: 0;
+		padding: 0;
+		}
+		
+#cnt_wrap dd
+		{
+		margin: 1em 0 1em 2em;
+		padding: 0;
+		}
+
+
+/**** TOP NAV ****/
+
+#cnttopnav	{
+		width: 365px;
+		background-color: #fff;
+		border: none;
+		padding: 0;
+		margin: 0;
+		font: 12px Arial, Helvetica, sans-serif;
+		}
+		
+#cnttopnav h2	{
+		font-size: 120%;
+		color: #fff;
+		font-weight: bold;
+		background-color: #006633;
+		margin: 0;
+		padding: 3px 0 2px 10px;
+		}
+
+#cnttopnav h3	{
+		font-size: 115%;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		margin: 0;
+		padding: 0;
+		}
+
+#cnttopnav .h3sm
+		{
+		font-weight: bold;
+		font-size: 90%;
+		color: #000;
+		}
+
+#cnttopnavlist	{
+		font-size: 100%;
+		padding-left: 0;
+		list-style: square url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif');
+		margin: .5em .5em 0 25px; /* bullet image is in left margin */
+		}
+		
+#cnttopnavlist li
+		{
+		font-size: 100%;
+  		margin-left: 0;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: .3em; /* a little spacing between list items */
+		}
+
+#cnttopnavlist a
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+		
+#cnttopnavlist a:hover
+		{
+		text-decoration: none
+		}
+		
+#cnttopnav img.thumb
+		{
+		float:right;
+		margin-top: 6px;
+		margin-left: 4px;
+		padding: 0;
+		border: solid 1px #999999;
+		}
+
+#cnttopnav .pdf_dwnld
+		{
+		padding: 0;
+		margin: 5px 0 5px 0;
+		color: #FF0000;
+		font-size: 95%;
+		text-align: right;
+		}
+
+#cnttopnav .pdf_dwnld a
+		{
+		text-decoration: underline;
+		color: #FF0000;
+		font-size: 95%;
+		}		
+		
+/********** ACCESSIBILITY **********/
+
+hr		{
+		display: none;
+		}
+
+#skipnav	{
+		position: absolute;
+		font-size: 0;
+   		left: -1000px;
+		}
+
+.script		{
+		display: none;
+		}	
+
+
+/********** COMMUNICATION LIBRARY **********/
+
+
+/**** 3 COLUMN LISTS ****/
+
+#collist
+		{
+		width: 365px;
+		height: 70px;
+		margin: 0;
+		padding: 0;
+		}		
+		
+.col1	{
+		float: left;
+		width: 135px;
+		background-color: #fff;
+		padding: 0;
+		margin: 0;
+		font: 12px Arial, Helvetica, sans-serif;
+		}
+
+.col1 h4
+		{
+		font-size: 110%;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		margin: 0;
+		padding: 0;
+		}
+
+.col1 ul
+		{
+		font-size: 100%;
+		padding-left: 0;
+		list-style:square url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif');
+		margin: .5em .5em 0 22px; /* bullet image is in left margin */
+		}
+ 
+.col1 li
+		{
+		font-size: 100%;
+  		margin-left: 0;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: 0.2em; /* a little spacing between list items */
+		}
+
+.col1 a	{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+.col1 a:hover
+		{
+		text-decoration: none
+		}
+
+.col2	{
+		float: left;
+		width: 139px;
+		background-color: #fff;
+		padding: 0;
+		margin: 0;
+		font: 12px Arial, Helvetica, sans-serif;
+		}
+
+.col2 h4
+		{
+		font-size: 110%;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		margin: 0;
+		padding: 0;
+		}
+
+.col2 ul
+		{
+  		font-size: 100%;
+		padding-left: 0;
+		list-style:square url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif');
+		margin: .5em .5em 0 22px; /* bullet image is in left margin */
+		}
+ 
+.col2 li
+		{
+  		font-size: 100%;
+  		margin-left: 0;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: 0.2em; /* a little spacing between list items */
+		}
+
+.col2 a	{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+.col2 a:hover
+		{
+		text-decoration: none
+		}
+
+.col3	{
+		float: left;
+		width: 90px;
+		background-color: #fff;
+		padding: 0;
+		margin: 0;
+		font: 12px Arial, Helvetica, sans-serif;
+		}
+
+.col3 h4
+		{
+		font-size: 110%;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		margin: 0;
+		padding: 0;
+		}
+
+.col3 ul
+		{
+		font-size: 100%;
+		padding-left: 0;
+		list-style:square url('https://www.cdc.gov/nceh/ciguatera/images/blt.gif');
+		margin: .5em .5em 0 22px; /* bullet image is in left margin */
+		}
+ 
+.col3 li
+		{
+  		font-size: 100%;
+  		margin-left: 0;
+  		padding-left: 0;     /* distance between marker and text */
+  		margin-bottom: 0.2em; /* a little spacing between list items */
+		}
+
+.col3 a	
+		{
+		font: 100% Arial, Helvetica, sans-serif;
+		color: #003366;
+		text-decoration: underline;
+		}
+
+.col3 a:hover
+		{
+		text-decoration: none
+		}
+
+
+/**** FORM LAYOUT ****/
+
+#formwrap {
+		background-color: #F7F5E8;
+		border: 1px solid #ded59c;
+		padding: 5px;
+		margin: 0px auto;
+		width: 97%;
+		}
+
+#formwrap .row {
+  padding: 10px 0 10px 0;
+  }
+
+#formwrap .submit {
+  text-align: center;
+  }
+  		
+#formwrap span.formhd, .formhd
+		{
+ 		font-size: 110%;
+		color: #000;
+		font-weight: bold;
+		background-color: #F7F5E8;
+  }
+
+
+/**** TABULAR DATA SEARCH RESULTS ****/
+
+#cnt_wrap table#results {
+		margin: 0;
+		border: solid 1px #ded59c;
+		border-collapse: collapse;
+		background-color: transparent;
+		}
+
+
+#cnt_wrap #results caption {
+		padding: 8px 0 8px 0;
+		font-size: 110%;
+		}
+
+
+#cnt_wrap #results th	{
+		border: none;
+		background-color: #E9E5C3;
+		color: #716F64;
+		text-align: left;
+		vertical-align: top;
+		padding: 5px;
+		font-size: 100%;
+		}
+
+#cnt_wrap #results th a {
+		text-decoration: underline;
+		color: #716F64;
+		font-weight: bold;
+		}
+
+#cnt_wrap #results th a:hover {
+		text-decoration: none;
+		color: #716F64;
+		font-weight: bold;
+		}
+
+#cnt_wrap #results tr.odd td
+		{
+      		background-color: #F7F5E8;
+		}
+		
+#cnt_wrap #results td	{
+		border: solid 1px #ded59c;
+		border-collapse: collapse;
+		background-color: #fff;
+		text-align: left;
+		vertical-align: top;
+		padding: 5px;
+		font-size: 100%;
+		}
+		
+#cnt_wrap #results td a {
+		text-decoration: underline;
+		color: #000;
+		font-weight: normal;
+		}
+
+#cnt_wrap #results td a:hover {
+		text-decoration: none;
+		color: #716F64;
+		font-weight: normal;
+		}
+
+#cnt_wrap #results td.center
+{
+text-align: center;
+}
+
+
+#cnt_wrap #results td img
+{
+width: 16px;
+height: 16px;
+}
+
+#cnt_wrap .tblpage
+{font-weight: bold;}
+
+#cnt_wrap .tblpage a {
+		text-decoration: underline;
+		color: #000;
+		font-weight: normal;
+		}
+
+#cnt_wrap .tblpage a:hover {
+		text-decoration: none;
+		color: #000;
+		font-weight: normal;
+		}
+
+
+/**** RESOURCE SUMMARY TABLE ****/
+
+#tblwrap2
+		{
+		background-color: #fff;
+		border: none;
+		padding: 10px;
+		margin: 0;
+		text-align: center;
+		}
+
+#tblwrap2 table {
+		width: 100%;
+		margin: 0;
+		border: solid 1px #ded59c;
+		border-collapse: collapse;
+		background-color: #F7F5E8;
+		padding: 0;
+		}
+		
+#tblwrap2 td	{
+		border: none;
+		background-color: #F7F5E8;
+		text-align: left;
+		vertical-align: top;
+		padding: 20px 20px 0 20px;
+		font-size: 120%;
+		}
+
+#tblwrap2 td a {
+		text-decoration: underline;
+		color: #000;
+		font-weight: normal;
+		}
+
+#tblwrap2 td a:hover {
+		text-decoration: none;
+		color: #716F64;
+		font-weight: normal;
+		}
+
+#tblwrap2 td.last
+		{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		}
+
+
+#tblwrap2 .close
+		{
+		padding-top: 2em;
+		text-align: right;
+		font-size: 100%;
+		}
+			
+#tblwrap2 h3
+		{
+		font-size: 125%;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		}
+		
+
+/**** RESOURCE TYPE LIST ****/
+
+#cnt_wrap ul.rsrclist
+		{
+		font-size: 100%;
+		padding: 0;
+		list-style: none;
+		margin-top: 0.8em;
+		margin-left: 1.8em;
+		}
+				
+#cnt_wrap li.type1
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_brochures.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left: 25px; padding-right: 0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type2
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_cdrom.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type3
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_facts.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type4
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_mou.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type5
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_news.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type6
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_photos.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type7
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_presentations.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type8
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_press.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type9
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_qanda.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type10
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_wsites.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
+
+#cnt_wrap li.type11
+{
+font-size: 100%;
+background-image: url('https://www.cdc.gov/nceh/ciguatera/images/ico_others.jpg');
+background-repeat: no-repeat;
+background-position: 0 .4em;
+margin: 0;
+padding-left:25px; padding-right:0px; padding-top: 0px; padding-bottom: 1px;
+}
