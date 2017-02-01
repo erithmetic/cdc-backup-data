@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+@import url("https://www.cdc.gov/TemplatePackage/css/B/theme-rose.css");
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+/* MODULE FLOAT  */
+
+/* Rounders boxes right aligned  */
+.RoundersBox25 {
+	float:right;
+	width:25%;
+	padding-left:5px;
+}
+
+.RoundersBox30 {
+	float:right;
+	width:30%;
+	padding-left:5px;
+}
+
+.RoundersBox35 {
+	float:right;
+	width:35%;
+	padding-left:5px;
+}
+
+
+/* ALIGNMENT, MARGINS, AND PADDING FOR TEXT, IMAGES, AND COLUMNS  */
+
+/* Center text or image  */
+.txtCenter {
+	text-align:center;
+}
+
+/* H3 indent for bullets with paragraph text  */
+.h3bullet_indent {
+	margin-left:43px;
+}
+
+/* 3 Column - middle column spacing  */
+.middleColumn {
+	width:30%;
+	float:right;
+	margin-right:10px;
+}
+
+/* padding left */
+
+.padding-left5px {
+	padding-left:5px;
+}
+
+.padding-left25px {
+	padding-left:25px;
+}
+
+
+/*  padding bottom   */
+
+.padding-bottom44px {
+	padding-bottom:44px;
+}
+.padding-bottom40px {
+	padding-bottom:40px;
+}
+.padding-bottom35px {
+	padding-bottom:35px;
+}
+.padding-bottom30px {
+	padding-bottom:30px;
+}
+.padding-bottom25px {
+	padding-bottom:25px;
+}
+.padding-bottom22px {
+	padding-bottom:22px;
+}
+.padding-bottom20px {
+	padding-bottom:20px;
+}
+
+/*     TABLES     */
+
+.align-top {
+	vertical-align:top;
+}
+.table_bg_lt_green {
+	background-color:#C5E3AE;
+}
+.tbl_bg {
+	background:#e7babd;
+}
+.tbl_bg_dk {
+	background:#c7898d;
+}
+.tbl_bg_lght {
+	background:#f3e2e2;
+}

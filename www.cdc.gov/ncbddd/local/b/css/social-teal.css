@@ -1,0 +1,140 @@
+
+/*======= Social Media Module styles =======*/
+.mod.socialMedia { 
+	background: transparent;
+	/*border: 1px solid #ddd;*/
+	padding: 0; 
+}
+
+#socialMediaFeeds { 
+	/*background-color: #ebf2f9;*/
+	margin: 0 auto;
+	border: 3px solid #fff;
+	padding: 0; 
+}
+
+#socialMediaFeeds:after {
+    clear: left;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+#socialMediaFeeds div:last-child {
+	margin-bottom: 0px !important;
+}
+
+#socialMediaFeeds #tweet, 
+#socialMediaFeeds #facebook {
+	/*background-color: #ebf2f9;*/
+	display: inline-block;
+	float: none;
+	margin: 0 auto 2em;
+	width: 94%;
+}
+
+#tweet h4 { 
+	background: transparent url(https://www.cdc.gov/homepage/images/icons/icon_lg-twitter.png) 0 0 no-repeat; 
+}
+
+#facebook h4 { 
+	background: transparent url(https://www.cdc.gov/homepage/images/icons/icon_lg-facebook.png) -12px 0 no-repeat; 
+}
+
+#tweet h4 a, 
+#facebook h4 a { 
+	color: #000;
+	display: block; 
+	font-size: 1.2em;
+	padding-left: 12.5%;
+	text-decoration: none;
+}
+
+#tweet h4 a {
+	padding-left: 35px;/* padding-left:17.5%;*/
+}
+
+#socialMediaFeeds #tweet .socl-loader-graphic, 
+#socialMediaFeeds #facebook .socl-loader-graphic { 
+	background: url(https://www.cdc.gov/homepage/images/social_media_loader.gif) 50% 50% no-repeat;
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin: 5px auto; 
+}
+
+#socialMediaFeeds #tweet .socl-user, 
+#socialMediaFeeds #facebook .socl-user { 
+	background-color: #deeee9; /*replaced #d1e2f0 */ 
+}
+
+#socialMediaFeeds h4 { 
+	font-family: Arial, Helvetica, sans-serif;/* font-size:1.8em;*/ 
+	font-weight: normal; 
+}
+
+#socialMediaFeeds div h4 { 
+	margin-bottom: 2px;
+	line-height: 30px; 
+}
+
+.socl-avatar {
+	float: left;
+	display: none;
+}
+
+.socl-user {
+	background-color: #e3edf6;
+	display: block;
+	line-height: 20px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	text-indent: 3px;
+}
+.socl-bd {
+	padding-bottom: 6px;
+}
+
+#socialMediaFeeds #tweet, 
+#socialMediaFeeds #facebook {
+    /*background-color: #EBF2F9;*/
+    display: inline-block;
+    float: none;
+    margin: 0 auto 0.5em;
+    width: 94%;
+    padding: 0 2%;
+}
+
+#tweet .socl-comment-text p, 
+#facebook .socl-comment-text p,
+#tweet .socl-comment-text a.failover,
+#facebook .socl-comment-text a.failover {
+	display: none;
+}
+
+p#item-fb div.feed-item,
+p#item-tweet div.feed-item {
+	border-bottom: dotted 1px gray;
+	padding-bottom: 6px;
+	margin-bottom: 3px;
+}
+
+p#item-fb div.feed-item.lastChild,
+p#item-tweet div.feed-item.lastChild {
+	border-bottom: none;
+}
+
+.cdc-socialMedia {border:none !important;}
+
+.cdc-socialMedia #socialMediaFeeds {background-color:#FFF !important; border:none !important}
+
+.cdc-socialMedia #socialMediaFeeds #tweet {background-color:#FFF !important; border:none !important}
+
+.cdc-socialMedia #socialMediaFeeds #facebook {background-color:#FFF !important; border:none !important}
+
+.cdc-socialMedia #socialMediaFeeds #tweet .socl-user {background-color: #deeee9 !important}
+
+.cdc-socialMedia #socialMediaFeeds #facebook .socl-user {background-color: #deeee9 !important}
+
+DIV.feed-item {border-bottom: gray 1px dotted; padding-bottom: 6px !important; margin-bottom: 3px}
