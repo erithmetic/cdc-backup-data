@@ -1,0 +1,17 @@
+a.linkformat:link, a.linkformat:visited {
+font-weight:bold;
+text-decoration:none;
+}
+
+a.linkformat:hover {
+text-decoration:underline !important;
+}
+
+img {
+widht:100%;
+}
+
+
+#wrapper [class*=module] > * {
+    padding: 0 15px 0 20px;
+}

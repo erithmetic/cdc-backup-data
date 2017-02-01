@@ -1,0 +1,17 @@
+.filter-select{
+width: auto;
+margin:5px;
+}
+
+.filter-label{
+margin-left: 10px;
+font-weight: 700;
+display: inline-block;
+magin-top:5px;
+line-height:18px;
+}
+
+#sorted-list{
+list-style-type: none;
+margin-top: 20px;
+}

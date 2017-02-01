@@ -1,0 +1,2437 @@
+/* COLOR THEME -- PURPLE */
+@import url("../../TemplatePackage/css/B/theme-purple.css");
+
+.style1 {
+    font-size: x-small;
+}
+
+.size {
+	color: #888888;
+	font-size: .9em;
+	font-weight: normal;
+}
+.size2 {
+	color: #333333;
+	font-size: .9em;
+	font-weight: normal;
+}
+.update {
+	color: #A00000;
+	font-weight: normal;
+}
+.newupdated {
+	color: #FF7F7F;
+	font-size: .9em;
+	font-weight: normal;
+}
+.appendix {
+	color: #000000;
+	font-size: .9em;
+	font-weight: normal;
+}
+#content-main .newupdated a:visited {
+	color: #7F8FD0;
+}
+a .newupdated {
+	text-decoration: none;
+}
+a:hover .newupdated {
+	text-decoration: none;
+}
+/*Makes the links in bullets to be on the same line as the sentence  */
+
+#content .module li a .ainline, #content .rounders li a .ainline {
+ display: inline;
+ margin-right: 6px;
+}
+.subtitle {
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+table caption {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+table {
+	margin-left: 0px;
+	width:100%;
+}
+table th {
+	font-size: .95em;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid black;
+}
+table td {
+	font-size: .95em;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid black;
+}
+
+table.trends p {text-align: center;}
+table.nfs p {text-align: right;}
+
+.tableoverride {
+	margin-left: auto;
+	width: auto;
+}
+.tableoverride th {
+	font-size: 1em;
+	padding: 2.5px;
+}
+.tableoverride td {
+	font-size: 1em;
+	padding: 2.5px;
+}
+.tablewidth_emailaddress {
+	width: 70%;
+}
+div.module ul li p {
+	margin-bottom: 0px;
+}
+div.nivw {border-bottom: 1px dotted; margin-bottom: 5px;}
+h4.nivw-state {background-color: #ccc; margin-top: 10px; margin-bottom: 10px;}
+
+
+body[class="widePage appsPage localSearch wcms"] #wrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    max-width: 1000px;
+    padding: 0;
+}
+
+*/
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* ooooooooosssooooooooooo HTML ELEMENTS           ooooossssssooooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+h1 span.subtitle {
+    color: #81799E;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.7em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 30px;
+}
+
+
+
+h2	{
+		margin-bottom:5px;
+                margin-top:20px;
+	}
+	
+
+
+h2.sec	{
+		margin-bottom:5px;
+                margin-top:20px;
+	}
+	
+	
+h3	{
+		margin-bottom:5px;
+		
+	}
+	
+	
+h4	{
+		margin-bottom:5px;
+	}
+h2.black	{
+		margin-bottom:5px;
+		color:#000000;
+	}
+	
+h5	{
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+
+ol.toc
+{
+		margin-bottom:14px;
+		
+	}
+
+p {
+	margin:0;
+	padding:0 0 1.5em 0;
+}
+
+/* Right nav sitemap icon*/
+ul.services li.gear a {
+		background:transparent url('https://www.cdc.gov/images/gear.gif') 0 center no-repeat;
+	}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* ooooooooosssooooooooooo SPECIFIC CLASSES          ooooossssssooooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.center {
+text-align:center;
+}
+.padding {
+padding:6px; 
+}
+
+.dirImagebox {
+				float:left;
+				width: 170px;
+				font-weight: bold;
+				font-size: .8em;
+				color: #5B6648;
+				text-align:center;
+				padding:6px;
+				margin:5px;
+			}
+			
+.dirImagebox2 {
+				float:left;
+				width: 285px;
+				font-weight: bold;
+				font-size: .8em;
+				color: #5B6648;
+				text-align:center;
+				padding:6px;
+			}
+			
+.accent {
+				font-weight: bold;
+				font-size: .8em;
+				color: #861F20;
+		}
+		
+.resourceBoxR {
+				margin-left: 10px;
+				margin-bottom: 10px;
+				width: 200px;
+				display: block;
+				float: right;
+				clear: right;
+			}
+
+
+.imageboxR {
+				margin-right: 10px;
+				margin-bottom: 10px;
+				display: block;
+				float: left;
+				clear: both;
+				position: relative;
+			}
+			
+.imageboxL {
+				margin-left: 10px;
+				margin-bottom: 10px;
+				display: block;
+				float: right;
+				clear: both;
+				position: relative;
+			}
+
+.midBlue {
+			font-weight: bold;
+			font-size: 1.2em;
+			color: #396A9B;
+		}
+		
+.purple {
+			font-weight: bold;
+			font-size: 1.2em;
+			color: #384D2E;
+		}
+		
+.purpleS {
+			font-weight: bold;
+			font-size: .9em;
+			color: #384D2E;
+		}
+		
+.questPurple {
+			font-weight: bold;
+			font-size: 1.0em;
+			color: #660066;
+		}
+		
+.bold {
+			font-weight: bold;
+			font-size: 1.0em;
+		}
+		
+.leadImagebox {
+            float:left; 
+            width:100%;
+            padding-bottom: 0em;
+            margin-top: 20px;
+            margin-right: 1em;
+            margin-left: 10px;
+            min-height: 10px; /* this is to force IE to cooperate */
+            height: 10px;
+		}
+
+.leadTextbox {
+           float:left;
+           width: 80%;  
+           line-height: 1.3em;
+           padding:1em;
+           margin-right:10px;
+           margin-left:111px;
+           margin-top: -2em;
+           min-height: auto; /* this is to force IE to cooperate */
+           height: auto;
+	     }
+
+
+
+.leadImageboxbig {
+            float:left; 
+            width:90%;
+            padding-bottom: 0em;
+            margin-top: 20px;
+            margin-right: 1em;
+            margin-left: 10px;
+            min-height: 0px; /* this is to force IE to cooperate */
+            height: 0px;
+			}
+			
+
+
+.leadTextboxbig {
+           float:left;
+           width: 72%;  
+           line-height: 1.3em;
+           padding:1em;
+           padding-left: 160px;
+           margin-top: -1em;
+	     }
+
+
+.quotes {
+				font-size: .9em;
+				color: #384D2E;
+		}
+		
+		
+.quotesT {
+				font-size: 1em;
+				font-weight: bold;
+				color: #425485;
+				float:right;
+		}
+		
+.boxStyle {	
+			float:left;
+			background-color:#EFEFEF;
+			width: 98%;
+			border: thin solid #cccccc;
+            margin-bottom: 1em;
+            margin-top: 1em;
+         }
+
+
+.boxing {	
+			float:left;
+			margin: 0.7em;
+			margin-bottom: 1em;
+}
+
+.two-columns {	
+			float:left;
+			margin: 5px;
+			width: 98%;
+}
+
+.column {	
+			float:left;
+			padding: 5px;
+			width: 48%;
+}
+
+
+.resource_block {
+					font-size:16px;
+					font-weight: bold;
+					color: #fff;
+					background-color:#0c5305;
+					margin-top:2px;
+					padding-top:2px;
+					width:620px;
+					height:24px;
+					max-height:24px;
+					text-align:center;
+				}
+				
+
+#tripleColumn {
+  border:0;
+}
+
+#tripleColumn #col {
+   width:30%;
+    float:left;
+  padding:0 5px;
+}
+
+#quadColumn {
+  border:0; 
+}
+
+#quadColumn #col {
+  width:23%;
+  float:left;
+  padding:0 5px; 
+}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* ooooooooosssooooooooooo DIV IDs			ooooossssssooooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+#colwrapper {
+					text-align: left;
+					margin: 0px auto;
+					padding: 0px;
+					border:0;
+					overflow:auto;
+					width: 620px;
+					height: 80px;
+			}
+.hpg {font-size:1.2em;
+font-weight:bold;
+margin-top: 5px;
+margin-bottom:7px;
+color:#000000;
+}
+
+.hpgpicbox {
+margin: 5px 90px 40px 90px;
+}
+.ocpicbox {
+margin: 5px 0px 22px 0px;
+}
+
+.keyarea{
+margin: 25px 28px 50px 28px;
+}
+
+.keybox {
+width:100%;
+float:left;
+margin-bottom:4px;
+}
+
+.key1 {
+float:left;
+width:18px;
+}
+
+.key2 {
+float:left;
+margin-left:18px;
+width:90%;
+font-size: 1em;
+color: #384D2E;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo Template Changes DW 12/15/08 V-1  oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* Right nav sitemap icon*/
+ul.services li.gear a {
+		background:transparent url('https://www.cdc.gov/images/gear.gif') 0 center no-repeat;
+	}
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo this controls the tabs oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.shadetabs {
+padding: 2px 1px;
+margin: 4px;
+font: bold 12px Verdana;
+list-style-type: none;
+background-image: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 1px solid gray;
+}
+
+.shadetabs li {
+display: inline;
+background-image: none;
+margin: 0;
+}
+
+.shadetabs li a {
+text-decoration: none;
+padding: 2px 4px;
+margin-right: 2px;
+border: 1px solid #778;
+color: #2d2b2b;
+background: white url(https://www.cdc.gov/images/shade.gif) top left repeat-x;
+}
+
+.shadetabs li a:visited {
+color: #2d2b2b;
+}
+
+.shadetabs li a:hover {
+text-decoration: underline;
+color: #2d2b2b;
+}
+
+.shadetabs li.selected {
+position: relative;
+top: 1px;
+}
+
+.shadetabs li.selected a { /*selected main tab style */
+background-image: url(https://www.cdc.gov/images/shadeactive.gif);
+border-bottom-color: white;
+}
+
+.shadetabs li.selected a:hover { /*selected main tab style */
+text-decoration: none;
+}
+
+.tabcontentstyle { /*style of tab content container*/
+padding: 10px;
+}
+
+.tabcontent {
+display:none;
+}
+
+
+
+.dandouble-rule {
+	position:relative; 
+	width:auto;
+	border:1px solid #cccecd;
+	clear:both;
+	margin: 5px 0 12px 0;
+}
+
+.dandouble-rule h3 {
+	background:#eef7e3 url('https://www.cdc.gov/images/bgDoubleH2-noIcon.gif') right bottom repeat-x;
+	min-height:30px;
+	margin: 0 0 5px 0;
+}
+
+html .dandouble-rule div {
+	position:relative;
+	background-color:white;
+	margin:3px;
+}
+
+html .dandouble-rule div {background-color:white;
+}
+
+*html div.clearfix {
+	display:none;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo BEGIN STATE OF CDC oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+ /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo this controls the top tabs oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+/*- Menu Navigation--------------------------- */
+
+/*- Home Menu Navigation--------------------------- */
+
+ #homewidenavigation {
+ float: left;
+ width:100%;
+ margin: 0 0px 0px 0;
+ padding: 0.8px;
+ font-family: arial, verdana, sans-serif;
+ font-size: 1.2em;
+ font-weight: bold;
+ list-style: none;
+ background: #416192  url(https://www.cdc.gov/images/navbck.gif) repeat-x top left;
+ }
+ 
+#homewidenavigation li {
+ float: left;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ background: url(https://www.cdc.gov/images/navbck.gif) repeat-x top right;
+ }
+ 
+#homewidenavigation a {
+ float: left;
+ padding: 2px 16px;
+ text-decoration: none;
+ color: #fff;
+ border-right: 1px solid #879AD3;
+ }
+ 
+#homewidenavigation a.active, #homewidenavigation a:active {
+ background: #cfae37;
+ color: #fff;
+ }
+ 
+ #homewidenavigation a:hover {
+ background-color: #cfae37;
+ color: #fff;
+ text-decoration: none;
+ }
+
+#homewidenavigation a:visited {
+	color: #fff;
+}
+
+
+
+ #widenavigation {
+ float: left;
+ width:625px;
+ margin: 0 0px 0px 0;
+ padding: 0.8px;
+ font-family: arial, verdana, sans-serif;
+ font-size: 1.2em;
+ font-weight: bold;
+ list-style: none;
+ background: #416192  url(https://www.cdc.gov/images/navbck.gif) repeat-x;
+}
+ 
+#widenavigation li {
+ float: left;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ background: url(https://www.cdc.gov/images/navbck.gif) repeat-x top right;
+ }
+ 
+#widenavigation a {
+ float: left;
+ padding: 2px 16px;
+ text-decoration: none;
+ color: #fff;
+ border-right: 1px solid #879AD3;
+ }
+ 
+#widenavigation a.active, #widenavigation a:active {
+ background: #cfae37;
+ color: #fff;
+ }
+ 
+ #widenavigation a:hover {
+ background-color: #cfae37;
+ color: #fff;
+ text-decoration: none;
+ }
+
+#widenavigation a:visited {
+	color: #fff;
+}
+
+/*- Gold Secondary Menu Navigation--------------------------- */
+#secondarynav {
+ float: left;
+ width:625px;
+ margin: 0 0px 0px 0;
+ padding: 0px;
+ font-family: arial, verdana, sans-serif;
+ font-size: 1.1em;
+ font-weight: bold;
+ list-style: none;
+ background: #cfae37;
+ }
+ 
+#secondarynav li {
+ float: left;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ background: #cfae37;
+ }
+ 
+#secondarynav a {
+ float: left;
+ padding: 0px 10px;
+ text-decoration: none;
+ color: #fff;
+ border-right: 1px solid #B1942C;
+ }
+ 
+#secondarynav a.active, #secondarynav a:active {
+ background: #B1942C;
+ color: #fff;
+ }
+ 
+ #secondarynav a:hover {
+ background-color: #B1942C;
+ color: #fff;
+ text-decoration: none;
+ }
+
+#secondarynav a:visited {
+	color: #fff;
+}
+
+
+.nextcontain {
+ margin: 0 0 20px 0;
+ height: 40px;
+ max-height: 10px;
+ }
+
+/*- Gold Secondary Menu Navigation End--------------------------- */
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* ooooooooosssooooooooooo SPECIFIC CLASSES          ooooossssssooooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.state_header {
+			
+		    background-image: url(https://www.cdc.gov/globalhealth/images/socdc_banner.jpg);
+			background-repeat: none;
+			height:131px;
+			width: 540px;
+            margin-bottom: 10px;
+			margin-left: 250px;
+}
+
+.state_headerspanish {
+			
+		    background-image: url(https://www.cdc.gov/globalhealth/images/socdc_bannerspan.jpg);
+			background-repeat: none;
+			height:131px;
+			width:540px;
+            margin-bottom: 10px;
+			margin-left: -22px;
+}
+
+
+.state_titleheaderpurp {
+			background-image: url(https://www.cdc.gov/globalhealth/images/state_titlehpurp.jpg);
+			background-repeat: none;
+			height:35px;
+			width:538px;
+			margin-left: -10px;
+			margin-top: -10px;
+            margin-bottom: 10px;
+}
+
+.state_titleleadgreen {
+			background-image: url(https://www.cdc.gov/globalhealth/images/state_titleleadgreen.jpg);
+			background-repeat: none;
+			height:35px;
+			width:538px;
+			margin-left: -22px;
+			margin-top: -10px;
+}
+
+
+
+.state_titleoblue {
+			background-image: url(https://www.cdc.gov/globalhealth/images/state_titleoblue.jpg);
+			background-repeat: none;
+			height:35px;
+			width:538px;
+			margin-left: -22px;
+			margin-top: -10px;
+}
+
+.state_titleheader {
+			background-image: url(https://www.cdc.gov/globalhealth/images/state_title.jpg);
+			background-repeat: none;
+			height:35px;
+			width:536px;
+			margin-left: 70px;
+			margin-top: -12px;
+			margin-bottom: 50px;
+			float:left;
+}
+
+.state_titletext { 
+                font-size: 1.5em;
+				font-weight: bold;
+				background-image:none;
+                text-align:center;
+		        margin-left: 210px;
+                margin-top: 2px;
+                color:#ffffff;
+}
+
+
+.state_titletext_left { 
+                font-size: 1.5em;
+		font-weight: bold;
+		background-image:none;
+                float: left;
+		margin-left: 20px;
+                margin-top: 10px;
+                color:#ffffff;
+}
+
+
+/*State of CDC Inside CDC page
+--------------------------------------------------*/
+
+
+
+.insideCDC_titleheader {
+			background-image: url(https://www.cdc.gov/globalhealth/images/inside_cdcpurpletitle.jpg);
+			background-repeat: none;
+			height:35px;
+			width:550px;
+			margin-left: -22px;
+			margin-top: 10px;
+            clear: both;
+}
+
+
+.insideCDC_titletext { 
+                font-size: 1.5em;
+				font-weight: bold;
+				background-image:none;
+                float: left;
+				margin-left: 20px;
+                margin-top: 5px;
+                color:#ffffff;
+}
+
+.insideCDC_titleheadergreen {
+			background-image: url(https://www.cdc.gov/globalhealth/images/inside_cdcgreentitle.jpg);
+			background-repeat: none;
+			height:35px;
+			width:540px;
+			margin-left: -22px;
+			margin-top: 10px;
+            clear: both;
+}
+
+
+.insideCDC_titletextgreen { 
+                font-size: 1.5em;
+				font-weight: bold;
+				background-image:none;
+                float: left;
+				margin-left: 20px;
+                margin-top: 5px;
+                color:#ffffff;
+}
+
+.insideCDC_titleheaderblue {
+			background-image: url(https://www.cdc.gov/globalhealth/images/inside_cdcbluetitle.jpg);
+			background-repeat: none;
+			height:35px;
+			width:540px;
+			margin-left: -22px;
+			margin-top: 5px;
+            clear: both;
+}
+
+
+.insideCDC_titletextblue { 
+                font-size: 1.5em;
+				font-weight: bold;
+				background-image:none;
+                float: left;
+				margin-left: 20px;
+                margin-top: 5px;
+                color:#ffffff;
+}
+
+/*.featureContainer {
+ width: 550px;
+  max-width: 550px;
+  padding-bottom: 20px;
+ }*/
+ 
+ .featureImage {
+ float:left; 
+width: 100px;
+ padding-bottom: .5em;
+ margin-top: 0em;
+  margin-bottom: .1em;
+margin-right: 1em;
+margin-left: -2em;
+ min-height: 90px; /* this is to force IE to cooperate */
+ height: 90px;
+ clear: both;
+ }
+ 
+ .featureText {
+ float:left;
+ line-height: 1.3em;
+  padding-bottom: .5em;
+ margin-top: .8em;
+  margin-bottom: 20px;
+width: 420px;  
+ min-height: 90px;
+ height: auto;
+ }
+
+.comtitle {
+	color:#273C69;
+	font-size:1.2em;
+	font-weight: bold;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        float:left;
+}
+
+
+.com_featureImage {
+ float:left; 
+width: 134px;
+ padding-bottom: .5em;
+ margin-top: 1em;
+  margin-bottom: 1em;
+margin-right: 0.5em;
+margin-left: -1.7em;
+ min-height: 114px; /* this is to force IE to cooperate */
+ height: 114px;
+ clear: both;
+ }
+ 
+ .com_featureText {
+ float:left;
+ line-height: 1.3em;
+  padding-bottom: .5em;
+ margin-top: 2em;
+  margin-bottom: 60px;
+width: 387px;  
+ min-height: 70px;
+ height: 70px;
+ }
+ 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo this controls the State of CDC top tabs oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+ #navigation {
+ float: left;
+ width:100%;
+ margin: 0 0 40px 50px;
+/* margin: 0 0 20px 0;;*/
+ padding: 1px;
+ font-family: arial, verdana, sans-serif;
+ font-size: 1.1em;
+ font-weight: bold;
+ list-style: none;
+ text-decoration: none;
+ background: #416192  url(https://www.cdc.gov/images/navbck.gif) repeat-x top left;
+ }
+ 
+#navigation li {
+ float: left;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ background: url(https://www.cdc.gov/images/navbck.gif) repeat-x top right;
+ }
+ 
+#navigation a {
+ float: left;
+ padding: 2px 16px;
+ text-decoration: none;
+ color: #fff;
+ border-right: 1px solid #879AD3;
+ }
+ 
+#navigation a.active, #widenavigation a:active {
+ background: #cfae37;
+ color: #fff;
+ border: 1px solid #879AD3;
+ text-decoration: none;
+ }
+ 
+ #navigation a:hover {
+ background-color: #cfae37;
+ color: #fff;
+ text-decoration: none;
+ }
+
+#navigation a:visited {
+	color: #fff;
+}
+
+
+
+ 
+/*- Controls Story page columns--------------------------- */
+
+#colwrapper {
+	text-align: left;
+	margin: 0px auto;
+	padding: 0px;
+	border:0;
+	width: 500px;
+	/*background: url("some.gif") repeat;*/
+}
+
+
+#leftcol {
+	float: left;
+	width: 150px;
+    margin-left:20px;
+}
+
+#rightcol {
+	float: right;
+	width: 100px;
+}
+
+#middlecol { 
+	float: left;
+	width: 150px;
+    margin-left: 30px;
+}
+
+.indexBoxes {
+	height: 150px;
+	text-align:left;
+}
+
+
+
+#colwrapper {
+	text-align: left;
+	margin: 0px auto;
+	padding: 0px;
+	border:0;
+	width: 500px;
+	/*background: url("some.gif") repeat;*/
+}
+
+
+#big_leftcol {
+	float: left;
+	width: 250px;
+    margin-right: 10px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+
+#big_rightcol {
+	float: right;
+	width: 270px;
+}
+
+#big_middlecol { 
+	float: left;
+	width: 200px;
+}
+
+.big_indexBoxes {
+	height: 236px;
+	text-align:left;
+    margin-bottom: 40px;
+}
+
+
+.hptitle {
+	color:#925aa5;
+	font-size:1em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+
+.leadtitle  {
+	color:#2e9436;
+	font-size:1em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+
+
+
+.sttitle  {
+	color:#000;
+	font-size:1.5em;
+	font-weight: bold;
+}
+
+.st_img {
+	float:right;
+	margin-left: 1em;
+}
+
+/*-End Controls Story page columns--------------------------- */
+
+
+
+
+/*- Controls main page of Global Health right nav--------------------------- */
+
+/*  Right Navigation */	
+	
+#rtnav a:active, #rtnav A:hover {
+color:#fff; background:#000;
+}
+
+/*  rightnavstyle Navigation */
+
+#rightstyleNav {
+	width: 250px;
+	float: right;
+	background-image: none;
+	}
+
+#mainnavlist li { 
+list-style: none;
+background-image:none;
+margin-bottom: 20px;
+}
+
+#mainnavlist a {
+	display: block;
+	border-bottom: 0.2px #063777 solid;
+	border-top: 0px #063777 solid;
+	font-family: helvetica, verdana, geneva, arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	color: #fff;
+	background-color: #134c96;
+    margin-bottom: 0px;
+}
+
+
+
+#mainimgbox {
+width: 230px;
+height: 227px;
+/*background-image: url(/globalhealth/images/main_globe.jpg);*/
+float: left;
+}
+
+#mainboxnav {
+width: 250px;
+height: 375px;
+min-height: 327px;
+background-image: url(https://www.cdc.gov/globalhealth/images/main_navgrad.jpg);
+background-color: #004299;
+float: left;
+margin-bottom: 0px;
+margin-right: 15px;
+}
+
+
+.main-innerbox {
+ background-color:transparent;
+margin: 60px 0 0 65px;
+ }
+
+#small_mainimgbox {
+width: 230px;
+height: 263px;
+/*background-image: url(/globalhealth/images/main_globe.jpg);*/
+float: left;
+}
+
+#small_mainboxnav {
+width: 250px;
+height: 263px;
+min-height: 263px;
+background-image: url(https://www.cdc.gov/globalhealth/images/main_navgrad.jpg);
+background-color: #004299;
+float: left;
+margin-bottom: 0px;
+margin-right: 15px;
+}
+
+
+.mainintrotext {
+	font-family: helvetica, verdana, geneva, arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #EFDED1;
+	background-color: none; 
+}
+
+.maincdconlinehmbox {
+	background-color: none;
+    margin-left: 65px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.maincdconline {
+	background-color: none;
+}
+
+.para_main {
+	font-family: helvetica, verdana, geneva, arial, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	color: #fff;
+	background-color: none; 
+}
+
+/* Tab Navigation on INSIDE CDC
+================================================*/
+#tabnav {
+	border-bottom: 1px solid #cccccc;
+	background: transparent;
+	line-height: 1em;
+	margin:0;
+	padding: 1px 0 5px 3px;
+    margin-bottom: 11px;
+	margin-left: 40px;
+	position: relative;
+	width:600px;
+}
+
+#tabnav li {
+	display: inline;
+	list-style: none;
+    background-image: none;   
+	margin: 0;
+	padding: 0;
+}
+	
+#tabnav a {
+	background: #fff;
+	border: 1px solid #cccccc;
+	border-bottom: none;
+	color: #333;
+	font-weight: bold;
+	padding: 2px 5px;
+	margin: 0 0 0 3px;
+	text-decoration: none;
+}
+
+#tabnav a.active {
+	background: #EBEBEB;
+	border-bottom: 1px solid #cccccc;
+	color: #000;
+}
+
+#tabnav a:hover {
+	background: #C5C5C5;
+	color: #fff;
+}
+
+
+.tabcontentstyle { /*style of tab content oontainer*/
+border: 1px solid gray;
+width: 95%;
+margin-bottom: 1em;
+padding: 10px;
+}
+
+.tabcontent {
+display:none;
+}
+
+
+
+/* Styles for Global Health
+================================================*/
+
+.media_back {
+width: 530px;
+height: 295px;
+background-image: url(https://www.cdc.gov/globalhealth/images/mediaBanner.jpg);
+background-color: #fff;
+margin-bottom: 0px;
+margin-left: -10px;
+}
+
+
+.media_body {
+background-color: none;
+margin-top: -200px;
+}
+
+
+.mediaContent_subpage {
+	color:#273C69;
+	font-size:1.6em;
+	font-weight:normal;
+	width:auto;
+	border-bottom: 1px solid #273C69;
+	background: transparent;
+	text-indent: 0;
+	padding: 0;
+}
+
+
+/* Styles for Global Health
+================================================*/
+
+/*
+			Vertical Accordions
+		*/
+		
+		.accordion_toggle {
+			display: block;
+			height: 30px;
+			width: 510px;
+			background: url(https://www.cdc.gov/globalhealth/~inc~/images/accordion_toggle.jpg) no-repeat top right #c0aac7;
+			padding:  0px 0 0 5px;
+			line-height: 30px;
+			color: #6C3672;
+			font-weight: normal;
+			text-decoration: none;
+			outline: none;
+			font-size: 1.5em;
+			border-bottom: 1px solid #703577;
+			cursor: pointer;
+            margin-bottom: 12px;
+		}
+		
+		.accordion_toggle_active {
+			background: url(https://www.cdc.gov/globalhealth/~inc~/images/accordion_toggle_active.jpg) no-repeat top right #000;
+			color: #ffffff;
+			border-bottom: 1px solid #703577;
+		}
+		
+		.accordion_content {
+			background-color: #ffffff;
+			color: #444444;
+			overflow: hidden;
+		}
+			
+			.accordion_content h2 {
+				margin: 15px 0 5px 10px;
+				color: #0099FF;
+			}
+			
+			.accordion_content p {
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+			
+		.vertical_accordion_toggle {
+			display: block;
+			height: 30px;
+			width: 600px;
+			background: url(https://www.cdc.gov/globalhealth/~inc~/images/accordion_toggle.jpg) no-repeat top right #a9d06a;
+			padding: 0 10px 0 10px;
+			line-height: 30px;
+			color: #ffffff;
+			font-weight: normal;
+			text-decoration: none;
+			outline: none;
+			font-size: 12px;
+			color: #000000;
+			border-bottom: 1px solid #703577;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+
+		.vertical_accordion_toggle_active {
+			background: url(https://www.cdc.gov/globalhealth/~inc~/images/accordion_toggle_active.jpg) no-repeat top right #e0542f;
+			color: #ffffff;
+			border-bottom: 1px solid #703577;
+		}
+
+		.vertical_accordion_content {
+			background-color: #ffffff;
+			color: #444444;
+			overflow: hidden;
+		}
+
+			.vertical_accordion_content h2 {
+				margin: 15px 0 5px 10px;
+				color: #0099FF;
+			}
+
+			.vertical_accordion_content p {
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+  			
+		/*
+			Horizontal Accordion
+		*/
+		
+		.horizontal_accordion_toggle {
+			/* REQUIRED */
+			float: left;	/* This make sure it stays horizontal */
+			/* REQUIRED */
+
+			display: block;
+			height: 100px;
+			width: 30px;
+			background: url(https://www.cdc.gov/globalhealth/~inc~/images/h_accordion_toggle.jpg) no-repeat top left #ccc;
+			color: #ffffff;
+			text-decoration: none;
+			outline: none;
+			border-right: 1px solid #cde99f;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+		
+		.horizontal_accordion_toggle_active {
+			background: url(https://www.cdc.gov/globalhealth/~inc~/images/h_accordion_toggle_active.jpg) no-repeat top left #000;
+			border-right: 1px solid #f68263;
+		}
+		
+		.horizontal_accordion_content {
+			/* REQUIRED */
+			height: 100px;	/* We need to define a height for the accordion as it stretches the width */
+			float: left;	/* This make sure it stays horizontal */
+			/* REQUIRED */
+			overflow: hidden;
+			background-color: #ffffff;
+			color: #444444;
+		}
+			
+			.horizontal_accordion_content p {
+				width: 450px;
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+					
+					
+    /* Container styling*/
+    #horizontal_container {
+      margin: 20px auto 20px auto;
+      width: 680px;   
+      height: 100px;    
+    }
+    
+    #vertical_nested_container {
+      margin: 20px auto 20px auto;
+      width: 620px;
+    }
+	
+	
+	.inbrief_header {
+      text-align:center;
+      width: 550px;
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
+	
+	
+	.small_header {
+    color:#925aa5;
+	font-size:1.3em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 4px;
+    }
+	
+	
+	
+	.small_link {
+	font-family: helvetica, verdana, geneva, arial, sans-serif;
+    font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	color: #273C69;
+    }
+	
+	
+	/* rotator in-page placement */
+    div#rotator {
+	position:relative;
+	height:150px;
+	margin-left: 0px;
+}
+/* rotator css */
+	div#rotator ul li {
+	float:left; 
+	position:relative;
+	list-style: none;
+}
+/* rotator image style */	
+	div#rotator ul li img {
+	border:0px solid #ccc;
+	padding: 0px;
+	background: #FFF;
+}
+ 
+  div#rotator ul li.show {
+	z-index:500;
+}
+	
+	/* END Styles for Global Health
+================================================*/
+
+.com2title {
+	color:#273C69;
+	font-size:1.5em;
+	font-weight: bold;
+    margin-right: 0px;
+    margin-bottom:15px;
+    margin-top: 2px;
+    float: left;
+}
+
+
+.com2_featureImage {
+ float:left; 
+width: 150px;
+ padding-bottom: .5em;
+ margin-top: 1em;
+  margin-bottom: 2em;
+margin-right: 1.5em;
+margin-left: -1.7em;
+ min-height: 149px; /* this is to force IE to cooperate */
+ height: 149px;
+ clear: both;
+ }
+ 
+ .com2_featureText {
+ float:left;
+ line-height: 1.3em;
+  padding-bottom: 1em;
+ margin-top: 1em;
+  margin-bottom: 65px;
+width: 360px;  
+ min-height: 100px;
+ height: auto;
+ }
+
+
+.com2title1 {
+	color:#273C69;
+	font-size:1.5em;
+	font-weight: bold;
+        margin-right: 0px;
+        margin-bottom:15px;
+        margin-top: 2px;
+        text-align: center;
+}
+
+
+
+.com2_featureText_noimg {
+ float:left;
+ line-height: 1.3em;
+  padding-bottom: 1em;
+ margin-top: 1em;
+  margin-bottom: 10px;
+width: 515px;  
+ min-height: 90px;
+ height: 90px;
+ }
+
+/* XXXXXXXXXXXXXXXXXXXX   NEXT TABS XXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.next {
+	float: right;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+
+.next1 {
+	float: right;
+	margin-top: 0px;
+	margin-left: 10px;
+
+}
+
+
+
+.back {
+	float:right;
+	margin-top: 0px;
+	margin-left: 7%;
+        padding:0px;
+        width: 80px;
+	}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXX   NEXT TABS ENDXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+#playlist {
+overflow: auto;
+height: 200px;
+width:90%;
+float:left;
+margin: 40px 20px 0 10px;
+padding:5px;
+}
+		
+.videoplay {
+background: url(https://www.cdc.gov/globalhealth/images/videobck.jpg) no-repeat top left;
+width: auto;
+height: 350px;
+}
+
+
+.morevidz {
+ font-family: arial, verdana, sans-serif;
+ font-size: 1.5em;
+ font-weight: bold;
+ color:#2e497a;
+ float:left;
+ margin: 25px 0 0 84px;
+}
+
+
+
+
+.vidtitle {
+border: 3px;
+border-color:#d0ad2b;
+background-color:#2f497a;
+border-style:solid;
+height:31px;
+width:550px;
+margin-left: 50px;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+.vidtitle_text_left { 
+font-size: 1.4em;
+font-weight: bold;
+background-image:none;
+float: left;
+margin-left: 6px;
+margin-top: 3px;
+padding-right:10px;
+color:#ffffff;
+}
+
+
+.VideoImagebox {
+            float:left;
+            padding-bottom: 0em;
+            margin-top: 0px;
+            margin-right: 1em;
+            margin-left: 10px;
+            min-height: 1em; /* this is to force IE to cooperate */
+            height: 1em;
+	}
+
+
+
+.VideoTextbox {
+           float:left; 
+           line-height: 1.3em;
+           padding:1em;
+           margin-right:0px;
+           margin-left:auto;
+           margin-top: 0em;
+           font-size: 1em;
+           width:70%;
+	     }
+
+.vidtext { 
+           width: 80%;  
+           margin-left:50px;
+	     }
+
+.videotext { 
+           width: 70%;  
+           margin: -80px 0 0 110px;
+	     }
+
+.VideoBox { 
+           margin-left:5px;
+           height:150px;
+	     }
+		 
+		 /* 2 column box */
+
+
+ /*#twocol_contain {
+        float:left;
+	background-color:#ffffff;
+width:100%;
+height:auto;
+margin:15px 0px 15px 10px;
+}
+
+#twocol_contain h4 {
+text-align:center;
+font-size: 1.1em;
+margin: 8px 0px 4px 0px;
+}
+
+#twocol_leftcol {
+	float: left;
+	width: 45%;
+	background-color:#d0ba89;
+	margin-left:8px;
+	padding: 4px 10px 0px 10px;
+}
+
+#twocol_rightcol {
+	float: left;
+	width: 45%;
+	background-color:#b5c6e0;
+	margin-left:0px;   
+	padding: 4px 10px 0px 10px;
+}
+
+
+.collefty {
+	float: left;
+	margin: 0px 3px 17px 0px;
+        padding:0px 0px 0px 0px;
+}
+.colrighty {
+	float: right;
+        margin: 0px 3px 17px 0px;
+        padding:0px 0px 0px 0;
+}
+
+
+.indexBoxes2 {
+	height: 120px;
+	text-align:left;
+        margin:0px;
+}
+
+
+
+.coltext {
+font-size: 79%;
+width:50%;
+float:left;
+margin: 0 0px 15px 5px;
+}*/
+
+
+.flashbox {
+width:978px;
+height:auto;
+background-color:#CFE3FF;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+.dyktitle {
+font-weight: bold;
+font-size: 16px;
+}
+
+#pictureframe {
+	margin-bottom:14px;
+	margin-left:6px;
+	margin-right:6px;
+	float:left; 
+	height:auto;
+}
+
+#pictureframe .captiontext {
+	padding: 8px;
+	font-size:0.8em;
+	text-align:left;
+	color: #003366;
+	background-color: #CCCCCC;
+	width:auto;
+}
+
+#pictureframe1 {
+	margin-bottom:80%;
+        padding-bottom:auto;
+	margin-left:5px;
+	margin-right:10px;
+	float:left;
+	width:175px;
+        height:auto;
+}
+
+#pictureframe1 .captiontext1 {
+	padding: 8px;
+	font-size:0.8em;
+	font-weight:bold;
+	text-align:left;
+	color: #496CA2;
+}
+
+#didyouknow {
+	margin: 20px 0px 60px 0px;
+	padding: 10px;
+	border: 1px;
+	border-color:#996600;
+	border-style:solid;
+	width:95%;
+	height:auto;
+	background-color:#E9DEC8;
+}
+
+#didyouknow1 {
+	background: url(https://www.cdc.gov/stateofcdc/html/2008/images/didyouknowbackground-150.jpg);
+	BACKGROUND-REPEAT: no-repeat;
+	float: left;
+	width: 150px;
+	height: 115px;
+}
+#didyouknow1b {
+	background: url(https://www.cdc.gov/stateofcdc/html/2008/images/didyouknowbackground-150.jpg);
+	BACKGROUND-REPEAT: no-repeat;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+#didyouknow2 {
+	background-color:#E9DEC8;
+	margin-right:10px;
+
+}
+
+
+#basic2 {
+	margin:0px 0px 12px 0px;
+	padding: 0px 0px 10px 0px;
+	border: 0px;
+	font-family: Arial sans-serif;
+	width: 360px;
+	height: 80px;
+	BORDER: #000000 0px solid;
+}
+
+#basic2half1 {
+	float: left;
+	margin:0px 0px 0px 0px;
+	border: 0px;
+	font-family: Arial sans-serif;
+	width: 180px;
+	BORDER: #000000 0px solid;
+
+}
+
+#basic2 ul {
+	list-style-image: url('https://www.cdc.gov/ccid/sspu/css_scripts/css-images/arrow2.gif');
+	padding-left: 10px;
+}
+
+#basic2nca {
+	float: left;
+	padding-bottom: 4px;
+	width: 180px;
+	height: 80px;
+	background: #FF0000;
+}
+
+#basic2ncb {
+	float: left;
+	padding-bottom: 4px;
+	width: 180px;
+	height: 80px;
+	background: #00CC99;
+}
+
+.hoverlink a {
+	font-size: 1em;
+	font-weight: bold;
+	TEXT-DECORATION: none;
+}
+
+.hoverlink a:hover {
+	font-size: 1em;
+	font-weight: bold;
+	TEXT-DECORATION: underline;
+}
+
+h4.hpg {
+text-align:center;
+}
+
+img.maximize {
+	max-height:100%;
+	max-width:100%;
+}
+
+#index #flashALTcontent {
+	float: none;
+	margin-bottom: 1em;
+	
+}
+
+#index #flashALTcontent embed, #index #flashALTcontent object  {
+float: none;
+}
+
+#index #flashALTcontent ul {
+float:none;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo END STATE OF CDC oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo TEMPLATE HACKS oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/*Adds white space above horizontal options bar in footer:*/
+.preFoot {
+	padding-top: 30px;
+}
+.pageOptions-inner #services .print {
+	display: none;
+}
+.pageOptions-horizontal ul.services li.print {display:none;}
+/*.list-leadIn {
+	margin-bottom:5px;
+}*/
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo HOMEPAGE oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/*h1.homepage {
+	padding-top: -10px;
+}*/
+
+h1.homepage img {
+	border: solid 1px #ebebeb;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+
+iframe.homepagevideo {
+	width: 100%;
+	height: 152;
+	text-align: center;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo COUNTRY PAGES oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+p.countryintro {
+	margin: 10px 0;
+	font-size: 1.2em;
+	font-style: italic;
+	background: #F9F8FC;
+	color: #6E658F;
+	padding: 5px;
+	border-top: solid 1px #EDEBF6;
+	border-bottom: solid 1px #EDEBF6;
+}
+
+p.countryintro img {
+	background: #FFF;
+	border: #FFF solid 10px;
+	margin: -15px -10px 5px 10px;
+}
+
+/*body#undefined.secondTier #wrapper #wrapper-inner #content #content-inner #content-main .main-inner .subColumns*/ 
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo STORIES oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.storydate {
+	color: #666;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+.wraps.storiesmodule .group div {
+	padding-bottom: 0;
+}
+
+.module.storiesmodule .inner .group div {
+	padding: 5px 5px 0 5px;
+}
+
+.wraps.storiesmodule .group div h5, .module.storiesmodule .inner .group div h5 {
+	padding-bottom: 3px;
+}
+
+.module.storiesmodule .inner .group div p {
+	font-size: .9em;
+}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo FACTS SIDE BAR oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.factbar {
+	font-size: .9em;
+}
+
+.factbar ol {
+	padding-left: 3px;
+	text-transform: uppercase;
+}
+
+.factbar strong {
+	font-weight: bold;
+	/*color: #907EC7;*/
+	/*color: #8874C2;*/
+	color: #826CBF;
+}
+
+div.pageOptions ul.services li.videos a { 
+    background: url(../images/video_sm.jpg) 0 center no-repeat;
+}
+
+div.pageOptions-horizontal ul li.videos a {
+    background: url(../images/video_sm.jpg) center top no-repeat;
+}
+
+div.pageOptions-horizontal ul li.twitter a {
+    background: url(../../TemplatePackage/images/twitter.png) no-repeat scroll center top transparent;
+}
+
+div.pageOptions ul.services li.blogs a { 
+    background: url(../images/blog-icon.jpg) 0 center no-repeat;
+}
+
+div.pageOptions-horizontal ul li.blogs a {
+    background: url(../images/blog-icon.jpg) center top no-repeat;
+}
+
+
+
+/** for the /kenya/why/default page **/
+
+.ataglance {
+}
+.top10causes {
+    font-size: 0.9em;
+}
+.top10causes ol {
+    padding-left: 3px;
+    text-transform: uppercase;
+}
+.top10causes strong {
+    color: #907EC7;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+p.subtitle {
+    color: #81799E;
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: -5px 0 0;
+    padding: 0 0 20px;
+}
+h1 span.subtitle {
+    color: #81799E;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.7em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 30px;
+}
+
+.storydate {
+    color: #666666;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.countrystories {
+    font-size: 0.9em;
+}
+.countrystories a {
+    font-size: 1.1em;
+}
+
+#countryhomemodules {
+    clear: both;
+}
+
+ .countrylist a {
+    text-decoration: underline;
+}
+ .countrylist a:hover {
+    text-decoration: none;
+}
+
+#content .module li a, #content .rounders li a {
+    text-decoration: underline;
+}
+ul.nolines, ol.nolines {
+    font-size: 0.9em;
+    border: none !Important;
+}
+
+ol.nolines {
+    padding-left: 8px;
+    border: none !Important;
+}
+
+ul.nolines {
+    padding-left: 28px;
+    border: none !Important;
+}
+
+li.nolines {
+    padding-left: 28px;
+    border: none !Important;
+}
+
+.editing-highlight {
+	background: #FF0;
+	color: red;
+}
+
+.editing-strikethrough {
+	text-decoration: line-through;
+}
+
+div#feedbackbox {
+    border-color: #CEE7C2 #71B84E #5A983D #ACD698;
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+    float: none;
+    margin: 0 8px 10px 0;
+}
+
+div#feedbackbox a {
+    background: url("../images/feedbackbox1.jpg") repeat-x scroll 0 0 #2F9100;
+    border: 1px solid #F8F8F8;
+    color: #FFFF99;
+    display: block;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 10px 7px;
+    text-align: center;
+    text-decoration: none;
+}
+.module .nolines li, .module.primaryBox li {
+    border-bottom: 1px solid transparent;
+}
+div.pageOptions ul.services li.flickr a { 
+    background: url(../images/flickr-icon.jpg) 0 center no-repeat;
+}
+
+div.pageOptions-horizontal ul li.flickr a {
+    background: url(../images/flickr-icon.jpg) center top no-repeat;
+}
+
+
+<script type="text/javascript"> 
+<!--
+$(document).ready(function() {
+	$('#cdccountries').show();
+	$('#cdcstaff').hide();
+	$('#cdcsupport').hide();
+ 
+	$('a[href="#cdccountries"]').click(function(e) {
+		e.preventDefault();
+		$('#cdccountries').show();
+		$('a[href="#cdccountries"]').parent().addClass('currenttab');
+		$('a[href="#cdccountries"]').parent().removeClass('inactivetab');
+		$('#cdcstaff').hide();
+		$('a[href="#cdcstaff"]').parent().addClass('inactivetab');
+		$('a[href="#cdcstaff"]').parent().removeClass('currenttab');
+		$('#cdcsupport').hide();
+		$('a[href="#cdcsupport"]').parent().addClass('inactivetab');
+		$('a[href="#cdcsupport"]').parent().removeClass('currenttab');
+		/*location.replace('#tabbed-content');*/
+	});
+	$('a[href="#cdcstaff"]').click(function(e) {
+		e.preventDefault();
+		$('#cdccountries').hide();
+		$('a[href="#cdccountries"]').parent().addClass('inactivetab');
+		$('a[href="#cdccountries"]').parent().removeClass('currenttab');
+		$('#cdcstaff').show();
+		$('a[href="#cdcstaff"]').parent().addClass('currenttab');
+		$('a[href="#cdcstaff"]').parent().removeClass('inactivetab');
+		$('#cdcsupport').hide();
+		$('a[href="#cdcsupport"]').parent().addClass('inactivetab');
+		$('a[href="#cdcsupport"]').parent().removeClass('currenttab');
+		/*location.replace('#tabbed-content');*/
+	});
+	$('a[href="#cdcsupport"]').click(function(e) {
+		e.preventDefault();
+		$('#cdccountries').hide();
+		$('a[href="#cdccountries"]').parent().addClass('inactivetab');
+		$('a[href="#cdccountries"]').parent().removeClass('currenttab');
+		$('#cdcstaff').hide();
+		$('a[href="#cdcstaff"]').parent().addClass('inactivetab');
+		$('a[href="#cdcstaff"]').parent().removeClass('currenttab');
+		$('#cdcsupport').show();
+		$('a[href="#cdcsupport"]').parent().addClass('currenttab');
+		$('a[href="#cdcsupport"]').parent().removeClass('inactivetab');
+		/*location.replace('#tabbed-content');*/
+	});
+ 
+});
+-->
+</script>
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo this controls the CGH expanded tabs oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+.module .cdc-tabs .non-clipboard {
+	border: none;
+}
+
+.cdc-tabs {
+	border: none;
+}
+
+.cdc-tabs > .inner {
+	height: auto;
+	overflow: visible;
+}
+
+
+.cdc-tabs-widget {
+	overflow: visible;
+	position: relative;
+}
+
+.page-curl.cdc-tabs > .inner {border: 0px;}
+
+.ui-tabs .ui-tabs-panel {
+	height: auto;
+	max-height: none;
+	overflow-y:auto;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo MISCELLANEOUS oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.smalldate {
+	color: #666;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+.c20l {
+	width: 20%;
+	float: left;
+}
+
+.c80r {
+	width: 80%;
+	float: right;
+}
+
+.c40r {
+	width: 40%;
+	float: right;
+}
+
+#no-js #index #wrapper #wrapper-inner #content #content-inner #content-main .main-inner .syndicate .mSyndicate .threeColumn .module.cdcSliderCarousel.noBorder {
+	border-top: none;
+	background-color: red;
+}
+
+#no-js #contentPageStandard #wrapper #wrapper-inner #content #content-inner #content-main .main-inner .syndicate .mSyndicate .module.cdc-accordion.non-clipboard .inner {
+	height: auto;
+	max-height: none;
+	overflow: visible;
+}
+
+*:first-child+html .cdc-accordion .inner,
+*:first-child+html .ui-accordion ui-accordion-content-active {overflow:auto !important;}
+
+.cdc-mod.cdc-socialMedia #socialMediaFeeds #tweet .socl-hd h4 a, .cdc-mod.cdc-socialMedia #socialMediaFeeds #facebook .socl-hd h4 a {
+	font-size: 14px;
+	line-height: 2em;
+}
+
+.smalltext {
+	font-size: .9em;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo GLOBAL HEALTH AND YOU oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+ul.ghandyou {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul.ghandyou li {
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: 120px;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+}
+
+ul.ghandyou li.ghjobs a {
+	background: url(../images/jobs.png) top left no-repeat;
+	height: 120px;
+	display: block;
+}
+
+/*p.ghandyou img.ghtitle {
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: 120px;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+}
+
+p.ghandyou a {
+	display: block;
+	position: relative;
+	float: left;
+	height: 120px;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	background-position: top left;
+}
+
+p.ghandyou img {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+p.ghandyou a#ghjobs {
+	background-image: url(/globalhealth/images/jobs.png);
+}*/
+
+ul.ghandyou {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul.ghandyou li {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 112px;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+}
+
+ul.ghandyou li a {
+	display: block;
+	height: 112px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+ul.ghandyou li span {
+	display: none;
+}
+
+ul.ghandyou li a:hover {
+	background-position: bottom left;
+}
+
+ul.ghandyou li.ghjobs a, ul.ghandyou li.ghconditions a, ul.ghandyou li.ghtravel a, ul.ghandyou li.ghoutbreaks a {
+	height: 112px;
+}
+
+ul.ghandyou li.ghjobs a {
+	background-image: url(../images/jobs.png);
+}
+
+ul.ghandyou li.ghconditions a {
+	background-image: url(../images/healthconditions.png);
+}
+
+ul.ghandyou li.ghtravel a {
+	background-image: url(../images/travel.png);
+}
+
+ul.ghandyou li.ghoutbreaks a {
+	background-image: url(../images/outbreaks.png);
+}
+
+#comment-id-2 .socl-comment-wrap .socl-comment-text p {
+	max-height: 145px;
+	overflow: hidden;
+}
+
+.module .inner .subColumns .subc ul#newsbox li a {
+	text-decoration: none;
+}
+
+
+.maps{
+width: 400px;
+height: auto;
+}
+
+span.maps.sprite-16-pdf{
+    display: none;
+}
+
+ol.flex-control-nav li {
+	margin-left: 0px;
+	margin-right: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#wrapper .container #content .row #body #contentArea .syndicate .mSyndicate .row .module-typeD.span18 .module-typeD.span11 .media-viewer {
+	height: 620px;
+}
+
+
+form .btn.btn-default {
+	margin-top: -10px;
+}
+
+.maingovdicon .external {
+	background-image: none;
+	text-decoration: none;
+	visibility: hidden;
+	display: none;
+	height: 0;
+	width: 0;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* oooooooooooooooooooo HOMEPAGE VIDEO oooooooooooo */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+#wrapper .container #content .row #body #contentArea .syndicate .mSyndicate .row .module-typeB.span6.fixed .youtube, #wrapper .container #content .row #body #contentArea .syndicate .mSyndicate .row .module-typeB.span6.fixed .youtube iframe  {
+	height: 180px;
+}
+

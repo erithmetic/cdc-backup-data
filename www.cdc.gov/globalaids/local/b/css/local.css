@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+@import url("../../../../TemplatePackage/css/B/theme-purple.css");
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/* @import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+
+/* CGH-WIDE STYLES */
+@import url("https://www.cdc.gov/globalhealth/local/css/cgh-wide.css");
+
+.source{
+font-size:75%;
+}
+
+.sidebar{
+font-size:85%;
+}
+
+#onthispage-countries{
+	float:right;
+	margin:0 0 0 10px;
+	padding:0;
+	width:50%;
+}
+#onthispage2{
+	float:right;
+	margin:0 0 0 10px;
+	padding:0;
+	width:33.3%;
+}
+#onthispage3{
+	float:right;
+	margin:0 0 0 10px;
+	padding:0;
+	width:40%;
+}
+
+.module-country{
+
+	margin:0 0 0 10px;
+	padding:0;
+	height:100%;
+}
+
+/*LAB COURSE CALENDAR TABLE*/
+
+.bckBlue{background: #cbe5f9;}
+.bckRed{background: #e08c90;}
+.oddRow{ background: #f1f0f5;}
+
+#aciltCalendar{
+font: normal 8pt/11pt arial, helvetica, sans-serif;
+color: #000;
+border-style: dotted;
+border-color: #999;
+}
+#aciltCalendar td{
+border-style: dotted;
+border-color: #999;
+text-align: center;
+}
+#aciltCalendar th{
+border-style: dotted;
+border-color: #999;
+background: #eae8e9;
+color: #000;
+}
+#aciltLegend{
+font: normal 8pt/16pt arial, helvetica, sans-serif;
+width: 475px;
+height: 28px;
+padding: 5px;
+border-color: #999;
+border: 1px dotted #999;
+}
+
+#aciltContacts{
+border: 0px;
+font: normal 1em/1.25em arial, helvetica, sans-serif;
+}
+
+#aciltContacts td{border-style: none;}
+
+td.bckRed{width: 30px;}
+td.bckBlue{width: 30px;}
+
+#aciltCalendar, #aciltLegend, #aciltContacts{
+margin-bottom: 20px;
+}
+
+/* Simulating a floating table for image and text */
+div.imgspot {
+  margin: 0px 0px 10px 10px;
+  float: right;
+  FONT-SIZE: 75%;
+  BACKGROUND-COLOR: #DED7EF;
+  width : 160px;
+/*   height : 150px;  */
+  PADDING-LEFT: 5px;
+  PADDING-RIGHT: 5px;
+  PADDING-TOP: 5px;
+  PADDING-BOTTOM: 0px
+  }
+  
+.righty{float: right; margin: 0px 0px 5px 5px;}
+.lefty{float: left; margin: 0px 5px 5px 0px;}
+
+h3.noPad{padding-left: 0px;}
+
+#content .module li a{
+display: inline;
+}
+
+.index div.page-curl div.inner{
+min-height: 130px;
+}
+
+.index div.page-curl div.inner ul li{
+padding-bottom: 0px;
+}
+	
+	/* rotator in-page placement */
+    div#rotator {
+	position:relative;
+	height:150px;
+	margin-left: 0px;
+}
+/* rotator css */
+	div#rotator ul li {
+	float:left; 
+	position:relative;
+	list-style: none;
+}
+/* rotator image style */	
+	div#rotator ul li img {
+	border:0px solid #ccc;
+	padding: 0px;
+	background: #FFF;
+}
+ 
+  div#rotator ul li.show {
+	z-index:500;
+}
+

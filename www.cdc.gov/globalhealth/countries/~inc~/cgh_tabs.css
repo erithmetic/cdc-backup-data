@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* NEW CDC TABS */
+
+
+.teststyle {
+	color: red;
+}
+
+.cdc-tabs {
+	border: none;
+	padding:0;
+
+
+.cdc-tabs > .inner {
+	height: auto;
+	overflow: visible;
+}
+
+
+.cdc-tabs-widget {
+	overflow: visible;
+	position: relative;
+}
+
+.page-curl.cdc-tabs > .inner {border: none;}
+
+
+/*removes grey line on tab*/
+.shadetabz {
+padding: 2px 1px;
+margin: 4px;
+font: bold 10px Verdana;
+list-style-type: none;
+background-image: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px ;
+}
+
+
+ 
+.wcms .module.blocklist li p { 
+	border-bottom:none; 
+	} 
+
+.wcms .module ul li p { 
+	margin-top: 0; 
+	} 
+
+.wcms .main-inner a.onThisPageAnchor { 
+	text-decoration: none; 
+	} 
+ 
