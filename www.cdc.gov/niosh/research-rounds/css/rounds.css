@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content-main h5 {
+color: #666666;
+}
+
+h5.volno {
+margin-bottom:8px;
+margin-left:12px;
+color: #666666;
+}
+
+div.enewssection {
+	margin:14px;
+	padding:5px 5px 20px 5px;
+	border-bottom: solid 2px #CCBA8B;
+
+}

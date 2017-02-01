@@ -1,0 +1,30 @@
+table.dataTable tr.odd td.sorting_1 {
+
+background-color: #FFFFFF !important;
+}
+
+table.dataTable tr.odd {
+
+background-color: #FFFFFF !important;
+}
+
+
+table.dataTable tr.even td.sorting_1 {
+
+background-color: #E4DABC !important;
+}
+
+table.dataTable tr.even {
+
+background-color: #E4DABC !important;
+}
+
+
+table.dataTable thead th {
+
+background-color: #CCBA8B !important;
+color: #552B00 !important;
+
+}
+
+

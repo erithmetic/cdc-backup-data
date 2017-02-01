@@ -1,0 +1,20 @@
+<style type="text/css" media="all">
+@import "https://www.cdc.gov/niosh/local/B/css/local.css"/**/;
+#rptwebprob {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#content-main p {
+	margin-top:10px;
+}
+#kp {
+}
+#kp div.sec {
+	margin-left:40px;
+	margin-bottom:20px;
+}
+
+.righty{ 
+	margin-right: 300px;
+}
+</style>

@@ -1,0 +1,23 @@
+/*  For Pre-decisional Document Policy & Memo HHS-DOE Modules  */
+
+.predecisionPolicy, .memo-hhsdoe {
+  padding: 5px 20px;
+  text-align: justify;
+  -moz-box-shadow:    0px 0px 20px 0px #d9d9d9;
+  -webkit-box-shadow: 0px 0px 20px 0px #d9d9d9;
+  box-shadow:         0px 0px 20px 0px #d9d9d9;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.memo-hhsdoe > h3 {
+    font-size: 15px !important;
+    font-weight: 600;
+}
+
+h4.predecisionTitle, .memo-hhsdoe > h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: .5em;
+}

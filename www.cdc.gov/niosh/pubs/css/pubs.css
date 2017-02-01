@@ -1,0 +1,109 @@
+.module-typeF, .module-typeC{
+				clear: both;
+				margin-bottom: -10px !important;
+				width: 100%;
+
+			}
+			.module-typeF div, .module-typeC div{
+				
+				padding-left: 20px;
+				padding-bottom: 0px;
+				padding-top: 0px;
+				display: inline;
+				float: left;
+			}
+
+			.module-typeF div h5, .module-typeC div h5{
+				font-size: smaller;
+				font-weight: bold;
+				margin-bottom: 0px;
+				margin-top: 0px;
+				border-bottom: none !important;
+			}
+#all {
+	text-align:right;
+	margin-bottom:1px;
+	margin-top:9px;
+	
+}
+#all a {
+	border: none;
+	border-bottom: none;
+	padding:6px;
+	background-color:#f0f0f0;
+	text-decoration: none;
+}
+
+#all a:hover {
+	
+	text-decoration: underline;
+}
+
+.alert-info label{
+
+	display: inline;
+}
+
+.alert-info {
+    border-color: #bfa862;
+    color: #503608;
+    background-color: #E4DABC;
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+
+.alert-info h1, .alert-info h2, .alert-info h3, .alert-info h4 {
+        color: #503608;
+    }
+	
+	.active.btn-primary {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-primary {
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.25);
+    background-image: linear-gradient(#8e620f, #503608);
+    background-repeat: repeat-x;
+    background-color: #503608;
+}
+
+    .btn-primary:hover {
+        color: rgb(255, 255, 255);
+        background-color: #503608;
+    }
+
+    .btn-primary:focus {
+        color: rgb(255, 255, 255);
+        background-color: #503608;
+    }
+
+    .btn-primary:active {
+        color: rgb(255, 255, 255);
+        background-color: #503608;
+    }
+
+.active.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: #503608;
+}
+
+.disabled.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: #503608;
+}
+
+[disabled].btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: #503608;
+}
+
+#body .span2, #body .span3, #body .span4, #body .span5,#body .span6,#body .span7,#body .span8,#body .span9, #body .span10, #body .span11,#body .span12, #body .span13,#body .span14,#body .span15, #body .span16{
+
+	padding: 0px;
+	margin: 0px;
+	
+}

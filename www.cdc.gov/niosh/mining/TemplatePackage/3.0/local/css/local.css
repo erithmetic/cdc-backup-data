@@ -1,0 +1,15 @@
+
+.c33r {
+    float: right !important;
+    margin-left: 15px !important;
+    width: 33% !important;
+}
+
+    .c33r img {
+        width: 100% !important;
+    }
+
+.cdc-caption {
+    padding-left: 10px;
+    padding-right: 10px;
+}
