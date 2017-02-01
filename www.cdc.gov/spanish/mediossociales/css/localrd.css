@@ -1,0 +1,21 @@
+#rss-mediablock .item-pubdate{
+   display:none;
+}
+
+/*Twitter Styles*/
+#tweet .tweet_date{
+ display:none;
+}
+
+#tweet .post{
+ margin:15px 0;
+}
+
+.socialMediaFeeds{
+ margin-bottom:20px !important;
+}
+
+.pinterest_widget{
+ text-align:center;
+ 
+}

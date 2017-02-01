@@ -1,0 +1,46 @@
+.featured-image{
+ position:relative;
+}
+
+.featured-caption{
+position:absolute;
+bottom:0;
+height:auto;
+
+width:100%;
+background-color: rgba(0, 0, 0, 0.8);
+background: rgba(0, 0, 0, 0.8);
+color:#FFFFFF;
+}
+
+.featured-caption p,  .featured-caption a{
+ color:#fff !important;
+padding:0 10px;
+}
+
+.featured-caption h3{
+ color:#fff !important;
+ padding:0 10px;
+ font-weight:700;
+}
+
+
+.statement-date{
+  font-size: 0.8em; 
+  text-transform: uppercase; 
+  color: #666666; 
+  display: block;
+}
+
+.flexslider{
+ margin:0 0 20px !important;
+}
+
+.module-typeM img{
+ display:block;
+ margin:0 auto;
+}
+
+.slider-paging{
+ display:none !important;
+}

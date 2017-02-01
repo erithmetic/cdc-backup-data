@@ -1,0 +1,51 @@
+#logo a {
+    float: none;
+}
+
+/*Dropdown menu feeds*/
+
+#rss-featurefeed-disease li, #rss-featurefeed-healthy li, #rss-featurefeed-work-safety li, #rss-featurefeed-emergency li {
+ list-style: none;
+}
+
+#rss-featurefeed-disease .more-link, #rss-featurefeed-healthy .more-link, #rss-featurefeed-work-safety .more-link, #rss-featurefeed-emergency .more-link{
+ text-align:right;
+}
+
+.az_index .activeLetter span {
+    background: none repeat scroll 0 0 #6f90b8;
+    color: #fff !important;
+    display: inline-block;
+    height: 25px;
+    line-height: 20px;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding: 5px 1px 1px;
+    text-align: center;
+    text-decoration: none !important;
+    transition: background 0.5s ease-in-out 0s;
+    width: 30px;
+}
+
+#AZ-content h1 span {
+    clear: left;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-top: 0;
+}
+
+.language {
+    clear: both;
+    display: inline-block;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+/*VP1*/
+@media (max-width: 767px) {
+	#wrapper #header{
+	   border-top:6px solid #075290 !important;
+	}
+}

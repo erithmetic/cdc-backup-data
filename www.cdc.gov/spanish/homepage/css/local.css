@@ -1,0 +1,276 @@
+#logo a {
+    float: none;
+}
+
+.az_index .activeLetter span {
+    background: none repeat scroll 0 0 #6f90b8;
+    color: #fff !important;
+    display: inline-block;
+    height: 25px;
+    line-height: 20px;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding: 5px 1px 1px;
+    text-align: center;
+    text-decoration: none !important;
+    transition: background 0.5s ease-in-out 0s;
+    width: 30px;
+}
+
+div#rss-featurefeed-healthy .item-title a, div#rss-featurefeed-disease .item-title a, div#rss-featurefeed-travel .item-title a, div#rss-featurefeed-emergency .item-title a, #rss-featurefeed-work-safety .item-title a{
+  color: #000000 !important;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+#AZ-content h1 span {
+    clear: left;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-top: 0;
+}
+
+.topic-blurb{
+ width:140px;
+}
+
+/*Dropdown menu feeds*/
+
+#rss-featurefeed-disease li, #rss-featurefeed-healthy li, #rss-featurefeed-work-safety li, #rss-featurefeed-emergency li {
+ list-style: none;
+}
+
+#rss-featurefeed-disease .more-link, #rss-featurefeed-healthy .more-link, #rss-featurefeed-work-safety .more-link, #rss-featurefeed-emergency .more-link{
+ text-align:right;
+}
+
+
+.somemore_maroon{
+ background:#621919 !important;
+}
+
+
+
+.maroon{
+ border-bottom:1px solid #621919;
+}
+
+.news{
+ border-top:1px solid #075290;
+}
+
+.module_topics{
+ margin-bottom:0 !important;
+ padding:0 15px !important;
+}
+
+.module_topics ul{
+ margin-left:0 !important;
+}
+
+.module_topics li{
+ /*list-style:none*/
+}
+
+.news .module {
+    position: relative;
+}
+.news .module h2 {
+    border-bottom: 1px solid #a9d386 !important;
+    font-size: 22px !important;
+    margin-top: -10px;
+}
+.news .news_data li {
+    list-style: none outside none;
+    margin: 15px 0;
+    overflow: hidden;
+}
+.news img {
+    float: left;
+    margin-right: 15px;
+}
+.news_data a {
+    display: table-cell;
+}
+.news .custom_date {
+    display: table-caption;
+    float: left;
+    margin: 0 20px 0 0 !important;
+    text-align: center;
+}
+.news .custom_date li {
+    border-bottom: medium none;
+    color: #075290;
+    list-style: none outside none;
+    margin: 0 !important;
+    text-align: center;
+}
+.news .custom_date .day {
+    font-size: 28px;
+    font-weight: bold;
+}
+.news .custom_date .month {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.news .custom_date .year {
+    font-size: 14px;
+    line-height: 14px;
+}
+.news .custom_date p {
+    clear: both !important;
+}
+.news .time_stamp {
+    color: #7e7e7e;
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.box_typeH{
+ min-height:320px;
+}
+
+.right_module{
+ margin-top:48px;
+}
+
+/*AcercaCDC styles*/
+
+
+.acerca_cdc li{
+ border-bottom: 1px solid #96b7da;
+}
+
+.acerca_cdc .no-bullets{
+ padding:0 20px 0 0 !important;
+}
+
+.acerca_cdc h2{
+ border:none !important;
+ font-size:22px !important;
+padding:0 !important;
+margin:0 !important;
+line-height:1em;
+}
+
+.acerca_cdc .module{
+ margin-bottom:0 !important;
+ padding-bottom:0 !important;
+}
+
+/*Twitter Styles*/
+
+.socialMediaFeeds{
+ background:none !important;
+ border:none !important;
+ margin-top:0px !important;
+ padding:0 !important;
+}
+
+#tweet{
+ background:none !important;
+}
+
+#tweet .socl-user{
+ display:none !important;
+}
+
+#tweet .tweet_date{
+ display:none;
+}
+
+#tweet .socl-hd h4{
+ border:none !important;
+}
+
+#tweet .post{
+ margin:15px 0;
+}
+
+#wrapper .module-typeF h2, #wrapper .module-typeF h3, #wrapper .module-typeF h4, #wrapper .module-typeF h5{
+ border:none !important;
+}
+
+#tweet .nowrap{
+ float:right;
+}
+
+#tweet .retweet, #tweet .reply{
+ margin: 0 4px;
+ float:left;
+}
+
+#tweet .retweet a, #tweet .reply a{
+ text-decoration:none !important;
+}
+
+#tweet .retweet a:hover, #tweet .reply a:hover{
+ text-decoration:underline !important;
+}
+
+#datestamp{ display:none; }
+
+
+
+/*VP1*/
+@media (max-width: 767px) {
+.box_typeH{
+  min-height: 100px;
+ }
+
+.acerca_cdc h2{
+ padding:15px 0 0 !important;
+}
+	
+}
+
+/*VP2*/
+@media screen and (min-width: 768px) and (max-width: 979px) {
+body{
+  background:url("../../../Templatepackage/3.0/images/homepage/homepage_gradient.jpg") repeat-x scroll 0 0 / 16px 900px rgba(0, 0, 0, 0)
+ }
+
+.acerca_cdc h2{
+ padding:15px 0 0 !important;
+}
+
+.box_typeH{
+ min-height:335px !important;
+}
+
+}
+
+/*VP3*/
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+body{
+  background:url("../../../Templatepackage/3.0/images/homepage/homepage_gradient.jpg") repeat-x scroll 0 0 / 16px 860px rgba(0, 0, 0, 0)
+ }
+
+.acerca_cdc h2{
+ padding:15px 0 0 !important;
+}
+
+}
+
+/*VP4*/
+@media screen and (min-width: 1200px) {
+
+/*body{
+ background:url("/Templatepackage/3.0/images/homepage/homepage_gradient.jpg") repeat-x scroll 0 0 / 16px 600px rgba(0, 0, 0, 0)
+}*/
+
+/*page with banner*/
+body{
+ background:url("../../../Templatepackage/3.0/images/homepage/homepage_gradient.jpg") repeat-x scroll 0 0 / 16px 920px rgba(0, 0, 0, 0)
+}
+
+
+ .acerca_cdc img{
+  margin-top:20px !important;
+ }
+}

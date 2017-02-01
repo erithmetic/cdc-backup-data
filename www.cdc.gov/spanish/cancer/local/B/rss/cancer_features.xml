@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Especiales sobre el cáncer</title>
+	<description>Un canal RSS de los temas especiales de la página principal de los Centros para el Control y la Prevención de Enfermedades (CDC).</description>
+	<link>https://www.cdc.gov/spanish/cancer/</link>
+	<atom:link href="https://www.cdc.gov/" rel="self" type="application/rss+xml" />
+	<image>
+		<title>Logo de los CDC</title>
+		<url>https://www.cdc.gov/homepage/images/img-cdcLogoHeader.png</url>
+		<link>https://www.cdc.gov/spanish/cancer/</link>
+		<width>159</width>
+		<height>92</height>
+	</image>
+	<language>es</language>
+	<webMaster>cancerinfo@cdc.gov</webMaster>
+
+	   	<item>
+		  <title>Concientización sobre el cáncer de cuello uterino</title>
+		  <label>Concientización sobre el cáncer de cuello uterino</label>
+		  <description>La mayoría de los casos de cáncer de cuello uterino se previenen fácilmente con la realización de pruebas de detección habituales y seguimiento. También tiene una probabilidad de curación muy elevada cuando se diagnostica en etapas iniciales.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerCervical/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerCervical/</guid>
+		  <pubDate>Viernes, 13 de enero de 2017 11:00:00 EST</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerCervical/CancerCervical_355px.jpg" length="16952" type="image/jpeg"></enclosure>
+		</item>
+
+	 	<item>
+		  <title>El cáncer, la influenza y usted</title>
+		  <label>El cáncer, la influenza y usted</label>
+		  <description>Tener cáncer aumenta el riesgo de sufrir complicaciones por la influenza. Las personas con antecedentes de cáncer, y personas que viven con o cuidan a los pacientes y sobrevivientes de cáncer deben recibir la vacuna contra la influenza cada temporada.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerInfluenza/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerInfluenza/</guid>
+		  <pubDate>Lunes, 19 de diciembre de 2016 10:00:00 EST</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerInfluenza/CancerInfluenza_355px.jpg" length="12497" type="image/jpeg"></enclosure>
+		</item>
+
+		<item>
+		  <title>Prevención de infecciones en pacientes con cáncer</title>
+		  <label>Prevención de infecciones en pacientes con cáncer</label>
+		  <description>Los pacientes con cáncer que están recibiendo quimioterapia tienen una mayor posibilidad de infectarse. Sepa cómo prevenir infecciones y llame de inmediato a su médico en caso de enfermarse.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerPrevInf/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerPrevInf/</guid>
+		  <pubDate>Lunes, 5 de diciembre de 2016 12:00:00 EST</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerPrevInf/CancerPrevInf_355px.jpg" length="49861" type="image/jpeg"></enclosure>
+		</item>
+	
+		<item>
+		  <title>Uso de la ciencia para prevenir el cáncer</title>
+		  <label>Uso de la ciencia para prevenir el cáncer</label>
+		  <description>En las investigaciones sobre el cáncer más recientes de los CDC se encontró que los casos de cáncer de piel están en aumento en los EE. UU. Las investigaciones también analizaron uno de nuestros programas de detección, y ayudaron a rastrear las muertes por cáncer entre los indoamericanos y los nativos de Alaska.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerInvestigaciones/</link>
+		  <pubDate>Jueves, 1 de diciembre de 2016 11:00:00 EDT</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerInvestigaciones/images/CancerInvestigaciones_925px.jpg" length="0" type="image/jpeg"></enclosure>
+		</item>
+		
+		<item>
+		  <title>Concientización sobre el cáncer de pulmón</title>
+		  <label>Concientización sobre el cáncer de pulmón</label>
+		  <description>Lo más importante que puede hacer para disminuir su riesgo de cáncer de pulmón es dejar de fumar y evitar el humo de segunda mano. Para recibir ayuda, visite espanol.smokefree.gov, llame a 1 (855) DÉJELO-YA (335-3569) o mande “LIBRE” al 47848 desde su celular.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerPulmon/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerPulmon/</guid>
+		  <pubDate>Martes, 1 de noviembre de 2016 12:00:00 EST</pubDate>
+	      <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerPulmon/CancerPulmon_355px.jpg" length="38166" type="image/jpeg"></enclosure>
+		</item>
+
+		<item>
+		  <title>Concientización sobre el cáncer de mama</title>
+		  <label>Concientización sobre el cáncer de mama</label>
+		  <description>Hacerse una mamografía de forma habitual puede reducir el riesgo de morir de cáncer de mama. Si usted tiene entre 50 y 74 años de edad, asegúrese de que le hagan una mamografía cada dos años. Si tiene entre 40 y 49 años de edad, consulte con su médico sobre cuándo y con qué frecuencia se debe hacer una mamografía.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerMama/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerMama/</guid>
+		  <pubDate>Viernes, 30 de septiembre de 2016 10:00:00 EDT</pubDate>
+		  <enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/breastcancerawareness/images/women_350.jpg" length="85621" type="image/jpeg"></enclosure>
+		</item>
+	
+	   <item>
+		  <title>Concientización sobre los cánceres ginecológicos</title>
+		  <label>Concientización sobre los cánceres ginecológicos</label>
+		  <description>Conozca los síntomas y factores de riesgo de los cánceres de cuello uterino, ovario, útero, vagina y vulva. Si los cánceres ginecológicos se detectan en una etapa temprana, el tratamiento es más eficaz.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CanceresGinecologicos/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CanceresGinecologicos/</guid>
+		  <pubDate>Lunes, 12 de septiembre de 2016 11:00:00 EDT</pubDate>
+		  <enclosure url="https://www.cdc.gov/cancer/flexslider/images/gyn_925x350.jpg" length="36510" type="image/jpeg"></enclosure>
+		</item>
+
+		<item>
+		  <title>Concientización sobre el cáncer de próstata</title>
+		  <label>Concientización sobre el cáncer de próstata</label>
+		  <description>El cáncer de próstata es el cáncer más común en los hombres estadounidenses. La mayoría de los cánceres de próstata crecen lentamente y no causan ningún problema de salud a los hombres que los tienen. Infórmese sobre el cáncer de próstata y hable con su médico antes de decidir hacerse una prueba de detección o recibir tratamiento para el cáncer de próstata.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerProstata/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerProstata/</guid>
+		  <pubDate>Jueves, 1 de septiembre de 2016 10:00:00 EST</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerProstata/CancerProstata_355px.jpg" length="20116" type="image/jpeg"></enclosure>
+		</item>
+
+		<item>
+		  <title>La prevención del cáncer empieza desde la niñez</title>
+		  <label>La prevención del cáncer empieza desde la niñez</label>
+		  <description>Usted puede reducir el riesgo de su niño de sufrir de cáncer en el futuro.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerNinos/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerNinos/</guid>
+		  <pubDate>Jueves, 21 de julio de 2016 10:00:00 ET</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerNinos/CancerNinos_355px.jpg" length="22787" type="image/jpeg"></enclosure>
+		</item>
+	
+	   <item>
+		  <title>El cáncer y los hombres</title>
+		  <label>Cáncer y hombres</label>
+		  <description>Cada año, el cáncer cobra la vida de más de 300,000 hombres en los Estados Unidos. Hay varias formas de reducir su riesgo de tener cáncer.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerHombres/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerHombres/</guid>
+		  <pubDate>Viernes, 10 de junio de 2016 10:00:00 ET</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerHombres/CancerHombres_456px.jpg" length="19820" type="image/jpeg"></enclosure>
+		</item>
+
+	   <item>
+		  <title>Mejorar la salud y la calidad de vida después del cáncer</title>
+		  <label>Mejorar la salud y la calidad de vida después del cáncer</label>
+		  <description>Al menos un tercio de los más de 14 millones de sobrevivientes en los Estados Unidos enfrenta problemas físicos, sicológicos, laborales y financieros relacionados con su experiencia con el cáncer.  Entérese de lo que se puede hacer.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/SupervivenciaCancer/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/SupervivenciaCancer/</guid>
+		  <pubDate>Viernes, 3 de junio de 2016 12:00:00 ET</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/SupervivenciaCancer/images/SupervivenciaCancer_456px.jpg" length="16610" type="image/jpeg"></enclosure>
+		</item>
+
+	   <item>
+		  <title>Concientización sobre el cáncer de piel<!--¡Protéjase la piel!--></title>
+		  <label>Cáncer de piel</label>
+		  <description>Cuando disfrute de las actividades al aire libre en este verano, protéjase del cáncer de piel, resguardándose en la sombra y usando lentes de sol, sombrero y ropa protectora y aplicándose protector solar.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerPiel/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerPiel/</guid>
+		  <pubDate>Jueves, 26 de mayo de 2016 15:00:00 ET</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerPiel/CancerPiel_456px.jpg" length="83027" type="image/jpeg"></enclosure>
+		</item>
+
+		<item>
+		  <title>Cáncer y las mujeres</title>
+		  <label>Cáncer y mujeres</label>
+		  <description>Una mujer puede reducir su riesgo de tener cáncer adoptando un estilo de vida saludable y haciéndose las pruebas de detección adecuadas para su estadio de vida.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerMujeres/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerMujeres/</guid>
+		  <pubDate>Lunes, 9 de mayo de 2016 10:00:00 EDT</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/CancerMujeres/CancerMujeres_456px.jpg" length="73883" type="image/jpeg"></enclosure>
+		</item>
+
+	
+	   <item>
+		  <title>Disparidades de salud</title>
+		  <label>Disparidades</label>
+		  <description>Para reducir la desigualdad del cáncer en grupos de mayor riesgo, debemos: mejorar y aumentar la detección temprana del cáncer, promover estilos de vida saludables y ampliar el acceso una mejor atención sanitaria.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/DisparidadesCancer/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/DisparidadesCancer/</guid>
+		  <pubDate>Miércoles, 30 de marzo de 2016 11:30:00 EDT</pubDate>
+		  <enclosure url="https://www.cdc.gov/spanish/especialesCDC/DisparidadesCancer/images/DisparidadesCancer_456px.jpg" length="7819" type="image/jpeg"></enclosure>
+		</item>
+
+		<item>
+		  <title>Cáncer colorrectal</title>
+		  <label>Cáncer colorrectal</label>
+		  <description>Entre los tipos de cáncer que afectan tanto a hombres como a mujeres, el cáncer colorrectal (cáncer de colon o de recto) es la segunda causa principal de muertes por cáncer en los Estados Unidos.</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/CancerColorrectal/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/CancerColorrectal/</guid>
+		  <pubDate>Martes, 1 de marzo de 2016 09:00:00 EST</pubDate>
+		  <enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/colorectalawareness/images/17089283_350_233.jpg" length="8656" type="image/jpeg"></enclosure>
+		</item>
+
+		<item>
+		  <title>Prevención del cáncer en el lugar de trabajo</title>
+		  <label>Prevención del cáncer en el lugar de trabajo</label>
+		  <description>Garantizar que los trabajadores estén seguros mientras laboran y crear una cultura que respalde conductas saludables puede mejorar la salud, seguridad y bienestar de los empleados.</description>
+		  <link>https://www.cdc.gov/spanish/especialescdc/cancerprevtrabajo/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialescdc/cancerprevtrabajo/</guid>
+		  <pubDate>Lunes, 8 de diciembre de 2014 13:00:00 EST</pubDate>
+	      <enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/cancerpreventioninworkplace/images/cancer_workplace_456_297.jpg" length="48622" type="image/jpeg"></enclosure>
+		</item>
+	
+		<item>
+		  <title>Signos Vitales de los CDC</title>
+		  <label>Signos Vitales de los CDC</label>
+		  <description>El cáncer de cuello uterino se puede prevenir</description>
+		  <link>https://www.cdc.gov/spanish/signosvitales/cancercervical/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/signosvitales/cancercervical/</guid>
+		  <pubDate>Miércoles, 5 de noviembre de 2014 13:00:00 EST</pubDate>
+	      <enclosure url="https://www.cdc.gov/spanish/cancer/images/vital_signs1114.jpg" length="48622" type="image/jpeg"></enclosure>
+		</item>
+	
+		<item>
+		  <title>Antecedentes médicos familiares</title>
+		  <label>Antecedentes médicos familiares</label>
+		  <description>Las festividades son el mejor momento para compartir</description>
+		  <link>https://www.cdc.gov/spanish/especialesCDC/AntecedentesMedicos/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/especialesCDC/AntecedentesMedicos/</guid>
+		  <pubDate>Lunes, 4 de noviembre de 2013 09:00:00 EST</pubDate>
+	      <enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/thanksgiving_80403972_355_256.jpg" length="0" type="image/jpeg"></enclosure>
+		</item>
+	
+		<item>
+		  <title>Signos Vitales de los CDC</title>
+		  <label>Signos Vitales</label>
+		  <description>Las pruebas de detección del cáncer colorrectal salvan vidas</description>
+		  <link>https://www.cdc.gov/spanish/signosvitales/pruebasdeteccioncancercolorrectal/</link>
+		  <guid isPermaLink="true">https://www.cdc.gov/spanish/signosvitales/pruebasdeteccioncancercolorrectal/</guid>
+		  <pubDate>Lunes, 4 de noviembre de 2013 09:00:00 EST</pubDate>
+	      <enclosure url="https://www.cdc.gov/spanish/cancer/images/4people_355_257.jpg" length="0" type="image/jpeg"></enclosure>
+		</item>
+	
+	    <!--item>
+	      <title>Cáncer de piel</title>
+	      <label>Cáncer de piel</label>
+	      <description>Los adultos jóvenes tienen riesgo</description>
+	      <link>/spanish/cancer/dcpc/research/articles/skin_risk.htm</link>
+	      <pubDate>Jueves, 2 de mayo de 2013 12:00:00 EDT</pubDate>
+	      <enclosure url="http://www.cdc.gov/cancer/images/flash/group_summer.jpg" length="0" type="image/jpeg"></enclosure>
+	    </item-->
+
+
+
+</channel>
+</rss>

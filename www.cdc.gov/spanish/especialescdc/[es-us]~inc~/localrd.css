@@ -1,0 +1,524 @@
+.dateStamp {
+    color: #999999;
+    font-size: 0.9em;
+}
+#datestamp ul li > ul li + li {
+    display: block;
+}
+#wrapper [class*='module'] > img,
+#wrapper [class*='module'] > figure {
+    width: auto !important;
+    padding: 5px !important;
+    margin-top: 5px !important;
+}
+#wrapper [class*='module'] > ul.list-bullet,
+#wrapper [class*='module'] > ol.list-bullet {
+    margin-left: 35px !important;
+}
+#wrapper [class*='module'] > ul.list-bullet,
+#wrapper [class*='module'] > ol.list-bullet {
+    margin-left: 35px !important;
+}
+/* Feature Feeds - Home Page 1 Image */
+
+#rss-featurefeedhome1 .cdc-caption img {
+    width: 100% !important;
+}
+#rss-featurefeedhome1 .item-title {
+    font-size: 18px !important;
+    padding: 8px 5px 7px 10px !important;
+}
+#rss-featurefeedhome1 a.item-title {
+    display: block;
+    color: #FFF;
+}
+#rss-featurefeedhome1 ul {
+    list-style-type: none
+}
+#rss-featurefeedhome1 .cdc-caption {
+    padding-right: 13px !important;
+    padding-left: 14px !important;
+}
+#rss-featurefeedhome1 .mask {
+    position: relative;
+}
+#rss-featurefeedhome1 .more-link {
+    font-size: 14px !important;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(7, 82, 144);
+    padding: 10px 15px 10px 20px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    display: block;
+    /*margin-left: 72%;
+margin-top: 45%; */
+    
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    font-weight: bold;
+}
+#rss-featurefeedhome1 .mask {
+    position: relative;
+}
+#rss-featurefeedhome1 a,
+#rss-featurefeedhome1 a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#rss-featurefeedhome1 a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+/* Feature Feeds - Home Page 8 Images for VP 3 and VP 4 */
+
+#rss-featurefeed-images .cdc-caption img {
+    margin: 0px !important;
+}
+#rss-featurefeed-images a.item-title {
+    font-size: 15px !important;
+}
+#rss-featurefeed-images {
+    margin-left: -15px !important;
+}
+#rss-featurefeed-images ul {
+    list-style-type: none;
+    margin-top: 5px;
+}
+#rss-featurefeed-images li {
+    margin: 9px 10px;
+    min-height: 75px;
+}
+#rss-featurefeed-images-healthyliving li {
+    min-height: 70px;
+}
+#rss-featurefeed-images-environmental li {
+    min-height: 70px;
+}
+#rss-featurefeed-images .item-image {
+    float: left;
+    width: 24%;
+    height: auto;
+    background-color: #fff;
+    margin-right: 7px;
+    padding: 5px !important;
+}
+#rss-featurefeed-images .item-pubdate {
+    line-height: 20px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #666666;
+    display: block;
+    padding-left: 10px;
+}
+/* Feature Feeds - Topics Feature 1 */
+
+#rss-featurefeedtopic1 .cdc-caption img {
+    margin: 0px !important;
+}
+#rss-featurefeedtopic1 .item-title {
+    font-size: 18px !important;
+}
+/* #rss-featurefeedtopic1 a.item-title { display: block; } */
+
+#rss-featurefeedtopic1 ul {
+    list-style-type: none
+}
+#rss-featurefeedtopic1 .cdc-caption {
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 5px !important;
+}
+#rss-featurefeedtopic1 .item-pubdate {
+    line-height: 20px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #666666;
+    display: block;
+    padding-left: 10px;
+}
+#rss-featurefeedtopic1 .more-link {
+    text-align: right;
+}
+
+
+/* Feature Feeds - Feature Categories*/
+#rss-featurefeed-images-diseasesconditions .cdc-caption img,
+#rss-featurefeed-images-diseasesconditions2013 .cdc-caption img,
+#rss-featurefeed-images-diseasesconditions_2015 .cdc-caption img,
+#rss-featurefeed-images-diseasesconditions_2016 .cdc-caption img,
+#rss-featurefeed-images-diseasesconditions_2017 .cdc-caption img,
+#rss-featurefeed-images-data .cdc-caption img,
+#rss-featurefeed-images-emergency .cdc-caption img,
+#rss-featurefeed-images-emergency2013 .cdc-caption img,
+#rss-featurefeed-images-environmental .cdc-caption img,
+#rss-featurefeed-images-environmental2013 .cdc-caption img,
+#rss-featurefeed-images-environmental2015 .cdc-caption img,
+#rss-featurefeed-images-environmental2016 .cdc-caption img,
+#rss-featurefeed-images-environmental2017 .cdc-caption img,
+#rss-featurefeed-images-healthyliving .cdc-caption img,
+#rss-featurefeed-images-healthyliving2013 .cdc-caption img,
+#rss-featurefeed-images-healthyliving2015 .cdc-caption img,
+#rss-featurefeed-images-healthyliving2016 .cdc-caption img,
+#rss-featurefeed-images-healthyliving2017 .cdc-caption img,
+#rss-featurefeed-images-injury .cdc-caption img,
+#rss-featurefeed-images-lifestages2013 .cdc-caption img,
+#rss-featurefeed-images-lifestages-2014 .cdc-caption img,
+#rss-featurefeed-images-lifestages-2015 .cdc-caption img,
+#rss-featurefeed-images-lifestages-2016 .cdc-caption img,
+#rss-featurefeed-images-lifestages-2017 .cdc-caption img,
+#rss-featurefeed-images-travelers .cdc-caption img,
+#rss-featurefeed-images-travelers2013 .cdc-caption img,
+#rss-featurefeed-images-travelers2015 .cdc-caption img,
+#rss-featurefeed-images-travelers2016 .cdc-caption img,
+#rss-featurefeed-images-travelers2017 .cdc-caption img,
+#rss-featurefeed-images-workplace .cdc-caption img,
+#rss-featurefeed-images-workplace2015 .cdc-caption img,
+#rss-featurefeed-images-workplace2017 .cdc-caption img {
+    margin: 0px !important;
+}
+
+#rss-featurefeed-images-diseasesconditions a.item-title,
+#rss-featurefeed-images-diseasesconditions2013 a.item-title,
+#rss-featurefeed-images-diseasesconditions_2015 a.item-title,
+#rss-featurefeed-images-diseasesconditions_2016 a.item-title,
+#rss-featurefeed-images-diseasesconditions_2017 a.item-title,
+#rss-featurefeed-images-data a.item-title,
+#rss-featurefeed-images-emergency a.item-title,
+#rss-featurefeed-images-emergency2013 a.item-title,
+#rss-featurefeed-images-emergency2015 a.item-title,
+#rss-featurefeed-images-emergency2016 a.item-title,
+#rss-featurefeed-images-emergency2017 a.item-title,
+#rss-featurefeed-images-environmental a.item-title,
+#rss-featurefeed-images-environmental2013 a.item-title,
+#rss-featurefeed-images-environmental2015 a.item-title,
+#rss-featurefeed-images-environmental2016 a.item-title,
+#rss-featurefeed-images-environmental2017 a.item-title,
+#rss-featurefeed-images-healthyliving a.item-title,
+#rss-featurefeed-images-healthyliving2013 a.item-title,
+#rss-featurefeed-images-healthyliving2015 a.item-title,
+#rss-featurefeed-images-healthyliving2016 a.item-title,
+#rss-featurefeed-images-healthyliving2017 a.item-title,
+#rss-featurefeed-images-injury a.item-title,
+#rss-featurefeed-images-lifestages2013 a.item-title,
+#rss-featurefeed-images-lifestages-2014 a.item-title,
+#rss-featurefeed-images-lifestages-2015 a.item-title,
+#rss-featurefeed-images-lifestages-2016 a.item-title,
+#rss-featurefeed-images-lifestages-2017 a.item-title,
+#rss-featurefeed-images-travelers a.item-title,
+#rss-featurefeed-images-travelers2013 a.item-title,
+#rss-featurefeed-images-travelers2015 a.item-title,
+#rss-featurefeed-images-travelers2016 a.item-title,
+#rss-featurefeed-images-travelers2017 a.item-title,
+#rss-featurefeed-images-workplace a.item-title,
+#rss-featurefeed-images-workplace2015 a.item-title,
+#rss-featurefeed-images-workplace2016 a.item-title,
+#rss-featurefeed-images-workplace2017 a.item-title {
+    font-size: 15px !important;
+}
+#rss-featurefeed-images-travelers,
+#rss-featurefeed-images-travelers2013,
+#rss-featurefeed-images-travelers2015,
+#rss-featurefeed-images-travelers2016,
+#rss-featurefeed-images-lifestages2013,
+#rss-featurefeed-images-lifestages-2014,
+#rss-featurefeed-images-lifestages-2015,
+#rss-featurefeed-images-lifestages-2016,
+#rss-featurefeed-images-lifestages-2017,
+#rss-featurefeed-images-injury,
+#rss-featurefeed-images-healthyliving,
+#rss-featurefeed-images-healthyliving2013,
+#rss-featurefeed-images-healthyliving2015,
+#rss-featurefeed-images-healthyliving2016,
+#rss-featurefeed-images-healthyliving2017,
+#rss-featurefeed-images-environmental,
+#rss-featurefeed-images-environmental2013,
+#rss-featurefeed-images-environmental2015,
+#rss-featurefeed-images-environmental2016,
+#rss-featurefeed-images-environmental2017,
+#rss-featurefeed-images-emergency,
+#rss-featurefeed-images-emergency2013,
+#rss-featurefeed-images-emergency2015,
+#rss-featurefeed-images-emergency2016,
+#rss-featurefeed-images-emergency2017,
+#rss-featurefeed-images-diseasesconditions,
+#rss-featurefeed-images-diseasesconditions2013,
+#rss-featurefeed-images-diseasesconditions2015,
+#rss-featurefeed-images-diseasesconditions2016,
+#rss-featurefeed-images-diseasesconditions2017,
+#rss-featurefeed-images-data,
+#rss-featurefeed-images-workplace,
+#rss-featurefeed-images-workplace2015,
+#rss-featurefeed-images-workplace2016,
+#rss-featurefeed-images-workplace2017 {
+    margin-left: -15px !important;
+}
+#rss-featurefeed-images-workplace ul,
+#rss-featurefeed-images-workplace2015 ul,
+#rss-featurefeed-images-workplace2016 ul,
+#rss-featurefeed-images-workplace2017 ul,
+#rss-featurefeed-images-travelers ul,
+#rss-featurefeed-images-travelers2013 ul,
+#rss-featurefeed-images-travelers2015 ul,
+#rss-featurefeed-images-travelers2016 ul,
+#rss-featurefeed-images-travelers2017 ul,
+#rss-featurefeed-images-lifestages2013 ul,
+#rss-featurefeed-images-lifestages-2014 ul,
+#rss-featurefeed-images-lifestages-2015 ul,
+#rss-featurefeed-images-lifestages-2016 ul,
+#rss-featurefeed-images-lifestages-2017 ul,
+#rss-featurefeed-images-injury ul,
+#rss-featurefeed-images-healthyliving ul,
+#rss-featurefeed-images-healthyliving2013 ul,
+#rss-featurefeed-images-healthyliving2015 ul,
+#rss-featurefeed-images-healthyliving2016 ul,
+#rss-featurefeed-images-healthyliving2017 ul,
+#rss-featurefeed-images-environmental ul,
+#rss-featurefeed-images-environmental2013 ul,
+#rss-featurefeed-images-environmental2015 ul,
+#rss-featurefeed-images-environmental2016 ul,
+#rss-featurefeed-images-environmental2017 ul,
+#rss-featurefeed-images-emergency ul,
+#rss-featurefeed-images-emergency2013 ul,
+#rss-featurefeed-images-diseasesconditions ul,
+#rss-featurefeed-images-diseasesconditions2013 ul,
+#rss-featurefeed-images-diseasesconditions_2015 ul,
+#rss-featurefeed-images-diseasesconditions_2016 ul,
+#rss-featurefeed-images-diseasesconditions_2017 ul,
+#rss-featurefeed-images-data ul {
+    list-style-type: none;
+    margin-top: 5px;
+}
+#rss-featurefeed-images-workplace li,
+#rss-featurefeed-images-workplace2015 li,
+#rss-featurefeed-images-workplace2016 li,
+#rss-featurefeed-images-workplace2017 li,
+#rss-featurefeed-images-travelers li,
+#rss-featurefeed-images-travelers2013 li,
+#rss-featurefeed-images-travelers2015 li,
+#rss-featurefeed-images-lifestages2013 li,
+#rss-featurefeed-images-lifestages-2014 li,
+#rss-featurefeed-images-lifestages-2015 li,
+#rss-featurefeed-images-lifestages-2016 li,
+#rss-featurefeed-images-lifestages-2017 li,
+#rss-featurefeed-images-injury li,
+#rss-featurefeed-images-healthyliving li,
+#rss-featurefeed-images-healthyliving2013 li,
+#rss-featurefeed-images-healthyliving2015 li,
+#rss-featurefeed-images-healthyliving2016 li,
+#rss-featurefeed-images-healthyliving2017 li,
+#rss-featurefeed-images-environmental li,
+#rss-featurefeed-images-environmental2013 li,
+#rss-featurefeed-images-environmental2015 li,
+#rss-featurefeed-images-environmental2016 li,
+#rss-featurefeed-images-environmental2017 li,
+#rss-featurefeed-images-emergency li,
+#rss-featurefeed-images-emergency2013 li,
+#rss-featurefeed-images-diseasesconditions li,
+#rss-featurefeed-images-diseasesconditions2013 li,
+#rss-featurefeed-images-diseasesconditions_2015 li,
+#rss-featurefeed-images-diseasesconditions_2016 li,
+#rss-featurefeed-images-diseasesconditions_2017 li,
+#rss-featurefeed-images-data li {
+    margin-bottom: 12px;
+}
+#rss-featurefeed-images-workplace .item-image,
+#rss-featurefeed-images-workplace2015 .item-image,
+#rss-featurefeed-images-workplace2016 .item-image,
+#rss-featurefeed-images-workplace2017 .item-image,
+#rss-featurefeed-images-travelers .item-image,
+#rss-featurefeed-images-travelers2013 .item-image,
+#rss-featurefeed-images-travelers2015 .item-image,
+#rss-featurefeed-images-travelers2016 .item-image,
+#rss-featurefeed-images-travelers2017 .item-image,
+#rss-featurefeed-images-lifestages2013 .item-image,
+#rss-featurefeed-images-lifestages-2014 .item-image,
+#rss-featurefeed-images-lifestages-2015 .item-image,
+#rss-featurefeed-images-lifestages-2016 .item-image,
+#rss-featurefeed-images-lifestages-2017 .item-image,
+#rss-featurefeed-images-injury .item-image,
+#rss-featurefeed-images-healthyliving .item-image,
+#rss-featurefeed-images-healthyliving2013 .item-image,
+#rss-featurefeed-images-healthyliving2015 .item-image,
+#rss-featurefeed-images-healthyliving2016 .item-image,
+#rss-featurefeed-images-healthyliving2017 .item-image,
+#rss-featurefeed-images-environmental .item-image,
+#rss-featurefeed-images-environmental2013 .item-image,
+#rss-featurefeed-images-environmental2015 .item-image,
+#rss-featurefeed-images-environmental2016 .item-image,
+#rss-featurefeed-images-environmental2017 .item-image,
+#rss-featurefeed-images-emergency .item-image,
+#rss-featurefeed-images-emergency2013 .item-image,
+#rss-featurefeed-images-emergency2015 .item-image,
+#rss-featurefeed-images-emergency2016 .item-image,
+#rss-featurefeed-images-diseasesconditions .item-image,
+#rss-featurefeed-images-diseasesconditions2013 .item-image,
+#rss-featurefeed-images-diseasesconditions_2015 .item-image,
+#rss-featurefeed-images-diseasesconditions_2016 .item-image,
+#rss-featurefeed-images-diseasesconditions_2017 .item-image,
+#rss-featurefeed-images-data .item-image {
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: #fff;
+    margin-right: 7px;
+    padding: 5px !important;
+}
+#rss-featurefeed-images-workplace .item-pubdate,
+#rss-featurefeed-images-workplace2015 .item-pubdate,
+#rss-featurefeed-images-workplace2016 .item-pubdate,
+#rss-featurefeed-images-workplace2017 .item-pubdate,
+#rss-featurefeed-images-travelers .item-pubdate,
+#rss-featurefeed-images-travelers2013 .item-pubdate,
+#rss-featurefeed-images-travelers2015 .item-pubdate,
+#rss-featurefeed-images-travelers2016 .item-pubdate,
+#rss-featurefeed-images-travelers2017 .item-pubdate,
+#rss-featurefeed-images-lifestages2013 .item-pubdate,
+#rss-featurefeed-images-lifestages-2014 .item-pubdate,
+#rss-featurefeed-images-lifestages-2015 .item-pubdate,
+#rss-featurefeed-images-lifestages-2016 .item-pubdate,
+#rss-featurefeed-images-lifestages-2017 .item-pubdate,
+#rss-featurefeed-images-injury .item-pubdate,
+#rss-featurefeed-images-healthyliving .item-pubdate,
+#rss-featurefeed-images-healthyliving2013 .item-pubdate,
+#rss-featurefeed-images-healthyliving2015 .item-pubdate,
+#rss-featurefeed-images-healthyliving2016 .item-pubdate,
+#rss-featurefeed-images-healthyliving2017 .item-pubdate,
+#rss-featurefeed-images-environmental .item-pubdate,
+#rss-featurefeed-images-environmental2013 .item-pubdate,
+#rss-featurefeed-images-environmental2015 .item-pubdate,
+#rss-featurefeed-images-environmental2016 .item-pubdate,
+#rss-featurefeed-images-environmental2017 .item-pubdate,
+#rss-featurefeed-images-emergency .item-pubdate,
+#rss-featurefeed-images-emergency2013 .item-pubdate,
+#rss-featurefeed-images-emergency2015 .item-pubdate,
+#rss-featurefeed-images-emergency2016 .item-pubdate,
+#rss-featurefeed-images-emergency2017 .item-pubdate,
+#rss-featurefeed-images-diseasesconditions .item-pubdate,
+#rss-featurefeed-images-diseasesconditions2013 .item-pubdate,
+#rss-featurefeed-images-diseasesconditions_2015 .item-pubdate,
+#rss-featurefeed-images-diseasesconditions_2016 .item-pubdate,
+#rss-featurefeed-images-diseasesconditions_2017 .item-pubdate,
+#rss-featurefeed-images-data .item-pubdate {
+    line-height: 20px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #666666;
+    display: block;
+    padding-left: 10px;
+}
+/* Feature Feeds - Basic Feed for VP 1 - VP 2 */
+
+#rss-featurefeed .cdc-caption img {
+    margin: 5px !important;
+}
+#rss-featurefeed a.item-title {
+    font-size: 16px !important;
+}
+#rss-featurefeed .item-description,
+#rss-featurefeed1 .item-description {
+    line-height: 20px;
+    padding-left: 10px;
+}
+#rss-featurefeed .item-image {
+    float: left;
+    width: 15%;
+    height: auto;
+    background-color: #fff;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+#rss-featurefeed .item-pubdate {
+    line-height: 20px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #666666;
+    display: block;
+    padding-left: 10px;
+}
+#rss-featurefeed ul {
+    list-style-type: none;
+    margin-left: 5px !important;
+}
+#rss-featurefeed li {
+    display: block;
+    list-style-type: none;
+    padding-right: 1em;
+}
+/*Diseases and Conditions - Enfermedades landing page*/
+
+#rss-featurefeed-images-diseasesconditions,
+#rss-featurefeed-images-diseasesconditions2013 li,
+#rss-featurefeed-images-diseasesconditions_2015 li,
+#rss-featurefeed-images-diseasesconditions_2016 li,
+#rss-featurefeed-images-diseasesconditions_2017 li {
+    min-height: 80px;
+}
+/* PHIL Feeds */
+
+#rss-philfeed1 .item-image {
+    /*width:150px;*/
+    
+    height: auto;
+}
+#rss-philfeed1 li {
+    display: inline-block;
+    list-style-type: none;
+}
+#rss-philfeed1 .cdc-caption {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    background-color: #fff;
+}
+#banner p {
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding-bottom: 1px;
+    width: 100%;
+}
+#banner img {
+    border: 1px solid #000000;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: baseline;
+}
+#rss-mediablock .item-pubdate {
+    display: none;
+}
+#rss-featurefeed-images-diseasesconditions li,
+#rss-featurefeed-images-diseasesconditions2013 li,
+#rss-featurefeed-images-healthyliving li,
+#rss-featurefeed-images-healthyliving2013 li,
+#rss-featurefeed-images-healthyliving2015 li,
+#rss-featurefeed-images-healthyliving2016 li,
+#rss-featurefeed-images-healthyliving2017 li,
+#rss-featurefeed-images-emergency li,
+#rss-featurefeed-images-emergency2013 li,
+#rss-featurefeed-images-travelers li,
+#rss-featurefeed-images-traveleres2013 li,
+#rss-featurefeed-images-traveleres2015 li,
+#rss-featurefeed-images-traveleres2016 li,
+#rss-featurefeed-images-traveleres2017 li,
+#rss-featurefeed-images-environmental li,
+#rss-featurefeed-images-environmental2013 li,
+#rss-featurefeed-images-environmental2015 li,
+#rss-featurefeed-images-environmental2016 li,
+#rss-featurefeed-images-environmental2017 li,
+#rss-featurefeed-images-lifestages2013 li,
+#rss-featurefeed-images-lifestages-2014 li,
+#rss-featurefeed-images-lifestages-2015 li,
+#rss-featurefeed-images-lifestages-2016 li,
+#rss-featurefeed-images-lifestages-2017 li,
+#rss-featurefeed-images-workplace2015 li,
+#rss-featurefeed-images-workplace2016 li,
+#rss-featurefeed-images-workplace2017 li {
+    min-height: 100px
+}

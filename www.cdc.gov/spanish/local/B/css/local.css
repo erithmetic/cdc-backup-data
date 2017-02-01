@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+@import url("../../../../TemplatePackage/css/B/theme-teal.css");
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+
+/* Boxed Arrow */
+/* DO NOT REMOVE. Legacy classes from pre-2.4 Spanish pages; still in use. */ 
+
+#flashALTcontent {
+	margin-left:10px;
+}
+
+#moreInfo {
+background-color:#F3F2F9;
+border:0 none;
+padding:5px;
+}
+
+#boxedArrow {
+	margin-left: 1px;
+	padding: 5px;
+	height: 210px;
+	width: 195px;
+	float: left;
+	clear: none;
+	background: url(https://www.cdc.gov/spanish/images/arrowBox.jpg) no-repeat;
+}
+
+#boxedArrow h2{
+	margin: 5px;
+	padding: 5px;
+	font-size: 1em;
+	font-weight: bold;
+	color:#B96212;
+}
+
+#boxedArrow ul {
+	margin-top: 2px;
+	margin-left: 5px;
+	font-size: .9em;
+}
+
+#boxedArrow  li {
+	display: block;
+	padding: 1px;
+	margin-left: 20px;
+	margin-bottom: 2px;
+	background: none;
+	list-style-type: disc;
+	list-style-position: inherit;
+}
+
+#boxedArrow a, #boxedArrow a:hover, #boxedArrow a:visited, #boxedArrow a:active {  
+	font-size: 1em;
+}
+
+.dateStamp
+{
+font-size: .9em;
+color:#999999;
+
+}
+.headerLead
+{
+color:#0C5205;
+font-size:1.6em;
+font-weight:normal;
+margin-top:20px;
+
+}
+
+#twentyfourseven {
+    margin:20px 0 10px 0;
+    color: #696969;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+#ecards{
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+#ecards ul{
+	text-align:left;
+}
+
+#ecards ul li{
+	padding:0;
+	margin:0;
+	display:inline-block;
+	list-style:none;
+	line-height:2em;
+	margin-right:0.5em;
+	text-align:center;
+}
+
+#ecardsVerticle{
+                clear:both;
+                float:left;
+                width:100%;
+}
+
+#ecardsVerticle img{
+                float:left;
+                padding:0 5px 10px 0;
+}
+
+#ecardsVerticle ul{
+                text-align:left;
+}
+
+#ecardsVerticle ul li{
+                padding:0;
+                margin:0;
+                list-style:none;
+                line-height:2em;
+                margin-right:0.5em;
+                clear:both;
+}
+
+.vertical_sidebox{
+width:200px;
+height:auto; 
+}
+
+#content .module li a, #content .rounders li a,  .vertical_sidebox a{
+display:inline;
+}
+
+.horizontal_sidebox{
+width:100%;
+height:auto; 
+}
+
+.imageLefty {
+    border: 1px solid #000000;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.imageRighty {
+    float: right;
+    margin-left: 10px;
+    position: relative;
+    vertical-align: baseline;
+	border: 1px solid #CDCDCD;
+    margin-top: 0.25em;
+    padding: 3px;
+}
+
+.topOPage a {
+    background: url("https://www.cdc.gov/TemplatePackage/images/arrow_TOP.png") no-repeat scroll right center transparent;
+    clear: both;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0.25em 1.5em;
+    position: relative;
+    text-decoration: underline;
+}
+
+#banner img {
+    border: 1px solid #000000;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.feature_block:hover{
+	background-color:#FDF8DA;
+}
+
+
+.feature_block p:first-child{
+	margin-top:10px;
+}
+
+
+#feature_block0:hover, #feature_block1:hover, #feature_block2:hover, #feature_block3:hover, #feature_block4:hover, #feature_block5:hover{
+	background-color:#FDF8DA;
+}
+
+.checkList {
+    list-style-image: url("https://www.cdc.gov/Features/images/checkBox.jpg");
+}

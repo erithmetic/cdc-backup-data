@@ -1,0 +1,50 @@
+#spanish-press-releases a.item-title{
+    font - size: 14px!important;
+}
+#spanish-press-releases .item-description {
+    line - height: 20px;
+    padding - left: 10px;
+}
+#spanish-press-releases li {
+    margin - bottom: 5px;
+}
+#spanish-press-releases .item-pubdate {
+        line - height: 20px;
+        font - size: 0.8em;
+        color: #666666; 
+        display:block; 
+        padding-left:10px; } 
+
+# datestamp ul li > ul li + li {
+            display: block;
+        }
+
+.section{
+padding:20px;
+overflow:hidden;
+}
+
+.item-pubdate {
+   font - size: 0.8em;
+   color: #666666;
+}
+
+
+.pressrel ul {
+    margin-bottom: 0;
+}
+.pressrel ul li {
+    border-bottom: 1px dashed #ccc;
+    list-style-type: none;
+}
+.pressrel h5 {
+    color: #075290 !important;
+    font-weight:700;
+    font-size: 14pt;
+}
+
+.horizontal-list li{
+   display:inline-block;
+   margin: 0 10px;
+   list-style:outside;
+}
