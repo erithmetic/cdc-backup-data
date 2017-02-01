@@ -1,0 +1,305 @@
+@import "../../TemplatePackage/css/B/theme-purple.css";
+#ecards {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#ecards ul {
+    text-align: left;
+}
+#ecards ul li {
+    display: inline-block;
+    line-height: 2em;
+    list-style: none outside none;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+    min-width:150px;
+}
+#ecardsVerticle {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#ecardsVerticle img {
+    float: left;
+    padding: 0 5px 10px 0;
+}
+#ecardsVerticle ul {
+    text-align: left;
+}
+#ecardsVerticle ul li {
+    clear: both;
+    line-height: 2em;
+    list-style: none outside none;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+}
+
+.vids ul li {
+    display: inline-block;
+    line-height: 2em;
+    list-style: none outside none;
+    margin: 0 0.2em 0.2em 0;
+    padding: 0;
+    min-width:127px;
+}
+
+
+.ecards {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.ecards ul {
+    text-align: left;
+}
+.ecards ul li {
+    display: inline-block;
+    line-height: 2em;
+    list-style: none outside none;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+}
+.ecardsVerticle {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.ecardsVerticle img {
+    float: left;
+    padding: 0 5px 10px 0;
+}
+.ecardsVerticle ul {
+    text-align: left;
+}
+.ecardsVerticle ul li {
+    clear: both;
+    line-height: 2em;
+    list-style: none outside none;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+}
+#moreInfo {
+    background-color: #F3F2F9;
+    border: 0 none;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#banner p {
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding-bottom: 1px;
+    width: 100%;
+}
+#banner img {
+    background-image: url("Photo:%20A%20woman%20with%20her%20healthcare%20provder");
+    border: 1px solid #000000;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.bannerX img {
+    background-image: url("Photo:%20A%20woman%20with%20her%20healthcare%20provder");
+    border: 1px solid #000000;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: baseline;
+width:355px;
+
+}
+
+.bydateList h2 {
+    background-color: #F3F2F9;
+    margin: 10px 0;
+    padding: 0 0 0 5px;
+}
+.dsArchiveList p {
+    min-height: 50px;
+}
+.dsArchiveList img {
+    border: 0 none;
+    float: left;
+    height: 45px;
+    margin: 5px 5px 10px 0;
+    width: 45px;
+}
+.dsArchiveList h2 {
+    background-color: #F3F2F9;
+    margin: 10px 0;
+    padding: 0 0 0 5px;
+}
+.archiveList p {
+    clear: left;
+    height: auto;
+    min-height: 80px;
+border-bottom: 1px dotted #999999;
+}
+.archiveList img {
+    border: 0 none;
+    float: left;
+    height: 45px;
+    margin: 5px 5px 30px 0;
+    width: 45px;
+}
+.archiveList h2 {
+    background-color: #F3F2F9;
+    margin: 10px 0;
+    padding: 0 0 0 5px;
+}
+.dateStamp {
+    color: #999999;
+    font-size: 0.9em;
+}
+.feature-archive-home-container {
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.feature-archive-home-image {
+    border: 1px none;
+    float: left;
+    height: 45px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    width: 45px;
+}
+.feature-archive-home-image img {
+    height: 45px;
+    width: 45px;
+}
+.feature-archive-home-text {
+    float: left;
+}
+.clear {
+    clear: both;
+    height: 0;
+}
+.listPad li {
+    margin: 15px 5px;
+}
+.imageRighty {
+    border: 1px solid #000000;
+    float: right;
+    margin-left: 10px;
+    position: relative;
+    vertical-align: baseline;
+}
+.imageLefty {
+    border: 1px solid #000000;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    vertical-align: baseline;
+}
+div .redBox {
+    background-color: #FFE1FF;
+    border: 1px solid #660000;
+    color: #660000;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 3px;
+    padding: 5px;
+    width: 38%;
+}
+.video33r {
+    border: 1px solid #000000;
+    float: right;
+    height: 25%;
+    margin-left: 10px;
+    position: relative;
+    vertical-align: baseline;
+    width: 33%;
+}
+.video40r {
+    border: 1px solid #000000;
+    float: right;
+    height: 30%;
+    margin-left: 10px;
+    position: relative;
+    vertical-align: baseline;
+    width: 40%;
+}
+.video50r {
+    border: 1px solid #000000;
+    float: right;
+    height: 38%;
+    margin-left: 10px;
+    position: relative;
+    vertical-align: baseline;
+    width: 50%;
+}
+.sideBox33r {
+    width: 33%;
+}
+#twentyfourseven {
+    color: #696969;
+    font-size: 0.9em;
+    margin: 20px 0 10px;
+    padding: 0;
+}
+.vertical_sidebox {
+    height: auto;
+    width: 200px;
+}
+.horizontal_sidebox {
+    height: auto;
+    width: 100%;
+}
+.checkList {
+    list-style-image: url("https://www.cdc.gov/Features/images/checkBox.jpg");
+}
+.clearboth {
+    clear: both;
+    display: block;
+    height: 50px;
+}
+table.formatted td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+table.formatted th {
+    padding: 8px;
+    text-align: left;
+}
+
+.bannerCaption {
+font-size:.8em; 
+color:#666;
+}
+
+
+
+/* YoutTube Video dynamic resize */
+#containingBlock {
+	width: 50%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.iframe{
+	max-height:560px;
+	max-width:315;
+}
+
+ object,
+embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+} 
+

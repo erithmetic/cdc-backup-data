@@ -1,0 +1,121 @@
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+.ecard_box {
+	padding: 5px;
+	float: left;
+	width: 30%;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	/*min-height: 11em;*/
+}
+p.ecard_box {
+	margin-top: 0px;
+	padding-top: 0px;	
+}
+/*#content .module.double-rule.clearMeL.clearMeR .inner .subColumns .subc .bulleted-links li .display_inline {
+	display: inline !important;
+}*/
+.ol_upper_alpha {
+	list-style-type: upper-alpha;
+}
+.table_rose_borders {
+	margin: 0px;
+	border-collapse: collapse;
+	border: 1px solid #f8eae9;
+}
+.table_rose_borders th,td {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid #ECCECE;
+}
+.table_rose_borders th {
+	color: #FFFFFF;
+	background-color: #621919;
+	font-weight: bold;
+	padding: 5px;
+}
+.table_rose_borders td {
+	border: 1px solid #ECCECE;
+	padding: 5px;
+}
+.table_rose_borders thead {
+	display:table-header-group;
+}
+.margin_bot_5px {
+	margin-bottom: 5px;
+}
+.margin_top_5px {
+	margin-top: 5px;
+}
+.margin_bot_10px {
+	margin-bottom: 10px;
+}
+.margin_top_10px {
+	margin-top: 10px;
+}
+.large_rose_font {
+	font-size: large;
+	font-weight: bold;
+	color: #621919;
+}
+.larger_font {
+	font-size: 1.5em;
+}
+.thumbnail_dl dl {
+	margin-top: 0px;	
+}
+.thumbnail_dl dt {
+	clear: left;
+	/*float: right;*/
+	/*width: 282px;*/
+	padding-top: 15px;
+	padding-left:5px;
+	font-weight: bold;
+}
+.thumbnail_dl dd {
+	clear: right;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 15px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.thumbnail_dl image {
+	clear: none;
+	float: left;
+	padding-right: 10px;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-bottom: 5px;
+}
+.display_inline {
+	display: inline !important;
+}
