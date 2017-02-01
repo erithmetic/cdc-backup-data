@@ -1,0 +1,302 @@
+#content h3 {
+    font-size: 18px;
+}
+
+
+/*twitter feed overrides*/
+.twitter-timeline {
+max-height: 252px;
+width: 100% !important;
+}
+
+.dash_twitter h3 {
+    color: #3d316a !important;
+    font-weight: bold;
+    background-image: url("../images/css_sprites/sprites.png");
+    background-position: 0px -35px;
+    width: 43px;
+    height: 32px;
+    margin: 2% 3% !important;
+    padding-left: 15% !important;
+}
+
+.sprite-twitter_bird {
+    background-position: 0px -40px;
+    width: 43px;
+    height: 32px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.flex-caption {
+    padding: 0.75% 2% 0.75% 2%;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.50);
+	}
+
+/*reduce tab heading padding*/
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: .5em .75em;
+}
+
+
+/*nav icon overrides*/
+.sprite-40-grey-a {
+    background: url("../images/css_sprites/sn-n.png") no-repeat 0 0;
+}
+.sprite-40-white-a {
+    background: url("../images/css_sprites/sn-n.png") no-repeat 0 -42px;
+}
+
+.sprite-40-grey-b {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -42px 0px transparent;
+}
+.sprite-40-white-b {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -42px -43px transparent;
+}
+
+.sprite-40-grey-c {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -85px 0;
+}
+.sprite-40-white-c {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -85px -42px;
+}
+
+.sprite-40-grey-e {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -126px 0;
+}
+.sprite-40-white-e {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -126px -46px;
+}
+
+.sprite-40-grey-f {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -252px 0 transparent;
+}
+.sprite-40-white-f {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -252px -42px transparent;
+}
+
+.sprite-40-grey-g {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -294px 0;
+}
+.sprite-40-white-g {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -294px -42px;
+}
+
+.sprite-40-grey-i {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -378px 0 transparent;
+}
+.sprite-40-white-i {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -378px -42px transparent;
+}
+
+.sprite-40-grey-j {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -420px 0;
+}
+.sprite-40-white-j {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -420px -42px;
+}
+
+.sprite-40-grey-m {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -545px 0px transparent;
+}
+.sprite-40-white-m {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -545px -42px transparent;
+}
+
+.sprite-40-grey-n {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -588px 0px transparent;
+}
+.sprite-40-white-n {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -588px -42px transparent;
+}
+
+.sprite-40-grey-o {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -630px 0;
+}
+.sprite-40-white-o {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -630px -42px;
+}
+
+.sprite-40-grey-p {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -672px 0 transparent;
+}
+.sprite-40-white-p {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -672px -42px transparent;
+}
+
+.sprite-40-grey-q {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -714px 0;
+}
+.sprite-40-white-q {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -714px -47px;
+}
+
+.sprite-40-grey-r {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -756px 0;
+}
+.sprite-40-white-r {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -756px -44px;
+}
+
+.sprite-40-grey-t {
+    background: url(../images/css_sprites/sn-n.png) no-repeat -840px 0;
+}
+.sprite-40-white-t {
+    background: url(../images/css_sprites/sn-n.png) no-repeat -840px -46px;
+}
+
+.sprite-40-grey-v {
+    background: url(../images/css_sprites/sn-n.png) no-repeat -924px 0;
+}
+.sprite-40-white-v {
+    background: url(../images/css_sprites/sn-n.png) no-repeat -924px -42px;
+}
+
+.sprite-40-grey-x {
+    background: url(../images/css_sprites/sn-n.png) no-repeat -210px 0;
+}
+.sprite-40-white-x {
+    background: url(../images/css_sprites/sn-n.png) no-repeat -210px -42px;
+}
+
+.sprite-40-grey-y {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1008px 0 transparent;
+}
+.sprite-40-white-y {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1008px -42px transparent;
+}
+
+.sprite-40-grey-z {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1050px 0 transparent;
+}
+.sprite-40-white-z {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1050px -42px transparent;
+}
+
+.sprite-40-grey-cc {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1176px 0px transparent;
+}
+.sprite-40-white-cc {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1176px -42px transparent;
+}
+
+.sprite-40-grey-ff {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1302px 0px transparent;
+}
+.sprite-40-white-ff {
+
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1302px -42px transparent;
+}
+
+.sprite-40-grey-hh {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1386px 0px transparent;
+}
+.sprite-40-white-hh {
+	background: url("../images/css_sprites/sn-n.png") no-repeat scroll -1386px -42px transparent;
+}
+
+.sprite-40-grey-aaaa {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -3276px 0px;
+}
+
+.sprite-40-white-aaaa {
+    background: url("../images/css_sprites/sn-n.png") no-repeat -3276px -42px;
+}
+
+
+/*calendar legend icons*/
+.cal_apple, .cal_bluebook, .cal_exhibit_s, .cal_lung, .cal_nosmoking, .cal_redribbon, .cal_school, .cal_soccerball, .legend_local-circle, .legend_ngo-square, .legend_state-darkgreen, .legend_state-pink{
+	background: url("../images/css_sprites/sprites.png") no-repeat;
+display: inline-block;
+vertical-align: middle;
+margin-right: 4px;
+margin-left: 4px;
+}
+
+.cal_apple{
+	background-position: -17px -18px ;
+	width: 14px;
+	height: 16px;
+}
+
+.cal_bluebook{
+	background-position: -65px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.cal_exhibit_s{
+	background-position: -107px -18px ;
+	width: 35px;
+	height: 18px;
+}
+
+.cal_lung{
+	background-position: -165px -18px ;
+	width: 16px;
+	height: 13px;
+}
+
+.cal_nosmoking{
+	background-position: -216px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.cal_redribbon{
+	background-position: -268px -18px ;
+	width: 14px;
+	height: 16px;
+}
+
+.cal_school{
+	background-position: -317px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.cal_soccerball{
+	background-position: -365px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.legend_local-circle{
+	background-position: -417px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.legend_ngo-square{
+	background-position: -469px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.legend_state-darkgreen{
+	background-position: -517px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.legend_state-pink{
+	background-position: -567px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.agency_detail h4{
+border-bottom: 1px solid #E5E5E5;
+}
+
+.float-leftks {
+float: left;
+width: 45%;
+}
+
+
+.list-header {
+    width: 30%;
+}
