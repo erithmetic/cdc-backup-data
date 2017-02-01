@@ -1,0 +1,27 @@
+#table_id{
+	
+	width: 100%;
+}
+	
+#table_id td:nth-child(5), #table_id th:nth-child(5) {
+	display: none;
+}
+.dataTables_length {
+	float: none;
+}
+
+#table_id th:nth-child(1){ min-width: 7em;}
+#table_id th:nth-child(2){ min-width: 6em;}
+
+#table_id tbody tr:nth-child(odd)  {
+background-color: #E4DABC;
+}
+
+#table_id_filter{
+	float: left;
+	
+}
+#table_id_length{
+	float: right;
+	
+}
