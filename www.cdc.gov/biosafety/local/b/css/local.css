@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+/*.border_black {
+	border: 1px solid #000;
+}
+.symposium {
+	border: 2px solid #9FA716;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-top: 110px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	background-image: url(/biosafety/images/CDC-2014-Website-Banner.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #DCDDDF;
+}
+.bg_grey_gradient_bot {
+	border: 1px solid #DBDCDF;
+	background-image: url(../../../images/grey_gradient_bottom.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 5px;
+	background-color: #FFF;
+}
+.bold_ol li {
+	font-weight: bolder;
+	font-size: 120%;
+ }
+.bold_ol span {
+	font-weight: normal;
+	font-size: 80%;
+}
+.no_top_space {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.padding-rt-left-15px {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.symposium_small {
+	background-color: #DCDDDF;
+	border: 1px solid #9FA716;
+	width: 350px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}*/

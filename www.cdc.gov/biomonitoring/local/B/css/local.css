@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+.RightAlignedImage
+{
+	float : right;
+	margin : 0px 0px 5px 10px;
+}
+.LeftAlignedImage
+{
+	float : left;
+	margin : 2px 10px 5px 2px;
+}
+.ContentTable
+{
+	padding : 0px;
+	margin : 0px;
+	font-size : 1.0em;
+	border-collapse : collapse;
+	border : 0px;
+	border-bottom : 2px solid #000000;
+}
+.ContentTable th
+{
+	text-align : left;
+	border : 0px;
+}
+.ContentTable td
+{
+	border : 0px;
+	vertical-align : top;
+	padding : 2px;
+}
+.ContentTable .Header
+{
+	color : #000000;
+	font-weight : bold;
+	font-size : 1.0em;
+	background : #ffffff;
+	border : 0px;
+	padding : 0px 0px 10px 0px;
+	vertical-align: bottom;
+}
+.ContentTable .Subheader
+{
+	color : #000000;
+	font-weight : bold;
+	font-size : 0.9em;
+	background : #ffffff;
+	border-top : 1px solid #000000;
+	border-bottom : 1px solid #000000;
+}
+.ContentTable .Subheader2
+{
+	color : #000000;
+	font-weight : bold;
+	font-size : 0.9em;
+	background : #ffffff;
+	border-top : 1px solid #000000;
+	border-bottom : 1px solid #000000;
+	padding : 0px 0px 0px 10px;
+}
+.ContentTable .GreenRow
+{
+	color : #000000;
+	background : #ccffcc;
+	border : 0px;
+}
+.ContentTable .WhiteRow
+{
+	color : #000000;
+	background : #ffffff;
+	border : 0px;
+}
+.HoverTerm
+{
+	border-bottom : 3px dotted #009900;
+	cursor : help;
+}
+#HoverDefinition
+{
+	max-width : 300px;
+	border : 3px solid #000;
+	background : #fff;
+	position : absolute;
+	padding : 8px;
+	font-size : 0.9em;
+	z-index : 10;
+}

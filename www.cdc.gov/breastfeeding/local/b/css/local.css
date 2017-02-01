@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+
+
+/* NEW STYLES */
+
+table {
+border: 1px solid #CDCDCD;
+/* background-color:#999 */
+}
+
+tr {
+border: 1px solid #CDCDCD;
+}
+
+th {
+background-color: #F5FAED;
+border: 1px solid #CDCDCD;
+text-align: center;
+}
+
+td {
+background-color:#fff;
+text-align: center;
+}
+
+table.noborder, 
+table.noborder tr, 
+table.noborder td, 
+table.noborder th { 
+    border: 0px solid #000; 
+	padding: 5px; 
+}
+
+th.lefty {
+text-align: left;
+border: none;
+}
+
+table.tblreducetext {
+font-size: .8em;
+}
+
+
+/* END NEW STYLES */
+
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+
+#content .bulleted-links a.inline {
+    display:inline;
+}
+
+
+#content table {
+border: 1px solid #CDCDCD;
+}
+
+#content th {
+background-color: #F5FAED; border: 1px solid #CDCDCD;
+}
+
+#content td {
+border: 1px solid #CDCDCD;
+}
+
+#content table.noborder, 
+#content table.noborder tr, 
+#content table.noborder td, 
+#content table.noborder th { 
+    border: 0px solid #000; 
+	padding: 5px; 
+}
+
+.smallerfont {
+	font-size: .8em;
+}
+
+.leftjustify {
+	text-align: left;
+}
+
+#content li.IndentBulletsOneLevel {
+	padding-left: 10px;
+}
+
+#indent {
+	list-style-position: outside;
+	list-style-type: solid;
+	padding-left: 40px;
+ 
+}
+
+
+#sidebar_highlight	{
+float: right;
+position:relative;
+width: 200px;
+margin-left: 10px;
+}
+
+#onthispageNarrow{
+clear:right;
+display:inline;
+float:right;
+position:relative;
+margin-left:10px;
+width:125px;
+}
+
+.red {color: red;}
+
+div.main-inner div.top-pic-txt {height:180px;}
+
+.main-inner div.top-pic-txt p.imgleft {float:left; padding: 4px; margin-right: 10px; margin-bottom: 10px; border: 1px #BBB solid;}
+
+.main-inner p.imgleft {float:left; padding: 4px; margin-right: 10px; margin-bottom: 10px; border: 1px #BBB solid;}
+
+.main-inner p.textright {height: 80px;}
+
+
+
+div.bigtextright {font-size: 1.2em; line-height: 1.5em;}
+
+table#tblsmtxt {
+margin: 1px;
+border: 0;
+font-size: .8em;
+}
+
+table#tblsmtxt tbody tr th {
+/* font-size: .8em; */
+text-align: left;
+}
+
+table#tblsmtxt tbody tr td {
+/* font-size: .8em; */
+text-align: center;
+}
+
+table#tblsmtxt thead tr th {
+text-align: center;
+}
+
+#grntextbox {
+padding: 9px;
+background-color:#CFC;
+}
+
+sup.superbig {
+font-size: 1.5em;
+color: red;
+}
+
+th.thleft {
+text-align: left !important;
+}
