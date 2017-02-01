@@ -1,0 +1,344 @@
+.quickstats-quickstats-title, .quickstats-qs-from-nchs  
+ {
+   text-align: center;
+   font-size: 16pt;
+   font-weight: bold;
+ }
+.quickstats-qs-figure-title, .figure-i-title  
+ {
+   text-align: left;
+   font-size: 12pt;
+   font-weight: bold;
+ }
+.body-text, .acknowl-text, .abstract-text, .quickstats-qs-text-9-pt 
+ {
+   text-align: left;
+   font-size: 12pt;
+ }
+.reported-by 
+ {
+   text-align: left;
+ }
+.references 
+ {
+   text-align: left;
+   font-size: 14pt;
+   font-weight: bold;
+ }
+ .end-tables-figure-i-footnote-7pt
+ {
+   text-align: left;
+   font-size: 10pt;
+ }
+.reference-text-10 
+ {
+   text-align: left;
+   font-size: 11pt;
+ }
+.footnotes-footnote-no-rule, .x-7pt-footnote-supports-3, .x8pt-table-styles-8pt-footnote-supports, .x-footnote-no-rule-text-2, .x-8pt-footnote-supports-2, .x7pt-table-styles-footnote-no-indent-7pt, .x7pt-table-styles-7pt-footnote-supports, .x-7pt-footnote-supports-2, .end-table-footnotes, .x-8pt-footnote-supports, .x-7pt-footnote-supports, .x-footnote-no-rule-text, .x-footnote-no-rule-2, .x-8pt-footnote-helv-2, .x-footnote-w-rule-text-2, .x-8pt-footnote-helv-supports, .x-8pt-footnote-helv, .x-footnote-w-rule-text, .x-8pt-footnote, .x-footnote-no-rule, .x-8pt-footnote-2, .x-footnote-w-rule, .footnotes-8pt-footnote, .footnote-row, .footnotes-8pt-footnote-helv, .footnotes-footnote-w-rule, .end-tables-end-table-footnotes, .quickstats-qs-footnote-graph-wide, .footnotes-7pt-footnote-table, .figure-i-footnote-7pt, .footnotes-text-footnote-w-rule, .footnotes-for-supports-8pt-footnote-helv, .footnotes-for-supports-8pt-footnote-helv-2, .footnotes-text-footnote-no-rule, .footnotes-text-footnote-w-rule-2, .footnotes-text-footnote-w-rule-3, .footnotes-tables-8pt-footnote-helv, .footnotes-text-footnote-no-rule-2, .qs-footnote-graph-wide, .footnotes-text-footnote-w-rule-4, .x-8pt-Footnote-SUPPORTS, .x--8pt-Footnote-SUPPORTS, .x8pt-footnote-supports-indent-1, .x7pt-footnote-supports-indent-3, .footnote-w-rule-text-indent-1, .footnote-no-rule-text-indent-1, .footnote-w-rule-text-indent-2, .footnote-no-rule-text-indent-2, .footnote-w-rule-text-indent-3, .footnote-no-rule-text-indent-3, .footnote-w-rule-text-indent-4, .footnote-no-rule-text-indent-4, .Footnote, .Figure-Footnote    
+ {
+   text-align: left;
+   font-size: 8pt;
+ }
+ .h1 
+ {
+   text-align: center;
+   font-size: 18pt;
+   font-weight: bold;
+   color: #0b3d91;
+ }
+ h1.serial_title 
+ {
+   text-align: center;
+   font-size: 20pt;
+   font-weight: bold;
+   color: #0b3d91;
+ }
+ h2.serial_subtitle 
+ {
+   text-align: center;
+   font-size: 18pt;
+   font-weight: bold;
+   color: #0b3d91;
+ }
+
+ h3.serial_subtitle 
+ {
+   text-align: center;
+   font-size: 16pt;
+   color: #0b3d91;
+ }
+ body.content_body
+ {
+   font-size: 12px;
+   color: #ffffff; 
+  }
+.h2 
+ {
+   text-align: center;
+   font-size: 14pt;
+   font-weight: bold;
+   color: #0b3d91;
+  }
+  p.qs-figure-title
+{
+   text-align: left;
+   font-size: 18pt;
+   font-weight: bold;
+}
+p.fb-question
+{
+  color: #0b3d91;
+  font-weight: bold;
+}
+p.Summary-Box-Heading
+{
+  color: #0b3d91;
+  font-weight: bold;
+}
+p.tables-underlined-table-data-7pt-heading
+{
+  text-decoration: underline;
+}
+li.tables-table-7pt-bullet-2
+{
+ list-style-type:square;
+ margin-left: 15px;
+}
+p.end-tables-x-table-2-data
+{
+   font-size: 10pt;
+}
+
+/* PHK Added .x-table-data-indent found in end tables with states indented -- 09JUN2011 */
+.end-tables-x-table-data-indent, .x-table-data-indent 
+{
+  text-indent:10px;
+}
+
+.table-data-indent-2, .table-data-7pt-indent-2
+{
+  text-indent:10px; 
+}
+.table-data-ages
+{
+  text-indent:10px;  
+}
+.table-data-indent-3, .table-data-7pt-indent-3
+{
+  text-indent:20px;
+}
+.table-data-7pt-indent-4, .table-data-indent-4
+{
+  text-indent:30px;
+}
+.table-data-7pt-indent-5, .table-data-indent-5
+{
+  text-indent:40px;
+}
+.x8pt-footnote-supports-indent-4
+{
+  font-size: 8pt;
+  text-indent:20px;
+}
+.x8pt-footnote-supports-indent-2, .x8pt-footnote-supports-indent-3, .x7pt-footnote-supports-indent-1
+{
+  font-size: 8pt;
+  text-indent:10px;
+}
+.author-affil 
+ {
+   text-align: center;
+   font-size: 11pt;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ .serial-pubs-author-affil 
+ {
+   text-align: center;
+   font-size: 11pt;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+.author-name 
+ {
+   text-align: center;
+   font-size: 11pt;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ .Author-Affiliations 
+ {
+   text-align: center;
+   font-size: 11pt;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+.serial-pubs-author-name 
+ {
+   text-align: center;
+   font-size: 11pt;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+.summary-abstract 
+ {
+   text-align: center;
+   font-size: 14pt;
+   font-weight: bold;
+   font-style: italic;
+   color: #0b3d91;
+ }
+.corres-author
+ {
+   text-align: left;
+   font-size: 10pt;
+ }
+.serial-pubs-corres-preparer
+ {
+   text-align: left;
+   font-size: 10pt;
+ }
+.figure-title, .box-title 
+ {
+   text-align: left;
+   font-size: 11pt;
+   font-weight: bold;
+ }
+table.fb-table
+{
+   border: 1px solid #0b3d91;
+   border-collapse: collapse;
+}
+div.box-frieden
+{
+   border: 1px solid #0b3d91;
+   border-collapse: collapse;
+}
+
+table.data-table 
+ {
+   border: 1px;
+   width: 100%;
+   border-collapse: collapse;
+ }
+table.data-table-2 
+ {
+   border: 1px;
+   width: 100%;
+   border-collapse: collapse;
+   font-size: 8pt;
+}
+table.data-table-3 
+ {
+   border: 1px;
+   width: 100%;
+   border-collapse: collapse;
+   font-size: 7pt;
+}
+table.data-table-4 
+ {
+   border: 1px;
+   width: 100%;
+   border-collapse: collapse;
+   font-size: 6pt;
+}
+
+table.data-table td 
+ {
+   border: 1px solid black;
+   padding: 5px;
+   margin: 0;
+ }
+ table.data-table tr
+ {
+   vertical-align: top;
+ }
+table.data-table th 
+ {
+   border: 1px solid black;
+   padding: 5px;
+   margin: 0;
+ }
+ th.column-head, th.data-row, th.end-table-column-head 
+ {
+   align: center;
+ }
+th.header-row, th.end-table-title, th.end-tables-end-table-title 
+ { 
+   text-align: left;
+ }
+th.end-table-column-head, th.end-table-region, th.column-head-no-rule, th.end-table-column-head 
+{  
+   text-align: center;  
+}
+td.end-table-footnote-row, td.footnote-row 
+ {
+   border: 1px solid black;
+   align: left;
+   font-size: 9pt;
+ }
+span.bold 
+ {
+   font-weight: bold;
+ }
+ 
+span.italic 
+ {
+   font-style: italic;
+ }
+span.bold-italic 
+ {
+   text-align: left;
+   font-weight: bold;
+   font-style: italic;
+ }
+ span.superscript 
+ {
+ /*vertical-align: super;
+ font-weight:normal; 
+ font-size: 8pt;  
+ font-size:x-small; 
+ vertical-align:top;  */
+ vertical-align: super;
+ font-weight:normal; 
+ font-size: 7pt; 
+ }
+ span.upperscript 
+ {
+ vertical-align: super;
+ font-weight:normal; 
+ font-size: 7pt;   
+ }
+ span.subbscript 
+ {
+ vertical-align: sub;
+ font-weight:normal; 
+ font-size: 8pt;   
+ }
+ span.subscript
+ { 
+ /* keep superscript text from breaking the line-spacing */
+ vertical-align: sub;
+ font-weight:normal;
+ font-size: 6pt; 
+ }
+ div.text-box-1-column-blue
+{
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding:5px;
+}
+span.errata
+{
+  color: red; 
+  font-weight: bold;
+}
+#archivedbox {
+    padding: 10px;
+    border: 1px solid #000;
+    background: none repeat scroll 0% 0%;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
