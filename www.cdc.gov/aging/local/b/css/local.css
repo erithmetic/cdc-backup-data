@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+
+/* COLOR THEME -- Blue */
+/*@import url("/TemplatePackage/css/B/theme-blue.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+.datatoolswrapper
+{
+width:75%;
+}
+
+table.noborder, table.noborder tr, table.noborder td, table.noborder th
+{ 
+border: 0px solid #000; 
+padding: 5px; 
+}
+
+  .imagewrapperhome
+{
+width:100%;
+}
+ 
+.left
+{
+width:300px;
+float: left;
+clear: none;
+}
+
+.middle1,
+.middle2,
+{
+width:20px;
+float: left;
+clear: none;
+}
+
+.right {
+width:250px;
+float: left;
+clear: none;
+}
+ 
+#imageright
+{
+ float:right;
+ position: relative;
+ clear:both;
+ padding-right:10px;
+ padding-top:5px;
+}
+ 
+#imageleft
+{
+ float:left;
+ position: relative;
+ padding-right:10px;
+  padding-top:5px;
+ clear:both;
+}
+ 
+.group
+{height:70px;}
+
+#left1
+{
+float: left; position: relative;
+margin-right:10px;
+
+}
+ 
+#right1
+{
+float: right; position: relative;
+margin-left:10px;
+
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.topbox
+/*ol
+{
+  width: 30em;  /* room for 3 columns */
+}
+ol li
+{
+  float: left;
+  width: 10em;  /* accommodate the widest item */
+} */
+
+
+/* stop the floating after the list */
+br
+{
+  clear: left;
+}
+/* separate the list from what follows it */
+div.wrapper
+{
+  margin-bottom: 1em;
+}
+
+div.services
+{
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+                  width: 80%;
+                  margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 7px;
+}
+
+div.clinical
+{
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+                  	margin-left: auto;
+	margin-right: 10px;
+                  margin-bottom: 10px;	
+	padding: 7px;
+                  width: 30%;
+                  float: left;
+                  clear: right;
+                 
+}
+
+
+ 

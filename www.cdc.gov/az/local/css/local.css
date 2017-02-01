@@ -1,0 +1,183 @@
+/* 
+===========================================================
+A to Z -- CONTENT STYLES
+===========================================================
+*/
+#content .breadcrumbs,
+#content .pagetitle,
+#content #share-bar {
+	display: none;
+}
+
+#vitalsigns {
+	margin: 3px auto;
+	text-align: center;
+}
+
+#az-faqs {
+	margin-top: 18px;
+}
+
+#AZ-content {
+	overflow: visible;
+	display: inline-block;
+}
+
+#AZ-content h1 span {
+	font-size: 1.4em;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 2px;
+	font-weight: bold;
+	clear: left;
+}
+
+#AZ-content ul {
+	display:block;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	width: auto;
+	clear: left;
+}
+
+#AZ-content li {
+	background: transparent none repeat scroll 0% 0%;
+	display: block;
+	margin: 0px 0px 0px 3px;
+	padding: 1px;
+}
+
+#AZ-content li a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	width:100%;
+}
+
+#AZ-content li a:hover {
+	background: #fff9e5;
+	text-decoration: underline;
+}
+
+#AZ-content ul ul li {
+	margin-bottom: 0;
+	padding-left: 15px;
+	padding: 0;
+	list-style-type: none;
+	color: #565656;
+	font-size: .8em;
+	font-style: italic;
+}
+
+#AZ-content ul ul li a {
+	margin: 0;
+	padding: 5px;
+	display: inline;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+#AZ-content ul li a.level2 {
+	padding-left: 36px;
+}
+#AZ-content ul li a.level3 {
+	padding-left: 18px;
+}
+
+div.AZlist-main-container {
+	margin-top: 5px;
+	margin-left: 0;
+	margin-bottom: 10px;
+	float: left;
+	clear: both;
+	overflow: visible;
+	position: relative;
+	width: 100%;
+}
+
+div#content div#az-faqs.module {
+	margin: 18px 12px 0px 0px;
+	overflow: visible;
+	clear: left;
+}
+
+#content-main a:hover {
+	text-decoration: none;
+}
+.AZ-backtoMainAZIndexTop {
+	float:right;
+	font-weight:bold;
+	padding-right: 55px;
+	margin-top:10px;
+}
+.AZ-backtoMainAZIndexBottom {
+	margin-bottom:10px;
+	margin-left:120px;
+	margin-top:20px;
+	width:470px;
+	display: block;
+	clear: both;
+}
+html > body .AZ-backtoMainAZIndexTop {
+	padding-right: 125px;
+}
+
+.AZ-backtoMainAZIndexBottom p {
+	text-align:center;
+}
+.underlineme {
+	text-decoration:underline !important;
+}
+
+#AZ-content p.somemore a,
+#az-faqs p.somemore a {
+    background-position: right center;
+}
+#az-faqs {
+	margin-top: 24px;
+}
+#vitalsigns {
+	margin: 0px auto;
+}
+
+.AZlist-main {
+  margin-left: 0;
+}
+.AZlist-main li.activeLetter,
+.AZlist-main li {
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+}
+.AZlist-main li.activeLetter span,
+.AZlist-main li a {
+	background: #075290;
+	color: #FFF !important;
+	height: 25px;
+	width: 30px;
+	/*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6);*/
+	display: inline-block;
+	margin-right: 8px;
+	padding: 1px;
+	text-align: center;
+	transition: background 0.5s ease-in-out 0s;
+	text-decoration: none !important;
+	line-height: 20px;
+	margin-top: 8px;
+	padding-top: 5px;  
+}
+.AZlist-main li a:hover {
+  background: #6f90b8;
+}
+.AZlist-main li.activeLetter span {
+	background: #6f90b8;
+}
+
+@media (max-width: 767px) {
+	#AZ-content ul li a {
+		padding-top: 9px;
+	}
+}

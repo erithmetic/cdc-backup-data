@@ -1,0 +1,40 @@
+#wrapper .module-typeH.topicmedia ul { 
+       margin:0 
+} 
+.dirImagebox {
+	float:left;
+	width: 170px;
+	font-weight: bold;
+	font-size: .8em;
+	color: #075290;
+	text-align:center;
+margin-bottom: 20px !important;
+line-height: 15px !important;
+}
+
+.accent {
+	font-weight: bold;
+	color: #767676;
+font-size: 1.5em;
+line-height: 20px !important;
+margin:0px;
+padding:0px;
+}
+.ui-tabs  {
+margin-bottom: 10px !important;
+}
+#rss-block ul,  #rss-newsfeed ul, #rss-mediablock ul, #rss-outbreaksblock ul {padding-left:15px;}
+#rss-newsfeed li {padding-bottom:10px;}
+#rss-directorslatest .item-pubdate, #rss-directorfeed50 .item-pubdate, #rss-block .item-pubdate, #rss-mediablock .item-pubdate, #rss-outbreaksblock .item-pubdate {display:block; font-size:.9em; color:#999;}
+#rss-newsfeed .item-pubdate  {display:block; font-size:.9em; color:#999; padding-left:10px}
+
+#wrapper [class*='module'] > img,  #wrapper [class*='module'] > figure { 
+       width: auto !important;
+       padding: 5px !important;
+       margin-top: 5px !important;
+} 
+
+
+.margin-left-zero{
+	margin-left:0px!important;
+}
