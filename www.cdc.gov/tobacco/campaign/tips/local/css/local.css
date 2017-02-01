@@ -1,0 +1,627 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+
+/* "Sidebars" Styles */
+div#rtSidebar { 
+	padding: 0px;
+	margin: 0px 10px;
+	width: 40%;
+	float: right;
+}
+
+div#rtSidebar p.somemore {
+	margin-top: 7px;
+	margin-bottom: 10px;	
+}
+
+/* CDC Gadget Style Overrides */
+.cdcSliderCarousel#noBorder { /* removes the border around the photo carousel */
+	border: #ffffff 1px solid !important;
+}
+.cdcSliderCarousel p.slideDescription {
+	text-align: center;
+}
+.cdc-tabs { /* removes the outer border around tab sets */
+	border-top-color: #fff !important;
+	border-right-color: #fff !important;
+	border-bottom-color: #fff !important;
+	border-left-color: #fff !important;
+}
+
+/* CDC Header Spacing Override - to fix the lack of spacing that started in late 2013 globals 
+
+*/
+
+
+.subc p sup a { /*override CDC CSS that is causing hyperlinked <sup> tags to appear bolded in paragraphs but regular in lists */
+	font-weight: normal;
+}
+
+/* CDC Paragraph Spacing Override - to fix the lack of vertical spacing in current 2014 global <p> styles  */
+
+p.moreSpacing {
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+
+/* these classes override the purple module boxes now standard for the orange theme and replaces them with orange boxes to avoid color overload on the Tips homepage */
+
+#content-secondary .roundem {
+	background-color: #fcf5e3; 
+}
+#content-secondary .rounders .t { 
+	background-image: url(https://www.cdc.gov/TemplatePackage/images/theme-purple/bg_smallRails.gif) !important;
+}
+#content-secondary .rounders .b { 
+	background-image: url(https://www.cdc.gov/TemplatePackage/images/theme-purple/bg_smallRails.gif) !important;
+}
+#content-secondary .rounders .b div { 
+	background-image: url(https://www.cdc.gov/TemplatePackage/images/theme-purple/bg_smallRails.gif) !important;
+}
+#content-secondary .rounders .inner { 
+	background-image: url(https://www.cdc.gov/TemplatePackage/images/theme-purple/bg_smallRails.gif) !important;
+}
+
+/* Homepage Header Adjustments */
+
+div#stories h3, div#resources h3, div#videos h3 { /* makes h3 tags within tabs proportionate to tab header text */
+	font-size: 1.2em;
+	font-weight: bold;
+}
+div#stories h3 a, div#resources h3 a, div#videos h3 a, div#stories h3 a:visited, div#resources h3 a:visited, div#videos h3 a:visited { /* makes h3 tags within tabs that are also hyperlinks, visited and unvisited, retain original color */
+ 	color: #612e1f;
+}
+div#stories h3 a:hover, div#resources h3 a:hover, div#videos h3 a:hover { /* makes h3 tags within tabs that are also hyperlinks retain original color but adds underline on hover */
+ 	color: #612e1f;
+ 	text-decoration: underline !important;
+}
+#content h3.tips {
+	border: 1px solid #ffba52; 
+	background: #fbf5e3; 
+	padding: 3px 3px 3px 10px;
+	margin-bottom: 5px;
+}
+
+#content h3#stories.tips a:hover, #content h3#resources.tips a:hover, #content h3#videos.tips a:hover { /* Force underline on hover for hyperlinked h3 on homepage */
+	text-decoration: underline;
+}
+#content h3.tips a {
+	margin: 0px;
+	padding: 0px;
+	color: #612e1f;
+}
+
+/* Adding a YouTube section to the standard CDC Social Media Feed */
+
+.cdc-socialMedia #socialMediaFeeds #youtube {
+	background-color:#ebf2f9;
+	float:none;
+	margin-right:auto;
+	margin-left:auto;
+	width:97%;
+}
+
+#youtube h4 {background:transparent url(https://www.cdc.gov/tobacco/campaign/tips/images/icoYouTube-social-media.png) -12px 0 no-repeat;}
+
+.cdc-socialMedia #youtube h4 a:hover {text-decoration:underline;}
+
+.cdc-socialMedia #youtube h4 a {
+	color:#000;
+	display:block;
+	padding-left:2.5em;
+	text-decoration:none;
+}
+
+.cdc-socialMedia #socialMediaFeeds #youtube .socl-user {background-color:#d1e2f0;}
+
+.cdc-socialMedia #socialMediaFeeds #youtube .socl-user a:hover {text-decoration:underline;}
+
+.cdc-socialMedia #socialMediaFeeds #youtube .socl-user a {
+	text-decoration:none;
+}
+
+#youtube .socl-comment-text p {
+	margin: 15px auto;
+
+}
+
+/* Styles for Stay Connected page */
+div#involved h3 a {
+	color: #612e1f;
+}
+
+div#involved h3#ctf {
+	background: url(https://www.cdc.gov/tobacco/campaign/tips/images/ctf-logo-40x40.png) no-repeat 0px 0px;
+	height: 40px;
+	padding-bottom: 0;
+	margin-bottom: 2px;
+	padding-left: 45px;
+}
+div#involved h3#ctf a {
+	background: none no-repeat 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+div#involved div#facebook h3, div#involved div#twitter h3, div#involved div#youtube h3, div#involved div#apps h3, div#involved div#pinterest h3 {
+	height: 28px;
+	margin-bottom: 3px;
+}
+div#involved div#facebook h3 {
+	background: url(https://www.cdc.gov/tobacco/campaign/tips/images/icoFacebook.png) no-repeat 0px 0px;
+}
+div#involved div#twitter h3 {
+	background: url(https://www.cdc.gov/tobacco/campaign/tips/images/icoTwitter.png) no-repeat 0px 0px;
+}
+div#involved div#youtube h3 {
+	background: url(https://www.cdc.gov/tobacco/campaign/tips/images/icoYouTube.png) no-repeat 0px 0px;
+}
+div#involved div#apps h3 {
+	background: url(https://www.cdc.gov/tobacco/campaign/tips/images/icoApp.png) no-repeat 0px 0px;
+}
+div#involved div#pinterest h3 {
+	background: url(https://www.cdc.gov/tobacco/campaign/tips/images/icoPinterest.png) no-repeat 0px 0px;
+}
+div#involved div#facebook h3 a, div#involved div#twitter h3 a, div#involved div#pinterest h3 a {
+	background: none no-repeat 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-left: 33px;
+	text-decoration: none !important;
+}
+div#involved div#youtube h3 a {
+	background: none no-repeat 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-left: 82px;
+	text-decoration: none !important;
+}
+div#involved div#apps h3 a {
+	background: none no-repeat 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-left: 22px;
+	text-decoration: none !important;
+}
+div#involved h3#ctf a:hover, div#involved div#facebook h3 a:hover, div#involved div#twitter h3 a:hover, div#involved div#youtube h3 a:hover, div#involved div#apps h3 a:hover, div#involved div#pinterest h3 a:hover {
+	text-decoration: underline !important;
+}
+
+/* Styles for incoming syndicated content from Smokefree.gov */
+p.source {
+	margin-top: 20px;
+	border-top: 1px solid #666;
+	font-size: .9em;
+	color: #666;
+}
+.smoky {
+	background-color: #dedede;
+}
+table.borders {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	margin-bottom: 2em;
+	width: 600px !important;
+}
+
+/* Liquid Layout Box Classes */
+
+/* Real Stories boxes */
+.rs-wrapper {
+	clear:left;
+	float:left;
+	width:100%;
+	padding-bottom:10px;
+}
+
+.rs-box-wrap {
+	float:left;
+	width:260px;
+	margin-top:20px;
+}
+
+.rs-box {
+	float:right;
+	width:255px;
+	height:130px;
+	padding-bottom:5px;
+}
+.rs-wrapper.esp .rs-box {
+	height:180px !important;
+}
+.rs-box-pad {
+	position:relative;
+	right:5px;
+	float:right;
+	width:250px;
+	overflow:hidden;
+}
+/* Video boxes */
+.video-wrapper {
+	clear:left;
+	float:left;
+	width:100%;
+	padding-bottom:10px;
+	margin-top: 20px;
+}
+
+.video-box-wrap {
+	float:left;
+	width:300px;
+	margin-top:20px;
+}
+
+.video-box {
+	float:right;
+	width:295px;
+	height:365px;
+	padding-bottom:5px;
+}
+
+.video-box2 {
+	float:right;
+	width:295px;
+	height:385px;
+	padding-bottom:5px;
+}
+
+.video-box-pad {
+	position:relative;
+	right:5px;
+	float:right;
+	width:290px;
+	overflow:hidden;
+}
+#videos-by-name h5, #videos-by-disease h5, #videos-by-year h5 {
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+	line-height: 2em;
+	font-style: italic;
+}
+.video-list-item {
+margin: 10px 0px;
+}
+.video-list-item p img {
+float:left;
+margin: 0px 10px 10px 0px;
+}
+/* Item boxes */
+.item-wrapper, .item-wrapper#posters {
+	clear:left;
+	float:left;
+	width:100%;
+	padding-bottom:10px;
+	margin-top: 10px;
+}
+
+.item-wrapper form label {
+	padding-left: 30px;
+}
+
+.item-box-wrap {
+	float:left;
+	width:305px;
+	margin-top:20px;
+}
+
+.item-box {
+	float:right;
+	width:300px;
+	height:365px;
+	padding-bottom:5px;
+}
+
+.item-box-pad {
+	position:relative;
+	right:5px;
+	float:right;
+	width:295px;
+	overflow:hidden;
+}
+
+.item-wrapper#posters .item-box-wrap { width: 180px; }
+.item-wrapper#posters .item-box { width: 195px; height:290px; }
+.item-wrapper#posters .item-box-pad { width: 170px; }
+
+
+div.cdc-caption img {
+	height: inherit;
+	width: inherit;
+}
+
+a.noDecoration img, a.noDecoration:hover img {
+	text-decoration: none !important;
+}
+
+.imgP img {
+	margin:	2px 10px 0px 0px;
+}
+
+
+
+/* Grid Additions */
+/* These styles are additional options to the standard CDC grid options */
+
+.c10l, .c90l {float: left}
+.c10r, .c90r {float:right; margin-left:-5px;}
+
+.c15l, .c85l {float:left;}
+.c15r, .c85r {float:right; margin-left:-5px;}
+
+.c10l, .c10r {width:10%;}
+.c90l, .c90r {width:90%;}
+
+.c15l, .c15r {width:15%;}
+.c85l, .c85r {width:85%;}
+
+*:first-child+html .c10l, *:first-child+html .c10r {min-width:10%;}
+*:first-child+html .c90l, *:first-child+html .c90r {min-width:90%;}
+
+*:first-child+html .c15l, *:first-child+html .c15r {min-width:15%;}
+*:first-child+html .c85l, *:first-child+html .c85r {min-width:85%;}
+
+.c10l > .subc, .c90l > .subc {
+	margin:0 !important;
+	padding:0 5px 0 0 !important;
+}
+.c10r > .subc, .c90r > .subc {
+	margin:0 !important;
+	padding:0 0 0 5px !important;
+}
+
+.c15l > .subc, .c85l > .subc {
+	margin:0 !important;
+	padding:0 5px 0 0 !important;
+}
+.c15r > .subc, .c85r > .subc {
+	margin:0 !important;
+	padding:0 0 0 5px !important;
+}
+.subcl2 {margin:0 7px 0 0;}
+
+/* END Grid Additions */
+
+/* Visual Separator Classes */
+
+hr.dotSeparator {
+	margin-top: .5em;
+	margin-bottom: .25em;
+	border: none; /* IE needs this to prevent it from drawing the hr line */
+	height: 0;
+	border-bottom: 1px dotted #999999;
+}
+
+hr.dotSeparator#h50 {
+	margin-top: .7em;
+	margin-bottom: .7em;
+	width: 50%;
+}
+	
+hr.h80 {
+	width: 80%;
+}
+hr.h50 {
+	width: 50%;
+}
+hr.h50Separator {
+	width: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+div#BarParent {
+	padding-bottom: 0px;
+	margin: 0px 0px 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	clear: both;
+	padding-top: 0px;	
+}
+
+div#local-campaign {
+	margin: 10px 0px;	
+}
+
+/* Definition list classes */
+
+dl.definition dt { /* adds vertical spacing above the definition term for readability */
+	margin-top: 1em;
+	}
+dl.definition dd { /* indents the actual definition for readability */
+	padding-left: 1.5em;
+	}
+dl.definitionDbl dt {
+	margin-top: 1.8em; /* class to "double" the vertical spacing between dt elements in a dl */
+	}
+dl.definitionDbl dd { /* indents the actual definition for readability */
+	padding-left: 1.5em;
+	}
+
+/* Rename/Duplicate of Definition list classes ; renaming to match usage on 3/4/2010 ; will phase out
+   old .definition */
+
+dl.faq dt { /* adds vertical spacing above the definition term for readability */
+	margin-top: 2em;
+	font-weight: bold;
+	}
+dl.faq dd { /* indents the actual definition for readability */
+	margin-top: .5em;
+	padding-left: 1.5em;
+	}
+dl.faqDbl dt {
+	margin-top: 1.8em; /* class to "double" the vertical spacing between dt elements in a dl */
+	}
+dl.faqDbl dd { /* indents the actual definition for readability */
+	padding-left: 1.5em;
+	}
+
+/* Alphabetical Index Formatting Class */
+div.alpha_index h3,
+div.alpha_index h4,
+div.alpha_index h5,
+div.alpha_index h6 {
+	font-family: "Trebuchet MS", Arial, sans-serif; 	
+	/*text-transform: uppercase;  had to comment out for use in corners */
+}
+div.alpha_index h3 {
+	color: #0C5205 !important;
+	font-size: 3em;
+	font-weight: normal;
+	margin-top: .5em;
+	margin-bottom: .25em;
+	border-bottom: 1px dotted #0C5205;
+}
+div.alpha_index h4 {
+	color: #000;
+	font-size:1.3em;
+	font-weight: bold;
+	padding-left: .5em;
+}
+div.alpha_index h5 {	
+	position: relative;
+	color: #000;
+	font-size:1.2em;
+	font-weight: bold;
+}
+div.alpha_index h6 {
+	position: relative;
+	color: #000;
+	font-size:1em;
+	font-weight: bold;
+}
+div.alpha_index ul li { /* keeps bullets from showing in front of items within the index */
+	font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	}
+
+/* Utility Classes */
+
+.offscreen { /* Hides text content of a tag offscreen - usually used for 508 compliance to have text for screenreaders that is not visible to sighted users,
+				but can also be used as a workaround to deal with IE issues with anchor tags near iframes */
+	height: 1px;
+	text-indent: -999em !important;
+	text-decoration: none !important;
+}
+.hideContent {
+	display: none;
+}
+.redText { /* just what it says - used for alerts and important notes */
+	color: red !important;
+	}
+.memoriam { /* black-bordered memorial box */
+	border:2px solid #000; 
+	padding: 10px; margin: 10px 0px; 
+}
+.memoriam p a {
+	text-decoration: none !important;
+}
+.memoriam p a:hover {
+	text-decoration: underline !important;
+}
+.missingContent { /* utility placeholder class for highlighting content not yet complete */
+	background-color: #FFFF00;
+	}
+.caption {
+	font-size: .8em;
+	}
+.noteText {
+	font-size: 0.9em;
+	color: #666666;
+	}
+.reference {
+	font-size: .9em;
+	color: #333333;
+	}
+ol.reference {
+	list-style-type: decimal;
+	/* margin-left: -10px; */
+	}
+.checkLink { /* class for use during development to indicate to team that the link being pointed
+			 	to needs to be confirmed/checked */
+	background-color: #F0F;
+}
+.devNote { /* class for indicating a developer's note or comment on content during the development stage */
+	background-color: #0C6;
+}	
+.i {
+	font-style: italic;
+	}
+.b {
+	font-weight: bold;
+	}
+.clearBoth, .clearAll {
+	clear: both;
+	}
+.floatLeft {
+	float: left;
+	}
+.floatRight {
+	float: right;
+	}
+.alignLeft {
+	text-align: left;
+	}
+.alignRight {
+	text-align: right;
+	}
+.alignCenter {
+	text-align: center;
+	}
+.indent5, p.indent5 {
+	text-indent: 3em;
+	}
+.leftMargin5 {
+	margin-left: 3em;
+	}
+.leftMargin4 { /* This class is for use with headers that need to be indented, but
+			      feature a UL or OL directly below to which leftMargin5 is applied.
+				  The bullets stick out a bit to the left, so the header above it
+				  needs to be slightly less than the 3em of leftMargin5 to align
+				  properly. */
+	margin-left: 2.5em;
+	}
+.leftMargin3 {
+	margin-left: 2em;
+	}
+ul.noList li { /* class for lists that need to be tightly vertically spaced without bullets (such as indices or disease listings) (Caryn Note 11/05/2009: Need to look into whether this class might be better replaced with more descriptive .closerSpacing, below) */
+	font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+/* Class for allowing closer vertical spacing between list items */
+ol.closerSpacing li, ul.closerSpacing li {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	}
+ul.noListBullet li {
+		list-style: none;
+}
+a.noDecoration img, a.noDecoration:hover img {
+	text-decoration: none !important;
+}
+
+
+/* Classes to force tabs to expand to fit largest amount of content. These must be last in the stylesheet in order to work! Thank you to Cassian P. :) */
+.ui-tabs .ui-tabs-panel {
+	height: auto;
+	overflow-y: visible;
+	max-height: none;
+}
+:root * > .module.cdc-tabs .inner .subc { /* Needed for FF */
+	height: auto;
+	overflow-y: visible;
+	max-height: none;
+}
+.rs-wrapper, .video-wrapper {
+	float: none;
+	clear: none;
+	display: inline-block;
+}

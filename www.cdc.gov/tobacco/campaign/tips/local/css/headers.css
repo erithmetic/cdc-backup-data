@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* Headers */
+
+/* 508 Compliant Headers */
+
+/* Graphical headers and JQuery features that are still 508-compliant because text is hidden off-screen except for screen readers. */ 
+/* IMPORTANT: These headers use a 1px transparent spacer graphic and text indented off the viewable screen 
+	to provide a readable text header for screen readers and 508 assistive technology that will be invisible 
+                  to sighted users. This enables the use of other graphical headers for sighted users, and also lets JQuery
+	features be used (since JQuery uses lists rather than header tags for tab, accordion, etc. headers), while 
+	still providing HTML code in the proper places within the page for assistive technologies. It will never 
+	be seen by sighted users, but it needs to stay on the pages where it's used. -Caryn, 1/3/2012 */
+			 
+
+h1#tips {
+	height: 1px;
+	background: url(https://www.cdc.gov/tobacco/campaign/tips/images/spacer.gif) left no-repeat;
+	text-indent: -999em;
+	margin-bottom: 0px;
+}
+
+h1#million-banner {
+	height: 283px;
+	background: url(https://www.cdc.gov/tobacco/campaign/tips/images/banners/million-memorial-banner-970x283.jpg) left no-repeat;
+	text-indent: -999em;
+	margin-bottom: 0px;
+}
