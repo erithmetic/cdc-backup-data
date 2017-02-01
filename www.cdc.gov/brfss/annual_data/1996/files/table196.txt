@@ -1,0 +1,54 @@
+View in Courier, 10 point
+
+Fixed Core
+
+Topic             No. Ques.
+
+Health status        4
+Health insurance     3
+Routine check-up     1
+Diabetes             1
+Smoking              5
+Pregnancy            1
+Women's health      10
+HIV/AIDS            14
+Demographics        14
+
+Total     Women     53
+          Men       42
+
+Rotating Core II
+  (even years)
+
+Topic             No. Ques.
+
+Physical activity   10 
+Fruits & vegetables  6
+Weight control       6      
+
+Total               22
+
+Modules (1996)
+
+Topic            No.States.
+
+Arthritis             6
+Alcohol              13
+Cholesterol          10
+Colorectal screen     4
+Cardiovascular        7
+Diabetes             38
+Firearms              6
+Hypertension         14
+Health care coverage 11
+Health care use      12
+Immunization         15
+Injury control       10
+Oral health          21
+Preventive counseling  16
+Quality of life       5
+Sexual behavior       2
+Social context        4
+Smokeless tobacco    16
+
+                                                                              

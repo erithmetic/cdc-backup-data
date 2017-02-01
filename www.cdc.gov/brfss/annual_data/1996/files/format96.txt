@@ -1,0 +1,580 @@
+
+Variable Names by Column Numbers, BRFSS 1996
+
+View in Courier New, 10 pt font, with smallest possible margins.
+
+ Variable Name                                  Starting Column               Ending Column
+
+ _ACPRWT                                               523                        532
+
+ _AGE65YR                                              639                        639
+
+ _AGEG                                                 636                        636
+
+ _AGEG_                                                536                        536
+
+ _AGEG5YR                                              637                        638
+
+ _BMI                                                  613                        615
+
+ _BPCHECK                                              643                        643
+
+ _CHOLCHK                                              642                        642
+
+ _CSA                                                  550                        559
+
+ _DENSTR                                               505                        506
+
+ _DENWT                                                513                        522
+
+ _DRNKMO                                               604                        607
+
+ _FINALWT                                              580                        589
+
+ _FRTINDX                                              623                        623
+
+ _FRTSERV                                              618                        622
+
+ _IMPAGE                                               537                        538
+
+ _MSACODE                                              590                        593
+
+ _POSTSTR                                              570                        579
+
+ _PSU                                                    4                          8
+
+ _RACEG                                                640                        640
+
+ _RACEG_                                               535                        535
+
+ _RACEGR                                               641                        641
+
+ _RAW                                                  540                        549
+
+ _RECORD                                                 9                          9
+
+ _REGION                                               533                        534
+ 
+_RFDRACU                                              628                        628
+
+ _RFDRCHR                                              630                        630
+
+ _RFDRDRI                                              629                        629
+
+ _RFHYPE2                                              626                        626
+
+ _RFLIFES                                              631                        631
+
+ _RFOBESE                                              633                        633
+
+ _RFREGUL                                              632                        632
+
+ _RFSEAT2                                              624                        624
+Variable Names by Column Numbers, BRFSS 1996
+
+
+
+ Variable Name                                  Starting Column               Ending Column
+
+ _RFSEAT3                                              625                        625
+
+ _RFSMOK2                                              627                        627
+
+ _RFTOBAC                                              635                        635
+
+ _RFWHBMI                                              634                        634
+
+ _SMKLESS                                              617                        617
+
+ _SMOKER2                                              603                        603
+
+ _STATE                                                  1                          2
+
+ _STRATA                                               503                        504
+
+ _STSTR                                                501                        512
+
+ _TOTINDX                                              616                        616
+
+ _WT1                                                  560                        569
+
+ _WTFORHT                                              608                        612
+
+ AGE                                                   109                        110
+
+ ALCOHOL                                               298                        300
+
+ AREACODE (Character)                                   18                         20
+
+ ASPUNSAF                                              272                        272
+
+ BIKEHLMT                                              295                        295
+
+ BLDSTOOL                                              287                        287
+
+ BLDSUGAR                                              178                        180
+
+ BLOODCHO                                              261                        261
+
+ BPHIGH                                                259                        259
+
+ BPTAKE                                                258                        258
+
+ CARROTS                                                98                        100
+
+ CERTDOCT                                               48                         48
+
+ CHECKUP                                                51                         51
+
+ CHKHEMO                                               184                        185
+
+ CHLD04                                                114                        114
+
+ CHLD0512                                              115                        115
+
+ CHLD1317                                              116                        116
+
+ CHLDLT16                                              292                        293
+
+ CHNGDOCT                                              209                        209
+
+ CHOLCHK                                               262                        262
+
+ CONDLAST                                              197                        197
+Variable Names by Column Numbers, BRFSS 1996
+
+
+
+ Variable Name                                  Starting Column               Ending Column
+
+ CONDUSE                                               149                        149
+
+ CONEFF2                                               167                        167
+
+ CONFRNTA                                              314                        314
+
+ COUNSEL                                               166                        166
+
+ CTYCODE                                               130                        132
+
+ CURADRS                                               319                        319
+
+ CURESTRO                                              279                        279
+
+ CVDASPRN                                              271                        271
+
+ CVDCORHD                                              269                        269
+
+ CVDEXR02                                              267                        267
+
+ CVDEXRSK                                              265                        265
+
+ CVDFAT02                                              266                        266
+
+ CVDFATRK                                              264                        264
+
+ CVDINFAR                                              268                        268
+
+ CVDSTROK                                              270                        270
+
+ DENTLINS                                              250                        250
+
+ DIABAGE                                               172                        173
+
+ DIABETES                                               52                         52
+
+ DICSESTR                                              277                        277
+
+ DISPCODE                                               26                         27
+
+ DISTCARE                                              212                        212
+
+ DOCTDIAB                                              182                        183
+
+ DOCTLIST                                               47                         47
+
+ DONBLD85                                              152                        152
+
+ DRADVICE                                              108                        108
+
+ DRINKANY                                              297                        297
+
+ DRINKDRI                                              305                        306
+
+ DRINKGE5                                              303                        304
+
+ EDUCA                                                 117                        117
+
+ EMPLOY                                                118                        118
+
+ ENGHFOOD                                              321                        321
+
+ ESTRBONE                                              281                        281
+Variable Names by Column Numbers, BRFSS 1996
+
+
+
+ Variable Name                                  Starting Column               Ending Column
+
+ ESTRFLSH                                              282                        282
+
+ ESTRHART                                              280                        280
+
+ ESTRPILL                                              278                        278
+
+ EXERACT1                                               54                         55
+
+ EXERACT2                                               66                         67
+
+ EXERANY                                                53                         53
+
+ EXERDIS1                                               56                         58
+
+ EXERDIS2                                               68                         70
+
+ EXERHMM1                                               62                         64
+
+ EXERHMM2                                               74                         76
+
+ EXEROFT1                                               59                         61
+
+ EXEROFT2                                               71                         73
+
+ EXEROTH2                                               65                         65
+
+ EYEEXAM                                               188                        188
+
+ FACILITY                                              242                        243
+
+ FEETCHK                                               186                        187
+
+ FEWCAL                                                106                        106
+
+ FIREARM2                                              307                        307
+
+ FLUSHOT                                               283                        283
+
+ FRUIT                                                  89                         91
+
+ FRUITJUI                                               86                         88
+
+ GENHLTH                                                33                         33
+
+ GETHIV                                                150                        150
+
+ GRADE2                                                147                        148
+
+ GREENSAL                                               92                         94
+
+ HADHYST                                               145                        145
+
+ HADMAM                                                136                        136
+ HADPAP                                                142                        142
+
+ HADPROC2                                              289                        289
+
+ HADRECTL                                              285                        285
+
+ HANDGUNS                                              308                        308
+
+ HAVARTH                                               218                        218
+
+ HEIGHT                                                127                        129
+Variable Names by Column Numbers, BRFSS 1996
+
+
+
+ Variable Name                                  Starting Column               Ending Column
+
+ HEMOGLBN                                              181                        181
+
+ HIGHGT1                                               260                        260
+
+ HISPANIC                                              112                        112
+
+ HIVRISK                                               198                        198
+
+ HIVTEST                                               151                        151
+
+ HLTHCOVR                                              203                        203
+
+ HLTHPLAN                                               40                         40
+
+ HLTHPROB                                              223                        224
+
+ HOWLONG                                               137                        137
+
+ HOWSAFE                                               317                        317
+
+ HTF                                                   127                        127
+
+ HTI                                                   128                        129
+
+ IDATE (Character)                                      10                         15
+
+ IDAY (Character)                                       12                         13
+
+ IMONTH (Character)                                     10                         11
+
+ INCOME2                                               119                        120
+
+ INSLNFRQ                                              175                        177
+
+ INSULIN                                               174                        174
+
+ INTVID (Character)                                     16                         17
+
+ IYEAR                                                  14                         15
+
+ LASTCHNG                                              210                        211
+
+ LASTDENT                                              246                        246
+
+ LASTDON                                               153                        156
+
+ LASTEXAM                                              286                        286
+
+ LASTPAP                                               143                        143
+
+ LASTSMOK                                               84                         85
+
+ LENGEXAM                                              140                        140
+
+ LMTJOINT                                              217                        217
+
+ LOADUNLK                                              311                        311
+
+ LONGLMTD                                              225                        227
+
+ LOSEWT                                                104                        104
+
+ LSTBLDST                                              288                        288
+
+ LSTPROC2                                              290                        290
+Variable Names by Column Numbers, BRFSS 1996
+
+
+
+ Variable Name                                  Starting Column               Ending Column
+
+ LSTTST2                                               157                        160
+
+ MAINTAIN                                              105                        105
+
+ MARITAL                                               113                        113
+
+ MCRELNGT                                               46                         46
+
+ MEDCOST                                                50                         50
+
+ MEDICARE                                               41                         41
+
+ MENTHLTH                                               36                         37
+
+ MOSTCARE                                              241                        241
+
+ NALCOCC                                               301                        302
+
+ NMCLSFRD                                              320                        320
+
+ NOCOV12                                               204                        204
+
+ NOPRIMCR                                              244                        245
+
+ NUMADULT                                               29                         30
+
+ NUMBDOCT                                              208                        208
+
+ NUMHHOLD                                              133                        133
+
+ NUMMEN                                                 31                         31
+
+ NUMPHONS                                              134                        134
+
+ NUMWOMEN                                               32                         32
+
+ ORACE                                                 111                        111
+
+ PAIN12MN                                              215                        215
+
+ PAINACTV                                              230                        231
+
+ PASTMENO                                              276                        276
+
+ PASTPLAN                                               49                         49
+
+ PCSAIDS                                               257                        257
+
+ PCSALCH                                               255                        255
+
+ PCSDRGAB                                              254                        254
+
+ PCSEATHB                                              251                        251
+
+ PCSEXER                                               252                        252
+
+ PCSINJPV                                              253                        253
+
+ PCSSMOK                                               256                        256
+
+ PERFRARM                                              316                        316
+
+ PHONENUM (Character)                                   18                         25
+
+ PHYACT                                                107                        107
+Variable Names by Column Numbers, BRFSS 1996
+
+
+
+ Variable Name                                  Starting Column               Ending Column
+
+ PHYSHLTH                                               34                         35
+
+ PNEUMVAC                                              284                        284
+
+ POORHLTH                                               38                         39
+
+ POTATOES                                               95                         97
+
+ PREFIX (Character)                                     21                         23
+
+ PREGNANT                                              146                        146
+
+ PRIMCARE                                              240                        240
+
+ PROFEXAM                                              139                        139
+
+ PROTECT2                                              312                        312
+
+ QLACTLMT                                              222                        222
+
+ QLHLTHY                                               238                        239
+
+ QLMENTAL                                              232                        233
+
+ QLPERSNL                                              228                        228
+
+ QLREST                                                236                        237
+
+ QLROUTIN                                              229                        229
+
+ QLSTRESS                                              234                        235
+
+ RACE                                                  601                        602
+
+ RATECARE                                              207                        207
+
+ REASDENT                                              247                        248
+
+ REASEXAM                                              141                        141
+
+ RENTHOME                                              318                        318
+
+ RESULTS                                               165                        165
+
+ RIDARMED                                              313                        313
+
+ RIFLE                                                 309                        309
+
+ RMVTEETH                                              249                        249
+
+ RNSARMED                                              310                        310
+
+ RSNNOCOV                                              201                        202
+
+ RSNTST2                                               161                        162
+
+ RSNWOCOV                                              205                        206
+
+ SAFWKSHP                                              315                        315
+
+ SEATBELT                                              291                        291
+
+ SELCPTNR                                              171                        171
+
+ SEX                                                   135                        135
+Variable Names by Column Numbers, BRFSS 1996
+
+
+
+ Variable Name                                  Starting Column               Ending Column
+
+ SEX1PTNR                                              169                        169
+
+ SEXBEHAV                                              168                        168
+
+ SEXCONDM                                              196                        196
+
+ SEXINTMN                                              192                        193
+
+ SEXINTWK                                              194                        195
+
+ SFTYLT16                                              294                        294
+
+ SMKDETEC                                              296                        296
+
+ SMOKE100                                               77                         77
+
+ SMOKEDAY                                               78                         78
+
+ SMOKENUM                                               79                         80
+
+ SMOKNM30                                               81                         82
+
+ STATEQUE (Character)                                  330                        500
+
+ STDCLIN                                               200                        200
+
+ STDTREAT                                              199                        199
+
+ STOPSMOK                                               83                         83
+
+ SUFFIX (Character)                                     24                         25
+
+ SYMTMMTH                                              216                        216
+
+ TOLDHI                                                263                        263
+
+ TRTARTH                                               221                        221
+
+ TYPCOVR1                                               42                         43
+
+ TYPCOVR2                                               44                         45
+
+ TYPEARTH                                              219                        220
+
+ USECONDM                                              170                        170
+
+ USEEVER                                               213                        213
+
+ USENOW                                                214                        214
+ VEGETABL                                              101                        103
+
+ VISIONTV                                              191                        191
+
+ VISNDIST                                              189                        189
+
+ VISNREAD                                              190                        190
+
+ WEIGHT                                                121                        123
+
+ WHRTST2                                               163                        164
+
+ WHYASPAN                                              273                        273
+
+ WHYASPHA                                              274                        274
+Variable Names by Column Numbers, BRFSS 1996
+
+
+
+ Variable Name                                  Starting Column               Ending Column
+
+ WHYASPSK                                              275                        275
+
+ WHYDONE                                               138                        138
+
+ WHYPAP                                                144                        144
+
+ WINDDOWN                                               28                         28
+
+ WTDESIRE                                              124                        126

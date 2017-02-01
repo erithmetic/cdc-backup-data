@@ -1,0 +1,152 @@
+COMPARABILITY OF DATA
+
+
+The BRFSS is a cross-sectional surveillance survey currently involving 52 reporting areas.  It is
+important to note that any survey will have natural variation over sample sites; therefore some
+variation between states is to be expected.  The complex sample design and the multiple
+reporting areas complicate the analysis of the BRFSS.  Although CDC works with the states to
+minimize deviations, in 1997 there were some deviations in sampling and weighting protocols, 
+sample size, response rates,  and collection or processing  procedures.  In addition, California's
+questionnaire had a few minor differences in question wording and a more restrictive age range
+for the HIV/AIDS questions. This following section identifies variations identified for 1997.
+
+
+A.  1997 Data Anomalies and Deviations from Sampling Frame and Weighting Protocols
+
+Alaska
+
+Alaska's sample design is made up of three random digit-dialed strata and four listed strata,
+where phone numbers are selected from a list of putative household numbers.  The sampling
+frame contains all of the household numbers in the random digit-dialed strata and an estimated
+45% of all household numbers in the listed strata.  This represents an exclusion of approximately
+9% of all residential numbers in Alaska.
+
+In 3 out of 4 geographic strata, prefixes are assigned to a high (RDD) or low (listed) density
+stratum depending largely on the number of  active  household numbers (about 2000 being the
+threshold) in the exchange (10,000 numbers).  All numbers in the fourth geographic stratum are
+assigned to the listed density stratum.  In the RDD strata, the probability that a number is
+selected depends on the number of active household numbers in its exchange.  In the RDD strata,
+a number of prefixes equal to the target sample size are selected at random in proportion to their
+number of active HH's.  (A prefix can be selected more than once.)  Once a prefix is selected into
+the RDD sample, 48 suffixes are randomly generated.  Once the entire sample for the stratum is
+generated duplicate numbers are deleted without replacement.  The final result is h lists of phone
+numbers per stratum, each containing 48 or fewer unique numbers, where h is the target number
+of completes per stratum.  Phone numbers are called sequentially from each list until one
+complete per list is obtained.
+
+California
+
+California's 1997 sample design uses a sampling frame consisting of hundred blocks that contain
+three or more listed household telephone numbers.  Telephone numbers are sampled in direct
+proportion to the number of  listed household numbers in the hundred block from which each is
+selected.  The design also varies probabilities of selection by the county to which a prefix is
+assigned according to one of various criteria, such as total households or population.  The criteria
+may have varied at the different times sample records were selected.   During sample selection, if
+a known business number is initially selected, it is replaced by the next eligible number on the
+sampling frame,  which increases the probability of selection of numbers preceded by known
+business numbers.  Any number selected within the previous five to six months by any of the
+clients used by California's vendor is also replaced by the next available number on the sampling
+frame unless this would result in an insufficient number of sampling units being provided.  No
+adjustment has been made for the differential probabilities associated with selection being made
+in proportion to hundred block listings, county, or replacement of business or recently selected
+numbers.
+
+Hawaii
+
+Hawaii uses a sampling frame obtained from the state's telephone company.  The frame
+purportedly contains all working prefixes in Hawaii.  The frame is divided into six strata,
+corresponding to the major islands of Hawaii.  The working prefixes are used to  randomly
+generate telephone numbers with a probability proportional to the number of known household
+numbers in the hundred block to which a number belongs.  Telephone numbers from hundred
+blocks with no known household numbers have a zero probability of being included in the
+sample.  The percentage of telephone households excluded from the sampling frame is unknown. 
+The numbers generated are subsequently screened by GTE Hawaii, who screens out all but the
+listed and unlisted household numbers in the sample.
+
+
+
+
+Nevada
+
+Nevada used two different sample designs in 1997.  From January through August, Nevada used
+a sample design with a sampling frame consisting of hundred blocks that contain five or more
+listed household telephone numbers.  Telephone numbers were sampled in direct proportion to
+the number of  listed household numbers in the hundred block from which each is selected.  The
+design also varied probabilities of selection by the county to which a prefix is assigned according
+to one of various criteria such as total households or population.  The criteria  may have varied at
+the different times sample records were selected.   During sample selection, if a known business
+number was initially selected, it was replaced by the next eligible number on the sampling frame, 
+which increased the probability of selection of numbers preceded by known business numbers. 
+Any number selected within the previous five to six months by any of the clients used by
+Nevada's vendor was also replaced by the next available number on the sampling frame unless it
+resulted in an insufficient number of sampling units being provided.  No adjustment has been
+made for the differential probabilities associated with selection being made in proportion to
+hundred block listings, county, or replacement of business or recently selected numbers.  From
+September through December, Nevada used a disproportionate stratified sample.  The differences
+in designs were taken into account when weighting the data.
+
+Texas
+
+In 1997, Texas used a sample design in which only phone numbers from hundred blocks with
+one or more listed household numbers were included in the sampling frame.  Such hundred
+blocks are estimated to contain 97.1% of all household numbers in Texas.  Numbers from this
+frame were selected with an equal probability of selection.
+
+Other areas
+
+In a few states, a portion of  sample records intended for use during one month may have been
+completed in another month.  This deviation should only affect analyses based on monthly,
+rather than annual, data.
+
+B.  Other 1997 limitations of the data
+
+In addition to departing from the standard for sample designs, California modified the wording of
+mammography, Papanicolaou (PAP) smear questions and chronic alcohol use.  These questions
+may have limited comparability  to those of other reporting areas.   California also asked the
+HIV/AIDS section questions to persons 18-45 years of age rather than to those 18-64 years of
+age as specified.
+
+Oklahoma's  sample includes a disproportionate number of persons 65 years or over compared
+with their state  population.  An age distribution that differs substantially from the population
+distribution in the survey may produce biased estimates of risk factor prevalences, particularly
+since many characteristics of individuals are affected by age.  Further information on age
+distribution is shown in Table 6 of the Summary Quality Control Report avaialbe at the internet
+web site www.cdc.gov/nccdphp/brfss.
+
+Respondent race distribution between the sample and the population differed for some reporting
+areas, and may produce biased estimates of risk factor prevalences.  The discrepancy between the
+percentage Non-white in the sample and the percentage Non-white in the population is an
+indicator of racial bias of the sample.  The percentage Non-white in the sample is affected by
+interstate differences in the protocol for coding the race of Hispanics.  For example, Texas
+and Idaho coded Hispanics as Other Race unless the respondent identified themselves as
+belonging to one of the standard categorical races the first time they were asked the question. 
+New Mexico, by contrast, probed for one of the standard race categories.  Finally, California
+coded the race of Hispanics as White unless they identified themselves as belonging to one of the
+other standard races the first time they were asked the question.  These differences in protocol
+affect the percentage Non-white in states with large Hispanic populations and may  introduce
+bias in the race-specific risk factor prevalences for these areas. ( See Tables 3-5 in The
+Summary Quality Control Report for additional information.)
+
+Income non-response varies substantially by reporting area.  Although the median non-response
+rate on this item is 6.1%, it ranges from 1.4% to 26.8% across states.  Twenty-seven  percent of
+Oklahoma's respondent records were missing income, as were about 25% of the records in South
+Carolina and Arizona.  Compared with other items on the survey, income non-response is
+relatively high.  For example, item non-response for age has a median of less than 0.4%, and a
+maximum of 3.0%.  Other demographic items (not shown in the tables), including education,
+employment, and marital status have less than 1% item non-response.
+
+Telephone coverage averages about 95% for U.S. states as a whole, but ranges from 3.2%
+non-coverage in North Dakota, to 13.3% in New Mexico.  It is estimated that 24% of households
+in Puerto Rico are without telephones. 
+
+Dual questionnaires and/or partial year coverage occurred in Illinois, Kentucky, Maryland and
+Tennessee.  Illinois used dual questionnaires, and collected data on core items involving
+immunization, cholesterol and hypertension and modules concerning fruits and vegetables;
+exercise and weight control for only 6 months of the interviewing period in 1997.  Kentucky
+used dual questionnaires and collected data on the following modules for only part of the year:
+fruits and vegetables, exercise, folic acid and smokeless tobacco.  Maryland collected data for
+part of the year for the oral health, fruits and vegetables, social context and sexual behavior
+modules.   Tennessee collected data for the modules on sexual behavior and exercise for only
+part of the year. Data users will need to alter program code so that the usual "missing/dk/refused"
+codes are not combined with "9's" appearing in records due to noncoverage in the states
+mentioned here.   

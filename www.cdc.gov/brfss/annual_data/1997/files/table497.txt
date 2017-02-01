@@ -1,0 +1,51 @@
+(View in Courier New, 10 pt font)
+
+1997 Summary Sample Size and Sample Design Information
+
+Sample Size         All States          Mean for States
+
+Number of States    52
+
+     Annual         135,582                 2607.3
+     Monthly        11,298.5                 217.3
+
+
+Type of Sample Design                   Number of States
+
+Waksberg Cluster                                       29
+
+Disproportionate Stratified Random           17
+
+Other                                                             6
+
+Total                                                            52
+
+
+
+
+Stratification                     Geographic               Any
+
+States with More than one stratum            
+
+     Number of States                       14                  24
+
+     Total Number of Strata             99                 178
+
+     Mean Number of Strata             7.1                 7.4       
+
+
+All States
+
+     Number of States                       52                  52
+
+     Total Number of Strata            137                 206
+
+     Mean Number of Strata              2.6                4.0  
+
+
+
+
+
+
+
+

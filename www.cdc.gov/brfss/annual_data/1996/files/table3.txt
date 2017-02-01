@@ -1,0 +1,62 @@
+(View with courier new 10 pt font)
+Telephone Status By State: Weighted Average of 1/94 - 1/96 CPS Data
+Source:   U.S. Census Bureau/GENESYS Sampling Systems
+
+State     Total Households         Proportion of all Telephone Households
+          Percent No Phone         0-Listed Bank       1+Listed Bank
+
+Alabama             8.4                 3.0            97.0
+Alaska              7.1                 2.3            97.9
+Arizona             6.5                 4.1            95.9
+Arkansas            10.4                2.4            97.6
+California          5.5                 2.2            97.8      
+Colorado            3.5                 4.4            95.6
+Connecticut         3.5                 1.4            98.6
+Delaware            4.5                 2.3            97.7
+DC                 10.3                 1.8            98.2
+Florida             6.5                 2.5            97.5
+Georgia             9.9                 2.9            97.1
+Hawaii              5.9                 2.9            97.1
+Idaho               5.4                 3.2            96.8
+Illinois            6.5                 1.8            98.2
+Indiana             6.1                 1.6            98.4
+Iowa                3.5                 2.8            97.2
+Kansas              6.1                 2.6            97.4
+Kentucky            8.5                 2.0            98.0
+Louisiana           8.7                 1.9            98.1
+Maine               4.3                 1.0            99.0
+Maryland            4.4                 2.2            97.8
+Massachusetts       4.0                 1.5            98.5
+Michigan            5.1                 2.2            97.8
+Minnesota           3.7                 2.6            97.4
+Mississippi         13.0                1.6            98.4      
+Missouri            5.9                 3.0            97.0
+Montana             6.3                 2.0            98.0
+Nebraska            3.3                 1.8            98.2
+Nevada              7.5                 2.8            97.2
+New Hampshire       3.6                 1.2            98.8
+New Jersey          7.8                 1.7            98.3
+New Mexico          13.3                3.4            96.6
+New York            7.3                 1.3            98.7
+North Carolina      7.2                 2.3            97.7
+North Dakota        3.2                 2.0            98.0
+Ohio                5.8                 1.5            98.5
+Oklahoma            8.5                 2.0            98.0
+Oregon              4.0                 2.9            97.1
+Pennsylvania        3.2                 1.5            98.5
+Rhode Island        4.4                 0.6            99.4
+South Carolina      10.2                2.5            97.5
+South Dakota        5.7                 2.3            97.7
+Tennessee           6.9                 1.6            98.4
+Texas               9.3                 2.9            97.1    
+Utah                3.5                 4.3            95.7
+Vermont             4.5                 1.6            98.4
+Virginia            4.8                 2.2            97.8
+Washington          4.3                 4.0            96.0
+West Virginia       8.3                 1.3            98.7
+Wisconsin           3.4                 2.7            97.3
+Wyoming             6.3                 1.3            98.7
+
+TOTAL US            6.2                 2.3             97.7                   
+   
+  

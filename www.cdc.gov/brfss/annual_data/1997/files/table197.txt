@@ -1,0 +1,9 @@
+BRFSS Questionnaire Content Plan
+September 4, 1997
+
+Topic ,  Number of Questions
+
+Health Status, 4; Hypertension,3;Health Insurance, 6;Injury,5;Routine Checkup,1;
+Alcohol, 5; Diabetes, 1; Flu/Pneumo Vac.,2; Smoking, 5;Colorectal Screen, 4; Pregnancy, 1;
+Cholesterol, 3;Women's Health, 10;HIV/AIDS, 11; Demographics, 14
+

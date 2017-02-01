@@ -1,0 +1,292 @@
+
+(View w/Courier New 8 pt. Font)
+
+
+BRFSS Variables and Columns, 1997
+
+                Starting Field                    Starting  Field
+                Variable Name      Column         Length    Variable Name  Column    Length
+                                                  
+                    _AGE65YR             637                   2 _STSTR           501            
+12
+                    _AGEG          636                         1 _TOTINDX         616             
+1
+                    _AGEG_         536                         2 _WT1             561            
+10
+                    _AGEG5YR             639                   1 _WTFORHT         608             
+5
+                    _BMI           613                         3 AGE               84             
+2
+                    _BPCHECK             643                   1 ALCOHOL           75             
+3
+                    _CHOLCHK             642                   1 ASPUNSAF         217             
+1
+                    _CSA           551                        10 BIKEHLMT          63             
+1
+                    _DENSTR        505                         2 BPHIGH            53             
+1
+                    _DENWT         513                        10 BPTAKE            52             
+1
+                    _DRNKMO        604                         4 CARROTS          265             
+3
+                    _FINALWT             581                  10 CERTDOCT          48             
+1
+                    _FRTINDX             623                   1 CHECKUP           51             
+1
+                    _FRTSERV             618                   5 CHKHEMO          161             
+2
+                    _GEOWT         523                        10 CHLD04            89             
+1
+                    _IMPAGE        539                         2 CHLD0512          90             
+1
+                    _MSACODE             591                   4 CHLD1317          91             
+1
+                    _POSTSTR             571                  10 CHLDLT16          60             
+2
+                    _PSU             4                         5 CHNGDOCT         194             
+1
+                    _QSTVER        595                         1 CHOLCHK           56             
+1
+                    _RACEG         640                         1 CONDLAST         172             
+1
+                    _RACEG_        535                         1 CONDUSE          127             
+1
+                    _RACEGR        641                         1 CONEFF2          173             
+1
+                    _RAW           541                        10 CONFRNTA         317             
+1
+                    _RECORD          9                         1 COUNSEL          144             
+1
+                    _REGION        533                         2 CTYCODE          102             
+3
+                    _RFDRACU             628                   1 CURADRS          322             
+1
+                    _RFDRCHR             630                   1 CURESTRO         224             
+1
+                    _RFDRDRI             629                   1 CVDASPRN         216             
+1
+                    _RFHYPE2             626                   1 CVDCORHD         214             
+1
+                    _RFLIFES             631                   1 CVDEXR02         212             
+1
+                    _RFOBESE             633                   1 CVDEXRSK         210             
+1
+                    _RFREGUL             632                   1 CVDFAT02         211             
+1
+                    _RFSEAT2             614                   1 CVDFATRK         209             
+1
+                    _RFSEAT3             625                   1 CVDINFAR         213             
+1
+                    _RFSMOK2             627                   1 CVDSTROK         215             
+1
+                    _RFTOBAC             635                   1 DENTLINS         201             
+1
+                    _RFWHBMI             634                   1 DIABAGE          149             
+2
+                    _SEXG_         538                         1 DIABETES          58             
+1
+                    _SMKLESS             617                   1 DICSESTR         222             
+1
+                    _SMOKER2             603                   1 DISPCODE          26             
+2
+                    _STATE           1                         2 DISTCARE         192             
+1
+                    _STRATA        503                         2 DOCTDIAB         159             
+2
+                                                                 Wednesday, October 21, 1998      
+     Page 1 of 3
+
+                Starting Field                    Starting  Field
+                Variable Name      Column         Length    Variable Name  Column    Length
+                                                  
+                    DOCTLIST              47                   1 HIVRISK          176             
+1
+                    DONBLD85             130                   1 HIVTEST          129             
+1
+                    DRADVICE             302                   1 HLTHCOVR         181             
+1
+                    DRINKANY              74                   1 HLTHPLAN          40             
+1
+                    DRINKDRI              82                   2 HLTHPROB         236             
+2
+                    DRINKGE5              80                   2 HOWLONG          109             
+1
+                    EDUCA           92                         1 HOWSAFE          320             
+1
+                    EMPLOY          93                         1 HTF               99             
+1
+                    End of File Marker                       650                    1     HTI     
+        100              2
+                    ENGHFOOD             324                   1 IDATE (Character)               
+10                        6
+                    ESTRBONE             226                   1 IDAY (Character)                
+12                        2
+                    ESTRFLSH             227                   1 IMONTH (Character)              
+10                        2
+                    ESTRHART             225                   1 INCOME2           94             
+2
+                    ESTRPILL             223                   1 INSLNFRQ         152             
+3
+                    EXERACT1             272                   2 INSULIN          151             
+1
+                    EXERACT2             284                   2 INTVID (Character)              
+16                        2
+                    EXERANY        271                         1 IYEAR (Character)               
+14                        2
+                    EXERDIS1             274                   3 LASTCHNG         195             
+2
+                    EXERDIS2             286                   3 LASTDENT         197             
+1
+                    EXERHMM1             280                   3 LASTDON          131             
+4
+                    EXERHMM2             292                   3 LASTPAP          115             
+1
+                    EXEROFT1             277                   3 LASTSMOK          72             
+2
+                    EXEROFT2             289                   3 LENGEXAM         112             
+1
+                    EXEROTH2             283                   1 LMTJOINT         230             
+1
+                    EYEEXAM        165                         1 LOADUNLK         314             
+1
+                    FACILITY             190                   2 LONGLMTD         238             
+3
+                    FEETCHK        163                         2 LOSEWT           295             
+1
+                    FEWCAL         297                         1 LSTBLDST         122             
+1
+                    FIREARM2             310                   1 LSTPROC2         124             
+1
+                    FLUSHOT        119                         1 LSTTST2          135             
+4
+                    FOLICACD             305                   1 MAINTAIN         296             
+1
+                    FRUIT          256                         3 MARITAL           88             
+1
+                    FRUITJUI             253                   3 MCRELNGT          46             
+1
+                    GENHLTH         33                         1 MEDCOST           50             
+1
+                    GETHIV         128                         1 MEDICARE          41             
+1
+                    GRADE2         125                         2 MENTHLTH          36             
+2
+                    GREENSAL             259                   3 MOSTCARE         189             
+1
+                    HADHYST        117                         1 MULTIVIT         304             
+1
+                    HADMAM         108                         1 NALCOCC           78             
+2
+                    HADPAP         114                         1 NEWPARTN         174             
+2
+                    HADPROC2             123                   1 NMCLSFRD         323             
+1
+                    HANDGUNS             311                   1 NOCOV12          182             
+1
+                    HAVARTH        231                         1 NOPRIMCR         187             
+2
+                    HEIGHT          99                         3 NUMADULT          29             
+2
+                    HEMOGLBN             158                   1 NUMBDOC2         193             
+1
+                    HIGHGT1         54                         1 NUMHHOLD         105             
+1
+                    HISPANIC              87                   1 NUMMEN            31             
+1
+                                                                 Wednesday, October 21, 1998      
+     Page 2 of 3
+
+                Starting Field                    Starting  Field
+                Variable Name      Column         Length    Variable Name  Column    Length
+                                                  
+                    NUMPHONS             106                   1 SAFWKSHP              318        
+     1
+                    NUMWOMEN              32                   1 SEATBELT               59        
+     1
+                    Old Stratum Field                          3                         1    
+SELCPTN2              146              1
+                    ORACE           86                         1 SEX                   107        
+     1
+                    PAIN12MN             228                   1 SEX1PTN2              147        
+     1
+                    PAINACTV             243                   2 SEXBEHAV              145        
+     1
+                    PASTMENO             221                   1 SEXCONDM              171        
+     1
+                    PASTPLAN              49                   1 SEXINTMN              169        
+     2
+                    PCSAIDS        208                         1 SFTYLT16               62        
+     1
+                    PCSALCH        206                         1 SMKDETEC               64        
+     1
+                    PCSDRGAB             205                   1 SMOKE100               65        
+     1
+                    PCSEATHB             202                   1 SMOKEDAY               66        
+     1
+                    PCSEXER        203                         1 SMOKENUM               67        
+     2
+                    PCSINJPV             204                   1 SMOKNM30               69        
+     2
+                    PCSSMOK        207                1        STATEQUE (Character)               
+   335            165
+                    PERFRARM             319                   1 STDCLIN               178        
+     1
+                    PHONENUM (Character)                      18                         8    
+STDTREAT              177              1
+                    PHYACT         298                         1 STOPSMOK               71        
+     1
+                    PHYSHLTH              34                   2 SYMTMMTH              229        
+     1
+                    PNEUMVAC             120                   1 TAKEVIT               306        
+     3
+                    POORHLTH              38                   2 TOLDHI                 57        
+     1
+                    POTATOES             262                   3 TRTARTH               234        
+     1
+                    PREGNANT             118                   1 TYPCOVR1               42        
+     2
+                    PRIMCARE             186                   1 TYPCOVR2               44        
+     2
+                    PROFEXAM             111                   1 TYPEARTH              232        
+     2
+                    PROTECT2             315                   1 USECOND2              148        
+     1
+                    QLACTLMT             235                   1 USEEVER               325        
+     1
+                    QLHLTHY        251                         2 USENOW                326        
+     1
+                    QLMENTAL             245                   2 VEGETABL              268        
+     3
+                    QLPERSNL             241                   1 VISIONTV              168        
+     1
+                    QLREST         249                         2 VISNDIST              166        
+     1
+                    QLROUTIN             242                   1 VISNREAD              167        
+     1
+                    QLSTRESS             247                   2 VITAMINS              303        
+     1
+                    RACE           601                         2 WEIGHT                 96        
+     3
+                    RATECARE             185                   1 WHRTST2               141        
+     2
+                    REASDENT             198                   2 WHYASPAN              218        
+     1
+                    REASEXAM             113                   1 WHYASPHA              219        
+     1
+                    RECOMMEN             309                   1 WHYASPSK              220        
+     1
+                    RENTHOME             321                   1 WHYDONE               110        
+     1
+                    RESULTS        143                         1 WHYPAP                116        
+     1
+                    RIDARMED             316                   1 WINDDOWN               28        
+     1
+                    RIFLE          312                         1 WTDESIRE              299        
+     3
+                    RMVTEETH         200              1
+                    RNSARMED         313              1
+                    RSNNOCOV         179              2
+                    RSNTST2        139           2
+                    RSNWOCOV         183              2
+                                                                 Wednesday, October 21, 1998      
+     Page 3 of 3
