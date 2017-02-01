@@ -1,0 +1,115 @@
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/A/diagnostics.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{min-height: 50px;}
+*/
+
+/* TEMPORARY FIXES */
+
+/* This is to remove padding from images in single modules */
+/* Solution given by Cassian Pallansch via email and Wiki */
+.rounders div img {padding:0px;}
+
+/* This is to add right margin to images in single modules where desired */
+.rounders div img.rmarg {margin-right:5px;}
+
+/* ALIGNMENT */
+
+/* Do not be surprised if these fail to work sometimes */
+.setLeft{text-align:left;}
+.setCenter{text-align:center;}
+.setRight{text-align:right;}
+.setTop{vertical-align:top;}
+.absmiddle{vertical-align:middle;}
+.setBottom{vertical-align:bottom;}
+.setTopLeft{vertical-align:top;text-align:left;}
+.left-absmiddle{float:left;vertical-align:middle;}
+
+.indent100{padding-left:100px;}
+.indent50{padding-left:50px;}
+.indent25{padding-left:25px;}
+.nowrapTD{white-space:nowrap;}
+.padIt{padding:5px;}
+.spaceIt{margin:5px;}
+
+/* This is for simulating a sub where a list cannot be used */
+/* Use like this: 
+<br /><span class="subOfAbove">&rsaquo;</span>  */
+.subOfAbove{padding-left:50px;}
+
+/* This is for clearing floats - be sure to test in multiple browsers */
+.clearer{
+	clear: both;
+	height: 0;
+	line-height: 0;
+}
+
+
+/* BORDERERS */
+.img-border{border:1px solid #666;}
+.noBorder .img-border{border:1px solid #666;}
+.rounders .img-border{border:1px solid #666;}
+.page-curl .img-border{border:1px solid #666;}
+.double-rule .img-border{border:1px solid #666;}
+
+#content-main .main-inner .img-border{border:1px solid #666;}
+#content-main .main-inner .subColumns .img-border{border:1px solid #666;}
+
+/* EXPERIMENTS */
+
+.fs-note{
+width:25%;
+padding:8px;
+margin-top:5px;
+margin-bottom:5px;
+  /*  clear:all;  */
+text-align:center;
+}
+
+.fs-note img{left:auto;right:auto;}
+.fs-note h3{text-align:left;}
+.fs-note p{text-align:left;}
+.fs-note ul li{text-align:left;padding-left:0;margin-left:0;}
+.plain-green{border:2px solid #eef7e3;}
+.plain-green h3{margin:0 0 0 0;}
+
+.boxed{width:40%;background-color:#eef7e3;border:1px solid #b8c8a5;padding:10px;margin-bottom:5px;}
+/*  Just a general box  */
+/*  Not as urgent as .attention, below  */
+
+.boxedFullWidth{background-color:#eef7e3;border:1px solid #b8c8a5;padding:10px;margin-bottom:5px;}
+/*  Just a general box  */
+/*  Not as urgent as .attention, below  */
+
+.attention{border:2px solid #009900;background-color:#eef7e3;padding:20px;}
+/*  To call highest attention to something  */
+/*  Like an alert or top-of-page disclaimer  */
+/*  For example when there is a newer report than the one being viewed  */
+/*  Made for Treatment Guidelines 2010, to go on top of 2006 page  */
+
+.lessattention{border:2px solid #009900;background-color:#eef7e3;padding:10px;}
+
+.callout{width:33%;background-color:#eef7e3;border:1px solid #b8c8a5;padding:15px;margin-bottom:5px;}
+/*  A callout quotes something from the content, magazine-style  */
+
+.order-online{padding:2px 0 0 20px;background:url(https://www.cdc.gov/std/images/icons/order.gif);background-repeat:no-repeat;}
+.mobile-version{padding:0 0 0 20px;background:url(https://www.cdc.gov/std/images/icons/mobile.gif);background-repeat:no-repeat;}
+
+.centerIt{margin-left:auto;margin-right:auto;}
+
+
+.widgetform{width:100%;padding:0px 20px 0px 20px;text-align: center;}
+
+.widgetForm input{-moz-box-sizing: border-box;
+    display: block;
+    height: 26px;
+    width: 50%;
+    margin-left:15px;
+}

@@ -1,0 +1,25 @@
+/* Surveillance 2007 */
+p.thumb {float: left;overflow:hidden;}
+*:first-child+html p.thumb {width:100%;}
+/* Don't mess with the above! That weird second line was advised by JPQ. We worked all day to resolve issues with floats/clears, April 7, 2009. */
+.thumb img{float:left; margin-right:10px;margin-bottom:10px;border:none;}
+
+/* DATA TABLES */
+
+#content-main table {margin:0 auto;margin-bottom:15px;}
+#cases{width:40%;}
+#rates{width:40%;}
+td{text-align:center;}
+th{background-color:rgb(193, 213, 176);}
+
+/* The code below styles the first th one way and the second th another way */
+/* The first color must match the primary color of our chosen palette */
+/* The second color must match the secondary color of the chosen palette */
+/* The third and subsequent levels of th must be white */
+/* Change these colors if you change the palette /*
+/* Do not add classes or inline css to the th elements, cells, or rows; this works automatically */
+
+table > thead > tr:first-child > th {background-color:rgb(193, 213, 176);}
+table > thead > tr + tr > th {background-color:rgb(215, 228, 204);}
+table > thead > tr + tr + tr > th {background-color:#fff;}
+

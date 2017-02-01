@@ -1,0 +1,13 @@
+/* =================================================
+TABLE STYLE SHEET
+Special styles for layout tables such as Trends documents where the cells are mostly text rather than numbers
+================================================= */
+
+#layout{border:none;text-align:left;margin:0, 0, 15px, 0;float:left;}
+#content-main  #layout tr td{
+border:1px solid #fff;
+text-align:left;
+margin:0, 0;}
+
+#content-main table tr td p{text-align:left;}
+#content-main table tr td li{text-align:left;}
