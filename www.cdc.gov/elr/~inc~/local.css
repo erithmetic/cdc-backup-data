@@ -1,0 +1,12 @@
+  ul.reg-list li{font-size:13px !important;  font-weight:normal !important;
+  font-style:normal;}
+  
+ul.head-title li {
+  font-size:17px; font-weight:bold;
+}
+
+ul.year li {
+  font-size:14px; font-weight:normal !important;
+}
+
+.margin-left-list{margin-left:35px!important}
