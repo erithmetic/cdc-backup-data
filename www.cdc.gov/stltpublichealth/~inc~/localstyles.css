@@ -1,0 +1,210 @@
+/* --- start STYLES FOR SPECIAL TEXT --- */
+
+.ostlts-textsmall { font-size: 90%; }
+
+.ostlts-textgray  { color: #656565; }
+
+.ostlts-textred  { color: #800000; }
+
+.ostlts-linespacingsingle { line-height: 130%; }
+
+.liunderline {
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+}
+
+/* --- end STYLES FOR SPECIAL TEXT --- */
+
+
+
+/* start STYLES FOR CONTACT PAGE ELEMENTS */
+
+#content .contact-grayheader
+
+                  {
+                      background-color: #D3D3D3;
+                      color: #000000 !important;
+                   }
+
+
+.contact-middle
+
+                   {
+                      vertical-align: middle;
+                   }
+
+
+/* end STYLES FOR CONTACT PAGE ELEMENTS */
+
+
+
+
+/* start STYLES FOR DID YOU KNOW? ELEMENTS */
+
+/* STYLES FOR DIVs IN VIEWPORTS 4, 3, and 2 */
+
+.ostlts-dyk-wrapper-vp432 {
+  border: 1px solid #bad6ed;
+  background-color: #f8f8ff;
+  background-image: url('../images/bg-dyk-wave-upper.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-bottom: 4px;
+}
+
+.ostlts-dyk-image-vp432, .ostlts-dyk-fact-vp432 {
+  display: inline-block;
+  margin: 0 4px 8px 10px;
+  vertical-align: middle;
+}
+
+.ostlts-dyk-image-vp432 {
+  width: 46%;
+}
+
+.ostlts-dyk-fact-vp432 {
+  width: 46%;
+}
+
+.ostlts-dyk-image-vp432 img {
+  /*max-width: 100%;*/
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+}
+
+/* STYLES FOR DIVs IN VIEWPORT 1 */
+
+.ostlts-dyk-wrapper-vp1 {
+  border: 1px solid #bad6ed;
+  background-color: #f8f8ff;
+  background-image: url('../images/bg-dyk-wave-upper.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-bottom: 8px;
+}
+
+.ostlts-dyk-image-vp1, .ostlts-dyk-fact-vp1 {
+  /*vertical-align: top;*/
+  /*padding: 10px;*/
+}
+
+.ostlts-dyk-fact-vp1 {
+  padding: 15px 10px 10px 10px;
+}
+
+.ostlts-dyk-image-vp1 {
+  margin: 0 40px;
+}
+
+.ostlts-dyk-image-vp1 img {
+  /*max-width: 100%;*/
+}
+
+
+/* STYLES FOR TEXT */
+
+.oslts-dyk-large-stat, .oslts-dyk-title, .oslts-dyk-quick-fact, .oslts-dyk-learn-sub {
+  display: block;
+  line-height: 110%;
+}
+
+.oslts-dyk-title {
+  padding: 10px 0 8px 10px;
+  color: #075190;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.oslts-dyk-large-stat {
+  font-size: 300%;
+  font-weight: bold;
+  color: #075190;
+  margin-bottom: 8px;
+}
+
+.oslts-dyk-quick-fact {
+  color: #4e4e4e;
+  /*margin-top: 20px;*/
+}
+
+.oslts-dyk-learn-sub {
+  margin-top: 15px;
+  font-weight: bold;
+  /*text-shadow: 0 0 9px rgba(255,255,255,1);*/
+}
+
+/* end STYLES FOR DID YOU KNOW? ELEMENTS */
+
+
+
+
+
+
+/* --- start STYLES FOR CAMPAIGN WIDE (in localRDCampaign-index SSI) FOR PAGES WITHOUT LEFT NAV --- */
+
+.ostlts-campaign {
+border-top: 2px solid #cecece;
+padding-top: 10px;
+text-align: center;
+}
+
+.ostlts-campaign img {
+margin: 0 8px 8px 0;
+border: 0;
+}
+
+/* --- end STYLES FOR CAMPAIGN WIDE --- */
+
+
+/* --- start STYLES FOR NARROW CAMPAIGN (in localRDCampaign SSI) FOR PAGES WITH LEFT NAV --- */
+
+.ostlts-campaign-narrow {
+border-top: 2px solid #cecece;
+padding-top: 10px;
+text-align: center;
+}
+
+.ostlts-campaign-narrow img {
+margin: 0 8px 8px 0;
+border: 0;
+width: 220px;
+}
+
+/* --- end STYLES FOR CAMPAIGN NARROW --- */
+
+
+
+
+/* --- start STYLES FOR WHAT'S NEW RSS FEED --- */
+
+div#rss-block {
+                margin: 6px;
+                width: 95%;
+                margin-left: 1em;
+}
+div#rss-block ul,  div#rss-block ul li {
+                list-style: none;
+                margin: 0;
+                padding: 0;          
+}
+div#rss-block ul li a.item-title,  div#rss-block ul li span.item-pubdate,  div#rss-block ul li span.item-description {
+                display: block;
+}
+div#rss-block ul li a.item-title {
+                margin: 20px 0 0 0;
+                font-weight: bold;
+		line-height: 130%;
+}
+div#rss-block ul li span.item-pubdate {
+                font-size: 80%;
+                color: #656565;
+		margin: 0 0 3px 0;
+		line-height: 130%;
+}
+div#rss-block ul li span.item-description {
+                padding-left:20px;
+                font-size: 90%;
+		line-height: 150%;
+}
+
+/* --- end STYLES FOR WHAT'S NEW RSS FEED --- */

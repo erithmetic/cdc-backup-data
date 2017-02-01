@@ -1,0 +1,27 @@
+/*
+CSS THAT CREATES A HANGING INDENT EFFECT FOR TEXT TO THE RIGHT OF AN IMAGE
+This keeps the text from word-wrapping under the image.
+ */
+
+.connecttile {
+position: relative;
+clear: both;
+margin-bottom: 4px;
+line-height: 1; /* LINE-HEIGHT MUST ALSO BE SPECIFIED IN LINE TO WORK; ALSO NOTED IN COMMENT BELOW */
+}
+      
+.connecttile img {
+float: left;
+margin-bottom: 5px;
+width: 32px;
+height: 32px;
+}
+
+.connecttiletext {
+margin-left: 40px;
+padding-top: 6px;
+}
+
+.connecttiletext span {
+/* LINE-HEIGHT SPECIFIED INLINE IN PAGE OR MODULE */
+}

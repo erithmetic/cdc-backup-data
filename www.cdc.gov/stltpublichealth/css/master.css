@@ -1,0 +1,126 @@
+/* BEGIN NPHII */
+
+
+div.award {
+	float:right;
+	border:solid 1px #4f4377;
+ 
+	width:250px;
+	margin-left: 1em;
+}
+p.awardee {
+	text-align:center;
+	font-weight:bold;
+	background-color:#A9A9A9;
+	margin-top:0px;
+}
+div.awardinner {
+	padding:5px;
+	margin:10px;
+}
+
+
+	
+div.lz					
+
+{                width: 33%; 
+                  padding-right:5px; 
+                  float:left;
+}
+
+
+/* END NPHII */
+
+
+/*BEGIN CONTACT FORM */
+
+ 
+
+.rd {
+width:80%;
+margin: 5% 5%;
+} 
+
+
+
+/* Makes responsive fields.Sets size and field alignment.*/
+
+input[type=text]{
+ width:80%; 
+ border-radius:5px;
+ border:1px solid #7ac9b7;
+}
+
+
+
+
+
+
+textarea{
+ width:80%;
+ padding: 15px;
+ margin-top: 10px;
+ border:1px solid #7ac9b7;
+ border-radius:5px;
+ margin-bottom: 20px;
+ }
+
+
+
+input[type=text]:focus,
+textarea:focus {
+ border-color: #4697e4;
+}
+
+
+
+
+
+/* By using @ media form can have different layout for screen, mobile phone, tablet.*/
+
+/* Sets the form layout for mobile phone, tablet*/
+@media screen and (max-device-width: 600px){
+ 
+
+
+body {
+ margin:0;
+ padding:0; 
+
+ }
+
+
+
+.rd {
+width:70%;} 
+
+
+/* Makes responsive fields.Sets size and field alignment.*/
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+ width:80%;
+ padding: 15px;
+ border-radius:5px;
+ border:1px solid #7ac9b7;
+}
+
+
+textarea{
+ width:80%;
+ padding: 15px;
+ margin-top: 10px;
+ border:1px solid #7ac9b7;
+ border-radius:5px;
+ margin-bottom: 20px;
+ resize:none;
+ }
+
+input[type=text]:focus,
+textarea:focus {
+ border-color: #4697e4;
+}
+}
+
+
+/*END CONTACT FORM */

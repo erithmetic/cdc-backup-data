@@ -1,0 +1,103 @@
+/* STYLES ABOUT VSTH MODULE ON HOME PAGE */
+
+.ostlts-vsth-about-box {
+margin-bottom: 12px;
+border: 1px solid #b1dafb;
+border-top: 8px solid #b1dafb;
+padding: 10px;
+background-image: url(https://www.cdc.gov/stltpublichealth/townhall/images/bg-vitalsignsbody.jpg);
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+
+
+
+/* STYLES TOP SECTION OF TELECONFERENCE PAGES */
+
+.ostlts-vsth-top-title {
+margin-bottom: 5px;
+padding: 5px 8px;
+background-color: #f0f0f0;
+font-size: 18px;
+}
+
+.ostlts-vsth-top-text {
+margin-left: 15px;
+line-height: 150%;
+}
+
+/* UNORDERED LISTS
+The Unordered Lists at the top of the teleconference page is styled inline.
+Otherwise agency CSS overrides this CSS sheet. */
+
+
+
+
+/* STYLES AGENDA ON TELECONFERENCE PAGES */
+
+.ostlts-vsth-agenda table {
+width: 100%;
+border:  0;
+border-collapse: collapse;
+empty-cells: show;
+}
+
+tr:nth-child(odd){
+background-color: #f8f8f8;
+}
+
+.ostlts-vsth-agenda th {
+background-color: #e3f2fe;
+padding: 5px;
+vertical-align: bottom;
+text-align: left;
+font-weight: bold;
+}
+
+.ostlts-vsth-agenda td {
+padding: 5px;
+vertical-align: top;
+text-align: left;
+}
+
+.ostlts-nowrap {
+white-space: nowrap;
+}
+
+
+
+
+/* STYLES SPEAKER BIOS ON TELECONFERENCE PAGES */
+
+.ostlts-vsth-speaker-block-first {
+display: block;
+}
+
+.ostlts-vsth-speaker-block {
+clear: both;
+display: block;
+border-top: 1px dotted #909090;
+padding-top: 20px;
+}
+
+.ostlts-vsth-speaker-image  {
+float: right;
+width: 200px;
+margin: 0 0 8px 8px;
+}
+
+.ostlts-vsth-speaker-name {
+margin-bottom: 0;
+padding-bottom: 0;
+line-height: 140%;
+font-weight: bold;
+}
+
+.ostlts-vsth-speaker-title {
+margin-top: 0;
+padding-top: 0;
+line-height: 140%;
+font-style: italic;
+font-size: 90%;
+color: #656565;
+}
