@@ -1,0 +1,734 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js nav theme-teal lt-ie10 lt-ie9 lt-ie8 " lang="en-us"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js nav theme-teal lt-ie10 lt-ie9 " lang="en-us"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js nav theme-teal lt-ie10 " lang="en-us"> <![endif]-->
+<!--[if !IE]><!-->     <html class="no-js nav theme-teal " lang="en-us"> <!--<![endif]-->	
+    <head>
+        <meta charset="utf-8" />
+                <title>CDC - BRFSS - 2006 Variable Layout for Dual Questionnaire Version 2</title>
+        		
+        <meta name="description" content="BRFSS has a long history in behavioral and chronic disease surveillance. Fifteen states participated in the first BRFSS, conducted in 1984." />        <meta name="keywords" content="BRFSS, behavioral and chronic disease surveillance,By collecting behavioral health risk data, state and local level, powerful tool, health promotion activities, data, survey" />		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.cdc.gov/TemplatePackage/3.0/images/cdc-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.cdc.gov/TemplatePackage/3.0/images/cdc-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.cdc.gov/TemplatePackage/3.0/images/cdc-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" href="https://www.cdc.gov/TemplatePackage/3.0/images/cdc-touch-icon-57x57.png" />
+        <link rel="shortcut icon" href="../../../TemplatePackage/3.0/images/favicon.ico" />	
+		
+		<meta name="robots" content="index,follow" />
+		<meta property="cdc:template_version" content="3.0" />
+		<meta property="cdc:content-id" content="671723"/>
+		<meta property="cdc:revision-id" content="3"/>
+				<link rel="canonical" href="varlayout_dual_v2_06.htm"/>
+				<!-- Internal Release Version # 3.6 -->
+                			<link rel="stylesheet" href="../../../TemplatePackage/3.0/css/lib/bootstrap24.css" />
+	<link rel="stylesheet" href="../../../TemplatePackage/3.0/css/app.css@3.2.1.7.css" />
+	<!--[if gt IE 9]><!--><!--<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/TemplatePackage/3.0/css/lib/font-awesome-ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/TemplatePackage/3.0/css/ie.css" />
+	<![endif]-->
+	<link rel="stylesheet" media="print" href="../../../TemplatePackage/3.0/css/print.css@3.2.1.7.css" />
+	<script src="../../../TemplatePackage/3.0/js/libs/modernizr-latest.js"></script>
+	<script>
+		if(!Date.now){Date.now=function now(){return new Date().getTime()}}
+		var page_timing = page_timing || {};
+		page_timing.page_start = Date.now();
+		function $$(e){if(window.$){e()}else{setTimeout(function(){$$(e)},50)}}
+		// (function(){function e(e,t){var n=e.length;while(n--){if(e[n].indexOf(t)>-1){return e[n]}}return false}var t=e(document.getElementsByTagName("html")[0].className.split(" "),"theme-");if(t){var n=document.createElement("link");n.rel="stylesheet";n.type="text/css";n.media="screen";n.href="/TemplatePackage/3.0/css/themes/"+t+".css";document.getElementsByTagName("head")[0].appendChild(n)}})();
+
+		var settings = {}, addthis = null;
+	</script>
+
+	<meta name="application-name" content="CDC.gov"/>
+	<meta property="cdc:template_version" content="3.2.1.7" />
+	<meta name="msapplication-TileColor" content="#0061aa" />
+	<meta name="msapplication-square70x70logo" content="/TemplatePackage/3.0/images/Win8_tile_70x70.png" />
+	<meta name="msapplication-square150x150logo" content="/TemplatePackage/3.0/images/Win8_tile_150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="/TemplatePackage/3.0/images/Win8_tile_310x150.png" />
+	<meta name="msapplication-square310x310logo" content="/TemplatePackage/3.0/images/Win8_tile_310x310.png" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">		        
+
+
+
+                		
+    </head>
+    <body>
+				
+
+
+
+
+				<div id="skipmenu">
+	<a href="varlayout_dual_v2_06.htm#searchTarget" class="skippy">Skip directly to search</a>
+	<a href="varlayout_dual_v2_06.htm#azTab" class="skippy">Skip directly to A to Z list</a>
+	<a href="varlayout_dual_v2_06.htm#nav-container" class="skippy">Skip directly to navigation</a>
+	<a href="varlayout_dual_v2_06.htm#share-bar" class="skippy">Skip directly to page options</a>
+	<a href="varlayout_dual_v2_06.htm#contentArea" class="skippy">Skip directly to site content</a>
+</div>		    	<div id="wrapper">
+    		
+<!-- references to this removed intentionally -->
+    		<header id="header">
+    			<div class="container">
+                    <div class="row">
+                    	<div id="logo" class="span14">
+                    		<!--iPad touch response and 508 voice reader issue currently under investigation -->
+<a href="https://www.cdc.gov" title="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People">
+	<img src="../../../TemplatePackage/3.0/images/masthead_subpage.svg" alt="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People" class="hidden-one" />
+	<img src="../../../TemplatePackage/3.0/images/masthead_1-col.svg" alt="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People" class="visible-one" />
+</a>
+
+<!-- IOS9 iPad bug work around - make sure screen readers have a readable version of the logo to read
+<a class="tp-sr-only" href="https://www.cdc.gov">Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People</a>
+ -->
+                    	</div>
+                    	<!-- search -->
+                    	<div id="searchArea" class="span10 hidden-one hidden-two">							
+							
+<div class="hidden"><a href="varlayout_dual_v2_06.htm#" name="searchTarget">Start of Search Controls</a></div>
+<form class="searchForm" method="get" action="http://search.cdc.gov/search">
+	<fieldset class="search-form-wrapper ">
+		<legend>Search Form Controls</legend>
+		<div class="search-form-checkbox">
+			<label class="subset"><input type="checkbox" name="subset" checked="checked" value="">Search The CDC</label>
+		</div>
+		<div class="search-input-wrapper">
+			<div class="search-buttons">
+				<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+				<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+			</div>
+			<div class="search-input">
+				<label><input type="text" placeholder="SEARCH" name="query" /><span class="hidden">Search The CDC</span></label>
+			</div>
+		</div>
+		<input type="hidden" name="utf8" value="&#x2713;" />
+					<input type="hidden" name="affiliate" value="cdc-main" />
+			</fieldset>
+</form>							<div class="a2z-button pull-right hidden-one hidden-two"><a href="varlayout_dual_v2_06.htm#" id="azTab">CDC A-Z Index <span class="icon-angle-down"></span></a></div>
+                    	</div>
+                    </div>
+                    	<div class="hidden-three hidden-four" id="mobile-menu">
+		<ul>
+			<li id="vp1-menu-button" class="border-bottom-white"><a href="varlayout_dual_v2_06.htm#" id="menu-nav"><span class="sprite-16-menu"></span>MENU</a></li>
+			<li id="vp1-a2z-button" class="border-bottom-white"><a href="varlayout_dual_v2_06.htm#" id="menu-az">CDC A-Z</a></li>
+			<li id="vp1-search-button" class="border-bottom-white"><a href="varlayout_dual_v2_06.htm#" id="menu-search"><span class="sprite-16-search-white"></span>SEARCH</a></li>
+		</ul>
+	</div>
+<script>if (typeof page_timing !== 'undefined') { page_timing.menu_load = Date.now(); }</script>
+                    <div class="a2z-bar hide">
+                    	<div>
+	<ul>
+		<li><a href="https://www.cdc.gov/az/a.html">A</a></li>
+		<li><a href="https://www.cdc.gov/az/b.html">B</a></li>
+		<li><a href="https://www.cdc.gov/az/c.html">C</a></li>
+		<li><a href="https://www.cdc.gov/az/d.html">D</a></li>
+		<li><a href="https://www.cdc.gov/az/e.html">E</a></li>
+		<li><a href="https://www.cdc.gov/az/f.html">F</a></li>
+		<li><a href="https://www.cdc.gov/az/g.html">G</a></li>
+		<li><a href="https://www.cdc.gov/az/h.html">H</a></li>
+		<li><a href="https://www.cdc.gov/az/i.html">I</a></li>
+		<li><a href="https://www.cdc.gov/az/j.html">J</a></li>
+		<li><a href="https://www.cdc.gov/az/k.html">K</a></li>
+		<li><a href="https://www.cdc.gov/az/l.html">L</a></li>
+		<li><a href="https://www.cdc.gov/az/m.html">M</a></li>
+		<li><a href="https://www.cdc.gov/az/n.html">N</a></li>
+		<li><a href="https://www.cdc.gov/az/o.html">O</a></li>
+		<li><a href="https://www.cdc.gov/az/p.html">P</a></li>
+		<li><a href="https://www.cdc.gov/az/q.html">Q</a></li>
+		<li><a href="https://www.cdc.gov/az/r.html">R</a></li>
+		<li><a href="https://www.cdc.gov/az/s.html">S</a></li>
+		<li><a href="https://www.cdc.gov/az/t.html">T</a></li>
+		<li><a href="https://www.cdc.gov/az/u.html">U</a></li>
+		<li><a href="https://www.cdc.gov/az/v.html">V</a></li>
+		<li><a href="https://www.cdc.gov/az/w.html">W</a></li>
+		<li><a href="https://www.cdc.gov/az/x.html">X</a></li>
+		<li><a href="https://www.cdc.gov/az/y.html">Y</a></li>
+		<li><a href="https://www.cdc.gov/az/z.html">Z</a></li>
+		<li><a href="https://www.cdc.gov/az/0.html">#</a></li>
+	</ul>
+</div>
+<script>if (typeof page_timing !== 'undefined') { page_timing.a2z_load = Date.now(); }</script>                    </div>
+                    <div id="searchArea-two-column" class="span24 searchbar hide hidden-three hidden-four">
+						  
+<div class="hidden"><a href="varlayout_dual_v2_06.htm#" name="searchTarget">Start of Search Controls</a></div>
+<form class="searchForm" method="get" action="http://search.cdc.gov/search">
+	<fieldset class="search-form-wrapper ">
+		<legend>Search Form Controls</legend>
+		<div class="search-form-checkbox">
+			<label class="subset"><input type="checkbox" name="subset" checked="checked" value="">Search The CDC</label>
+		</div>
+		<div class="search-input-wrapper">
+			<div class="search-buttons">
+				<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+				<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+			</div>
+			<div class="search-input">
+				<label><input type="text" placeholder="SEARCH" name="query" /><span class="hidden">Search The CDC</span></label>
+			</div>
+		</div>
+		<input type="hidden" name="utf8" value="&#x2713;" />
+					<input type="hidden" name="affiliate" value="cdc-main" />
+			</fieldset>
+</form>					</div>
+                    <!--
+	See the noscript include for modifying the emergency message. DO NOT add it here.
+-->
+<script>if (typeof page_timing !== 'undefined') { page_timing.emergency_load = Date.now(); }</script>
+    				<div class="titlebar">
+    					<h2>
+
+
+<a href="https://www.cdc.gov/brfss/index.html">Behavioral Risk Factor Surveillance System</a>
+
+</h2>
+    				</div>
+    				<!-- emergency -->
+<div id="emergencyContainer">
+	<!--
+	<div class="alert alert-error en">
+		<b>Attention!</b> Uncomment this section and place the emergency message here.
+	</div>
+	<div class="alert alert-error esp">
+		<b>&#161;Atenci&#243;n!</b> Elimine el comentario de esta secci&#243;n y colocar el mensaje de emergencia aqu&#237;.
+	</div>	
+	-->
+</div>
+
+<!-- no script -->
+<noscript>
+	<div class="alert alert-block"> Note: Javascript is disabled or is not supported by your browser. For this reason, some items on this page will be unavailable. For more information about this message, please visit this page: <a href="https://www.cdc.gov/other/about_cdcgov.html">About CDC.gov</a>.</div>
+</noscript>
+<script>if (typeof page_timing !== 'undefined') { page_timing.noscript_load = Date.now(); }</script>
+     			</div>
+    		</header>
+    		<div class="container">				
+                <div id="content">
+					<div class="row">
+        				<!-- left nav -->
+        				<div id="nav-container" class="hidden-one hidden-two span5">
+    						<nav id="left" class="hidden-one hidden-two">
+    							
+
+
+<h3><a href="https://www.cdc.gov/brfss/index.html">BRFSS</a></h3><ul id="nav-primary"><li><a href="https://www.cdc.gov/brfss/about/index.htm">About BRFSS</a> <ul><li><a href="https://www.cdc.gov/brfss/about/brfss_today.htm">BRFSS Today</a></li><li><a href="https://www.cdc.gov/brfss/about/about_brfss.htm">BRFSS History</a></li><li><a href="https://www.cdc.gov/brfss/about/brfss_faq.htm">BRFSS FAQs</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/data_tools.htm">Prevalence Data and Data Analysis Tools</a></li><li><a href="https://www.cdc.gov/brfss/data_documentation/index.htm">Survey Data and Documentation</a> <ul><li><a href="../annual_data.htm">Annual Survey Data</a> <ul><li><a href="../annual_2013.html">2013 Data</a> <ul><li><a href="../2013/2013_landline_multiple.html">The combined Landline and Cellular Telephone Survey Multiple Questionnaire Version Data including Optional Modules</a></li><li><a href="../2013/llcp_varlayout_13_onecolumn_v1.html">Combined Landline and Cellular Telephone Variable Layout for Version 1 Data</a></li><li><a href="../2013/llcp_varlayout_13_onecolumn_v2.html">Combined Landline and Cellular Telephone Variable Layout for Version 2 Data</a></li><li><a href="../2013/llcp_varlayout_13_onecolumn_v3.html">Combined Landline and Cellular Telephone Variable Layout for Version 3 Data</a></li><li><a href="../2013/summary_matrix_2013_version5.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2013/2013_landline.html">Landline Telephone Survey Data including Optional Modules</a></li><li><a href="../2013/2013_landline_multiple.html">Landline Telephone Survey Multiple Questionnaire Version Data including Optional Modules</a></li><li><a href="../2013/llcp_varlayout_13_onecolumn.html">Variable Layout for Combined Landline and Telephone Multiple Data</a></li><li><a href="../2013/land_varlayout_13_onecolumn.html">Variable Layout for Landline Data</a></li><li><a href="../2013/land_varlayout_13_onecolumn_v1.html">Variable Layout for Version 1 Data</a></li><li><a href="../2013/land_varlayout_13_onecolumn_v2.html">Variable Layout for Version 2 Data</a></li><li><a href="../2013/land_varlayout_13_onecolumn_v3.html">Variable Layout for Version 3 Data</a></li></ul></li><li><a href="../annual_2012.html">2012 Data</a> <ul><li><a href="../2012/2012_landline_multiple.html">Landline Telephone Survey Multiple Questionnaire Version Data including Optional Modules</a></li><li><a href="../2012/2012_landline.html">Landline Telephone Survey Data including Optional Modules</a></li><li><a href="../2012/llcp_multiq.html">Combined Landline and Cellular Telephone Survey Multiple Questionnaire Version Data including Optional Modules</a></li><li><a href="../2012/response_rates_12.htm">Combined Landline and Cell Phone Weighted Response Rates by State</a></li><li><a href="../2012/summary_matrix_2012_version4.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2012/land_varlayout_12_onecolumn.html">2012 Variable Layout for Landline Data</a></li><li><a href="../2012/llcp_varlayout_12_onecolumn_v1.html">Combined Landline and Telephone Multiple for Version 1 Data</a></li><li><a href="../2012/llcp_varlayout_12_onecolumn_v2.html">Combined Landline and Telephone Multiple for Version 2 Data</a></li><li><a href="../2012/llcp_varlayout_12_onecolumn_v3.html">Combined Landline and Telephone Multiple for Version 3 Data</a></li></ul></li><li><a href="../annual_2011.htm">2011 Data</a> <ul><li><a href="../2011/response_rates_11.htm">Combined Landline and Cell Phone Weighted Response Rates by State</a></li><li><a href="../2011/summary_matrix_11.htm">Summary Matrix of Calculated Variables</a></li><li><a href="../2011/2011_weighting.htm">Weighting Formula</a></li><li><a href="../2011/2011_landline.html">Landline Questionnaire Data Sets</a></li><li><a href="../2011/2011_landline_multiple.html">Landline Multiple Version Questionnaire Data Sets</a></li><li><a href="../2011/varlayout_multiple_v1_11.htm">Variable Layout for Multiple Questionnaire Version 1</a></li><li><a href="../2011/varlayout_multiple_v2_11.htm">Variable Layout for Multiple Questionnaire Version 2</a></li><li><a href="../2011/varlayout_multiple_v3_11.htm">Variable Layout for Multiple Questionnaire Version 3</a></li></ul></li><li><a href="../annual_2010.htm">2010 Data</a> <ul><li><a href="../2010/summary_matrix_10.htm">Summary Matrix of Calculated Variables</a></li><li><a href="../2010/varlayout_table_10.htm">Variable Layout</a></li><li><a href="../2010/2010_multiple.html">Multiple Version Questionnaire Data Sets</a></li><li><a href="../2010/varlayout_multiple_v1_10.htm">Variable Layout for Multiple Questionnaire Version 1</a></li><li><a href="../2010/varlayout_multiple_v2_10.htm">Variable Layout for Multiple Questionnaire Version 2</a></li><li><a href="../2010/varlayout_multiple_v3_10.htm">Variable Layout for Multiple Questionnaire Version 3</a></li></ul></li><li><a href="../annual_2009.htm">2009 Data</a> <ul><li><a href="../2009/summary_matrix_09.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2009/varlayout_table_09.html">Variable Layout</a></li><li><a href="../2009/2009_multiple.html">Multiple Version Questionnaire Data Sets</a></li><li><a href="../2009/varlayout_multiple_v1_09.html">Variable Layout for Multiple Questionnaire Version</a>1</li><li><a href="../2009/varlayout_multiple_v2_09.html">Variable Layout for Multiple Questionnaire Version 2</a></li><li><a href="../2009/varlayout_multiple_v3_09.html">Variable Layout for Multiple Questionnaire Version 3</a></li></ul></li><li><a href="../annual_2008.htm">2008 Data</a> <ul><li><a href="../2008/summary_matrix_08.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2008/varlayout_table_08.htm">Variable Layout</a></li><li><a href="../2008/2008_multiple.html">Multiple Version Questionnaire Data Sets</a></li><li><a href="../2008/varlayout_multiple_v1_08.html">Variable Layout for Multiple Questionnaire Version 1</a></li><li><a href="../2008/varlayout_multiple_v2_08.html">Variable Layout for Multiple Questionnaire Version 2</a></li><li><a href="../2008/varlayout_multiple_v3_08.html">Variable Layout for Multiple Questionnaire Version 3</a></li></ul></li><li><a href="../annual_2007.htm">2007 Data</a> <ul><li><a href="../2007/summary_matrix_07.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2007/varlayout_table_07.html">Variable Layout</a></li><li><a href="../2007/2007_dual.html">Dual Version Questionnaire Data Sets</a></li></ul></li><li><a href="../annual_2006.htm">2006 Data</a> <ul><li><a href="summary_matrix_06.htm">Summary Matrix of Calculated Variables</a></li><li><a href="varlayout_table_06.htm">Variable Layout</a></li><li><a href="2006_dual.html">Dual Version Questionnaire Data Sets</a></li></ul></li><li><a href="../annual_2005.htm">2005 Data</a> <ul><li><a href="../2005/summary_matrix_05.html">Summary Matrix of Calculated Variables</a></li></ul></li><li><a href="../annual_2004.htm">2004 Data</a></li><li><a href="../annual_2003.htm">2003 Data</a></li><li><a href="../annual_2002.htm">2002 Data</a></li><li><a href="../annual_2001.htm">2001 Data</a></li><li><a href="../annual_2000.htm">2000 Data</a></li><li><a href="../annual_1999.htm">1999 Data</a></li><li><a href="../annual_1998.htm">1998 Data</a></li><li><a href="../annual_1997.htm">1997 Data</a></li><li><a href="../annual_1996.htm">1996 Data</a></li><li><a href="../annual_1995.htm">1995 Data</a></li><li><a href="../annual_1994.htm">1994 Data</a></li><li><a href="../annual_1993.htm">1993 Data</a></li><li><a href="../annual_1992.htm">1992 Data</a></li><li><a href="../annual_1991.htm">1991 Data</a></li><li><a href="../annual_1990.htm">1990 Data</a></li><li><a href="../annual_1989.htm">1989 Data</a></li><li><a href="../annual_1988.htm">1988 Data</a></li><li><a href="../annual_1987.htm">1987 Data</a></li><li><a href="../annual_1986.htm">1986 Data</a></li><li><a href="../annual_1985.htm">1985 Data</a></li><li><a href="../annual_1984.htm">1984 Data</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/index.htm">Asthma Call-back Survey Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2012_documentation.html">2012 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2012_tables.html">Table of Contents</a></li><li><a href="https://www.cdc.gov/brfss/acbs/2012_tables_llcp.html">Table of Contents (LLCP)</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2011_documentation.html">2011 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2011_tables.html">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2010_documentation.htm">2010 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2010_tables.htm">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2009_documentation.htm">2009 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2009_tables.htm">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2008_documentation.htm">2008 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2008_tables.htm">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2007_documentation.htm">2007 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2007_tables.htm">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2006_documentation.htm">2006 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2006_tables.htm">Table of Contents</a></li></ul></li></ul></li><li><a href="https://www.cdc.gov/brfss/gis/gis_maps.htm">GIS Maps Data</a> <ul><li><a href="https://www.cdc.gov/brfss/gis/gis_maps_faq.htm">BRFSS Maps FAQs</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/smart/smart_data.htm">SMART: City and County Survey Data</a> <ul><li><a href="https://www.cdc.gov/brfss/smart/smart_faq.htm">SMART: BRFSS FAQs</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2012.html">2012 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2011.htm">2011 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2010.htm">2010 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2009.htm">2009 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2008.htm">2008 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2007.htm">2007 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2006.htm">2006 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2005.htm">2005 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2004.htm">2004 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2003.htm">2003 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2002.htm">2002 Data</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/data_documentation/statistic_brief.htm">Statistical Briefs</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/questionnaires/index.htm">Questionnaires</a> <ul><li><a href="https://www.cdc.gov/brfss/questionnaires/state2013.htm">State 2013</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2012.htm">State 2012</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2011.htm">State 2011</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2010.htm">State 2010</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2009.htm">State 2009</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2008.htm">State 2008</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2007.htm">State 2007</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2006.htm">State 2006</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2005.htm">State 2005</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2004.htm">State 2004</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2003.htm">State 2003</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2002.htm">State 2002</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2001.htm">State 2001</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2000.htm">State 2000</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state1999.htm">State 1999</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state1998.htm">State 1998</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2013.htm">Category 2013</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2012.htm">Category 2012</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2011.htm">Category 2011</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2010.htm">Category 2010</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2009.htm">Category 2009</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2008.htm">Category 2008</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2007.htm">Category 2007</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2006.htm">Category 2006</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2005.htm">Category 2005</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2004.htm">Category 2004</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2003.htm">Category 2003</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2002.htm">Category 2002</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2001.htm">Category 2001</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2000.htm">Category 2000</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category1999.htm">Category 1999</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category1998.htm">Category 1998</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/publications/index.htm">Publications and Resources</a> <ul><li><a href="https://www.cdc.gov/brfss/publications/ssummaries.htm">Surveillance Summaries</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/state_info/index.htm">State Information</a> <ul><li><a href="https://www.cdc.gov/brfss/state_info/coordinators.htm">State Coordinators</a></li><li><a href="https://www.cdc.gov/brfss/state_info/brfss_use_examples.htm">State-by-State Listing of How Data Are Used</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/factsheets/index.htm">Fact Sheets</a></li></ul>
+
+    						</nav>
+    						<div class="nav-related">
+							
+
+
+
+
+    						
+
+
+
+<div class="nav-related">
+<div class="module-typeG emailupdates"><span class="sprite-24-govd-icon"><!-- span --></span>
+<h4>Get Email Updates</h4>
+
+<p>To receive email updates about this page, enter your email address:</p>
+
+<form action="https://public.govdelivery.com/accounts/USCDC/subscribers/qualify" name="govdelivery">
+<fieldset><input name="topic_id" type="hidden" value="USCDC_490" /><label><span class="hidden">Enter Email Address</span> <input class="email" name="email" type="text" value="" /></label> <a class="explain" href="http://www.cdc.gov/emailupdates/">What's this?</a><a class="button" href="varlayout_dual_v2_06.htm#;">Submit</a> <noscript><a class="explain" href="http://www.cdc.gov/emailupdates/">What&#39;s this?</a> <label><span class="hidden">Submit Button</span> <input class="button submit" name="commit" type="submit" value="Submit" /></label></noscript></fieldset>
+</form>
+</div>
+
+<div class="row">
+<div class="span14">
+<div class="module-typeH topicmedia" style=" clear: both;">
+<h3>Related Links</h3>
+
+<ul class="list-block" style=" margin-left: 10px;">
+<li><a href="http://wwwn.cdc.gov/sortablestats/">Health Indicator Sortable Stats</a></li>
+
+<li><a href="http://www.healthindicators.gov/">Health Indicators Warehouse (HIW)</a></li>
+
+<li><a href="http://healthdata.gov/">HealthData.gov</a></li>
+
+<li><a href="http://data.cdc.gov/">Data Catalog</a></li>
+
+<li class="lastChild"><a href="https://www.cdc.gov/chronicdisease/stats/">CDC’s Major Disease Surveillance Systems</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<p><a href="https://www.cdc.gov/24-7/?s_cid=24-7_004"><img class="center" src="../../../features/images/24-7_i150x120html.gif" alt="24/7" /></a></p>
+</div>
+
+
+							
+
+
+
+
+							</div>    						    				
+        				</div>
+        				<div id="featureArea">
+    						<div class="span19">
+    							
+
+
+
+    						</div>
+        				</div>						
+    					<div class="breadcrumbs hidden-one span19">
+    						
+
+
+<div class="bread-crumb hidden-one"></div>
+
+    					</div>
+						<div class="span19 pagetitle">	
+    						    							<div class='syndicate'>
+    						    						    							<div class='mSyndicate'>
+    																					<h1>2006 Variable Layout for Dual Questionnaire Version 2</h1>
+															    						    							</div>
+    						    						    							</div>
+    												</div>
+						<div id="share-bar" class="span19">		
+    						<div class="socialmediabar">
+								<div class="row">
+            						<div class="hidden-one pull-right">
+        								            							            							            						</div>	
+    								<div class="span8">
+    									<div id="socialMediaShareContainer">
+	<div class="share_container noLinking">
+	 	<a class="share_button_facebook" title="Facebook" href="varlayout_dual_v2_06.htm#"><span class="tp-sr-only">Recommend on Facebook</span><span id="share_facebook" class="facebookRecommend"> </span></a>
+	 	<a class="share_button_twitter" title="Twitter" href="varlayout_dual_v2_06.htm#"><span class="tp-sr-only">Tweet</span><span id="share_twitter" class="twitterTweet"> </span></a>
+		<a class="share_button" href="varlayout_dual_v2_06.htm#socialMediaShareContainer" ><img src="../../../TemplatePackage/3.0/images/social/addthis-32.png" alt="Share" /><span class="shareButtonEn tp-sr-only" aria-label="Share">Share</span><span class="shareButtonEs tp-sr-only" aria-label="Compartir">Compartir</span></a>
+	</div>
+</div>
+
+<!-- target anchor for return to top feature in VP1 -->
+<a id="content-start" tabindex="-1"></a>
+    								</div>
+								</div>
+    						</div>
+    					</div>	
+    					<!-- body -->
+    					<div id="body" class="span19">
+    						<div id="contentArea" >								
+        						        																						        						                                                                                            					            						<div class='syndicate'>
+            					            					            						<div class='mSyndicate'>
+            					            					        							<!-- InstanceBeginEditable name="content-main" --><table align="center" border="1" cellpadding="7" cellspacing="0" class="opt-in table table-bordered" style=" width: 95%;"><thead><tr><th class="psmall" scope="col"><strong>Starting Column</strong></th><th class="psmall" scope="col"><strong>Variable Name</strong></th><th class="psmall" scope="col"><strong>Field Length</strong></th></tr></thead><tbody><tr><td class="psmall">1</td><td class="psmall">_STATE</td><td class="psmall">2</td></tr><tr><td class="psmall">3</td><td class="psmall">_GEOSTR</td><td class="psmall">2</td></tr><tr><td class="psmall">5</td><td class="psmall">_DENSTR2</td><td class="psmall">1</td></tr><tr><td class="psmall">6</td><td class="psmall">PRECALL</td><td class="psmall">1</td></tr><tr><td class="psmall">7</td><td class="psmall">REPNUM</td><td class="psmall">5</td></tr><tr><td class="psmall">12</td><td class="psmall">REPDEPTH</td><td class="psmall">2</td></tr><tr><td class="psmall">14</td><td class="psmall">FMONTH</td><td class="psmall">2</td></tr><tr><td class="psmall">16</td><td class="psmall">IDATE</td><td class="psmall">8</td></tr><tr><td class="psmall">16</td><td class="psmall">IMONTH</td><td class="psmall">2</td></tr><tr><td class="psmall">18</td><td class="psmall">IDAY</td><td class="psmall">2</td></tr><tr><td class="psmall">20</td><td class="psmall">IYEAR</td><td class="psmall">4</td></tr><tr><td class="psmall">24</td><td class="psmall">INTVID</td><td class="psmall">3</td></tr><tr><td class="psmall">27</td><td class="psmall">DISPCODE</td><td class="psmall">3</td></tr><tr><td class="psmall">30</td><td class="psmall">SEQNO</td><td class="psmall">10</td></tr><tr><td class="psmall">30</td><td class="psmall">_PSU</td><td class="psmall">10</td></tr><tr><td class="psmall">40</td><td class="psmall">NATTMPTS</td><td class="psmall">2</td></tr><tr><td class="psmall">42</td><td class="psmall">NRECSEL</td><td class="psmall">6</td></tr><tr><td class="psmall">48</td><td class="psmall">NRECSTR</td><td class="psmall">9</td></tr><tr><td class="psmall">57</td><td class="psmall">CTELENUM</td><td class="psmall">1</td></tr><tr><td class="psmall">58</td><td class="psmall">CELLFON1</td><td class="psmall">1</td></tr><tr><td class="psmall">59</td><td class="psmall">PVTRESID</td><td class="psmall">1</td></tr><tr><td class="psmall">60</td><td class="psmall">NUMADULT</td><td class="psmall">2</td></tr><tr><td class="psmall">62</td><td class="psmall">NUMMEN</td><td class="psmall">2</td></tr><tr><td class="psmall">64</td><td class="psmall">NUMWOMEN</td><td class="psmall">2</td></tr><tr><td class="psmall">73</td><td class="psmall">GENHLTH</td><td class="psmall">1</td></tr><tr><td class="psmall">74</td><td class="psmall">PHYSHLTH</td><td class="psmall">2</td></tr><tr><td class="psmall">76</td><td class="psmall">MENTHLTH</td><td class="psmall">2</td></tr><tr><td class="psmall">78</td><td class="psmall">POORHLTH</td><td class="psmall">2</td></tr><tr><td class="psmall">80</td><td class="psmall">HLTHPLAN</td><td class="psmall">1</td></tr><tr><td class="psmall">81</td><td class="psmall">PERSDOC2</td><td class="psmall">1</td></tr><tr><td class="psmall">82</td><td class="psmall">MEDCOST</td><td class="psmall">1</td></tr><tr><td class="psmall">83</td><td class="psmall">CHECKUP</td><td class="psmall">1</td></tr><tr><td class="psmall">84</td><td class="psmall">EXERANY2</td><td class="psmall">1</td></tr><tr><td class="psmall">85</td><td class="psmall">DIABETE2</td><td class="psmall">1</td></tr><tr><td class="psmall">86</td><td class="psmall">LASTDEN3</td><td class="psmall">1</td></tr><tr><td class="psmall">87</td><td class="psmall">RMVTETH3</td><td class="psmall">1</td></tr><tr><td class="psmall">88</td><td class="psmall">DENCLEAN</td><td class="psmall">1</td></tr><tr><td class="psmall">89</td><td class="psmall">CVDINFR3</td><td class="psmall">1</td></tr><tr><td class="psmall">90</td><td class="psmall">CVDCRHD3</td><td class="psmall">1</td></tr><tr><td class="psmall">91</td><td class="psmall">CVDSTRK3</td><td class="psmall">1</td></tr><tr><td class="psmall">92</td><td class="psmall">ASTHMA2</td><td class="psmall">1</td></tr><tr><td class="psmall">93</td><td class="psmall">ASTHNOW</td><td class="psmall">1</td></tr><tr><td class="psmall">94</td><td class="psmall">QLACTLM2</td><td class="psmall">1</td></tr><tr><td class="psmall">95</td><td class="psmall">USEEQUIP</td><td class="psmall">1</td></tr><tr><td class="psmall">96</td><td class="psmall">SMOKE100</td><td class="psmall">1</td></tr><tr><td class="psmall">97</td><td class="psmall">SMOKDAY2</td><td class="psmall">1</td></tr><tr><td class="psmall">98</td><td class="psmall">STOPSMK2</td><td class="psmall">1</td></tr><tr><td class="psmall">99</td><td class="psmall">AGE</td><td class="psmall">2</td></tr><tr><td class="psmall">101</td><td class="psmall">HISPANC2</td><td class="psmall">1</td></tr><tr><td class="psmall">102</td><td class="psmall">MRACE</td><td class="psmall">6</td></tr><tr><td class="psmall">108</td><td class="psmall">ORACE2</td><td class="psmall">1</td></tr><tr><td class="psmall">109</td><td class="psmall">MARITAL</td><td class="psmall">1</td></tr><tr><td class="psmall">110</td><td class="psmall">CHILDREN</td><td class="psmall">2</td></tr><tr><td class="psmall">112</td><td class="psmall">EDUCA</td><td class="psmall">1</td></tr><tr><td class="psmall">113</td><td class="psmall">EMPLOY</td><td class="psmall">1</td></tr><tr><td class="psmall">114</td><td class="psmall">INCOME2</td><td class="psmall">2</td></tr><tr><td class="psmall">116</td><td class="psmall">WEIGHT2</td><td class="psmall">4</td></tr><tr><td class="psmall">120</td><td class="psmall">HEIGHT3</td><td class="psmall">4</td></tr><tr><td class="psmall">124</td><td class="psmall">CTYCODE</td><td class="psmall">3</td></tr><tr><td class="psmall">132</td><td class="psmall">NUMHHOL2</td><td class="psmall">1</td></tr><tr><td class="psmall">133</td><td class="psmall">NUMPHON2</td><td class="psmall">1</td></tr><tr><td class="psmall">134</td><td class="psmall">TELSERV2</td><td class="psmall">1</td></tr><tr><td class="psmall">135</td><td class="psmall">SEX</td><td class="psmall">1</td></tr><tr><td class="psmall">136</td><td class="psmall">PREGNANT</td><td class="psmall">1</td></tr><tr><td class="psmall">137</td><td class="psmall">VETERAN</td><td class="psmall">1</td></tr><tr><td class="psmall">138</td><td class="psmall">DRNKANY4</td><td class="psmall">1</td></tr><tr><td class="psmall">139</td><td class="psmall">ALCDAY4</td><td class="psmall">3</td></tr><tr><td class="psmall">142</td><td class="psmall">AVEDRNK2</td><td class="psmall">2</td></tr><tr><td class="psmall">144</td><td class="psmall">DRNK3GE5</td><td class="psmall">2</td></tr><tr><td class="psmall">146</td><td class="psmall">MAXDRNKS</td><td class="psmall">2</td></tr><tr><td class="psmall">148</td><td class="psmall">FLUSHOT3</td><td class="psmall">1</td></tr><tr><td class="psmall">149</td><td class="psmall">FLUSPRY2</td><td class="psmall">1</td></tr><tr><td class="psmall">162</td><td class="psmall">PNEUVAC3</td><td class="psmall">1</td></tr><tr><td class="psmall">163</td><td class="psmall">HEPBVAC</td><td class="psmall">1</td></tr><tr><td class="psmall">164</td><td class="psmall">HEPBRSN</td><td class="psmall">1</td></tr><tr><td class="psmall">165</td><td class="psmall">FALL3MN2</td><td class="psmall">2</td></tr><tr><td class="psmall">167</td><td class="psmall">FALLINJ2</td><td class="psmall">2</td></tr><tr><td class="psmall">169</td><td class="psmall">SEATBELT</td><td class="psmall">1</td></tr><tr><td class="psmall">170</td><td class="psmall">DRINKDRI</td><td class="psmall">2</td></tr><tr><td class="psmall">172</td><td class="psmall">HADMAM</td><td class="psmall">1</td></tr><tr><td class="psmall">173</td><td class="psmall">HOWLONG</td><td class="psmall">1</td></tr><tr><td class="psmall">174</td><td class="psmall">PROFEXAM</td><td class="psmall">1</td></tr><tr><td class="psmall">175</td><td class="psmall">LENGEXAM</td><td class="psmall">1</td></tr><tr><td class="psmall">176</td><td class="psmall">HADPAP2</td><td class="psmall">1</td></tr><tr><td class="psmall">177</td><td class="psmall">LASTPAP2</td><td class="psmall">1</td></tr><tr><td class="psmall">178</td><td class="psmall">HADHYST2</td><td class="psmall">1</td></tr><tr><td class="psmall">179</td><td class="psmall">PSATEST</td><td class="psmall">1</td></tr><tr><td class="psmall">180</td><td class="psmall">PSATIME</td><td class="psmall">1</td></tr><tr><td class="psmall">181</td><td class="psmall">DIGRECEX</td><td class="psmall">1</td></tr><tr><td class="psmall">182</td><td class="psmall">DRETIME</td><td class="psmall">1</td></tr><tr><td class="psmall">183</td><td class="psmall">PROSTATE</td><td class="psmall">1</td></tr><tr><td class="psmall">184</td><td class="psmall">BLDSTOOL</td><td class="psmall">1</td></tr><tr><td class="psmall">185</td><td class="psmall">LSTBLDS2</td><td class="psmall">1</td></tr><tr><td class="psmall">186</td><td class="psmall">HADSIGM3</td><td class="psmall">1</td></tr><tr><td class="psmall">187</td><td class="psmall">LASTSIG2</td><td class="psmall">1</td></tr><tr><td class="psmall">188</td><td class="psmall">HIVTST5</td><td class="psmall">1</td></tr><tr><td class="psmall">189</td><td class="psmall">HIVTSTD2</td><td class="psmall">6</td></tr><tr><td class="psmall">195</td><td class="psmall">WHRTST7</td><td class="psmall">2</td></tr><tr><td class="psmall">197</td><td class="psmall">HIVRDTST</td><td class="psmall">1</td></tr><tr><td class="psmall">198</td><td class="psmall">EMTSUPRT</td><td class="psmall">1</td></tr><tr><td class="psmall">199</td><td class="psmall">LSATISFY</td><td class="psmall">1</td></tr><tr><td class="psmall">200</td><td class="psmall">RCSBIRTH</td><td class="psmall">6</td></tr><tr><td class="psmall">206</td><td class="psmall">RCSGENDR</td><td class="psmall">1</td></tr><tr><td class="psmall">207</td><td class="psmall">RCHISLAT</td><td class="psmall">1</td></tr><tr><td class="psmall">208</td><td class="psmall">RCSRACE</td><td class="psmall">6</td></tr><tr><td class="psmall">214</td><td class="psmall">RCSBRACE</td><td class="psmall">1</td></tr><tr><td class="psmall">215</td><td class="psmall">RCSRELN1</td><td class="psmall">1</td></tr><tr><td class="psmall">216</td><td class="psmall">DRHPCH</td><td class="psmall">1</td></tr><tr><td class="psmall">217</td><td class="psmall">HAVHPCH</td><td class="psmall">1</td></tr><tr><td class="psmall">218</td><td class="psmall">CIFLUSH2</td><td class="psmall">1</td></tr><tr><td class="psmall">219</td><td class="psmall">RCVFVCH2</td><td class="psmall">6</td></tr><tr><td class="psmall">225</td><td class="psmall">RNOFVCH2</td><td class="psmall">2</td></tr><tr><td class="psmall">227</td><td class="psmall">CASTHDX2</td><td class="psmall">1</td></tr><tr><td class="psmall">228</td><td class="psmall">CASTHNO2</td><td class="psmall">1</td></tr><tr><td class="psmall">229</td><td class="psmall">DIABAGE2</td><td class="psmall">2</td></tr><tr><td class="psmall">231</td><td class="psmall">INSULIN</td><td class="psmall">1</td></tr><tr><td class="psmall">232</td><td class="psmall">DIABPILL</td><td class="psmall">1</td></tr><tr><td class="psmall">233</td><td class="psmall">BLDSUGAR</td><td class="psmall">3</td></tr><tr><td class="psmall">236</td><td class="psmall">FEETCHK2</td><td class="psmall">3</td></tr><tr><td class="psmall">239</td><td class="psmall">FEETSORE</td><td class="psmall">1</td></tr><tr><td class="psmall">240</td><td class="psmall">DOCTDIAB</td><td class="psmall">2</td></tr><tr><td class="psmall">242</td><td class="psmall">CHKHEMO3</td><td class="psmall">2</td></tr><tr><td class="psmall">244</td><td class="psmall">FEETCHK</td><td class="psmall">2</td></tr><tr><td class="psmall">246</td><td class="psmall">EYEEXAM</td><td class="psmall">1</td></tr><tr><td class="psmall">247</td><td class="psmall">DIABEYE</td><td class="psmall">1</td></tr><tr><td class="psmall">248</td><td class="psmall">DIABEDU</td><td class="psmall">1</td></tr><tr><td class="psmall">249</td><td class="psmall">VIDFCLT2</td><td class="psmall">1</td></tr><tr><td class="psmall">250</td><td class="psmall">VIREDIF2</td><td class="psmall">1</td></tr><tr><td class="psmall">251</td><td class="psmall">VIPRFVS2</td><td class="psmall">1</td></tr><tr><td class="psmall">252</td><td class="psmall">VINOCRE2</td><td class="psmall">2</td></tr><tr><td class="psmall">254</td><td class="psmall">VIEYEXM2</td><td class="psmall">1</td></tr><tr><td class="psmall">255</td><td class="psmall">VIINSUR2</td><td class="psmall">1</td></tr><tr><td class="psmall">256</td><td class="psmall">VICTRCT2</td><td class="psmall">1</td></tr><tr><td class="psmall">257</td><td class="psmall">VIGLUMA2</td><td class="psmall">1</td></tr><tr><td class="psmall">258</td><td class="psmall">VIMACDG2</td><td class="psmall">1</td></tr><tr><td class="psmall">259</td><td class="psmall">VIATWRK2</td><td class="psmall">1</td></tr><tr><td class="psmall">260</td><td class="psmall">PAINACT2</td><td class="psmall">2</td></tr><tr><td class="psmall">262</td><td class="psmall">QLMENTL2</td><td class="psmall">2</td></tr><tr><td class="psmall">264</td><td class="psmall">QLSTRES2</td><td class="psmall">2</td></tr><tr><td class="psmall">266</td><td class="psmall">QLREST2</td><td class="psmall">2</td></tr><tr><td class="psmall">268</td><td class="psmall">QLHLTH2</td><td class="psmall">2</td></tr><tr><td class="psmall">270</td><td class="psmall">ASTHMAGE</td><td class="psmall">2</td></tr><tr><td class="psmall">272</td><td class="psmall">ASATTACK</td><td class="psmall">1</td></tr><tr><td class="psmall">273</td><td class="psmall">ASERVIST</td><td class="psmall">2</td></tr><tr><td class="psmall">275</td><td class="psmall">ASDRVIST</td><td class="psmall">2</td></tr><tr><td class="psmall">277</td><td class="psmall">ASRCHKUP</td><td class="psmall">2</td></tr><tr><td class="psmall">279</td><td class="psmall">ASACTLIM</td><td class="psmall">3</td></tr><tr><td class="psmall">282</td><td class="psmall">ASYMPTOM</td><td class="psmall">1</td></tr><tr><td class="psmall">283</td><td class="psmall">ASNOSLEP</td><td class="psmall">1</td></tr><tr><td class="psmall">284</td><td class="psmall">ASTHMED2</td><td class="psmall">1</td></tr><tr><td class="psmall">285</td><td class="psmall">ASINHALR</td><td class="psmall">1</td></tr><tr><td class="psmall">286</td><td class="psmall">BRTHCNT3</td><td class="psmall">1</td></tr><tr><td class="psmall">287</td><td class="psmall">TYPCNTR4</td><td class="psmall">2</td></tr><tr><td class="psmall">289</td><td class="psmall">NOBCUSE2</td><td class="psmall">2</td></tr><tr><td class="psmall">291</td><td class="psmall">FPCHLDFT</td><td class="psmall">1</td></tr><tr><td class="psmall">292</td><td class="psmall">FPCHLDHS</td><td class="psmall">1</td></tr><tr><td class="psmall">293</td><td class="psmall">VITAMINS</td><td class="psmall">1</td></tr><tr><td class="psmall">294</td><td class="psmall">MULTIVIT</td><td class="psmall">1</td></tr><tr><td class="psmall">295</td><td class="psmall">FOLICACD</td><td class="psmall">1</td></tr><tr><td class="psmall">296</td><td class="psmall">TAKEVIT</td><td class="psmall">3</td></tr><tr><td class="psmall">299</td><td class="psmall">RECOMMEN</td><td class="psmall">1</td></tr><tr><td class="psmall">300</td><td class="psmall">HOUSESMK</td><td class="psmall">1</td></tr><tr><td class="psmall">301</td><td class="psmall">INDOORS</td><td class="psmall">1</td></tr><tr><td class="psmall">302</td><td class="psmall">SMKPUBLC</td><td class="psmall">1</td></tr><tr><td class="psmall">303</td><td class="psmall">SMKWORK</td><td class="psmall">1</td></tr><tr><td class="psmall">304</td><td class="psmall">IAQHTSRC</td><td class="psmall">1</td></tr><tr><td class="psmall">305</td><td class="psmall">IAQGASAP</td><td class="psmall">1</td></tr><tr><td class="psmall">306</td><td class="psmall">IAQHTDYS</td><td class="psmall">3</td></tr><tr><td class="psmall">309</td><td class="psmall">IAQCODTR</td><td class="psmall">1</td></tr><tr><td class="psmall">310</td><td class="psmall">IAQMOLD</td><td class="psmall">1</td></tr><tr><td class="psmall">311</td><td class="psmall">HEWTRSRC</td><td class="psmall">1</td></tr><tr><td class="psmall">312</td><td class="psmall">HEWTRDRK</td><td class="psmall">1</td></tr><tr><td class="psmall">313</td><td class="psmall">HECHMHOM</td><td class="psmall">3</td></tr><tr><td class="psmall">316</td><td class="psmall">HECHMYRD</td><td class="psmall">3</td></tr><tr><td class="psmall">319</td><td class="psmall">RRCLASS2</td><td class="psmall">1</td></tr><tr><td class="psmall">320</td><td class="psmall">RRCOGNT2</td><td class="psmall">1</td></tr><tr><td class="psmall">321</td><td class="psmall">RRATWORK</td><td class="psmall">1</td></tr><tr><td class="psmall">322</td><td class="psmall">RRHCARE2</td><td class="psmall">1</td></tr><tr><td class="psmall">323</td><td class="psmall">RRPHYSM1</td><td class="psmall">1</td></tr><tr><td class="psmall">324</td><td class="psmall">RREMTSM1</td><td class="psmall">1</td></tr><tr><td class="psmall">325</td><td class="psmall">ADPLEASR</td><td class="psmall">2</td></tr><tr><td class="psmall">327</td><td class="psmall">ADDOWN</td><td class="psmall">2</td></tr><tr><td class="psmall">329</td><td class="psmall">ADSLEEP</td><td class="psmall">2</td></tr><tr><td class="psmall">331</td><td class="psmall">ADENERGY</td><td class="psmall">2</td></tr><tr><td class="psmall">333</td><td class="psmall">ADEAT</td><td class="psmall">2</td></tr><tr><td class="psmall">335</td><td class="psmall">ADFAIL</td><td class="psmall">2</td></tr><tr><td class="psmall">337</td><td class="psmall">ADTHINK</td><td class="psmall">2</td></tr><tr><td class="psmall">339</td><td class="psmall">ADMOVE</td><td class="psmall">2</td></tr><tr><td class="psmall">341</td><td class="psmall">ADANXEV</td><td class="psmall">1</td></tr><tr><td class="psmall">342</td><td class="psmall">ADDEPEV</td><td class="psmall">1</td></tr><tr><td class="psmall">343</td><td class="psmall">SVSAFE</td><td class="psmall">1</td></tr><tr><td class="psmall">344</td><td class="psmall">SVSEXTCH</td><td class="psmall">1</td></tr><tr><td class="psmall">345</td><td class="psmall">SVNOTCH</td><td class="psmall">1</td></tr><tr><td class="psmall">346</td><td class="psmall">SVEHDSE1</td><td class="psmall">1</td></tr><tr><td class="psmall">347</td><td class="psmall">SVHDSX12</td><td class="psmall">1</td></tr><tr><td class="psmall">348</td><td class="psmall">SVEANOS1</td><td class="psmall">1</td></tr><tr><td class="psmall">349</td><td class="psmall">SVNOSX12</td><td class="psmall">1</td></tr><tr><td class="psmall">350</td><td class="psmall">SVRELAT2</td><td class="psmall">2</td></tr><tr><td class="psmall">352</td><td class="psmall">SVGENDER</td><td class="psmall">1</td></tr><tr><td class="psmall">353</td><td class="psmall">IPVSAFE</td><td class="psmall">1</td></tr><tr><td class="psmall">354</td><td class="psmall">IPVTHRAT</td><td class="psmall">1</td></tr><tr><td class="psmall">355</td><td class="psmall">IPVPHYV1</td><td class="psmall">1</td></tr><tr><td class="psmall">356</td><td class="psmall">IPVPHHRT</td><td class="psmall">1</td></tr><tr><td class="psmall">357</td><td class="psmall">IPVUWSEX</td><td class="psmall">1</td></tr><tr><td class="psmall">358</td><td class="psmall">IPVPVL12</td><td class="psmall">1</td></tr><tr><td class="psmall">359</td><td class="psmall">IPVSXINJ</td><td class="psmall">1</td></tr><tr><td class="psmall">360</td><td class="psmall">IPVRELT1</td><td class="psmall">2</td></tr><tr><td class="psmall">362</td><td class="psmall">GPWELPRD</td><td class="psmall">1</td></tr><tr><td class="psmall">363</td><td class="psmall">GPVACPLN</td><td class="psmall">1</td></tr><tr><td class="psmall">364</td><td class="psmall">GP3DYWTR</td><td class="psmall">1</td></tr><tr><td class="psmall">365</td><td class="psmall">GP3DYFOD</td><td class="psmall">1</td></tr><tr><td class="psmall">366</td><td class="psmall">GP3DYPRS</td><td class="psmall">1</td></tr><tr><td class="psmall">367</td><td class="psmall">GPBATRAD</td><td class="psmall">1</td></tr><tr><td class="psmall">368</td><td class="psmall">GPFLSLIT</td><td class="psmall">1</td></tr><tr><td class="psmall">369</td><td class="psmall">GPMNDEVC</td><td class="psmall">1</td></tr><tr><td class="psmall">370</td><td class="psmall">GPNOTEVC</td><td class="psmall">2</td></tr><tr><td class="psmall">372</td><td class="psmall">GPEMRCOM</td><td class="psmall">1</td></tr><tr><td class="psmall">373</td><td class="psmall">GPEMRINF</td><td class="psmall">1</td></tr><tr><td class="psmall">741</td><td class="psmall">QSTVER</td><td class="psmall">1</td></tr><tr><td class="psmall">742</td><td class="psmall">QSTLANG</td><td class="psmall">2</td></tr><tr><td class="psmall">800</td><td class="psmall">_STSTR</td><td class="psmall">5</td></tr><tr><td class="psmall">805</td><td class="psmall">_STRWT</td><td class="psmall">10</td></tr><tr><td class="psmall">815</td><td class="psmall">_RAW</td><td class="psmall">10</td></tr><tr><td class="psmall">825</td><td class="psmall">_WT2</td><td class="psmall">10</td></tr><tr><td class="psmall">835</td><td class="psmall">_POSTSTR</td><td class="psmall">10</td></tr><tr><td class="psmall">845</td><td class="psmall">_FINALWT</td><td class="psmall">10</td></tr><tr><td class="psmall">935</td><td class="psmall">_REGION</td><td class="psmall">2</td></tr><tr><td class="psmall">937</td><td class="psmall">_AGEG_</td><td class="psmall">2</td></tr><tr><td class="psmall">939</td><td class="psmall">_SEXG_</td><td class="psmall">1</td></tr><tr><td class="psmall">940</td><td class="psmall">_RACEG3_</td><td class="psmall">1</td></tr><tr><td class="psmall">941</td><td class="psmall">_RACEG4_</td><td class="psmall">1</td></tr><tr><td class="psmall">942</td><td class="psmall">_IMPAGE</td><td class="psmall">2</td></tr><tr><td class="psmall">944</td><td class="psmall">_IMPNPH</td><td class="psmall">1</td></tr><tr><td class="psmall">945</td><td class="psmall">_ITSCF1</td><td class="psmall">10</td></tr><tr><td class="psmall">955</td><td class="psmall">_ITSCF2</td><td class="psmall">10</td></tr><tr><td class="psmall">965</td><td class="psmall">_ITSPOST</td><td class="psmall">10</td></tr><tr><td class="psmall">975</td><td class="psmall">_ITSFINL</td><td class="psmall">10</td></tr><tr><td class="psmall">993</td><td class="psmall">MSCODE</td><td class="psmall">1</td></tr><tr><td class="psmall">994</td><td class="psmall">CRACEORG</td><td class="psmall">6</td></tr><tr><td class="psmall">1000</td><td class="psmall">CRACEASC</td><td class="psmall">6</td></tr><tr><td class="psmall">1006</td><td class="psmall">_CRACE</td><td class="psmall">2</td></tr><tr><td class="psmall">1008</td><td class="psmall">_CSEXG_</td><td class="psmall">1</td></tr><tr><td class="psmall">1009</td><td class="psmall">_CRACEG_</td><td class="psmall">1</td></tr><tr><td class="psmall">1010</td><td class="psmall">_CAGEG_</td><td class="psmall">3</td></tr><tr><td class="psmall">1033</td><td class="psmall">_RAWCH</td><td class="psmall">10</td></tr><tr><td class="psmall">1063</td><td class="psmall">_WT2CH</td><td class="psmall">10</td></tr><tr><td class="psmall">1093</td><td class="psmall">_POSTCH</td><td class="psmall">10</td></tr><tr><td class="psmall">1123</td><td class="psmall">_CHILDWT</td><td class="psmall">10</td></tr><tr><td class="psmall">1133</td><td class="psmall">_RAWHH</td><td class="psmall">10</td></tr><tr><td class="psmall">1143</td><td class="psmall">_WT2HH</td><td class="psmall">10</td></tr><tr><td class="psmall">1153</td><td class="psmall">_POSTHH</td><td class="psmall">10</td></tr><tr><td class="psmall">1163</td><td class="psmall">_HOUSEWT</td><td class="psmall">10</td></tr><tr><td class="psmall">1173</td><td class="psmall">_RFHLTH</td><td class="psmall">1</td></tr><tr><td class="psmall">1174</td><td class="psmall">_TOTINDA</td><td class="psmall">1</td></tr><tr><td class="psmall">1175</td><td class="psmall">_EXTETH2</td><td class="psmall">1</td></tr><tr><td class="psmall">1176</td><td class="psmall">_ALTETH2</td><td class="psmall">1</td></tr><tr><td class="psmall">1177</td><td class="psmall">_DENVST1</td><td class="psmall">1</td></tr><tr><td class="psmall">1178</td><td class="psmall">_LTASTHM</td><td class="psmall">1</td></tr><tr><td class="psmall">1179</td><td class="psmall">_CASTHMA</td><td class="psmall">1</td></tr><tr><td class="psmall">1180</td><td class="psmall">_ASTHMST</td><td class="psmall">1</td></tr><tr><td class="psmall">1181</td><td class="psmall">_SMOKER3</td><td class="psmall">1</td></tr><tr><td class="psmall">1182</td><td class="psmall">_RFSMOK3</td><td class="psmall">1</td></tr><tr><td class="psmall">1183</td><td class="psmall">MRACEORG</td><td class="psmall">6</td></tr><tr><td class="psmall">1189</td><td class="psmall">MRACEASC</td><td class="psmall">6</td></tr><tr><td class="psmall">1195</td><td class="psmall">_PRACE</td><td class="psmall">2</td></tr><tr><td class="psmall">1197</td><td class="psmall">_MRACE</td><td class="psmall">2</td></tr><tr><td class="psmall">1199</td><td class="psmall">_RACEG2</td><td class="psmall">1</td></tr><tr><td class="psmall">1200</td><td class="psmall">_RACEGR2</td><td class="psmall">1</td></tr><tr><td class="psmall">1201</td><td class="psmall">_RACE_G</td><td class="psmall">1</td></tr><tr><td class="psmall">1202</td><td class="psmall">_CNRACE</td><td class="psmall">1</td></tr><tr><td class="psmall">1203</td><td class="psmall">_CNRACEC</td><td class="psmall">1</td></tr><tr><td class="psmall">1204</td><td class="psmall">RACE2</td><td class="psmall">1</td></tr><tr><td class="psmall">1205</td><td class="psmall">_AGEG5YR</td><td class="psmall">2</td></tr><tr><td class="psmall">1207</td><td class="psmall">_AGE65YR</td><td class="psmall">1</td></tr><tr><td class="psmall">1208</td><td class="psmall">_AGE_G</td><td class="psmall">1</td></tr><tr><td class="psmall">1209</td><td class="psmall">HTIN3</td><td class="psmall">3</td></tr><tr><td class="psmall">1212</td><td class="psmall">HTM3</td><td class="psmall">3</td></tr><tr><td class="psmall">1215</td><td class="psmall">WTKG2</td><td class="psmall">5</td></tr><tr><td class="psmall">1220</td><td class="psmall">_BMI4</td><td class="psmall">4</td></tr><tr><td class="psmall">1224</td><td class="psmall">_BMI4CAT</td><td class="psmall">1</td></tr><tr><td class="psmall">1225</td><td class="psmall">_RFBMI4</td><td class="psmall">1</td></tr><tr><td class="psmall">1226</td><td class="psmall">_CHLDCNT</td><td class="psmall">1</td></tr><tr><td class="psmall">1227</td><td class="psmall">_EDUCAG</td><td class="psmall">1</td></tr><tr><td class="psmall">1228</td><td class="psmall">_INCOMG</td><td class="psmall">1</td></tr><tr><td class="psmall">1229</td><td class="psmall">DROCDY2_</td><td class="psmall">3</td></tr><tr><td class="psmall">1232</td><td class="psmall">_RFBING4</td><td class="psmall">1</td></tr><tr><td class="psmall">1233</td><td class="psmall">_DRNKDY3</td><td class="psmall">4</td></tr><tr><td class="psmall">1237</td><td class="psmall">_DRNKMO3</td><td class="psmall">4</td></tr><tr><td class="psmall">1241</td><td class="psmall">_RFDRHV3</td><td class="psmall">1</td></tr><tr><td class="psmall">1242</td><td class="psmall">_RFDRMN3</td><td class="psmall">1</td></tr><tr><td class="psmall">1243</td><td class="psmall">_RFDRWM3</td><td class="psmall">1</td></tr><tr><td class="psmall">1244</td><td class="psmall">_FLSHOT3</td><td class="psmall">1</td></tr><tr><td class="psmall">1245</td><td class="psmall">_PNEUMO2</td><td class="psmall">1</td></tr><tr><td class="psmall">1246</td><td class="psmall">_RFSEAT2</td><td class="psmall">1</td></tr><tr><td class="psmall">1247</td><td class="psmall">_RFSEAT3</td><td class="psmall">1</td></tr><tr><td class="psmall">1248</td><td class="psmall">_RFMAM2Y</td><td class="psmall">1</td></tr><tr><td class="psmall">1249</td><td class="psmall">_MAM502Y</td><td class="psmall">1</td></tr><tr><td class="psmall">1250</td><td class="psmall">_RFPAP32</td><td class="psmall">1</td></tr><tr><td class="psmall">1251</td><td class="psmall">_RFPSA2Y</td><td class="psmall">1</td></tr><tr><td class="psmall">1252</td><td class="psmall">_RFBLDST</td><td class="psmall">1</td></tr><tr><td class="psmall">1253</td><td class="psmall">_RFSIGM2</td><td class="psmall">1</td></tr><tr><td class="psmall">1254</td><td class="psmall">_AIDTST2</td><td class="psmall">1</td></tr></tbody></table><!-- InstanceEndEditable --><!-- /end .main-inner --><div id="linkPolicy"><!-- --></div><!-- /end #content-main-->             					            					            						</div>
+            					            					            						</div>
+            													        						                                                                                        						                                                                								<!-- Related Nav Area -->
+								<div class="nav-related hidden-three hidden-four">
+									
+
+
+
+
+									
+
+
+
+<div class="nav-related">
+<div class="module-typeG emailupdates"><span class="sprite-24-govd-icon"><!-- span --></span>
+<h4>Get Email Updates</h4>
+
+<p>To receive email updates about this page, enter your email address:</p>
+
+<form action="https://public.govdelivery.com/accounts/USCDC/subscribers/qualify" name="govdelivery">
+<fieldset><input name="topic_id" type="hidden" value="USCDC_490" /><label><span class="hidden">Enter Email Address</span> <input class="email" name="email" type="text" value="" /></label> <a class="explain" href="http://www.cdc.gov/emailupdates/">What's this?</a><a class="button" href="varlayout_dual_v2_06.htm#;">Submit</a> <noscript><a class="explain" href="http://www.cdc.gov/emailupdates/">What&#39;s this?</a> <label><span class="hidden">Submit Button</span> <input class="button submit" name="commit" type="submit" value="Submit" /></label></noscript></fieldset>
+</form>
+</div>
+
+<div class="row">
+<div class="span14">
+<div class="module-typeH topicmedia" style=" clear: both;">
+<h3>Related Links</h3>
+
+<ul class="list-block" style=" margin-left: 10px;">
+<li><a href="http://wwwn.cdc.gov/sortablestats/">Health Indicator Sortable Stats</a></li>
+
+<li><a href="http://www.healthindicators.gov/">Health Indicators Warehouse (HIW)</a></li>
+
+<li><a href="http://healthdata.gov/">HealthData.gov</a></li>
+
+<li><a href="http://data.cdc.gov/">Data Catalog</a></li>
+
+<li class="lastChild"><a href="https://www.cdc.gov/chronicdisease/stats/">CDC’s Major Disease Surveillance Systems</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<p><a href="https://www.cdc.gov/24-7/?s_cid=24-7_004"><img class="center" src="../../../features/images/24-7_i150x120html.gif" alt="24/7" /></a></p>
+</div>
+
+
+								</div>
+    							<!-- Persistent Content Area -->
+    							<div id="content-secondary">
+                                    
+
+
+
+            						
+
+
+
+    							</div><!-- /end #content-secondary -->
+    						</div><!-- /end #contentArea -->
+    					</div><!-- /end body -->	
+					</div>
+					<div class="row">
+						<div class="span24 visible-one">
+																											</div>
+					</div>
+					<div class="row">
+						<div class="span24">
+                            <div id="plugin-legend" class="pluginOff">
+	<h5>File Formats Help:</h5><span><a href="https://www.cdc.gov/Other/plugins/">How do I view different file formats (PDF, DOC, PPT, MPEG) on this site?</a></span>
+	<ul>
+		<li class="plugin-pdf"><a href="https://www.cdc.gov/Other/plugins/#pdf"><span class="sprite-16-pdf">Adobe PDF file</span></a></li>
+		<li class="plugin-ppt"><a href="https://www.cdc.gov/Other/plugins/#ppt"><span class="sprite-16-ppt">Microsoft PowerPoint file</span></a></li>
+		<li class="plugin-word"><a href="https://www.cdc.gov/Other/plugins/#doc"><span class="sprite-16-word">Microsoft Word file</span></a></li>
+		<li class="plugin-excel"><a href="https://www.cdc.gov/Other/plugins/#xls"><span class="sprite-16-excel">Microsoft Excel file</span></a></li>
+		<li class="plugin-wmv"><a href="https://www.cdc.gov/Other/plugins/#wmv"><span class="sprite-16-wmv">Audio/Video file</span></a></li>
+		<li class="plugin-qt"><a href="https://www.cdc.gov/Other/plugins/#qt"><span class="sprite-16-qt">Apple Quicktime file</span></a></li>
+		<li class="plugin-real"><a href="https://www.cdc.gov/Other/plugins/#ram"><span class="sprite-16-rp">RealPlayer file</span></a></li>
+		<li class="plugin-text"><a href="https://www.cdc.gov/Other/plugins/#text"><span class="sprite-16-txt">Text file</span></a></li>
+		<li class="plugin-zip"><a href="https://www.cdc.gov/Other/plugins/#zip"><span class="sprite-16-zip">Zip Archive file</span></a></li>
+		<li class="plugin-sas"><a href="https://www.cdc.gov/Other/plugins/#sas"><span class="sprite-16-sas">SAS file</span></a></li>
+		<li class="plugin-epub"><a href="https://www.cdc.gov/Other/plugins/#epub"><span class="sprite-16-ebook">ePub file</span></a></li>
+		<li class="plugin-ris"><a href="https://www.cdc.gov/Other/plugins/#ris"><span class="sprite-16-ris">RIS file</span></a></li>
+	</ul>
+</div>
+						</div>
+					</div>
+					<!-- date stamp -->
+					<div id="datestamp" class="row" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+						<div class="span24">
+    						<ul> 
+            					            						<li class="last-reviewed">Page last reviewed: <span itemprop="lastReviewed">July 23, 2013</span></li>
+            													            					            						<li class="last-updated">Page last updated: <span itemprop="dateModified">July 23, 2013</span></li>
+            					        							<li class="content-source">Content source:
+    									
+
+
+<ul class="noindent"><li class="" itemprop="sourceOrganization" itemscope="itemscope" itemtype="http://schema.org/Organization"><a href="https://www.cdc.gov/chronicdisease" itemprop="url">National Center for Chronic Disease Prevention and Health Promotion</a> | <a href="https://www.cdc.gov/NCCDPHP/dph" itemprop="url">Division of Population Health</a></li></ul>
+
+        							</li>
+									
+
+
+
+    						</ul>
+						</div>
+					</div>					
+				</div><!-- /end #content -->
+			</div><!-- /.container for content -->					
+			<!-- footer -->
+			<footer id="footer">
+					<div class="socialMedia">
+		<div class="container">
+			<nav class="socialFooter followcdc">
+				<h6>Follow CDC</h6>
+				<ul>
+					<li><a href="https://www.cdc.gov/Other/emailupdates"><span class="sprite-24-govd"></span><span class="tp-sr-only">Email</span></a></li>
+					<li><a href="https://www.facebook.com/CDC" target="_blank"><span class="sprite-24-facebook"></span><span class="tp-sr-only">Recommend</span></a></li>
+					<li><a href="https://twitter.com/CDCgov" target="_blank"><span class="sprite-24-twitter"></span><span class="tp-sr-only">Tweet</span></a></li>
+					<li><a href="https://www.linkedin.com/company/centers-for-disease-control-and-prevention" target="_blank"><span class="sprite-24-linkedin"></span><span class="tp-sr-only">Post</span></a></li>
+					<li><a href="https://www2c.cdc.gov/podcasts/rss.asp"><span class="sprite-24-rss"></span><span class="tp-sr-only">RSS</span></a></li>
+				</ul>
+			</nav>
+			<nav class="socialFooter cdcmedia">
+				<h6>CDC Media</h6>
+				<ul>
+					<li><a href="https://www2c.cdc.gov/podcasts"><span class="sprite-24-listen"></span><span class="tp-sr-only">Listen</span></a></li>
+					<li><a href="https://www.cdc.gov/cdctv"><span class="sprite-24-watch"></span><span class="tp-sr-only">Watch</span></a></li>
+					<li><a href="https://tools.cdc.gov/ecards/default.aspx?language=en"><span class="sprite-24-ecards"></span><span class="tp-sr-only">eCards</span></a></li>
+					<li><a href="https://www.youtube.com/user/CDCstreamingHealth" target="_blank"><span class="sprite-24-youtube"></span><span class="tp-sr-only">YouTube</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+				<div class="container">
+								<div id="hhs"><a href="https://www.hhs.gov" class="noLinking"><img alt="Department of Health and Human Services" src="../../../TemplatePackage/3.0/images/hhs.png" /></a></div>
+
+			<!-- class="pull-right" -->
+					<ul class="cdcLinks">
+									<li class="span5">
+				<nav>
+					<h6><span class="icon-angle-down visible-one pull-left"></span>About CDC</h6>
+					<ul class="hidden-one">
+						<li><a href="https://jobs.cdc.gov">Employment</a></li>
+						<li><a href="https://www.cdc.gov/media/index.html">Newsroom</a></li>
+						<li><a href="https://www.cdc.gov/Learning">Training/Education</a></li>
+						<li><a href="https://www.cdc.gov/funding">Funding</a></li>
+						<li><a href="https://www.cdc.gov/about/organization/cio.htm">CDC's Organization</a></li>
+						<li><a href="https://www.cdc.gov/about/organization/mission.htm">Mission and Vision</a></li>
+						<li><a href="https://www.cdc.gov/Other/about_cdcgov.html">Using this Site</a></li>
+					</ul>
+				</nav>
+			</li>
+			<li class="span5">
+				<nav>
+					<h6><span class="icon-angle-down visible-one pull-left"></span>Legal</h6>
+					<ul class="hidden-one">
+						<li><a href="https://www.cdc.gov/Other/link.html">Link to Us</a></li>
+						<li><a href="https://www.cdc.gov/Other/policies.html">Policies</a></li>
+						<li><a href="https://www.cdc.gov/od/foia">FOIA</a></li>
+						<li><a href="https://www.cdc.gov/contact/accessibility.html">Accessibility</a></li>
+						<li><a href="https://www.cdc.gov/Other/privacy.html">Privacy</a></li>
+						<li><a href="https://www.cdc.gov/eeo/nofearact/index.htm">No FEAR Act</a></li>
+						<li><a href="https://oig.hhs.gov" class="noLinking">Inspector General</a></li>
+						<li><a href="https://www.usa.gov/" class="noLinking">USA.gov</a></li>
+					</ul>
+				</nav>
+			</li>
+
+
+						<li class="local-contact">
+							<section>
+<h6><span class="b14d icon-angle-down visible-one pull-left"></span>Contact BRFSS</h6>
+<address class="address hidden-one" itemscope="itemscope" itemtype="http://www.schema.org/Organization">
+	<div itemprop="name">Population Health Surveillance Branch (PHSB)</div>
+        	<div itemprop="name">Centers for Disease Control and Prevention</div>
+	<div class="value" itemprop="address" itemscope="itemscope" itemtype="http://www.schema.org/PostalAddress">
+	<span itemprop="streetAddress">4770 Buford Hwy, MS F-78 </span>
+		<span itemprop="addressLocality">Atlanta</span>,
+	<span itemprop="addressRegion">GA</span>
+	<span itemprop="postalCode">30341-3717</span>
+</div>
+<div><span> Tel: </span> <span itemprop="telephone">800-CDC-INFO</span>
+    		, <span itemprop="telephone">TTY: (888) 232-6348</span>
+	</div>
+<div class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="http://www.schema.org/ContactPoint">
+	<span itemprop="url"><a href="http://www.cdc.gov/cdc-info/requestform.html">Contact CDC-INFO</a></span>
+</div>
+</address>
+</section>						</li>
+						<li class="contact">
+											<section>
+					<h6><span class="icon-angle-down visible-one pull-left"></span>Contact CDC</h6>
+					<address class="address hidden-one" itemscope="itemscope" itemtype="https://schema.org/Organization">
+						<div class="block" itemprop="name">Centers for Disease Control and Prevention</div>
+						<div class="value" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+							<span class="block" itemprop="streetAddress">1600 Clifton Road</span>
+							<span itemprop="addressLocality">Atlanta</span>,
+							<span itemprop="addressRegion">GA</span>
+							<span itemprop="postalCode">30329-4027</span>
+							<span itemprop="addressCountry">USA</span>
+						</div>
+						<div class="value" itemprop="telephone">800-CDC-INFO (800-232-4636)</div>
+						<div class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+							<span itemprop="url"><a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx">Contact CDC-INFO</a></span>
+						</div>
+					</address>
+				</section>
+						</li>
+					</ul>
+				</div>
+			</footer>
+			<!-- /#footer -->
+			<div id="totop" class="off visible-one">Top</div>
+        </div>
+		<script>page_timing.libs_start = Date.now();</script><script src="../../../TemplatePackage/3.0/js/libs.min.js@3.2.1.7"></script><script>page_timing.libs_end = Date.now();page_timing.core_start = Date.now();</script><script src="../../../TemplatePackage/3.0/js/core.min.js@3.2.1.7"></script><script>page_timing.core_end = Date.now();</script><!-- Start Site Settings Overrides -->
+<script>
+CDC.Constants.set("flexSliderVideoDomains", ['youtube.com','ytimg.com','vimeocdn.com'], 'es');
+	CDC.Global.settings.includeCDCInBreadCrumbBar=true;
+	CDC.Global.settings.includePageInBreadCrumbBar=true;
+	CDC.Global.settings.catchJSErrors=true;
+	CDC.Global.settings.enableExternalLinks=true;
+	CDC.Global.settings.enableFileIcons=true;
+	CDC.Global.settings.simulateMobile=true;
+</script>
+<!-- End Site Settings Overrides --><script>page_timing.app_start = Date.now();</script><script src="../../../TemplatePackage/3.0/js/app.min.js@3.2.1.7"></script><script>page_timing.app_end = Date.now();</script>		
+		        			<!-- Begin Survey scripts -->
+<script src="../../../JScript/foresee/foresee-trigger.js"></script>
+<script src="../../../JScript/foresee-variables.js"></script>
+<!-- End Survey scripts -->
+			
+            <script>if (typeof page_timing !== 'undefined') { page_timing.metrics_start = Date.now(); }</script>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code begins here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<div id="metrics">
+
+<!-- Begin Google DAP inclusion -->
+<script type="text/javascript" id="_fed_an_ua_tag" src="../../../JScript/metrics/google/Universal-Federated-Analytics-Min.js@agency=HHS&amp;subagency=CDC"></script>
+<!-- End Google DAP inclusion -->
+
+<!-- Begin Template Package Custom Interactions -->
+<script type="text/javascript" src="../../../JScript/metrics/rd_custom_interactions.js"></script>
+<!-- End Template Package Custom Interactions -->
+
+<!-- SiteCatalyst code version: H.21. -->
+<script src="../../../JScript/metrics/topic_levels.js"></script>
+<script src="../../../JScript/metrics/s_code_v21_cdcgov.js"></script>
+<script>
+
+	enquire.register(CDC.Global.selectors.vp1, function() {
+		s.prop49 = 1;
+	});
+	enquire.register(CDC.Global.selectors.vp2, function() {
+		s.prop49 = 2;
+	});
+	enquire.register(CDC.Global.selectors.vp3, function() {
+		s.prop49 = 3;
+	});
+	enquire.register(CDC.Global.selectors.vp4, function() {
+		s.prop49 = 4;
+	});
+
+            
+            
+
+
+ 
+    s.pageName=document.title;
+    s.channel="BRFSS";
+    siteCatalyst.setAzEntry("BRFSS");
+    siteCatalyst.setLevel1("Chronic"); 
+    siteCatalyst.setLevel2("DPH"); 
+    siteCatalyst.setLevel3("BRFSS"); 
+    
+   
+    
+
+            
+                        
+            s.prop2=window.location.href;
+s.prop26=document.title;
+s.prop30=document.title;
+s.prop31=window.location.href;
+s.prop46=window.location.href;
+s.server=window.location.hostname;
+
+// Update the level variables here.
+updateVariables(s);
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();
+
+
+
+if(s_code) {
+	document.write(s_code);
+}
+
+
+
+if (document.location.protocol) {
+
+
+	var cookieManagment = {
+		getUuid : function (strPrefix) {
+			strPrefix = strPrefix || "";
+			var d = new Date();
+			var seconds = Math.round(d.getTime() / 1000);
+			return strPrefix + Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1) + "-" + seconds.toString();
+		},
+		setCookie : function (cname, cvalue, exdays, domain) {
+			domain = domain || ".cdc.gov";
+			var d = new Date();
+			d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			var expires = "expires="+ d.toUTCString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=" + domain + ";path=/";
+		},
+		getCookie : function (cname) {
+			var name = cname + "=";
+			var ca = document.cookie.split(';');
+			var i = ca.length;
+			while (i --) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length,c.length);
+				}
+			}
+			return "";
+		},
+		init : function () {
+
+
+
+			var currCookieVal = cookieManagment.getCookie('cdc_s_vi');
+
+			if (!currCookieVal.length || currCookieVal.indexOf('[CS]v1') != -1) {
+				var newCookieVal = cookieManagment.getUuid('[CS]v2') + "-" + cookieManagment.getUuid('');
+				cookieManagment.setCookie("cdc_s_vi", newCookieVal, 7);
+				return newCookieVal;
+			}
+			return currCookieVal;
+		}
+	};
+
+
+	var cdcSessionID = cookieManagment.init();
+
+	s3 = s_gi("cdcgovvistorid");
+
+	var sKey, override = {
+		fun: "cdcgovvistorid",
+		trackingServer: "cdc.112.2o7.net"
+	};
+
+	s3.visitorID = cdcSessionID;
+
+	for (sKey in s) {
+		if (s.hasOwnProperty(sKey)) {
+			if (override.hasOwnProperty(sKey)) {
+				s3[sKey] = override[sKey];
+
+			} else {
+
+			}
+		}
+	}
+	updateVariables(s3);
+
+
+	var s_code_uvid = s3.t();
+	if(s_code_uvid) {
+		document.write(s_code_uvid);
+	}
+}
+
+
+
+
+</script>
+<script type="text/javascript">
+if(navigator.appVersion.indexOf('MSIE')>=0) { document.write(unescape('%3C')+'\!-'+'-'); }
+</script>
+<noscript><a href="http://www.omniture.com"><img src="https://smtrics.cdc.gov/b/ss/cdcgov/1/H.21--NS/01/H.21--NS/0" height="1" width="1" alt="Web Analytics" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+<!-- Begin Template Package DigitalGov Search Support -->
+<script type="text/javascript" src="../../../JScript/rd_search.js"></script>
+<!-- End Template Package DigitalGov Search Support -->
+</div>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code ends here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<script>if (typeof page_timing !== 'undefined') { page_timing.metrics_end = Date.now(); }</script>
+        		
+
+
+<!--[if IE]>
+<script defer language="javascript" type="text/javascript">
+		var cdcLeftNav = new CDC.LeftNav("nav-primary", "/brfss/annual_data/annual_data.htm", true, true);
+		cdcLeftNav.render();
+</script>
+<![endif]-->
+<!--[if ! IE]><!-->
+<script language="javascript" type="text/javascript">
+$().ready(function(){
+		var cdcLeftNav = new CDC.LeftNav("nav-primary","/brfss/annual_data/annual_data.htm", true, true);
+		cdcLeftNav.render();
+});
+</script>
+<!--<![endif]-->
+
+    	
+
+
+
+
+						    </body>
+	</html>

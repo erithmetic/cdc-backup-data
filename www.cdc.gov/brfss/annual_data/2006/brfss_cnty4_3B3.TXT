@@ -1,0 +1,112 @@
+                                                                 BRFSS_CNTY4_3B2.LSC1                                                                1
+
+                                                                The CONTENTS Procedure
+
+                              Data Set Name        DATCNTY4.BRFSS_CNTY_VARSF                 Observations          3143
+                              Member Type          DATA                                      Variables             24  
+                              Engine               V9                                        Indexes               0   
+                              Created              Thursday, October 04, 2007 09:59:14 AM    Observation Length    184 
+                              Last Modified        Thursday, October 04, 2007 09:59:14 AM    Deleted Observations  0   
+                              Protection                                                     Compressed            NO  
+                              Data Set Type                                                  Sorted                NO  
+                              Label                                                                                    
+                              Data Representation  WINDOWS_32                                                          
+                              Encoding             wlatin1  Western (Windows)                                          
+
+
+                                                          Engine/Host Dependent Information
+
+                               Data Set Page Size          16384                                                       
+                               Number of Data Set Pages    36                                                          
+                               First Data Page             1                                                           
+                               Max Obs per Page            88                                                          
+                               Obs in First Data Page      64                                                          
+                               Number of Data Set Repairs  0                                                           
+                               File Name                   I:\PGM\BRFSS_CNTY\brfss_cnty4\data\brfss_cnty_varsf.sas7bdat
+                               Release Created             9.0101M3                                                    
+                               Host Created                XP_PRO                                                      
+
+
+                                                      Alphabetic List of Variables and Attributes
+ 
+                          #    Variable    Type    Len    Label
+
+                         19    AIRQUAL     Num       8    EPA GREEN BOOK NONATTAINMENT STATUS, 2004-2006                     
+                         13    BIRTHS      Num       8    TOTAL BIRTHS PER 100,000 POPULATION, JULY 1, 2005-JULY 1, 2006     
+                         10    BLACKS      Num       8    PERCENT OF POPULATION AFRICAN-AMERICAN, 2004                       
+                         20    CRIME       Num       8    CRIMES PER 100,000 POPULATION (90 LARGEST COUNTIES), 1996          
+                          2    CTYCODE     Num       4    COUNTY CODE                                                        
+                         14    DEATHS      Num       8    TOTAL DEATHS PER 100,000 POPULATION, JULY 1, 2005-JULY 1, 2006     
+                         15    DENTISTS    Num       8    DENTISTS PER 100,000 POPULATION, 1998                              
+                         22    EDUCATN     Num       8    LOW EDUCATION TYPOLOGY CODE, 2000                                  
+                         23    EMPLOYMT    Num       8    LOW EMPLOYMENT TYPOLOGY CODE, 2000                                 
+                          7    ERVISITS    Num       8    EMERGENCY ROOM VISITS PER 100,000 POPULATION, 2004                 
+                         16    FASTFOOD    Num       8    LIMITED-SERVICE EATING PLACES PER 100,000 POPULATION, 2005         
+                         18    FITNESS     Num       8    FITNESS & RECREATION SPORTS CENTERS PER 100,000 POPULATION, 2005   
+                          9    HISPS       Num       8    PERCENT OF POPULATION HISPANIC/LATINO, 2004                        
+                          5    HOSPADMI    Num       8    SHORT TERM GENERAL HOSPITAL ADMISSIONS PER 100,000 POPULATION, 2004
+                          6    HOSPBEDS    Num       8    SHORT TERM GENERAL HOSPITAL BEDS PER 100,000 POPULATION, 2004      
+                          4    HOSPS       Num       8    SHORT TERM GENERAL HOSPITALS PER 100,000 POPULATION, 2004          
+                         21    HOUSING     Num       8    HOUSING STRESS TYPOLOGY CODE, 2000                                 
+                         17    LIQUOR      Num       8    BEER, WINE & LIQUOR STORES PER 100,000 POPULATION, 2005            
+                         11    MDS         Num       8    GENERAL PRACTICE OFFICE BASED MDs PER 100,000 POPULATION, 2005     
+                          3    POP2006     Num       8    COUNTY POPULATION ESTIMATE, 2006                                   
+                         24    POPLOSS     Num       8    POPULATION LOSS TYPOLOGY CODE, 2000                                
+ 
+                                                                   09:59 04OCT2007
+                                                                 BRFSS_CNTY4_3B2.LSC1                                                                2
+
+                                                                The CONTENTS Procedure
+
+                                                      Alphabetic List of Variables and Attributes
+ 
+                          #    Variable    Type    Len    Label
+
+                          8    POVERTY     Num       8    PERCENT OF PERSONS IN POVERTY, 2004                                
+                         12    SPECMDS     Num       8    MEDICAL SPECIALIST MDs PER 100,000 POPULATION, 2005                
+                          1    _STATE      Num       4    STATE FIPS CODE                                                    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                   09:59 04OCT2007
