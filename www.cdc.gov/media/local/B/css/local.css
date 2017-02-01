@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+
+/**
+ * ==== Image Captioning ===================================
+ */
+.cdc-caption {
+	background-color:#f3f3f3;
+	margin:0.5em 0 1em;
+	border:1px solid #cecece;
+	padding:4px;
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+			border-radius: 4px;
+}
+
+.module .subcr .cdc-caption, /* ====== testing ====== */	div[class~="cxxr"] div[class~="subc"] .cdc-caption {margin-left:5px;}
+.module .subcl .cdc-caption {margin-right:5px;}
+
+#content-main .cdc-caption .cdc-caption-text {
+	display:block;
+	font-size:0.9em;
+	margin:0;
+	padding:0.25em 4px;
+	text-align:left;
+	text-transform:none;
+	min-height:1.5em;
+	width:auto;
+	word-wrap:break-word;
+}
+
+.cdc-caption a {
+	display:block;
+	margin:0 auto;
+	border:none;
+	padding:0;
+	overflow:hidden;
+}
+div.cdc-caption p a {
+	margin:0;
+	padding:0;
+	display:inline;
+	font-weight:normal;
+}
+
+div.cdc-caption img, div.cdc-noCaption img {
+	display:block;
+	margin:0 auto;
+	border:none;
+	padding:0;
+	height:auto;
+	max-height:100%;
+	max-width:100%;
+		width:100%;
+}
+img.maximize {
+	max-height:100%;
+	max-width:100%;
+}
+/*New Media Homepage*/
+#bottom-container .newblox1 h3 {font-size:12pt;
+				padding:3px; 
+				margin:0px;
+				font-weight:bold;
+				background-color:#83A7CE;
+				border: solid 1px #1E3B6E;
+				font-family:arial;
+				}
+#bottom-container .newblox1 h3	{font-weight:bolder; font-size:16pt; color:white;}
+
+#bottom-container .newblox2 h3	{font-weight:bolder; font-size:16pt; color:#185490;}
+#bottom-container .newblox2 h3 a:hover {color:#185490; text-decoration:none;}
+#bottom-container .newblox2 h3 a:visited {color:#185490; text-decoration:none;}
+#bottom-container .newblox2 h3 a:link {color:#185490; text-decoration:none;}
+#bottom-container .newblox2 h3 a:active {color:#185490; text-decoration:none;}
+#bottom-container .newblox2 h4	{font-weight:bolder; font-size:12pt; color:#185490;}
+#bottom-container .newblox2 h4 a:hover {color:#185490; text-decoration:none;}
+#bottom-container .newblox2 h4 a:visited {color:#185490; text-decoration:none;}
+#bottom-container .newblox2 h4 a:link {color:#185490; text-decoration:none;}
+#bottom-container .newblox2 h4 a:active {color:#185490; text-decoration:none;}
+				
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+.rtrail 		{text-align:center;
+			margin-top:5px;}
+.newblock { margin-bottom:10px;}
+#bottom-container .newblock h3 {font-size:12pt;
+				padding:3px; 
+				font-weight:bold;
+				background-color:#83A7CE;
+				border: solid 1px #1E3B6E;
+				font-family:arial;
+				}
+#bottom-container.newblock p	{padding:0px 3px 0px 3px;}
+#bottom-container.newblock ul {margin:0px 3px 0px 3px;}
+#bottom-container.newblock .last child li {margin:0px 3px 0px 3px;}
+/*#bottom-container.newblock li {	list-style-type:none;
+				margin-left:3px;
+				border-bottom: 1px dotted #999999;
+    			display: list-item;
+    			list-style: none outside none;
+    			margin: 0;
+    			padding: 3px 2.5px;
+				}
+*/
+#bottom-container.newblock { margin-bottom:10px;}
+#bottom-container .newblockx h3	{font-weight:bolder; color:white;}	
+#bottom-container .newblock h3	{font-weight:bolder; font-size:16pt; color:white;}				
+
+.newblock2 { margin-bottom:10px;}
+.newblock2 h3 {font-size:12pt;
+				padding:3px; 
+				font-weight:bold;
+
+
+				font-family:arial;
+				}
+#bottom-container .newblock2 h3 a:hover {color:#185490; text-decoration:none;}
+#bottom-container .newblock2 h3 a:visited {color:#185490; text-decoration:none;}
+#bottom-container .newblock2 h3 a:link {color:#185490; text-decoration:none;}
+#bottom-container .newblock2 h3 a:active {color:#185490; text-decoration:none;}
+
+
+
+#bottom-container .newblock2 h3	{font-weight:bolder; font-size:16pt;}				
+.newblock2 p	{padding:0px 3px 0px 3px;}
+.newblock2 ul {margin:0px 3px 0px 3px;}
+.newblock2 .last child li {margin:0px 3px 0px 3px;}
+.newblock2 li {	list-style-type:none;
+				margin-left:3px;
+				/*border-bottom: 1px dotted #999999;*/
+    			display: list-item;
+    			list-style: none outside none;
+    			margin: 0;
+    			padding: 3px 2.5px;
+				}
+#bottom-container .newblock2 h3 {color:#185490;}
+/* newblock3*/
+#bottom-container .newblock3 h3	{font-weight:bolder; font-size:16pt;}				
+.newblock3 { margin-bottom:10px;}
+.newblock3 h3 {font-size:12pt;
+				padding:3px; 
+				font-weight:bold;
+
+
+				font-family:arial;
+				}
+#bottom-container .newblock3 h4 {color:#185490; font-size:12pt; font-weight:bold}
+#bottom-container .newblock3 h4 a:hover {color:#185490; text-decoration:none;}
+#bottom-container .newblock3 h4 a:visited {color:#185490; text-decoration:none;}
+#bottom-container .newblock3 h4 a:link {color:#185490; text-decoration:none;}
+#bottom-container .newblock3 h4 a:active {color:#185490; text-decoration:none;}
+
+
+
+				
+.newblock3 p	{padding:0px 3px 0px 3px;}
+.newblock3 ul {margin:0px 3px 0px 3px;}
+.newblock3 .last child li {margin:0px 3px 0px 3px;}
+.newblock3 li {	list-style-type:none;
+				margin-left:3px;
+    			display: list-item;
+    			list-style: none outside none;
+    			margin: 0;
+    			padding: 3px 2.5px;
+				}
+#bottom-container .newblock3 h3 {color:#185490;}
+/* newblock4*/
+#bottom-container .newblock4 h3	{font-weight:bolder; font-size:16pt;}				
+.newblock4 { margin-bottom:10px;}
+.newblock4 h3 {font-size:12pt;
+				padding:3px; 
+				font-weight:bold;
+				background-color:#83A7CE;
+				border: solid 1px #1E3B6E;
+				font-family:arial;
+				}
+#bottom-container .newblock4 h4 {color:#185490; font-size:12pt; font-weight:bold}
+#bottom-container .newblock4 h4 a:hover {color:#185490; text-decoration:none;}
+#bottom-container .newblock4 h4 a:visited {color:#185490; text-decoration:none;}
+#bottom-container .newblock4 h4 a:link {color:#185490; text-decoration:none;}
+#bottom-container .newblock4 h4 a:active {color:#185490; text-decoration:none;}
+
+.newblock4 p	{padding:0px 3px 0px 3px;}
+.newblock4 ul {margin:0px 3px 0px 3px;}
+.newblock4 .last child li {margin:0px 3px 0px 3px;}
+.newblock4 li {	list-style-image:none;
+				border-bottom:transparent 1px solid;
+				background-image:url(https://www.cdc.gov/TemplatePackage/images/blue_bullet.png) no-repeat 0.3em 0.65em;
+				margin-left:3px;
+    			display: list-item;
+    			list-style: none outside none;
+				position:relative;
+    			margin: 0;
+    			padding: 3px 0px 3px 1.25em;
+				}
+#bottom-container .newblock4 h3 {color:white;}
+
+#content {margin-top:-10px;}
+.tricol ul li {display:inline; }
+.nbpicbox    {padding-top:5px;}
+.nbpic 		{float:left; padding: 0px 5px 10px 0px;}
+.dotbox 	{border-left: dotted 2px #ccc;border-right: dotted 2px #ccc; margin: 0px 0px 0p 0px;}
+.flashboxx 	{text-align:center;
+				margin:0 auto;}
+.subc object {margin:0 auto;}
+.morepadding {right:5px;}
+#bottom-container . .moremargin {right:5px;}
+
+.leadImagebox {
+	float:left;
+	padding:6px;
+}
+.leadTextbox {
+	float:left;
+	width: 436px; 
+	padding:6px;
+}
+.greyz {background-color:#f6f6f6; 
+		border:solid 1px #cdcdcd;}
+.arcbox {float:right; width:50%; border:solid;background-color:#f6f6f6; 
+		border:solid 1px #cdcdcd;}
+
+.arcbox a:link {text-decoration:none;}		
+.arcbox a:visited {text-decoration:none;}
+.arcbox a:hover {text-decoration:underline;}
+.arcbox a:active {text-decoration:none;}
+
+.arcsub {float:left; margin-right:15px;}
+.center {
+	text-align:center;
+}
+.green {
+	color:#336633;
+	font-weight: bold;
+}
+.blue {
+	color: #09316c;
+	font-weight: bold;}
+.red {
+	color: red;
+	font-weight: bold;}
+	
+.release {border:solid;background-color:#f6f6f6; 
+		border:solid 1px #cdcdcd;}
+.arcyear {font-size:20pt; color:#ccc; font-weight:bold; margin-bottom:20px;}
+.medhead {background-color:#f6f6f6;
+		border:solid 1px #cecece}
+		#content-main  a.noicon span.plugIns img.plugin {
+    display: none !important; margin:0px; padding:0px; margin-bottom:-15px; line-height:1px; font-size:0px;
+}
+
+#content-main #tabs-1 a.noicon span.plugIns img.plugin {
+    display: none !important; margin:0px; padding:0px; margin-bottom:-15px;
+}

@@ -1,0 +1,27 @@
+/* PHIL Feeds */ 
+
+div#rss-philfeed1 .item-image {
+	width:150px;
+	height: auto;
+}
+div#rss-philfeed1 li {
+display: inline-block;
+list-style-type: none;
+}
+div#rss-philfeed1 .cdc-caption {	
+padding-left:10px !important;
+padding-right:10px !important;
+background-color:#fff;
+
+}
+/* Archive Feed*/ 
+.item-pubdate {font-size: 0.8em!important;
+text-transform:
+uppercase!important;color: #666666!important;}
+
+.pressrel ul {margin-bottom:0px;}
+.pressrel ul li {list-style-type:none;border-bottom: dashed 1px #ccc;}
+.pressrel h5 {font-size: 14pt; color:#0c5205 !important;}
+.module .plugin {vertical-align:middle;}
+
+
