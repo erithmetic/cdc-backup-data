@@ -1,0 +1,4 @@
+LLCP2013XPT.ZIP filter=lfs diff=lfs merge=lfs -text
+LAND2013XPT.ZIP filter=lfs diff=lfs merge=lfs -text
+LLCP2013ASC.ZIP filter=lfs diff=lfs merge=lfs -text
+LAND2013ASC.ZIP filter=lfs diff=lfs merge=lfs -text
