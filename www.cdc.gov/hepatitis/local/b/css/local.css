@@ -1,0 +1,506 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+
+/* newMods.css (line)*/
+
+ol.withroman {list-style-type: lower-roman;}
+ol.withAlpha {list-style-type: lower-alpha;}
+
+/* ******************  CDC Overrides  ****************** */
+h2 {
+	margin-top:1em;
+                  line-height: 26px;
+}
+
+
+h3 {	margin-top:1em;
+}
+
+h4 {margin: 15px 0 3px;
+}
+
+#wrapper .module-typeA {
+background-color: #f3f3f3;
+}
+
+#wrapper  [class*="module"] .module-typeL  {
+margin-bottom: 10px;
+}
+
+#module-typeC a {
+padding-left: 0px;
+}
+
+#nav-container .module-typeH ul li {
+line-height: 1.3em;
+}
+
+#wrapper .rx-row {
+padding-bottom:0px;
+}
+
+#wrapper .navbtn ul li, #wrapper .module-typeL ul li {
+border-spacing: 6px;
+}
+
+#wrapper .navbtn ul li a div h3, #wrapper .module-typeL ul li a div h3 {
+    font-size: 15px;
+    line-height: 16px;    
+    margin-bottom: 5px;
+    text-transform: none;
+    font-weight: bold;
+} 
+
+#wrapper .navbtn ul li a div , #wrapper .module-typeL ul li a div  {
+    line-height: 16px;    
+} 
+
+#wrapper .module-typeC {
+padding-bottom:5px;
+}
+
+#wrapper module oneLineButton {
+padding-bottom:6px;
+}
+
+.module-typeL p {
+line-height:1em;
+}
+
+
+#wrapper .navbtn ul li a, #wrapper .oneLineButton ul li a  {
+min-height: 0px;
+margin-bottom: -16px;
+margin-top: 14px;
+margin-left: 1%;
+margin-right: 1%;
+width: 98%;
+}
+
+#wrapper .navbtn ul li a, #wrapper .oneLineButton ul li a h3{
+width: 94%;
+}
+
+.oneLineButton ul li a div {
+width:1%;
+}
+
+#wrapper .module .span4 .oneLineButton  ul li a div h3, #wrapper .module .span5 .oneLineButton  ul li a div h3 {
+text-align: center;
+}
+
+
+#wrapper .min-height_70 ul li a {
+min-height: 70px;
+margin-bottom: 4px;
+padding-top:4px;
+}
+
+#wrapper .min-height_80 ul li a {
+min-height: 80px;
+margin-bottom: 4px;
+padding-top:4px;
+}
+
+.flexslider {
+margin-bottom: 45px;
+}
+
+.flex-caption {
+padding: 0.8% 2% 0.8% 2%;
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.flex-control-paging {
+background: none repeat scroll 0 0 #f0f0f0;
+line-height:15px;
+padding-top:10px
+}
+
+
+/*  ****************** END Overrides ****************** */
+
+
+.vertCenter {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
+
+.fontBold {
+font-weight: bold;
+}
+
+.lineHeight18 {
+line-height: 18px;
+}
+
+.lightGray-bg-color {
+background: none repeat scroll 0 0 #f0f0f0;
+}
+
+.darkGray-bg-color {
+background: none repeat scroll 0 0 #f3f3f3;
+}
+
+.negateParentDivLeftPadding {
+margin-left:-10px;
+}
+
+.rdAudioPadding {
+padding:4px 0px 7px 0px;
+}
+
+
+.lineHeight-16px {
+line-height:16px;
+}
+
+.lineHeight-Single {
+line-height: 1em;
+}
+
+.floatLeft {
+float:left;
+}
+
+.slideControls {
+color: #000; 
+text-decoration: none; 
+text-align: center; 
+padding-top:10px;
+}
+
+.hiddenStuff {
+visibility: hidden;
+line-height:0em;
+}
+
+.lineHeight_20 p {
+     line-height: 20px;
+}
+
+[fullCenter]{
+    display:table !important;
+}
+
+[fullCenter] > *{ 
+      display:table-cell;
+      vertical-align: middle;
+      text-align: center;
+}
+
+#wrapper .killAllCaps h3 {
+text-transform: none;
+font-weight: 500;
+} 
+
+#wrapper .leftyMargin {
+padding-right: 10px;
+}
+
+#wrapper .leftyMargin img {
+padding-right:10px;
+}
+
+.noBtmMargin {
+margin-bottom:0px;
+}
+
+.noBtmPadding {
+padding-bottom:0px;
+}
+
+
+.noModuleRtMargin {
+margin-right:-30px;
+}
+
+.noModuleTopMargin {
+margin-top:-20px;
+}
+
+.padding-top_10 {
+padding-top:10px;
+}
+
+.padding-bottom_10 {
+padding-bottom:10px;
+}
+
+.padding-bottom_0 {
+padding-bottom:0px;
+}
+
+
+.padding-right_10 {
+padding-right:10px;
+}
+
+.padding-left_10 {
+padding-left:10px;
+}
+
+.margin-right_10 {
+margin-right:10px;
+}
+
+.margin-left_10 {
+margin-left:10px;
+}
+
+.margin-top_10 {
+margin-top:10px;
+}
+
+.margin-bottom_10 {
+margin-bottom:10px;
+}
+
+
+.padding-right_20 {
+padding-right:20px;
+}
+
+.padding-left_20 {
+padding-left:20px;
+}
+
+.margin-right_20 {
+margin-right:20px;
+}
+
+.margin-left_20 {
+margin-left:20px;
+}
+
+
+.margin-top_-5 {
+margin-top:-5px;
+}
+
+.margin-left_-10 {
+margin-left:-10px;
+}
+
+
+.spotlightBox {
+border: 1px solid #000;
+padding: 30px 0px 30px 0px; 
+background-color: #bbd5c8; 
+background-image: url(http://www.cdc.gov/hepatitis/images/backgrounds/Spotlight.jpg); 
+background-repeat: no-repeat; 
+text-align: center;
+}
+
+.textRedHighlight {
+	color:darkred;
+}
+
+.docIcon {
+	margin-right:5px; 
+	margin-bottom:-3px;
+}
+
+.legend {
+	margin-left: .7em;
+	font-size: 0.8em;
+}
+
+.bulletListHeader {
+	margin-bottom: -0.2em;
+}
+
+.bulletListIntro {
+	margin-bottom: -0.3em;
+}
+
+
+.indent30 {
+	clear: none;
+	margin-left:30px;
+}
+
+.infoBoxCentered, 
+.infoBoxGreen, .infoBoxBlue, .infoBoxYellow, .infoBoxRed, .infoBoxAqua,
+.infoBoxGreenDark, .infoBoxBlueDark, .infoBoxYellowDark, .infoBoxRedDark, .infoBoxAquaDark {
+	font-size: 0.9em;
+	text-align: left;
+	border: 1px solid #000000;
+	padding: 6px 11px 6px 11px;
+	margin: 0px 0px 5px 0px;
+}
+
+.infoBoxGreenDark, .infoBoxBlueDark, .infoBoxYellowDark, .infoBoxRedDark, .infoBoxAquaDark {
+	margin: 0px 0px 0px 0px;
+}
+	
+.infoBoxCentered {
+	text-align: left;
+	width: 70%;
+	background-color: #F0F0F0;
+	margin: 0px auto;
+}
+
+.infoBoxGreen {background-color: #F5FFF5}
+
+.infoBoxBlue {background-color: #F5F5FF}
+
+.infoBoxYellow {background-color: #FFFFF0}
+
+.infoBoxRed {background-color: #FFF5F5;}
+
+.infoBoxAqua {background-color: #F3FFFF;}
+
+.infoBoxGreenDark {background-color: #D0DDD0}
+
+.infoBoxGreenDarkest {background-color: #084239}
+
+.infoBoxBlueDark {background-color: #D0D0DD}
+
+.infoBoxYellowDark {background-color: #DDDDD0}
+
+.infoBoxRedDark {background-color: #DDD0D0;}
+
+.infoBoxAquaDark {background-color: #d1e0e0;}
+
+.highlightBox {
+	background-color: #e2dfac;
+	width: 90%;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: justify;
+	border: 1px solid #000000;
+	padding: 6px 11px 6px 11px;
+	margin: 0px 0px 0px 0px;
+}
+
+.tableFrameHP { 
+	background-color: #c1ded5;
+	border-style: solid; 
+	border-width: 1px; 
+	width: 95%;
+	text-align: left;
+}
+
+.tableRow {
+	background-color: #FFFFFF;
+	overflow:auto; 
+	border-style: solid; 
+	border-width: 1px; 
+	padding: 8px; 
+	margin: 5px 11px 5px 11px;
+}
+
+.divBarThinHP {
+	overflow:auto; 
+	border-top: 1px solid #008888;
+	width: 99%;
+	height: 1px;
+	padding: 0px 0px 0px 0px;
+	margin: 5px 0px 5px 0px;
+}
+
+table.noBorder, table.noBorder th, table.noBorder tr, table.noBorder td { 
+	border: none; 
+} 
+
+div#feedbackbox a {
+width: 87%;
+border-top-width: 1px;
+border-right-width-value: 1px;
+border-right-width-ltr-source: physical;
+border-right-width-rtl-source: physical;
+border-bottom-width: 1px;
+border-left-width-value: 1px;
+border-left-width-ltr-source: physical;
+border-left-width-rtl-source: physical;
+border-top-style: solid;
+border-right-style-value: solid;
+border-right-style-ltr-source: physical;
+border-right-style-rtl-source: physical;
+border-bottom-style: solid;
+border-left-style-value: solid;
+border-left-style-ltr-source: physical;
+border-left-style-rtl-source: physical;
+border-top-color: #f8f8f8;
+border-right-color-value: #f8f8f8;
+border-right-color-ltr-source: physical;
+border-right-color-rtl-source: physical;
+border-bottom-color: #f8f8f8;
+border-left-color-value: #f8f8f8;
+border-left-color-ltr-source: physical;
+background-color: #2f9100;
+background-image: url("http://emergency.cdc.gov/images/feedbackbox.jpg");
+background-repeat: repeat-x;
+background-attachment: scroll;
+background-position: 0pt -40px;
+margin-top: 0pt;
+margin-right: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+display: block;
+padding-top: 8px;
+padding-right: 6px;
+padding-bottom: 8px;
+padding-left: 6px;
+text-align: center;
+color: #ffff99;
+font-family: "Trebuchet MS",Arial,sans-serif;
+font-size: 1.1em;
+text-decoration: none;
+}
+
+div#feedbackbox a:hover, div#feedbackbox a:visited:hover {
+background-color: #3a970d;
+background-image: url("http://emergency.cdc.gov/images/feedbackbox.jpg");
+background-repeat: repeat-x;
+background-attachment: scroll;
+background-position: 0pt -40px;
+color: #bcdead;
+text-decoration: none;
+}
+
+.bkgndQAbar {
+background-image: url('http://www.cdc.gov/hepatitis/images/backgrounds/Marble-Teal.jpg');
+background-origin: border-box;
+margin:-2px 0 0 8px
+padding: 14px 12px 5px 12px;
+}
+
+
+.bkgndQAcontent {
+background-image: url('http://www.cdc.gov/hepatitis/images/backgrounds/QuestionMarks.jpg');
+background-origin: border-box;
+padding: 1px 0px 0px 12px;
+}

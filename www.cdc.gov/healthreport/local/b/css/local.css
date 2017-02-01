@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+.table_zebra caption, .table_zebra_light caption, .table-striped caption {
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.table caption {
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.table_zebra, .table_zebra_light, .table-striped {
+	/*margin: 1em 0 1.8em!important;*/
+	border-collapse: collapse;
+	padding-top: 10px;
+	border: 1px solid #CCCCCC;
+margin-bottom: 1em;
+	/*display: block-inline;*/
+}
+
+.table_zebra td, .table_zebra_light td, .table-striped td {
+	padding: .6em;
+}
+
+.table_zebra th, .table_zebra_light th, .table-striped th {
+	padding: .3em;
+}
+.table_zebra th {
+	color: #FFFFFF;
+	background-color: rgb(7, 82, 144);
+}
+.table_zebra_light th {
+	color: #000000;
+	background-color: rgb(227, 242, 254);
+}
+
+.table_zebra td, .table_zebra_light td, .table-striped td {
+	border: 1px solid #CCCCCC;
+}
+
+.table_zebra tr:nth-of-type(even), .table_zebra_light tr:nth-of-type(even) {
+	background-color: #EEEEEE;
+}
+
+.table-striped th {
+	background-color: rgb(227, 242, 254);
+}

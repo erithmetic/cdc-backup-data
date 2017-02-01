@@ -1,0 +1,55 @@
+                   /* Margin/Indent for Lists */
+
+#wrapper [class*="module"] > div ul, #wrapper [class*="module"] > div ol {
+    margin: 0 0 10px 25px;
+}
+
+#wrapper [class*="module"] > ul, #wrapper [class*="module"] > ol {
+    margin: 0 0 10px 25px;
+}
+
+                   /* Margin Bottom Removed */
+
+.marginbottom0 {
+     margin-bottom: 0px !important;
+}
+
+                   /* Add link underline to module F */
+
+#wrapper .module-typeF a {
+    text-decoration: underline;
+}
+
+                   /* SHI Training Manual Table Styles */
+
+.shaded {
+     background-color: #E3F2FE;
+}
+
+.shi-training {
+      border: 1px solid #E5E5E5;
+}
+
+.shi-training h4, h5 {
+      line-height: 20px;
+}
+
+                  /* Edit for SHI Glossary */
+
+blockquote p {
+    font-size: 14px !important;
+}      
+
+     /* Style for Content Images*/
+
+.imgright {
+    float: right;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+}   
+
+.imgleft {
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}     

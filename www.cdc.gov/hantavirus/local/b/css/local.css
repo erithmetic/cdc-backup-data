@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+#phmb {
+	color: #000000;
+	font-size: .9em;
+	margin: 1em 0;
+	padding: 0 .5em 0 0;
+	position: relative;
+	width: 169px;
+}
+#phmb img {
+	display: block;
+	margin: 0 auto;
+}
+#hps-topics .group, #resources .group, #hantech .group {
+	min-height: 3.5em;
+}
+#hantech img {
+	margin-left: 5px;
+}
+#tech-clin h3 {
+	text-align: center;
+}
+#tech-clin-info p {
+	text-align: center;
+}
+.c75c {
+	margin: 0 auto;
+	width: 75%;
+}
+.c50c {
+	margin: 0 auto;
+	width: 50%;
+}
+.caption {
+	color: #696969;
+	font-size: .9em;
+}
+.imgtxtcenter {
+	text-align: center;
+}
+.imglistcenter {
+	display: block;
+	width: 65%;
+	margin: 0 auto;
+}
+.uppernumeral {
+	list-style-type: upper-alpha;
+}
+.nobullets {
+	list-style-type: none;
+}
+.bulleted li {
+	list-style: disc outside none !important;
+}
+.btm-fullcol {
+	margin: 0 0 5px 0 !important;
+}
+#us-cases a {
+	display: block;
+	width: 210px;
+	height: 137px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(https://www.cdc.gov/hantavirus/images/home/us-map.jpg) 0 0 no-repeat;
+	margin: 0 auto;
+}
+#us-cases a:hover, #us-cases a:active {
+	background-position: 0 -137px !important;
+}
+#flashALTcontent {
+	margin-left: 10px;
+}
+.c38r {
+	padding-left: 10px;
+}
+#contact-info li.about {
+	background: url("https://www.cdc.gov/hantavirus/images/gear.gif") no-repeat scroll 0 0 transparent;
+}
+/***** Case Map Table Styles + other tables *****/
+#case-maps, #case-maps td, #case-maps th, #fatal-case, #fatal-case td, #fatal-case th, #hantavirus-characteristics, #hantavirus-characteristics td, #hantavirus-characteristics th, #hfrs-hps, #hfrs-hps td, #hfrs-hps th {
+	border: 1px solid #0C5205;
+}
+.state {
+	width: 185px;
+        text-align: center;
+}
+.cases, .fc, .cfr, #fatal-case td, #hantavirus-characteristics td, #hfrs-hps td {
+	width: 175px;
+	text-align: center;
+}
+thead .state, thead .cases, thead .fc, thead .cfr, #fatal-case thead, #hantavirus-characteristics thead, #hfrs-hps thead {
+	height: 2em;
+	font-size: 1.7em;
+	font-family: "Trebuchet MS",Arial,sans-serif;
+	color: #0C5205;
+	background: #EFF7E7;
+}
+tbody .state, tbody .cases, tbody .fc, tbody .cfr, #fatal-case tbody {
+	font-weight: bold;
+}
+tbody .state, tbody .cases, tbody .fc, tbody .cfr, #fatal-case tbody, #hantavirus-characteristics tbody, #hfrs-hps tbody {
+	font-size: 1.3em;
+}
+.rowa {
+	background: #C6D7B5;
+}
+.rowb {
+	background: #EFF7E7;
+}
+#related-maps {
+	width: 500px;
+	margin: 0 auto 10px auto;
+}
+/**** ****/
+#content #content-inner #content-main .main-inner ul li a.module-links, #content #content-inner #content-main .main-inner ul li .cdc-decorated {
+	display: inline !important;	
+}
+.outbreaks-hspacer {
+	border-top: 1px dotted #666666;
+	width: 64%;
+}
+.outbreaks-sep {
+	border-top: 1px dotted #666666;	
+}
+.case-update {
+	background: url("https://www.cdc.gov/salmonella/images/case-count-update.gif") no-repeat scroll left top transparent;
+	padding-left: 25px;	
+}
+.

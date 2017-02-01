@@ -1,0 +1,24 @@
+/* Feature Feeds */ 
+
+div#rss-featurefeed-healthy .item-title a, div#rss-featurefeed-disease .item-title a, div#rss-featurefeed-travel .item-title a, div#rss-featurefeed-emergency .item-title a   {font-weight:700; color:#000000 !important; text-decoration:none !important}
+div#rss-featurefeed-healthy ul, div#rss-featurefeed-disease ul, div#rss-featurefeed-travel ul, div#rss-featurefeed-emergency ul     { list-style-type:none }
+div#rss-featurefeed-healthy img, div#rss-featurefeed-disease img, div#rss-featurefeed-travel img, div#rss-featurefeed-emergency img { 
+	width: 233px;
+	height: auto;
+	margin-bottom:10px;
+}
+div#rss-featurefeed-healthy .item-pubdate, div#rss-featurefeed-disease .item-pubdate, div#rss-featurefeed-travel .item-pubdate, div#rss-featurefeed-emergency .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	display:block;
+	padding-left:10px;
+}
+div#rss-featurefeed-healthy .more-link a, div#rss-featurefeed-disease .more-link a, div#rss-featurefeed-travel .more-link a, div#rss-featurefeed-emergency .more-link a   {
+text-decoration:none !important
+}
+
+div#rss-featurefeed-healthy .more-link, div#rss-featurefeed-disease .more-link, div#rss-featurefeed-travel .more-link, div#rss-featurefeed-emergency .more-link   {
+text-align: right;
+}

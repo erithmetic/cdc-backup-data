@@ -1,0 +1,702 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+
+
+/* Styles for formatting the navigation blocks with photos on 
+   the Healthy Water Homepage */
+div.imgNav {
+	height: 96px !important;
+	padding-top: 0 !important;
+	padding-bottom: 1em;
+	}
+div.imgNav div h5 a {
+	font-size: 1.1em;
+	font-weight: bold;
+	}
+div.imgNav div p {
+	font-size: 1.1em;
+	line-height: 1.125em;
+	padding-bottom: 0;
+	
+	}
+div.imgNav div p img {
+	float: left;
+	border: 1px solid #cdcdcd !important;
+	padding: 0;
+	margin: 3px 5px 5px 0;
+}
+
+/* Create a style for the Healthy Water Resources div to allow an h5 subtitle
+   and increase spacing between that subtitle and the bullets */
+div#healthy_water_resources h5 {
+	margin-top: .5em;
+	margin-bottom: .5em;
+	}
+	
+/* This style corrects spacing issues in the 2.0.3 template version of the 
+   double-rule module. It provides more space at the bottom of the module title 
+   to match the space above it. */ 
+div.double-rule div.inner h3 {
+	padding: 3px 3px 0.8em 3px !important;
+	}
+	
+img.image {
+	border: 1px solid #cdcdcd;
+	padding: 0;
+	margin-left: .6em;
+	margin-right: .6em;
+	margin-top: .3em;
+	margin-bottom: .3em;
+	}
+div.image {
+	display: block;
+	margin: .3em;
+	}
+div.image img.image { /* if the image has a credit and must be placed within a div, remove
+						 the margin since the div will supply it */
+	margin: 0;
+	}
+p.figure { /* aligns support text for graphs and figures (captions, etc.) to the center when 
+			  they are placed within a paragraph of this class */
+	text-align: center;
+	margin: 5px;
+	}
+p.figure .credit {
+	font-size: 0.75em;
+	color: #666666;
+	}
+p.figure .caption {
+	font-size: .8em;
+	}
+img.figure { /* aligns graphs and figures to center */
+	display: block;
+	text-align: center;
+	margin: 5px;
+	}
+		
+/* Override auto image centering in module boxes so the PDF icon image can 
+   display inline and not force a line break */
+img.pdfIcon, img.Icon {
+	display: inline !important;
+	text-align: left;
+	}
+	
+/* Override auto image centering on images within a link in ul's of class
+   bulleted-links within modules so the PDF icon image can display inline 
+   and not force a line break */
+ul.bulleted-links li a {
+	display: inline !important;
+	text-align: left;
+	}
+	
+/* Override links forced to separate lines in lists within modules */
+ul.displayInline li a {
+	display: inline !important;
+	text-align: left;
+	}
+	
+/* Override auto image centering on images within a link in Related Links modules so 
+   the PDF icon image can display inline and not force a line break */
+
+div.relatedMaterial ul li a {
+	display: inline !important;
+	text-align: left;
+	}
+	
+/* Override the 3px padding being applied from main CDC styles that ruins vertical
+   alignment of icons within Related Links modules */
+div.relatedMaterial ul li a img.pdfIcon, div.relatedMaterial ul li a img.Icon {
+	padding: 0 !important;
+	}
+
+/* Ordered List classes to enable easy display of outline-style lists
+   with uppercase and lowercase letters and various types of numerals */
+ol.upperAlpha {
+	list-style-type: upper-alpha;
+	}
+ol.decimal {
+	list-style-type: decimal;
+	}
+ol.lowerAlpha {
+	list-style-type: lower-alpha;
+	}
+	
+/* dataList class to "double" the vertical spacing between dt elements in a dl */
+dl.dataList dt {
+	font-weight: bold;
+	margin-top: 1.8em; 
+	}
+dl.dataList dd {
+	padding-left: 1.5em;
+	margin-top: .8em;
+	}
+		
+.credit {
+	font-size: 0.75em;
+	color: #666666;
+	}
+.caption {
+	font-size: .8em;
+	}
+.noteText {
+	font-size: 0.9em;
+	color: #666666;
+	}
+.reference {
+	font-size: .8em;
+	color: #333333;
+	}
+ol.reference {
+	list-style-type: decimal;
+	/* margin-left: -10px; */
+	}
+#pdfLocalPolicy {
+	color:#696969;
+	font-family:Trebuchet MS,Arial,sans-serif;
+	font-size:0.9em;
+	font-weight:normal;
+	list-style-image:url(https://www.cdc.gov/healthywater/images/global_pdf_icon_faded_xsm.gif);
+	padding:0.5em 0;
+	display:none;
+}
+.disease {
+	font-style: italic;
+	}
+p.back_to_top img { /* keeps the top icon and arrow to the right of the content */
+	float: right;
+}
+ul.fastfacts li a { /* Overrides display:block for links within a Fast Facts module
+                  so links within the bulleted list don't get pushed to a
+				  separate line. */
+	display: inline !important;
+	}
+
+/* Definition list classes */
+
+dl.definition dt { /* adds vertical spacing above the definition term for readability */
+	margin-top: 1em;
+	}
+dl.definition dd { /* indents the actual definition for readability */
+	padding-left: 1.5em;
+	}
+dl.definitionDbl dt {
+	margin-top: 1.8em; /* class to "double" the vertical spacing between dt elements in a dl */
+	}
+dl.definitionDbl dd { /* indents the actual definition for readability */
+	padding-left: 1.5em;
+	}
+
+/* Rename/Duplicate of Definition list classes ; renaming to match usage on 3/4/2010 ; will phase out
+   old .definition */
+
+dl.faq dt { /* adds vertical spacing above the definition term for readability */
+	margin-top: 2em;
+	font-weight: bold;
+	}
+dl.faq dd { /* indents the actual definition for readability */
+	margin-top: .5em;
+	padding-left: 1.5em;
+	}
+dl.faqDbl dt {
+	margin-top: 1.8em; /* class to "double" the vertical spacing between dt elements in a dl */
+	}
+dl.faqDbl dd { /* indents the actual definition for readability */
+	padding-left: 1.5em;
+	}
+
+/* Alphabetical Index Formatting Class */
+div.alpha_index h3,
+div.alpha_index h4,
+div.alpha_index h5,
+div.alpha_index h6 {
+	font-family: "Trebuchet MS", Arial, sans-serif; 	
+	/*text-transform: uppercase;  had to comment out for use in corners */
+}
+div.alpha_index h3 {
+	color: #0C5205 !important;
+	font-size: 3em;
+	font-weight: normal;
+	margin-top: .5em;
+	margin-bottom: .25em;
+	border-bottom: 1px dotted #0C5205;
+}
+div.alpha_index h4 {
+	color: #000;
+	font-size:1.3em;
+	font-weight: bold;
+	padding-left: .5em;
+}
+div.alpha_index h5 {	
+	position: relative;
+	color: #000;
+	font-size:1.2em;
+	font-weight: bold;
+}
+div.alpha_index h6 {
+	position: relative;
+	color: #000;
+	font-size:1em;
+	font-weight: bold;
+}
+div.alpha_index ul li { /* keeps bullets from showing in front of items within the index */
+	font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	}
+	
+/* Utility Classes */
+
+.redText { /* just what it says - used for alerts and important notes */
+	color: red !important;
+	}
+.missingContent { /* utility placeholder class for highlighting content not yet complete */
+	background-color: #FFFF00;
+	}
+.checkLink { /* class for use during development to indicate to team that the link being pointed
+			 	to needs to be confirmed/checked */
+	background-color: #F0F;
+}
+.devNote { /* class for indicating a developer's note or comment on content during the development stage */
+	background-color: #0C6;
+}	
+.i {
+	font-style: italic;
+	}
+.b {
+	font-weight: bold;
+	}
+.clearBoth, .clearAll {
+	clear: both;
+	}
+.floatLeft {
+	float: left;
+	}
+.floatRight {
+	float: right;
+	}
+.alignLeft {
+	text-align: left;
+	}
+.alignRight {
+	text-align: right;
+	}
+.alignCenter {
+	text-align: center;
+	}
+.indent5, p.indent5 {
+	text-indent: 3em;
+	}
+.leftMargin5 {
+	margin-left: 3em;
+	}
+.leftMargin4 { /* This class is for use with headers that need to be indented, but
+			      feature a UL or OL directly below to which leftMargin5 is applied.
+				  The bullets stick out a bit to the left, so the header above it
+				  needs to be slightly less than the 3em of leftMargin5 to align
+				  properly. */
+	margin-left: 2.5em;
+	}
+.leftMargin3 {
+	margin-left: 2em;
+	}
+ul.noList li { /* class for lists that need to be tightly vertically spaced without bullets (such as indices or disease listings) (Caryn Note 11/05/2009: Need to look into whether this class might be better replaced with more descriptive .closerSpacing, below) */
+	font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+/* Class for allowing closer vertical spacing between list items */
+ol.closerSpacing li, ul.closerSpacing li {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	}
+ul.noListBullet li {
+		list-style: none;
+}
+input#searchBox:focus, textarea:focus
+
+{
+
+background-color: #FFC;
+
+}.disc {
+	list-style-type: disc;
+}
+.moverightinmodule {
+	float: right;
+}
+.PDFlink {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #808080;
+	text-decoration: none;
+}
+
+#contact-info-hs ul li {
+    border: medium none;
+    margin-left: 0;
+    padding: 2px 0 2px 2.75em;
+    position: relative;
+}
+
+#contact-info-hs li {
+    font-size: 0.9em;
+}
+
+#contact-info-hs li.contact-email {
+    background: url("https://www.cdc.gov/TemplatePackage/images/icon_envelope.gif") no-repeat scroll 0 0 transparent;
+	margin-left: 0px;
+}
+
+ul.noBullet li {
+    background-color: #FFFFFF;
+    background-image: none;
+    border-bottom: 1px dotted #CDCDCD;
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 5px;
+    width: auto;
+}
+/* .a2z-container {
+	width:100% !important;
+	display:block !important;
+	float:none !important;
+	margin:0 auto !important;
+	padding:0 !important;
+	height:auto !important;
+	text-align:center !important;
+}
+
+.a2z {
+	list-style:none;
+	padding:0;
+	margin:0 0 2px 1px;
+	font-size:1em;
+	font-weight:normal;
+	color:#000000;
+	text-align:center;
+	float:left;
+	width:auto;
+	overflow:visible;
+	position:relative;
+	display:block;
+}
+
+.a2z li {
+	display:inline;
+	float:left;
+ 	width:16px;
+	margin:3px 2px 3px 2px;
+	padding:0;
+	clear:none;
+}
+
+.a2z li a:link, .a2z li a:visited, .a2z li span {
+	display:block;
+	width:100%;
+	padding:0;
+	border-width:2px;
+	border-color:#ffe #aaab9c #ccc #fff;
+	border-style:solid;
+	color:#0a29a5 !important;
+	text-decoration: none;
+	background:#f4f8ff;
+	font-weight:bold;
+	text-align:center;
+}
+
+.a2z li span {
+	color:#999999 !important;
+}
+
+.a2z li a:hover {
+	color:#0a29a5;
+	font-weight:bold;
+	text-decoration:none !important;
+	background: #ffffff;
+	border-color: #aaab9c #fff #fff #ccc;
+}
+
+
+.a2z li span {
+	background:#FFF;
+}
+*/
+.reference {
+	font-size: .8em;
+	color: #333333;
+}
+
+.hide {
+	display:none;
+}
+
+.imageCaption {
+	font-style:italic !important;
+}
+
+.imageCaption em {
+	font-style:normal !important;
+}
+
+#archivedbox {
+	padding:10px;	
+	border:solid 1px #000;
+	background:#fff9b2;
+	/*background:e1b8b8;*/
+	color:#000;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+.indentedlinks-86px {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	width: 100%;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+.indentedlinks-86px-lastChild {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+.bulletcontainer {
+	overflow: hidden;
+	position: relative;
+}
+.aligntext {
+	margin-left: 96px;
+	padding-left: 96px;
+}
+
+#banner p
+{
+margin:0 0 20px 0;
+padding-bottom:10px;
+float:left;
+font-weight:bold;
+font-size:1em;
+width:100%;
+}
+
+#banner img
+{
+float:left;
+margin-right:5px;
+position:relative;
+vertical-align:baseline;
+border:solid 1px #000000;
+}
+
+inlinelinks {
+	display: inline;
+}
+
+.fixedbanner {
+	height: 188px;
+	width: 536px;
+!important
+; 	overflow: hidden;
+margin-bottom: 10px;
+padding-bottom: 10px;
+}
+
+#contact-info-local {
+	font-size:11px;
+	margin-left:10px;
+	padding-left:10px;
+	a:link text-decoration:underline;     
+	a:visited text-decoration:underline;
+	a:hover text-decoration:none;
+	a:active text-decoration:none;
+}
+
+.noLink {
+	text-decoration:none;
+}
+
+/* Added by Jon Kennon for the Drinking Water Advisory toolkit embedded boxes located at http://wwwdev.cdc.gov/healthywater/emergency/dwa/overview.html 9-18-2012*/
+.dwaEmbedRight {
+	margin-left:10px; 
+	padding-left:10px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	clear:right;
+}
+
+.dwaEmbedLeft {
+	margin-right:10px; 
+	padding-right:10px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+.icon {
+text-decoration:none !important;
+}
+
+
+/* DWA Glossary Formatting Class */
+div.glossary h3,
+div.glossary h4,
+div.glossary h5,
+div.glossary h6 {
+	font-family: "Trebuchet MS", Arial, sans-serif; 	
+	/*text-transform: uppercase;  had to comment out for use in corners */
+}
+div.glossary h3 {
+	color: #0C5205 !important;
+	font-size: 3em;
+	font-weight: normal;
+	margin-top: .5em;
+	margin-bottom: .25em;
+	border-bottom: 1px dotted #0C5205;
+}
+div.glossary h4 {
+	color: #000;
+	font-size:1.3em;
+	font-weight: bold;
+	padding-left: .5em;
+}
+div.glossary h5 {	
+	position: relative;
+	color: #000;
+	font-size:1.2em;
+	font-weight: bold;
+}
+div.glossary h6 {
+	position: relative;
+	color: #000;
+	font-size:1em;
+	font-weight: bold;
+}
+div.glossary ul li { /* keeps bullets from showing in front of items within the index */
+	font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+#centerbox {
+	width: 100%;
+	overflow:hidden;
+}
+
+#centerbox2 {
+	width: 100%;
+	overflow:hidden;
+}
+
+.indentedlinks-86px {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+#tooltip_container {
+	font-size:10px;
+	color: #085100;
+	position: absolute;
+	display: none;
+	padding: 5px;
+	max-width: 175px; /* need i.e. rule */
+	background-color: #c1d5b0;
+}
+
+#tooltip_container .header {
+	font-size:14px;
+	padding: 5px;
+	color: #ffffff;
+	max-width: 175px; /* need i.e. rule */
+	background-color: #085100;
+}
+
+#jon {
+max-width:528px;	
+}
+
+.noboldlinks {
+text-decoration:none !important; 	
+}
+
+.printnGo {
+margin-left:10px; 
+padding-left:10px; 
+margin-bottom:10px; 
+padding-bottom:10px;	
+	
+}
+
+
+.printnGo-pagetop {
+width:50%;
+margin-bottom:10px; 
+padding-bottom:10px;	
+	
+}
+
+
+.printnGo-pagetop-100 {
+
+margin-bottom:10px; 
+padding-bottom:10px;	
+	
+}
+/*.dwaResourcesLink {
+	background-image: url(/healthywater/images/emergency/Resource-Drop-icon.gif);
+	background-repeat: no-repeat;
+	background-position:center top;
+	display:block;
+}
+	*/

@@ -1,0 +1,22 @@
+#wrapper [class*='module'] > img,  #wrapper [class*='module'] > figure { 
+       width: auto !important;
+       padding: 5px !important;
+       margin-top: 5px !important;
+} ​
+
+.HLh2 { margin-bottom:15px; }
+
+.quote { font-size: 1.3em; color: #666; font-style: italic; font-weight: bold;}
+
+.ui-accordion .ui-accordion-content {
+                height: auto !important;
+}
+
+ul li a.nonHtml.plugin .tp-label {
+       text-decoration: underline;
+}
+
+ul li a.nonHtml.plugin:hover .tp-label {
+       text-decoration: none;
+}
+

@@ -1,0 +1,9 @@
+/* =================================================
+LOCAL STYLE SHEET
+================================================= */
+/*
+#testingLocator-left {background:url(/hiv/images/template/locator_background_300x250.jpg) no-repeat;
+height:250px; width:300px; margin-top:0px !important; }*/
+ul#nav-primary li a span.tp-label{text-decoration:none!important;float:none!important;line-height:normal}
+ul#nav-primary li a:hover span.tp-label{text-decoration:underline!important}
+ul#nav-primary li .sprite-16-pdf{display:none!important}
