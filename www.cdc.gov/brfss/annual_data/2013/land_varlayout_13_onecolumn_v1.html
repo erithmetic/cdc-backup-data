@@ -1,0 +1,738 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js nav theme-teal lt-ie10 lt-ie9 lt-ie8 " lang="en-us"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js nav theme-teal lt-ie10 lt-ie9 " lang="en-us"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js nav theme-teal lt-ie10 " lang="en-us"> <![endif]-->
+<!--[if !IE]><!-->     <html class="no-js nav theme-teal " lang="en-us"> <!--<![endif]-->	
+    <head>
+        <meta charset="utf-8" />
+                <title>CDC - BRFSS - 2013 Variable Layout for Version 1 Data</title>
+        		
+        <meta name="description" content="BRFSS has a long history in behavioral and chronic disease surveillance. Fifteen states participated in the first BRFSS, conducted in 1984." />        <meta name="keywords" content="BRFSS, behavioral and chronic disease surveillance,By collecting behavioral health risk data, state and local level, powerful tool, health promotion activities, data, survey" />		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.cdc.gov/TemplatePackage/3.0/images/cdc-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.cdc.gov/TemplatePackage/3.0/images/cdc-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.cdc.gov/TemplatePackage/3.0/images/cdc-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" href="https://www.cdc.gov/TemplatePackage/3.0/images/cdc-touch-icon-57x57.png" />
+        <link rel="shortcut icon" href="../../../TemplatePackage/3.0/images/favicon.ico" />	
+		
+		<meta name="robots" content="index,follow" />
+		<meta property="cdc:template_version" content="3.0" />
+		<meta property="cdc:content-id" content="595878"/>
+		<meta property="cdc:revision-id" content="2"/>
+				<link rel="canonical" href="land_varlayout_13_onecolumn_v1.html"/>
+				<!-- Internal Release Version # 3.6.3 -->
+                			<link rel="stylesheet" href="../../../TemplatePackage/3.0/css/lib/bootstrap24.css" />
+	<link rel="stylesheet" href="../../../TemplatePackage/3.0/css/app.css@3.2.1.7.css" />
+	<!--[if gt IE 9]><!--><!--<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/TemplatePackage/3.0/css/lib/font-awesome-ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/TemplatePackage/3.0/css/ie.css" />
+	<![endif]-->
+	<link rel="stylesheet" media="print" href="../../../TemplatePackage/3.0/css/print.css@3.2.1.7.css" />
+	<script src="../../../TemplatePackage/3.0/js/libs/modernizr-latest.js"></script>
+	<script>
+		if(!Date.now){Date.now=function now(){return new Date().getTime()}}
+		var page_timing = page_timing || {};
+		page_timing.page_start = Date.now();
+		function $$(e){if(window.$){e()}else{setTimeout(function(){$$(e)},50)}}
+		// (function(){function e(e,t){var n=e.length;while(n--){if(e[n].indexOf(t)>-1){return e[n]}}return false}var t=e(document.getElementsByTagName("html")[0].className.split(" "),"theme-");if(t){var n=document.createElement("link");n.rel="stylesheet";n.type="text/css";n.media="screen";n.href="/TemplatePackage/3.0/css/themes/"+t+".css";document.getElementsByTagName("head")[0].appendChild(n)}})();
+
+		var settings = {}, addthis = null;
+	</script>
+
+	<meta name="application-name" content="CDC.gov"/>
+	<meta property="cdc:template_version" content="3.2.1.7" />
+	<meta name="msapplication-TileColor" content="#0061aa" />
+	<meta name="msapplication-square70x70logo" content="/TemplatePackage/3.0/images/Win8_tile_70x70.png" />
+	<meta name="msapplication-square150x150logo" content="/TemplatePackage/3.0/images/Win8_tile_150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="/TemplatePackage/3.0/images/Win8_tile_310x150.png" />
+	<meta name="msapplication-square310x310logo" content="/TemplatePackage/3.0/images/Win8_tile_310x310.png" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">		        
+
+
+
+                		
+    </head>
+    <body>
+				
+
+
+
+
+				<div id="skipmenu">
+	<a href="land_varlayout_13_onecolumn_v1.html#searchTarget" class="skippy">Skip directly to search</a>
+	<a href="land_varlayout_13_onecolumn_v1.html#azTab" class="skippy">Skip directly to A to Z list</a>
+	<a href="land_varlayout_13_onecolumn_v1.html#nav-container" class="skippy">Skip directly to navigation</a>
+	<a href="land_varlayout_13_onecolumn_v1.html#share-bar" class="skippy">Skip directly to page options</a>
+	<a href="land_varlayout_13_onecolumn_v1.html#contentArea" class="skippy">Skip directly to site content</a>
+</div>		    	<div id="wrapper">
+    		
+<!-- references to this removed intentionally -->
+    		<header id="header">
+    			<div class="container">
+                    <div class="row">
+                    	<div id="logo" class="span14">
+                    		<!--iPad touch response and 508 voice reader issue currently under investigation -->
+<a href="https://www.cdc.gov" title="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People">
+	<img src="../../../TemplatePackage/3.0/images/masthead_subpage.svg" alt="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People" class="hidden-one" />
+	<img src="../../../TemplatePackage/3.0/images/masthead_1-col.svg" alt="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People" class="visible-one" />
+</a>
+
+<!-- IOS9 iPad bug work around - make sure screen readers have a readable version of the logo to read
+<a class="tp-sr-only" href="https://www.cdc.gov">Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People</a>
+ -->
+                    	</div>
+                    	<!-- search -->
+                    	<div id="searchArea" class="span10 hidden-one hidden-two">							
+							
+<div class="hidden"><a href="land_varlayout_13_onecolumn_v1.html#" name="searchTarget">Start of Search Controls</a></div>
+<form class="searchForm" method="get" action="http://search.cdc.gov/search">
+	<fieldset class="search-form-wrapper ">
+		<legend>Search Form Controls</legend>
+		<div class="search-form-checkbox">
+			<label class="subset"><input type="checkbox" name="subset" checked="checked" value="">Search The CDC</label>
+		</div>
+		<div class="search-input-wrapper">
+			<div class="search-buttons">
+				<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+				<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+			</div>
+			<div class="search-input">
+				<label><input type="text" placeholder="SEARCH" name="query" /><span class="hidden">Search The CDC</span></label>
+			</div>
+		</div>
+		<input type="hidden" name="utf8" value="&#x2713;" />
+					<input type="hidden" name="affiliate" value="cdc-main" />
+			</fieldset>
+</form>							<div class="a2z-button pull-right hidden-one hidden-two"><a href="land_varlayout_13_onecolumn_v1.html#" id="azTab">CDC A-Z Index <span class="icon-angle-down"></span></a></div>
+                    	</div>
+                    </div>
+                    	<div class="hidden-three hidden-four" id="mobile-menu">
+		<ul>
+			<li id="vp1-menu-button" class="border-bottom-white"><a href="land_varlayout_13_onecolumn_v1.html#" id="menu-nav"><span class="sprite-16-menu"></span>MENU</a></li>
+			<li id="vp1-a2z-button" class="border-bottom-white"><a href="land_varlayout_13_onecolumn_v1.html#" id="menu-az">CDC A-Z</a></li>
+			<li id="vp1-search-button" class="border-bottom-white"><a href="land_varlayout_13_onecolumn_v1.html#" id="menu-search"><span class="sprite-16-search-white"></span>SEARCH</a></li>
+		</ul>
+	</div>
+<script>if (typeof page_timing !== 'undefined') { page_timing.menu_load = Date.now(); }</script>
+                    <div class="a2z-bar hide">
+                    	<div>
+	<ul>
+		<li><a href="https://www.cdc.gov/az/a.html">A</a></li>
+		<li><a href="https://www.cdc.gov/az/b.html">B</a></li>
+		<li><a href="https://www.cdc.gov/az/c.html">C</a></li>
+		<li><a href="https://www.cdc.gov/az/d.html">D</a></li>
+		<li><a href="https://www.cdc.gov/az/e.html">E</a></li>
+		<li><a href="https://www.cdc.gov/az/f.html">F</a></li>
+		<li><a href="https://www.cdc.gov/az/g.html">G</a></li>
+		<li><a href="https://www.cdc.gov/az/h.html">H</a></li>
+		<li><a href="https://www.cdc.gov/az/i.html">I</a></li>
+		<li><a href="https://www.cdc.gov/az/j.html">J</a></li>
+		<li><a href="https://www.cdc.gov/az/k.html">K</a></li>
+		<li><a href="https://www.cdc.gov/az/l.html">L</a></li>
+		<li><a href="https://www.cdc.gov/az/m.html">M</a></li>
+		<li><a href="https://www.cdc.gov/az/n.html">N</a></li>
+		<li><a href="https://www.cdc.gov/az/o.html">O</a></li>
+		<li><a href="https://www.cdc.gov/az/p.html">P</a></li>
+		<li><a href="https://www.cdc.gov/az/q.html">Q</a></li>
+		<li><a href="https://www.cdc.gov/az/r.html">R</a></li>
+		<li><a href="https://www.cdc.gov/az/s.html">S</a></li>
+		<li><a href="https://www.cdc.gov/az/t.html">T</a></li>
+		<li><a href="https://www.cdc.gov/az/u.html">U</a></li>
+		<li><a href="https://www.cdc.gov/az/v.html">V</a></li>
+		<li><a href="https://www.cdc.gov/az/w.html">W</a></li>
+		<li><a href="https://www.cdc.gov/az/x.html">X</a></li>
+		<li><a href="https://www.cdc.gov/az/y.html">Y</a></li>
+		<li><a href="https://www.cdc.gov/az/z.html">Z</a></li>
+		<li><a href="https://www.cdc.gov/az/0.html">#</a></li>
+	</ul>
+</div>
+<script>if (typeof page_timing !== 'undefined') { page_timing.a2z_load = Date.now(); }</script>                    </div>
+                    <div id="searchArea-two-column" class="span24 searchbar hide hidden-three hidden-four">
+						  
+<div class="hidden"><a href="land_varlayout_13_onecolumn_v1.html#" name="searchTarget">Start of Search Controls</a></div>
+<form class="searchForm" method="get" action="http://search.cdc.gov/search">
+	<fieldset class="search-form-wrapper ">
+		<legend>Search Form Controls</legend>
+		<div class="search-form-checkbox">
+			<label class="subset"><input type="checkbox" name="subset" checked="checked" value="">Search The CDC</label>
+		</div>
+		<div class="search-input-wrapper">
+			<div class="search-buttons">
+				<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+				<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+			</div>
+			<div class="search-input">
+				<label><input type="text" placeholder="SEARCH" name="query" /><span class="hidden">Search The CDC</span></label>
+			</div>
+		</div>
+		<input type="hidden" name="utf8" value="&#x2713;" />
+					<input type="hidden" name="affiliate" value="cdc-main" />
+			</fieldset>
+</form>					</div>
+                    <!--
+	See the noscript include for modifying the emergency message. DO NOT add it here.
+-->
+<script>if (typeof page_timing !== 'undefined') { page_timing.emergency_load = Date.now(); }</script>
+    				<div class="titlebar">
+    					<h2>
+
+
+<a href="https://www.cdc.gov/brfss/index.html">Behavioral Risk Factor Surveillance System</a>
+
+</h2>
+    				</div>
+    				<!-- emergency -->
+<div id="emergencyContainer">
+	<!--
+	<div class="alert alert-error en">
+		<b>Attention!</b> Uncomment this section and place the emergency message here.
+	</div>
+	<div class="alert alert-error esp">
+		<b>&#161;Atenci&#243;n!</b> Elimine el comentario de esta secci&#243;n y colocar el mensaje de emergencia aqu&#237;.
+	</div>	
+	-->
+</div>
+
+<!-- no script -->
+<noscript>
+	<div class="alert alert-block"> Note: Javascript is disabled or is not supported by your browser. For this reason, some items on this page will be unavailable. For more information about this message, please visit this page: <a href="https://www.cdc.gov/other/about_cdcgov.html">About CDC.gov</a>.</div>
+</noscript>
+<script>if (typeof page_timing !== 'undefined') { page_timing.noscript_load = Date.now(); }</script>
+     			</div>
+    		</header>
+    		<div class="container">				
+                <div id="content">
+					<div class="row">
+        				<!-- left nav -->
+        				<div id="nav-container" class="hidden-one hidden-two span5">
+    						<nav id="left" class="hidden-one hidden-two">
+    							
+
+
+<h3><a href="https://www.cdc.gov/brfss/index.html">BRFSS</a></h3><ul id="nav-primary"><li><a href="https://www.cdc.gov/brfss/about/index.htm">About BRFSS</a> <ul><li><a href="https://www.cdc.gov/brfss/about/brfss_today.htm">BRFSS Today</a></li><li><a href="https://www.cdc.gov/brfss/about/about_brfss.htm">BRFSS History</a></li><li><a href="https://www.cdc.gov/brfss/about/brfss_faq.htm">BRFSS FAQs</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/data_tools.htm">Prevalence Data and Data Analysis Tools</a></li><li><a href="https://www.cdc.gov/brfss/data_documentation/index.htm">Survey Data and Documentation</a> <ul><li><a href="../annual_data.htm">Annual Survey Data</a> <ul><li><a href="../annual_2013.html">2013 Data</a> <ul><li><a href="2013_landline_multiple.html">The combined Landline and Cellular Telephone Survey Multiple Questionnaire Version Data including Optional Modules</a></li><li><a href="llcp_varlayout_13_onecolumn_v1.html">Combined Landline and Cellular Telephone Variable Layout for Version 1 Data</a></li><li><a href="llcp_varlayout_13_onecolumn_v2.html">Combined Landline and Cellular Telephone Variable Layout for Version 2 Data</a></li><li><a href="llcp_varlayout_13_onecolumn_v3.html">Combined Landline and Cellular Telephone Variable Layout for Version 3 Data</a></li><li><a href="summary_matrix_2013_version5.html">Summary Matrix of Calculated Variables</a></li><li><a href="2013_landline.html">Landline Telephone Survey Data including Optional Modules</a></li><li><a href="2013_landline_multiple.html">Landline Telephone Survey Multiple Questionnaire Version Data including Optional Modules</a></li><li><a href="llcp_varlayout_13_onecolumn.html">Variable Layout for Combined Landline and Telephone Multiple Data</a></li><li><a href="land_varlayout_13_onecolumn.html">Variable Layout for Landline Data</a></li><li><a href="land_varlayout_13_onecolumn_v1.html">Variable Layout for Version 1 Data</a></li><li><a href="land_varlayout_13_onecolumn_v2.html">Variable Layout for Version 2 Data</a></li><li><a href="land_varlayout_13_onecolumn_v3.html">Variable Layout for Version 3 Data</a></li></ul></li><li><a href="../annual_2012.html">2012 Data</a> <ul><li><a href="../2012/2012_landline_multiple.html">Landline Telephone Survey Multiple Questionnaire Version Data including Optional Modules</a></li><li><a href="../2012/2012_landline.html">Landline Telephone Survey Data including Optional Modules</a></li><li><a href="../2012/llcp_multiq.html">Combined Landline and Cellular Telephone Survey Multiple Questionnaire Version Data including Optional Modules</a></li><li><a href="../2012/response_rates_12.htm">Combined Landline and Cell Phone Weighted Response Rates by State</a></li><li><a href="../2012/summary_matrix_2012_version4.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2012/land_varlayout_12_onecolumn.html">2012 Variable Layout for Landline Data</a></li><li><a href="../2012/llcp_varlayout_12_onecolumn_v1.html">Combined Landline and Telephone Multiple for Version 1 Data</a></li><li><a href="../2012/llcp_varlayout_12_onecolumn_v2.html">Combined Landline and Telephone Multiple for Version 2 Data</a></li><li><a href="../2012/llcp_varlayout_12_onecolumn_v3.html">Combined Landline and Telephone Multiple for Version 3 Data</a></li></ul></li><li><a href="../annual_2011.htm">2011 Data</a> <ul><li><a href="../2011/response_rates_11.htm">Combined Landline and Cell Phone Weighted Response Rates by State</a></li><li><a href="../2011/summary_matrix_11.htm">Summary Matrix of Calculated Variables</a></li><li><a href="../2011/2011_weighting.htm">Weighting Formula</a></li><li><a href="../2011/2011_landline.html">Landline Questionnaire Data Sets</a></li><li><a href="../2011/2011_landline_multiple.html">Landline Multiple Version Questionnaire Data Sets</a></li><li><a href="../2011/varlayout_multiple_v1_11.htm">Variable Layout for Multiple Questionnaire Version 1</a></li><li><a href="../2011/varlayout_multiple_v2_11.htm">Variable Layout for Multiple Questionnaire Version 2</a></li><li><a href="../2011/varlayout_multiple_v3_11.htm">Variable Layout for Multiple Questionnaire Version 3</a></li></ul></li><li><a href="../annual_2010.htm">2010 Data</a> <ul><li><a href="../2010/summary_matrix_10.htm">Summary Matrix of Calculated Variables</a></li><li><a href="../2010/varlayout_table_10.htm">Variable Layout</a></li><li><a href="../2010/2010_multiple.html">Multiple Version Questionnaire Data Sets</a></li><li><a href="../2010/varlayout_multiple_v1_10.htm">Variable Layout for Multiple Questionnaire Version 1</a></li><li><a href="../2010/varlayout_multiple_v2_10.htm">Variable Layout for Multiple Questionnaire Version 2</a></li><li><a href="../2010/varlayout_multiple_v3_10.htm">Variable Layout for Multiple Questionnaire Version 3</a></li></ul></li><li><a href="../annual_2009.htm">2009 Data</a> <ul><li><a href="../2009/summary_matrix_09.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2009/varlayout_table_09.html">Variable Layout</a></li><li><a href="../2009/2009_multiple.html">Multiple Version Questionnaire Data Sets</a></li><li><a href="../2009/varlayout_multiple_v1_09.html">Variable Layout for Multiple Questionnaire Version</a>1</li><li><a href="../2009/varlayout_multiple_v2_09.html">Variable Layout for Multiple Questionnaire Version 2</a></li><li><a href="../2009/varlayout_multiple_v3_09.html">Variable Layout for Multiple Questionnaire Version 3</a></li></ul></li><li><a href="../annual_2008.htm">2008 Data</a> <ul><li><a href="../2008/summary_matrix_08.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2008/varlayout_table_08.htm">Variable Layout</a></li><li><a href="../2008/2008_multiple.html">Multiple Version Questionnaire Data Sets</a></li><li><a href="../2008/varlayout_multiple_v1_08.html">Variable Layout for Multiple Questionnaire Version 1</a></li><li><a href="../2008/varlayout_multiple_v2_08.html">Variable Layout for Multiple Questionnaire Version 2</a></li><li><a href="../2008/varlayout_multiple_v3_08.html">Variable Layout for Multiple Questionnaire Version 3</a></li></ul></li><li><a href="../annual_2007.htm">2007 Data</a> <ul><li><a href="../2007/summary_matrix_07.html">Summary Matrix of Calculated Variables</a></li><li><a href="../2007/varlayout_table_07.html">Variable Layout</a></li><li><a href="../2007/2007_dual.html">Dual Version Questionnaire Data Sets</a></li></ul></li><li><a href="../annual_2006.htm">2006 Data</a> <ul><li><a href="../2006/summary_matrix_06.htm">Summary Matrix of Calculated Variables</a></li><li><a href="../2006/varlayout_table_06.htm">Variable Layout</a></li><li><a href="../2006/2006_dual.html">Dual Version Questionnaire Data Sets</a></li></ul></li><li><a href="../annual_2005.htm">2005 Data</a> <ul><li><a href="../2005/summary_matrix_05.html">Summary Matrix of Calculated Variables</a></li></ul></li><li><a href="../annual_2004.htm">2004 Data</a></li><li><a href="../annual_2003.htm">2003 Data</a></li><li><a href="../annual_2002.htm">2002 Data</a></li><li><a href="../annual_2001.htm">2001 Data</a></li><li><a href="../annual_2000.htm">2000 Data</a></li><li><a href="../annual_1999.htm">1999 Data</a></li><li><a href="../annual_1998.htm">1998 Data</a></li><li><a href="../annual_1997.htm">1997 Data</a></li><li><a href="../annual_1996.htm">1996 Data</a></li><li><a href="../annual_1995.htm">1995 Data</a></li><li><a href="../annual_1994.htm">1994 Data</a></li><li><a href="../annual_1993.htm">1993 Data</a></li><li><a href="../annual_1992.htm">1992 Data</a></li><li><a href="../annual_1991.htm">1991 Data</a></li><li><a href="../annual_1990.htm">1990 Data</a></li><li><a href="../annual_1989.htm">1989 Data</a></li><li><a href="../annual_1988.htm">1988 Data</a></li><li><a href="../annual_1987.htm">1987 Data</a></li><li><a href="../annual_1986.htm">1986 Data</a></li><li><a href="../annual_1985.htm">1985 Data</a></li><li><a href="../annual_1984.htm">1984 Data</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/index.htm">Asthma Call-back Survey Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2012_documentation.html">2012 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2012_tables.html">Table of Contents</a></li><li><a href="https://www.cdc.gov/brfss/acbs/2012_tables_llcp.html">Table of Contents (LLCP)</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2011_documentation.html">2011 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2011_tables.html">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2010_documentation.htm">2010 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2010_tables.htm">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2009_documentation.htm">2009 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2009_tables.htm">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2008_documentation.htm">2008 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2008_tables.htm">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2007_documentation.htm">2007 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2007_tables.htm">Table of Contents</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/acbs/2006_documentation.htm">2006 Data</a> <ul><li><a href="https://www.cdc.gov/brfss/acbs/2006_tables.htm">Table of Contents</a></li></ul></li></ul></li><li><a href="https://www.cdc.gov/brfss/gis/gis_maps.htm">GIS Maps Data</a> <ul><li><a href="https://www.cdc.gov/brfss/gis/gis_maps_faq.htm">BRFSS Maps FAQs</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/smart/smart_data.htm">SMART: City and County Survey Data</a> <ul><li><a href="https://www.cdc.gov/brfss/smart/smart_faq.htm">SMART: BRFSS FAQs</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2012.html">2012 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2011.htm">2011 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2010.htm">2010 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2009.htm">2009 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2008.htm">2008 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2007.htm">2007 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2006.htm">2006 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2005.htm">2005 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2004.htm">2004 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2003.htm">2003 Data</a></li><li><a href="https://www.cdc.gov/brfss/smart/smart_2002.htm">2002 Data</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/data_documentation/statistic_brief.htm">Statistical Briefs</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/questionnaires/index.htm">Questionnaires</a> <ul><li><a href="https://www.cdc.gov/brfss/questionnaires/state2013.htm">State 2013</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2012.htm">State 2012</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2011.htm">State 2011</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2010.htm">State 2010</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2009.htm">State 2009</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2008.htm">State 2008</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2007.htm">State 2007</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2006.htm">State 2006</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2005.htm">State 2005</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2004.htm">State 2004</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2003.htm">State 2003</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2002.htm">State 2002</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2001.htm">State 2001</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state2000.htm">State 2000</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state1999.htm">State 1999</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/state1998.htm">State 1998</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2013.htm">Category 2013</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2012.htm">Category 2012</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2011.htm">Category 2011</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2010.htm">Category 2010</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2009.htm">Category 2009</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2008.htm">Category 2008</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2007.htm">Category 2007</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2006.htm">Category 2006</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2005.htm">Category 2005</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2004.htm">Category 2004</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2003.htm">Category 2003</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2002.htm">Category 2002</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2001.htm">Category 2001</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category2000.htm">Category 2000</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category1999.htm">Category 1999</a></li><li><a href="https://www.cdc.gov/brfss/questionnaires/category1998.htm">Category 1998</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/publications/index.htm">Publications and Resources</a> <ul><li><a href="https://www.cdc.gov/brfss/publications/ssummaries.htm">Surveillance Summaries</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/state_info/index.htm">State Information</a> <ul><li><a href="https://www.cdc.gov/brfss/state_info/coordinators.htm">State Coordinators</a></li><li><a href="https://www.cdc.gov/brfss/state_info/brfss_use_examples.htm">State-by-State Listing of How Data Are Used</a></li></ul></li><li><a href="https://www.cdc.gov/brfss/factsheets/index.htm">Fact Sheets</a></li></ul>
+
+    						</nav>
+    						<div class="nav-related">
+							
+
+
+
+
+    						
+
+
+
+<div class="nav-related">
+<div class="module-typeG emailupdates"><span class="sprite-24-govd-icon"><!-- span --></span>
+<h4>Get Email Updates</h4>
+
+<p>To receive email updates about this page, enter your email address:</p>
+
+<form action="https://public.govdelivery.com/accounts/USCDC/subscribers/qualify" name="govdelivery">
+<fieldset><input name="topic_id" type="hidden" value="USCDC_490" /><label><span class="hidden">Enter Email Address</span> <input class="email" name="email" type="text" value="" /></label> <a class="explain" href="http://www.cdc.gov/emailupdates/">What's this?</a><a class="button" href="land_varlayout_13_onecolumn_v1.html#;">Submit</a> <noscript><a class="explain" href="http://www.cdc.gov/emailupdates/">What&#39;s this?</a> <label><span class="hidden">Submit Button</span> <input class="button submit" name="commit" type="submit" value="Submit" /></label></noscript></fieldset>
+</form>
+</div>
+
+<div class="row">
+<div class="span14">
+<div class="module-typeH topicmedia" style=" clear: both;">
+<h3>Related Links</h3>
+
+<ul class="list-block" style=" margin-left: 10px;">
+<li><a href="http://wwwn.cdc.gov/sortablestats/">Health Indicator Sortable Stats</a></li>
+
+<li><a href="http://www.healthindicators.gov/">Health Indicators Warehouse (HIW)</a></li>
+
+<li><a href="http://healthdata.gov/">HealthData.gov</a></li>
+
+<li><a href="http://data.cdc.gov/">Data Catalog</a></li>
+
+<li class="lastChild"><a href="https://www.cdc.gov/chronicdisease/stats/">CDC’s Major Disease Surveillance Systems</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<p><a href="https://www.cdc.gov/24-7/?s_cid=24-7_004"><img class="center" src="../../../features/images/24-7_i150x120html.gif" alt="24/7" /></a></p>
+</div>
+
+
+							
+
+
+
+
+							</div>    						    				
+        				</div>
+        				<div id="featureArea">
+    						<div class="span19">
+    							
+
+
+
+    						</div>
+        				</div>						
+    					<div class="breadcrumbs hidden-one span19">
+    						
+
+
+<div class="bread-crumb hidden-one"></div>
+
+    					</div>
+						<div class="span19 pagetitle">	
+    						    							<div class='syndicate'>
+    						    						    							<div class='mSyndicate'>
+    																					<h1>2013 Variable Layout for Version 1 Data</h1>
+															    						    							</div>
+    						    						    							</div>
+    												</div>
+						<div id="share-bar" class="span19">		
+    						<div class="socialmediabar">
+								<div class="row">
+            						<div class="hidden-one pull-right">
+        								            							            							            						</div>	
+    								<div class="span8">
+    									<div id="socialMediaShareContainer">
+	<div class="share_container noLinking">
+	 	<a class="share_button_facebook" title="Facebook" href="land_varlayout_13_onecolumn_v1.html#"><span class="tp-sr-only">Recommend on Facebook</span><span id="share_facebook" class="facebookRecommend"> </span></a>
+	 	<a class="share_button_twitter" title="Twitter" href="land_varlayout_13_onecolumn_v1.html#"><span class="tp-sr-only">Tweet</span><span id="share_twitter" class="twitterTweet"> </span></a>
+		<a class="share_button" href="land_varlayout_13_onecolumn_v1.html#socialMediaShareContainer" ><img src="../../../TemplatePackage/3.0/images/social/addthis-32.png" alt="Share" /><span class="shareButtonEn tp-sr-only" aria-label="Share">Share</span><span class="shareButtonEs tp-sr-only" aria-label="Compartir">Compartir</span></a>
+	</div>
+</div>
+
+<!-- target anchor for return to top feature in VP1 -->
+<a id="content-start" tabindex="-1"></a>
+    								</div>
+								</div>
+    						</div>
+    					</div>	
+    					<!-- body -->
+    					<div id="body" class="span19">
+    						<div id="contentArea" >								
+        						        																						        						                                                                                            					            						<div class='syndicate'>
+            					            					            						<div class='mSyndicate'>
+            					            					        							<table align="center" border="1" cellpadding="7" cellspacing="0" class="opt-in table table-bordered" style=" width: 95%;"><thead><tr><th scope="col">Starting Column</th><th scope="col">Variable Name</th><th scope="col">Field Length</th></tr></thead><tbody><tr><td class="c data" scope="row" style=" width: 25%;">1</td><td class="c data" style=" width: 25%;">_STATE</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">16</td><td class="c data" style=" width: 25%;">FMONTH</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">18</td><td class="c data" style=" width: 25%;">IDATE</td><td class="c data" style=" width: 25%;">8</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">18</td><td class="c data" style=" width: 25%;">IMONTH</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">20</td><td class="c data" style=" width: 25%;">IDAY</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">22</td><td class="c data" style=" width: 25%;">IYEAR</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">31</td><td class="c data" style=" width: 25%;">DISPCODE</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">35</td><td class="c data" style=" width: 25%;">SEQNO</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">35</td><td class="c data" style=" width: 25%;">_PSU</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">62</td><td class="c data" style=" width: 25%;">CTELENUM</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">63</td><td class="c data" style=" width: 25%;">PVTRESD1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">64</td><td class="c data" style=" width: 25%;">COLGHOUS</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">65</td><td class="c data" style=" width: 25%;">STATERES</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">66</td><td class="c data" style=" width: 25%;">CELLFON3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">67</td><td class="c data" style=" width: 25%;">LADULT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">68</td><td class="c data" style=" width: 25%;">NUMADULT</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">70</td><td class="c data" style=" width: 25%;">NUMMEN</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">72</td><td class="c data" style=" width: 25%;">NUMWOMEN</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">80</td><td class="c data" style=" width: 25%;">GENHLTH</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">81</td><td class="c data" style=" width: 25%;">PHYSHLTH</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">83</td><td class="c data" style=" width: 25%;">MENTHLTH</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">85</td><td class="c data" style=" width: 25%;">POORHLTH</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">87</td><td class="c data" style=" width: 25%;">HLTHPLN1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">88</td><td class="c data" style=" width: 25%;">PERSDOC2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">89</td><td class="c data" style=" width: 25%;">MEDCOST</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">90</td><td class="c data" style=" width: 25%;">CHECKUP1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">91</td><td class="c data" style=" width: 25%;">SLEPTIM1</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">93</td><td class="c data" style=" width: 25%;">BPHIGH4</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">94</td><td class="c data" style=" width: 25%;">BPMEDS</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">95</td><td class="c data" style=" width: 25%;">BLOODCHO</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">96</td><td class="c data" style=" width: 25%;">CHOLCHK</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">97</td><td class="c data" style=" width: 25%;">TOLDHI2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">98</td><td class="c data" style=" width: 25%;">CVDINFR4</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">99</td><td class="c data" style=" width: 25%;">CVDCRHD4</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">100</td><td class="c data" style=" width: 25%;">CVDSTRK3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">101</td><td class="c data" style=" width: 25%;">ASTHMA3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">102</td><td class="c data" style=" width: 25%;">ASTHNOW</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">103</td><td class="c data" style=" width: 25%;">CHCSCNCR</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">104</td><td class="c data" style=" width: 25%;">CHCOCNCR</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">105</td><td class="c data" style=" width: 25%;">CHCCOPD1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">106</td><td class="c data" style=" width: 25%;">HAVARTH3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">107</td><td class="c data" style=" width: 25%;">ADDEPEV2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">108</td><td class="c data" style=" width: 25%;">CHCKIDNY</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">109</td><td class="c data" style=" width: 25%;">DIABETE3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">146</td><td class="c data" style=" width: 25%;">VETERAN3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">147</td><td class="c data" style=" width: 25%;">MARITAL</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">148</td><td class="c data" style=" width: 25%;">CHILDREN</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">150</td><td class="c data" style=" width: 25%;">EDUCA</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">151</td><td class="c data" style=" width: 25%;">EMPLOY1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">152</td><td class="c data" style=" width: 25%;">INCOME2</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">154</td><td class="c data" style=" width: 25%;">WEIGHT2</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">158</td><td class="c data" style=" width: 25%;">HEIGHT3</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">170</td><td class="c data" style=" width: 25%;">NUMHHOL2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">171</td><td class="c data" style=" width: 25%;">NUMPHON2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">172</td><td class="c data" style=" width: 25%;">CPDEMO1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">173</td><td class="c data" style=" width: 25%;">CPDEMO4</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">176</td><td class="c data" style=" width: 25%;">INTERNET</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">177</td><td class="c data" style=" width: 25%;">RENTHOM1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">178</td><td class="c data" style=" width: 25%;">SEX</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">179</td><td class="c data" style=" width: 25%;">PREGNANT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">180</td><td class="c data" style=" width: 25%;">QLACTLM2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">181</td><td class="c data" style=" width: 25%;">USEEQUIP</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">182</td><td class="c data" style=" width: 25%;">BLIND</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">183</td><td class="c data" style=" width: 25%;">DECIDE</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">184</td><td class="c data" style=" width: 25%;">DIFFWALK</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">185</td><td class="c data" style=" width: 25%;">DIFFDRES</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">186</td><td class="c data" style=" width: 25%;">DIFFALON</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">187</td><td class="c data" style=" width: 25%;">SMOKE100</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">188</td><td class="c data" style=" width: 25%;">SMOKDAY2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">189</td><td class="c data" style=" width: 25%;">STOPSMK2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">190</td><td class="c data" style=" width: 25%;">LASTSMK2</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">192</td><td class="c data" style=" width: 25%;">USENOW3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">193</td><td class="c data" style=" width: 25%;">ALCDAY5</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">196</td><td class="c data" style=" width: 25%;">AVEDRNK2</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">198</td><td class="c data" style=" width: 25%;">DRNK3GE5</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">200</td><td class="c data" style=" width: 25%;">MAXDRNKS</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">202</td><td class="c data" style=" width: 25%;">FRUITJU1</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">205</td><td class="c data" style=" width: 25%;">FRUIT1</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">208</td><td class="c data" style=" width: 25%;">FVBEANS</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">211</td><td class="c data" style=" width: 25%;">FVGREEN</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">214</td><td class="c data" style=" width: 25%;">FVORANG</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">217</td><td class="c data" style=" width: 25%;">VEGETAB1</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">220</td><td class="c data" style=" width: 25%;">EXERANY2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">221</td><td class="c data" style=" width: 25%;">EXRACT11</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">223</td><td class="c data" style=" width: 25%;">EXEROFT1</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">226</td><td class="c data" style=" width: 25%;">EXERHMM1</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">229</td><td class="c data" style=" width: 25%;">EXRACT21</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">231</td><td class="c data" style=" width: 25%;">EXEROFT2</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">234</td><td class="c data" style=" width: 25%;">EXERHMM2</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">237</td><td class="c data" style=" width: 25%;">STRENGTH</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">240</td><td class="c data" style=" width: 25%;">LMTJOIN3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">241</td><td class="c data" style=" width: 25%;">ARTHDIS2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">242</td><td class="c data" style=" width: 25%;">ARTHSOCL</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">243</td><td class="c data" style=" width: 25%;">JOINPAIN</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">245</td><td class="c data" style=" width: 25%;">SEATBELT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">246</td><td class="c data" style=" width: 25%;">FLUSHOT6</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">247</td><td class="c data" style=" width: 25%;">FLSHTMY2</td><td class="c data" style=" width: 25%;">6</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">253</td><td class="c data" style=" width: 25%;">TETANUS</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">254</td><td class="c data" style=" width: 25%;">PNEUVAC3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">255</td><td class="c data" style=" width: 25%;">HIVTST6</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">256</td><td class="c data" style=" width: 25%;">HIVTSTD3</td><td class="c data" style=" width: 25%;">6</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">262</td><td class="c data" style=" width: 25%;">WHRTST10</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">270</td><td class="c data" style=" width: 25%;">PDIABTST</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">271</td><td class="c data" style=" width: 25%;">PREDIAB1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">272</td><td class="c data" style=" width: 25%;">DIABAGE2</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">274</td><td class="c data" style=" width: 25%;">INSULIN</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">275</td><td class="c data" style=" width: 25%;">BLDSUGAR</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">278</td><td class="c data" style=" width: 25%;">FEETCHK2</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">281</td><td class="c data" style=" width: 25%;">DOCTDIAB</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">283</td><td class="c data" style=" width: 25%;">CHKHEMO3</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">285</td><td class="c data" style=" width: 25%;">FEETCHK</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">287</td><td class="c data" style=" width: 25%;">EYEEXAM</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">288</td><td class="c data" style=" width: 25%;">DIABEYE</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">289</td><td class="c data" style=" width: 25%;">DIABEDU</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">290</td><td class="c data" style=" width: 25%;">PAINACT2</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">292</td><td class="c data" style=" width: 25%;">QLMENTL2</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">294</td><td class="c data" style=" width: 25%;">QLSTRES2</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">296</td><td class="c data" style=" width: 25%;">QLHLTH2</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">298</td><td class="c data" style=" width: 25%;">MEDICARE</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">299</td><td class="c data" style=" width: 25%;">HLTHCVRG</td><td class="c data" style=" width: 25%;">14</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">313</td><td class="c data" style=" width: 25%;">DELAYMED</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">314</td><td class="c data" style=" width: 25%;">DLYOTHER</td><td class="c data" style=" width: 25%;">25</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">339</td><td class="c data" style=" width: 25%;">NOCOV121</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">340</td><td class="c data" style=" width: 25%;">LSTCOVRG</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">341</td><td class="c data" style=" width: 25%;">DRVISITS</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">343</td><td class="c data" style=" width: 25%;">MEDSCOST</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">344</td><td class="c data" style=" width: 25%;">CARERCVD</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">345</td><td class="c data" style=" width: 25%;">MEDBILLS</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">346</td><td class="c data" style=" width: 25%;">SSBSUGAR</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">349</td><td class="c data" style=" width: 25%;">SSBFRUT2</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">352</td><td class="c data" style=" width: 25%;">WTCHSALT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">353</td><td class="c data" style=" width: 25%;">LONGWTCH</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">356</td><td class="c data" style=" width: 25%;">DRADVISE</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">357</td><td class="c data" style=" width: 25%;">ASTHMAGE</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">359</td><td class="c data" style=" width: 25%;">ASATTACK</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">360</td><td class="c data" style=" width: 25%;">ASERVIST</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">362</td><td class="c data" style=" width: 25%;">ASDRVIST</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">364</td><td class="c data" style=" width: 25%;">ASRCHKUP</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">366</td><td class="c data" style=" width: 25%;">ASACTLIM</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">369</td><td class="c data" style=" width: 25%;">ASYMPTOM</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">370</td><td class="c data" style=" width: 25%;">ASNOSLEP</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">371</td><td class="c data" style=" width: 25%;">ASTHMED3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">372</td><td class="c data" style=" width: 25%;">ASINHALR</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">373</td><td class="c data" style=" width: 25%;">HAREHAB1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">374</td><td class="c data" style=" width: 25%;">STREHAB1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">375</td><td class="c data" style=" width: 25%;">CVDASPRN</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">376</td><td class="c data" style=" width: 25%;">ASPUNSAF</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">377</td><td class="c data" style=" width: 25%;">RLIVPAIN</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">378</td><td class="c data" style=" width: 25%;">RDUCHART</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">379</td><td class="c data" style=" width: 25%;">RDUCSTRK</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">380</td><td class="c data" style=" width: 25%;">ARTTODAY</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">381</td><td class="c data" style=" width: 25%;">ARTHWGT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">382</td><td class="c data" style=" width: 25%;">ARTHEXER</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">383</td><td class="c data" style=" width: 25%;">ARTHEDU</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">384</td><td class="c data" style=" width: 25%;">IMFVPLAC</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">386</td><td class="c data" style=" width: 25%;">HPVADVC2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">387</td><td class="c data" style=" width: 25%;">HPVADSHT</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">389</td><td class="c data" style=" width: 25%;">HADMAM</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">390</td><td class="c data" style=" width: 25%;">HOWLONG</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">391</td><td class="c data" style=" width: 25%;">PROFEXAM</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">392</td><td class="c data" style=" width: 25%;">LENGEXAM</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">393</td><td class="c data" style=" width: 25%;">HADPAP2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">394</td><td class="c data" style=" width: 25%;">LASTPAP2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">395</td><td class="c data" style=" width: 25%;">HADHYST2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">396</td><td class="c data" style=" width: 25%;">BLDSTOOL</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">397</td><td class="c data" style=" width: 25%;">LSTBLDS3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">398</td><td class="c data" style=" width: 25%;">HADSIGM3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">399</td><td class="c data" style=" width: 25%;">HADSGCO1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">400</td><td class="c data" style=" width: 25%;">LASTSIG3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">401</td><td class="c data" style=" width: 25%;">PCPSAAD2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">402</td><td class="c data" style=" width: 25%;">PCPSADI1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">403</td><td class="c data" style=" width: 25%;">PCPSARE1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">404</td><td class="c data" style=" width: 25%;">PSATEST1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">405</td><td class="c data" style=" width: 25%;">PSATIME</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">406</td><td class="c data" style=" width: 25%;">PCPSARS1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">407</td><td class="c data" style=" width: 25%;">PCPSADE1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">408</td><td class="c data" style=" width: 25%;">PCDMDECN</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">412</td><td class="c data" style=" width: 25%;">RRCLASS2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">413</td><td class="c data" style=" width: 25%;">RRCOGNT2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">414</td><td class="c data" style=" width: 25%;">RRATWRK2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">415</td><td class="c data" style=" width: 25%;">RRHCARE3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">416</td><td class="c data" style=" width: 25%;">RRPHYSM2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">417</td><td class="c data" style=" width: 25%;">RREMTSM2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">418</td><td class="c data" style=" width: 25%;">MISNERVS</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">419</td><td class="c data" style=" width: 25%;">MISHOPLS</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">420</td><td class="c data" style=" width: 25%;">MISRSTLS</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">421</td><td class="c data" style=" width: 25%;">MISDEPRD</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">422</td><td class="c data" style=" width: 25%;">MISEFFRT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">423</td><td class="c data" style=" width: 25%;">MISWTLES</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">424</td><td class="c data" style=" width: 25%;">MISNOWRK</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">426</td><td class="c data" style=" width: 25%;">MISTMNT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">427</td><td class="c data" style=" width: 25%;">MISTRHLP</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">428</td><td class="c data" style=" width: 25%;">MISPHLPF</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">479</td><td class="c data" style=" width: 25%;">SCNTMONY</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">480</td><td class="c data" style=" width: 25%;">SCNTMEAL</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">481</td><td class="c data" style=" width: 25%;">SCNTPAID</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">482</td><td class="c data" style=" width: 25%;">SCNTWRK1</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">484</td><td class="c data" style=" width: 25%;">SCNTLPAD</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">485</td><td class="c data" style=" width: 25%;">SCNTLWK1</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">487</td><td class="c data" style=" width: 25%;">SCNTVOT1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">494</td><td class="c data" style=" width: 25%;">RCSGENDR</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">529</td><td class="c data" style=" width: 25%;">RCSRLTN2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" scope="row" style=" width: 25%;">530</td><td class="c data" style=" width: 25%;">CASTHDX2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">531</td><td class="c data" style=" width: 25%;">CASTHNO2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">532</td><td class="c data" style=" width: 25%;">EMTSUPRT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">533</td><td class="c data" style=" width: 25%;">LSATISFY</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">592</td><td class="c data" style=" width: 25%;">QSTVER</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" style=" width: 25%;">594</td><td class="c data" style=" width: 25%;">QSTLANG</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" style=" width: 25%;">1307</td><td class="c data" style=" width: 25%;">_STSTR</td><td class="c data" style=" width: 25%;">6</td></tr><tr><td class="c data" style=" width: 25%;">1313</td><td class="c data" style=" width: 25%;">_STRWT</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" style=" width: 25%;">1343</td><td class="c data" style=" width: 25%;">_RAWRAKE</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" style=" width: 25%;">1353</td><td class="c data" style=" width: 25%;">_WT2RAKE</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" style=" width: 25%;">1367</td><td class="c data" style=" width: 25%;">_IMPRACE</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" style=" width: 25%;">1369</td><td class="c data" style=" width: 25%;">_IMPNPH</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">1378</td><td class="c data" style=" width: 25%;">_LANDWT2</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" style=" width: 25%;">1464</td><td class="c data" style=" width: 25%;">_LNDWTV1</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" style=" width: 25%;">1560</td><td class="c data" style=" width: 25%;">_CHISPNC</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">1617</td><td class="c data" style=" width: 25%;">_CRACE1</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" style=" width: 25%;">1619</td><td class="c data" style=" width: 25%;">_IMPCAGE</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">1620</td><td class="c data" style=" width: 25%;">_IMPCRAC</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">1621</td><td class="c data" style=" width: 25%;">_IMPCSEX</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">1679</td><td class="c data" style=" width: 25%;">_CLDWTV1</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" style=" width: 25%;">1895</td><td class="c data" style=" width: 25%;">_LLCPWT2</td><td class="c data" style=" width: 25%;">10</td></tr><tr><td class="c data" style=" width: 25%;">2101</td><td class="c data" style=" width: 25%;">_RFHLTH</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2102</td><td class="c data" style=" width: 25%;">_HCVU651</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2103</td><td class="c data" style=" width: 25%;">_RFHYPE5</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2104</td><td class="c data" style=" width: 25%;">_CHOLCHK</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2105</td><td class="c data" style=" width: 25%;">_RFCHOL</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2106</td><td class="c data" style=" width: 25%;">_LTASTH1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2107</td><td class="c data" style=" width: 25%;">_CASTHM1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2108</td><td class="c data" style=" width: 25%;">_ASTHMS1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2109</td><td class="c data" style=" width: 25%;">_DRDXAR1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2166</td><td class="c data" style=" width: 25%;">_PRACE1</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" style=" width: 25%;">2168</td><td class="c data" style=" width: 25%;">_MRACE1</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" style=" width: 25%;">2172</td><td class="c data" style=" width: 25%;">_HISPANC</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2173</td><td class="c data" style=" width: 25%;">_RACE</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2174</td><td class="c data" style=" width: 25%;">_RACEG21</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2175</td><td class="c data" style=" width: 25%;">_RACEGR3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2176</td><td class="c data" style=" width: 25%;">_RACE_G1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2177</td><td class="c data" style=" width: 25%;">_AGEG5YR</td><td class="c data" style=" width: 25%;">2</td></tr><tr><td class="c data" style=" width: 25%;">2179</td><td class="c data" style=" width: 25%;">_AGE65YR</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2180</td><td class="c data" style=" width: 25%;">_AGE_G</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2181</td><td class="c data" style=" width: 25%;">HTIN4</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" style=" width: 25%;">2184</td><td class="c data" style=" width: 25%;">HTM4</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" style=" width: 25%;">2187</td><td class="c data" style=" width: 25%;">WTKG3</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2192</td><td class="c data" style=" width: 25%;">_BMI5</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2196</td><td class="c data" style=" width: 25%;">_BMI5CAT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2197</td><td class="c data" style=" width: 25%;">_RFBMI5</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2198</td><td class="c data" style=" width: 25%;">_CHLDCNT</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2199</td><td class="c data" style=" width: 25%;">_EDUCAG</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2200</td><td class="c data" style=" width: 25%;">_INCOMG</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2201</td><td class="c data" style=" width: 25%;">_SMOKER3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2202</td><td class="c data" style=" width: 25%;">_RFSMOK3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2203</td><td class="c data" style=" width: 25%;">DRNKANY5</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2204</td><td class="c data" style=" width: 25%;">DROCDY3_</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" style=" width: 25%;">2207</td><td class="c data" style=" width: 25%;">_RFBING5</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2208</td><td class="c data" style=" width: 25%;">_DRNKDY4</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2212</td><td class="c data" style=" width: 25%;">_DRNKMO4</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2216</td><td class="c data" style=" width: 25%;">_RFDRHV4</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2217</td><td class="c data" style=" width: 25%;">_RFDRMN4</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2218</td><td class="c data" style=" width: 25%;">_RFDRWM4</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2219</td><td class="c data" style=" width: 25%;">FTJUDA1_</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2223</td><td class="c data" style=" width: 25%;">FRUTDA1_</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2227</td><td class="c data" style=" width: 25%;">BEANDAY_</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2231</td><td class="c data" style=" width: 25%;">GRENDAY_</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2235</td><td class="c data" style=" width: 25%;">ORNGDAY_</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2239</td><td class="c data" style=" width: 25%;">VEGEDA1_</td><td class="c data" style=" width: 25%;">4</td></tr><tr><td class="c data" style=" width: 25%;">2243</td><td class="c data" style=" width: 25%;">_MISFRTN</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2244</td><td class="c data" style=" width: 25%;">_MISVEGN</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2245</td><td class="c data" style=" width: 25%;">_FRTRESP</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2246</td><td class="c data" style=" width: 25%;">_VEGRESP</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2247</td><td class="c data" style=" width: 25%;">_FRUTSUM</td><td class="c data" style=" width: 25%;">6</td></tr><tr><td class="c data" style=" width: 25%;">2253</td><td class="c data" style=" width: 25%;">_VEGESUM</td><td class="c data" style=" width: 25%;">6</td></tr><tr><td class="c data" style=" width: 25%;">2259</td><td class="c data" style=" width: 25%;">_FRTLT1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2260</td><td class="c data" style=" width: 25%;">_VEGLT1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2261</td><td class="c data" style=" width: 25%;">_FRT16</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2262</td><td class="c data" style=" width: 25%;">_VEG23</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2263</td><td class="c data" style=" width: 25%;">_FRUITEX</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2264</td><td class="c data" style=" width: 25%;">_VEGETEX</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2265</td><td class="c data" style=" width: 25%;">_FRTLT1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2266</td><td class="c data" style=" width: 25%;">_VEGLT1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2267</td><td class="c data" style=" width: 25%;">_TOTINDA</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2268</td><td class="c data" style=" width: 25%;">METVL11_</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" style=" width: 25%;">2271</td><td class="c data" style=" width: 25%;">METVL21_</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" style=" width: 25%;">2274</td><td class="c data" style=" width: 25%;">MAXVO2_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2279</td><td class="c data" style=" width: 25%;">FC60_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2284</td><td class="c data" style=" width: 25%;">ACTIN11_</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2285</td><td class="c data" style=" width: 25%;">ACTIN21_</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2286</td><td class="c data" style=" width: 25%;">PADUR1_</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" style=" width: 25%;">2289</td><td class="c data" style=" width: 25%;">PADUR2_</td><td class="c data" style=" width: 25%;">3</td></tr><tr><td class="c data" style=" width: 25%;">2292</td><td class="c data" style=" width: 25%;">PAFREQ1_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2297</td><td class="c data" style=" width: 25%;">PAFREQ2_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2302</td><td class="c data" style=" width: 25%;">_MINAC11</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2307</td><td class="c data" style=" width: 25%;">_MINAC21</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2312</td><td class="c data" style=" width: 25%;">STRFREQ_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2317</td><td class="c data" style=" width: 25%;">PAMISS1_</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2318</td><td class="c data" style=" width: 25%;">PAMIN11_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2323</td><td class="c data" style=" width: 25%;">PAMIN21_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2328</td><td class="c data" style=" width: 25%;">PA1MIN_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2333</td><td class="c data" style=" width: 25%;">PAVIG11_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2338</td><td class="c data" style=" width: 25%;">PAVIG21_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2343</td><td class="c data" style=" width: 25%;">PA1VIGM_</td><td class="c data" style=" width: 25%;">5</td></tr><tr><td class="c data" style=" width: 25%;">2348</td><td class="c data" style=" width: 25%;">_PACAT1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2349</td><td class="c data" style=" width: 25%;">_PAINDX1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2350</td><td class="c data" style=" width: 25%;">_PA150R2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2351</td><td class="c data" style=" width: 25%;">_PA300R2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2352</td><td class="c data" style=" width: 25%;">_PA30021</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2353</td><td class="c data" style=" width: 25%;">_PASTRNG</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2354</td><td class="c data" style=" width: 25%;">_PAREC1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2355</td><td class="c data" style=" width: 25%;">_PASTAE1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2356</td><td class="c data" style=" width: 25%;">_LMTACT1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2357</td><td class="c data" style=" width: 25%;">_LMTWRK1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2358</td><td class="c data" style=" width: 25%;">_LMTSCL1</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2359</td><td class="c data" style=" width: 25%;">_RFSEAT2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2360</td><td class="c data" style=" width: 25%;">_RFSEAT3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2361</td><td class="c data" style=" width: 25%;">_FLSHOT6</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2362</td><td class="c data" style=" width: 25%;">_PNEUMO2</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2363</td><td class="c data" style=" width: 25%;">_AIDTST3</td><td class="c data" style=" width: 25%;">1</td></tr><tr><td class="c data" style=" width: 25%;">2364</td><td class="c data" style=" width: 25%;">_AGE80</td><td class="c data" style=" width: 25%;">2</td></tr></tbody></table>             					            					            						</div>
+            					            					            						</div>
+            													        						                                                                                        						                                                                								<!-- Related Nav Area -->
+								<div class="nav-related hidden-three hidden-four">
+									
+
+
+
+
+									
+
+
+
+<div class="nav-related">
+<div class="module-typeG emailupdates"><span class="sprite-24-govd-icon"><!-- span --></span>
+<h4>Get Email Updates</h4>
+
+<p>To receive email updates about this page, enter your email address:</p>
+
+<form action="https://public.govdelivery.com/accounts/USCDC/subscribers/qualify" name="govdelivery">
+<fieldset><input name="topic_id" type="hidden" value="USCDC_490" /><label><span class="hidden">Enter Email Address</span> <input class="email" name="email" type="text" value="" /></label> <a class="explain" href="http://www.cdc.gov/emailupdates/">What's this?</a><a class="button" href="land_varlayout_13_onecolumn_v1.html#;">Submit</a> <noscript><a class="explain" href="http://www.cdc.gov/emailupdates/">What&#39;s this?</a> <label><span class="hidden">Submit Button</span> <input class="button submit" name="commit" type="submit" value="Submit" /></label></noscript></fieldset>
+</form>
+</div>
+
+<div class="row">
+<div class="span14">
+<div class="module-typeH topicmedia" style=" clear: both;">
+<h3>Related Links</h3>
+
+<ul class="list-block" style=" margin-left: 10px;">
+<li><a href="http://wwwn.cdc.gov/sortablestats/">Health Indicator Sortable Stats</a></li>
+
+<li><a href="http://www.healthindicators.gov/">Health Indicators Warehouse (HIW)</a></li>
+
+<li><a href="http://healthdata.gov/">HealthData.gov</a></li>
+
+<li><a href="http://data.cdc.gov/">Data Catalog</a></li>
+
+<li class="lastChild"><a href="https://www.cdc.gov/chronicdisease/stats/">CDC’s Major Disease Surveillance Systems</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<p><a href="https://www.cdc.gov/24-7/?s_cid=24-7_004"><img class="center" src="../../../features/images/24-7_i150x120html.gif" alt="24/7" /></a></p>
+</div>
+
+
+								</div>
+    							<!-- Persistent Content Area -->
+    							<div id="content-secondary">
+                                    
+
+
+
+            						
+
+
+
+    							</div><!-- /end #content-secondary -->
+    						</div><!-- /end #contentArea -->
+    					</div><!-- /end body -->	
+					</div>
+					<div class="row">
+						<div class="span24 visible-one">
+																											</div>
+					</div>
+					<div class="row">
+						<div class="span24">
+                            <div id="plugin-legend" class="pluginOff">
+	<h5>File Formats Help:</h5><span><a href="https://www.cdc.gov/Other/plugins/">How do I view different file formats (PDF, DOC, PPT, MPEG) on this site?</a></span>
+	<ul>
+		<li class="plugin-pdf"><a href="https://www.cdc.gov/Other/plugins/#pdf"><span class="sprite-16-pdf">Adobe PDF file</span></a></li>
+		<li class="plugin-ppt"><a href="https://www.cdc.gov/Other/plugins/#ppt"><span class="sprite-16-ppt">Microsoft PowerPoint file</span></a></li>
+		<li class="plugin-word"><a href="https://www.cdc.gov/Other/plugins/#doc"><span class="sprite-16-word">Microsoft Word file</span></a></li>
+		<li class="plugin-excel"><a href="https://www.cdc.gov/Other/plugins/#xls"><span class="sprite-16-excel">Microsoft Excel file</span></a></li>
+		<li class="plugin-wmv"><a href="https://www.cdc.gov/Other/plugins/#wmv"><span class="sprite-16-wmv">Audio/Video file</span></a></li>
+		<li class="plugin-qt"><a href="https://www.cdc.gov/Other/plugins/#qt"><span class="sprite-16-qt">Apple Quicktime file</span></a></li>
+		<li class="plugin-real"><a href="https://www.cdc.gov/Other/plugins/#ram"><span class="sprite-16-rp">RealPlayer file</span></a></li>
+		<li class="plugin-text"><a href="https://www.cdc.gov/Other/plugins/#text"><span class="sprite-16-txt">Text file</span></a></li>
+		<li class="plugin-zip"><a href="https://www.cdc.gov/Other/plugins/#zip"><span class="sprite-16-zip">Zip Archive file</span></a></li>
+		<li class="plugin-sas"><a href="https://www.cdc.gov/Other/plugins/#sas"><span class="sprite-16-sas">SAS file</span></a></li>
+		<li class="plugin-epub"><a href="https://www.cdc.gov/Other/plugins/#epub"><span class="sprite-16-ebook">ePub file</span></a></li>
+		<li class="plugin-ris"><a href="https://www.cdc.gov/Other/plugins/#ris"><span class="sprite-16-ris">RIS file</span></a></li>
+	</ul>
+</div>
+						</div>
+					</div>
+					<!-- date stamp -->
+					<div id="datestamp" class="row" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+						<div class="span24">
+    						<ul> 
+            					            						<li class="last-reviewed">Page last reviewed: <span itemprop="lastReviewed">November 17, 2014</span></li>
+            													            					            						<li class="last-updated">Page last updated: <span itemprop="dateModified">November 17, 2014</span></li>
+            					        							<li class="content-source">Content source:
+    									
+
+
+<ul class="noindent"><li class="" itemprop="sourceOrganization" itemscope="itemscope" itemtype="http://schema.org/Organization"><a href="https://www.cdc.gov/chronicdisease" itemprop="url">National Center for Chronic Disease Prevention and Health Promotion</a> | <a href="https://www.cdc.gov/NCCDPHP/dph" itemprop="url">Division of Population Health</a></li></ul>
+
+        							</li>
+									
+
+
+
+    						</ul>
+						</div>
+					</div>					
+				</div><!-- /end #content -->
+			</div><!-- /.container for content -->					
+			<!-- footer -->
+				<footer id="footer" class="cdcSlimFooter">
+	
+ <!-- include eng footerSubSocialMedia.html -->
+<div class="socialMedia">
+	<div class="container">
+		<nav class="followcdc">
+			<ul>
+				<li><a href="https://www.cdc.gov/Other/emailupdates"><span class="sprite-24-govd"></span><span class="tp-sr-only">Email</span></a></li>
+				<li><a href="https://www.facebook.com/CDC" target="_blank"><span class="sprite-24-facebook"></span><span class="tp-sr-only">Recommend</span></a></li>
+				<li><a href="https://twitter.com/CDCgov" target="_blank"><span class="sprite-24-twitter"></span><span class="tp-sr-only">Tweet</span></a></li>
+				<li><a href="https://www.youtube.com/user/CDCstreamingHealth" target="_blank"><span class="sprite-24-youtube"></span><span class="tp-sr-only">YouTube</span></a></li>
+				<li><a href="https://www.instagram.com/CDCgov/" target="_blank"><span class="sprite-24-instagram"></span><span class="tp-sr-only">Instagram</span></a></li>
+			</ul>
+		</nav>
+		<nav class="cdcmedia">
+			<ul>
+				<li><a href="https://www2c.cdc.gov/podcasts"><span class="sprite-24-listen"></span><span class="tp-sr-only">Listen</span></a></li>
+				<li><a href="https://www.cdc.gov/cdctv"><span class="sprite-24-watch"></span><span class="tp-sr-only">Watch</span></a></li>
+				<li><a href="https://www2c.cdc.gov/podcasts/rss.asp"><span class="sprite-24-rss"></span><span class="tp-sr-only">RSS</span></a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+ <!-- /include eng footerSubSocialMedia.html -->
+
+	<div class="container">
+		<div class="cdcLinks">
+			<div class="container">
+				<ul>
+					
+<!-- include eng footerSubCdcLinks.html-->
+<li>
+	<nav>
+		<h6 class="hidden-four hidden-three">ABOUT <span class="icon-plus visible-one pull-right"></span></h6>
+		<ul class="hidden-one">
+			<li><a href="https://www.cdc.gov/about/default.htm">About CDC</a></li>
+			<li><a href="https://jobs.cdc.gov">Jobs</a></li>
+			<li><a href="https://www.cdc.gov/funding">Funding</a></li>
+		</ul>
+	</nav>
+</li>
+<li>
+	<nav>
+		<h6 class="hidden-four hidden-three">LEGAL <span class="icon-plus visible-one pull-right"></span></h6>
+		<ul class="hidden-one">
+			<li><a href="https://www.cdc.gov/Other/policies.html">Policies</a></li>
+			<li><a href="https://www.cdc.gov/Other/privacy.html">Privacy</a></li>
+			<li><a href="https://www.cdc.gov/od/foia">FOIA</a></li>
+			<li><a href="https://www.cdc.gov/eeo/nofearact/index.htm">No Fear Act</a></li>
+			<li><a href="https://oig.hhs.gov" class="no-link">OIG</a></li>
+		</ul>
+	</nav>
+</li>
+<!--/ include eng footerSubCdcLinks.html-->
+
+				</ul>
+			</div>
+		</div>
+		<div class="cdcContact">
+			<div class="container">
+				<ul>
+					<li class="local-contact">
+						
+ <!-- include eng footerSubGlobalContact1.html -->
+<section>
+	<address class="address" itemscope="itemscope" itemtype="https://schema.org/Organization">
+		<span class="value" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+			<span itemprop="streetAddress">1600 Clifton Road</span>
+			<span itemprop="addressLocality">Atlanta</span>,
+			<span itemprop="addressRegion">GA</span>
+			<span itemprop="postalCode">30329-4027</span>
+			<span itemprop="addressCountry">USA</span>
+		</span><br />
+		<span class="value" itemprop="telephone">800-CDC-INFO (800-232-4636)</span>,
+		<span class="value" itemprop="telephone">TTY: 888-232-6348</span><br />
+		<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx" class=" default no-link">Email CDC-INFO</a></span>
+		</span>
+	</address>
+</section>
+ <!-- /include eng footerSubGlobalContact1.html -->
+
+					</li>
+					<li class="contact">
+						
+ <!-- include eng footerSubGlobalContact2.html -->
+<section>
+	<address class="address" itemscope="itemscope" itemtype="https://schema.org/Organization">
+		<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://www.hhs.gov" class="no-link">U.S. Department of Health & Human Services</a></span>
+		</span><br />
+        <span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+        	<span itemprop="url"><a href="https://www.hhs.gov/open" class="no-link">HHS/Open</a></span>
+        </span><br />
+        <span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://www.usa.gov/" class="no-link">USA.gov</a></span>
+		</span>
+	</address>
+</section>
+ <!-- /include eng footerSubGlobalContact2.html -->
+
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>			<!-- /#footer -->
+			<div id="totop" class="off visible-one">Top</div>
+        </div>
+		<script>page_timing.libs_start = Date.now();</script><script src="../../../TemplatePackage/3.0/js/libs.min.js@3.2.1.7"></script><script>page_timing.libs_end = Date.now();page_timing.core_start = Date.now();</script><script src="../../../TemplatePackage/3.0/js/core.min.js@3.2.1.7"></script><script>page_timing.core_end = Date.now();</script><!-- Start Site Settings Overrides -->
+<script>
+CDC.Constants.set("flexSliderVideoDomains", ['youtube.com','ytimg.com','vimeocdn.com'], 'es');
+	CDC.Global.settings.includeCDCInBreadCrumbBar=true;
+	CDC.Global.settings.includePageInBreadCrumbBar=true;
+	CDC.Global.settings.catchJSErrors=true;
+	CDC.Global.settings.enableExternalLinks=true;
+	CDC.Global.settings.enableFileIcons=true;
+	CDC.Global.settings.simulateMobile=true;
+</script>
+<!-- End Site Settings Overrides --><script>page_timing.app_start = Date.now();</script><script src="../../../TemplatePackage/3.0/js/app.min.js@3.2.1.7"></script><script>page_timing.app_end = Date.now();</script>		
+		        			<!-- Begin Survey scripts -->
+<script src="../../../JScript/foresee/foresee-trigger.js"></script>
+<script src="../../../JScript/foresee-variables.js"></script>
+<!-- End Survey scripts -->
+			
+            <script>if (typeof page_timing !== 'undefined') { page_timing.metrics_start = Date.now(); }</script>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code begins here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<div id="metrics">
+
+<!-- Begin Google DAP inclusion -->
+<script type="text/javascript" id="_fed_an_ua_tag" src="../../../JScript/metrics/google/Universal-Federated-Analytics-Min.js@agency=HHS&amp;subagency=CDC"></script>
+<!-- End Google DAP inclusion -->
+
+<!-- Begin Template Package Custom Interactions -->
+<script type="text/javascript" src="../../../JScript/metrics/rd_custom_interactions.js"></script>
+<!-- End Template Package Custom Interactions -->
+
+<!-- SiteCatalyst code version: H.21. -->
+<script src="../../../JScript/metrics/topic_levels.js"></script>
+<script src="../../../JScript/metrics/s_code_v21_cdcgov.js"></script>
+<script>
+
+	enquire.register(CDC.Global.selectors.vp1, function() {
+		s.prop49 = 1;
+	});
+	enquire.register(CDC.Global.selectors.vp2, function() {
+		s.prop49 = 2;
+	});
+	enquire.register(CDC.Global.selectors.vp3, function() {
+		s.prop49 = 3;
+	});
+	enquire.register(CDC.Global.selectors.vp4, function() {
+		s.prop49 = 4;
+	});
+
+            
+            
+
+
+ 
+    s.pageName=document.title;
+    s.channel="BRFSS";
+    siteCatalyst.setAzEntry("BRFSS");
+    siteCatalyst.setLevel1("Chronic"); 
+    siteCatalyst.setLevel2("DPH"); 
+    siteCatalyst.setLevel3("BRFSS"); 
+    
+   
+    
+
+            
+                        
+            s.prop2=window.location.href;
+s.prop26=document.title;
+s.prop30=document.title;
+s.prop31=window.location.href;
+s.prop46=window.location.href;
+s.server=window.location.hostname;
+
+// Update the level variables here.
+updateVariables(s);
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();
+
+
+
+if(s_code) {
+	document.write(s_code);
+}
+
+
+
+if (document.location.protocol) {
+
+
+	var cookieManagment = {
+		getUuid : function (strPrefix) {
+			strPrefix = strPrefix || "";
+			var d = new Date();
+			var seconds = Math.round(d.getTime() / 1000);
+			return strPrefix + Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1) + "-" + seconds.toString();
+		},
+		setCookie : function (cname, cvalue, exdays, domain) {
+			domain = domain || ".cdc.gov";
+			var d = new Date();
+			d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			var expires = "expires="+ d.toUTCString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=" + domain + ";path=/";
+		},
+		getCookie : function (cname) {
+			var name = cname + "=";
+			var ca = document.cookie.split(';');
+			var i = ca.length;
+			while (i --) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length,c.length);
+				}
+			}
+			return "";
+		},
+		init : function () {
+
+
+
+			var currCookieVal = cookieManagment.getCookie('cdc_s_vi');
+
+			if (!currCookieVal.length || currCookieVal.indexOf('[CS]v1') != -1) {
+				var newCookieVal = cookieManagment.getUuid('[CS]v2') + "-" + cookieManagment.getUuid('');
+				cookieManagment.setCookie("cdc_s_vi", newCookieVal, 7);
+				return newCookieVal;
+			}
+			return currCookieVal;
+		}
+	};
+
+
+	var cdcSessionID = cookieManagment.init();
+
+	s3 = s_gi("cdcgovvistorid");
+
+	var sKey, override = {
+		fun: "cdcgovvistorid",
+		trackingServer: "cdc.112.2o7.net"
+	};
+
+	s3.visitorID = cdcSessionID;
+
+	for (sKey in s) {
+		if (s.hasOwnProperty(sKey)) {
+			if (override.hasOwnProperty(sKey)) {
+				s3[sKey] = override[sKey];
+
+			} else {
+
+			}
+		}
+	}
+	updateVariables(s3);
+
+
+	var s_code_uvid = s3.t();
+	if(s_code_uvid) {
+		document.write(s_code_uvid);
+	}
+}
+
+
+
+
+</script>
+<script type="text/javascript">
+if(navigator.appVersion.indexOf('MSIE')>=0) { document.write(unescape('%3C')+'\!-'+'-'); }
+</script>
+<noscript><a href="http://www.omniture.com"><img src="https://smtrics.cdc.gov/b/ss/cdcgov/1/H.21--NS/01/H.21--NS/0" height="1" width="1" alt="Web Analytics" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+<!-- Begin Template Package DigitalGov Search Support -->
+<script type="text/javascript" src="../../../JScript/rd_search.js"></script>
+<!-- End Template Package DigitalGov Search Support -->
+</div>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code ends here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<script>if (typeof page_timing !== 'undefined') { page_timing.metrics_end = Date.now(); }</script>
+        		
+
+
+<!--[if IE]>
+<script defer language="javascript" type="text/javascript">
+		var cdcLeftNav = new CDC.LeftNav("nav-primary", "/brfss/annual_data/annual_data.htm", true, true);
+		cdcLeftNav.render();
+</script>
+<![endif]-->
+<!--[if ! IE]><!-->
+<script language="javascript" type="text/javascript">
+$().ready(function(){
+		var cdcLeftNav = new CDC.LeftNav("nav-primary","/brfss/annual_data/annual_data.htm", true, true);
+		cdcLeftNav.render();
+});
+</script>
+<!--<![endif]-->
+
+    	
+
+
+
+
+						    </body>
+	</html>
