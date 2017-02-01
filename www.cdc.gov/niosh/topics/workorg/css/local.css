@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+@import url("../../../../TemplatePackage/css/B/theme-tan.css");
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+.req {
+	color:#F00;
+}
+.indent-tab1 {
+	margin-left:20px;
+}
+.indent-tab2 {
+	margin-left:45px;
+}
+.indent-tab3 {
+	margin-left:60px;
+}
+#top-container.nhome {
+	margin:0px;
+	min-height:0px;
+	overflow:hidden;
+	padding:0;
+	position:relative;
+	width:auto;
+}
+#onthispage.clear-right {
+	clear: right;
+	margin-top: 12px;
+}
+h2 {
+	margin-bottom: 1em;
+}
+h3 {
+	margin-bottom: 1em;
+}
+h4 {
+	margin-bottom: 1em;
+}
+h5 {
+	margin-bottom: 1em;
+}
+h6 {
+	margin-bottom: 1em;
+}
+
+/* fourth level in leftnav */
+#nav ul li ul li ul li {
+  background-color: #f0ebd9;
+}
+
+#logo2 {
+	float: right;
+	margin-right: 10px;
+
+}
+#branding span.logo2 {
+	position:relative;
+	float: right;
+	margin:0px;
+	color:#666666;
+	font-size: 14px;
+	text-decoration:none;
+
+	}
+	
+#topic-title h1, #topic-title h2 {
+
+	margin-top:8px;
+
+}
+.botmarginh2 {
+margin-bottom: 18px;	
+margin-too:10px;
+}
+#branding span.titleshift a {
+	color:#503608;
+	margin-top:10px;
+	font-size:1em;
+	text-decoration:none;
+}
+#topic-title h1 a:hover, #topic-title h2 a:hover {
+border:none;
+}
+#tagline {
+	color: #513A08;
+}
+#home-img-col {
+	margin-bottom:15px;
+}
+#home-img-col img {
+	margin:2px;
+}
+.footnote {
+	color: #666666;
+	font-size: .84em;
+}
+.caption {
+	color: #666666;
+	font-size: 0.84em;
+	font-style: italic;
+	display: block;
+}
+#content-main table {
+	table-layout:auto;
+}
+
+.hidebullets{ list-style-type:none; }
+
+/* TOPIC  STYLES----------------------------------- */
+#topic-image-wide {
+	margin-top:5px;
+	margin-bottom:15px;
+	text-align: center;
+}
+/* PUB  STYLES----------------------------------- */
+#pubno {
+	margin-bottom:12px;
+	color: #666666;
+	background-color: #EFEFEF;
+	padding: 4px;
+}
+#pubimg {
+	margin-left:10px;
+	margin-bottom:10px;
+}
+#all {
+	text-align:right;
+	margin-bottom:6px;
+	margin-top:9px;
+}
+#all a {
+	border: solid 1px #000000;
+	border-bottom: none;
+	padding:6px;
+	background-color:#e4dabc;
+}
+#tablelinks th {
+	border-color: #cccccc;
+	padding:5px;
+}
+#tablelinks td {
+	border-color: #cccccc;
+	padding:5px;
+}
+/* NPG STYLES----------------------------------- */
+
+.npgprimary {
+	color: #666666;
+	font-size:1.1em;
+}
+.nospace {
+	margin: 0px;
+	margin-top: 5px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+.altstripe table {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border: 1px solid #333333;
+}
+.altstripe td {
+	margin: 0px;
+	padding: 6px;
+	border: 1px solid #333333;
+	text-align: left;
+	vertical-align: top;
+}
+.altstripe tbody tr.even {
+	background-color: #FAF7EC;
+}
+.altstripe tbody tr.subhead th {
+	background-color: #CCBA8B;
+	color:#552B00;
+	font-weight: bold;
+}
+
+.altstripe th {
+	text-align: left;
+	font-weight: normal;
+}
+
+
+.chemtable td {
+	text-align: left;
+	vertical-align: top;
+	margin: 0px;
+	padding: 6px;
+	border: 1px solid #666666;
+}
+#content-main table.chemtable td h6 {
+	display: inline;
+	margin-right:6px;
+	color:#97670F;
+}
+#content-main table.chemtable tr.bor-t {
+	border-top: solid 2px #503608;
+}
+#content-main table.chemtable tr.bor-b {
+	border-bottom: solid 2px #503608;
+}
+#content-main table.chemtable tr.bor-tb {
+	border-top: solid 2px #503608;
+	border-bottom: solid 2px #503608;
+}
+#content-main table.chemtable tr.bgc {
+	background-color:#FAF7EC;
+}
+#content-main table.chemtable td a {
+	text-decoration: underline;
+}
+/* ProGram STYLES----------------------------------- */
+	
+	
+div.module div.subc h5 {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* Local A-Z STYLES----------------------------------- */
+.azMenuList{
+	display: block;
+}
+/* IMAGE MARGINS FOR IMG MODULE---------------------------------- */
+div.cdc-caption {
+
+padding-bottom:5px;
+}
+
+/* bottom MARGIN FOR MODULE column divs---------------------------------- */
+.c50r, .c25r, .c33r, .c38r, .c66r, .c75r, .c62r {
+margin-bottom:10px;	
+}
+/* Toggle Show/hide content ---------------------------------- */
+
+
+div#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8, #hidden9, #hidden10, #hidden11, #hidden12 {
+	display:none;
+}
+#content a.morecontent, a:visited.morecontent, a:hover.morecontent, a.active.morecontent {
+	color:#666;
+	font-weight:bold;
+}
+#content a.morecontent2, a:visited.morecontent2, a:hover.morecontent2, a.active.morecontent2{
+	color:#0a2985;
+	font-weight:bold;
+	text-decoration:underline;
+}
+p.morep {
+	margin-top: 0px;
+	margin-bottom:8px;
+	margin-left:10px;
+	padding: 0px;
+	color:#666;
+}
+
+/* Horizontal Image centering ---------------------------------- */
+div.horizimgcoll {
+clear:right;
+text-align: center;
+
+}
+
+div.horizimgcoll img{
+
+margin: 15px auto;
+padding: 0px 10px;
+}
+
+#interim { 
+	background-color:#e4dabc;
+}

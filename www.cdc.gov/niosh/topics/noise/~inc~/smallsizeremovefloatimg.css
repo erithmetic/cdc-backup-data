@@ -1,0 +1,7 @@
+@media (max-width: 450px){
+img.pull-right {
+    float: none !important;
+    display: block !important;
+    max-height: 200px !important;
+}
+}
