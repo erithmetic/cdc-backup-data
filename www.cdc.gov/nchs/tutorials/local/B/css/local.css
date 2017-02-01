@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+#topic-title{
+	background: url('https://www.cdc.gov/nchs/images/launch/nchs_header.gif') 5px right no-repeat;
+}
+
+
+/* Used to unbold links in modules */
+ul#unbold a{
+	font-weight: normal;
+}
+
+
+/* Over-ride Coloring of Visited Links */
+
+#wrapper a:visited{
+	color: #0a29a5;
+}
+
+#nav-primary a:link{
+	color: #0a29a5;
+}
+
+.imageHover{
+	text-align: center;
+}
+
+div#top10{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border:1px solid #dfdfdf;
+	height:100px;
+	width:auto;
+	overflow:auto;
+}
+
+div#top10 ul{
+	margin-top: 5px;
+}
+
+div#top10 li{
+	margin-left: 0px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	list-style: none;
+	border-bottom:1px dotted #dfdfdf;
+	width:auto;
+}
+
+
+/* Added icon for PPT reader */
+
+ul li.ppt a{
+	background:transparent url('https://www.cdc.gov/nchs/images/launch/ppt_icon.gif')  0 center no-repeat;
+}
+
+.pageOptions-horizontal ul li.ppt{ z-index:-2;}
+
+.pageOptions-horizontal ul li.ppt a{
+	background: url('https://www.cdc.gov/nchs/images/launch/ppt_icon.gif')  top center no-repeat;
+}
+
+
+
+.arrow_center {
+	vertical-align: middle;
+}
+
+.homepage_graphic {
+	float: right;
+	vertical-align: top;
+	padding: 5px 5px 5px 5px;
+	/* border: 1px solid #cdcdcd; */
+
+}
+
+
+/* Ensure the left-nav is fully-expanded */
+
+#nchs_body #nav ul ul {
+	display:block;
+}
+
+
+/* So contact info will display correctly in left column */
+
+#contact-info-left { position: relative;
+	color: #000;
+	margin: 1em 0 1em 0;
+	padding: 0 0.5em 0 0;
+	width: 169px;
+}
+
+#contact-info-left ul{
+		position: relative;
+		margin: 0.5em 0 0 0;
+		padding: 0 0.5em;
+		list-style: none;
+}
+
+#contact-info-left ul li{
+	 		position: relative;
+	 		margin-left: 0;
+			border: none;
+	 		padding: 2px 0 2px 2.75em;
+}
+
+#contact-info-left li.phone{
+	background: url('https://www.cdc.gov/TemplatePackage/images/icon_phone.gif') 0 0 no-repeat;
+}
+
+#contact-info-left li.mail{
+	background: url('https://www.cdc.gov/TemplatePackage/images/icon_mail.gif') 0 0 no-repeat;
+}
+
+#contact-info-left li.contact-email{
+	background: url('https://www.cdc.gov/TemplatePackage/images/icon_envelope.gif') 0 0 no-repeat;
+}
+
+#contact-info-left h5{
+	margin: 0 0.5em 0.75em;
+	font-family:"Trebuchet MS";
+	font-size: 1.1em;
+	font-weight: bold;
+	width: auto;
+}
+
+#contact-info-left li{
+	font-size: 0.9em;
+}
+
+#contact-info-left li a{
+	color: #0a29a5;	
+	text-decoration: underline;
+}
+
+#contact-info-left li a:hover{
+	color: #0a29a5;
+	text-decoration: none;	
+}
+
+
+
+/* Override CDC Table styles */
+
+
+#content-main .nchs_table {
+	margin-left: 0px;
+}
+
+.nchs_table thead th{
+	padding:5px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+
+.nchs_table tbody th{
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;	
+}
+
+.nchs_table tbody td{
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;			
+}
+
+.nchs_table_center thead th{
+	padding:5px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+
+.nchs_table_center tbody th{
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;	
+}
+
+.nchs_table_center tbody td{
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;			
+}
+
+.nowrap tbody td{
+	white-space: nowrap;
+}

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+div.syndicate h2{
+	color: black;
+}
+
+div.syndicate div.stat-wrapper {
+	border: 1px solid #cdcdcd;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.syndicate div.stat-wrapper h2{
+	margin: 0px;
+	padding: 2px;
+	padding-left: 10px;
+	color: white;
+	background-color: #4776ad;	
+	font-size: 1.4em;
+}
+
+
+div.syndicate div.stat-wrapper p{
+	margin: 0px;
+	padding: 10px;
+}
+
+div.syndicate div.stat-wrapper h3{
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+div.syndicate div.stat-wrapper ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+div.syndicate div.stat-wrapper ul li{
+	margin-left: 20px;
+}
+
+div.syndicate div.stat-wrapper p.stat-source{
+	border-top: 1px solid #cdcdcd;
+	margin: 0px;
+	padding: 5px;	
+	padding-left: 10px;
+	background-color:#F0F0F0;
+	font-size: 1em;
+}
+
+div.syndicate table {
+	border: 1px solid #cdcdcd;		
+}
+
+div.syndicate table thead tr th {
+	color: white;
+	background-color: #4776ad;		
+	border: 1px solid #cdcdcd;		
+}
+div.syndicate table thead tr th{
+	vertical-align: bottom;
+	text-align: center;	
+	border: 1px solid #cdcdcd;	
+}
+
+div.syndicate table tbody tr th{
+	vertical-align: top;
+	text-align: left;	
+	border: 1px solid #cdcdcd;	
+}
+
+div.syndicate table tbody tr td {
+	vertical-align: top;
+	text-align: center;	
+	border: 1px solid #cdcdcd;	
+}
+
+div.syndicate table tfoot tr td {
+	vertical-align: top;
+	text-align: left;	
+	border: 1px solid #cdcdcd;	
+	background-color:#F0F0F0;
+	padding: 5px;
+}

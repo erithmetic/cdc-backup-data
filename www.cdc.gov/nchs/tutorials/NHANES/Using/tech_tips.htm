@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="/Templates/ContentPage_Standard.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+<!-- InstanceParam name="content" type="boolean" value="true" --><!-- InstanceParam name="id" type="text" value="undefined" --><!-- InstanceParam name="class" type="text" value="secondTier" -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="meta-data" -->
+<meta name="Keywords" 		content="NCHS,National Center for Health Statistics,tutorials,NHANES,National Health and Nutrition Examination Survey" />
+<meta name="DC.Subject" 	content="NCHS Tutorials" />
+<meta name="DC.Language" 	scheme="ISO 639-2" content="eng" />
+<!-- InstanceEndEditable -->
+<meta name="template.version" content="2.0.0" />
+<!-- @package: "B" @version: "2.0" -->
+<!-- InstanceBeginEditable name="title-tag" -->
+<title>NHANES Web Tutorial Tech Tips</title>
+<!-- InstanceEndEditable -->
+<style type="text/css" media="tv">
+empty{color:#000};@import "../../../../TemplatePackage/css/B/wysiwyg/wysiBaseHome.css"/**/;
+</style>
+<style type="text/css" media="screen, projection">
+@import "../../../../TemplatePackage/css/B/base-float.css"/**/;
+</style>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/jquery.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/jquery.watermark.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/common.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/startup.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/blocks-ie.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/video.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/navScripts.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/share.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/govdelivery.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/external.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/plugins.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/syndicateThisPage.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/css-include.js"></script>
+<script type="text/javascript" src="../../../../TemplatePackage/js/B/socialMedia.js"></script>
+
+<!-- compliance patch for microsoft browsers -->
+<!--[if IE 6]>
+<script type="text/javascript" src="/TemplatePackage/js/B/pngfix.js"></script>
+<script type="text/javascript" src="/TemplatePackage/js/B/blocks-ie6.js"></script>
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/TemplatePackage/css/B/ie7_fixes.css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/TemplatePackage/css/B/ie8_fixes.css" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<script type="text/javascript" src="/TemplatePackage/js/B/jquery.curvycorners.js"></script>
+<![endif]-->
+<style type="text/css" media="print">@import "../../../../TemplatePackage/css/B/print.css";</style>
+
+<link rel="shortcut icon" href="../../../../TemplatePackage/images/home/favicon.ico" />
+<link rel="home" href="../../../../index.html" title="Home" />
+
+<!-- Begin Survey scripts -->
+<script type="text/javascript" src="../../../../JScript/foresee/foresee-trigger.js"></script>
+<script type="text/javascript" src="../../../../JScript/foresee-variables.js"></script>
+<!-- End Survey scripts -->
+
+
+<!-- Local Topic Styles -->
+<!-- InstanceBeginEditable name="local-css" -->
+<style type="text/css" media="all">
+@import "../../local/B/css/local.css"/**/;
+</style>
+<style type="text/css">
+@import "../tutorial.css.html";
+</style>
+<!--[if IE]>
+<script defer language="javascript" type="text/javascript">
+		var cdcLeftNav = new CDC.LeftNav("nav-primary");
+		cdcLeftNav.render();
+</script>
+<![endif]-->
+<!--[if ! IE]><!-->
+<script language="javascript" type="text/javascript">
+$().ready(function(){
+		var cdcLeftNav = new CDC.LeftNav("nav-primary");
+		cdcLeftNav.render();
+});
+</script>
+<!--<![endif]-->
+
+<!-- InstanceEndEditable -->
+</head>
+
+<body id="undefined" class="secondTier">
+
+<div id="skipmenu">
+	<a href="tech_tips.htm#searchBox" class="skippy" title="Skip to search">Skip directly to search</a>
+	<a href="tech_tips.htm#az" class="skippy" title="Skip to A to Z list">Skip directly to A to Z list</a>
+	<a href="tech_tips.htm#nav" class="skippy" title="Skip to navigation">Skip directly to navigation</a>
+	<a href="tech_tips.htm#content-main" class="skippy" title="Skip to content">Skip directly to site content</a>
+	<a href="tech_tips.htm#content-secondary" class="skippy" title="Skip to page options">Skip directly to page options</a>
+</div>
+<div id="wrapper">
+	<div class="top"></div>
+	<div id="branding">
+		<span id="homeward"><a href="../../../../index.html" title="Return to the CDC Home Page">CDC Home</a></span>
+<div id="branding-logo">
+	<div id="branding-logoImage"><img src="../../../../TemplatePackage/images/cdcHeaderLogo.gif" width="470" height="47" alt="CDC 24/7: Saving Lives. Protecting People.&trade;" border="0" /><a href="../../../../index.html" title="CDC 24/7: Saving Lives. Protecting People.&trade;"><span>CDC 24/7: Saving Lives. Protecting People.&trade;</span></a></div>
+	<div id="searchForm" class="searchResize"><a name="search"></a>
+		<form id="searchCDC" method="get" action="https://search.cdc.gov/search">
+			<fieldset>
+				<div id="cdc-Query">
+					<label for="searchBox" class="overlabel search">Search The CDC</label>
+					<input id="searchBox" class="searchBox" name="query" maxlength="256" type="text" />
+				</div>
+				<div id="cdc-Submit">
+					<!-- label for="searchButton" class="searchButton">Search Button</label -->
+					<input id="searchButton" class="searchButton" src="../../../../TemplatePackage/images/home/search_button.gif" name="searchButton" alt="Search" type="image" />
+					<input name="action" value="search" type="hidden" />
+				</div>
+				<input type="hidden" name="utf8" value="&#x2713;"/>
+				<input type="hidden" name="affiliate" value="cdc-main"/>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<noscript>
+<div class="noscript"> Note: Javascript is disabled or is not supported by your browser. For this reason, some items on this page will be unavailable. For more information about this message, please visit this page: <a href="../../../../Other/about_cdcgov.html" title="Browser requirements for CDC.gov">About CDC.gov</a>.</div>
+</noscript>
+<!--<div id="emergency-alert">
+<h1></h1> 
+<p></p>
+<a href="#"></a>
+</div>-->
+		<div id="topic-title"><!-- InstanceBeginEditable name="topic-title" -->
+			<h2>NHANES Web Tutorial Tech Tips</h2>
+			<!-- InstanceEndEditable -->
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="content-inner">
+			<!-- ########## LEFT NAVIGATION STARTS HERE ########## -->
+			<div id="nav-container"><!-- InstanceBeginEditable name="left-nav-include" -->
+			  <div id="nav">
+	<h3><a href="../index.htm">NHANES Web Tutorial</a></h3>
+	<ul id="nav-primary">
+    <li><a href="index.htm">Using the Tutorials</a></li>
+    <ul>
+      <li><a href="introduction.htm">Introduction</a></li>
+        <li><a href="jumpstart.htm">Jump Start Guide</a>
+        <ul>
+        <li><a href="howitworks.htm">How the Tutorials Work</a></li>
+        <li><a href="techreqs.htm">Technical & Software Requirements</a></li>
+        <li><a href="knowledgereqs.htm">Knowledge & Skill Requirements</a></li>
+        </ul></li>
+          <li><a href="tech_tips.htm">Tech Tips</a></li>
+    </ul>
+		<li><a href="../index_continuous.htm">Continuous</a>
+
+		</li>
+		<li><a href="../index_iii.htm">NHANES III</a>
+
+		</li>
+		<li><a href="../index_ii.htm">NHANES II</a>
+			    
+		</li>
+		<li><a href="../index_i.htm">NHANES I</a>
+           
+        </li>
+		<li><a href="../../Dietary/index.htm">NHANES Dietary</a>
+        
+        </li>
+        <li><a href="../../PhysicalActivity/index.htm">NHANES Physical Activity and Cardiovascular Fitness Data Tutorial</a></li>
+         <li><a href="../../environmental/index.htm">NHANES Environmental Chemical Data</a></li>
+          <li><a href="../../NHANES-CMS/index.htm">NHANES-CMS Linked Data Tutorial</a></li>
+    
+	</ul>
+</div>
+<div class="bottom"></div>
+
+			 <!--# include virtual="/nchs/tutorials/local/B/includes/related-module_Continuous.html" -->
+				<!-- InstanceEndEditable -->
+      </div>
+			
+			<!-- ########## BREADCRUMBS START HERE ########## -->
+			<!-- InstanceBeginEditable name="breadcrumbs" -->
+			<div id="breadBox">
+	<ul id="breadcrumbs">
+		<li class="firstChild"><a href="../../../index.htm">NCHS Home</a></li><li class="secondChild"><a href="../../index.htm">Tutorials</a></li>
+	</ul>
+</div>
+
+
+
+			<!-- InstanceEndEditable -->
+			
+			<div id="content-main">
+				<div class="main-inner">
+					<!-- InstanceBeginEditable name="features" --><!-- InstanceEndEditable -->
+					<!-- InstanceBeginEditable name="content-main" -->
+
+<!--<h1>Home</h1>-->
+	<h3>How to Allow Pop-up Windows from www.cdc.gov</h3>
+    <p>You or your system administrator may have installed and turned on pop-up   blocking software on your computer. While this software typically blocks   unwanted pop-up advertisements, it can also block necessary content presented in   pop-up windows. In the case of the NHANES web tutorial, it can block the   animated demonstrations and other tutorial content. When many pop-up blockers block a pop-up window,  they   display a yellow bar with a message like &quot;Pop-up blocked. To see this pop-up or   additional options, click here ...&quot; just below the Address field on your   browser. </p>
+    <h4 align="left"><a name="IE_pop-upblocker" id="IE_pop-upblocker"></a>Microsoft Internet Explorer</h4>
+    <p align="left">To allow pop-ups through Internet Explorer:</p>
+    <ol>
+      <li>
+        <p align="left">After clicking a link to a blocked pop-up window a yellow box below the URL/Location field at the top of your browser appears with the message &quot;Pop-up blocked. To see this   pop-up or additional options, click here ...&quot; Click the yellow box. A context menu will appear.<br />
+        </p>
+      </li>
+      <li>
+        <p align="left">Select 'Always Allow Pop-ups from This Site.' A dialog box appears   asking &quot;Would you like to allow pop-ups from 'www.cdc.gov'?&quot;. </p>
+      </li>
+      <li>
+        <p align="left">Click the Yes button. The page then refreshes - it may   appear as if the page 'blinked' - and the yellow bar disappears. </p>
+      </li>
+      <li>
+        <p align="left">You can now click the link that was blocked earlier, and the   pop-up window will open. </p>
+      </li>
+    </ol>
+    <p align="left"> </p>
+    <h4 align="left"><a name="firefox_pop-upblocker" id="firefox_pop-upblocker"></a>Mozilla Firefox</h4>
+    <p align="left">In initial tests, the Mozilla Firefox browser always allowed the   tutorial's pop-up windows, regardless of settings. However, if your version of   the browser blocks the tutorial pop-up windows, this is what you need to do to   allow them. </p>
+    <ol>
+      <li>
+        <p align="left">Go to Tools→Options, and then click the Content   tab.</p>
+      </li>
+      <li>
+        <p align="left">Click the button labeled &quot;Allowed Sites,&quot; next to   the line labeled &quot;Block Pop-up Windows.&quot; </p>
+      </li>
+      <li>
+        <p align="left">Enter www.cdc.gov in the &quot;Address of Web   Site&quot; field. (See screenshot below.)</p>
+      </li>
+      <li>
+        <p align="left">Click the &quot;Allow&quot; button. (See screenshot   below.)</p>
+      </li>
+      <li>
+        <p align="left">Click the &quot;Close&quot; button to exit the dialog box.   (See screenshot below.)</p>
+      </li>
+    </ol>
+    <p align="left"> </p>
+   
+    <p> </p>
+    <h3><a name="active_content" id="active_content"></a>How to Allow Active Content</h3>
+    <p>The NHANES web tutorial also uses scripting to make its contents interactive.   This is content that Microsoft Internet Explorer may also be configured to   block. When this content is blocked a yellow bar appears directly under the   Address field in your browser. </p>
+    <h4 align="left">Microsoft Internet Explorer only</h4>
+    <p align="left">To allow this blocked content to run, click the yellow bar. A   content menu appears. Click &quot;Allow Blocked Content.&quot; A dialog pop appears saying   Allowing active content like Active X controls and script can be useful, but   active content might also harm to your computer. Are you sure you want to allow   this file to run active content?&quot; Click the Yes button. The dialog box   disappears and the yellow bar disappears. You can now access the active content   on this page.</p>
+    <p> </p>
+    <p> </p>
+    <h3><a name="flash_player" id="flash_player"></a>How to install Adobe Flash player</h3>
+    <p>Some of the content in the demonstrations and animations, may not appear correctly if you do not have Adobe Flash player   installed.    </p>
+    <p>It is available for <a href="http://get2.adobe.com/flashplayer/" target="_blank">free from Adobe</a>.   You may need a system administrator to install the software for you if you do   not have administrative rights to your computer.    </p>
+    <p>Speakers attached to the computer are not required to view the tutorial, but   they are necessary to hear the audio narration on the optional   demonstrations.    </p>
+    <h3><a name="largertext" id="largertext"></a>How to Make Text Larger</h3>
+    <h4>Microsoft Internet Explorer</h4>
+    <p>Go to Page→Text Size→then   select the &quot;Larger&quot; or &quot;Largest&quot; option from the pop-up menu.    </p>
+    <h4>Mozilla Firefox</h4>
+    <p>Go to View→Text Size →   Increase. Repeat until the type is size is to your liking.</p>
+    <p> </p>
+    <h3><a name="monitor_resolution" id="monitor_resolution"></a>How to Adjust Monitor Resolution</h3>
+    <p>The tutorial was designed to fit width-wise on a 800 by 600 pixel screen   without left-to-right scrolling. However, you will need to scroll vertically.   The animations and pop-up windows were also designed to fit inside a  800 by 600   pixel screen without any scrolling. If you do not know your monitor's   resolution, you may want to check it before beginning the tutorial. </p>
+    <p>To check your monitor's resolution on a computer running any version of   Microsoft Windows:</p>
+    <ul>
+      <li>Right-click any open space on your computer's desktop to bring up a   pop-up menu. </li>
+      <li>Select Properties from the menu, and then select the Settings   tab. </li>
+      <li>Under the Settings tab, you should see a slider labeled Screen   Resolution. </li>
+    </ul>
+    The numbers under the slider is your monitor's   resolution. Common settings, from lowest to highest, are:
+    <ul>
+      <li>600 by 480 pixels </li>
+      <li>800 by 600 pixels (minimum for viewing tutorial) </li>
+      <li>1024 by 780 pixels (recommended) </li>
+      <li>1280 by 1024 pixels </li>
+    </ul>
+    <p>800 by 600 pixels is the minimum to use the tutorial, and 1024 by 780 pixels   is recommended. </p>
+    <p> </p>
+    <p>&nbsp;</p>
+	
+
+					
+					<!-- InstanceEndEditable -->
+				<!-- End .main-inner --></div>
+				
+			<!-- End #content-main--></div>
+		<!-- End #content-inner --></div>
+		
+		<!-- ########## RIGHT COLUMN STARTS HERE ########## -->
+		<div id="content-secondary">
+			<div class="pageOptions">
+				<div class="pageOptions-inner">
+					<!-- If you're seeing this, the text-sizer include is depricated and the server-side-include reference should be removed from all pages -->
+					<ul id="services" class="services">
+						<li class="print"><a href="javascript:window.print();" title="Print page.">Print page</a></li>
+					</ul>
+					<!-- InstanceBeginEditable name="local-options" -->
+
+					<!-- InstanceEndEditable -->
+					<!-- InstanceBeginEditable name="languages" -->
+
+				<!-- InstanceEndEditable --></div></div>
+			
+			
+			
+			<!-- InstanceBeginEditable name="gov-delivery" -->
+
+			<!-- InstanceEndEditable -->
+			
+			<!-- InstanceBeginEditable name="contact-info" -->
+			<div id="contact-info">
+            	<h5>Contact Us:</h5>
+                <ul class="noBullet">    
+                    <li class="mail">National Center for Health Statistics<br />
+                   3311 Toledo Rd<br />
+                    Hyattsville, MD 20782</li>
+                    <li class="phone">1 (800) 232-4636</li>
+                    <li class="contact-email"><a href="mailto:cdcinfo@cdc.gov">cdcinfo@cdc.gov</a></li>
+                </ul>
+            </div>
+			<!-- InstanceEndEditable -->
+			
+		<!-- End #content-secondary --></div>
+		
+	<!-- End #content --></div>
+	
+	<div class="preFoot">
+		<div class="pageOptions-horizontal">
+			<ul class="services">
+				<li class="print"><a href="javascript:window.print();">Print</a></li>
+
+				<!-- InstanceBeginEditable name="local-options-horizontal" -->
+
+				<!-- InstanceEndEditable -->
+			</ul>
+		</div>
+		
+		<div id="datestamp"><!-- InstanceBeginEditable name="date-stamp" -->
+			<ul>
+				<li class="last-updated">Page last updated: <span>
+				  <!-- #BeginDate format:Am1 -->April 9, 2013<!-- #EndDate -->
+				</span>  </li>
+				<li class="last-reviewed">Page last reviewed: <span>
+				  <!-- #BeginDate format:Am1 -->April 9, 2013<!-- #EndDate -->
+				</span>  </li>
+				<li class="content-source">Content source: <a href="../../../../index.html">CDC/National Center for Health Statistics</a></li>
+				<li class="content-maintained">Page maintained by: NCHS/NHANES</li>				
+				
+			</ul>
+		<!-- InstanceEndEditable --></div>
+	</div>
+	
+	<div id="siteinfo">
+	<div id="siteinfo-nav">
+		<ul class="menu">
+			<li><a href="../../../../index.html">Home</a></li>
+			<li><a href="../../../../az/a.html">A-Z Index</a></li>
+			<li><a href="../../../../Other/policies.html">Policies</a></li>
+			<li><a href="../../../../Other/about_cdcgov.html">Using this Site</a></li>
+			<li><a href="../../../../Other/link.html">Link to Us</a></li>
+			<li class="last-child"><a href="../../../../contact.1.html">Contact CDC</a></li>
+		</ul>
+	</div>
+	<div id="siteinfo-credits">
+		<div id="siteinfo-logos"><a href="https://www.usa.gov//"><img id="logo_usagov" src="../../../../TemplatePackage/images/logo_usagov.gif" alt="USA.gov: The U.S. Government's Official Web Portal" width="188" height="55" border="0" /></a><a href="https://www.hhs.gov/"><img id="logo_dhhs" src="../../../../TemplatePackage/images/logo_dhhs.gif" alt="Department of Health and Human Services" width="61" height="55" border="0" /></a></div>
+		<address>Centers for Disease Control and Prevention &nbsp; 1600 Clifton Road Atlanta, GA 30329-4027, USA<br />
+		800-CDC-INFO (800-232-4636)	TTY: (888) 232-6348 - <a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx">Contact CDC&ndash;INFO</a></address>
+	</div>
+</div>
+
+<!--include virtual="/TemplatePackage/3.0/includes/interstitialModal.html" -->
+	
+	<div id="AZlist-container"><a name="az"></a>
+	<span>A-Z Index</span>
+	<ol class="AZlist">
+		<li><a href="../../../../az/a.html">A</a></li>
+		<li><a href="../../../../az/b.html">B</a></li>
+		<li><a href="../../../../az/c.html">C</a></li>
+		<li><a href="../../../../az/d.html">D</a></li>
+		<li><a href="../../../../az/e.html">E</a></li>
+		<li><a href="../../../../az/f.html">F</a></li>
+		<li><a href="../../../../az/g.html">G</a></li>
+		<li><a href="../../../../az/h.html">H</a></li>
+		<li><a href="../../../../az/i.html">I</a></li>
+		<li><a href="../../../../az/j.html">J</a></li>
+		<li><a href="../../../../az/k.html">K</a></li>
+		<li><a href="../../../../az/l.html">L</a></li>
+		<li><a href="../../../../az/m.html">M</a></li>
+		<li><a href="../../../../az/n.html">N</a></li>
+		<li><a href="../../../../az/o.html">O</a></li>
+		<li><a href="../../../../az/p.html">P</a></li>
+		<li><a href="../../../../az/q.html">Q</a></li>
+		<li><a href="../../../../az/r.html">R</a></li>
+		<li><a href="../../../../az/s.html">S</a></li>
+		<li><a href="../../../../az/t.html">T</a></li>
+		<li><a href="../../../../az/u.html">U</a></li>
+		<li><a href="../../../../az/v.html">V</a></li>
+		<li><a href="../../../../az/w.html">W</a></li>
+		<li><a href="../../../../az/x.html">X</a></li>
+		<li><a href="../../../../az/y.html">Y</a></li>
+		<li><a href="../../../../az/z.html">Z</a></li>
+		<li><a href="../../../../az/0.html">#</a></li>
+	</ol>
+</div>
+
+
+<!-- End #wrapper --></div>
+
+<!-- xxxxxxxxxxxxxxxxxx METRICS code begins here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<div id="metrics">
+
+<!-- Begin Google DAP inclusion -->
+<script type="text/javascript" id="_fed_an_ua_tag" src="../../../../JScript/metrics/google/Universal-Federated-Analytics-Min.js@agency=HHS&amp;subagency=CDC"></script>
+<!-- End Google DAP inclusion -->
+
+<!-- SiteCatalyst code version: H.21. -->
+<script language="JavaScript" type="text/javascript" src="../../../../JScript/metrics/topic_levels.js"></script>
+<script language="JavaScript" type="text/javascript" src="../../../../JScript/metrics/s_code_v21_cdcgov.js"></script>
+<script language="JavaScript" type="text/javascript">
+
+<!-- InstanceBeginEditable name="metrics" -->
+s.pageName=document.title;
+s.channel="NCHS";
+
+<!-- InstanceEndEditable -->
+s.prop2=window.location.href;
+s.prop26=document.title;
+s.prop30=document.title;
+s.prop31=window.location.href;
+s.prop46=window.location.href;
+s.server=window.location.hostname;
+
+// Update the level variables here.
+updateVariables(s);
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code);//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-');
+//--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="https://smtrics.cdc.gov/b/ss/cdcgov/1/H.21--NS/01/H.21--NS/0" height="1" width="1" border="0" alt="Web Analytics" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+<!-- Begin Template Package Custom Interactions -->
+<script type="text/javascript" src="../../../../JScript/metrics/rd_custom_interactions.js"></script>
+<!-- End Template Package Custom Interactions -->
+<!-- Begin Template Package DigitalGov Search Support -->
+<script type="text/javascript" src="../../../../JScript/rd_search.js"></script>
+<!-- End Template Package DigitalGov Search Support -->
+</div>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code ends here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+
+
+</body>
+<!-- InstanceEnd --></html>

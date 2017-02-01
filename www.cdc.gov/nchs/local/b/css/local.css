@@ -1,0 +1,247 @@
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+
+/* Over-ride Coloring of Visited Links */
+
+/*
+
+#wrapper a:visited{
+	color: #0a29a5;
+}
+
+#nav-primary a:link{
+	color: #0a29a5;
+}
+
+*/
+
+.imageHover{
+	text-align: center;
+}
+
+div#top10{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border:1px solid #dfdfdf;
+	height:100px;
+	width:auto;
+	overflow:auto;
+}
+
+div#top10 ul{
+	margin-top: 5px;
+}
+
+div#top10 li{
+	margin-left: 0px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	list-style: none;
+	border-bottom:1px dotted #dfdfdf;
+	width:auto;
+}
+
+
+
+
+
+
+.arrow_center {
+	vertical-align: middle;
+}
+
+.homepage_graphic {
+	float: right;
+	vertical-align: top;
+	padding: 5px 5px 5px 5px;
+	/* border: 1px solid #cdcdcd; */
+
+}
+
+
+/* Ensure the left-nav is fully-expanded */
+
+#nchs_body #nav ul ul {
+	display:block;
+}
+
+
+/* So contact info will display correctly in left column */
+
+#contact-info-left { position: relative;
+	color: #000;
+	margin: 1em 0 1em 0;
+	padding: 0 0.5em 0 0;
+	width: 169px;
+}
+
+#contact-info-left ul{
+		position: relative;
+		margin: 0.5em 0 0 0;
+		padding: 0 0.5em;
+		list-style: none;
+}
+
+#contact-info-left ul li{
+	 		position: relative;
+	 		margin-left: 0;
+			border: none;
+	 		padding: 2px 0 2px 2.75em;
+}
+
+#contact-info-left li.phone{
+	background: url('https://www.cdc.gov/TemplatePackage/images/icon_phone.gif') 0 0 no-repeat;
+}
+
+#contact-info-left li.mail{
+	background: url('https://www.cdc.gov/TemplatePackage/images/icon_mail.gif') 0 0 no-repeat;
+}
+
+#contact-info-left li.contact-email{
+	background: url('https://www.cdc.gov/TemplatePackage/images/icon_envelope.gif') 0 0 no-repeat;
+}
+
+#contact-info-left h5{
+	margin: 0 0.5em 0.75em;
+	font-family:"Trebuchet MS";
+	font-size: 1.1em;
+	font-weight: bold;
+	width: auto;
+}
+
+#contact-info-left li{
+	font-size: 0.9em;
+}
+
+#contact-info-left li a{
+	color: #0a29a5;	
+	text-decoration: underline;
+}
+
+#contact-info-left li a:hover{
+	color: #0a29a5;
+	text-decoration: none;	
+}
+
+
+
+/* Override CDC Table styles */
+
+#content table {table-layout:auto;}
+
+#content-main .nchs_table {
+	margin-left: 0px;
+}
+
+.nchs_table thead th{
+	padding:5px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.nchs_table thead td{
+	padding:5px;
+	text-align: center;
+	vertical-align: top;
+}
+
+
+.nchs_table tbody th{
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;	
+}
+
+.nchs_table tbody td{
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.nchs_table_center thead th{
+	padding:5px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+
+.nchs_table_center tbody th{
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;	
+}
+
+.nchs_table_center tbody td{
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;			
+}
+
+.nowrap tbody td{
+	white-space: nowrap;
+}
+
+.historical_content{
+    color: #ff0000;
+}
+
+.listScroll {
+	margin-top: 2px;
+	margin-left: 2px;	
+	overflow:auto;
+	border:1px solid #C8C8C8;
+	background-color:#ffffff;
+	width:175px;
+	height:80px;
+	position: relative;
+}
+
+.listScroll p {
+	margin-left: 3px;
+	margin-top: 2px;
+	border-bottom:1px dotted #dfdfdf;
+}
+
+.listScroll p a {
+	text-decoration: none;
+}
+
+.nchs_note{
+	margin: 25px; 
+	padding: 5px; 
+	border: 1px solid #cdcdcd; 
+	background-color: #f0f0f0;
+	text-align: center;	
+}
+
+.ftp_note{
+	margin: 25px; 
+	padding: 5px; 
+	border: 2px solid black; 
+	background-color: #FFFF00;
+	text-align: center;	
+}
+
+.figure_title{
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 20px;
+	margin-bottom: 2px;
+	width: 560px;	
+}
+
+.figure_graphic{
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
+.figure_notes{
+	font-weight: normal;
+	font-size: 0.9em;
+	margin-top: 2px;
+	margin-bottom: 20px;
+	width: 560px;		
+}

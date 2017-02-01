@@ -1,0 +1,117 @@
+/* Override CDC Table styles */
+
+#content table {table-layout:auto;}
+
+.nchs_table {
+	margin-left: 0px;
+        border: 1px solid black;
+}
+
+.nchs_table thead th{
+	padding:5px;
+	text-align: center;
+	vertical-align: bottom;
+        border: 1px solid black;
+}
+
+
+.nchs_table tbody th{
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;	
+        border: 1px solid black;
+}
+
+.nchs_table tbody td{
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;	
+        border: 1px solid black;		
+}
+
+.nchs_table_center thead th{
+	padding:5px;
+	text-align: center;
+	vertical-align: bottom;
+        border: 1px solid black;
+}
+
+
+.nchs_table_center tbody th{
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;	
+        border: 1px solid black;
+}
+
+.nchs_table_center tbody td{
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;	
+        border: 1px solid black;		
+}
+
+.nowrap tbody td{
+	white-space: nowrap;
+}
+
+p img{
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+
+.nchs_note{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 50px; 
+	padding: 5px; 
+	border: 1px solid black; 
+	background-color: #FEFEBE;
+	width: 500px;
+	text-align: center;
+}
+
+.figure_title{
+	font-weight: bold;
+	font-size: 1em;
+	margin: 0px;	
+	padding-top: 20px;
+	padding-bottom: 2px;
+	width: 560px;
+}
+
+p.figure_graphic img{
+	margin: 0px;	
+	padding-top: 0px;
+	padding-bottom: 0px;	
+}
+
+p.figure_notes img{
+	margin: 0px;	
+	padding-top: 0px;
+	padding-bottom: 0px;			
+}
+
+.figure_notes{
+	font-weight: normal;
+	font-size: 0.9em;
+	margin: 0px;
+	padding-top: 2px;
+	padding-bottom: 20px;	
+	width: 560px;	
+}
+
+.correction{
+	background-color: #FEFEBE;
+	border: 1px solid black;	
+	padding: 5px;
+}
+
+.table_notes{
+	font-weight: normal;
+	font-size: 0.9em;
+	margin: 0px;
+	padding-top: 2px;
+	padding-bottom: 20px;	
+	width: 700px;	
+}
