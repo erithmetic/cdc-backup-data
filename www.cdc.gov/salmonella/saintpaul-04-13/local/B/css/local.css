@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+.newupdated 
+{color: #6a6a6a;
+font-size: 0.9em;
+font-weight: normal;
+}
+.aag
+{
+	font-weight:bold;
+	font-size:1.1em;}
+	
+	
+#content .module li a, #content .rounders li a.module-links
+{
+	display:inline !important;
+	text-decoration:underline;}
+	
+#content .module li a, #content .rounders li a:hover
+{
+	text-decoration:none;}
+	
+.border-seperator-hp {
+	
+border-top: 1px dotted #666666;
+width: 64%;
+	
+	}	
+	
+.border-seperator {
+	
+border-top: 1px dotted #666666;
+
+	
+	}	
+	
+.centerIt {
+	
+	text-align:center
+	
+	}	
+	
+.blackBackground {
+	
+	background-color:black;
+	
+	}	
+	
+.darkGray {
+	
+	background-color:#999
+		
+	}	
+	
+.lightGray {
+	
+	background-color:#CCC;
+	
+	}
+	
+.boldIt {
+	
+	font-weight:bold;
+	
+	}	
+	
+.removeBold {
+	
+	font-weight:normal
+	
+	}	
+
+
+module.double-rule.inner-no-border { 
+border: none !important; 
+background-color: transparent !important;
+}
+inner.inner-no-border { 
+border: none !important; 
+background-color: transparent !important;
+}
+.double-rule {border: none; background-color:transparent !important;}
+.double-rule-my{
+
+	border:1px solid #cdcdcd;
+
+	padding:1px;
+	margin:6px;
+}	
+
+.clearRight { clear: both }
+

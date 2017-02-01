@@ -1,0 +1,15 @@
+h5.case-update {
+  background:url(../images/case-count-update.gif) 0% 0 no-repeat;
+                background-position-x: 0px;
+                background-position-y: 7px;
+                padding-left: 25px;
+
+
+}
+
+p.subtitle{font-size:18px;
+  line-height:30px; 
+display:block;
+font-weight:300;
+}
+

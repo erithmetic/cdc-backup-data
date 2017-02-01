@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+/* =================================================
+	LOCAL STYLE SHEET
+	Use this to overwrite any of the global styles or add customized elements
+	================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+@import url("../../../../TemplatePackage/css/B/theme-purple.css");
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+/*	-------------------------------------------------------------
+	EMPTY IDENTIFIER DESCRIPTION
+	This section can be used to explain the description... in more detail.
+	-------------------------------------------------------------	*/
+
+/*	=================================================
+    BACK TO TOP (IMAGE)
+    =================================================	*/
+div.backToTop {
+        width: 100%;
+        height: 15px;
+        text-align: right;
+        background-image: url(https://www.cdc.gov/nczved/images/icon_top.gif);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin: 0 0 10px 0;
+}
+div.backToTop a {
+        width: 100%;
+        height: 15px;
+        text-decoration: none;
+        display: inline-block;
+}
+div.backToTop a span {
+        display: none;
+}
+	
+/* =================================================
+	GENERAL IDENTIFIERS
+	================================================= */
+.centerLike {text-align: center }
+
+.clearLeft { clear: left }
+
+.clearRight { clear: right }
+
+.introductoryParagraph {
+	clear: left;
+	padding-top: 20px;
+}
+
+/*	=================================================
+	MODULE: Text or Single
+	This idenifier will handle the date/stamp SPAN element within the Text/Single module
+	=================================================	*/
+div.module .dtstamp {
+	font-size: 1.0em;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+/* =================================================
+	RIGHTY: FULL SERVICE
+	This identifier will handle the old imgspot classes. Div, H4, Img, P
+	================================================= */
+div.righty h4 {
+	font-size: 1.1em !important
+}
+
+/*	=================================================
+	WIDE PAGE
+	=================================================	*/
+#content-main .wideImage {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+#topic-title h1 em.italics {font-style:italic;
+color: #3d316a;
+font-size: 1.125em;
+}
+
+.moduleheight{
+    height: 165px;
+}
+
+.feedbackbox {
+    border-color: #CEE7C2 #71B84E #5A983D #ACD698;
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+    float: none;
+    margin: 20px 8px 10px 0;
+	text-align:center;
+	background:#C8E3E6;
+	font-weight:bold;
+	padding:7px;
+}
+
+.object-margin-top { 
+	margin-top: 20px; 
+}
+	
+	.newupdated {
+	font-weight: bold;
+	color: #F00;
+	font-size: 10px;
+}
+
+.indenttext {
+	list-style-type: disc; !important
+	margin-left:25px;
+}
+
+.newupdated-outbreak
+{color: #6a6a6a;
+font-size: 0.9em;
+font-weight: normal;
+}
+.aag
+{
+	font-weight:bold;
+	font-size:1.1em;}
+	
+	
+#content .module li a, #content .rounders li a.module-links
+{
+	display:inline !important;
+	text-decoration:underline;}
+	
+#content .module li a, #content .rounders li a:hover
+{
+	text-decoration:none;}
+.case-update
+	{
+		background:url(../../../images/case-count-update.gif) left top no-repeat;
+		padding-left:25px}
+		#case-image{
+			padding-right:7px}
+.case-update a, .case-update2 a
+	{ text-decoration:none;}
+	
+.case-update2
+	{
+		background:url(https://www.cdc.gov/salmonella/images/biology.gif) left top no-repeat;
+		padding-left:25px}
+	
+/*.case-update a:hover
+	{
+		background:url(/salmonella/images/biology.gif) left top no-repeat;
+		padding-left:25px}*/
+		
+		
+#content #slickbox-t h3
+{
+	color:#000000;
+}
+	
+	#content #slickbox-t h3.case-update
+{
+		background:url(../../../images/case-count-update.gif) left top no-repeat;
+		padding-left:25px !important;
+
+color: #000 !important;
+
+
+margin-top: 0px;
+
+margin-right: 0px;
+
+margin-bottom: 0px;
+
+margin-left: 0px;
+
+padding-top: 0;
+
+padding-right: 5px;
+
+padding-bottom: 0.5em;
+
+
+line-height: 1;
+
+}		
+		
+.border-seperator-hp {
+	
+	border-top: 1px dotted #666666;
+	width: 64%
+	
+	}		
+	
+.border-seperator {
+	
+	border-top: 1px dotted #666666;
+	
+	}	
+	
+.caption {
+	
+	font-size:10px;
+	
+	}	
+
+#alignIt{ /*this style was setup due to HHS finding a 508 issue with a label in the govD.html file --VXJ4 021512 */
+	
+	position: relative;
+	top: .5em;
+	
+	}
+.removeBullets {
+	
+	list-style:none
+	
+	}
+	
+div.inlineLinks a {    /* forces text to wrap next to anchors */
+        display: inline !important;
+}
+
+#show-dots-h
+{
+	margin-top:10px;
+	margin-bottom:5px;
+	
+}
+
+.right40 {
+	
+	float:right !important;
+	width:40% !important
+	
+	}	
+	
+.smallFont {
+	
+	font-size:10px;
+	
+	}	
+sup {
+	
+	vertical-align:text-top;
+	
+	}
+	
+	
+	.paddingLeft4P {
+	
+	padding-left: 4.2% !important;
+	
+	}	
