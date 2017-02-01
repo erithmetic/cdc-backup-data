@@ -1,0 +1,602 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "../../../../TemplatePackage/css/B/theme-purple.css";
+
+.main-inner p a {
+	font-weight:bold;	
+}
+
+a:link, a:visited {
+	text-decoration:none !important;
+}
+
+a:hover {
+	text-decoration:underline !important;
+}
+
+p.topOPage a {
+	font-weight:bold;
+}
+
+.padded-left {
+	margin-left:10px;
+}
+
+.padded-right {
+	margin-right:10px;	
+}
+
+.padded-bottom {
+	padding-bottom:10px;	
+}
+
+a.bannerheader {
+	margin:0 !important;
+	padding:0 !important;	
+}
+
+img.bannerheader {
+	margin:0 !important;
+	padding:0 !important;
+	margin-top:10px !important;
+	width:100%;
+}
+
+#bannermenu {
+	background:#c5bee1;
+	width:100%;
+	min-height:25px;
+	overflow:auto;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+	margin-bottom:10px;
+	margin-left:0;
+}
+
+#bannermenu ul {
+	color:#000;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1em;
+	line-height:1em;
+	vertical-align:middle;
+	list-style:none;
+	margin:0 10px;
+	padding:0;
+}
+
+#bannermenu ul li {
+	float:left;
+	margin:5px 5px;
+	font-weight:bold;
+	padding:0;
+}
+
+#bannermenu ul li a:link, #bannermenu ul li a:visited {
+	background:transparent url('https://www.cdc.gov/dpdx/images/ui/bannermenu-linkbullet.jpg') left center no-repeat;
+	clear:none;
+	display:inline;
+	margin:0;
+	padding:0.25em .25em 0.25em 1.5em;
+	position:relative;
+	color:#000;
+	text-decoration:none;
+}
+
+#bannermenu ul li a:hover {
+	text-decoration:underline;	
+}
+
+.a2z-container {
+	width:100% !important;
+	display:block !important;
+	float:none !important;
+	margin:0 auto !important;
+	padding:0 !important;
+	height:auto !important;
+	text-align:center !important;
+}
+
+.a2z {
+	list-style:none;
+	padding:0;
+	margin:0 0 10px 3px;
+	font-size:1.3em;
+	font-weight:normal;
+	color:#000000;
+	text-align:center;
+	float:left;
+	width:100%;
+	overflow:visible;
+	position:relative;
+	display:block;
+}
+
+.a2z li {
+	display:inline;
+	float:left;
+ 	width:20px;
+	margin:3px 2px 3px 2px;
+	padding:0;
+	clear:none;
+}
+
+.a2z li a:link, .a2z li a:visited, .a2z li span {
+	display:block;
+	width:100%;
+	padding:0;
+	border-width:2px;
+	border-color:#ffe #aaab9c #ccc #fff;
+	border-style:solid;
+	color:#0a29a5 !important;
+	text-decoration: none;
+	background:#f4f8ff;
+	font-weight:bold;
+	text-align:center;
+}
+
+.a2z li span {
+	color:#999999 !important;
+}
+
+.a2z li a:hover {
+	color:#0a29a5;
+	font-weight:bold;
+	text-decoration:none !important;
+	background: #ffffff;
+	border-color: #aaab9c #fff #fff #ccc;
+}
+
+
+.a2z li span {
+	background:#FFF;
+}
+
+
+h2 {
+	font-size:1.3em !important;
+	color:#000 !important;
+	font-weight:bold !important;
+}
+
+h1.pageTitle {
+	padding-bottom:0 !important;
+}
+
+.sciName {
+	font-size:.9em;
+	padding-bottom:20px;
+	margin-top:0 !important;
+}
+
+p.gpdisclaim {
+	width:300px; 
+	font-size:.9em; 
+	font-style:italic;
+}
+
+p.gpdisclaim a {
+	font-weight:normal;	
+}
+
+hr {
+	margin-bottom:15px;	
+}
+
+
+/**/
+
+#content-secondary {
+	margin-top:0px !important;
+}
+
+/*********************************************/
+/*               TOP NAV                     */
+/*********************************************/
+.top-nav {
+	width:100%;
+	margin:0 !important;
+	padding:0 !important;
+	display:block;
+	clear:both;
+	overflow:hidden;
+}
+
+.top-nav ul {
+	float:left;
+	margin:0 !important;
+	padding:0 !important;
+	padding-left:10px !important;
+	width:100%;
+	border-bottom:1px solid #C6BAE7;
+}
+
+.top-nav ul li {
+	float:left;
+	list-style:none;
+	background:#DAD5EB;
+	margin:0;
+	padding:0;
+	padding:10px;
+	margin-left:5px;
+	border:1px solid #C6BAE7;
+	border-bottom:none;
+	position:relative;
+	top:1px;
+}
+
+.top-nav ul li a:link, .top-nav ul li a:visited {
+	font-weight:normal;
+	color:#3D316A !important;
+}
+
+.top-nav ul li a:hover {
+	font-weight:bold;	
+}
+
+.top-nav ul li.current {
+	background:#fff;
+}
+
+.top-nav ul li.current a:link, .top-nav ul li.current a:visited, .top-nav ul li.current a:hover {
+	color:#3D316A;
+	font-weight:bold;	
+}
+
+.centered {
+	float:none !important;
+	margin:0 auto !important;	
+}
+
+.block {
+	display:block;	
+}
+
+#sync-contentarea {
+	margin-bottom:10px;
+}
+
+/************************************************/
+/*                 GALLERY CSS                  */
+/************************************************/
+
+
+.gallery .group {
+	margin-left:0;
+	border-top:1px solid #ccc;
+	width:100%;
+}
+
+.gallery .lastgroup {
+	border-bottom:1px solid #ccc;
+}
+
+.gallery img.margin-fix {
+	margin:10px 0 !important;
+}
+.gallery a:link, .gallery a:visited {
+	text-decoration:none;	
+}
+
+.gallery a:hover {
+	text-decoration:underline !important;
+}
+
+.gallery a.thumbnail:hover {
+	text-decoration:none !important;	
+}
+
+.gallery a.collapse:link, .gallery a.collapse:visited {
+	font-weight:bold;
+	display:block;
+	margin-bottom:5px !important;
+}
+
+.gallery a.collapse:hover {
+	text-decoration:underline !important;
+}
+
+.gallery a.thumbnail img {
+	margin:5px 0;
+}
+
+.toggle.open a {
+	background:url('https://www.cdc.gov/dpdx/images/ui/gallery_arrow_open.jpg') no-repeat;
+	padding-left:16px;
+}
+
+.toggle.closed a {
+	background:url('https://www.cdc.gov/dpdx/images/ui/gallery_arrow_closed.jpg') no-repeat;
+	padding-left:16px;
+	
+}
+
+
+/************************************************/
+/*            CUSTOM TEMPLATE CSS               */
+/************************************************/
+a.pdfthumb:link, a.pdfthumb:visited  {
+	font-weight:bold;
+	text-decoration:none !important;
+}
+
+a.pdfthumb:hover {
+	text-decoration:underline !important;	
+}
+
+span.plugIns {
+	display:inline !important;	
+}
+
+.moreon {
+	background:transparent url('https://www.cdc.gov/dpdx/images/ui/dbl_arrows.gif') left top no-repeat;
+	display:block;
+	font-weight:bold;
+	margin:0 2px 1em 0;
+	padding:2px 1em 4px 8px;
+	text-align:left;
+	text-decoration:none;
+}
+
+table {
+	width:80%;
+	margin:0 auto;	
+	margin-bottom:15px !important;
+}
+
+table.fullwidth {
+	width:100%;
+	float:left;	
+}
+
+table.purple caption {
+	font-size:1.15em;
+	font-weight:bold;
+}
+
+table.purple thead tr {
+	background:#939AA7; /* gray */
+}
+
+table.purple.singleheaded tr.odd {
+	background:#f7f3ff; /* light purple */
+}
+
+table.purple.singleheaded tr.even {
+	background:#c5bee1; /* medium purple */
+}
+
+table.purple.twoheaded tr.odd {
+	background:#f7f3ff; /* light purple */
+}
+
+table.purple.twoheaded tr.even {
+	background:#c5bee1; /* medium purple */
+}
+
+table.purple.twoheaded tr.even th {
+	background:#9F92A7; /* lavender */
+	border-right:2px solid;
+}
+
+table.purple.twoheaded tr.odd th {
+	background:#D0BADF; /* dark lavender */
+	border-right:2px solid;	
+}
+
+table.purple.twoheaded tr.odd th.oddheader {
+	background:#9F92A7; /* lavender */
+	border-right:2px solid;
+}
+
+table.purple.twoheaded tr.odd th.evenheader {
+	background:#D0BADF; /* dark lavender */
+	border-right:2px solid;	
+}
+
+table.rowbreaks tbody tr.rowbreak {
+	border-bottom:2px solid;
+}
+
+table tr td.centered, table tr th.centered {
+	text-align:center;	
+}
+
+.toxotable tr td.neg, .toxotable tr td.pos, .toxotable tr td.equ {
+	font-weight:600;
+}
+
+.toxotable tr td.neg {
+	color:#00c;
+}
+
+.toxotable tr td.pos {
+	color:#c00;
+}
+
+.toxotable tr td.equ {
+	color:#000;
+}
+
+ol.nonumbers {
+	list-style:none;	
+}
+
+ul.nobullets {
+	list-style:none;	
+}
+
+
+/************************************************/
+/*         CASE STUDIES TEMPLATE CSS            */
+/************************************************/
+
+
+#yearlist li.selected {
+	font-weight:bold;
+}
+
+#answer {
+	display:none;	
+}
+
+.mcs-wrap img.lefty.stroke {
+	width:100%;
+}
+
+.mcs-wrap {
+	width:100%;
+	display:block;
+	overflow:hidden;
+	min-height:100px;
+	padding-bottom:10px;
+	margin-top:5px;
+	border-bottom:1px solid #ccc;
+}
+
+.mcs-wrap.last {
+	border-bottom:none;	
+}
+
+.double-rule .mcs-wrap {
+	min-height:50px;
+}
+
+.mcs-wrap img {
+	width:15%;
+	float:left;
+	margin:0 5px 0 1%;
+}
+
+.mcs-wrap h3 {
+	float:left;
+	width:82%;
+}
+
+.mcs-wrap:hover {
+	background-color:#f3f2f9 !important;
+}
+
+.mcs-wrap a:link, .mcs-wrap a:visited {
+	color:#000 !important;
+	height:inherit;
+	overflow:hidden;
+}
+.mcs-wrap a:hover {
+	text-decoration:none;
+}
+
+.alert {
+	font-size:.8em;
+	color:#f00;	
+}
+
+ol.dx-listtype {
+	list-style:upper-alpha;
+}
+
+ol.dx-listtype li ol {
+	list-style:decimal;
+}
+
+ol.dx-listtype li ol li ol {
+	list-style:lower-alpha;
+}
+
+table.dxprodtable {
+	margin:10px !important;
+	width:auto;
+}
+
+table.dxprodtable tr td {
+	width:auto;
+	padding:5px;
+}
+table.dxprodtable tr td ol {
+	list-style-type:number;
+}
+
+ol.loweralpha {
+	list-style:lower-alpha;
+}
+
+.module ol.num {
+	list-style:decimal !important;
+}
+
+.cdc-accordion ol li ol {
+	list-style:lower-alpha;
+}
+
+/************************************************/
+/*          MORPHOLOGY TABLES CSS               */
+/************************************************/
+
+
+table.morphtable {
+	width:100%;
+	margin-bottom:15px !important;
+}
+
+table.morphtable tr.header1, table.figuretable tr th {
+	background:#939AA7;	
+}
+
+table.morphtable th.header1{
+	background:#9F92A7;
+}
+
+table.morphtable tr.header2, table.morphtable th.header2, 
+table.figuretable tr.header2, table.figuretable tr.header2 th {
+	background:#D0BADF;	
+}
+
+table.morphtable tr th.blank {
+	background:#fff;	
+}
+
+table.centered tr td {
+	text-align:center;	
+}
+
+table.bottomed tr td{
+	vertical-align:bottom;
+}
+
+table.blockedimages img {
+	display:block;
+}
+
+
+table.morphtable.centered tr td.left, table.morphtable.centered tr th.left,
+table.morphtable tr td.left, table.morphtable tr th.left,
+table.morphtable.leftalign tr.odd th, table.morphtable.leftalign tr.even th {
+	text-align:left !important;	
+}
+
+table.morphtable caption {
+	font-size:1.5em;
+	padding-top:10px;
+}
+
+table.morphtable tr.odd, table.figuretable tr.odd th {
+	background:#f7f3ff; /* light purple */
+}
+
+table.morphtable tr.even, table.figuretable tr.even th {
+	background:#c5bee1; /* medium purple */
+}
+
+table.lefty {
+	float:left !important;	
+}
+
+
+.inlined {
+	text-align:center;	
+}
+.inlined img{
+	width:auto !important;
+	display:inline !important;
+	padding-right:5px;
+}
