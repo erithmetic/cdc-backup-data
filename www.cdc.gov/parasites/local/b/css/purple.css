@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url("../../../../TemplatePackage/css/B/theme-purple.css");
+
+#gen_info a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/gen_info.jpg) left top no-repeat;
+}
+
+/* This entry added by Jon Kennon 8-10-12 */
+#cdc_at_work a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/prevent.jpg) left top no-repeat;
+}
+
+#epi a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/epi.jpg) left top no-repeat;
+}
+
+#biology a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/biology.jpg) left top no-repeat;
+}
+
+#disease a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/disease.jpg) left top no-repeat;
+}
+
+#diagnosis a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/diagnosis.jpg) left top no-repeat;
+}
+
+#treatment a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/treatment.jpg) left top no-repeat;
+}
+
+#prevent a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/prevent.jpg) left top no-repeat;
+}
+
+#hp a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/caduceus.jpg) left top no-repeat;
+	margin-bottom:15px;
+}
+
+#publications a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/publications.jpg) left top no-repeat;
+}
+
+#dpdx a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/diagnosis.jpg) left top no-repeat;
+}
+
+#cdcwork a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/globe.jpg) left top no-repeat;
+}
+
+#policy a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/policy.jpg) left top no-repeat;
+}
+
+#stats a span {
+	background: url(https://www.cdc.gov/parasites/images/ui/icons/purple/stats.jpg) left top no-repeat;
+}
+
+
+

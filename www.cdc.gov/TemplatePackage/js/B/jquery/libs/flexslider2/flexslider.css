@@ -1,0 +1,330 @@
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author:Tyler Smith (@mbmufffin)
+ */
+
+ 
+/* Browser Resets */
+.cdc-flex-container a:active,
+.slider a:active,
+.cdc-flex-container a:focus,
+.slider a:focus /* {outline:none;} */
+.slides,
+.cdc-flex-control-nav,
+.cdc-flex-direction-nav {margin:0; padding:0; list-style:none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.slider {margin:0; padding:0;}
+.slider .slides > li {display:none; -webkit-backface-visibility:hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.slider .slides img {
+	display:block;
+	border:none;
+	width:100%;
+	max-width:100%;
+	-webkit-box-shadow:0 1px 4px rgba(0,0,0,.2);
+}
+.cdc-flex-pauseplay span {text-transform:capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
+html[xmlns] .slides {display:block;}
+
+* html .slides {height:1%;}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display:block;}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexsliderbox .slider {
+	background:#fff;
+	position:relative;
+	zoom:1;
+}
+
+.cdcSliderCarousel .slider {
+	background:#fff;
+	margin:0 0 10px;
+	/* [disabled]border:4px solid gold; */
+	position:relative;
+	/** -webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px; */
+	zoom:1;
+}
+
+.cdcSliderCarousel .cdcSlider .slides li {
+	padding:0;
+}
+
+.cdc-flex-viewport {
+	max-height:2000px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	transition:all 1s ease;
+	overflow:hidden;
+	position:relative;
+}
+
+.cdcSliderCarousel .cdc-flex-viewport ul li {
+	margin:0;
+	border:none;
+	padding:0;
+	/* 0.25em*/
+}
+
+.secondTier .cdcSliderCarousel .cdc-flex-viewport ul li {max-height:399px; overflow-y:hidden;}
+
+.loading .cdc-flex-viewport {max-height:300px;}
+.slider .slides {zoom:1;}
+
+.carousel li {margin-right:5px}
+
+
+.cdcSliderCarousel .cdc-flex-viewport li {
+	background-color:#fff;
+	/* width:25%; */
+}
+
+/* Direction Nav */
+/*.module .slider .slides li,*/
+.slider .slides li {
+	border:none !important;
+	border-top:none !important;
+}
+
+.cdcSliderCarousel .cdc-flex-direction-nav li {
+	border:none;
+	padding:0;
+}
+
+.cdcSliderCarousel .cdcSlider .cdc-flex-direction-nav a {
+	background:url(https://www.cdc.gov/TemplatePackage/js/B/jquery/libs/flexslider2/images/bg_direction_nav.png) no-repeat 0 0;
+	display:block;
+	margin:-20px 0 0;
+	position:absolute;
+	top:50%;
+	height:30px;
+	width:30px;
+	cursor:pointer;
+	text-indent:-9999px;
+	/* [disabled]opacity:0; */
+	-webkit-transition:all .3s ease;
+}
+.cdcSliderCarousel .cdcSlider .cdc-flex-direction-nav a {opacity:0;}
+
+.cdcSliderCarousel .cdc-flex-direction-nav .cdc-flex-next {
+	right:0;
+}
+.cdcSliderCarousel .cdcSlider .cdc-flex-direction-nav .cdc-flex-next {
+	background-position:100% 0;
+	right:0;
+}
+.cdcSliderCarousel .cdc-flex-direction-nav .cdc-flex-prev {left:0;}
+
+.cdcSliderCarousel .cdcSlider.slider:hover .cdc-flex-direction-nav a {opacity:0/*.8*/;}
+
+.cdcSliderCarousel .cdcSlider .slider:hover .cdc-flex-next {opacity:0.8; right:5px;}
+.cdcSliderCarousel .cdcSlider .slider:hover .cdc-flex-prev {opacity:0.8; left:5px;}
+
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a {
+	margin-top:-28px;
+	position:absolute;
+	top:50%;
+	text-indent:-9999px;
+}
+.cdc-flex-direction-nav li a.prev:before,
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-prev:before {
+	content:"";
+	float:left;
+	position:absolute;
+	top:3px;
+	left:5px;
+	width:0;
+	height:0;
+	border-color:transparent #fff transparent transparent;
+	border-style:solid;
+	border-width:10px 10px 10px 0;
+}
+.cdc-flex-direction-nav li a.prev:after,
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-prev:after {
+	content:"";
+	float:left;
+	position:absolute;
+	top:3px;
+	left:8px;
+	width:0;
+	height:0;
+	border-color:transparent rgba(0, 0, 0, .8) transparent transparent;
+	border-style:solid;
+	border-width:10px 10px 10px 0;
+}
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-prev:before {
+	border-color:transparent rgb(193, 213, 176) transparent transparent;
+	left:-20px;
+	border-width:14px 14px 14px 0;
+}
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-prev:after {
+	border-color:transparent rgb(255, 255, 255) transparent transparent;
+	left:-15px;
+	border-width:14px 14px 14px 0;
+}
+/** .cdcSliderCarousel .slider:hover .cdc-flex-next:hover, .slider:hover .cdc-flex-prev:hover {opacity:1;} */
+
+.cdc-flex-direction-nav li a.next:before,
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-next:before {
+	content:"";
+	float:left;
+	position:absolute;
+	top:2px;
+	right:5px;
+	width:0;
+	height:0;
+	border-color:transparent transparent transparent #fff;
+	border-style:solid;
+	border-width:10px 0 10px 10px;
+}
+.cdc-flex-direction-nav li a.next:after,
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-next:after {
+	content:"";
+	float:left;
+	position:absolute;
+	top:2px;
+	right:8px;
+	width:0;
+	height:0;
+	border-color:transparent transparent transparent #036;
+	border-style:solid;
+	border-width:10px 0 10px 10px;
+}
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-next:before {
+	border-color:transparent transparent transparent rgb(193, 213, 176);
+	right:-20px;
+	border-width:14px 0 14px 14px;
+}
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-next:after {
+	border-color:transparent transparent transparent rgb(255, 255, 255);
+	right:-15px;
+	border-width:14px 0 14px 14px;
+}
+
+/**
+*+html .sliderbox .cdc-flex-direction-nav li a.prev {background:url('bg_direction_nav.png') 5px 5px no-repeat;}
+*+html .sliderbox .cdc-flex-direction-nav li a.next {background:url('bg_direction_nav.png') -18px 5px no-repeat;}
+ */
+.cdcSliderCarousel .cdc-flex-direction-nav .disabled {opacity:.3!important; filter:alpha(opacity=30); cursor:default;}
+
+/* Control Nav */
+.cdcSliderCarousel .cdc-flex-control-nav {
+	margin-top:1em;
+	/* [disabled]position:absolute; */
+	bottom:0;
+	right:0;
+	left:0;
+	text-align:center;
+	width:100%;
+}
+.cdcSliderCarousel .cdc-flex-control-nav li {
+	display:inline-block;
+	margin:0 2px;
+	border:none;
+	padding:0;
+	zoom:1;
+	*display:inline;
+}
+.cdcSliderCarousel .cdc-flex-control-paging li a {
+	color:#000 !important;
+	display:block;
+	cursor:pointer;
+	border:1px solid #fff;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	padding:2px 4px !important;
+	width:20px;
+}
+.cdcSliderCarousel .cdc-flex-control-paging li a:hover { border:1px solid #333; backgrond:inherit; text-decoration:none !important; }
+.cdcSliderCarousel .cdc-flex-control-paging li a.cdc-flex-active { background:#C1D5B0; cursor:default; }
+
+.cdcSliderCarousel .cdc-flex-control-thumbs {margin:5px 0 0; position:static; overflow:hidden;}
+.cdcSliderCarousel .cdc-flex-control-thumbs li {width:25%; float:left; margin:0;}
+.cdcSliderCarousel .cdc-flex-control-thumbs img {width:100%; display:block; opacity:.7; cursor:pointer;}
+.cdcSliderCarousel .cdc-flex-control-thumbs img:hover {opacity:1;}
+.cdcSliderCarousel .cdc-flex-control-thumbs .active {opacity:1; cursor:default;}
+
+.cdcSliderCarousel {
+	background-color:#fff;
+	border:1px solid #c1d5b0;
+	padding:0 1em 1em;
+}
+
+.cdcSliderCarousel .cdcCarousel {
+	margin:0 22px;
+	margin:0 2.2rem;
+}
+
+.cdcSliderCarousel .cdcCarousel .slides li {
+	border:1px solid #fff !important;
+	padding:1px;
+}
+
+.cdcSliderCarousel .cdcCarousel .slides li:hover {
+	margin:0;
+	border:1px solid #333 !important;
+}
+
+@media screen and (max-width:860px) {
+	.cdcSliderCarousel .cdc-flex-direction-nav .cdc-flex-prev {opacity:1; left:0;}
+	.cdcSliderCarousel .cdc-flex-direction-nav .cdc-flex-next {opacity:1; right:0;}
+}
+
+/* Custom CDC rules */
+.cdcCarousel.noTitles .slideTitle,
+.cdcCarousel.noDescriptions .slideDescription,
+.cdcSlider.noDescriptions .slideDescription,
+.cdcSlider.noTitles .slideTitle {
+	display:none;
+}
+
+.cdcSliderCarousel {position:relative;}
+.cdcSliderCarousel .pageIndicator {
+	position:absolute;
+	top:10px;
+	right:15px;
+}
+
+.cdcSlider .slideTitle {
+	text-align:center;
+}
+
+.cdcCarousel .slideTitle {
+	font-weight:bold !important;
+}
+
+.cdcSliderCarousel .pageIndicator, 
+.cdcSliderCarousel .cdc-flex-control-nav,
+.cdcSliderCarousel .slider {
+	color:#224439;
+}
+
+.cdcSliderCarousel .cdcCarousel .slides .cdc-flex-active-slide {
+	background-color:lightgrey !important;
+	border:1px solid lightgrey !important;
+}

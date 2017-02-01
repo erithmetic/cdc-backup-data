@@ -1,0 +1,24 @@
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+.righty {
+border: 1px solid #cccccc;
+margin-left: 15px;
+}
+
+.lefty {
+border: 1px solid #cccccc;
+margin-right: 15px;
+}
+
+h4 {
+font-size: 17px;
+}
+
+
+
+.margintop20 {
+margin-top: 20px !important;
+}

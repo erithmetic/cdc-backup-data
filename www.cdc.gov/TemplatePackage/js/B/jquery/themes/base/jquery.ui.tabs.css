@@ -1,0 +1,130 @@
+@import "https://www.cdc.gov/TemplatePackage/js/B/jquery/themes/base/jquery.ui.core.css";
+@import "https://www.cdc.gov/TemplatePackage/js/B/jquery/themes/base/jquery.ui.theme.css";
+/**
+ * = Tabs ==================================
+ */
+/*.cdc-ui-tabs */.cdc-tabs {
+	border:1px solid #c1d5b0;
+	padding:3px;
+	/* [disabled]overflow:auto; */ /* = removed for v.2.7.0.1 = */
+}
+
+.cdc-tabs > .inner {
+	/* [disabled]height:300px; */ /* = removed for v.2.7.0.1 = */
+	/* [disabled]overflow:auto; */ /* = removed for v.2.7.0.1 = */
+}
+
+.cdc-ui-tabs #content .module .ui-tabs {
+	border:none;
+	/* [disabled]position:relative; */
+	padding:0.2em;
+	zoom:1;
+} /* position:relative prevents IE scroll bug (element with position:relative inside container with overflow:auto appear as "fixed") */
+
+.cdc-tabs-widget {
+	overflow: hidden;
+	position: relative;
+}
+
+.page-curl.cdc-tabs {
+	border:none;
+	padding-bottom:6px;
+}
+
+.page-curl.cdc-tabs > .inner {border:1px solid #c1d5b0;}
+
+#cdc-tabs-widget > ul,
+.cdc-tabs-widget > ul {display:none;}
+
+.cdc-tabs .inner #tabs-1 { /* [disabled]margin-top:0; */ }
+
+.ui-tabs .ui-tabs-nav {
+	background:transparent none;
+		display:block;
+	margin:0;
+	border:none;
+	padding:0.2em 0/*.2em*/ 0;
+}
+.ui-tabs .ui-tabs-nav li {
+	list-style:none;
+	float:left;
+	position:relative;
+	top:1px;
+	margin:0 0.2em 1px 0;
+	border:1px solid #c1d5b0;
+	border-bottom:0 !important;
+	/*border-color:#c1d5b0;*/
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	padding:0;
+	white-space:nowrap;
+}
+
+.ui-tabs .ui-tabs-nav li a:hover {text-decoration:underline;}
+
+#js .ui-tabs .ui-tabs-nav li a {
+	color:#0c5205;
+	float:left;
+	padding:0.5em 1em;
+	text-decoration:none;
+}
+
+.ui-tabs .ui-tabs-nav .ui-state-focus,
+.ui-tabs .ui-tabs-nav .ui-state-hover {
+	background-color:#c1d5b0/* none*/;
+	font-weight:bold;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-selected {
+	background-color:#fff;
+	margin-bottom:0;
+	padding-bottom:1px;
+}
+
+.ui-tabs .ui-tabs-nav .ui-state-active.ui-state-focus a,
+.ui-tabs .ui-tabs-nav .ui-state-active.ui-state-hover a {
+	background-color:transparent;
+	text-decoration:none;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-selected a,
+.ui-tabs .ui-tabs-nav .ui-state-disabled a,
+.ui-tabs .ui-tabs-nav .ui-state-processing a {cursor:text;}
+
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs.ui-tabs-collapsible .ui-tabs-nav .ui-tabs-selected a {cursor:pointer;} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor:text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel {
+	background:none;
+	display:block;
+	margin-top:0;
+	border:1px solid #c1d5b0;
+	border-radius:4px;
+	border-top-left-radius:0;
+	padding:1em 1.4em;
+	/* */
+		height:15.5em; /* = changed for v.2.7.0.1 = */
+		max-height:15.5em; /* = changed for v.2.7.0.1 = */
+		overflow-y:auto;
+}
+.ui-tabs .ui-tabs-panel .subc {
+	padding:0 0 0.5em;
+}
+.ui-tabs .ui-tabs-panel .subc h4 {display:none;}
+
+.ui-tabs.tabs-noCopy .ui-tabs-panel .subc h4 {display:block;}
+
+.module .ui-tabs .ui-tabs-hide {
+	/* [disabled]display:none !important; */
+	position:absolute;
+	left:-9999px;
+}
+
+.screenReaderOnly {
+	position:absolute !important;
+	clip:rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip:rect(1px, 1px, 1px, 1px);
+}
+
+#content .ui-tabs-panel .twoColumn,
+#content .ui-accordion-content .twoColumn {padding:0;}
+.module .ui-tabs-panel .inner .subc {margin:0;}

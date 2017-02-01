@@ -1,0 +1,254 @@
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+/*.no_top_space {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.clearboth {
+	clear: both;
+}
+.margin_top_5px {
+	margin-top: 5px;
+}
+.margin_top_10px {
+	margin-top: 10px;
+}
+.margin_bot_5px {
+	margin-bottom: 5px !important;
+}
+.border_purple {
+	border: 1px solid #c6bae7;
+}
+.border_purple_top {
+	padding-top: 8px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #c6bae7;
+}
+.border_purple_bot {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c6bae7;
+}
+.padding_5px {
+	padding:5px;
+}
+.table_purple_borders {
+	margin: 0px;
+	border-collapse: collapse;
+	border: 1px solid #CCCCCC;
+}
+.table_purple_borders caption {
+	color: #3D316A;
+	text-align: left;
+	font-size: 1.4em;
+}
+.table_purple_borders th,td {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid #CCCCCC;
+	padding: 5px !important;
+}
+.table_purple_borders th {
+	color: #FFFFFF;
+	background-color: #3D316A;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.table_purple_borders td {
+	border: 1px solid #CCCCCC;
+}
+.table_purple_borders thead {
+	display:table-header-group;
+}
+.table_side_headers {
+	margin: 0px;
+	border-collapse: collapse;
+	border: 1px solid #c6bae7;
+}
+.table_side_headers th,td {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid #c6bae7;
+	padding: 5px;
+}
+.table_side_headers th {
+	background-color: #E6DFF4;
+	font-weight: bold;
+}
+.table_side_headers td {
+	border: 1px solid #c6bae7;
+}
+/*.table_side_headers thead {
+	display:table-header-group;
+}*/
+
+#content-main table {
+	margin: 10px;
+}
+.table_fake_header {
+	background-color: #CCC8E1;
+	padding: 10px;
+	margin-right: 0px !important;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #c6bae7;
+	border-right-color: #c6bae7;
+	border-left-color: #c6bae7;
+}
+.center_text {
+	text-align: center;
+}
+.padding_bot_15px {
+	padding-bottom: 15px;
+}
+.padding_bot_5px {
+	padding-bottom: 5px;
+}
+*/
+
+/*#nav-container .related h4 {
+	padding-bottom: 5px;
+	padding-left: 10px;
+}*/
+/*.clear_left {
+	clear: left;
+}
+.red_bold {
+	font-weight: bold;
+	color: #F00;
+}
+.display_inline {
+	display: inline !important;
+}
+.ecard_box {
+	padding: 2px;
+	float: left;
+	width: 32%;
+	margin-top: 5px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+	min-height:11em;
+}
+p.ecard_box {
+	margin-top: 0px;
+	padding-top: 0px;	
+}
+.space_top_5px {
+	padding-top:5px;
+	margin-top:5px;
+}
+.space_bot_5px {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.space_top_10px {
+	margin-top:10px;
+	padding-top:10px;
+}
+.space_top_15px {
+	margin-top:15px;
+	padding-top:15px;
+}
+.thumbnail_dl dl {
+	margin-top: 0px;	
+}
+.thumbnail_dl dt {
+	clear: left;
+	/*float: right;*/
+	/*width: 282px;*/
+/*	padding-top: 15px;
+	padding-left:5px;
+	font-weight: bold;
+}
+.thumbnail_dl dd {
+	clear: right;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 15px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.thumbnail_dl image {
+	clear: none;
+	float: left;
+	padding-right: 10px;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-bottom: 5px;
+}
+.width_95 {
+	width: 95%;
+}
+.border_rt_1px_gray {
+	border-right-color:#CCC; 
+	border-right-style:solid; 
+	border-right-width:1px;
+}*/
+.bigquote blockquote {
+	/*font-family: Georgia, serif;*/
+	/*font-size: 18px;*/
+	/*font-size: 1.2em;*/
+	font-style: italic;
+	/*width: 500px;*/
+	/*margin: 0.25em 0;
+	padding: 0.25em 40px;*/
+	margin: 0.25em 0;
+	padding: 0.25em 20px 0.25em 50px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+}
+.bigquote blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	/*left: -20px;
+	top: -20px;*/
+	left: -5px;
+	top: -20px;
+	color: #7a7a7a;
+}
+.more_top_bot_space_20px {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.more_left_space_10px {
+	padding-left: 10px;
+}
+.width_60 {
+	width: 60%;
+}

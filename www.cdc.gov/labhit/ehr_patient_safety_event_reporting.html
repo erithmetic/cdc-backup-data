@@ -1,0 +1,925 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js nav theme-green lt-ie10 lt-ie9 lt-ie8  " lang="en-us"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js nav theme-green lt-ie10 lt-ie9  " lang="en-us"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js nav theme-green lt-ie10  " lang="en-us"> <![endif]-->
+<!--[if !IE]><!-->     <html class="no-js nav theme-green  " lang="en-us" > <!--<![endif]-->	
+    <head>
+        <meta charset="utf-8" />
+                		<title>LabHIT - EHR Patient Safety Event Reporting</title>
+        		
+        <meta name="description" content="CDC - Lab Health Information Technology (LabHIT)" />        <meta name="keywords" content="CDC, Lab Health Information Technology, Lab, HIT, EHR, Health Information Technology" />		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../TemplatePackage/3.0/images/cdc-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../TemplatePackage/3.0/images/cdc-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../TemplatePackage/3.0/images/cdc-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" href="../TemplatePackage/3.0/images/cdc-touch-icon-57x57.png" />
+        <link rel="shortcut icon" href="../TemplatePackage/3.0/images/favicon.ico" />	
+		
+		<meta name="robots" content="index,follow" />
+		<meta property="cdc:template_version" content="3.0" />
+		<meta property="cdc:content-id" content="637549"/>
+		<meta property="cdc:revision-id" content="11"/>
+								<!-- Internal Release Version # 3.7 -->
+                			<link rel="stylesheet" href="../TemplatePackage/3.0/css/lib/bootstrap24.css" />
+	<link rel="stylesheet" href="../TemplatePackage/3.0/css/app.css@3.2.1.7.css" />
+	<!--[if gt IE 9]><!--><!--<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/TemplatePackage/3.0/css/lib/font-awesome-ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/TemplatePackage/3.0/css/ie.css" />
+	<![endif]-->
+	<link rel="stylesheet" media="print" href="../TemplatePackage/3.0/css/print.css@3.2.1.7.css" />
+	<script src="../TemplatePackage/3.0/js/libs/modernizr-latest.js"></script>
+	<script>
+		if(!Date.now){Date.now=function now(){return new Date().getTime()}}
+		var page_timing = page_timing || {};
+		page_timing.page_start = Date.now();
+		function $$(e){if(window.$){e()}else{setTimeout(function(){$$(e)},50)}}
+		// (function(){function e(e,t){var n=e.length;while(n--){if(e[n].indexOf(t)>-1){return e[n]}}return false}var t=e(document.getElementsByTagName("html")[0].className.split(" "),"theme-");if(t){var n=document.createElement("link");n.rel="stylesheet";n.type="text/css";n.media="screen";n.href="/TemplatePackage/3.0/css/themes/"+t+".css";document.getElementsByTagName("head")[0].appendChild(n)}})();
+
+		var settings = {}, addthis = null;
+	</script>
+
+	<meta name="application-name" content="CDC.gov"/>
+	<meta property="cdc:template_version" content="3.2.1.7" />
+	<meta name="msapplication-TileColor" content="#0061aa" />
+	<meta name="msapplication-square70x70logo" content="/TemplatePackage/3.0/images/Win8_tile_70x70.png" />
+	<meta name="msapplication-square150x150logo" content="/TemplatePackage/3.0/images/Win8_tile_150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="/TemplatePackage/3.0/images/Win8_tile_310x150.png" />
+	<meta name="msapplication-square310x310logo" content="/TemplatePackage/3.0/images/Win8_tile_310x310.png" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">		<!-- jquery UI CSS, currently accordion and tabs -->
+<link rel="stylesheet" href="../TemplatePackage/3.0/css/lib/jquery-ui/jquery-ui.css" />
+<link rel="stylesheet" href="../TemplatePackage/3.0/css/jquery-ui.css" />
+
+
+<script>
+var gadgetobjs = [];
+</script>
+        
+
+
+
+        <script type="text/javascript">
+$(document).ready(function(){
+  $('#ehr-patient-safety-tabs ul.ui-tabs-nav li:nth-child(1) a').html("EHR<br/>Technology<br/>Developer");
+  $('#ehr-patient-safety-tabs ul.ui-tabs-nav li:nth-child(2) a').html("ONC-Authorized<br/>Certification Bodies<br/>(ONC-ACB)");
+  $('#ehr-patient-safety-tabs ul.ui-tabs-nav li:nth-child(3) a').html("Patient<br/>Safety<br/>Organizations");
+  $('#ehr-patient-safety-tabs ul.ui-tabs-nav li:nth-child(4) a').html("<div style='height:48.5px;'>FDA</div>");
+  $('#ehr-patient-safety-tabs ul.ui-tabs-nav li:nth-child(5) a').html("<div style='height:48.5px;'>Research</div>");
+});
+</script>        
+	<link rel="stylesheet" type="text/css" href="local/b/css/local.css"/>
+  		    </head>
+    <body>
+				
+
+
+
+				<div id="skipmenu">
+	<a href="ehr_patient_safety_event_reporting.html#searchTarget" class="skippy">Skip directly to search</a>
+	<a href="ehr_patient_safety_event_reporting.html#azTab" class="skippy">Skip directly to A to Z list</a>
+	<a href="ehr_patient_safety_event_reporting.html#nav-container" class="skippy">Skip directly to navigation</a>
+	<a href="ehr_patient_safety_event_reporting.html#share-bar" class="skippy">Skip directly to page options</a>
+	<a href="ehr_patient_safety_event_reporting.html#contentArea" class="skippy">Skip directly to site content</a>
+</div>		    	<div id="wrapper">
+    		
+<!-- references to this removed intentionally -->
+    		<header id="header">
+    			<div class="container">
+                    <div class="row">
+                    	<div id="logo" class="span14">
+                    		<!--iPad touch response and 508 voice reader issue currently under investigation -->
+<a href="../index.html" title="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People">
+	<img src="../TemplatePackage/3.0/images/masthead_subpage.svg" alt="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People" class="hidden-one" />
+	<img src="../TemplatePackage/3.0/images/masthead_1-col.svg" alt="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People" class="visible-one" />
+</a>
+
+<!-- IOS9 iPad bug work around - make sure screen readers have a readable version of the logo to read
+<a class="tp-sr-only" href="https://www.cdc.gov">Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People</a>
+ -->
+                    	</div>
+                    	<!-- search -->
+                    	<div id="searchArea" class="span10 hidden-one hidden-two">							
+							
+<div class="hidden"><a href="ehr_patient_safety_event_reporting.html#" name="searchTarget">Start of Search Controls</a></div>
+<form class="searchForm" method="get" action="https://search.cdc.gov/search">
+	<fieldset class="search-form-wrapper ">
+		<legend>Search Form Controls</legend>
+		<div class="search-form-checkbox">
+			<label class="subset"><input type="checkbox" name="subset" checked="checked" value="">Search The CDC</label>
+		</div>
+		<div class="search-input-wrapper">
+			<div class="search-buttons">
+				<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+				<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+				<input type="submit" value="Submit" style="display:none; visibility:hidden;" /> 
+			</div>
+			<div class="search-input">
+				<label><input type="text" placeholder="SEARCH" name="query" /><span class="hidden">Search The CDC</span></label>
+			</div>
+		</div>
+		<input type="hidden" name="utf8" value="&#x2713;" />
+					<input type="hidden" name="affiliate" value="cdc-main" />
+			</fieldset>
+</form>							<div class="a2z-button pull-right hidden-one hidden-two"><a href="ehr_patient_safety_event_reporting.html#" id="azTab">CDC A-Z Index <span class="icon-angle-down"></span></a></div>
+                    	</div>
+                    </div>
+                    	<div class="hidden-three hidden-four" id="mobile-menu">
+		<ul>
+			<li id="vp1-menu-button" class="border-bottom-white"><a href="ehr_patient_safety_event_reporting.html#" id="menu-nav"><span class="sprite-16-menu"></span>MENU</a></li>
+			<li id="vp1-a2z-button" class="border-bottom-white"><a href="ehr_patient_safety_event_reporting.html#" id="menu-az">CDC A-Z</a></li>
+			<li id="vp1-search-button" class="border-bottom-white"><a href="ehr_patient_safety_event_reporting.html#" id="menu-search"><span class="sprite-16-search-white"></span>SEARCH</a></li>
+		</ul>
+	</div>
+<script>if (typeof page_timing !== 'undefined') { page_timing.menu_load = Date.now(); }</script>
+                    <div class="a2z-bar hide">
+                    	<div>
+	<ul>
+		<li><a href="../az/a.html">A</a></li>
+		<li><a href="../az/b.html">B</a></li>
+		<li><a href="../az/c.html">C</a></li>
+		<li><a href="../az/d.html">D</a></li>
+		<li><a href="../az/e.html">E</a></li>
+		<li><a href="../az/f.html">F</a></li>
+		<li><a href="../az/g.html">G</a></li>
+		<li><a href="../az/h.html">H</a></li>
+		<li><a href="../az/i.html">I</a></li>
+		<li><a href="../az/j.html">J</a></li>
+		<li><a href="../az/k.html">K</a></li>
+		<li><a href="../az/l.html">L</a></li>
+		<li><a href="../az/m.html">M</a></li>
+		<li><a href="../az/n.html">N</a></li>
+		<li><a href="../az/o.html">O</a></li>
+		<li><a href="../az/p.html">P</a></li>
+		<li><a href="../az/q.html">Q</a></li>
+		<li><a href="../az/r.html">R</a></li>
+		<li><a href="../az/s.html">S</a></li>
+		<li><a href="../az/t.html">T</a></li>
+		<li><a href="../az/u.html">U</a></li>
+		<li><a href="../az/v.html">V</a></li>
+		<li><a href="../az/w.html">W</a></li>
+		<li><a href="../az/x.html">X</a></li>
+		<li><a href="../az/y.html">Y</a></li>
+		<li><a href="../az/z.html">Z</a></li>
+		<li><a href="../az/0.html">#</a></li>
+	</ul>
+</div>
+<script>if (typeof page_timing !== 'undefined') { page_timing.a2z_load = Date.now(); }</script>                    </div>
+                    <div id="searchArea-two-column" class="span24 searchbar hide hidden-three hidden-four">
+						  
+<div class="hidden"><a href="ehr_patient_safety_event_reporting.html#" name="searchTarget">Start of Search Controls</a></div>
+<form class="searchForm" method="get" action="https://search.cdc.gov/search">
+	<fieldset class="search-form-wrapper ">
+		<legend>Search Form Controls</legend>
+		<div class="search-form-checkbox">
+			<label class="subset"><input type="checkbox" name="subset" checked="checked" value="">Search The CDC</label>
+		</div>
+		<div class="search-input-wrapper">
+			<div class="search-buttons">
+				<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+				<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+				<input type="submit" value="Submit" style="display:none; visibility:hidden;" /> 
+			</div>
+			<div class="search-input">
+				<label><input type="text" placeholder="SEARCH" name="query" /><span class="hidden">Search The CDC</span></label>
+			</div>
+		</div>
+		<input type="hidden" name="utf8" value="&#x2713;" />
+					<input type="hidden" name="affiliate" value="cdc-main" />
+			</fieldset>
+</form>					</div>
+                    <!--
+	See the noscript include for modifying the emergency message. DO NOT add it here.
+-->
+<script>if (typeof page_timing !== 'undefined') { page_timing.emergency_load = Date.now(); }</script>
+    				<div class="titlebar">
+					 						<h2>
+
+
+
+<p style=" color: white;">Laboratory Health Information Technology Team</p>
+
+
+</h2>
+					 					</div>
+    				<!-- emergency -->
+<div id="emergencyContainer">
+	<!--
+	<div class="alert alert-error en">
+		<b>Attention!</b> Uncomment this section and place the emergency message here.
+	</div>
+	<div class="alert alert-error esp">
+		<b>&#161;Atenci&#243;n!</b> Elimine el comentario de esta secci&#243;n y colocar el mensaje de emergencia aqu&#237;.
+	</div>	
+	-->
+</div>
+
+<!-- no script -->
+<noscript>
+	<div class="alert alert-block"> Note: Javascript is disabled or is not supported by your browser. For this reason, some items on this page will be unavailable. For more information about this message, please visit this page: <a href="../other/about_cdcgov.html">About CDC.gov</a>.</div>
+</noscript>
+<script>if (typeof page_timing !== 'undefined') { page_timing.noscript_load = Date.now(); }</script>
+     			</div>
+    		</header>
+    		<div class="container">				
+                <div id="content">
+					<div class="row">
+        				<!-- left nav -->
+        				<div id="nav-container" class="hidden-one hidden-two span5">
+    						<nav id="left" class="hidden-one hidden-two">
+    							
+
+
+
+<h3><a href="index.html">LabHIT Home</a></h3>
+
+<ul id="nav-primary">
+<li><a href="get_involved.html">Get Involved</a></li>
+
+<li><a href="labhit_paper.html">LabHIT Report</a></li>
+
+<li><a href="ehr_patient_safety_event_reporting.html">EHR Patient Safety Event Reporting</a></li>
+
+<li><a href="resources.html">Resources</a></li>
+
+<li><a href="http://wwwn.cdc.gov/CLIA/Default.aspx">CLIA</a></li>
+
+<li><a href="http://wwwn.cdc.gov/cliac/default.aspx">CLIAC</a></li>
+
+<li><a href="http://www.cdc.gov/ophss/csels/dls/index.html" target="_blank">DLS</a></li>
+</ul>
+
+
+    						</nav>
+    						<div class="nav-related">
+							
+
+
+<div class="module-typeG emailupdates"><h4>Get Email Updates</h4><p>To receive email updates about this page, enter your email address:</p><form action="https://public.govdelivery.com/accounts/USCDC/subscribers/qualify" name="govdelivery"><fieldset><input id="topic_id" name="topic_id" type="hidden" value="USCDC_1001" /> <label><span class="hidden">Enter Email Address</span><input class="email" name="email" onfocus="this.value=''" type="text" value="" /></label> <a class="explain" href="../emailupdates/index.html">What&#39;s this?</a> <a class="button" href="javascript:quicksubscribe();return false;">Submit</a> <noscript><a class="explain" href="../emailupdates/index.html">What&#39;s this?</a> <label><span class="hidden">Submit Button</span><input class="button submit" name="commit" type="submit" value="Submit" /></label></noscript></fieldset></form></div>
+
+    						
+
+
+<!-- InstanceBeginEditable name="contact-info" --> 
+        <div id="contact-info">
+  <h5>Contact Us:</h5>
+	<ul class="noBullet">
+		<li class="mail">Centers for Disease Control and Prevention,<br />
+		Division of Laboratory Programs, Standards and Services<br />
+        1600 Clifton Rd<br />
+        Mailstop F-11<br />
+		Atlanta, GA 30333</li>
+        <br />
+		<li class="phone">800-CDC-INFO<br />
+		(800-232-4636)<br />
+		TTY: (888) 232-6348</li>
+        <br />
+        <li class="phone"><b>LabHIT Direct Line:</b><br />
+        404-498-2253</li>
+		<li> <a href="mailto:labhit@cdc.gov">Contact LabHIT</a><br />
+        <a href="../cdc-info/requestform.html">Contact CDC&ndash;INFO</a></li>
+	</ul>
+</div> 
+
+							
+
+
+
+							</div>    						    				
+        				</div>
+        				<div id="featureArea">
+    						<div class="span19">
+    							
+
+
+
+    						</div>
+        				</div>						
+    					<div class="breadcrumbs hidden-one span19">
+    						
+
+
+<div class="bread-crumb hidden-one"></div>
+
+    					</div>
+						<div class="span19 pagetitle">	
+    						    							<div class='syndicate'>
+    						    						    							<div class='mSyndicate'>
+    																					<h1>Reporting Patient Safety Events Associated with EHRs</h1>
+															    						    							</div>
+    						    						    							</div>
+    												</div>
+						<div id="share-bar" class="span19">		
+    						<div class="socialmediabar">
+								<div class="row">
+            						<div class="hidden-one pull-right">
+        								            							            							            						</div>	
+    								<div class="span8">
+    									<div id="socialMediaShareContainer">
+	<div class="share_container noLinking">
+	 	<a class="share_button_facebook" title="Facebook" href="ehr_patient_safety_event_reporting.html#"><span class="tp-sr-only">Recommend on Facebook</span><span id="share_facebook" class="facebookRecommend"> </span></a>
+	 	<a class="share_button_twitter" title="Twitter" href="ehr_patient_safety_event_reporting.html#"><span class="tp-sr-only">Tweet</span><span id="share_twitter" class="twitterTweet"> </span></a>
+		<a class="share_button" href="ehr_patient_safety_event_reporting.html#socialMediaShareContainer" ><img src="../TemplatePackage/3.0/images/social/addthis-32.png" alt="Share" /><span class="shareButtonEn tp-sr-only" aria-label="Share">Share</span><span class="shareButtonEs tp-sr-only" aria-label="Compartir">Compartir</span></a>
+	</div>
+</div>
+
+<!-- target anchor for return to top feature in VP1 -->
+<a id="content-start" tabindex="-1"></a>
+    								</div>
+								</div>
+    						</div>
+    					</div>	
+    					<!-- body -->
+    					<div id="body" class="span19">
+    						<div id="contentArea" >								
+        						        																						        						                                                                                            					            						<div class='syndicate'>
+            					            					            						<div class='mSyndicate'>
+            					            					        							<!-- InstanceBeginEditable name="content-main" -->
+
+			<div class="rx-row">
+    	
+<div class="numbered-list module-typeB">
+<div class="row"><a href="https://www.youtube.com/watch?v=a3ZB5-Jsh_c" target="_blank"> </a>
+<div class="span10"><img alt="" src="https://www.cdc.gov/labhit/images/_onc_the_future_of_health_care.jpg" height="175px" width="150px" /><br />
+<strong contenteditable="false" unselectable="on">ONC: The Future of Health Care: Electronic Health Records</strong><br contenteditable="false" unselectable="on" />
+3 min, 30 sec Jul 18, 2011<br />
+<p>Healthcare organizations are encouraged to report instances in which poor EHR design, configuration or implementation resulted or could have resulted (“near-miss”) in an adverse patient outcome. More credible data is needed to identify specific patient safety risks so that recommended practices can be developed and integrated into IT standards, as noted in the November 2011 report from the Institute of Medicine, <a href="http://www.iom.edu/Reports/2011/Health-IT-and-Patient-Safety-Building-Safer-Systems-for-Better-Care.aspx" target="_blank"><em>Health IT and Patient Safety: Building Safer Systems for Better Care</em></a>. <strong>Depending on the issue, healthcare organizations can report patient safety-related concerns to one or more of the following: the EHR Technology Developer, the ONC-Authorized Certification Body, an AHRQ approved Patient Safety Organization and the FDA.</strong> Also, the FDA, ONC, and FCC have proposed a Health IT Safety Center that could become an option for EHR and health IT patient safety event reporting in the future. See the tabs below for more information regarding the various reporting options.</p>
+
+<!-- --></div>
+
+<div class="span8">
+<div class="module-typeN">
+<p class="cdc-caption-text"><strong>Reporting Options for Actual or Potential (near-miss) EHR-Related Patient Safety Events</strong> <!-- --></p>
+</div>
+
+<img alt="" src="https://www.cdc.gov/labhit/images/ehr_diagram_new.jpg" /><!-- --></div>
+
+<!-- --></div>
+
+<br />
+<!-- --></div>
+
+	</div>
+	  
+
+<!-- start new tabs-->
+<div class="no-h-title" id="ehr-patient-safety-tabs">
+
+		<div>		    	<div class="tabs " id="Tabs_672664">
+    		<ul>
+				    													    				<li><a href="ehr_patient_safety_event_reporting.html#tabs-672664-1">EHR Technology Developer</a></li>
+    													    				<li><a href="ehr_patient_safety_event_reporting.html#tabs-672664-2">ONC-Authorized Certification Body</a></li>
+    													    				<li><a href="ehr_patient_safety_event_reporting.html#tabs-672664-3">ONC</a></li>
+    													    				<li><a href="ehr_patient_safety_event_reporting.html#tabs-672664-4">Patient Safety Organizations</a></li>
+    													    				<li><a href="ehr_patient_safety_event_reporting.html#tabs-672664-5">FDA</a></li>
+    													    				<li><a href="ehr_patient_safety_event_reporting.html#tabs-672664-6">Research</a></li>
+    			    		</ul>
+                        					<div id="tabs-672664-1">							
+                        	
+			<div class="rx-row">
+    	<p>Safety-related concerns should be reported to the EHR Technology Developer so they may monitor the performance of their product and evaluate if an EHR-based solution is needed to prevent recurrence. &#160;The ONC HIT Certification Program&#8217;s <a href="http://www.healthit.gov/sites/default/files/onc-acb_2013annualsurveillanceguidance_final_0.pdf"><em>Program Policy Guidance #13-01</em></a> supports end-user reporting to the EHR Technology Developer that developed the full EHR or module.&#160; The ONC-Authorized Certification Bodies (ONC-ACBs) must also ensure the EHR Technology Developer implements a complaint process for safety-related capabilities.&#160;</p><p>The list of certified EHR products is located on the ONC&#8217;s website: <a href="http://oncchpl.force.com/ehrcert?q=chpl" target="_blank">http://oncchpl.force.com/ehrcert?q=chpl</a></p>
+	</div>
+	  
+                        </div>
+    				    					<div id="tabs-672664-2">							
+                        	
+			<div class="rx-row">
+    	
+<p>EHR certification bodies are authorized by the Office of the National Coordinator to perform Complete EHR and EHR Module testing and certification. &#160;The ONC HIT Certification Program’s <em>Program Policy Guidance #13-01</em> supports end-user reporting of patient safety-related concerns for certified products and capabilities to the ONC-Authorized Certification Body that certified the particular EHR or EHR module impacted.&#160; The guidance further supports annual surveillance reporting of the safety-related data collected by the ONC-ACBs to the ONC.&#160; Their websites are provided below.</p>
+
+<ul class="bluecheck">
+<li><a href="http://www.drummondgroup.com/" target="_blank">Drummond Group, Inc. (DGI)</a></li>
+
+<li><a href="http://www.icsalabs.com/" target="_blank">ICSA Labs</a></li>
+
+<li><a href="http://www.infogard.com/" target="_blank">InfoGard Laboratories, Inc.</a></li>
+</ul>
+
+<p>The certifying body for a specific EHR can be searched on the ONC’s website at: <a href="http://oncchpl.force.com/ehrcert?q=chpl" target="_blank">http://oncchpl.force.com/ehrcert?q=chpl</a></p>
+
+	</div>
+	  
+                        </div>
+    				    					<div id="tabs-672664-3">							
+                        	
+			<div class="rx-row">
+    	
+<p align="center" style=" margin: 0in; margin-bottom: 12.0pt; font-size: 11.0pt; font-family: Calibri,sans-serif; text-align: center;"><strong><a href="http://www.healthit.gov/healthitcomplaints">Submit a health IT concern to ONC</a></strong></p>
+
+<p style=" margin: 0in; margin-bottom: 12.0pt; font-size: 11.0pt; font-family: Calibri,sans-serif;">The Office of the National Coordinator oversees an online form where users can log complaints about certified health IT products so that ONC staff can better triage, track, route and respond to health IT concerns and challenges. The ONC recommends first contacting the developer or vendor, then the ONC-Authorized Certification Body (ACB), which should be able to work with you and the developer to resolve most issues. If the issue remains unresolved, then submit your issues to the ONC.&#160; Click the button above or this link: <a href="http://www.HealthIT.gov/healthitcomplaints">http://www.HealthIT.gov/healthitcomplaints</a></p>
+
+<p style=" margin: 0in; margin-bottom: 12.0pt; font-size: 11.0pt; font-family: Calibri,sans-serif;">The ONC wants to know about:</p>
+
+<ul type="disc" style=" margin-bottom: 0in;">
+<li style=" margin: 0in; margin-bottom: .0001pt; font-size: 11.0pt; font-family: Calibri,sans-serif;">Challenge related to data blocking ("when someone or an entity knowingly and unreasonably interferes with the exchange or use of health information")</li>
+
+<li style=" margin: 0in; margin-bottom: .0001pt; font-size: 11.0pt; font-family: Calibri,sans-serif;">Inability for EHRs to share or receive health information</li>
+
+<li style=" margin: 0in; margin-bottom: .0001pt; font-size: 11.0pt; font-family: Calibri,sans-serif;">Usability issues</li>
+
+<li style=" margin: 0in; margin-bottom: .0001pt; font-size: 11.0pt; font-family: Calibri,sans-serif;">Failure for certified products to perform as expected</li>
+</ul>
+
+	</div>
+	  
+                        </div>
+    				    					<div id="tabs-672664-4">							
+                        	
+			<div class="rx-row">
+    	<p>Healthcare organizations can voluntarily report concerns to a Patient Safety Organization (PSO) approved by the Agency for Healthcare Research and Quality (AHRQ). Communications with PSOs are afforded privilege and confidentiality protections under the <a href="http://www.pso.ahrq.gov/legislation/rule#section 3.104(a)" target="_blank">Patient Safety Act</a> to encourage reporting and allay fears of legal discovery related to the collection and analysis of patient safety event data.</p><p>For more information, see the <a href="http://www.pso.ahrq.gov/" target="_blank">Patient Safety Organization Homepage</a> at AHRQ, including:<br />&#160;</p><ul class="bluecheck"><li>Frequently Asked Questions</li><li>How to choose a PSO</li><li>Federally-Listed Patient Safety Organizations</li></ul>
+	</div>
+	  
+                        </div>
+    				    					<div id="tabs-672664-5">							
+                        	
+			<div class="rx-row">
+    	<p>EHR functionalities (whether certified or non-certified) are not classified by the FDA within a formal medical device class. The FDA is exercising broad enforcement discretion related to EHR functionality and does accept reports of EHR related patient safety events.</p><p>Certain serious patient safety events associated with medical devices are required to be reported to the FDA, such as those resulting in death or disability. The FDA also accepts voluntary reporting of medical device-related patient safety concerns that do not result in a serious patient safety event. Reports submitted to the FDA are published in the FDA&#8217;s Manufacturer and User Facility Device Experience (MAUDE) database.</p><p>For more information, see the following links to the U.S. Food &amp; Drug Administration:</p><ul><li><a href="http://www.fda.gov/Safety/MedWatch/HowToReport/ucm053087.htm" target="_blank">What is a serious adverse event?</a></li><li><a href="http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm" target="_blank">Medical Device Reporting</a></li><li><a href="http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfMAUDE/Search.cfm" target="_blank">Manufacturer and User Facility Device Experience (MAUDE)</a> database</li></ul><p>Note: On April 3, 2014, the ONC, FDA and FCC released a report proposing a strategy and recommendations for a risk-based framework for health IT. The proposal includes creation of a public-private Health IT Safety Center by the ONC in collaboration with the FDA, the FCC, HHS&#8217; Agency for Healthcare Research and Quality (AHRQ) and other stakeholders. Implementation of the strategies and recommendations in this report may create alternative approaches in the future for reporting and resolving patient safety events associated with EHRs and other health IT.<br /><br />HHS Press Release: <a href="http://www.hhs.gov/news/press/2014pres/04/20140403d.html" target="_blank">FDASIA Health IT Report - Proposed Strategy and Recommendations for a Risk-Based Framework</a></p>
+	</div>
+	  
+                        </div>
+    				    					<div id="tabs-672664-6">							
+                        	
+			<div class="rx-row">
+    	
+<p><strong>The Joint Commission – <em>ONC funded investigational health IT work</em></strong></p>
+
+<p>The ONC awarded a contract to The Joint Commission to expand its capacity to investigate the role of health IT as a cause of adverse events, and will develop education materials and training opportunities to enable healthcare providers to investigate and analyze health IT-related adverse events and develop follow-up and corrective action. &#160;Access to some of these materials is provided here.</p>
+
+<p style=" text-align: center;"><strong>Safe Health IT Saves Lives</strong></p>
+
+<ul>
+<li style=" text-align: left;"><a href="http://traffic.libsyn.com/jointcommission/Safe_Use_of_Health_IT.mp3" target="_blank">Podcast: Safe Use of Health IT (4:01 mins)</a></li>
+
+<li style=" text-align: left;"><a href="https://vimeo.com/123647980" target="_blank">Video: Safe Health IT Saves Lives (2:26 mins)</a></li>
+
+<li style=" text-align: left;"><a href="http://www.jointcommission.org/safe_health_it.aspx" target="_blank">Online Education Course (free): Investigating and Preventing Health IT - Related Patient Safety Events</a></li>
+
+<li style=" text-align: left;">Reports:
+
+<ul>
+<li style=" text-align: left;"><a href="http://www.jointcommission.org/sentinel_event_alert_issue_42_safely_implementing_health_information_and_converging_technologies/" target="_blank">Safely implementing health information and converging technologies</a></li>
+
+<li style=" text-align: left;"><a href="http://www.jointcommission.org/sea_issue_54/" target="_blank">Safe use of Health IT</a></li>
+</ul>
+</li>
+</ul>
+
+<p><strong>References</strong></p>
+
+<ul class="bluecheck">
+<li><a href="http://www.healthitsafety.org" target="_blank">Health IT Safety Center Roadmap (ONC contract with RTI)</a></li>
+
+<li><a href="http://www.healthit.gov/sites/default/files/aspa_0392_20130618_onc_fs_hit_safety_plan_v03final.pdf" target="_blank">ONC Fact Sheet: Health IT Patient Safety Action and Surveillance Plan</a></li>
+
+<li><a href="http://www.healthit.gov/sites/default/files/tjc_one_pager_v3_0.pdf" target="_blank">The Joint Commission ONC Contract fact page</a></li>
+
+<li><a href="http://www.jointcommission.org/report_a_complaint.aspx" target="_blank">The Joint Commission: Report a Sentinel Events and complaints of all kinds associated with a healthcare organization</a></li>
+
+<li><a href="https://www.ecri.org/resource-center/Pages/HITPartnership.aspx" target="_blank">The Partnership for Health IT Patient Safety (ECRI) </a></li>
+</ul>
+
+	</div>
+	  
+                        </div>
+    				    	</div>
+		</div>	  
+</div>
+
+<!-- end new tabs -->
+
+
+			<div class="module">
+    	<div class="module-typeN">
+<p class="cdc-caption-text"><strong>References</strong> <!-- --></p>
+
+<p class="cdc-caption-text">ONC Program Policy Guidance #13-01:<a href="http://www.healthit.gov/sites/default/files/onc-acb_2013annualsurveillanceguidance_final_0.pdf">Authorized Certification Body Annual Surveillance Plan</a></p>
+
+<p class="cdc-caption-text">ONC Publication: <a href="http://www.healthit.gov/sites/default/files/How_to_Identify_and_Address_Unsafe_Conditions_Associated_with_Health_IT.pdf"><em>How to Identify and Address Unsafe Conditions Associated with Health IT</em></a><br />
+This guide aims to help healthcare organizations and Patient Safety Organizations improve reporting of unsafe conditions associated with EHRs and other health IT.</p>
+
+<!-- --></div>
+
+<p>Note that the information on this page provides general information about reporting options for patient safety-related concerns. It is not intended to provide policy or specific instructions for reporting of patient safety-related concerns and none should be inferred. &#160;</p>
+	</div>
+	  
+
+             					            					            						</div>
+            					            					            						</div>
+            													        						                                                                                        						                                                                								<!-- Related Nav Area -->
+								<div class="nav-related hidden-three hidden-four">
+									
+
+
+<div class="module-typeG emailupdates"><h4>Get Email Updates</h4><p>To receive email updates about this page, enter your email address:</p><form action="https://public.govdelivery.com/accounts/USCDC/subscribers/qualify" name="govdelivery"><fieldset><input id="topic_id" name="topic_id" type="hidden" value="USCDC_1001" /> <label><span class="hidden">Enter Email Address</span><input class="email" name="email" onfocus="this.value=''" type="text" value="" /></label> <a class="explain" href="../emailupdates/index.html">What&#39;s this?</a> <a class="button" href="javascript:quicksubscribe();return false;">Submit</a> <noscript><a class="explain" href="../emailupdates/index.html">What&#39;s this?</a> <label><span class="hidden">Submit Button</span><input class="button submit" name="commit" type="submit" value="Submit" /></label></noscript></fieldset></form></div>
+
+									
+
+
+<!-- InstanceBeginEditable name="contact-info" --> 
+        <div id="contact-info">
+  <h5>Contact Us:</h5>
+	<ul class="noBullet">
+		<li class="mail">Centers for Disease Control and Prevention,<br />
+		Division of Laboratory Programs, Standards and Services<br />
+        1600 Clifton Rd<br />
+        Mailstop F-11<br />
+		Atlanta, GA 30333</li>
+        <br />
+		<li class="phone">800-CDC-INFO<br />
+		(800-232-4636)<br />
+		TTY: (888) 232-6348</li>
+        <br />
+        <li class="phone"><b>LabHIT Direct Line:</b><br />
+        404-498-2253</li>
+		<li> <a href="mailto:labhit@cdc.gov">Contact LabHIT</a><br />
+        <a href="../cdc-info/requestform.html">Contact CDC&ndash;INFO</a></li>
+	</ul>
+</div> 
+
+								</div>
+    							<!-- Persistent Content Area -->
+    							<div id="content-secondary">
+                                    
+
+
+
+            						
+
+
+
+
+    							</div><!-- /end #content-secondary -->
+    						</div><!-- /end #contentArea -->
+    					</div><!-- /end body -->	
+					</div>
+					<div class="row">
+						<div class="span24 visible-one">
+																											</div>
+					</div>
+					<div class="row">
+						<div class="span24">
+                            <div id="plugin-legend" class="pluginOff">
+	<h5>File Formats Help:</h5><span><a href="../Other/plugins/index.html">How do I view different file formats (PDF, DOC, PPT, MPEG) on this site?</a></span>
+	<ul>
+		<li class="plugin-pdf"><a href="../Other/plugins/index.html#pdf"><span class="sprite-16-pdf">Adobe PDF file</span></a></li>
+		<li class="plugin-ppt"><a href="../Other/plugins/index.html#ppt"><span class="sprite-16-ppt">Microsoft PowerPoint file</span></a></li>
+		<li class="plugin-word"><a href="../Other/plugins/index.html#doc"><span class="sprite-16-word">Microsoft Word file</span></a></li>
+		<li class="plugin-excel"><a href="../Other/plugins/index.html#xls"><span class="sprite-16-excel">Microsoft Excel file</span></a></li>
+		<li class="plugin-wmv"><a href="../Other/plugins/index.html#wmv"><span class="sprite-16-wmv">Audio/Video file</span></a></li>
+		<li class="plugin-qt"><a href="../Other/plugins/index.html#qt"><span class="sprite-16-qt">Apple Quicktime file</span></a></li>
+		<li class="plugin-real"><a href="../Other/plugins/index.html#ram"><span class="sprite-16-rp">RealPlayer file</span></a></li>
+		<li class="plugin-text"><a href="../Other/plugins/index.html#text"><span class="sprite-16-txt">Text file</span></a></li>
+		<li class="plugin-zip"><a href="../Other/plugins/index.html#zip"><span class="sprite-16-zip">Zip Archive file</span></a></li>
+		<li class="plugin-sas"><a href="../Other/plugins/index.html#sas"><span class="sprite-16-sas">SAS file</span></a></li>
+		<li class="plugin-epub"><a href="../Other/plugins/index.html#epub"><span class="sprite-16-ebook">ePub file</span></a></li>
+		<li class="plugin-ris"><a href="../Other/plugins/index.html#ris"><span class="sprite-16-ris">RIS file</span></a></li>
+	</ul>
+</div>
+						</div>
+					</div>
+					<!-- date stamp -->
+					<div id="datestamp" class="row" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+						<div class="span24">
+    						<ul> 
+            					            						<li class="last-reviewed">Page last reviewed: <span itemprop="lastReviewed">May 16, 2014</span></li>
+            													            					            						<li class="last-updated">Page last updated: <span itemprop="dateModified">May 16, 2014</span></li>
+            					        							<li class="content-source">Content source:
+    									
+
+
+<ul class="noindent"><li class="" itemprop="sourceOrganization" itemscope="itemscope" itemtype="http://schema.org/Organization"><a href="../index.html" itemprop="url">Centers for Disease Control and Prevention</a></li></ul>
+
+        							</li>
+									
+
+
+
+    						</ul>
+						</div>
+					</div>					
+				</div><!-- /end #content -->
+			</div><!-- /.container for content -->					
+			<!-- footer -->
+				<footer id="footer" class="cdcSlimFooter">
+	
+ <!-- include eng footerSubSocialMedia.html -->
+<div class="socialMedia">
+	<div class="container">
+		<nav class="followcdc">
+			<ul>
+				<li><a href="../Other/emailupdates.1.html"><span class="sprite-24-govd"></span><span class="tp-sr-only">Email</span></a></li>
+				<li><a href="https://www.facebook.com/CDC" target="_blank"><span class="sprite-24-facebook"></span><span class="tp-sr-only">Recommend</span></a></li>
+				<li><a href="https://twitter.com/CDCgov" target="_blank"><span class="sprite-24-twitter"></span><span class="tp-sr-only">Tweet</span></a></li>
+				<li><a href="https://www.youtube.com/user/CDCstreamingHealth" target="_blank"><span class="sprite-24-youtube"></span><span class="tp-sr-only">YouTube</span></a></li>
+				<li><a href="https://www.instagram.com/CDCgov/" target="_blank"><span class="sprite-24-instagram"></span><span class="tp-sr-only">Instagram</span></a></li>
+			</ul>
+		</nav>
+		<nav class="cdcmedia">
+			<ul>
+				<li><a href="https://www2c.cdc.gov/podcasts"><span class="sprite-24-listen"></span><span class="tp-sr-only">Listen</span></a></li>
+				<li><a href="../cdctv.1.html"><span class="sprite-24-watch"></span><span class="tp-sr-only">Watch</span></a></li>
+				<li><a href="https://www2c.cdc.gov/podcasts/rss.asp"><span class="sprite-24-rss"></span><span class="tp-sr-only">RSS</span></a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+ <!-- /include eng footerSubSocialMedia.html -->
+
+	<div class="container">
+		<div class="cdcLinks">
+			<div class="container">
+				<ul>
+					
+<!-- include eng footerSubCdcLinks.html-->
+<li>
+	<nav>
+		<h6 class="hidden-four hidden-three">ABOUT <span class="icon-plus visible-one pull-right"></span></h6>
+		<ul class="hidden-one">
+			<li><a href="../about/default.htm">About CDC</a></li>
+			<li><a href="https://jobs.cdc.gov">Jobs</a></li>
+			<li><a href="../funding.1.html">Funding</a></li>
+		</ul>
+	</nav>
+</li>
+<li>
+	<nav>
+		<h6 class="hidden-four hidden-three">LEGAL <span class="icon-plus visible-one pull-right"></span></h6>
+		<ul class="hidden-one">
+			<li><a href="../Other/policies.html">Policies</a></li>
+			<li><a href="../Other/privacy.html">Privacy</a></li>
+			<li><a href="../od/foia.1.html">FOIA</a></li>
+			<li><a href="../eeo/nofearact/index.htm">No Fear Act</a></li>
+			<li><a href="https://oig.hhs.gov" class="no-link">OIG</a></li>
+		</ul>
+	</nav>
+</li>
+<!--/ include eng footerSubCdcLinks.html-->
+
+				</ul>
+			</div>
+		</div>
+		<div class="cdcContact">
+			<div class="container">
+				<ul>
+					<li class="local-contact">
+						
+ <!-- include eng footerSubGlobalContact1.html -->
+<section>
+	<address class="address" itemscope="itemscope" itemtype="https://schema.org/Organization">
+		<span class="value" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+			<span itemprop="streetAddress">1600 Clifton Road</span>
+			<span itemprop="addressLocality">Atlanta</span>,
+			<span itemprop="addressRegion">GA</span>
+			<span itemprop="postalCode">30329-4027</span>
+			<span itemprop="addressCountry">USA</span>
+		</span><br />
+		<span class="value" itemprop="telephone">800-CDC-INFO (800-232-4636)</span>,
+		<span class="value" itemprop="telephone">TTY: 888-232-6348</span><br />
+		<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx" class=" default no-link">Email CDC-INFO</a></span>
+		</span>
+	</address>
+</section>
+ <!-- /include eng footerSubGlobalContact1.html -->
+
+					</li>
+					<li class="contact">
+						
+ <!-- include eng footerSubGlobalContact2.html -->
+<section>
+	<address class="address" itemscope="itemscope" itemtype="https://schema.org/Organization">
+		<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://www.hhs.gov" class="no-link">U.S. Department of Health & Human Services</a></span>
+		</span><br />
+        <span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+        	<span itemprop="url"><a href="https://www.hhs.gov/open" class="no-link">HHS/Open</a></span>
+        </span><br />
+        <span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://www.usa.gov/" class="no-link">USA.gov</a></span>
+		</span>
+	</address>
+</section>
+ <!-- /include eng footerSubGlobalContact2.html -->
+
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>			<!-- /#footer -->
+			<div id="totop" class="off visible-one">Top</div>
+        </div>
+		<script>page_timing.libs_start = Date.now();</script><script src="../TemplatePackage/3.0/js/libs.min.js@3.2.1.7"></script><script>page_timing.libs_end = Date.now();page_timing.core_start = Date.now();</script><script src="../TemplatePackage/3.0/js/core.min.js@3.2.1.7"></script><script>page_timing.core_end = Date.now();</script><!-- Start Site Settings Overrides -->
+<script>
+CDC.Constants.set("flexSliderVideoDomains", ['youtube.com','ytimg.com','vimeocdn.com'], 'es');
+</script>
+<!-- End Site Settings Overrides --><script>page_timing.app_start = Date.now();</script><script src="../TemplatePackage/3.0/js/app.min.js@3.2.1.7"></script><script>page_timing.app_end = Date.now();</script>		
+		<!-- youtube using fitvids, requires .youtube class -->
+<script src="../TemplatePackage/3.0/js/libs/jquery.fitvids.js"></script>
+<script src="../TemplatePackage/3.0/js/modules/dynamic/media.js"></script>
+<script>
+$(function () {
+	CDC.Media.Video.init();
+});
+</script>
+
+<script src="../TemplatePackage/3.0/js/libs/jquery-ui.js"></script>
+
+<script>
+jqueryuiLoaded = true;
+$(function(){ 
+
+	CDC.Gadgets.Tabs.init();
+
+	CDC.Gadgets.Accordion.init();
+
+});
+</script>
+
+<script src="../TemplatePackage/3.0/js/modules/dynamic/gadgets.js"></script>
+        			<!-- Begin Survey scripts -->
+<script src="../JScript/foresee/foresee-trigger.js"></script>
+<script src="../JScript/foresee-variables.js"></script>
+<!-- End Survey scripts -->
+			
+            <script>if (typeof page_timing !== 'undefined') { page_timing.metrics_start = Date.now(); }</script>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code begins here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<div id="metrics">
+
+<!-- Begin Google DAP inclusion -->
+<script type="text/javascript" id="_fed_an_ua_tag" src="../JScript/metrics/google/Universal-Federated-Analytics-Min.js@agency=HHS&amp;subagency=CDC"></script>
+<!-- End Google DAP inclusion -->
+
+<!-- Begin Template Package Custom Interactions -->
+<script type="text/javascript" src="../JScript/metrics/rd_custom_interactions.js"></script>
+<!-- End Template Package Custom Interactions -->
+
+<!-- SiteCatalyst code version: H.21. -->
+<script src="../JScript/metrics/topic_levels.js"></script>
+<script src="../JScript/metrics/s_code_v21_cdcgov.js"></script>
+<script>
+
+	enquire.register(CDC.Global.selectors.vp1, function() {
+		s.prop49 = 1;
+	});
+	enquire.register(CDC.Global.selectors.vp2, function() {
+		s.prop49 = 2;
+	});
+	enquire.register(CDC.Global.selectors.vp3, function() {
+		s.prop49 = 3;
+	});
+	enquire.register(CDC.Global.selectors.vp4, function() {
+		s.prop49 = 4;
+	});
+
+            
+            
+
+
+
+    s.pageName=document.title;
+    s.channel="LabHIT";
+    
+    
+
+            
+                        
+            s.prop2=window.location.href;
+s.prop26=document.title;
+s.prop30=document.title;
+s.prop31=window.location.href;
+s.prop46=window.location.href;
+s.server=window.location.hostname;
+
+// Update the level variables here.
+updateVariables(s);
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();
+
+
+
+if(s_code) {
+	document.write(s_code);
+}
+
+
+
+if (document.location.protocol) {
+
+
+	var cookieManagment = {
+		getUuid : function (strPrefix) {
+			strPrefix = strPrefix || "";
+			var d = new Date();
+			var seconds = Math.round(d.getTime() / 1000);
+			return strPrefix + Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1) + "-" + seconds.toString();
+		},
+		setCookie : function (cname, cvalue, exdays, domain) {
+			domain = domain || ".cdc.gov";
+			var d = new Date();
+			d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			var expires = "expires="+ d.toUTCString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=" + domain + ";path=/";
+		},
+		getCookie : function (cname) {
+			var name = cname + "=";
+			var ca = document.cookie.split(';');
+			var i = ca.length;
+			while (i --) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length,c.length);
+				}
+			}
+			return "";
+		},
+		init : function () {
+
+
+
+			var currCookieVal = cookieManagment.getCookie('cdc_s_vi');
+
+			if (!currCookieVal.length || currCookieVal.indexOf('[CS]v1') != -1) {
+				var newCookieVal = cookieManagment.getUuid('[CS]v2') + "-" + cookieManagment.getUuid('');
+				cookieManagment.setCookie("cdc_s_vi", newCookieVal, 7);
+				return newCookieVal;
+			}
+			return currCookieVal;
+		}
+	};
+
+
+	var cdcSessionID = cookieManagment.init();
+
+	s3 = s_gi("cdcgovvistorid");
+
+	var sKey, override = {
+		fun: "cdcgovvistorid",
+		trackingServer: "cdc.112.2o7.net"
+	};
+
+	s3.visitorID = cdcSessionID;
+
+	for (sKey in s) {
+		if (s.hasOwnProperty(sKey)) {
+			if (override.hasOwnProperty(sKey)) {
+				s3[sKey] = override[sKey];
+
+			} else {
+
+			}
+		}
+	}
+	updateVariables(s3);
+
+
+	var s_code_uvid = s3.t();
+	if(s_code_uvid) {
+		document.write(s_code_uvid);
+	}
+}
+
+
+
+
+</script>
+<script type="text/javascript">
+if(navigator.appVersion.indexOf('MSIE')>=0) { document.write(unescape('%3C')+'\!-'+'-'); }
+</script>
+<noscript><a href="http://www.omniture.com"><img src="https://smtrics.cdc.gov/b/ss/cdcgov/1/H.21--NS/01/H.21--NS/0" height="1" width="1" alt="Web Analytics" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+<!-- Begin Template Package DigitalGov Search Support -->
+<script type="text/javascript" src="../JScript/rd_search.js"></script>
+<!-- End Template Package DigitalGov Search Support -->
+</div>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code ends here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<script>if (typeof page_timing !== 'undefined') { page_timing.metrics_end = Date.now(); }</script>
+				
+
+
+<!--[if IE]>
+<script defer language="javascript" type="text/javascript">
+		var cdcLeftNav = new CDC.LeftNav("nav-primary");
+		cdcLeftNav.render();
+</script>
+<![endif]-->
+<!--[if ! IE]><!-->
+<script language="javascript" type="text/javascript">
+$().ready(function(){
+		var cdcLeftNav = new CDC.LeftNav("nav-primary");
+		cdcLeftNav.render();
+});
+</script>
+<!--<![endif]-->
+
+    	
+
+
+
+						    </body>
+	</html>

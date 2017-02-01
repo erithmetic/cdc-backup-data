@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* Design time CSS Document */
+
+@import "../../../../css/B/newMods.css";
+
+body {font-size:12px !important;}
+
+body #wrapper, body > #siteinfo {width:900px;}
+body.widePage.appsPage #wrapper, body#applicationsPage.widePage.appsPage #wrapper {min-width:100%;}
+
+body #content-inner {width:100%;}
+
+body #content-secondary {
+	position:absolute;
+	float:right !important;
+}
+
+body #content-secondary #contact-info {padding:0;}
+
+body #nav-container {
+	display:block;
+	float:left;
+	margin-left:-100%;
+}
+
+body.widePage #nav-container {display:none;}
+
+body.widePage .pageOptions-inner {width:30%;}
+
+body #content-secondary .pageOptions .pageOptions-inner {background-repeat:none;}
+
+body #content .rounders {background-color:#eef7e3; margin:10px 0 0;}
+body #content .rounders .inner {background:transparent none;}
+
+body #content .rounders .b,
+body #content .rounders .inner .t,
+noscript,
+#AZlist-container {display:none;}
+
+body > #siteinfo {margin-top:0 !important;}
+
+body img {
+	width:100%;
+	max-width:100%;
+}
+
+.cdcSliderCarousel .cdcCarousel li {border:0 none;}
+
+.c50l, .c25l, .c33l, .c38l, .c66l, .c75l, .c62l {float:left;}
+.c50r, .c25r, .c33r, .c38r, .c66r, .c75r, .c62r {float:right;}
+
+.c25l, .c25r {width:25%;}
+.c33l, .c33r {width:33.33%px;}
+.c50l, .c50r {width:50%;}
+.c66l, .c66r {width:66.66%;}
+.c75l, .c75r {width:75%;}
+.c38l, .c38r {width:38%;}/* Golden Ratio */
+.c62l, .c62r {width:62%;}/* Golden Ratio */

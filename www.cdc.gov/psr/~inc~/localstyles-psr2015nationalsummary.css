@@ -1,0 +1,67 @@
+/* THIS CSS FILE IS APPLIED TO ALL PSR PAGES
+   VIA localRDAdditionalHeadIncludes TO SUPPORT
+   NATIONAL SUMMARY TOPIC PAGES */
+
+
+/* STYLES NATIONAL SUMMARY HOME PAGE TO CREATE GRAY TILES */
+
+.psr-topic-tile {
+border: 1px solid #cecece;
+background-color: #f1f1f1;
+border-radius: 5px;
+margin-bottom: 2px;
+padding: 8px;
+}
+
+.psr-topic-tile img {
+border: 1px solid #cecece;
+margin-right: 4px;
+}
+
+
+
+/* APPLY TO H4 TAG FOR EACH SECTION IN MODULES THAT MAKE UP NATIONAL-SUMMARY.HTML */
+
+.psr-section {
+display: block;
+padding: 5px 8px 5px 8px;
+border-top: 1px solid #075290;
+background-color: #b1dafb;
+}
+
+
+
+/* APPLY TO H4 TAG FOR REFERENCES IN MODULES THAT MAKE UP NATIONAL-SUMMARY.HTML */
+
+.psr-references  {
+display: block;
+padding: 5px 8px 5px 8px;
+border-top: 1px solid #606060;
+background-color: #ebebeb;
+}
+
+
+
+/* APPLY TO PARAGRAPH TAG FOR REFERENCES IN MODULES THAT MAKE UP NATIONAL-SUMMARY.HTML */
+
+.psr-space  {
+margin-bottom: 0;
+}
+
+
+
+/* APPLY TO LIST TAG FOR REFERENCES IN MODULES THAT MAKE UP NATIONAL-SUMMARY.HTML */
+
+.psr-nospace  {
+margin-top: 0;
+}
+
+
+
+/* STYLES THE SUBTITLE THAT APPEARS ON INDIVIDUAL TOPIC PAGES */
+
+.subtitle {
+font-size: 80%;
+color: #656565;
+letter-spacing: 1px;
+}

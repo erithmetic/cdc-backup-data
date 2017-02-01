@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+@import url("../../../../TemplatePackage/css/B/theme-purple.css");
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+
+.ml{
+	margin-right:5px;
+	margin-top:10px;
+}
+
+
+.top-blocks dl{
+	min-height: 75px;
+}
+
+
+#imageleft
+{
+float: left; position: relative;
+}
+
+#imageright
+{
+float: right; position: relative;
+}
+
+#imagecenter
+{
+position: relative;
+padding-left:50px;
+}
+
+table th{
+	text-align: left;
+	font-weight:normal;
+}
+
+table.nolines, th.nolines, td.nolines, tr.nolines
+ {
+                border: 0px solid #000; 
+                padding: 5px; 
+ }
+ 
+table.grey, th.grey, td.grey, tr.grey
+ {
+border: 1px solid #CCCCCC;
+ padding: 4px;
+ }
+ 
+table.scope, th.scope, td.scope, tr.scope
+ {
+	 color:#3D316A;
+	 font-weight:bold;
+ }
+ 
+ .psmallgrey {
+ 	color:gray;
+	font-size:90%;}
+
+
+ .psmallblack{
+ 	color:black;
+	font-size:90%;}
+
+
+
+.BGIndent{
+	padding-left: 20px;
+}
+
+
+.statsheader
+{
+background-color:#3D316A;
+color:#FFFFFF;
+padding: 2.5px;
+font-weight:bold;
+text-align:center;
+}
+
+.statsheadersub
+{
+background-color:#C5BEE1;
+padding: 2.5px;
+font-weight:bold;
+text-align:center;
+}
+
+ 
+table.scopeheaders, th.scopeheaders, td.scopeheaders, tr.scopeheaders
+ {
+	 color:#3D316A;
+	 font-weight:bold;
+	 text-align:left;
+	 
+ }
+  
+
+.imagefloat
+{
+	float:right;
+	width:240px;
+}
+
+.imagefloatg
+{
+	float:right;
+	width:165px;
+}

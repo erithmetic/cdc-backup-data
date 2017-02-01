@@ -1,0 +1,247 @@
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+@import url("../../../../TemplatePackage/css/B/theme-purple.css");
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+table, table tr, table td, table th{
+	border:none;
+}
+.plus-sign a, .minus-sign a {
+	text-decoration:none;
+}
+.minus-sign, .hide-content {
+	display:none;
+}
+ol.section-list{
+    list-style:upper-roman;
+}
+ol.section-list a{
+    color:blue;
+}
+ul.subject-list{
+    list-style:none;
+    margin-left:2px;
+    margin-top:15px;
+}
+ol.record-list{
+    margin-left:40px;
+    margin-top:15px;
+	list-style-type:decimal;
+}
+div.plus-sign a{
+    color:#003366;
+}
+.mediumHeader{
+    font-weight:bold;
+}
+
+table.clip-archive td{
+	vertical-align:top;
+}
+
+table.clip-archive ul{
+	list-style:circle;
+}
+
+table.clip-archive li{
+	padding:2px;
+}
+
+.tabbed {
+	margin-left: 25px;
+}
+
+.section-heading {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+span.mediumHeader a.topic-toggle {
+	background-image:url("https://www.cdc.gov/library/sciclips/issues/images/arrow_right.gif");
+	background-repeat: no-repeat;
+	padding-left: 10px;
+}
+
+.lefty {
+  margin-top: 10px;
+}
+
+/*Reminder text on DocExpress external request page /library/derequestform.html*/
+.reminder {
+	font:Arial, Helvetica, sans-serif;
+	color:#990000;
+	font-weight: bold;
+	font-size:11px
+}
+
+/*DocExpress external form styles*/
+.fields {
+	height: 1.75em;
+	}
+input.fields:focus, input.comments:focus, select:focus {
+  background-color: yellow;
+	}
+
+textarea:focus {
+  background-color: yellow;
+}
+
+.comments {
+	height: 7em;
+	margin-bottom: 1em;
+	}
+
+.buttons {
+	height: 2em;
+	width: 10em;
+	}	
+
+#rss-module a,
+#rss-module img{
+	display: inline !important;
+}
+
+#rss-module img {
+	position: relative;
+	top: 5px;
+}
+
+ul.services li.syndicate-content a {
+	background:transparent url('https://www.cdc.gov/library/images/widget_syndication.gif') 0 center no-repeat;
+}
+
+a#TopTen,
+a#CDCAuthors,
+a#KeyArticles,
+a#MediaArticles {
+	text-decoration: none;
+}
+
+.ui-accordion-content .ui-helper-reset .ui-widget-content .ui-corner-bottom .ui-accordion-content-active {
+                height: auto !important;
+}
+
+.ui-tabs .ui-tabs-panel {
+height: 20em;
+max-height: 20em;
+}
+
+.welcome_padding {
+	padding: 10px 0;
+	}
+	
+.colwrapper {
+	border: 1px solid #DEEEE9;
+    overflow: hidden;
+	position: relative;
+	 background-color: #FFFFFF;
+    padding: 0 1em 1em;
+	 margin-top: 10px;
+}
+.col {
+    float: left;
+    margin-left: 3.1%;
+	margin-top:3%;
+	margin-right:1%;
+}
+
+.colwrapper .slideTitle {
+    font-weight: bold;
+}
+
+.colwrapper p.slideDescription {
+    margin-top: 0;
+}
+.fullwidth .col {
+    float: none;
+    margin-left: 0;
+}
+.grid4 .col {
+    width: 20%;
+}
+
+.col a img { max-width: 100%;}
+
+.grid4 .col:nth-of-type(4n+1), .grid3 .col:nth-of-type(3n+1), .grid2 .col:nth-of-type(2n+1) {
+    clear: left;
+    /*margin-left: 0;*/
+}
+@media screen and (max-width: 740px) {
+.grid4 .col {
+    width: 35%;
+}
+.grid4 .col:nth-of-type(4n+1) {
+    clear: none;
+    margin-left: 3.2%;
+}
+.grid4 .col:nth-of-type(3n+1) {
+    clear: left;
+    margin-left: 0;
+}
+p img {
+    height: auto;
+    width: 100%;
+}
+}
+@media screen and (max-width: 600px) {
+.grid4 .col {
+    width: 48.4%;
+}
+.grid4 .col:nth-of-type(3n+1) {
+    clear: none;
+    margin-left: 3.2%;
+}
+.grid4 .col:nth-of-type(2n+1) {
+    clear: left;
+    margin-left: 0;
+}
+.grid3 .col {
+    width: 48.4%;
+}
+.grid3 .col:nth-of-type(3n+1) {
+    clear: none;
+    margin-left: 3.2%;
+}
+.grid3 .col:nth-of-type(2n+1) {
+    clear: left;
+    margin-left: 0;
+}
+p img {
+    height: auto;
+    width: 100%;
+}
+}
+@media screen and (max-width: 400px) {
+.col {
+    clear: none !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+p img {
+    height: auto;
+    width: 100%;
+}
+
+}	

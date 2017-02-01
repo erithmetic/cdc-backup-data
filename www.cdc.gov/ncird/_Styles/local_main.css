@@ -1,0 +1,2327 @@
+/* =================================================
+NCIRD MAIN STYLE SHEET (LOCAL_MAIN.CSS)
+Use this to overwrite any of the global styles or
+add customized elements.
+================================================= */
+
+/* Diagnostics File */
+/* @import url("/TemplatePackage/css/A/diagnostics.css"); */
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+.h2-underline-hdr-rose {
+   border-bottom: 2px solid #e1b8b8;
+   margin: 5px 0 10px;
+}
+.h2-underline-hdr-purple {
+   border-bottom: 2px solid #c5bee1;
+   margin: 5px 0 10px;
+}
+.h2-underline-hdr-teal {
+   border-bottom: 2px solid #c1ded5;
+   margin: 5px 0 10px;
+}
+.h2-underline-hdr-green {
+   border-bottom: 2px solid #c1d5b0;
+   margin: 5px 0 10px;
+}
+.h2-underline-hdr-tan {
+   border-bottom: 2px solid #ccba8b;
+   margin: 5px 0 10px;
+}
+.h2-underline-hdr-orange {
+   border-bottom: 2px solid #f9c671;
+   margin: 5px 0 10px;
+}
+
+.hr-line-purple
+{
+	width:100%;
+	color:#c5bee1;
+	size:1px;
+}
+.hr-line-teal
+{
+	width:100%;
+	color:#c1ded5;
+	size:2px;
+}
+
+
+
+<!--This ads the same amount of space as the "back to top" style -->	
+.space
+{
+	margin: 0;
+    padding: 1em 0;
+    position: relative;
+}
+
+.note_head { 
+	background-image: url("https://www.cdc.gov/ncird/images/push-pin.gif"); background-repeat: no-repeat; color: #000099; font-weight: bold; 			padding-left: 13px; padding-bottom:5px;
+	}
+.note_body { 
+	padding: 4px; 
+	}
+
+.note {
+	background-image:url(https://www.cdc.gov/ncird/images/icon_attn.gif);
+	background-repeat:no-repeat;
+	color:#000099;
+	font-weight:bold;
+	padding:2px 0 0 20px;
+}
+
+.warn-content { 
+	color:#000000; 
+	font-size: .85em;
+	font-weight:bold;	
+}
+
+.warning-head
+{
+	background-image:url(https://www.cdc.gov/ncird/images/warning.gif);
+	background-repeat:no-repeat;
+	color:#990000;
+	font-weight:bold;
+	padding-left:12px;
+	padding-top:4px;
+	padding-bottom:5px;
+	font-size:12px;
+	
+	
+}
+
+.bg-color
+	{
+		background-color: #c1d5b0;
+	}
+	
+
+
+h3.space {		/* 11/17/08: Adds space above and below paragraph */
+	margin-top: 1em;
+	margin-bottom: .5em;
+	}
+
+
+/* ======================================
+FONT STYLES
+Used for changing appearance of fonts
+Created: 11/03/08
+========================================= */
+
+.red {		/* 10/30/08: Sets font color to red */
+	color: #FF0000;
+	}
+
+.brick{   /* 10/30/08: Sets font color to brick */
+	color: #990000;
+}	
+	
+
+.pink {
+    color: #F8258A;
+    font-weight: bold;
+}
+.smalltxt { /* 10/30/08: Sets font size to 9ems */
+	font-size: .9em;
+	}
+
+.bold {		/* 10/30/08: Bolds text - use instead of "strong" or "bold" */
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	}
+
+/* ====================================================
+TABLE STYLES
+These styles are for changing the appearance of tables
+and/or table cells
+======================================================= */
+table caption {
+    font-family: Trebuchet MS,Arial,sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+    text-align: left;
+}
+
+table.noborder	{    /* 10/30/08: Removes border from tables */
+	border:none;
+	}
+	
+table.noborder td {  /* 10/30/08: Removes border from table cell */
+	border: none;
+	}
+	
+table.noborder tr {  /* 10/30/08: Removes border from table row */
+	border: none;
+	}
+
+table.noborder th {	/* 10/30/08: Removes border from table header */
+	border: none;
+	text-align:left;
+	}
+	
+th.lefthrs, td.lefthrs, tr.lefthrs  {  /* 10/30/08: Left aligns text inside of table headers and cells */
+	text-align:left;
+	vertical-align:top;
+	}
+
+th.green, td.green, tr.green {		/* 10/30/08: Sets background color to green for table headers, cells, and rows */
+	background-color: #c1d5b0;
+	}
+	
+th.purple, td.purple, tr.purple {	/* 10/30/08: Sets background color to purple for table headers, cells, and rows */
+	background-color: #c5bee1;
+	}
+
+th.orange, td.orange, tr.orange {	/* 10/30/08: Sets background color to orange for table headers, cells, and rows */
+	background-color: #f9c671;
+	}
+th.teal, td.teal, tr.teal {	/* 10/30/08: Sets background color to orange for table headers, cells, and rows */
+	background-color: #c1ded5;
+	}
+table th {
+	text-align: left;
+	vertical-align:top;
+	}
+table td	
+{
+	vertical-align:top;
+	text-align: left;
+}
+	
+table th.right_align 
+{
+	text-align:right;
+}
+
+table th.center_align 
+{
+	text-align:center;
+}	
+
+table td.right_align 
+{
+	text-align:right;
+}
+
+table td.center_align 
+{
+	text-align:center;
+}			
+	
+	
+/* ==========================
+IMAGE STYLES
+============================= */
+
+
+img.frame {			10/30/08: Adds padding to image, surrounds with border
+	padding: 2px;
+	margin: 4px 4px 0 8px;
+	border: 1px solid #999999;
+	}
+
+	
+img.marginright-border	{	/* 10/30/08: Puts border around image and adds right margin */
+	margin-right: 9px;
+	border: 1px solid #000000;
+	float: left;
+	}
+
+.ampersand {		/* 11/20/08: Used on ampersand characters: Added 11/21/08 */  
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+.disclaimer	{		/* 10/30/08: Used for link disclaimer text */
+	border-top: 1px solid #605e5e;
+	font: .90em Arial, Helvetica, sans-serif;
+	padding: 4px;
+	color:#696969;
+	margin-left:10px;
+	}
+
+.disclaimerHdr	{	/* 10/30/08: Used for link disclaimer header */
+	color: #696969;
+	padding:2px 0 0 0px;
+	font-weight:bold;
+
+	}
+
+.exit	{			/* 10/30/08: Used for "exit" indicator */
+	color: #999999;
+	font-size: .80em;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 4px 0 4px 0;
+	text-decoration: none;
+	}
+
+.more-info {		/* 10/30/08: Used for file information (size, # pages, etc.) */
+	margin-top:5px;
+	color: #666666;
+	font-size: .86em;
+	font-weight: normal;
+	line-height: 13px;
+	}
+	
+.more_info {		
+	margin-top:5px;
+	color: #666666;
+	font-size: .86em;
+	font-weight: normal;
+	line-height: 13px;
+	}	
+
+.image-file
+{
+	color: gray;
+    font-size: 90%;
+}
+	
+.more-info-larger {
+color:#595858;
+font-size:0.95em;
+font-weight:normal;
+line-height:105%;
+}
+
+
+.updated {
+    color: #666666;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: .80em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+	
+.new {
+    color: #990000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: .80em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.vis-dates {
+    color: #990000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: .80em;
+    text-transform: uppercase;
+}
+
+
+#wrapper a.new  {
+    color: #FF0000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.page-header-sub	{ /* Check for usage - delete if unused */
+	margin-top: 0;
+	padding-top: 0;
+	font-size: .6em;
+	font-weight: bold;
+	}
+	
+p.topofpage {		/* 10/30/08: Used for top of page graphic */
+	margin-top: 6px;
+	margin-bottom: 12px;
+	clear: both;
+	text-align: right;
+	display: block;
+	
+	}
+
+
+
+/* =================================
+DATA AND STATISTICS STYLES
+==================================== */
+
+/* .datastats-img-hvr { 10/30/08: Centers the div and allows it to fully expand
+	margin: 0 auto;
+	width: auto;
+	}
+
+
+.datastats-img-hvr a:hover { 10/30/08: Centers the anchor and removes any padding
+	margin: 0 auto;
+	padding: 0;
+
+.datastats-img-hvr a img { 10/30/08: Set the default appearance of the image inside the anchor contained within the div 
+	display: block;
+	margin: 0 auto;
+	border: 3px solid #ffffff;
+	}
+
+.datastats-img-hvr a:hover img { 10/30/08: Changes color of the border from the default above.
+	border: 3px solid #F5DDAF;
+	}
+*/
+
+
+
+/*	li.podcast-icon-li a {	
+	list-style-image: url(/TemplatePackage/images/icon_podcast.gif);
+	list-style: outside;
+	background: url(/TemplatePackage/images/icon_podcast.gif) 0 0 no-repeat;
+	padding-left: 20px;
+	}
+*/
+
+ /* ===================================
+Code for Podcast Icon
+====================================== */
+
+.podcast-icon-li {
+	list-style-type: none;
+	/* padding-right: 20px; */
+	width: 100%;
+	}
+
+.podcast-icon-li a {
+	background:transparent url(https://www.cdc.gov/ncird/images/icon_podcast.gif) no-repeat scroll 0 0;
+	padding-left:20px;
+}
+
+#content .rounders li.podcast-icon-li span.style1 {
+	display:block;
+}
+		
+.podcast-icon {
+	background: url(https://www.cdc.gov/TemplatePackage/images/icon_podcast.gif) no-repeat scroll 0 2px;
+	margin: 0;
+	padding-left: 20px;
+	border-bottom: dotted 1px #999999;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	}
+	
+.podcast-icon-noline {
+	background: url(https://www.cdc.gov/TemplatePackage/images/icon_podcast.gif) no-repeat scroll 0 2px;
+	margin: 0;
+	padding-left: 20px;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	}
+
+<!-- Code to add podcast image at the end of a bullet -->
+.podcast-sm{
+	background: url(https://www.cdc.gov/ncird/images/icon_podcast.jpg) scroll no-repeat left 1px;
+	display:inline-block;
+	padding:0 0 0 17px;
+	top:0;
+	vertical-align:baseline;
+}
+
+.podcast-icon-small {
+	background: url(https://www.cdc.gov/ncird/images/icon_podcast.jpg) no-repeat scroll 4px 1px;
+	margin: 0;
+	padding-left: 18px;
+	padding-bottom: 3px;
+	margin-top: 4px;
+	}
+
+ /* ===================================
+END Podcast Icon
+====================================== */
+	
+#nav-container ul.boldlinks li a { /* 10/30/08: Removes above/below spacing for "boldlinks" in left nav */
+	display: inline;
+	}
+
+#nav-container ul.boldlinks li { /* 10/30/08: Works with style above */
+	padding-top: 6px;
+	padding-bottom: 6px;
+	}
+
+
+/* ==========================================
+ Sets bullet item to video icon
+============================================= */
+.video{
+	background: url(https://www.cdc.gov/ncird/images/icon_video.gif) scroll no-repeat left 1px;
+	display:inline-block;
+	padding:0 0 0 27px;
+	top:0;
+	vertical-align:baseline;
+}
+   
+ul.icon_video {
+	list-style-type: none;
+	/* padding-right: 20px; */
+	width: 100%;
+	}
+	
+
+#content .rounders li.icon_video a {
+	background:transparent url(https://www.cdc.gov/ncird/images/icon_video.gif) no-repeat scroll 0 0;
+	padding-left:28px;
+}
+
+#content .rounders li.icon_video span.style1 {
+	display:block;
+}
+		
+p.icon_video {
+	background: url(https://www.cdc.gov/ncird/images/icon_video.gif) no-repeat scroll 0 2px;
+	margin: 0;
+	padding-left: 27px;
+	border-bottom: dotted 1px #999999;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	}
+	
+p.icon_video_noborder {
+	background: url(https://www.cdc.gov/ncird/images/icon_video.gif) no-repeat scroll 0 2px;
+	margin: 0;
+	padding-left: 27px;
+	padding-bottom: 4px;
+	margin-top: 4px;
+	}
+
+/* ==========================================
+ PUBLICATION STYLES ADDED 10/30/08
+============================================= */
+
+div.pub-pg-wrap	{	/* 10/30/08: Used for publication pages (images left, text right) */
+	float:left;
+	font-size:95%;
+	margin:.4em auto;
+	padding:0 0 .5em;
+	position:relative;
+	width:570px;
+	/* clear: both; */
+	}
+div.pub-pg-wraptext	{	
+	float:left;
+	font-size:95%;
+	margin:1.5em auto;
+	padding:0px;
+	position:relative;
+	width:350px;
+	/* clear: both; */
+	}
+	
+.pub-left {			/* 10/30/08: Sets left column for publication images */
+	clear:left;
+	float:left;
+	margin:0;
+	position:relative;
+	text-align:left;
+	width: 20%;
+	/* padding-right: 15px; */
+	}
+
+.pub-right {		/* 10/30/08: Sets right column for text description */
+	clear:right;
+	float:right;
+	margin:0;
+	position:relative;
+	text-align:left;
+	width: 68%;
+	}
+	
+.pub-left img {		/* 10/30/08: Used to set margins for publication images */
+	margin-top:5px;
+	margin-right: 10px;
+	}
+
+div.divline {	/* 10/30/08: Adds a divider line below text */
+	clear:both;
+	padding: 7px 0 0 0;
+	margin: 0;
+	display: block;
+	border-bottom:solid;
+	border-bottom-color:#999999;
+	border-width:1px;
+	}
+
+p.subhead {		/* Paragraph heading - bolds text */
+	font-weight:bold;
+	}
+
+/* ===================================
+Q/A styles added 11/01/08
+====================================== */
+
+#content-main .blockquote {		/* 10/30/08: Used to indent text; indents answer text under question */
+	margin-left:30px;
+	padding-top: 0;
+	}
+	
+	#content-main .blockquote-2 {		/* 10/30/08: Used to indent text; indents answer text under question */
+	margin-left:40px;
+	padding-top: 0;
+	}
+	
+p.blockquote {		/* This was added to support older browsers */
+	margin-left:30px;
+	margin-top: 0;
+	padding-top: 0;
+	}
+
+.qa-purple {		/* 10/30/08: Sets the "Q" for question text to purple */
+	color: #996699;
+	font-weight: bold;
+	}
+	
+.qa-green {			/* 10/30/08: Sets the "Q" for question text to green */
+	color: #336633;
+	font-weight: bold;
+	}
+
+.qa-orange {		/* 10/30/08: Sets the "Q" for question text to orange */
+	color: #DB5F22;
+	font-weight: bold;
+	}
+
+.faqs-q {			/* Bolds the question line in all of the "Questions & Answers" pages */
+	font-weight: bold;
+	font-size:15px;
+	
+	}
+
+/* ======================================================================
+NOT READY TO USE YET, STILL NEEDS SOME TWEAKING
+Shaded Tabs (example on http://www.cdc.gov/media/subtopic/sme.htm
+========================================================================= */
+
+.shadetabs {
+	-x-system-font:none;
+	background-image:none;
+	font-family:Verdana;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+	list-style-type:none;
+	margin-bottom:1px;
+	margin-left:1px;
+	margin-top:2px;
+	padding:2px 1px;
+	text-align:center;
+}
+.tabcontentstyle {
+border:1px solid gray;
+margin-bottom:1em;
+padding:10px;
+width:560px;
+}
+.tabcontent {
+display:none;
+}
+.leadImagebox {
+float:left;
+padding:6px;
+}
+.leadTextbox {
+float:left;
+padding:6px;
+width:440px;
+}
+
+<!--<div id="A" class="tabcontent" style="display: block;">-->
+/* ======================================================================
+End Tabs
+========================================================================= */
+
+	
+
+/* ====================================================================================
+Code for more style within the same paragraph - http://wwwdev.cdc.gov/mumps/index.html
+==================================================================================== */	
+.arrows, .module .arrows {
+	margin:0;
+	padding:0;
+}
+.arrows, .module .arrows {
+	border:medium none;
+	color:#0061AA;
+	margin:0;
+	padding:0;
+	text-align:right;
+}
+.arrows a {
+background:transparent url(../../TemplatePackage/images/btn_dblArrows.gif) no-repeat scroll right bottom;
+font-weight:bold;
+margin:0 2px 0 0;
+padding:2px 1em 4px 0;
+text-align:right;
+text-decoration:none;
+}
+/* ====================================================================================
+END code for arrows
+==================================================================================== */	
+
+/*  This is used on the homepage within modules to separate content */
+.top-divide-darker{
+border-top:2px dotted #C1C1C1;
+margin-top:3px;
+margin-bottom:5px;
+}
+
+.spanish-english-text
+{
+	color:#838080;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.sp_services_ftr
+{
+	color:##696969;
+	font-size:1em;
+}
+
+
+
+
+/* ====================================================================================
+FOOTNOTES
+==================================================================================== */	
+
+#footnote, #footnote2, #footnote3, #footnote4, #footnote5, #footnote6
+{
+	margin-top:23px;
+}
+
+#footnote p, #footnote2 p, #footnote3 p, #footnote4 p, #footnote5 p, #footnote6 p
+{
+	margin-left:30px;
+	margin-top: 0;
+	padding-top: 0;
+	font-size:11px;
+}
+
+#footnote ul li, #footnote2 ul li, #footnote3 ul li, #footnote4 ul li, #footnote5 ul li, #footnote6 ul li
+{
+	font-size:11px;
+}
+
+#footnote ol li, #footnote2 ol li, #footnote3 ol li, #footnote4 ol li, #footnote5 ol li, #footnote6 ol li
+{
+	font-size:11px;
+}
+
+#footnote hr, #footnote2 hr, #footnote3 hr, #footnote4 hr, #footnote4 hr, #footnote5 hr, #footnote6 hr
+{
+	width:50%;
+	margin-top:-6px;
+	
+}
+
+#footnote h3, #footnote2 h3, #footnote3 h3, #footnote4 h3, #footnote5 h3, #footnote6 h3
+{
+	font-size:15px;
+	font-weight:bold;
+}
+
+/* ====================================================================================*/
+
+
+
+#footnote-rose hr, #footnote-rose2 hr, #footnote-rose3 hr, #footnote-rose4 hr, #footnote-rose5 hr, #footnote-rose6 hr
+{
+	border-top:dotted #a06b6e thin;
+	width:40%;
+	position:absolute;
+	margin-top:-6px;
+}
+
+#footnote #footnote-rose h3, #footnote #footnote-rose2 h3, #footnote #footnote-rose3 h3, #footnote #footnote-rose4 h3, #footnote #footnote-rose5 h3, #footnote #footnote-rose6 h3
+{
+	color:#a06b6e;
+	font-size:1.3em;
+}
+/* ====================================================================================*/
+
+#footnote-purple hr, #footnote-purple2 hr, #footnote-purple3 hr, #footnote-purple4 hr, #footnote-purple5 hr, #footnote-purple6 hr
+{
+	border-top:dotted #766fa0 thin;
+	width:40%;
+	position:absolute;
+	margin-top:-6px;
+}
+
+#footnote #footnote-purple h3, #footnote #footnote-purple2 h3, #footnote #footnote-purple3 h3, #footnote #footnote-purple4 h3, #footnote #footnote-purple5 h3, #footnote-purple6 h3
+{
+	color:#766fa0;
+	font-size:1.3em;
+}
+
+
+
+/* ====================================================================================*/
+
+#footnote-tan hr, #footnote-tan2 hr, #footnote-tan3 hr, #footnote-tan4 hr, #footnote-tan5 hr, #footnote-tan6 hr
+{
+	border-top:dotted #7e6b4c thin;
+	width:40%;
+	position:absolute;
+	margin-top:-6px;
+}
+
+#footnote #footnote-tan h3, #footnote #footnote-tan2 h3, #footnote #footnote-tan3 h3, #footnote #footnote-tan4 h3, #footnote #footnote-tan5 h3, #footnote #footnote-tan6 h3
+{
+	color:#7e6b4c;
+	font-size:1.3em;
+}
+
+/* ====================================================================================*/
+
+#footnote-green hr, #footnote-green2 hr, #footnote-green3 hr, #footnote-green4 hr, #footnote-green5 hr, #footnote-green6 hr
+{
+	border-top:dotted #768867 thin;
+	width:40%;
+	position:absolute;
+	margin-top:-6px;
+}
+
+#footnote #footnote-green h3, #footnote #footnote-green2 h3, #footnote #footnote-green3 h3, #footnote #footnote-green4 h3, #footnote #footnote-green5 h3, #footnote #footnote-green6 h3
+{
+	color:#768867;
+	font-size:1.3em;
+}
+
+/* ====================================================================================*/
+
+#footnote-teal hr, #footnote-teal2 hr, #footnote-teal3 hr, #footnote-teal4 hr, #footnote-teal5 hr, #footnote-teal6 hr
+{
+	border-top:dotted #83a296 thin;
+	width:40%;
+	float:left;
+	position:absolute;
+	margin-top:-6px;
+}
+
+#footnote #footnote-teal h3, #footnote #footnote-teal2 h3, #footnote #footnote-teal3 h3, #footnote #footnote-teal4 h3, #footnote #footnote-teal5 h3, #footnote #footnote-teal6 h3
+{
+	color:#83a296;
+	font-size:1.3em;
+}
+
+/* ====================================================================================*/
+
+#footnote-orange hr, #footnote-orange2 hr, #footnote-orange3 hr, #footnote-orange4 hr, #footnote-orange5 hr, #footnote-orange6 hr
+{
+	border-top:dotted #612e1f thin;
+	width:40%;
+	position:absolute;
+	margin-top:-6px;
+}
+
+#footnote #footnote-orange h3, #footnote #footnote-orange2 h3, #footnote #footnote-orange3 h3, #footnote #footnote-orange4 h3, #footnote #footnote-orange5 h3, #footnote-orange6 h3
+{
+	color:#612e1f;
+	font-size:1.3em;
+}
+
+/* New footnote style - do not delete footnote styles above until new style is replaced on sites.  This style only uses one ID */
+
+#content-main .footnote
+{	
+	margin-top:23px;
+}
+
+#content-main .footnote p
+{	
+	margin-left:30px;
+	font-size:11px;
+}
+
+#content-main .footnote ul
+{	
+	margin-left:10px;
+	font-size:11px;
+}
+
+#content-main .footnote ol
+{	
+	margin-left:10px;
+	font-size:11px;
+}
+
+#content-main .footnote-purple h3
+{
+	color:#766fa0;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-orange h3
+{
+	color:#612e1f;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-tan h3
+{
+	color:#7e6b4c;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-rose h3
+{
+	color:#a06b6e;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-green h3
+{
+	color:#768867;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-teal h3
+{
+	color:#83a296;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+/* =================Footnotes styles used within modules=====================================================*/
+
+#content-main .footnote-purple-module h4
+{
+	color:#766fa0;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+#content-main .footnote-orange-module h4
+{
+	color:#612e1f;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-tan-module h4
+{
+	color:#7e6b4c;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-rose-module h4
+{
+	color:#a06b6e;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-green-module h4
+{
+	color:#768867;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+#content-main .footnote-teal-module h4 
+{
+	color:#83a296;
+	font-size:1.2em;
+	font-weight:bold;	
+}
+
+/* End new footnote style */
+
+.module-header /* ====================================================================================*/
+{
+	color: #766FA0;
+    font-size: 1em;
+	font-weight:bold;
+}
+.footnote-content
+{
+	font-size:10px;
+	margin-left:30px;
+	
+}
+/* ===============================================================================
+The numberList style is used to have an ordered list within a module.
+=============================================================================== */
+.numberList .inner {
+	margin:0;
+	padding:4px 8px;
+	width:auto;
+}
+.numberList ol {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:decimal;
+	padding:0 0 0 2em;
+}
+:first-child + html .numberList ol {
+	margin-left:2em;
+}
+.numberList ol li {
+	border-bottom:medium none;
+	display:list-item;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:decimal;
+	padding:0;
+	vertical-align:top;
+	margin-bottom:5px;
+}
+:first-child + html .numberList ol li {
+	overflow:hidden;
+}
+
+/* =================================================
+	BEGIN COLUMNS
+================================================= */
+.c10l
+{
+	float:left;
+}
+.c10l
+{
+	width:10%;
+}
+.c10r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c10r
+{
+	width:10%;
+}
+
+.c15l
+{
+	float:left;
+}
+.c15l
+{
+	width:15%;
+}
+.c15r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c15r
+{
+	width:15%;
+}
+.c20l
+{
+	float:left;
+}
+.c20l
+{
+	width:20%;
+}
+.c20r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c20r
+{
+	width:20%;
+}
+.c21l
+{
+	float:left;
+}
+.c21l
+{
+	width:21%;
+}
+.c21r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c21r
+{
+	width:21%;
+}
+.c22l
+{
+	float:left;
+}
+.c22l
+{
+	width:22%;
+}
+.c22r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c22r
+{
+	width:22%;
+}
+
+
+.c23l
+{
+	float:left;
+}
+.c23l
+{
+	width:24%;
+}
+.c23r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c23r
+{
+	width:24%;
+}
+
+
+
+
+
+
+.c25l
+{
+	float:left;
+}
+.c25l
+{
+	width:25%;
+}
+.c25r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c25r
+{
+	width:25%;
+}
+
+
+.c30l
+{
+	float:left;
+}
+.c30l
+{
+	width:30%;
+}
+.c30r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c30r
+{
+	width:30%;
+}
+
+.c31l
+{
+	float:left;
+}
+.c31l
+{
+	width:31%;
+}
+.c31r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c31r
+{
+	width:31%;
+}
+
+.c32l
+{
+	float:left;
+}
+.c32l
+{
+	width:32%;
+}
+.c32r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c32r
+{
+	width:32%;
+}
+.c33l
+{
+	float:left;
+}
+.c33l
+{
+	width:33%;
+}
+.c33r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c33r
+{
+	width:33%;
+}
+.c34l
+{
+	float:left;
+}
+.c34l
+{
+	width:34%;
+}
+.c34r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c34r
+{
+	width:34%;
+}
+
+.c35l
+{
+	float:left;
+}
+.c35l
+{
+	width:35%;
+}
+.c35r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c35r
+{
+	width:35%;
+}
+
+.c37l
+{
+	float:left;
+}
+.c37l
+{
+	width:37%;
+}
+.c37r
+{
+	float:right;
+}
+.c37r
+{
+	width:37%;
+}
+.c378r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c37r
+{
+	width:37%;
+}
+
+.c38l
+{
+	float:left;
+}
+.c38l
+{
+	width:38%;
+}
+.c38r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c38r
+{
+	width:38%;
+}
+
+.c40l
+{
+	float:left;
+}
+.c40l
+{
+	width:40%;
+}
+.c40r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c40r
+{
+	width:40%;
+}
+
+
+.c42l
+{
+	float:left;
+}
+.c42l
+{
+	width:42%;
+}
+.c42r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c42r
+{
+	width:42%;
+}
+
+.c43l
+{
+	float:left;
+}
+.c43l
+{
+	width:43%;
+}
+.c43r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c43r
+{
+	width:43%;
+}
+.c44l
+{
+	float:left;
+}
+.c44l
+{
+	width:44%;
+}
+.c44r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c44r
+{
+	width:44%;
+}
+.c45l
+{
+	float:left;
+}
+.c45l
+{
+	width:45%;
+}
+.c45r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c45r
+{
+	width:45%;
+}
+.c46l
+{
+	float:left;
+}
+.c46l
+{
+	width:46%;
+}
+.c46r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c46r
+{
+	width:46%;
+}
+.c47l
+{
+	float:left;
+}
+.c47l
+{
+	width:47%;
+}
+.c47r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c47r
+{
+	width:47%;
+}
+
+.c48l
+{
+	float:left;
+}
+.c48l
+{
+	width:48%;
+}
+.c48r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c48r
+{
+	width:48%;
+}
+
+.c49l
+{
+	float:left;
+}
+.c49l
+{
+	width:49%;
+}
+.c49r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c49r
+{
+	width:49%;
+}
+.c51l
+{
+	float:left;
+}
+.c51l
+{
+	width:51%;
+}
+.c51r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c51r
+{
+	width:51%;
+}
+
+.c52l
+{
+	float:left;
+}
+.c52l
+{
+	width:52%;
+}
+.c52r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c52r
+{
+	width:52%;
+}
+
+.c53l
+{
+	float:left;
+}
+.c53l
+{
+	width:53%;
+}
+.c53r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c53r
+{
+	width:53%;
+}
+
+
+.c54l
+{
+	float:left;
+}
+.c54l
+{
+	width:54%;
+}
+.c54r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c54r
+{
+	width:54%;
+}
+
+.c55l
+{
+	float:left;
+}
+.c55l
+{
+	width:55%;
+}
+.c55r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c55r
+{
+	width:55%;
+}
+
+
+.c56l
+{
+	float:left;
+}
+.c56l
+{
+	width:56%;
+}
+.c56r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c56r
+{
+	width:56%;
+}
+
+
+.c58l
+{
+	float:left;
+}
+.c58l
+{
+	width:58%;
+}
+.c58r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c58r
+{
+	width:58%;
+}
+
+.c59l
+{
+	float:left;
+}
+.c59l
+{
+	width:59%;
+}
+.c59r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c59r
+{
+	width:59%;
+}
+
+.c60l
+{
+	float:left;
+}
+.c60l
+{
+	width:60%;
+}
+.c60r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c60r
+{
+	width:60%;
+}
+
+.c61l
+{
+	float:left;
+}
+.c61l
+{
+	width:61%;
+}
+.c61r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c61r
+{
+	width:61%;
+}
+
+.c63l
+{
+	float:left;
+}
+.c63l
+{
+	width:63%;
+}
+.c63r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c63r
+{
+	width:63%;
+}
+.c65l
+{
+	float:left;
+}
+.c65l
+{
+	width:65%;
+}
+.c65r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c65r
+{
+	width:60%;
+}
+
+.c66l
+{
+	float:left;
+}
+.c66l
+{
+	width:66%;
+}
+.c66r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c66r
+{
+	width:66%;
+}
+.c68l
+{
+	float:left;
+}
+.c68l
+{
+	width:68%;
+}
+.c68r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c68r
+{
+	width:68%;
+}
+.c69l
+{
+	float:left;
+}
+.c69l
+{
+	width:69%;
+}
+.c69r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c69r
+{
+	width:69%;
+}
+.c70l
+{
+	float:left;
+}
+.c70l
+{
+	width:70%;
+}
+.c70r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c70r
+{
+	width:70%;
+}
+.c72l
+{
+	float:left;
+}
+.c72l
+{
+	width:72%;
+}
+.c72r
+{
+	float:right;
+	margin-left:-5px;
+	margin-right:5px;
+}
+.c72r
+{
+	width:72%;
+}
+.c72l
+{
+	float:left;
+}
+.c73l
+{
+	float:left;
+}
+.c73l
+{
+	width:73%;
+}
+.c73r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c73r
+{
+	width:73%;
+}
+.c76l
+{
+	float:left;
+}
+.c76l
+{
+	width:76%;
+}
+.c76r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c76r
+{
+	width:76%;
+}
+.c78l
+{
+	float:left;
+}
+.c78l
+{
+	width:78%;
+}
+.c78r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c78r
+{
+	width:78%;
+}
+.c79l
+{
+	float:left;
+}
+.c79l
+{
+	width:79%;
+}
+.c79r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c79r
+{
+	width:79%;
+}
+
+.c83l
+{
+	float:left;
+}
+.c83l
+{
+	width:83%;
+}
+.c83r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c83r
+{
+	width:83%;
+}
+
+.c85l
+{
+	float:left;
+}
+.c85l
+{
+	width:85%;
+}
+.c85r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c85r
+{
+	width:85%;
+}
+
+.c90l
+{
+	float:left;
+}
+.c90l
+{
+	width:90%;
+}
+.c90r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c90r
+{
+	width:90%;
+}
+.c97l
+{
+	float:left;
+}
+.c97l
+{
+	width:97%;
+}
+.c97r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c97r
+{
+	width:97%;
+}
+.c98l
+{
+	float:left;
+}
+.c98l
+{
+	width:98%;
+}
+.c98r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c98r
+{
+	width:98%;
+}
+
+.c100l
+{
+	float:left;
+}
+.c100l
+{
+	width:100%;
+}
+.c100r
+{
+	float:right;
+	margin-left:-5px;
+}
+.c100r
+{
+	width:100%;
+}
+
+/* =================================================
+	END COLUMNS
+================================================= */
+
+.printerfriendly-right {
+    color: #0061AA;
+    overflow: hidden;
+    text-align: right;
+	
+}
+.printerfriendly-right a {
+    clear: both;
+    display: block;
+    float: right;
+    margin: 0;
+	margin-top:8px;
+    position: relative;
+    text-decoration: underline;
+	width:300px;
+}
+
+.printerfriendly-left {
+    color: #0061AA;
+    overflow: hidden;
+    text-align: right;
+}
+.printerfriendly-left a {
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0;
+	margin-top:8px;
+    padding: 0.25em 1.5em;
+    position: relative;
+    text-decoration: underline;
+}
+/* =================================================
+Table row shading
+================================================= */
+
+.table-footnotes
+{
+	font-size:0.8em;
+	font-weight:bold;
+}
+
+/* ==========PURPLE============ */
+.cell-shade-purple
+{
+            background-color:#dad5eb
+}
+
+.table-footnotes-hr-purple
+{
+	color:#c5bee1;
+	width:35%;
+	margin-bottom:5px;
+}
+
+/* ==========ORANGE============ */
+.cell-shade-orange
+{
+            background-color:#fbd69a;
+}
+
+.table-footnotes-hr-orange
+{
+	color:#f9c671;
+	width:35%;
+	margin-bottom:5px;
+}
+
+
+/* ==========TEAL============ */
+.cell-shade-teal
+{
+	background-color:#dbf0ea;
+}
+
+.table-footnotes-hr-teal
+{
+	color:#c1ded5;
+	width:35%;
+	margin-bottom:5px;
+}
+
+/* ==========ROSE============ */
+.cell-shade-rose
+{
+	background-color:#f2d4d4;
+}
+
+.table-footnotes-hr-rose
+{
+	color:#e1b8b8;
+	width:35%;
+	margin-bottom:5px;
+}
+
+#acronym-wrapper {
+    border: 0 none;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    width: 600px;
+}
+
+#acronym-wrapper .acronyma {
+    float: left;
+    font-weight: bold;
+    padding-bottom: 6px;
+    width: 90px;
+	line-height:20px;
+	border-bottom:1px dotted #999999;
+}
+#acronym-wrapper .acronymb {
+    float: left;
+    margin: 0;
+    padding-bottom: 6px;
+    width: 500px;
+	line-height:20px;
+	border-bottom:1px dotted #999999;
+}
+
+
+#terms-wrapper {
+    border: 0 none;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    width: 600px;
+}
+
+#terms-wrapper .acronymvaca {
+   
+    border-bottom: 1px solid #CCCCCC;
+    float: left;
+    font-weight: bold;
+   	padding: 5px 5px 10px 5px;
+    width: 150px;
+	overflow:visible;
+}
+#terms-wrapper .acronymvacb {
+  	border-bottom: 1px solid #CCCCCC;
+    float: left;
+    padding: 5px 5px 10px 5px;
+    width: 370px;
+	overflow:visible;
+}
+
+.marg-right
+{
+	margin-right:10px;
+}
+.marg-left
+{
+	margin-left:5px;
+}
+
+/* ======================================
+TABLE STYLES
+========================================= */
+
+th.dk-green
+{
+	background-color: #c1d5b0;
+}
+tr.lt-green
+{
+	background-color: #d5e6c5;
+}
+
+th.dk-orange
+{
+	background-color: #f9c671;
+}
+tr.lt-orange
+{
+	background-color: #fdda80;
+}
+
+th.dk-purple
+{
+	background-color: #c5bee1;
+}
+tr.lt-purple
+{
+	background-color: #e8e8f8;
+}
+
+th.dk-teal
+{
+	background-color: #c1ded5;
+}
+tr.lt-teal
+{
+	background-color: #d5ede6;
+}
+
+th.dk-tan
+{
+	background-color: #ccba8b;
+}
+tr.lt-tan
+{
+	background-color: #dfcf9e;
+}
+
+th.dk-rose
+{
+	background-color: #e1b8b8;
+}
+tr.lt-rose
+{
+	background-color: #efcdcd;
+}
+
+
+.module-border
+{
+	font-size: 0.95em;
+	float:left;
+	border:#CCCCCC solid 1px;
+    padding:8px 8px 0px 8px;
+	margin:5px;
+	text-align: left;
+}
+
+th.nobold
+{
+	font-weight:normal;
+}
+
+.module-left-margin
+{
+	margin-left:15px;	
+}
+.left-padding-15
+{
+	padding-left:15px;	
+}
+.left-margin-15
+{
+	margin-left:15px;	
+}
+.left-margin-25
+{
+	margin-left:25px;
+}
+.left-margin-20
+{
+	margin-left:20px;
+}
+.bottom-margin-25
+{
+	margin-bottom:25px;	
+}
+.smaller-text-84
+{
+	font-size:0.84em;
+	
+}
+
+
+.title-shading-purple {
+    background: none repeat scroll 0 0 #e9e6f5;
+    border-bottom: 0.05em solid #b6b0cf;
+    border-top: 0.05em solid #b6b0cf;
+    margin: 1em 0 !important;
+    padding: 0.2em 0.3em;
+}
+
+.title-shading-teal {
+    background: none repeat scroll 0 0 #ecf6f3;
+    border-bottom: 0.05em solid #b3d1c7;
+    border-top: 0.05em solid #b3d1c7;
+    margin: 1em 0 !important;
+    padding: 0.2em 0.3em;
+}
+
+.title-shading-teal-toc {
+    background: none repeat scroll 0 0 #ecf6f3;
+    border-bottom: 0.05em solid #b3d1c7;
+    border-top: 0.05em solid #b3d1c7;
+    margin: 1em 0 !important;
+    padding: 0.2em 0.3em;
+	width:63%;
+	min-width:63%;
+	
+}
+
+.upper-case
+{
+	text-transform:uppercase;
+	font-size:0.8em;
+}
+
+
+/* ooooooooooooooooooooooooo Spanish left rail styles ooooooooooooooooooo */
+
+.spanish-green {
+    background-color: #6c7f5f;
+    border: 1px solid #CDCDCD;
+    margin: 0 0 .1em;
+    padding: 5px;
+}
+.outside-border-green
+{
+	border: 2px solid #0c5205;
+	padding:2px;
+}
+.spanish-orange {
+    background-color: #f7be6b;
+    border: 1px solid #CDCDCD;
+    margin: 0 0 .1em;
+    padding: 5px;
+}
+.outside-border-orange
+{
+	border: 2px solid #612e1f;
+	padding:2px;
+}
+.spanish-purple {
+    background-color: #706a8f;
+    border: 1px solid #CDCDCD;
+    margin: 0 0 .1em;
+    padding: 5px;
+}
+.outside-border-purple
+{
+	border: 2px solid #3d316a;
+	padding:2px;
+}
+.spanish-rose {
+    background-color: #8f6565;
+    border: 1px solid #CDCDCD;
+    margin: 0 0 .1em;
+    padding: 5px;
+}
+.outside-border-rose
+{
+	border: 2px solid #621919;
+	padding:2px;
+}
+.spanish-tan {
+    background-color: #766749;
+    border: 1px solid #CDCDCD;
+    margin: 0 0 .1em;
+    padding: 5px;
+}
+.outside-border-tan
+{
+	border: 2px solid #503608;
+	padding:2px;
+}
+.spanish-teal {
+    background-color: #6c8a7f;
+    border: 1px solid #CDCDCD;
+    margin: 0 0 .1em;
+    padding: 5px;
+}
+.outside-border-teal
+{
+	border: 2px solid #084239;
+	padding:2px;
+}
+
+:first-child + html .spanish .inner {
+    overflow: hidden;
+}
+.spanish p:lastChild {
+    border-bottom: medium none;
+    margin-bottom: 0;
+    padding-bottom: 0 !important;
+}
+
+/* ooooooooooooooooooooooooo End Spanish left rail styles ooooooooooooooooooo */
+
+/* ooooooooooooooooooooooooo 2nd Contact Info option ooooooooooooooooooo */
+
+#contact-info2 {
+    color: #000000;
+    margin: 1em 0;
+    padding: 0 0.5em 0 0;
+    position: relative;
+    width: 169px;
+}
+#contact-info2 ul li {
+    border: medium none;
+    margin-left: 0;
+    padding: 2px 0 2px 2.75em;
+    position: relative;
+	}
+#contact-info2 ul {
+    list-style: none outside none;
+    margin: 0.5em 0 0;
+    padding: 0 0.5em;
+    position: relative;
+}
+#contact-info2 li.mail {
+    background: url("https://www.cdc.gov/TemplatePackage/images/icon_mail.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#contact-info2  h5 {
+    font-family: "Trebuchet MS";
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0 0.5em 0.75em;
+    width: auto;
+}
+#contact-info2 li {
+    font-size: 0.9em;
+}
+#contact-info2 ul.noBullet li {
+    display: block;
+    list-style: none outside none;
+    width: auto;
+}
+
+/* ooooooooooooooooooooooooo End 2nd Contact Info option ooooooooooooooooooo */

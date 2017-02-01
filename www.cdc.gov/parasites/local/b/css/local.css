@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+@import url(explore.css);
+@import url(https://www.cdc.gov/parasites/local/b/css/tan.css);
+
+.main-inner p a:link, .main-inner p a:visited {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.main-inner p a:hover {
+	text-decoration:underline !important;
+}
+
+img {max-width:100%;height:auto;}
+
+img.lifeCycle {
+	margin-bottom:10px;
+}
+.list-leadIn {
+	margin-bottom:10px !important;
+}
+
+.list-leadOut {
+	margin-top: 10px !important;
+}
+
+.indent5px {
+	margin:0 5px 0 5px;
+}
+
+.list-indent {
+	padding-left:20px !important;
+}
+
+.moreon {
+	background:transparent url('https://www.cdc.gov/parasites/images/ui/dbl_arrows.gif') left top no-repeat;
+	display:block;
+	font-weight:bold;
+	margin:0 2px 1em 0;
+	padding:2px 1em 4px 8px;
+	text-align:left;
+	text-decoration:none;
+}
+
+.moreon a:link, .moreon a:visited, .moreon a:link span, .moreon a:visited span {
+	text-decoration:none !important;	
+}
+
+.moreon a:hover, .moreon a:hover span {
+	text-decoration:underline !important;	
+}
+
+.italic_header {
+	font-style:italic !important;
+	margin:0 !important;
+	position:relative !important;
+}
+
+#tripleColumn {
+	border:0;
+}
+
+#tripleColumn #col {
+	width:31%;
+	min-height:390px;
+	float:left;
+	border-right:2px groove;
+	padding:0 5px;
+}
+
+#quadColumn {
+	border:0;	
+}
+
+#quadColumn #col {
+	width:23%;
+	float:left;
+	padding:0 5px;	
+}
+
+#podcast {
+	margin-bottom:10px;	
+}
+
+#podcast a {
+	background:url('https://www.cdc.gov/TemplatePackage/images/icon_podcast.gif') left no-repeat;
+	display:block;
+	font-weight:bold;
+	margin:0 2px 1em 0;
+	padding:2px 1em 4px 20px;
+	text-align:left;
+	text-decoration:none;
+	display:inline;
+}
+
+#tip {
+	font-family:"Arial", sans-serif;
+	position:absolute;
+	top:0;
+	left:0;
+	border:2px solid #666666; 
+	width:300px; 
+	padding:5px; 
+	margin:10px; 
+	background:#FFFF00; 
+	display:none;
+	z-index:100;
+}
+
+#tip p { margin:0; }
+
+.a2z-container {
+	width:100% !important;
+	display:block !important;
+	float:none !important;
+	margin:0 auto !important;
+	padding:0 !important;
+	height:auto !important;
+	text-align:center !important;
+}
+
+.a2z {
+	list-style:none;
+	padding:0;
+	margin:0 0 10px 3px;
+	font-size:1.3em;
+	font-weight:normal;
+	color:#000000;
+	text-align:center;
+	float:left;
+	width:auto;
+	overflow:visible;
+	position:relative;
+	display:block;
+}
+
+.a2z li {
+	display:inline;
+	float:left;
+ 	width:19px;
+	margin:3px 2px 3px 2px;
+	padding:0;
+	clear:none;
+}
+
+.a2z li a:link, .a2z li a:visited, .a2z li span {
+	display:block;
+	width:100%;
+	padding:0;
+	border-width:2px;
+	border-color:#ffe #aaab9c #ccc #fff;
+	border-style:solid;
+	color:#0a29a5 !important;
+	text-decoration: none;
+	background:#f4f8ff;
+	font-weight:bold;
+	text-align:center;
+}
+
+.a2z li span {
+	color:#999999 !important;
+}
+
+.a2z li a:hover {
+	color:#0a29a5;
+	font-weight:bold;
+	text-decoration:none !important;
+	background: #ffffff;
+	border-color: #aaab9c #fff #fff #ccc;
+}
+
+
+.a2z li span {
+	background:#FFF;
+}
+
+.reference {
+	font-size: .8em;
+	color: #333333;
+}
+
+.hide {
+	display:none;
+}
+
+.imageCaption {
+	font-style:italic !important;
+	margin-bottom:10px !important;
+}
+
+.imageCaption em {
+	font-style:normal !important;
+}
+
+.imageCaption a:link, .imageCaption a:visited {
+	text-decoration:none;
+}
+
+.imageCaption a:hover {
+	text-decoration:underline !important;	
+}
+
+#archivedbox {
+	padding:10px;	
+	border:solid 1px #000;
+	background:#fff9b2;
+	/*background:e1b8b8;*/
+	color:#000;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+
+/* I added this on Aug. 3 2012. - Jon Kennon, Waterborne Disease Prevention Branch */
+.inlinelinks {
+	display:inline !important;
+}
+
+ul.inlinelinks span {
+	display:inline !important;
+}
+
+ul.inlinelinks a {
+	display:inline !important;	
+}
+
+
+.boldlist {
+	font-weight:bold;
+}
+
+.nobold {
+	font-weight:normal;
+	list-style-type:inherit;
+}
+
+#centerbox {
+	width: 66%;
+	overflow:hidden;
+}
+
+#centerbox2 {
+	width: 66%;
+	overflow:hidden;
+}
+
+.moveDown {
+	margin-top:15px;
+	padding-top:15px;
+}
+
+.printResources ul li {
+	margin:0;
+	display:list-item;
+	border-bottom:1px dotted #999;
+	padding:3px 2.5px;
+	list-style:none;
+}
+
+.printResources ul li ul {
+	clear: none; 
+	float: none;
+}
+
+.subColumns p a:link, .subColumns p a:visited {
+	text-decoration:none;
+	font-weight:bold;	
+}
+
+.subColumns p a:hover {
+	text-decoration:underline !important;	
+}
+
+.newinfo {
+	font-size:.8em;
+	color:#f00;
+	font-style:italic;
+}
+
+img.headroom {
+          margin-top:15px !important;
+}
+
+ul.outbreak-ataglance li {
+         font-weight:bold;
+}
+
+ul.outbreak-ataglance li a {
+         display:inline !important;
+}
+
+ul.nodec {
+background-color:#fff;
+	background-image:none;
+	display:block;
+	margin:0;
+	padding:5px;
+	list-style:none;
+	width:auto;
+}

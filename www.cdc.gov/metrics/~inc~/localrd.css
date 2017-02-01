@@ -1,0 +1,103 @@
+#datestamp ul li > ul li + li {
+display: block;
+}
+
+.metricsboxes {
+	
+	padding-left:8px;
+	padding-top:15px;
+}
+/* Overall CSS */
+
+.metnumber {
+	font-size: 32px;
+	color: #FFF;
+	margin:0px;
+	line-height: 36px;
+}
+.metwebsite {
+	font-size: 30px !important;
+	color: #f47323 !important;
+	font-weight:bold !important;
+	line-height: 50px !important;
+}
+.metwebsite a:link, .metwebsite a:visited, .metwebsite a:active {
+	color:#f47323 !important;
+	text-decoration:none;
+}
+.metwebsite a:hover {
+	color:#f47323 !important;
+	text-decoration:underline;
+}
+.metpageviews {
+	font-size: 16px;
+	color: #FFF;
+	padding-bottom: 10px;
+}
+.metmoreinfo {
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	margin-top: 10px;
+}
+.metmoreinfo a:link, .metmoreinfo a:visited, .metmoreinfo a:active {
+	color:#FFF !important;
+}
+.metmoreinfo a:hover {
+	color:#FFF !important;
+	text-decoration:none;
+}
+.metricimg {
+	margin-bottom:38px;
+} /* Twitter */
+.twnumber {
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	color: #FFF;
+	margin:0px;
+}
+.metricimgtw {
+	margin-bottom:10px;
+}
+.twwebsite {
+	font: 28px "Lato", Helvetica, sans-serif;
+	line-height: 50px;
+}
+.twwebsite a:link, .twwebsite a:visited, .twwebsite a:active {
+	color:#f47323 !important;
+	text-decoration:none;
+}
+.twwebsite a:hover {
+	color:#f47323 !important;
+	text-decoration:underline;
+} /* Satisfaction Scores */
+.satnumber {
+	color: #FFF;
+	margin: 10px 0px 0px;
+	font: 55px/59px "Lato", Arial, Helvetica, sans-serif;
+}
+.satwebsite {
+	font-family: "Lato", Helvetica, sans-serif;
+	font-size: 22px;
+}
+.satcdcwebsite {
+	font-family: "Lato", Helvetica, sans-serif;
+	font-size: 30px;
+	color: #f47323 !important;
+	font-weight:bold;
+	line-height: 50px;
+}
+.satwebsite a:link, .satwebsite a:visited, .satwebsite a:active {
+	color:#f47323 !important;
+	text-decoration:none;
+}
+.satwebsite a:hover {
+	color:#f47323 !important;
+	text-decoration:underline;
+}
+.satmetricimg {
+	margin-bottom:30px;
+} /* VitalSigns */
+.metricimgvs {
+	margin-bottom:3px;
+}

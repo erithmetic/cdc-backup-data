@@ -1,0 +1,56 @@
+
+	#wrapper ul.list-block li a
+ {
+     top: 0px !important; 
+
+}  
+#wrapper ul.list-block li
+ {
+     top: 3px !important;
+
+} 
+
+em {
+margin-right:5px !important
+}
+
+.ui-tabs  {
+margin-bottom: 10px !important;
+}
+
+#datestamp ul li > ul li + li {
+display: block;
+}
+                
+
+/* Gold Modules */ 
+.box_typeH {
+	background: rgb(255, 255, 255); position: relative; min-height: 300px; box-shadow: 0px 0px 5px 0px rgba(50,50,50,0.75); -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.box_typeH p {
+	padding: 15px 5px 20px; display: table-cell;
+}
+.box_typeH .description a {
+	color: rgb(0, 0, 0) !important; text-decoration: none !important;
+}
+.box_typeH .morelink {
+	padding: 0px 15px 0px 0px; text-align: right; right: 0px; bottom: 0px; color: rgb(7, 82, 144) !important; position: absolute;
+}
+.box_typeH .morelink a {
+	text-decoration: none !important; margin-right: 5px;
+}
+.box_typeH .morelink a:hover {
+	text-decoration: underline !important;
+}
+.mask {
+	position: relative;
+}
+.mask img {
+	border-bottom-color: rgb(225, 183, 90); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.topic-blurb {
+	background: rgb(225, 183, 90); left: -5px; top: 90%; width: 72px; text-align: center; color: rgb(0, 0, 0); display: block; position: absolute;
+}
+.what_new_title {
+	font-weight: bold;
+}

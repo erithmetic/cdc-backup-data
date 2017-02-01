@@ -1,0 +1,166 @@
+iframe
+{
+overflow:auto;
+-webkit-overflow-scrolling:touch;
+}
+
+
+.schedule-red {
+    background-color: #ce1042;
+}
+
+.schedule-yellow {
+	background-color:#ffcf00;
+}
+
+.schedule-green {
+	background-color:#73ae94;
+}
+
+.schedule-purple {
+	background-color:#bd9ac6;
+}
+
+.schedule-white{
+	 border: 1px solid #ddd;
+}
+
+.schedule-blue{
+	 background-color:#a3d8f5;
+}
+
+
+.font-white {
+    color: #fff;
+}
+
+#main-container table th {
+	text-align: left;
+}
+
+
+#main-container table td {
+      text-align: center;
+   }
+
+#main-container table th.center-align {
+	text-align: center;
+}
+
+
+#main-container table td.align-right {
+      text-align: right;
+   }
+
+#main-container table td.align-left{
+      text-align: left;
+   }
+
+#main-container .red-color {
+    color: #8f0000 !important;
+}
+
+
+#main-container .red-color {
+    color: #8f0000 !important;
+}
+#main-container .bold {
+    font-weight: 700;
+}
+
+#main-container table td.left-align {
+    text-align: left;
+}
+
+
+.datestamp {
+
+    border: medium none;
+    color: #696969;
+    font-size: 0.7em;
+   
+}
+
+sub, sup {
+   
+    line-height: 1.5em;
+   
+}
+
+.primary-bg-color {
+    background: #c1d5b0 none repeat scroll 0 0 !important;
+}
+
+.blue-bg-color
+{
+	background-color:#c6cfe7;	
+}
+
+.red
+{
+	color:#e03443;	
+}
+.blue
+{
+	color:#0061a5;	
+}
+
+.etr-teen-schedule-blue {
+	background-color:#00a4e4
+}
+.etr-teen-schedule-green {
+	background-color:#8dc642;
+}
+.etr-teen-schedule-orange {
+	background-color:#e8ac2d;
+}
+.etr-teen-schedule-purple {
+	background-color:#662e8a;
+}
+
+
+.etr-adult-schedule-pink {
+	background-color:#D2BCC8;
+}
+.etr-adult-schedule-green {
+	background-color:#11825D;
+}
+.etr-adult-schedule-blue {
+	background-color:#10A2CF;
+}
+.etr-adult-schedule-gray {
+	background-color:#CCC;
+}
+
+.etr-child-schedule-blue {
+	background-color:#005EAB;
+	color:#FFFFFF;
+}
+.etr-child-schedule-yellow {
+	background-color:#FFF087;
+}
+
+.bottom-border
+{
+	border-bottom:#CCCCCC solid thin;
+	
+}
+
+
+.right-border-none
+{
+	border-right:none;
+	
+}
+
+.left-border-none
+{
+	border-left:none;
+	
+}
+
+.right-padding-none
+{
+	padding-right:0px;
+
+}

@@ -1,0 +1,15 @@
+/* =================================================
+BASE IMPORT 3 COLUMN STYLE SHEET
+================================================= */
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/reset.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/columns.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/type.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/grid.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/widgets.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/newMods.css';

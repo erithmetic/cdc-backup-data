@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>
+          Science Clips - Health Disparities - RSS
+        </title>
+    <link>http://www.cdc.gov</link>
+    <description>Science Clips</description>
+    <copyright>(c) 2010, www.cdc.gov</copyright>
+    <item>
+      <title>Racial disparities in functional limitations among Hispanic women in the United States</title>
+      <pubDate>Mon, 28 Mar 2016</pubDate>
+      <link>http://www.ncbi.nlm.nih.gov/pubmed/26966257</link>
+      <description>&lt;strong&gt;Chinn JJ&lt;/strong&gt;, Hummer RA.&lt;br /&gt;Res Aging. 2016 Apr;38(3):399-423.</description>
+      <category>Health Disparities</category>
+    </item>
+    <item>
+      <title>Barriers to health care among adults identifying as sexual minorities: A US national study</title>
+      <pubDate>Mon, 28 Mar 2016</pubDate>
+      <link>http://www.ncbi.nlm.nih.gov/pubmed/26985623</link>
+      <description>&lt;strong&gt;Dahlhamer JM&lt;/strong&gt;, &lt;strong&gt;Galinsky AM&lt;/strong&gt;, &lt;strong&gt;Joestl SS&lt;/strong&gt;, &lt;strong&gt;Ward BW&lt;/strong&gt;.&lt;br /&gt;Am J Public Health. 2016 Mar 17:e1-e7.</description>
+      <category>Health Disparities</category>
+    </item>
+  </channel>
+</rss>

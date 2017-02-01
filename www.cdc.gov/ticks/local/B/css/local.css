@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+@import url("../../../../TemplatePackage/css/B/theme-teal.css");
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+.new {
+	color:#FF0000;
+	font-weight: bold;
+	}
+.indexTop {
+	padding-bottom:20px;
+	}
+.home .group {
+	height: 3em;
+	min-height: 3em;
+}
+#notable-dis li {
+	background: url(../../../images/tick_teal.gif) no-repeat left center;
+	min-height: 33px;
+}
+#notable-dis a {
+	position: relative;
+	left: 37px;
+	display: list-item;
+ 	margin-top: 8px;
+}
+#blog {
+	width: 175px;
+}
+#blog a {
+	display: block;
+	width: 145px;
+	margin: 0 auto;
+}
+.p75 {
+	width: 75%;
+	margin: 0 auto;
+}
+.p50 {
+	width: 50%;
+	margin: 0 auto;
+}
+.p50 p {
+	text-align: center;
+}
+#tick_sizes {
+	width: 485px;
+	margin: 30px auto;
+	/*added top spacing for tick size module avoid On this Page overlap */
+}
+#tick_lifecycle {
+	width: 510px;
+	margin: 0 auto;
+}
+.c75c {
+	width: 75%;
+	margin: 0 auto;
+}
+#anapl-dist {
+	width: 358px;
+	display: block;
+	margin: 0 auto;
+}
+.map-boxes {
+	width: 458px;
+	display: block;
+	margin: 0 auto;
+}
+#ehrl-dist {
+	width: 508px;
+	display: block;
+	margin: 0 auto;
+}
+.caption {
+	color: #696969;
+	font-size: .9em;
+}
+#starilist ol {
+	padding: .25em 4px .25em 15px !important;
+}
+.txtbold {
+	font-weight: bold;
+}
+.videoSet {
+	padding-left:20px;
+
+	
+	
+	}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/**
+ * CDC - (X)HTML/CSS Framework
+ *
+ * @package         TemplatePackage 'B'
+ * @version         2.8.2
+ * @builddate       2016-12-13
+ */
+
+@import 'reset.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/columns-float.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/type.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/grid.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/leftNav.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/widgets-float.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/newMods-float.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/socialMedia.css';

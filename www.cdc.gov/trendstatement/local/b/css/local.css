@@ -1,0 +1,269 @@
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+/* News module - Thumbnail Images */
+
+.hivNewsThumbs { margin:0px  !important; padding:0px  7px !important }
+
+.hivTabsThumbs { margin:0px  !important; padding:10px  17px 17px 0px !important }
+
+/* PREVIOUSLY: .hivTabsThumbs { margin:0px  !important; padding:0px  17px 17px 0px !important } */
+
+.hivTestWidget { margin:0px  !important; padding:0px  0px 0px 0px !important }
+
+.hivNewsImg{border:none !important}
+
+.hivTextMedImg { margin:0px  !important; padding:10px  10px !important }
+
+.hivThumbs {  margin:0px  !important; padding:5px  12px 0px 0px  !important }
+
+.hivMore{font-size:0.9em !important; margin-top:0px !important; text-align:right !important; display:block !important; color:#0061aa; margin-right:10px;}
+
+.hivLefty{
+position: relative; 
+margin-top:10px;
+
+padding:0px;
+
+float: left;
+vertical-align: baseline;	}
+	
+	
+.hivNowrap{ text-wrap:none !important;}
+
+
+.hivFontNormal{font-weight:normal !important;}
+
+.hivSmallTextUnderGraphs {font-size:0.9em !important; margin-top:0px !important; color:#666666 !important;}
+
+.hivGraphs { margin:15px 0px 0px 0px  !important; padding:0px !important;  }
+
+.hivSmallText {font-size:0.9em !important; margin-top:0px !important;}
+
+.hivP {margin-bottom:15px !important; }
+
+.hivImgRight { margin:0px  !important; padding:0px  17px 17px 17px !important }
+
+.hivUL{list-style-type:circle !important; background:none !important}
+
+.hivFontNormal a {font-weight:normal !important}
+
+
+/* for vertical space inside CDC modules */
+.hivVSpace { margin-top:10px !important}
+
+/*used in Daily News  border: 1px solid grey;*/
+iframe { width:95%; height: 500px; 
+ margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* accordion module arrow - chanes it to justified near the top instead of vertically centered */
+.ui-accordion .ui-accordion-header .ui-icon {
+    margin-top: 2px !important;
+    top: auto;
+}
+
+/* accordion module h4 background - changes it to white instead of green */
+.ui-accordion .ui-accordion-header,
+#no-js .accordion > h4 {
+       background-color: #FFFFFF;
+       color:#0c5205;
+       margin-top:4px;
+       border:1px solid #c1d5b0;
+       border-radius:4px;
+       padding:0.30em 1.5em;
+       position:relative;
+       cursor:pointer;
+       text-indent:0.5em;
+	   text-decoration: underline;
+	   font-weight: normal !important;
+}
+
+
+.rightBlocks{
+align:center !important;	
+}
+
+/* for a right-justified columns to highlight images or other content */
+#sidebar_highlight_200	{
+float: right;
+position:relative;
+width: 200px;
+margin-left: 10px;
+padding-bottom: 10px;
+}
+
+
+
+.hivFeatureSlider ol {font-weight:normal !important}
+
+
+.compendiumGood {
+	color: #606;
+}
+
+.compendiumBest {
+	color: #C60;
+}
+
+
+/* for widget HIV Testing Locator*/
+
+.lightbox { background: none; position: fixed; top: 50%; left: 50%; z-index: 9999; width: 735px; height: 530px; margin: -280px 0 0 -380px; padding: 30px 0 0 25px; text-align: left; }
+
+.lightbox .close { position: absolute; top: 17px; right: -10px; background: url('http://locator.aids.gov/images/close_box_red.png') left top no-repeat; display: block; height: 34px; width: 34px; text-indent: -999em; overflow: hidden; cursor: pointer; }
+
+.lightbox .loading { color: #fff; position: absolute; top: 35%; left: 30%; font-size: 4em; font-family: Trebuchet MS; }
+
+.lightbox iframe { background: #ffffff; border: solid 10px rgb(0, 0, 0); }
+
+.locationBox { width: 735px; height: 530px; margin: -280px 0 0 -380px; padding: 30px 0 0 25px; }
+
+.overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5000; background-color: #000;  opacity: 0.8; position: fixed; filter: alpha(opacity=80); }
+
+
+			
+/* for widget HIV Testing Locator in HOME PAGE */
+.hivSearchLg_home {position:relative; background-color:#d2e2c5;  width:308px;}
+/*#hivSearchbtns{margin-top:50px;}*/
+#hivSearchForm_home { position: absolute; top:35px; width: 100%;}
+
+.searchT_home {background:url(https://www.cdc.gov/hiv/local/B/includes/hiv_search/find-hiv-home_mj_small-02.jpg) no-repeat; height:263px; width:308px; margin-top:0px !important; }
+.righBlockTitle_home {position: absolute; top:5px;  width: 100%;}
+.righBlock_home0 {background-position: -16px -0px;}
+.righBlock_homeOne {background-position: -348px -0px;display:none;}
+.righBlock_homeTwo {background-position: -680px -0px;display:none;}
+.righBlock_homeThree {background-position: -1012px -0px;display:none;}
+
+#navContainer_home {width:305px;margin-top:5px; margin-right:20px; margin-bottom:5px; margin-left:13px !important;  top:65px; }
+#navContainer_home .navButton_home {background:url(https://www.cdc.gov/hiv/local/B/includes/hiv_search/nav-buttons-home-greenBackg.jpg) no-repeat #000;width:94px;height:38px;display:inline-block; margin-right: -4px;cursor:pointer; margin-left: 0px}
+#navContainer_home .active {background-position: -97px 0px;}
+#navContainer_home .navText_home {color:#fff;font-family:Arial, Helvetica, sans-serif;font-size: 12px; font-weight:bold; padding-top:7px; padding-left:0px; padding-bottom:5px; padding-right:0px;
+width: 100%;}
+.blockContainer_home { position:relative;top:80px;left:7px;   width: 240px;}/*positions tab content under the input location and select pull down menu*/
+
+.searchForm_home {width:100%;}
+.searchForm_home #submitBtn {position:absolute; margin: 0px 3px; vertical-align:top !important; }
+#radius_home {width:85px; border:1px #17530d solid; color:#000000;}
+.location_home{width:120px;border:1px #17530d solid; height:15px;  padding:2px !important; margin-top:9px; margin-left:5px;}
+
+
+.searchT_home  input,select {display:inline-block;font-size:15px;color:#666}
+
+.blockContainer_home p {text-align:left; margin-left:10px; font-family:Verdana, Geneva, sans-serif;font-size:12px;color:#000;}
+
+.righBlockTitle_home p {text-align:left; margin-left:10px; font-family:Verdana, Geneva, sans-serif;font-size:24px;color:#006600; }
+
+
+.righBlockOne_home .blockContainer_home p {text-align:left;font-size:12px;}
+
+.socialIcons_home {position:relative}
+.socialIcons_home img {position:absolute;left:10px;}
+.socialIcons_home ul li a{text-decoration:none;font-size:12px;color:#00568f;font-family:Verdana, Geneva, sans-serif;}
+.socialIcons_home ul li{ list-style: none;}
+.extra_home {font-size:11px;font-family:Verdana, Geneva, sans-serif}
+
+.extra_home select {font-size:11px;margin-bottom:4px;}
+
+
+#embedIcon { background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/embed_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+
+#emailFriend{background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/emailFriend_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+#facebook{background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/facebook_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+#mySpace{background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/mySpace_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+#myDigg{background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/myDigg_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+#stumbleUpon{background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/stumbleUpon_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+#technorati{background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/technorati_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+#reddit{background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/reddit_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+
+#delicious{background:url("https://www.cdc.gov/hiv/local/B/includes/hiv_search/delicious_icon.jpg")    no-repeat top left;
+padding-left: 20px;}
+
+
+
+
+/* for the HIV TESTING LOCATOR WIDGET ON THE RIGHT NAVIGATION*/
+
+
+#hivSearch_rightNav {width:160px;position:relative; }
+#hivSearchForm_rightNav{left:5px; position: absolute; top: 66px;  vertical-align:top !important;}
+.submitBtn {position:absolute;  margin: 0px 5px 0px 1px;}
+
+.searchT_rightNav{background:url(https://www.cdc.gov/hiv/local/B/includes/hiv_search/find_hiv_bg.jpg) no-repeat #000;width:155px;height:330px;border:1px #17530d solid}
+.righBlock0_rightNav{background-position: -15px -16px;}
+.righBlock_rightNavOne{background-position: -191px -16px;display:none;}
+.righBlock_rightNavTwo{background-position: -366px -16px;display:none;}
+.righBlock_rightNavThree{background-position: -542px -16px;display:none;}
+	
+#navContainer_rightNav {width:160px; margin:5px; top:65px}
+#navContainer_rightNav .navButton_rightNav {background:url(https://www.cdc.gov/hiv/local/B/includes/hiv_search/nav-buttons.jpg) no-repeat #000;width:49px;height:26px;display:inline-block; margin-right: -4px;cursor:pointer}
+#navContainer_rightNav .active {background-position: -52px 0px;}
+#navContainer_rightNav .navText_rightNav {color:#fff;font-family:Arial, Helvetica, sans-serif; font-size: 12px; padding: 5px 10px;}
+.blockContainer_rightNav {position:relative; top:140px; left:5px;   width: 135px;}
+.blockContainer_rightNav ul li {position:relative; text-align:left;  margin-left:0px;  width: 135px; font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#000}
+
+.radius_rightNav {width:95px; margin-top:5px; }
+.location_rightNav{width:95px; margin-top:5px; padding:2px;}
+
+
+.searchT_rightNav  input,select {display:inline-block; font-size:15px;color:#000;}
+
+.blockContainer_rightNav p{ font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#000}
+ 
+.righBlock_rightNavOne .blockContainer_rightNav p {text-align:left; font-size:10px;}
+
+.socialIcons_rightNav {position:relative;}
+.socialIcons_rightNav ul li a{text-decoration:none;font-size:10px;color:#00568f;font-family:Verdana, Geneva, sans-serif; line-height:20px; margin-left:25px;}
+.socialIcons_rightNav ul li{ list-style: none;}
+/*.socialIcons_rightNav img {position:absolute;left:10px; top:0px; padding-top:0px; margin-top:0px;}*/
+
+
+
+
+
+
+
+/*.searchForm_rightNav {width:100%;}*/
+.searchForm_rightNav 
+

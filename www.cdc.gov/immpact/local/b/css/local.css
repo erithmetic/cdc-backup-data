@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+
+.module h2  {
+  font-size: 22px !important;
+}
+
+.module h3 {
+  font-size: 20px !important;
+}
+
+.module h1, h2, h3, h4 {
+  border-bottom: none !important;
+}
+
+.module ul, ol {
+    margin: 0 15px !important;
+}
+
+.module {
+    margin-bottom: 2px !important;
+}
+
+.marginleft15 {
+    margin-left: 15px;
+}

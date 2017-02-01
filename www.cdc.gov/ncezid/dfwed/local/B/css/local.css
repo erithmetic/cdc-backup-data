@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+.pageBreakBefore {page-break-before:always !important}
+
+
+
+
+.boxspace {
+	padding-right: 10px;
+}
+	
+
+#morefix {
+	clear: none;
+	float: right;
+}
+
+.imgPadding {
+}
+.indentedlinks-86px {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+table.foodcore_overlapp {
+	
+	font:Arial, Helvetica, sans-serif;
+	font-size:16px
+		
+	}
+
+table.foodcore_overlapp thead th{
+	text-align: center;
+	padding: 20px;
+
+	}
+	
+table.foodcore_overlapp tbody  tr {
+	text-align: left;
+	height: 30px;
+	
+	}
+	
+.centerIt {
+	text-align:center 
+	}
+	
+.marginBottom100 {
+	margin-bottom: 100px;
+	
+	}
+	
+.clearLeft {
+	
+	clear:left;
+	
+	}	
+	
+.clearRight {
+	
+	clear: right;
+	
+	}		
+	
+.clearBoth {
+	
+	clear:both;
+	
+	}	
+.marginTopBottom {
+	
+	margin: 5px 0px 50px 0px;
+	
+	}	
+	
+.marginTop10Bottom30  {
+	
+	margin: 10px 0px 30px 0px;
+	
+	}	
+	
+.marginTopOfPage {
+	
+	margin: 5px 0px 25px 0px;
+	
+}
+
+.marginBottom75 {
+	
+	margin-bottom: 75px;
+	
+	}
+	
+.marginTop10  {
+	
+	
+	margin-top:10px;
+	
+	}	
+	
+.marginTop25 {
+	
+	clear:both; 
+	margin-top:25px
+	
+	}	
+	
+.marginTop150 {
+	
+	
+	clear:both; 
+	margin-top:150px
+	
+	}	
+	
+.marginTop100 {
+	
+	clear:both; 
+	margin-top:100px
+	
+	}	
+	
+.marginTop40 {
+	
+	clear:both; 
+	margin-top:40px
+	
+	}		
+	
+	
+.fixMajorSec {
+	
+	float:left; 
+	margin-bottom:25px
+	
+	}
+	
+.hrStyle {
+	
+	margin: 5px 0px 5px 0px;
+	}	
+
+.addBorder {
+	
+	border: 1px solid black
+	
+	}
+	
+.colorBG {
+	
+	background-color:rgb(193, 213, 176)
+	
+	}	
+.marginTop15 { /* created to adjust top margins for images in module to 25% and clear both margins */
+	
+	margin-top: 15%
+	
+	}	
+	
+/* Styles for Web Form */		
+#tele-form {
+	
+	padding: 5px;
+	margin-bottom: 15px;
+	border: 1px solid rgb(193, 213, 176);
+	}
+	
+#tele-form fieldset {
+	
+	border: 1px solid rgb(193, 213, 176);
+	
+	margin: 5px;
+	padding-bottom: 5px;
+	
+	}
+	
+#userName {
+	
+	width: 250px;
+	margin: 5px 10px 0px 60px;
+	padding-left: 5px;
+	
+	}
+	
+#From {
+	
+	width: 250px;
+	margin: 5px 10px 0px 5px;
+	padding-left: 5px;
+	
+	}	
+	
+#tele-form input:focus {
+	
+	background-color: rgb(220, 255, 220)
+	
+	}	
+	
+	
+#tele-form label span {
+	
+	color: #F00
+	
+	}	
+	
+#tele-form input[type="submit"],#tele-form input[type="reset"] {
+	
+	width: 100px;	
+	
+	}	
+	
+#tele-form p {
+	
+	
+	text-align:center
+	
+	}	
+	
+	
+	
+.paddingLeft10 {
+	
+	padding-left:10px;
+	
+	
+	}	
+	
+.colorGreen {
+			
+	color: #030
+	
+		} 	
+
+.width65 {
+	
+	width:65%;
+	
+	}
+	
+	
+.marginBottom5 {
+	
+	margin-bottom:5% !important;
+	
+	}
+	
+.marginTop5 {
+	
+	margin-top: 5% !important;	
+	
+	}	
+	
+#content .module li a, #content .rounders li a.module-links
+{
+	display:inline !important;
+	text-decoration:underline;}	
+
+	
+.marginBottom10 {
+	
+	
+	margin-bottom: 10% !important;
+	
+	
+	}	
+	
+	
+.marginTop5Bottom5  {
+	
+	margin-top: 5% !important;
+	margin-bottom: 5% !important;
+	
+	}	
+	
+.marginTop12Bottom5 {
+	
+	margin-top: 12% !important; 
+	margin-bottom: 5% !important;
+	
+	}	
+	
+	
+.marginTop2Bottom5 {
+	
+	margin-top: 2% !important; 
+	margin-bottom: 5% !important;
+	
+	}	
+	
+.marginTop8  {
+	
+	margin-top:8% !important
+	
+	}	
+	
+	
+.ui-tabs .ui-tabs-panel {
+height: 140px;
+max-height: 175px;
+}	
+	
+/* End Styles for Web Form */
+	

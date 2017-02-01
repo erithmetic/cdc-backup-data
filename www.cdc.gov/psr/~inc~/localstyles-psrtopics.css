@@ -1,0 +1,23 @@
+.psrtopictile {
+position: relative;
+float: left;
+width: 185px;
+min-height: 35px;
+margin-bottom: 8px;
+line-height: 1; /* LINE-HEIGHT ADDED HERE AND INLINE STYLE AT TEXT SPAN, NOTED BELOW */
+}
+
+.psrtopictile img {
+float: left;
+width: 32px;
+}
+
+.psrtopictiletext {
+margin: 7px 0 0 40px; /* TOP MARGIN SIMULATES VERTICAL CENTERING*/
+}
+
+.psrtopictiletext span {
+font-size: 90%;
+color: #656565;
+/* LINE-HEIGHT ADDED INLINE AS STYLE */
+}

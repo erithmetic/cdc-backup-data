@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0">
+  <channel>
+    <title>
+          Science Clips - Informatics - RSS
+        </title>
+    <link>http://www.cdc.gov</link>
+    <description>Science Clips</description>
+    <copyright>(c) 2010, www.cdc.gov</copyright>
+    <item>
+      <title>Electronic health record interventions at the point of care improve documentation of care processes and decrease orders for genetic tests commonly ordered by nongeneticists</title>
+      <pubDate>Mon, 12 Sep 2016</pubDate>
+      <link>http://www.ncbi.nlm.nih.gov/pubmed/27362912</link>
+      <description>Scheuner MT, Peredo J, Tangney K, Schoeff D, Sale T, Lubick-Goldzweig C, Hamilton A, Hilborne L, Lee M, Mittman B, Yano EM, &lt;strong&gt;Lubin IM&lt;/strong&gt;.&lt;br /&gt;Genet Med. 2016 Jun 30.</description>
+      <category>Informatics</category>
+    </item>
+    <item>
+      <title>Electronic health record interventions at the point of care improve documentation of care processes and decrease orders for genetic tests commonly ordered by nongeneticists</title>
+      <pubDate>Mon, 19 Sep 2016</pubDate>
+      <link>http://www.ncbi.nlm.nih.gov/pubmed/27362912</link>
+      <description>Scheuner MT, Peredo J, Tangney K, Schoeff D, Sale T, Lubick-Goldzweig C, Hamilton A, Hilborne L, Lee M, Mittman B, Yano EM, &lt;strong&gt;Lubin IM&lt;/strong&gt;.&lt;br /&gt;Genet Med. 2016 Jun 30.</description>
+      <category>Informatics</category>
+    </item>
+  </channel>
+</rss>

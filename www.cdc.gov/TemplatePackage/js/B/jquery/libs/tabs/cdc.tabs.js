@@ -1,0 +1,1 @@
+$(function(){$(".cdc-tabs-widget").tabs({minHeight:175,cookie:{expires:1},autoHeight:false});var tabUrl=$(this).attr("id");if(!$(".cdc-tabs-widget").hasClass("tabs-noCopy")){$(".cdc-tabs-widget").find(".ui-tabs-panel").each(function(index){var tabTitle=$(this).find("h4").text();$(this).siblings("ul").find("a").eq(index).text(tabTitle)})}$("body").addClass("cdc-ui-tabs")});

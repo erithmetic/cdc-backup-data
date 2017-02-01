@@ -1,0 +1,321 @@
+/*
+ * jQuery FlexSlider v1.8
+ * http://flex.madebymufffin.com
+ *
+ * Copyright 2011, Tyler Smith
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* Browser Resets */
+.flexsliderbox a:active,
+.flexslider a:active {
+	outline:none;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+/* FlexSlider Necessary Styles
+*********************************/ 
+#content #top-container .flexsliderbox .flexslider {
+	height:184px;
+	max-height:184px;
+	overflow:hidden;
+}
+#content .flexsliderbox .flexslider {
+	background-color: #003366;
+	color: #fff;
+	position: relative;
+	margin: 2px;
+	padding: 0;
+	zoom: 1;
+}
+
+/*Default style with js Fallback*/
+.flexsliderbox .flexslider .slides > li {
+	background-color:#036;
+	padding:5px 0px 0px 5px;
+} /* Hide the slides before the JS is loaded. Avoids image jumping */
+
+.flexsliderbox .flexslider .slides > .slide {
+	display:none;
+	padding:0;
+}
+
+.flexslider .slides img {
+	/*width:328px;*/
+	display:block;
+	max-width:100%;
+	border:none;
+}
+
+.flex-pauseplay span { text-transform:capitalize; }
+/* Clearfix for the .slides element */
+
+.slides:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
+html[xmlns] .slides { display:block; }
+
+* html .slides { height:1%; }
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child { display:block; }
+
+/* FlexSlider Default Theme
+*********************************/
+.flexsliderbox .flexslider {
+	background:#fff;
+	position:relative;
+	zoom:1;
+}
+.flexslider .slides {
+	zoom:1;
+}
+.flexslider .slides > li {
+	position:relative;
+}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {
+	zoom:1;
+	position:relative;
+}
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {
+	width:32%;
+	left:0;
+	bottom:0;
+	color:#fff;
+	padding-top:8px;
+	padding-left:8px;
+	padding-right:8px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.flex-caption { font-family:Verdana, Geneva, sans-serif; }
+.flex-caption h3 {
+	color:white;
+	font-size:20px;
+	font-family:georgia;
+}
+.flex-caption p {
+	color:#fff;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+/* Direction Nav */
+
+/* Alt Direction Nav */
+.flexsliderbox .flex-direction-nav {
+	bottom:0.5em;
+	display:block;
+	height:25px;
+	position:absolute;
+	width:38.25%;
+}
+.flexsliderbox .flex-direction-nav li { margin:0 1.5%; }
+
+.flexsliderbox .flex-direction-nav li /*a*/ { background-color:transparent;
+	display:block;
+	width:24px;
+	height:24px;
+	display:block;
+	cursor:pointer;
+	text-indent:-9999px;
+}
+	.flexsliderbox .flex-direction-nav li.arrowLeft { float:left; }
+	.flexsliderbox .flex-direction-nav li.arrowRight { float:right; }
+
+.flexsliderbox .flex-direction-nav a {
+	display:block;
+	height:24px;
+	line-height:24px;
+	position:relative;
+	margin:0;
+	padding:0;
+	background-color:transparent;
+	color:#fff;
+	text-decoration:none; 
+}
+
+.flexsliderbox .flex-direction-nav li a.prev:before,
+.flexsliderbox .flex-direction-nav li a.flex-prev:before {
+	content:"";
+	float:left;
+	position:absolute;
+	top:2px;
+	left:5px;
+	width:0;
+	height:0;
+	border-color:transparent #fff transparent transparent;
+	border-style:solid;
+	border-width:10px 10px 10px 0;
+}
+.flexsliderbox .flex-direction-nav li a.prev:after,
+.flexsliderbox .flex-direction-nav li a.flex-prev:after {
+	content:"";
+	float:left;
+	position:absolute;
+	top:2px;
+	left:8px;
+	width:0;
+	height:0;
+	border-color:transparent #036 transparent transparent;
+	border-style:solid;
+	border-width:10px 10px 10px 0;
+}
+
+.flexsliderbox .flex-direction-nav li a.next:before,
+.flexsliderbox .flex-direction-nav li a.flex-next:before {
+	content:"";
+	float:left;
+	position:absolute;
+	top:2px;
+	right:5px;
+	width:0;
+	height:0;
+	border-color:transparent transparent transparent #fff;
+	border-style:solid;
+	border-width:10px 0 10px 10px;
+}
+.flexsliderbox .flex-direction-nav li a.next:after,
+.flexsliderbox .flex-direction-nav li a.flex-next:after {
+	content:"";
+	float:left;
+	position:absolute;
+	top:2px;
+	right:8px;
+	width:0;
+	height:0;
+	border-color:transparent transparent transparent #036;
+	border-style:solid;
+	border-width:10px 0 10px 10px;
+}
+
+*+html .flexsliderbox .flex-direction-nav li a.prev {background: url('https://www.cdc.gov/TemplatePackage/js/B/jquery/libs/flexslider/bg_direction_nav.png') 5px 5px no-repeat;}
+*+html .flexsliderbox .flex-direction-nav li a.next {background: url('https://www.cdc.gov/TemplatePackage/js/B/jquery/libs/flexslider/bg_direction_nav.png') -18px 5px no-repeat;}
+
+.flexsliderbox .flex-direction-nav li .disabled {opacity:.3; filter:alpha(opacity=30); cursor:default;}
+
+/* Control Nav */
+.flexsliderbox .flex-control-nav {
+	position:absolute;
+	bottom:5px;
+	left:3.5%;
+	right:3.5%;
+	text-align:center;
+	width:31.25%;
+	z-index:999;
+}
+.flexsliderbox .flex-control-nav li {
+	margin: 0 0 0 2.5%;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	color: white;
+}
+.flexsliderbox .flex-control-nav li:first-child { margin:0; }
+.flexsliderbox .flex-control-nav li a {
+	width:26px;
+	height:22px;
+	display:block;
+	color:white;
+	background-color:#325e8b;
+	cursor:pointer;
+	text-align:center;
+	padding-top:5px;
+	font-family:arial;
+}
+.flexsliderbox .flex-control-nav li a:hover {
+	color:white;
+	background-color:#84a6ce;
+}
+.flexsliderbox .flex-control-nav li a.active {
+	cursor:default;
+	color:white;
+	font-weight:bold;
+	background-color:#5a86bd;
+}
+
+/*Additional Styling*/
+#content .flexslider .slidelft *,
+#content .flexslider a,
+#content .morex a,
+#content .main-inner .morex a {color:#fff;}
+#content .flex-control-nav li a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.slidelft {
+	float:left;
+	width:38.2%; /* width:162px; */
+	margin:6px 0 0;
+	padding:0;
+	color:white;
+	font-size:1.2em;
+}
+
+[class*="27"] #content .slidelft h3 {font-size:22px; font-size:2.2rem;}
+
+	[class*="27"] #content .slidelft h3 + p {font-size:14px; font-size:1.4rem;}
+
+.slidelft > * {margin:0 8px !important;} /* = fix for v.2.7.0.1 = */
+
+.slidert {
+	float:right;
+	width:61.8%; /* width:328px; */
+	margin:0;
+	padding:0;
+}
+.slidert img {float:right;} /* = fix for v.2.7.0.1 = */
+
+.slides {
+	margin:0;
+	padding:0;
+
+}
+.slides li {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.morex {
+	float: right;
+	font-size: 10px !important;
+}
+.flexsliderbox .flexslider .slides .slidelft .morex a {
+	text-decoration:none;
+	color:#fff;
+}
+
+.flexsliderbox {
+	border:solid 1px #6799cb;
+	padding:0;
+	/* [disabled]margin-bottom:1em; */ /* = v2.7.0.1 = */
+	color:#fff;
+}
+
+#content #top-container .flexsliderbox {
+	margin-left:10px;
+	width:536px;
+}
+
+@media only screen and (max-width: 800px) {
+	#content #top-container .flexsliderbox {
+		margin: 0 0 1rem;
+		width: auto;
+	}
+
+}

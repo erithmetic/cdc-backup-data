@@ -1,0 +1,111 @@
+.hidden {
+	display:none;
+}
+.unhidden {
+	display:block;
+}
+.topic_font {
+	font-size:16px;
+	color: #444444;
+}
+.date {
+	font-size:.9em;
+	color:#999;
+}
+#rss-block ul, #rss-mediablock ul, #rss-hurricane ul  {
+	padding-left:15px;
+list-style-type: none;
+}
+#rss-block li, #rss-mediablock li, #rss-hurricane li {
+	line-height:12px;
+padding-bottom:10px;
+}
+#rss-block .item-title, #rss-mediablock .item-title, #rss-hurricane .item-title,  {
+	display:block;
+	font-size:1em;
+font-weight:bold;
+
+}
+#rss-block .item-pubdate, #rss-mediablock .item-pubdate, #rss-hurricane .item-pubdate{
+	display:block;
+	font-size:.8em;
+	color:#999;
+}
+.vstopText {
+	font-size:.8em;
+}
+.pull-left-margin-fix {
+	margin: 10px 10px 10px 0px;
+}
+#datestamp ul li > ul li + li {
+display: block;
+}
+div#feed0 .item-image {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color:#fff;
+	margin-right:10px;
+	padding-right:10px;
+}
+div#feed0 .item-title {
+	font-size: 20px !important;
+}
+div#feed0 ul {
+	list-style-type:none;
+}
+/* Feed One Topic */
+div#feed1 .item-description {
+	line-height: 20px;
+	padding-left:10px;
+}
+
+div#feed1 .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	padding-left:10px;
+}
+
+div#feed1.cdc-caption img {
+	margin:5px !important;
+}
+div#feed1 .item-image {
+	float: left;
+	width: 10%;
+	height: auto;
+	background-color:#fff;
+	margin-right:10px;
+	padding-right:10px;
+}
+
+div#feed1 .cdc-caption {
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+	margin-left: -20px;
+}
+/* Feed Top 5 for Home Page */
+div#feed2 a.item-title {
+	font-size: 16px !important;
+}
+
+div#feed2 .item-image {
+	float: left;
+	width: 10%;
+	height: auto;
+	background-color:#fff;
+	margin-right:7px;
+	padding-right:10px;
+}
+div#feed2 .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	padding-left:10px;
+}
+div#feed2 .item-description {
+	line-height: 20px;
+	padding-left:10px;
+}

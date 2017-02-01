@@ -1,0 +1,26 @@
+div#rss-outbreaktravelers a.item-title, div#rss-outbreaksUS a.item-title, div#rss-intlblock a.item-title{
+	font-size: 14px !important;
+}
+
+
+div#rss-outbreaktravelers .item-description, div#rss-outbreaksUS .item-description, div#rss-intlblock .item-description {
+	line-height: 20px;
+	padding-left:10px;
+}
+
+div#rss-outbreaktravelers li, div#rss-outbreaksUS li, div#rss-intlblock li {
+	margin-bottom: 5px;
+}
+
+div#rss-outbreaktravelers .item-pubdate, div#rss-outbreaksUS .item-pubdate, div#rss-intlblock .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	color: #666666;
+	display:block;
+padding-left:10px;
+}
+
+
+#datestamp ul li > ul li + li {
+display: block;
+}

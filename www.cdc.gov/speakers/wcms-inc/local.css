@@ -1,0 +1,22 @@
+
+	/* Overriding blue bullet icons for bulleted lists within green modules on handwashing page */
+
+.bulleted-links .subc li { list-style-type: none!important; background: none!important; }
+
+.bg_grey { background: #cecece!important; }
+
+.wheresbminheight {
+min-height:125px;
+margin-bottom: 10px;
+clear:both;
+}
+
+form#speakrequest label { 
+width: 28%; 
+text-align: right; 
+font-weight:bold;
+}
+
+#datestamp ul li > ul li + li {
+display: block;
+}

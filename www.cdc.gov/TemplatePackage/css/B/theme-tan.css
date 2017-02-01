@@ -1,0 +1,299 @@
+@charset "utf-8";
+/**
+ * CDC - (X)HTML/CSS Framework
+ *
+ * @package         TemplatePackage 'B'
+ * @version         2.8.2
+ * @builddate       2016-12-13
+ * Description:     The tan theme colors CSS.
+ */
+/* ======= Header Colors ======= */
+#content-main h1,
+#topic-title h1,
+#topic-title h1 a,
+#topic-title h2 a {
+	color:#503608;
+}
+
+#topic-title h1 a:hover,
+#topic-title h2 a:hover {
+	border-bottom:#503608;
+}
+
+#wrapper .module h3,
+#wrapper .rounders h3,
+#wrapper #content-main h2 {
+	color:#503608;
+}
+
+/* ======= Breadcrumb Colors ======= */
+#breadBox,
+#breadBox ul {
+	background-color:#faf7ec;
+}
+
+/* ======= Left Nav Colors ======= */
+#nav-container #nav {
+	background:transparent url('../../images/theme-tan/bg_leftNav.gif') repeat-y top left;
+	border:none;
+}
+
+:root * > #nav-container #nav {
+	background:#fff none;
+	border:1px solid #503608;
+	border-left:none;
+}
+#content #nav-container h3 {
+	background-color:transparent;
+}
+:root * >#content #nav-container h3 {
+	background-color:#503608;
+}
+#content #nav-container h3 a {
+	background:transparent url('../../images/theme-tan/bg_navH3.gif') 0 10px no-repeat;
+}
+:root * > #content #nav-container h3 a {background:transparent none;}
+
+#nav-container .bottom {
+	background:transparent url('../../images/theme-tan/bg_leftNav.gif') repeat-y top left;
+	background-position:bottom left;
+}
+#nav-container #nav li a.selected,
+#nav-container #nav-fourth-level ul a.selected {
+	background-image:url('../../images/theme-tan/leftNav_arrow.gif');
+}
+
+#nav ul li {
+	background-color:#ccba8b;
+}
+#nav ul li ul li {
+	background:#e4dabc;
+}
+
+/* ======= Page Options Colors ======= */
+#content-secondary .pageOptions {
+	background:#faf7ec url('../../images/theme-tan/bg_repeatPageOptions.gif') 0 0;
+	border:none;
+	border-top:1px solid #dac887;
+}
+:root *> #content-secondary .pageOptions {
+	background:#faf7ec none;
+	border:1px solid #dac887;
+	border-radius:0 0 0 8px;
+}
+
+#content-secondary .pageOptions .pageOptions-inner {
+	background:transparent url('../../images/theme-tan/bg_pageOptions.gif') 0  bottom no-repeat;
+}
+:root *> #content-secondary .pageOptions .pageOptions-inner {
+	background-image:none;
+}
+#blog .pageOptions-horizontal,
+.pageOptions-horizontal {
+	background-color:#faf7ec;
+}
+#blog .pageOptions-horizontal ul,
+.pageOptions-horizontal ul {
+	background-color:#faf7ec;
+}
+
+/* ======= A-Z list Color Options and Header ======= */
+#content .AZlist-local li a {
+	background-color:#faf7ec;
+}
+#content .AZlist-local li.selected a {
+	background-color:#503608;
+}
+#content .azMenuList .AZlist-local li a {background:transparent;}
+#AZ-content h1 span {
+	color:#503608;
+}
+
+/* ======= Module Colors ======= */
+.rounders.frame {border:none !important;}
+
+.cdc-caption {
+	background-color:#f5f0dd;
+}
+.cdc-caption.frame {
+	border:1px solid #dac887;
+}
+#wrapper .module.rounders h3,
+#wrapper .module.rounders h2 {
+	color:#503608;
+}
+
+.roundem {
+	background-color:#e4dabc;
+}
+.roundem.email,
+.roundem.option2,
+.roundem.accent {
+	background:#fefbe9;
+}
+.roundem.top-blocks {
+	background-color:#e4dabc;
+}
+#content-secondary .roundem {
+	background-color:#fefbe9;
+}
+
+.rounders .inner,
+.rounders.top-blocks .inner,
+.rounders .t,
+.rounders.top-blocks .t,
+.rounders .b,
+.rounders.top-blocks .b,
+.rounders .b div,
+.rounders.top-blocks .b div {
+	background-image:url('../../images/theme-tan/bg_twoBlocks.gif');
+}
+
+#blog .rounders.option2 .inner,
+#blog .rounders.option2 .t,
+#blog .rounders.option2 .b,
+#blog .rounders.option2 .b div {
+	background-image:url('../../images/theme-tan/bg_twoBlocks.gif');
+}
+
+#content-secondary .rounders .inner,
+#content-secondary .rounders .t,
+#content-secondary .rounders .b,
+#content-secondary .rounders .b div {
+	background-image:url('../../images/theme-tan/bg_smallRails.gif');
+}
+
+.page-curl h3 {
+	background-color:#f5f0dd;
+}
+.double-rule {
+	background-color:#f5f0dd;
+}
+.double-rule h3 {
+	background:#f5f0dd url('../../images/theme-tan/bgDoubleRule.gif') right bottom repeat-x;
+}
+
+#nav-container .related,
+.related {
+	background:transparent url("../../images/bgRelatedLinks.png") 0 0 no-repeat;
+	border:none;
+}
+
+:root *> #nav-container .related,
+:root *> .related {
+	background:transparent none;
+	border:1px solid #bfbfbf;
+	border-radius:10px;
+	overflow:hidden;
+}
+
+:root *> #nav-container .related .bot {display:none;}
+
+#nav-container .related h4,
+#content-secondary .related h4,
+#content-secondary .related h4 span {
+	background-color:transparent;
+}
+#nav-container .related h4 span {
+	background-color:#fefae8;
+}
+
+:root *> #nav-container .related h4,
+:root *> #nav-container .related h4 span,
+:root *> #content-secondary .related h4 {
+	background-color:#fefae8;
+}
+
+#nav-container .related h4 a, #content-secondary .related h4 a {background-color:transparent;}
+
+/* = 
+ = nav primary bgColor:
+	#ccba8b = rgb(204, 186, 139)
+ = nav secondary and rounders/roundem bgColor:
+	#e4dabc = rgb(228, 218, 188)
+ = pageOptions bgColor:
+	
+ = accent bgColor:
+	
+ = header stroke:
+	#decf9c = rgb(222, 207, 156)
+ = header, doube-rule bgColor:
+	#f5f0dd = rgb(245, 240, 221)
+ = header color:
+	#503608 = rgb(80, 54, 8)
+ */
+
+/**
+ * = Tabs ==================================
+ */
+/* Tab borders */
+.cdc-tabs, .cdc-accordion, .page-curl.cdc-accordion > .inner, .page-curl.cdc-tabs > .inner,
+
+/* Accordion borders */
+#js .ui-tabs .ui-tabs-panel,
+#js .ui-widget-content,
+/* Accordion border default color */
+.cdc-accordion .accordion > div,
+#js .ui-accordion .ui-accordion-header {
+	border-color:#decf9c;
+}
+
+#js .ui-state-default, .ui-widget-content .ui-state-default,
+#js .ui-widget-header .ui-state-default,
+/* Accordion background color */
+#js .ui-accordion .ui-accordion-header,
+#no-js .accordion > h4 {
+	background-color:#f5f0dd;
+	background-color:rgba(245, 240, 221, 0.75);
+}
+#js .ui-tabs .ui-tabs-nav li,
+#js .ui-accordion .ui-state-active {
+	border:1px solid #decf9c;
+	border-bottom:0 !important;
+}
+
+.ui-tabs .ui-tabs-nav li a:hover {
+	background-color:#ccba8b;
+	text-decoration:underline;
+}
+
+#js .ui-tabs .ui-tabs-nav li a,
+#no-js .accordion > h4,
+/* Accordion header color */
+#js .ui-accordion .ui-accordion-header, #no-js .accordion > h4,
+#js .ui-accordion .ui-accordion-header a, #no-js .accordion > h4 a {
+	color:#503608;
+}
+
+#js .ui-tabs .ui-tabs-nav .ui-state-focus,
+.ui-tabs .ui-tabs-nav .ui-state-hover,
+/* Accordion list-items background rollover on hover */
+#js .ui-accordion .ui-accordion-header:hover {
+	background-color:#ccba8b;
+}
+
+#js .ui-tabs .ui-tabs-nav .ui-tabs-selected,
+/* Accordion active panel header */
+#js .ui-accordion .ui-state-active, #js .ui-widget-content .ui-state-active {
+	background-color:#fff;
+}
+
+.ui-tabs .ui-tabs-nav .ui-state-active.ui-state-focus a,
+.ui-tabs .ui-tabs-nav .ui-state-active.ui-state-hover a {
+	background-color:transparent;
+	text-decoration:none;
+}
+
+.cdcSliderCarousel {
+	border:1px solid #e4dabc !important;
+}
+.cdcSliderCarousel .cdc-flex-control-paging li a.cdc-flex-active {
+	background-color:#e4dabc !important;
+}
+
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-prev:before {
+	border-color:transparent #e4dabc transparent transparent !important;
+}
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-next:before {
+	border-color:transparent transparent transparent #e4dabc !important;
+}

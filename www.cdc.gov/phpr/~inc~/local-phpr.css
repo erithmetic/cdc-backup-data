@@ -1,0 +1,358 @@
+/* HOME PAGE SOCIAL MEDIA BUTTONS STYLES - BEGIN */
+
+.socialmedia-phpr {
+ margin-bottom: 8px;
+}
+
+.socialmedia-phpr p {
+margin: 0;
+padding: 0;
+}
+
+.socialmedia-phpr a {
+margin-right: 8px;
+}
+
+.socialmedia-phpr span {
+border: 0;
+}
+
+.socialmedia-phpr-lnav {
+ margin-bottom: 8px;
+}
+
+.socialmedia-phpr-lnav p {
+margin: 0;
+padding: 0;
+}
+
+.socialmedia-phpr-lnav a {
+margin-right: 3px;
+}
+
+.socialmedia-phpr-lnav span {
+border: 0;
+}
+
+ /* HOME PAGE SOCIAL MEDIA BUTTONS STYLES - END*/
+
+
+
+
+
+/* TEASER BOXES - BEGIN 
+This style are specific for page: /partnerships/noteworthynewsarchive.htm  */
+
+div.teaser-box {
+       border-bottom: dashed 1px #cecece;
+}
+
+/* TEASER BOXES - END */
+
+
+
+
+
+
+/* CAMPAIGN IMAGES - BEGIN
+Styles the images used in all localRDCampaign SSIs throughout PHPR sites. Place all images within DIV that calls this class. */
+
+.localRDCampaign {
+clear: both;
+margin-top: 15px;
+border-top: 5px solid #ececec;
+padding-top: 8px;
+text-align: center;
+}
+
+.localRDCampaign img {
+margin-right: 5px;
+margin-bottom: 5px;
+border: 0;
+}
+
+/* CAMPAIGN IMAGES - END */
+
+
+
+
+
+/* PRODUCT LIST - BEGIN
+Style to present products like publications. Example: /phpr/zombies.htm */
+
+.productlist-phpr p.producttitle {
+border-bottom: 1px dotted #656565;
+clear: both;
+font-weight: bold;
+}
+
+.productlist-phpr img {
+float: left;
+margin: 0 10px 10px 0;
+}
+
+/* PRODUCT LIST - END */
+
+
+
+
+/* SUCCESS STORIES - BEGIN
+
+Style to present stories. Example: /phpr/perlc_success_stories.htm & /partnerships/NoteworthyNewsArchive.htm*/
+
+
+.stories-box {
+margin-top: 15px;
+}
+
+.stories-box p {
+min-height: 90px;
+margin: 0 0 30px 0;
+/*font-size: 9pt;*/
+color: #333333;
+list-style-type: none;
+}
+
+.stories-box img {
+margin-right:10px;
+}
+
+span.stories-title {
+color: #oooooo;
+font-size: 1.1em;
+}
+
+/* SUCCESS STORIES - END */
+
+
+
+
+
+
+/* PHPR INDEX PHOTO BOX - BEGINNING */
+
+.box_typeH {
+  min-height: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  background: none repeat scroll 0 0 #fff;
+}
+
+.box_typeH p {
+  padding: 15px 5px 20px 5px;
+  display: table-cell;
+}
+
+.box_typeH .description a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.box_typeH .morelink {
+  padding: 0 15px 0 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+  color: #075290 !important;
+}
+
+.box_typeH .morelink a {
+  margin-right: 5px;
+  text-decoration: none !important;
+}
+
+.box_typeH .morelink a:hover {
+  text-decoration: underline !important;
+}
+
+.mask {
+  position: relative;
+}
+
+.mask img {
+  border-bottom: 3px solid #e1b75a;
+}
+
+.topic-blurb {
+  display: block;
+  background: #e1b75a;
+  position: absolute;
+  width: 72px;
+  text-align: center;
+  color: #000;
+/*bottom: -10px;*/
+  left: -5px;
+  top: 90%;
+}
+
+/*Whats New*/
+.Whats_new {
+  /*padding: 10px 0;*/
+}
+
+.hidden {
+  visibility: visible;
+}
+
+.what_new_title {
+  font-weight: bold;
+}
+
+
+/*VP3*/
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+  
+  }
+  .box_typeH {
+    min-height: 290px;
+  }
+}
+
+/*VP2*/
+@media screen and (min-width: 768px) and (max-width: 979px) {
+	
+  
+  .box_typeH {
+    min-height: 285px;
+  }
+ 
+}
+
+
+
+/*VP1*/
+@media (max-width: 767px) {
+	
+  .box_typeH {
+    min-height: 100px;
+  }
+
+  .box_typeH p {
+    padding: 0px 5px 20px;
+  }
+
+  .box_typeH img{
+    /*max-width: 35% !important;*/
+  }
+
+  .mask img {
+    float: left !important;
+    padding: 5px !important;
+    max-width: 150px !important;
+    width: 150px !important;
+    border: none;
+  }
+
+  .mask a {
+    text-decoration: none!important;  /* prevent underline on ribbons */
+  }
+  .topic-blurb {
+    /*margin-top: 17%;*/
+    margin-top: 75px;  /* many devices don't understand percents as measurements, approximating with 100px */
+    padding: 0 10px;
+    text-decoration: none!important;   /* prevent underline on ribbons */ 
+  }
+  
+  .box_typeH {
+    clear: both;
+    margin: 0 0 20px;
+    overflow: hidden;
+    position: relative;
+  
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media (max-width: 370px) {
+/*  
+    .mask img {
+     max-width: 40% !important;
+  }*/
+}
+
+/* PHPR INDEX PHOTO BOX - END */
+
+
+
+
+
+
+/* BEGINNING - PUBLICATIONS & RESOURCES - ARCHIVES 
+  The following style is for the shadow located on the archive covers located @ publications_resources/archives/index.htm page*/
+
+.box-shadow {
+-webkit-box-shadow: 2px 3px 6px 0px rgba(50, 50, 50, 0.4);
+-moz-box-shadow:    2px 3px 6px 0px rgba(50, 50, 50, 0.4);
+box-shadow:         2px 3px 6px 0px rgba(50, 50, 50, 0.4); 
+}
+/* END - PUBLICATIONS & RESOURCES - REPORT ON READINESSS PAGE */
+
+
+
+
+
+
+/* BEGINNING - PUBLICATIONS & RESOURCES - ARCHIVES 
+  The following style is for the shadow located on the image located @ reportingonreadiness.htm page*/
+
+.special-shadow {
+-webkit-box-shadow: 1px 2px 8px 0px rgba(50, 50, 50, 0.67);
+-moz-box-shadow:    1px 2px 8px 0px rgba(50, 50, 50, 0.67);
+box-shadow:         1px 2px 8px 0px rgba(50, 50, 50, 0.67);
+}
+/* END - PUBLICATIONS & RESOURCES - REPORT ON READINESSS PAGE */
+
+
+
+
+
+/* BEGINNING - HEALTHCARE - PLANNING
+  The following style is for the shadow located on the navigation images located @ /healthcare/planning.htm page*/
+
+.healthcare-links img {
+-webkit-box-shadow: 2px 1px 5px 0px rgba(50, 50, 50, 0.75) !important;
+-moz-box-shadow:    2px 1px 5px 0px rgba(50, 50, 50, 0.75) !important;
+box-shadow:         2px 1px 5px 0px rgba(50, 50, 50, 0.75) !important;
+margin: 5px;
+padding:1px;
+border:1px solid #ffffff;
+}
+/* END - HEALTHCARE - PLANNING */
+
+
+
+
+/* BEGINNING - TRAINING - MAP OF PERLC 
+    The following styles are for the svg map located @ perlc_map_lg.htm page */
+
+svg {width: 50vw !important;}
+path {fill: #B8C7E6; transition: .6s fill !important;}
+path:hover {fill: #eee !important;}
+path.outline {fill: #000000 !important;}
+path.num-outline {fill: #ffffff !important;}
+
+
+.scaling-svg-container {
+ position: relative !important; 
+ height: 0 !important; 
+ width: 90% !important; 
+ padding: 0 !important;
+ padding-bottom: 100% !important; 
+ /* override this inline for aspect ratio other than square */
+}
+
+
+.scaling-svg {
+ position: absolute !important; 
+ height: 100% !important; 
+ width: 100% !important; 
+ left: 0 !important; 
+ top: 0 !important;
+}
+
+/* /END - TRAINING - MAP OF PERLC */
+

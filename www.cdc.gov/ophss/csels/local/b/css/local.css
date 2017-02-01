@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+@import url("../../../../../TemplatePackage/css/B/theme-purple.css");
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+h2 {
+	margin-bottom: 3px;
+}
+
+
+#topicMod1 {
+	float: right;
+}
+
+#homeModuleFrame {
+	width: 622px;
+}
+
+#oselsMod1 {
+	width: 204px;
+	float: left;
+	margin-right: 3px;
+	height: 350px;
+}
+
+#oselsMod2 {
+	width: 204px;
+	float: left;
+	margin-right: 3px; 
+	height: 350px;
+}
+
+#oselsMod3 {
+	width: 204px;
+	float: left;
+	height: 350px;
+}
+
+.moduleTextPadding {
+	padding: 5px;
+	border: none;
+}
+
+.imageMargin {
+	margin: 5px 10px 0px 2px;
+}
+.newsletter-parent{
+	text-align:center;
+}
+.newsletter-left{
+	float: left;
+	font-style:italic;
+}
+.newsletter-center{
+	display: inline;
+}
+.newsletter-right{
+	float: right;
+}
+
+.gsps_mod {
+	margin: 0 0 20px;
+	}
+	
+.gsps_mod p:first-child, .gsps_mod .paragraph:first-child {
+    margin-top: 5px;
+}	
+
+.gsps_mod .inner {
+	padding: 0 0 10px 0;
+	}
+	
+.dl_btn {
+	background: none repeat scroll 0 0 #3D316A;
+    border: 1px solid #BAB1DB;
+    margin: 5% 25%;
+    padding: 10px;
+	width: 52%;
+}
+
+.dl_btn a {
+	color: #ffffff !important;
+}

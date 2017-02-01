@@ -1,0 +1,29 @@
+div#rss-fiveminutes .cdc-caption img {
+	margin: 0px !important;
+}
+div#rss-fiveminutes a.item-title {
+	font-size: 15px !important;
+	display:block;
+}
+div#rss-fiveminutes {
+	margin-left: -15px !important;
+}
+div#rss-fiveminutes ul {
+	list-style-type:none;
+	margin-top:5px;
+}
+div#rss-fiveminutes li {
+	margin-bottom: 12px;
+}
+div#rss-fiveminutes .item-image {
+	margin-right:7px;
+	padding: 5px !important;
+}
+div#rss-fiveminutes .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	display:block;
+	padding-left:10px;
+}

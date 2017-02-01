@@ -1,0 +1,299 @@
+@charset "utf-8";
+/**
+ * CDC - (X)HTML/CSS Framework
+ *
+ * @package         TemplatePackage 'B'
+ * @version         2.8.2
+ * @builddate       2016-12-13
+ * Description:     The teal theme colors CSS.
+ */
+/* ======= Header Colors ======= */
+#content-main h1,
+#topic-title h1,
+#topic-title h1 a,
+#topic-title h2 a {
+	color:#084239;
+}
+
+#topic-title h1 a:hover,
+#topic-title h2 a:hover {
+	border-bottom:#084239;
+}
+
+#wrapper .module h3,
+#wrapper .rounders h3,
+#wrapper #content-main h2 {
+	color:#084239;
+}
+
+/* ======= Breadcrumb Colors ======= */
+#breadBox,
+#breadBox ul {
+	background-color:#f6fcfb;
+}
+
+/* ======= Left Nav Colors ======= */
+#nav-container #nav {
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bg_leftNav.gif') repeat-y top left;
+	border:none;
+}
+
+:root * > #nav-container #nav {
+	background:#fff none;
+	border:1px solid #084239;
+	border-left:none;
+}
+#content #nav-container h3 {
+	background-color:transparent;
+}
+:root * >#content #nav-container h3 {
+	background-color:#084239;
+}
+#content #nav-container h3 a {
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bg_navH3.gif') 0 10px no-repeat;
+}
+:root * > #content #nav-container h3 a {background:transparent none;}
+
+#nav-container .bottom {
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bg_leftNav.gif') repeat-y top left;
+	background-position:bottom left;
+}
+#nav-container #nav li a.selected,
+#nav-container #nav-fourth-level ul a.selected {
+	background-image:url('https://www.cdc.gov/TemplatePackage/images/theme-teal/leftNav_arrow.gif');
+}
+
+#nav ul li {
+	background-color:#c1ded5;
+}
+#nav ul li ul li {
+	background:#deeee9;
+}
+
+/* ======= Page Options Colors ======= */
+#content-secondary .pageOptions {
+	background:#f7ffff url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bg_repeatPageOptions.gif') 0 0;
+	border:none;
+	border-top:1px solid #9ecfc0;
+}
+:root *> #content-secondary .pageOptions {
+	background:#f7ffff none;
+	border:1px solid #9ecfc0;
+	border-radius:0 0 0 8px;
+}
+
+#content-secondary .pageOptions .pageOptions-inner {
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bg_pageOptions.gif') 0  bottom no-repeat;
+}
+:root *> #content-secondary .pageOptions .pageOptions-inner {
+	background-image:none;
+}
+#blog .pageOptions-horizontal,
+.pageOptions-horizontal {
+	background-color:#f6fcfb;
+}
+#blog .pageOptions-horizontal ul,
+.pageOptions-horizontal ul {
+	background-color:#f6fcfb;
+}
+
+/* ======= A-Z list Color Options and Header ======= */
+#content .AZlist-local li a {
+	background-color:#f6fcfb;
+}
+#content .AZlist-local li.selected a {
+	background-color:#084239;
+}
+#content .azMenuList .AZlist-local li a {background:transparent;}
+#AZ-content h1 span {
+	color:#084239;
+}
+
+/* ======= Module Colors ======= */
+.rounders.frame {border:none !important;}
+
+.cdc-caption {
+	background-color:#deeee9 /*#deefef*/;
+}
+.cdc-caption.frame {
+	border:1px solid #9ecfc0;
+}
+#wrapper .module.rounders h3,
+#wrapper .module.rounders h2 {
+	color:#084239;
+}
+
+.roundem {
+	background-color:#deeee9 /*#deefef*/;
+}
+.roundem.email,
+.roundem.option2,
+.roundem.accent {
+	background-color:#fefbe9;
+}
+.roundem.top-blocks {
+	background-color:#deeee9;
+}
+#content-secondary .roundem {
+	background-color:#fefbe9;
+}
+
+.rounders .inner,
+.rounders.top-blocks .inner,
+.rounders .t,
+.rounders.top-blocks .t,
+.rounders .b,
+.rounders.top-blocks .b,
+.rounders .b div,
+.rounders.top-blocks .b div {
+	background-image:url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bg_twoBlocks.gif');
+}
+
+#blog .rounders.option2 .inner,
+#blog .rounders.option2 .t,
+#blog .rounders.option2 .b,
+#blog .rounders.option2 .b div {
+	background-image:url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bg_twoBlocks.gif');
+}
+
+#content-secondary .rounders .inner,
+#content-secondary .rounders .t,
+#content-secondary .rounders .b,
+#content-secondary .rounders .b div {
+	background-image:url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bg_smallRails.gif');
+}
+
+.page-curl h3 {
+	background-color:#deeee9 /*#deefef*/;
+}
+.double-rule {
+	background-color:#deeee9 /*#deefef*/;
+}
+.double-rule h3 {
+	background:#deeee9 /*#deefef*/ url('https://www.cdc.gov/TemplatePackage/images/theme-teal/bgDoubleRule.gif') right bottom repeat-x;
+}
+
+#nav-container .related,
+.related {
+	background:transparent url("../../images/bgRelatedLinks.png") 0 0 no-repeat;
+	border:none;
+}
+
+:root *> #nav-container .related,
+:root *> .related {
+	background:transparent none;
+	border:1px solid #bfbfbf;
+	border-radius:10px;
+	overflow:hidden;
+}
+
+:root *> #nav-container .related .bot {display:none;}
+
+#nav-container .related h4,
+#content-secondary .related h4,
+#content-secondary .related h4 span {
+	background-color:transparent;
+}
+#nav-container .related h4 span {
+	background-color:#fefae8;
+}
+
+:root *> #nav-container .related h4,
+:root *> #nav-container .related h4 span,
+:root *> #content-secondary .related h4 {
+	background-color:#fefae8;
+}
+
+#nav-container .related h4 a, #content-secondary .related h4 a {background-color:transparent;}
+
+/* = 
+ = nav primary bgColor:
+	#c1ded5 = rgb(193, 222, 213)
+ = nav secondary and rounders/roundem bgColor:
+	#deeee9 = rgb(222, 238, 233)
+ = pageOptions bgColor:
+	
+ = accent bgColor:
+	
+ = header stroke:
+	#a5d3c6 = rgb(165, 211, 198)
+ = header, doube-rule bgColor:
+	#deeee9 = rgb(222, 238, 233)
+ = header color:
+	#084239 = rgb(8, 66, 57)
+ */
+
+/**
+ * = Tabs ==================================
+ */
+/* Tab borders */
+.cdc-tabs, .cdc-accordion, .page-curl.cdc-accordion > .inner, .page-curl.cdc-tabs > .inner,
+
+/* Accordion borders */
+#js .ui-tabs .ui-tabs-panel,
+#js .ui-widget-content,
+/* Accordion border default color */
+.cdc-accordion .accordion > div,
+#js .ui-accordion .ui-accordion-header {
+	border-color:#a5d3c6;
+}
+
+#js .ui-state-default, .ui-widget-content .ui-state-default,
+#js .ui-widget-header .ui-state-default,
+/* Accordion background color */
+#js .ui-accordion .ui-accordion-header,
+#no-js .accordion > h4 {
+	background-color:#deeee9;
+	background-color:rgba(222, 238, 233, 0.75);
+}
+#js .ui-tabs .ui-tabs-nav li,
+#js .ui-accordion .ui-state-active {
+	border:1px solid #a5d3c6;
+	border-bottom:0 !important;
+}
+
+.ui-tabs .ui-tabs-nav li a:hover {
+	background-color:#c1ded5;
+	text-decoration:underline;
+}
+
+#js .ui-tabs .ui-tabs-nav li a,
+#no-js .accordion > h4,
+/* Accordion header color */
+#js .ui-accordion .ui-accordion-header, #no-js .accordion > h4,
+#js .ui-accordion .ui-accordion-header a, #no-js .accordion > h4 a {
+	color:#084239;
+}
+
+#js .ui-tabs .ui-tabs-nav .ui-state-focus,
+.ui-tabs .ui-tabs-nav .ui-state-hover,
+/* Accordion list-items background rollover on hover */
+#js .ui-accordion .ui-accordion-header:hover {
+	background-color:#c1ded5;
+}
+
+#js .ui-tabs .ui-tabs-nav .ui-tabs-selected,
+/* Accordion active panel header */
+#js .ui-accordion .ui-state-active, #js .ui-widget-content .ui-state-active {
+	background-color:#fff;
+}
+
+.ui-tabs .ui-tabs-nav .ui-state-active.ui-state-focus a,
+.ui-tabs .ui-tabs-nav .ui-state-active.ui-state-hover a {
+	background-color:transparent;
+	text-decoration:none;
+}
+
+.cdcSliderCarousel {
+	border:1px solid #deeee9 !important;
+}
+.cdcSliderCarousel .cdc-flex-control-paging li a.cdc-flex-active {
+	background-color:#deeee9 !important;
+}
+
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-prev:before {
+	border-color:transparent #deeee9 transparent transparent !important;
+}
+.cdcSliderCarousel .cdcCarousel .cdc-flex-direction-nav li a.cdc-flex-next:before {
+	border-color:transparent transparent transparent #deeee9 !important;
+}

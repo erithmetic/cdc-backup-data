@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+#imageright
+{
+	float:right; position:relative;
+}
+
+#imageleft
+{
+	float:left; position:relative;
+}
+
+.group
+{
+	height:40px;
+}
+
+.group2
+{
+	height:180px;
+}
+
+.grip
+{
+	height:40px;
+}
+		
+.blockquote {
+margin: 0.50em 0;
+padding: 0.50em 40px;
+position: relative;
+
+}
+
+#box
+{
+	border-left:double;
+	border-bottom: double;
+	border-right: double;
+	border-top: double;
+	border-color:#FF9;
+	background-color:#FFC;	
+}
+
+p.center
+{
+	text-align:center;
+}
+
+.tablerow
+{
+	font-weight:normal;
+	text-align:left;
+}
+
+.tablerow2
+{
+	font-weight:normal;   
+	
+}
+
+.tablecolumn
+{
+	text-align:left;
+}

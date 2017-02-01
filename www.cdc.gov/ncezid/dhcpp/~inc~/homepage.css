@@ -1,0 +1,11 @@
+.double-rule a, .double-rule a:visited {
+font-weight: bold !important;
+}
+.double-rule li {
+border-top-style: none !important;
+}
+
+.group
+{
+height:95px;
+}

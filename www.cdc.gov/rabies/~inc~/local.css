@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+#home_world img, #home_prevention p {
+	display: block;
+	margin: 0 auto;
+}
+#home_world p, #home_prevention p {
+	border-bottom: 0;
+	text-align: center;
+}
+#home_prevention img {
+	border: 1px solid #3d316a;
+	padding: 3px;
+}
+#wrd img, #zved_blog img, #rak-button img {
+	display: block;
+	margin: 0 auto;
+}
+#zved_blog, #rabies_kids, #wrd, #rak-button {
+	color: #000000;
+	margin: 1em 0;
+	padding: 0 0.5em 0 0;
+	position: relative;
+	width: 169px;
+	font-size: 0.9em;
+}
+#rabies_kids, #home_kids, #rak-button, .centered {
+	text-align: center;
+}
+#home_basics .group, .top-blocks .group {
+	min-height: 3em;
+}
+#home_basics-es .group {
+	min-height: 3.75em;
+}
+.c30l {
+	width: 30%;
+}
+.bld {
+	font-weight: bold;
+}
+.captioning {
+	color: #696969;
+	font-size: .9em;
+}
+.captioning2 {
+	color: #696969;
+	font-style: italic;
+}
+.nobullets {
+	list-style-type: none;	
+}
+.border {
+	border: 1px solid #CDCDCD;
+	padding: 3px;
+}
+.ghead {
+	background: #CDCDCD;
+}
+#animated_rc {
+	margin-top: 20%;
+}
+.underl {
+	text-decoration: underline;	
+}
+.morelpad {
+	margin-left: 2em;
+}
+.morerpad {
+	margin-right: 2em;
+}
+.ctrcpt {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+.same-ht {
+	height: 25em;
+}
+#animal-types img {
+	margin-bottom: 0;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+#animal-types h5 {
+	margin-top: 15px;
+}
+.dfaimg {
+	width: 300px;
+}
+.mcenter {
+	margin: 0 auto;
+}
+#travelers-topics .group {
+	min-height: 4em;
+}	
+.wide-next {
+	font-weight: bold;
+	text-align: right;
+}
+.wide-next a {
+	background: transparent url(../../TemplatePackage/images/btn_dblArrows.gif) no-repeat scroll right bottom;
+	padding: 2px 1em 4px 0;
+	margin: 0 2px 0 0;
+	clear: both;
+	float: right;
+}
+#statedropdwn {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+.related-pdf {
+	display: inline-block !important;
+	bottom: -1px;
+	position: relative;
+	vertical-align: text-bottom;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.relatedMaterial {
+	clear: none !important;
+}
+#widetoc {
+	width: 90%;
+	margin: 0 auto;
+}
+#widetoc p {
+	float: left;
+	text-align: left;
+}
+#widetoc p.nexter {
+	float: right;
+	text-align: right;
+}
+#widetoc p a {
+	background: url("https://www.cdc.gov/TemplatePackage/images/arrow-blue-lt.png") no-repeat scroll 0 center transparent;
+	padding: 0 0 0 1em;
+	text-align: left;
+	text-decoration: none;
+	font-weight: normal;
+}
+#widetoc p.nexter a {
+	background: url("https://www.cdc.gov/TemplatePackage/images/arrow-blue-rt.png") no-repeat scroll right center transparent;
+	float: none;
+	padding: 0 1em 0 0;
+	text-decoration: none;
+	font-weight: normal;
+}
+#widetoc p a:hover, #widetoc p.nexter a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+}
+.nolnkbld p a {
+	font-weight: normal;
+}
+.listen {
+	background: url("http://www2c.cdc.gov/podcasts/images/listen.gif") no-repeat;
+	padding-left: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.e-cards, .e-cards p {
+	text-align: center;
+}
+.media-vids p {
+	text-align: center;
+	margin-top: 10px;
+}
+.media-vids2 p {
+	margin-top: 15px;
+}
+#nav-button a {
+display: block;
+font-weight: bold;
+padding: 10px;
+}
+#nav-button .group {
+min-height: 4em;
+}
+.imgctr img {
+display: block;
+margin: .25em auto .5em;
+border: 1px solid #CDCDCD;
+padding: 3px;
+}
+#bat-disclaimer {
+display: block;
+width: 75%;
+margin: 0 auto;
+font-style: italic;
+color: #696969; 
+}
+.s2simg {
+width: 85%;
+margin: 0 auto;
+}
+.cimg {
+display: block;
+margin: 0 auto;
+}
+#hspacer h3 {
+border-top: 1px dotted #666666;
+width: 64%;
+}
+.distributors {
+display: block;
+margin: 0 auto 8px 8%;
+};

@@ -1,0 +1,348 @@
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+@import url("../../../../TemplatePackage/css/B/theme-purple.css");
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+
+#AZ-content {
+
+	float: left;
+
+	clear: none;
+
+	margin-left: 3px;
+
+	overflow: visible;
+
+	display: block;
+
+	position: relative;
+
+	width: 98%;
+
+}
+
+
+
+#AZ-content ul {
+
+	display:block;
+
+	list-style-image:none;
+
+	list-style-position:outside;
+
+	list-style-type:none;
+
+	margin:0px;
+
+	padding:0px;
+
+	width: auto;
+
+	clear: left;
+
+}
+
+
+
+#AZ-content li {
+
+	background: transparent none repeat scroll 0% 0%;
+
+	display: block;
+
+	margin: 0px 0px 0px 3px;
+
+	padding: 1px;
+
+}
+
+
+
+#AZ-content li a {
+
+	display:block;
+
+	padding: 3px;
+
+	text-decoration:none;
+
+	width:100%;
+
+}
+
+
+
+#AZ-content li a:hover {
+
+	background: #fff9e5;
+
+	text-decoration: underline;
+
+}
+
+
+
+#AZ-content ul ul li {
+
+	margin-bottom: 0;
+
+	padding: 0;
+
+	list-style-type: none;
+
+	color: #565656;
+
+	font-size: .8em;
+
+	text-indent: 15px;
+
+	font-style: italic;
+
+}
+
+
+
+#AZ-content ul ul li a{
+
+	margin: 0;
+
+	padding: 5px;
+
+	display: inline;
+
+	font-size: 0.9em;
+
+	font-style: normal;
+
+}
+
+
+
+div.AZlist-main-container {
+
+	margin-top: 5px;
+
+	margin-left: 0;
+
+	margin-bottom: 10px;
+
+	float: left;
+
+	clear: both;
+
+	overflow: visible;
+
+	position: relative;
+
+	width: 100%;
+
+}
+
+
+
+div ol.AZlist-main {
+
+	list-style: none;
+
+	padding: 0;
+
+	margin: 0px 0px 0px 3px;
+
+	font-size: 1.3em;
+
+	font-weight: normal;
+
+	color:#000000;
+
+	text-align: center;
+
+	float: left;
+
+	width: auto;
+
+	overflow: visible;
+
+	position: relative;
+
+}
+
+
+
+div ol.AZlist-main li {
+
+	display: inline;
+
+	float: left;
+
+ 	width: 17px;
+
+	margin: 1px;
+
+	padding: 0;
+
+	clear: none;
+
+	position: static;
+
+	background-color: none;
+
+}
+
+
+
+/* For IE7 and Firefox */
+
+html > body div ol.AZlist-main li {
+
+	margin: 3px;
+
+}
+
+
+
+div ol.AZlist-main li a {
+
+	display: block;
+
+	width: 100%;
+
+	padding: 0;
+
+	border-width: 2px;
+
+	border-color: #ffe #aaab9c #ccc #fff;
+
+	border-style: solid;
+
+	color:#0a29a5;
+
+	text-decoration: none;
+
+	background: #f4f8ff;
+
+	font-weight: bold;
+
+}
+
+
+
+div ol.AZlist-main li#active a {
+
+	background: #f4f8ff;
+
+	color:#0a29a5;
+
+	text-decoration: none;
+
+}
+
+
+
+div ol.AZlist-main li#active a:visited {
+
+	background: #f4f8ff;
+
+	color:#0a29a5;
+
+	text-decoration: none;
+
+}
+
+
+
+div ol.AZlist-main li a:visited {
+
+	background: #f4f8ff;
+
+	color:#0a29a5;
+
+	text-decoration: none;
+
+}
+
+
+
+div ol.AZlist-main li a:hover {
+
+	color:#0a29a5;
+
+	font-weight:bold;
+
+	text-decoration: none;
+
+	background: #ffffff;
+
+	border-color: #aaab9c #fff #fff #ccc;
+
+}
+
+
+
+div ol.AZlist-main li#active a:hover {
+
+	color:#0a29a5;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+	background: #ffffff;
+
+	border-color: #aaab9c #fff #fff #ccc;
+
+}
+
+
+
+div ol.AZlist-main li.activeLetter{
+
+	font-size: 1.0em;
+
+	text-decoration: none;
+
+	background: #ffffff url(http://www.cdc.gov/images/home/yellow_downArrow.gif) no-repeat 0 23px;
+
+	color: #00539F;
+
+	width: 20px;
+
+	height: 35px;
+
+	margin: 3px 2px 3px 2px;
+
+	padding: 0;
+
+	font-weight: bold;
+
+}
+
+
+div.to_top {margin:1em 0 1.5em 0.5em;padding:10px 0 0 10px;line-height:0.8;background:url(https://www.cdc.gov/surveillancepractice/images/up_arrow.gif) no-repeat left 10px;border:none;font-size:90%;}

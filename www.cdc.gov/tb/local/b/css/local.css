@@ -1,0 +1,395 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+/*a[href$=".pdf"] {
+background: url(/TemplatePackage/images/icon_pdf.gif) no-repeat right top;
+margin:0;
+padding:0 20px 25 25;
+padding-right: 15px;
+width:16px;
+}*/
+
+/*a[href$=".doc"] {
+background: url(/TemplatePackage/images/icon_word.gif) no-repeat top right;
+padding-right: 20px; padding-top: 0px; padding-bottom: 6px; 
+}
+
+a[href$=".ppt"] {
+background: url(/TemplatePackage/images/icon_ppt.gif) no-repeat top right;
+padding-right: 23px; padding-top: 4px; padding-bottom: 4px; 
+}*/
+
+
+
+/*#hold_level1 #nav ul li a {
+background:transparent url(/TemplatePackage/images/leftNav_arrow.gif) no-repeat scroll 1px 5px;
+font-weight:bold;
+}*/
+
+
+
+/****DO NOT DISPLAY 4TH LEVEL NAV*****/
+#nav-fourth-level {
+	display:none;
+}
+/*****END****/
+
+#hold_level2 #nav ul ul li a {
+background:transparent url(https://www.cdc.gov/TemplatePackage/images/leftNav_arrow.gif) no-repeat scroll 9px 5px;
+font-weight:bold;
+}
+
+#hold_level3 #nav ul ul ul li a {
+background:transparent url(https://www.cdc.gov/TemplatePackage/images/leftNav_arrow.gif) no-repeat scroll 15px 5px;
+font-weight:bold;
+}
+
+p.center{
+	text-align:center}
+
+P.disclaimer A:link { 
+	font: 8pt/9pt Verdana, Arial, Helvetica, sans-serif; 
+    margin-top: 3pt; 
+	margin-bottom: 3pt; 
+	color: #000099;
+}
+h1, h2, h3, h4, h5 {margin-top: 0pt; margin-bottom: 8pt;  }
+
+
+
+#content-main h1 {margin-top: 0pt; margin-bottom: 8pt; margin-left:0 !important; margin-right:0 !important; }
+#content-main h2 {margin-top: 0pt; margin-bottom: 8pt; margin-left:0 !important; margin-right:0 !important; }
+#content-main h3 {margin-top: 0pt; margin-bottom: 8pt; }
+#content-main h4 {margin-top: 0pt; margin-bottom: 8pt; margin-left:0 !important; margin-right:0 !important; }
+#content-main h5 {margin-top: 0pt; margin-bottom: 8pt; margin-left:0 !important; margin-right:0 !important; }
+
+
+.slidelft h3 {
+	margin: 0 8px !important;
+}
+p {
+	margin: 0 0 1em 0 !important;
+}
+
+.main-inner {
+	padding: 0 10px 10px !important;
+}
+
+.style1 {
+	color: #666666
+}
+
+
+.somemore    { float: left;  }
+p.somemore    { float: right }
+
+h7 { font-size: 1em; font-weight: strong; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.hp{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-right: 4px;
+	padding:0;
+	width:auto;
+	overflow:auto;}
+	
+.box {
+height: 15px;
+min-height: 12px;
+}
+
+.guide {
+background-color: transparent;
+background-image: url(https://www.cdc.gov/TemplatePackage/images/bg_twoBlocksGreen.gif);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-x-position: right;
+background-y-position: top;
+position: relative;
+margin-top: 12px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+padding-top: 4px;
+padding-right: 4px;
+padding-bottom: 4px;
+padding-left: 4px;}
+
+.guide dl {background-color: #fefefe}
+
+#topic-title h2{margin-bottom: 5px;}
+#content table {
+	table-layout:auto;
+
+}
+
+.content-source {font: 8pt Verdana, Arial, Helvetica, sans-serif; margin-bottom: 0px; align: left;}
+
+#holdplace1*#nav ul ul ul li a {
+background:transparent url(https://www.cdc.gov/TemplatePackage/images/leftNav_arrow.gif) no-repeat scroll 15px 5px;
+font-weight:bold;
+}
+.small { 
+	font: 8pt Verdana, Arial, Helvetica, sans-serif;
+}
+
+P.disclaimer { 
+	font: 10pt Verdana, Arial, Helvetica, sans-serif;     
+	color: #666666; 
+}
+
+h1, h2 {margin-top: 0pt; margin-bottom: 8pt; }
+
+
+table.noborder, table.noborder tr, table.noborder td, table.noborder th  {
+border : 0px solid #FFFFFF;
+padding : 2.5px;
+} 
+
+table.noborder1, table.noborder1 tr, table.noborder1 td, table.noborder1 th  {
+border : 0px solid #FFFFFF;
+padding : 2.5px;
+margin-left: 0;
+margin-right: 0;
+text-align: left;
+} 
+div.pub-info {
+font: 10pt Verdana, Arial, Helvetica, sans-serif;  
+text-align: left;   }
+
+
+#content-main h1 {
+    margin-top: 17px !important;
+    margin-bottom: 17px !important;
+    padding-bottom: 0 !important;
+}
+
+
+
+
+.somemorelink {
+    background: url("../../../../TemplatePackage/images/btn_dblArrows.gif") no-repeat scroll right center transparent !important;
+	margin: 0 2px 0 5px;
+    padding: 2px 1em 0.3em 0;
+}
+
+.removeImg img {
+	border:none !important;
+	padding:0 !important;
+	}
+	
+#content .module h3, #content .rounders h3, #content #topList h3 { padding: 6px 10px 16px !important;}	
+
+h3.stu_section {
+    background: none repeat scroll 0 0 #F5FAED;
+    border-bottom: 0.05em solid #B5CE9E;
+    border-top: 0.05em solid #B5CE9E;
+    font-size: 145% !important;
+    font-weight: 500 !important;
+    margin: 1em 0 !important;
+    padding: 0.2em 0.3em;
+	color:#0C5205 !important;
+}
+
+.clear {
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+}
+
+
+#wrapper img.strokerd, #wrapper .pic.strokerd {
+    border: none !important;
+    margin-top: 0.25em;
+    padding: 0;
+}
+
+div .white {
+    background-color: #fff !important;
+}
+
+#onthispageleft {
+	float:left !important;
+	}
+	
+#grayBox {
+	float:right;
+	margin:0;
+	padding:0;
+	background-color:#f6f6f6;
+	border:1px solid #cdcdcd;
+	height:218px;
+	width:62%;
+	}
+
+#grayBox p {
+	margin:0;
+	padding:7px 17px;
+	}
+
+
+#content .module h3 a, #content .rounders h3 a, #content #topList h3 a{
+    color: #0C5205;
+}
+
+
+.surReport .noDecoration {
+	display:inline !important;
+	}
+	
+table.tablegreen { border:1px solid #C1D5B0 !important; }	
+table.greenTable th.setbottom { background-color:#D7E4CC !important; }
+table.greenTable th { background-color:#C1D5B0 !important; }	
+table.greenTable tr td { padding:5px; }
+
+.surReport  {
+	margin:15px 0 0 0;
+	padding:0;
+	}
+
+.surReport .srTable {
+	height:437px !important;
+	}
+
+
+.tweetsContainer {
+	margin: 0;
+	background-color: #e1f0d4;
+	border:1px solid #C1D5B0;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 20px;
+		
+	}
+	
+.tweetsContainer h2  {
+    margin-bottom: 18px;
+    padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+
+	
+.tweetList {
+	margin: 0;
+	padding: 0;
+	list-style: none !important;
+		
+	}
+	
+.tweetList li {
+	padding: 5px;
+	margin-left: 0;
+	color: #000;
+	border-bottom: 1px solid #fff;
+	line-height: 150%;
+}
+
+.tweetList li .timestamp {
+   text-align: right;
+}	
+
+.tweetList li a {
+   color: #0c5205 !important;
+}	
+
+
+.modbox {
+	width:313px !important;
+	float:right !important;
+	display:block !important;
+	}
+
+.border-bgcolor {
+margin: 10px 15px 10px 0;
+padding: .5em 1em;
+border-left: 5px solid #0c5205;
+background-color: #eef7e3;
+font-style:italic;
+font-size:16px;
+float:left !important;
+}
+
+.removemod ul li {
+   border-top: none !important;	
+}
+
+
+#personalbox { position:relative; padding-bottom: 15px;}
+#personalbox #conNav {position: absolute; bottom: 0; right: 0; z-index: 100; width:100px;}
+#personalbox p { margin:5px 0 0 0 !important;}
+#personalbox a#prev_btn:hover { text-decoration:none !important;}
+#personalbox a#next_btn:hover { text-decoration:none !important;}
+#personalbox a#prev_btn { padding:3px 19px; border-radius:5px; background-color:#5d7e34; color:#FFFFFF;}
+#personalbox a#next_btn { padding:3px 19px; border-radius:5px; background-color:#5d7e34; color:#FFFFFF}
+#personalbox #readBtn {position: absolute; bottom: 0; left: 0;  z-index: 100;}
+
+
+.cuidad .externalImg { display:none !important;}
+
+.centerIt {
+	
+	text-align:center
+	
+	}
+	
+.alignRight {
+	
+	text-align:right
+	
+	}	
+	
+.alignLeft {
+	
+	text-align:left
+	
+	}
+	
+.width100P {
+	
+	width:100%;
+	
+	}
+	img .imgleft{
+	float:left;
+	text-align:left;
+	margin:0px 10px 10px 0px;
+}
+
+ .imgright{
+	float:right;
+	text-align:right;
+	margin:0px 0px 10px 10px;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/**
+ * CDC - (X)HTML/CSS Framework - wysiwyg
+ *
+ * @package         TemplatePackage 'B'
+ * @version         2.8.2
+ * @builddate       2016-12-13
+ */
+ 
+@import 'https://www.cdc.gov/TemplatePackage/css/B/wysiwyg/wysiReset.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/wysiwyg/wysiColumns.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/wysiwyg/wysiType.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/wysiwyg/wysiGrid.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/wysiwyg/wysiWidgets.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/B/wysiwyg/wysiModules.css';
+
+/*@import 'wysi/**//*Dialog.css';*/

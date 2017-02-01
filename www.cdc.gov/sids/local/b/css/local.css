@@ -1,0 +1,45 @@
+f@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+
+#wrapper [class*="module"] a {
+    text-decoration: underline;
+}
+
+#wrapper [class*="module"] a:hover {
+    text-decoration: none;
+}
+
+#flashALTcontentl {
+    margin:0 auto; 
+    background:transparent; 
+    padding:0 0 1em 0.5em;
+}
+
+.margin-bottom {
+    margin-bottom: 0px !important;
+}
+
+.padding-bottom {
+     padding-bottom: 0px !important;
+}
+
+#body a.onThisPageAnchor {
+    text-decoration: none !important;
+}
+
+.module-title {
+	margin: 0;
+	border-bottom: 1px #e5e5e5 solid;
+	padding: 5px 10px !important;
+	font-size: 18px  !important;
+	margin-bottom: 10px  !important;
+}

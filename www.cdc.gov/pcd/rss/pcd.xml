@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Preventing Chronic Disease Journal</title>
+		<description>Weekly issue of Preventing Chronic Disease. Public health research, practice, and policy.</description>
+		<link>https://www.cdc.gov/pcd/?s_cid=pcd_m</link>
+		<atom:link href="https://www.cdc.gov/pcd/?s_cid=pcd_m" rel="self" type="application/rss+xml" />
+		<image>
+			<title>Preventing Chronic Disease Journal</title>
+			<url>https://www.cdc.gov/pcd/images/pcd_logo_rss.gif</url>
+			<link>https://www.cdc.gov/pcd/?s_cid=pcd_x</link>
+			<width>400</width>
+			<height>39</height>
+		</image>
+		<language>en-US</language>
+		<webMaster>PCDeditor@cdc.gov PCD Questions</webMaster>
+		<category>Health</category>
+		<category>Public Health</category>
+		<item>
+			<title>Heart Disease and Cancer Deaths &#8212; Trends and Projections in the United States, 1969&#8211;2020</title>
+			<description></description>
+			<link>http://www2c.cdc.gov/podcasts/download.asp?af=h&amp;f=8644266</link>
+			<guid isPermaLink="true">http://www2c.cdc.gov/podcasts/download.asp?af=h&amp;f=8644266</guid>
+			<pubDate>Fri, 18 Nov 2016 16:40:00 EST</pubDate>
+		</item>
+		<item>
+			<title>eHealth Literacy, Online Help-Seeking Behavior, and Willingness to Participate in mHealth Chronic Disease Research Among African Americans, Florida, 2014&#8211;2015</title>
+			<description></description>
+			<link>http://www2c.cdc.gov/podcasts/download.asp?af=h&amp;f=8644267</link>
+			<guid isPermaLink="true">http://www2c.cdc.gov/podcasts/download.asp?af=h&amp;f=8644267</guid>
+			<pubDate>Fri, 18 Nov 2016 16:40:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Impact of Booster Breaks and Computer Prompts on Physical Activity and Sedentary Behavior Among Desk-Based Workers: A Cluster-Randomized Controlled Trial</title>
+			<description></description>
+			<link>http://www2c.cdc.gov/podcasts/download.asp?af=h&amp;f=8644268</link>
+			<guid isPermaLink="true">http://www2c.cdc.gov/podcasts/download.asp?af=h&amp;f=8644268</guid>
+			<pubDate>Fri, 18 Nov 2016 16:40:00 EST</pubDate>
+		</item>
+	</channel>
+</rss>

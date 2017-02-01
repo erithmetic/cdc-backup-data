@@ -1,0 +1,186 @@
+html, body{
+	background: #fff !important;
+	color: #000 !important;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+body, #content, #content-main, #siteinfo, #wrapper {
+	background: #fff !important;
+	color: #000 !important;
+	float: none !important;
+	width: auto !important;
+	margin: 0.25px !important;
+	padding: 0 !important;
+	font-size: 12px;
+}
+
+h2, h3, h4, h5{
+	font:14pt Georgia,"Times New Roman", Times,serif !important;
+	color:black !important;
+	letter-spacing:1px !important;
+}
+body h1{
+	clear:both;
+	display:block;
+	margin-bottom:10px !important;
+	border-top:1px dashed black !important;
+	border-bottom:1px dashed black !important;
+	padding:8px !important;
+	font:16pt Georgia,"Times New Roman", Times,serif !important;
+	color:black !important;
+	letter-spacing:1px !important;
+	text-align:center;
+}
+
+body#index h1 {
+	clear:both;
+}
+
+#content {overflow:visible;}
+
+#content-inner, .main-inner, #bottom-container {
+	float: none;
+}
+
+#branding {
+	height:auto !important;
+	clear: both;
+}
+
+div#branding-logo{
+	width: 100%;
+}
+
+body.secondTier div#branding div#branding-logoImage span{
+	display:none;
+	float:none;
+	font-size:18px;
+	text-align:center;
+	width:auto;
+}
+
+div#branding div#branding-logoImage{
+	display:block;
+	width:auto;
+}
+
+/*body.secondTier div#branding div#branding-logoImage img{
+}*/
+
+.module, .rounders, .subColumns .subColumns {
+	display: block;
+	float: none;
+	margin: 0 0 12px 0;
+	padding: 0;
+	height: auto;
+}
+
+body.secondTier h2,
+#AZlist-container,
+#branding span,
+#branding-pageheader,
+#branding-links,
+#searchForm,
+#branding-text,
+#branding-az,
+#breadBox,
+#section-header,
+#nav,
+#nav-container,
+#content-secondary,
+#siteinfo-nav,
+.module.multiPage,
+.multiPage-horiz,
+.pageOptions-horizontal,
+a.skippy,
+.somemore,
+.t, .b,
+noscript,
+#onthispage,
+#flashALTcontent {display:none;}
+
+#top-container {display: block; width: auto; position: relative; height: auto; min-height: none;}
+	#topic-intro {clear: none; background: brown; position: relative;}
+#bottom-container {display: block; width: auto; position: relative;}
+
+body#index div#branding div#branding-logo {
+	display:block;
+}
+
+#siteinfo-credits {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+div.c1, div.c2 {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+}
+
+div#siteinfo {
+	border-top: solid 1px black;
+}
+#siteinfo-logos { position: relative;
+	right: 0;
+	float: none;
+	width: 249px;
+	height: 55px;
+	white-space:nowrap;
+}
+#siteinfo-logos img#logo_dhhs{
+	border: none;
+	height: 55px;
+	width: 61px;
+	padding-top: 6px;
+}
+#siteinfo-logos img#logo_usagov{
+	border: none;
+	height: 55px;
+	width: 188px;
+}
+#siteinfo-credits address {
+	margin-top: 30px;
+	font-size: smaller;
+}
+
+a,
+a:visited{
+	color:black !important;
+	text-decoration:underline;
+}
+
+body.secondTier #content-main a[href]:after{
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+}
+
+body.secondTier #content-main a[href^="/"]:after{
+	content: " (" attr(href) ") ";
+	clear:right;
+}
+
+.module,
+.module .c1,
+.module .c2{clear:both;}
+
+.lefty,
+.noCorner img,
+.module div img {
+	position:relative;
+	margin-right:5px;
+	float:left;
+	clear:right;
+	vertical-align:baseline;
+}
+.righty{
+	position:relative;
+	margin-left:5px;
+	float:right;
+	clear:left;
+	vertical-align:baseline;
+}

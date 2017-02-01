@@ -1,0 +1,849 @@
+.printonly	{
+display: none;
+}
+
+H1 { color: #275B2C; font: normal 24px Trebuchet MS, Georgia, Palatino, Times New Roman, serif;  }
+H2 { color: #275B2C; font: 23px Trebuchet MS, Georgia, Palatino, Times New Roman, serif; padding-top: 50px;}
+H3 { color: #000; font-family:Trebuchet MS, Verdana, helvetica, arial, sans-serif; border-bottom: 1px solid #6DA172; margin-top: 25px; margin-bottom: 10px; }
+/* Used for author's name */
+H4 { color: #000; font: bold 13px Verdana, Arial, Helvetica, sans-serif; margin-top: 25px; }
+/* Used for charts and tables */
+H5 { color: #000; font-weight: bold; font-size: 13px; font-family: verdana, helvetica, arial, sans-serif; }
+
+
+H3.h3 {font-weight: bold; }
+
+p, ul, ol, li, td, th, dl, dt, dd	{ 
+	/*font: 13px Verdana, Arial, Helvetica, sans-serif;*/
+	color:#000;
+	}
+#azTab	{
+	color: #FFF;
+	}
+
+b	{
+	font-weight: bold;
+	}
+.col1_PCD,
+.col2_PCD,
+.col3_PCD  {
+	float: left;
+	width: 197px;
+}
+.col1_PCD div,
+.col2_PCD div,
+.col3_PCD div {
+	width: auto;
+	padding: 5px;
+}
+.clear	{
+	clear: both;
+	}
+
+
+strong	{
+	font-weight: bold;
+	}
+	
+em	{
+	font-style: italic;
+	}
+/*i	{
+	font-style: italic;
+	}*/
+	
+a:link	{ color: #3B7940; }
+a:visited	{ color: #283CA8; zcolor: #003467; }
+a:hover	{ color: #3B7940; text-decoration: none; }
+a:active	{ color: #c00; }
+	
+.psmall	{
+	font: 11px Verdana, Arial, Helvetica, sans-serif; 
+	}
+.psmall P	{
+	font: 11px Verdana, Arial, Helvetica, sans-serif; 
+	}
+
+.pnormal	{
+	font: 13px Verdana, Arial, Helvetica, sans-serif; 
+	}
+.pnormal P	{
+	font: 13px Verdana, Arial, Helvetica, sans-serif; 
+	}
+
+.smallgrey	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #666;
+	}
+.smallgrey P	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #666;
+	}
+
+.smallwhite	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #fff;
+	}
+.smallwhite P	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #fff;
+	}
+
+.smallblue	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #069;
+	}
+.smallblue P	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #069;
+	}
+
+.peerreviewed	{
+	font: 10px verdana, helvetica, arial, sans-serif;
+	color: #000;
+	}
+
+/* This can serve as a deck or an abstract */
+.deck {
+	font: 14px/16px Georgia, Palatino, Times New Roman;
+	color: #275B2C;
+	}
+	
+/* This caption is for all article charts and photos */
+.caption	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #666;
+	border-bottom: 1px solid #d6d6d6;
+	}
+.caption P	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #666;
+	}
+
+/* This figure is for all article figuress */
+.figure	{ 
+	font: 13px arial, verdana, helvetica, sans-serif;
+	color: #000;
+	border-bottom: 1px solid #d6d6d6;
+	}
+.figure P	{ 
+	font: 13px arial, verdana, helvetica, sans-serif;
+	color: #000;
+	}
+	
+/* This is the toc article title */
+.toc	{
+	font: bold 15px Georgia, Palatino, Times New Roman, serif;
+	color: #000;
+	}
+
+/* This is the first published font for the toc */
+.release	{
+	font: 11px verdana, helvetica, arial, sans-serif; 
+	color: #B3B3B3;
+	}
+
+/* This is the index article title */
+.indexarticle	{
+	font: bold 13px Georgia, Palatino, Times New Roman, serif;
+	color: #275B2C;
+	}
+
+.tritable	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #000;
+	zcolor: #607994;
+	}
+.tritable P	{ 
+	font: 11px verdana, helvetica, arial, sans-serif;
+	color: #000;
+	}
+
+.tritablev2 td, .tritablev2 th	{
+font: normal 11px Verdana, Arial, Helvetica, sans-serif; 
+color: #000;
+background-color: #fff;
+padding: 3px;
+vertical-align: top;
+}
+.tritablev2 p, .tritablev2 li	{
+font: normal 11px Verdana, Arial, Helvetica, sans-serif; 
+color: #000;
+}
+th.tritablev2row1	{
+font: 11px Verdana, Arial, Helvetica, sans-serif; 
+color: #000;
+background-color: #FEF1E0;
+vertical-align: bottom;
+}
+
+.trail	{
+	font: 11px Verdana, Helvetica, Arial, sans-serif;
+	}
+	
+
+/*This is the small green font for the homepage */
+
+.greentext	{
+	font: 10.5px verdana, helvetica, arial, sans-serif;
+	color: #3B7940;
+	}
+
+
+/* This is the main side menu code */
+
+.sidemenu	{ 
+	font: 11px Verdana, helvetica, arial; 
+	color: #000;
+ 	}
+.sidemenu a:link	{ color: #000; text-decoration: none; }
+.sidemenu a:visited	{ color: #283CA8; text-decoration: none; }
+.sidemenu a:hover	{ color: #000; text-decoration: none; }
+.sidemenu a:active	{ color: #c00; text-decoration: none; }
+
+
+/* This is the side submenu code */
+
+.submenu	{ 
+	font: 11px Verdana, helvetica, arial; 
+	color: #000;
+ 	}
+.submenu a:link	{ color: #000; }
+.submenu a:visited	{ color: #283CA8; }
+.submenu a:hover	{ color: #000; text-decoration: none; }
+.submenu a:active	{ color: #c00; }
+
+
+/* This is the top nav menu code */
+
+.headersub	{ 
+	font: 11px Verdana, helvetica, arial; 
+	color: #000;
+ 	padding: 2px;
+ 	}
+.headersub a:link	{ padding: 2px; color: #000; text-decoration: none; }
+.headersub a:visited	{ padding: 2px; color: #283CA8; text-decoration: none; }
+.headersub a:hover	{ padding: 2px; color: #000; text-decoration: none; }
+.headersub a:active	{ padding: 2px; color: #c00; text-decoration: none; }
+
+/* This is the code for the page citations */
+
+.currentissue	{
+	font: bold 24px Georgia, Palatino, Times New Roman, serif;
+	color: #275B2C;
+	}
+.volume	{
+	font: 14px Georgia, Palatino, Times New Roman, serif;
+	color: #000;
+	}
+
+.homefeaturetext	{
+	font: bold 12px verdana, helvetica, arial, sans-serif;
+	color: #000;
+	}
+.featuretext	{
+	font: 10px verdana, helvetica, arial, sans-serif;
+	color: #000;
+	}
+.articletitle	{
+	font: 20px Georgia, Palatino, Times New Roman, serif; 
+	color: #275B2C; 
+	margin-bottom: -8px;
+	}
+.articletitle a:link	{ font: 20px Georgia, Palatino, Times New Roman, serif; color: #275B2C; margin-bottom: -8px; text-decoration: underline; }
+.articletitle a:visited	{ font: 20px Georgia, Palatino, Times New Roman, serif; color: #283CA8; margin-bottom: -8px; text-decoration: underline; }
+.articletitle a:hover	{ font: 20px Georgia, Palatino, Times New Roman, serif; color: #D5DCD1; margin-bottom: -8px; text-decoration: none ;}
+.articletitle a:active	{ font: 20px Georgia, Palatino, Times New Roman, serif; color: #B08394; margin-bottom: -8px; text-decoration: none ;}
+
+
+.expand	{
+	font: 11px/22px Verdana, Arial, Helvetica, sans-serif;
+	}
+
+
+/* This is the code for the cover art caption */
+
+.coverart	{ 
+	font: 11px/13px verdana, helvetica, arial, sans-serif;
+	color: #777;
+ 	text-align: right;
+	}
+.coverart P	{ 
+	font: 11px/13px verdana, helvetica, arial, sans-serif;
+	color: #777;
+ 	text-align: right;
+	}
+	
+/* This is for the homepage category banner text */
+.indexcats	{
+	font: 11px/13px trebuchet ms, arial, verdana, sans-serif;
+	letter-spacing: 0px;
+	font-weight: 500;
+	color: #ED7600;
+	text-align: center;
+	}
+/* End homepage category banner text */
+
+/* These are styles for the e-mail widget */
+.smallfield	{
+	font: 11px/12px verdana, helvetica, arial;
+	color: #0000cc;
+	border: 1px solid #D5DCD1;
+	width: 110px;
+	height: 17px;
+	margin: 0px
+	padding: 0px;
+}
+.button	{
+	font: 10px/11px verdana, helvetica, arial;
+	color: #000;
+	background-color: #D5DCD1;
+	border: 1px outset #D5DCD1;
+	width: 110px;
+	height: 16px;
+	cursor: hand;
+	margin: 0px
+	padding: 0px;
+}
+/* End e-mail styles */
+
+
+
+
+/* These styles are for article tables */
+.tablestyle	{
+ border-collapse: collapse;
+border: 1px solid #275B2C;
+margin-left: 0 !important ;  /*override the 08/20/2012 global margin adjustment */
+border-spacing: 0;
+}
+.tablestyle td, .tablestyle th	{
+font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+color: #000;
+background-color: #fff;
+border-collapse: collapse;
+border: 1px solid #275B2C;
+padding: 4px;
+vertical-align: top;
+
+}
+.tablestyle p, .tablestyle li	{
+font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+color: #000;
+}
+th.row1, th.row1left	{
+font: bold 11px Verdana, Arial, Helvetica, sans-serif; 
+color: #000;
+background-color: #D5DCD1;
+vertical-align: bottom;
+}
+th.row1left	{
+text-align: left;
+}
+.left	{
+text-align: left;
+}
+.right{
+text-align: right;
+float: right;
+}
+
+/* End article table style */
+
+
+
+
+/*this is for the article type checklists */
+.checkbox p	{
+text-indent: -22px;
+margin-left: 40px;
+margin-top: 10px;
+_margin-top: -10px;
+}
+
+.mbutton	{
+float: left; 
+margin-right: 12px;
+}
+.subh3	{
+font: italic normal .85em ;
+}
+
+/* New TOC styles */
+
+.arttype	{
+background-color: #ffffe5;
+width: 100%;
+font: bold 11px verdana, helvetica, arial;
+padding: 5px 5px;
+}
+
+.arttype > span.rightjustify {
+float: right;
+line-height: 15px !important;
+display: block;
+font-weight: normal !important;
+}
+
+
+.indentblock	{
+margin-left: 12px;
+padding-top: 3px;
+padding-bottom: 25px;
+}
+.indentblock p	{
+margin-top: -6px;
+_margin-top: -12px;
+}
+.hr	{
+margin-top: 15px;
+margin-bottom: 18px;
+_margin-top: -10px;
+_margin-bottom: 15px;
+}
+
+
+/*MCE styles */
+
+.cme {
+   background-color: #FEFAE8; 
+   border: 1px solid #ccc;
+   padding: 0 20px 20px 20px;
+   width: 96.5%;
+   position: relative;
+   display: table;
+}
+
+.cme_column_right {
+   width: 60%;
+   float: left;
+   min-width: 250px;
+}
+
+.cme_column_left {
+   width: 30%;
+   float: left;
+   padding-right: 80px;
+   min-width: 250px;
+}
+
+.cmelist{
+   list-style-type: upper-alpha;
+}
+
+.mce	{
+width: auto; 
+background-color: #FEFAE8; 
+border: 1px solid #ccc;
+}
+
+.mce table, .mce td	{
+border: 0px solid #000;
+text-align: left;
+vertical-align: top;
+}
+
+.mce td	{
+padding: 10px;
+}
+
+.mce p, .mce li	{
+font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.cme H3 {
+    border-bottom: none;
+} 
+
+
+#wrapper .module-typeA {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #e5e5e5;
+    display: block;
+    margin-left: 5px;
+}
+
+
+#wrapper .module-typeA {
+    background-color: white;
+}
+
+.calloutbox2_wrapper {
+    display: inline block;
+    float: right;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+.calloutbox2 {
+    background-color: rgb(242, 255, 225);
+    padding: 20px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.calloutbox2 h3 {
+    border-bottom: 1px solid #275b2c;
+    margin-top: 0;
+    color: #275b2c;
+
+}
+
+.calloutbox2 li {
+    line-height: 25px;
+}
+
+#footer .socialMedia ul li {
+    height: 29px; /*Was 31px. 29px fixes the visual problem of text showing for icon name*/
+}
+
+
+td.verticalMiddle,
+th.verticalMiddle {
+    vertical-align: middle !important; /*aligns divs vertically to the middle with multi-spanning rows*/
+}
+
+blockquote.quote,
+blockquote p        {
+    font-size: 13px!important;
+}
+
+
+table.alttable > thead > tr > th{
+    padding: 12px!important;
+}
+
+.module-typeA > .list-sub-two > p {
+    padding-bottom: 30px; 
+    display: block;
+    width: 98%;
+}
+
+.module-typeA > .list-sub-two > p > img  {
+width: 100px;
+padding-left: 10px;
+}
+
+#wrapper [class*="module"] > div.list-sub-two {
+    width: 95% !important;
+    padding-bottom: 20px;
+}
+
+
+
+
+.mSyndicate > p.smallgrey > i  {
+    font-family: "Verdana", Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 11px !important;
+}
+
+
+
+.emailupdates > p {
+   clear: left;
+}
+
+
+.list-block > div > ul.list-block > li > div > span  {
+    margin-top: 0 !Important;
+}
+
+#content-secondary {
+    clear: left;
+}
+
+
+/*----------------------- New PCD Home Page Just released styles---------------------------------------------------*/
+
+ul.justReleased {  
+   list-style-type:square;       
+   list-style-position: outside;
+}
+        
+ul.justReleased > li {
+    line-height: 20px;
+    padding: 17px 0;
+    border-bottom-color: silver;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    color: #085100;
+}
+#body ul.justReleased > li > a {
+    line-height: 15px;
+    text-decoration: none;
+}
+
+#body ul.justReleased > li > a:hover {
+    line-height: 15px;
+    text-decoration: underline;
+}
+
+div.collection {
+    font-weight: bold;
+    background: #085100; 
+    color: white;
+    border-radius: 0px 15px 0px 15px;
+    padding: 10px;
+    background: rgba(98,125,77,1);
+    background: -moz-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(8,81,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(98,125,77,1)), color-stop(100%, rgba(8,81,0,1)));
+    background: -webkit-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(8,81,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(8,81,0,1) 100%);
+    background: -ms-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(8,81,0,1) 100%);
+    background: linear-gradient(to right, rgba(98,125,77,1) 0%, rgba(8,81,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#085100', GradientType=1 );
+}
+
+span.justReleasedTitle {
+   float: right; 
+}
+
+h3.justAdjust {
+   border: none; 
+   margin-bottom:0; 
+}
+
+em:after,
+i:after {
+    content: "\00a0";    /*inserts space after italics characters to compensate for font touching*/
+}
+
+h2#volume,
+h2.Appendices{
+   padding-top: 0;
+}
+
+ol.cmeBulletWrapper li,
+ol.cmeAlphaUpper li   {
+    padding-bottom: 10px;
+}
+ol.cmeAlphaUpper {
+    list-style-type: upper-alpha !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.smcaps,
+td.smcaps {  
+    font-variant: small-caps !important;
+}
+
+.testclass {  
+    color: red !important; 
+    font-weight: bold;  
+}
+
+
+/*.altmetric-embed {
+    left: 116px; 
+    top: -205px; 
+    position: relative; 
+}*/
+
+#socialMediaShareContainer { display : inline !important; } 
+
+#wrapper .medscapeCME {
+    background: #FEFAE8;
+    border: 1px solid #ccc;
+    padding: 0 10px 10px 10px;
+}
+
+.medscapeCME ol li {
+	margin-left: 36.5pt;
+}
+
+
+.borderlessInlineTable{
+	border: none;
+        border-spacing: 5px;
+        border-collapse: collapse;
+        background-color: none;
+        margin: 0 auto;
+}
+
+
+.borderlessInlineTable td,
+.borderlessInlineTable th {
+	border: none;
+        background-color: white;
+        text-align: left;
+        font-weight: normal!important;
+        font-size: 13px!important;
+        padding-right: 10px;
+}
+
+
+
+
+/*-------Special fix to control cell width when bullets are used therein BEGINS------*/
+/*-------Created for 16_0054.htm Table 3. 5/10/2016 Shawn Jones------*/
+
+table#adjustBulletFix td.fixBullWidth,
+table#adjustBulletFix th.fixBullWidth {
+   max-width: 100px!important;
+   word-break: break-word;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+}
+
+/*-------Special fix to control cell width when bullets are used therein ENDS------*/
+
+/*-------Special CSS control for NEW 2016 PCD Home Page BEGINS---------------------------------------------*/
+
+#wrapper .moduleadjust.module-typeA {
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    border: none !important;
+}
+
+
+
+
+#wrapper .boxBase {
+    height: 462px;
+    width: 250px;
+    margin: 10px;
+    float: left;
+    padding: 20px;
+    clear: none;
+    background: #085100;
+    background: -webkit-linear-gradient(#000000, #085100 , #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000000, #085100 , #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000000, #085100 , #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000000, #085100 , #000000); /* Standard syntax */
+}
+
+
+.twitterBase,
+.facebookBase {
+       border: 1px solid #085100 !important;
+       width: 280px;
+       height: 500px;
+       margin: 10px;
+       float: left;
+}
+
+
+#wrapper .boxBase h3,
+#wrapper .boxBase p {
+    margin: 0;
+    padding-top: 15px;
+    color: white;
+    border: 0;
+}
+
+#wrapper .boxBase a{
+    color: white;
+}
+
+
+
+
+
+@media all and (min-width:1200px) {
+   .span9.adjustspan9 {
+         width: 455px !important;
+    }
+
+}
+
+
+/*------------------------------------------------------1200px Mobile Viewport---------*/
+@media screen and (max-width : 1200px) {
+     #wrapper .boxBase {
+           height: auto;
+           width: 690px;
+           clear: both;
+        }
+     .twitterBase{
+         width: 56%; 
+      }
+}
+/*------------------------------------------------------1200px Mobile Viewport Ends---------*/
+
+/*------------------------------------------------------979px Mobile Viewport---------*/
+@media screen and (max-width : 979px) {
+     #wrapper .boxBase {
+           width: 681px;
+        }
+}
+/*------------------------------------------------------979px Mobile Viewport Ends---------*/
+
+/*------------------------------------------------------767px Mobile Viewport---------*/
+@media screen and (max-width : 767px) {
+     #wrapper .boxBase {
+           height: auto;
+           width: 92%;
+       }
+     .twitterBase {
+       width: 288px;
+      }
+     .facebookBase {
+        float: right;
+      }
+
+}
+/*------------------------------------------------------767px Mobile Viewport Ends---------*/
+
+/*------------------------------------------------------653px Mobile Viewport---------*/
+@media screen and (max-width : 653px) {
+     #wrapper .boxBase {
+           height: auto;
+           width: 90%;
+            }
+      .facebookBase .fb_iframe_widget {
+           text-align: center;
+           display: block!Important;
+       }
+      .twitterBase {
+           width: 96%;
+           clear: both;
+      }
+     .facebookBase {
+          width: 96%;
+          clear: both;
+          float: left;
+          background: #085100;
+          background: -webkit-linear-gradient(#000000, #085100 , #000000); /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(#000000, #085100 , #000000); /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(#000000, #085100 , #000000); /* For Firefox 3.6 to 15 */
+          background: linear-gradient(#000000, #085100 , #000000); /* Standard syntax */
+      }
+}
+/*------------------------------------------------------653px Mobile Viewport Ends---------*/
+
+/*------------------------------------------------------480px Mobile Viewport---------*/
+@media screen and (max-width : 480px) {
+     #wrapper .boxBase {
+           height: auto;
+           width: 88%;
+       }
+}
+/*------------------------------------------------------480px Mobile Viewport Ends---------*/
+
+/*------------------------------------------------------320px Mobile Viewport---------*/
+@media screen and (max-width : 320px) {
+     #wrapper .boxBase {
+           width: 242px;
+        }
+     .twitterBase,
+     .facebookBase {
+       width: 280px;
+      }
+}
+/*------------------------------------------------------320px Mobile Viewport Ends---------*/
+
+/*-------Special CSS control for NEW 2016 PCD Home Page ENDS------*/
+
+/*------------------------------------------------------Special Retraction class and tag Begins. To control the title field look for retractions.---------*/
+.retraction,
+retraction {
+    padding: 10px; 
+    background: #f9dede;
+    display:block;
+}
+/*------------------------------------------------------Special Retraction class and tag Ends. ---------*/
+
+

@@ -1,0 +1,1 @@
+function subscribe(){window.open("https://public.govdelivery.com/accounts/USCDC/subscriber/new?topic_id="+document.govdelivery.topic_id.value+"&pop=t"+"&login="+document.govdelivery.email.value+"&origin="+window.location.href,"","scrollbars=1,toolbar=0,menubar=0,resizable=1,width=800,height=384")}

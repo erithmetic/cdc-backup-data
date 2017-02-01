@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width,height=device-height">
+
+<title>CDC Prevention Checklist</title>
+
+
+<link href="https://www.cdc.gov/prevention/widget/style3.css" rel="stylesheet" type="text/css">
+
+<script src="https://www.cdc.gov/prevention/widget/constants.js" type="text/javascript"></script>
+<script src="https://www.cdc.gov/prevention/widget/jquery.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+var uagent;
+var role;
+var platform;
+var device;
+var width;
+var height;
+var http;
+
+
+function checkCR(evt) {
+
+    var evt  = (evt) ? evt : ((event) ? event : null);
+
+    var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+
+	if (evt.keyCode == 13){
+		
+		if(document.getElementById('share').style.display == "block" ){
+			document.getElementById('sharebut').focus();
+			document.getElementById('share').style.display = "none";
+		}
+		if(document.getElementById('info').style.display == "block" ){
+			document.getElementById('infobut').focus();
+			document.getElementById('info').style.display = "none";
+		}
+		if(document.getElementById('disclaimer').style.display == "block" ){	
+			document.getElementById('disclaimer').style.display = "none";
+			document.getElementById('disclaimerbut').focus();
+		}
+	}
+	
+  }
+  
+  document.onkeypress = checkCR;
+  
+	function reloader(){
+		
+		document.getElementById('pagewrap').style.display = 'block';
+		document.getElementById('contentone').style.display = 'block';	
+		document.getElementById('contentone').tabindex = '-1';	
+		document.getElementById('r1').focus();
+		document.images['self'].src = eval('"images/small_radio_button_dn.png"');
+		document.images['patients'].src = eval('"images/small_radio_button_up.png"');
+		document.images['male'].src = eval('"images/mdn.png"');
+		document.images['female'].src = eval('"images/fup.png"');
+		document.images['pregnant'].src = eval('"images/small_radio_button_up.png"');
+		document.getElementById('isPregnant').style.display = 'none';
+		document.getElementById('age').value = "";
+		
+	}
+	
+	function set_role(choice){
+		document.images['self'].src = eval('"images/small_radio_button_up.png"');
+		document.images['patients'].src = eval('"images/small_radio_button_up.png"');
+		document.images[choice].src = eval('"images/small_radio_button_dn.png"');
+		document.getElementById('navone').style.display = "block";
+		document.getElementById('alertMsgOne').innerHTML = "";
+		document.getElementById('alertMsgOne').style.display = "none";
+	}
+
+	
+	function closer(){
+
+		document.getElementById('alertMsg').innerHTML = "";
+	}
+	
+	function set_answer(question,choice){
+		
+	//SET CHOICENUM IMAGE HERE
+	
+	if(question == "gender"){
+		
+		var gender = 'gender';
+
+		var a=document.images['self'].src.split("images/");	
+		var aNum = a[1];
+		
+		var b=document.images['patients'].src.split("images/");	
+		var bNum = b[1];
+			
+		    
+			var gender = "gender";
+			document.images['male'].src = eval('"images/mup.png"');
+			document.images['female'].src = eval('"images/fup.png"');
+			document.getElementById('malebut').focus();
+			if(choice == "male"){ 
+				document.images[choice].src = eval('"images/mdn.png"');
+				document.getElementById('navtwo').style.display = "block";
+				document.getElementById('alertMsgTwo').innerHTML = "";
+				document.getElementById('alertMsgTwo').style.display = "none";
+				gender = "male";
+			} else {
+				document.images[choice].src = eval('"images/fdn.png"');
+				document.getElementById('navtwo').style.display = "block";
+				document.getElementById('alertMsgTwo').innerHTML = "";
+				document.getElementById('alertMsgTwo').style.display = "none";
+				gender = "female";
+			}
+	}
+	
+	var age = document.getElementById('age').value;
+	
+	if(question != 'pregnant'){
+		
+	if(gender == 'female' && parseInt(age) >= 11 && parseInt(age) <= 49){
+		document.getElementById('isPregnant').style.display = 'block';
+		document.getElementById('pregon').focus();
+		
+	} else {
+		document.getElementById('isPregnant').style.display = 'none';
+		document.images['pregnant'].src = eval('"images/small_radio_button_up.png"');
+	}
+	
+	}
+	
+	if(question == "pregnant" && choice == "on"){		
+		var m=document.images['pregnant'].src.split("images/");
+		choiceNum = m[1];
+		if(choiceNum == "small_radio_button_up.png"){
+		  document.images['pregnant'].src = eval('"images/small_radio_button_dn.png"');
+		  document.images['not_pregnant'].src = eval('"images/small_radio_button_up.png"');
+		} else {
+		  document.images['pregnant'].src = eval('"images/small_radio_button_up.png"');
+		  document.images['not_pregnant'].src = eval('"images/small_radio_button_dn.png"');
+		}
+	} else if(question == "pregnant" && choice == "off"){
+		
+		var m=document.images['not_pregnant'].src.split("images/");
+		choiceNum = m[1];
+		if(choiceNum == "small_radio_button_up.png"){
+		  document.images['pregnant'].src = eval('"images/small_radio_button_up.png"');
+		  document.images['not_pregnant'].src = eval('"images/small_radio_button_dn.png"');
+		} else {
+		  document.images['pregnant'].src = eval('"images/small_radio_button_dn.png"');
+		  document.images['not_pregnant'].src = eval('"images/small_radio_button_up.png"');
+		}
+		
+	}
+
+}
+
+
+function evalPregnant(){
+	
+	var z = document.getElementById('age').value;
+	
+	if (z != ""){
+		document.getElementById('navthree').style.display = "block";
+		document.getElementById('alertMsgThree').innerHTML = "";
+		document.getElementById('alertMsgThree').style.display = "none";
+	}
+	
+    if(!z.match(/^\d+/)){
+		document.getElementById('age').value = "";
+     }
+	
+	 setTimeout(function() {
+
+		var c=document.images['male'].src.split("images/");		
+		var d=document.images['female'].src.split("images/");	
+
+		if (c[1] == "mup.png" && d[1] == "fdn.png"){
+			var gender = "female";
+			 document.getElementById('alertMsgTwo').style.display = "none";
+		} else if (c[1] == "mdn.png" && d[1] == "fup.png"){
+			var gender = "male";
+			 document.getElementById('alertMsgTwo').style.display = "none";
+		} else {
+			var gender = "gender";
+			
+			//FOR SEQUENTIAL VALIDATION
+
+		}
+	
+		var age = document.getElementById('age').value;
+	
+		if(gender == 'female' && parseInt(age) >= 11 && parseInt(age) <= 49){
+			document.getElementById('isPregnant').style.display = 'block';
+		} else {
+			document.images['pregnant'].src = eval('"images/small_radio_button_up.png"');
+			document.getElementById('isPregnant').style.display = 'none';
+		}
+	}, 1000);
+}
+
+
+function submitForm() {
+
+var role = 'self';
+var gender = 'gender';
+var pregnant = "off";
+var a=document.images['self'].src.split("images/");	
+var aNum = a[1];
+		
+var b=document.images['patients'].src.split("images/");	
+//var bNum = b[1];	
+
+if (a[1] == "small_radio_button_up.png"){
+	var role = "patient";
+} else {
+	var role = "self";
+}
+
+
+var c=document.images['male'].src.split("images/");	
+var cNum = c[1];
+		
+var d=document.images['female'].src.split("images/");	
+var dNum = d[1];
+
+if (c[1] == "mup.png" && d[1] == "fdn.png"){
+	var gender = "female";
+} else if (c[1] == "mdn.png" && d[1] == "fup.png"){
+	var gender = "male";
+} else {
+	var gender = "gender";
+}
+
+var e=document.images['pregnant'].src.split("images/");	
+var eNum = e[1];
+
+if (e[1] == "small_radio_button_dn.png"){
+	var pregnant = "on";
+} else {
+	var pregnant = "off";
+}
+
+
+  var age = document.getElementById('age').value;
+  var c=document.images['male'].src.split("images/");		
+  var d=document.images['female'].src.split("images/");	  
+  var a=document.images['self'].src.split("images/");	
+  var aNum = a[1];
+		
+  var b=document.images['patients'].src.split("images/");	
+  var bNum = b[1];	
+	  
+  if (a[1] == "small_radio_button_up.png" && b[1] == "small_radio_button_up.png"){			
+	  document.getElementById('alertMsg').style.display = "block";
+	  document.getElementById('alertMsg').innerHTML = 'Please select <span class="wht">Me, My Child, or Someone Else<\/span> or <span class="wht">My Patient<\/span>';
+	  document.getElementById("101").tabIndex = '31';
+	 
+  } else if (c[1] == "mup.png" && d[1] == "fup.png"){
+	
+	  document.getElementById('alertMsgThree').style.display = "block";
+	  document.getElementById('alertMsgThree').innerHTML = 'Please select <span class="wht">Male<\/span> or <span class="wht">Female<\/span>';
+  } else if (document.getElementById('age').value == ""){
+	
+	  document.getElementById('alertMsgThree').innerHTML = "";
+		document.getElementById('alertMsgThree').style.display = "none";
+  } else {	  
+  
+
+  var myForm = document.createElement("form");
+  myForm.method="get" ;
+  myForm.action = "http://www.cdc.gov/prevention/js-get.html";
+  myForm.setAttribute("target", "_blank");
+
+  var myInput = document.createElement("input") ;
+  myInput.setAttribute("name", "role") ;
+  myInput.setAttribute("value", role);
+  myForm.appendChild(myInput) ;
+  
+  var myInput = document.createElement("input") ;
+  myInput.setAttribute("name", "gender") ;
+  myInput.setAttribute("value", gender);
+  myForm.appendChild(myInput) ;
+  
+  var myInput = document.createElement("input") ;
+  myInput.setAttribute("name", "age") ;
+  myInput.setAttribute("value", age);
+  myForm.appendChild(myInput) ;
+  
+  var myInput = document.createElement("input") ;
+  myInput.setAttribute("name", "pregnant") ;
+  myInput.setAttribute("value", pregnant);
+  myForm.appendChild(myInput) ;
+  
+  document.body.appendChild(myForm) ;
+  myForm.submit() ;
+  document.body.removeChild(myForm) ;
+  
+  }
+
+}
+
+
+function switchpanel(box) {
+	
+var a=document.images['self'].src.split("images/");	
+var aNum = a[1];
+		
+var b=document.images['patients'].src.split("images/");	
+
+var c=document.images['male'].src.split("images/");	
+var cNum = c[1];
+		
+var d=document.images['female'].src.split("images/");	
+var dNum = d[1];
+
+var e=document.images['pregnant'].src.split("images/");	
+var eNum = e[1];
+
+	
+  var age = document.getElementById('age').value;
+  var c=document.images['male'].src.split("images/");		
+  var d=document.images['female'].src.split("images/");	  
+  var a=document.images['self'].src.split("images/");	
+  var aNum = a[1];
+		
+  var b=document.images['patients'].src.split("images/");	
+  var bNum = b[1];	
+	  
+	
+	if(box == 'one'){
+		if (a[1] == "small_radio_button_up.png" && b[1] == "small_radio_button_up.png"){
+		document.getElementById('navone').style.display = "none";			
+	  	document.getElementById('alertMsgOne').style.display = "block";
+	  	document.getElementById('alertMsgOne').innerHTML = 'Please select <span class="wht">Me, My Child, or Someone Else<\/span> or <span class="wht">My Patient<\/span>';
+		} else {	
+		document.getElementById('navone').style.display = "block";	
+		document.getElementById('contentone').style.display = 'none';
+		document.getElementById('contenttwo').style.display = 'block';	
+		document.getElementById('r3').focus();	
+	
+  		}
+	} else if(box == 'two'){	
+		if (c[1] == "mup.png" && d[1] == "fup.png"){
+		document.getElementById('navtwo').style.display = "none";	
+	  	document.getElementById('alertMsgTwo').style.display = "block";
+	 	document.getElementById('alertMsgTwo').innerHTML = 'Please select <span class="wht">Male<\/span> or <span class="wht">Female<\/span>';
+  		} else {
+		document.getElementById('navtwo').style.display = "block";	
+		document.getElementById('contenttwo').style.display = 'none';
+		document.getElementById('contentthree').style.display = 'block';
+		document.getElementById('age').focus();
+		}
+	} else if(box == 'three'){
+		if (document.getElementById('age').value == ""){
+		document.getElementById('navthree').style.display = "none";	
+	  	document.getElementById('alertMsgThree').style.display = "block";
+	  	document.getElementById('alertMsgThree').innerHTML = 'Please enter <span class="wht">AGE<\/span>';
+  		} else {
+		document.getElementById('navthree').style.display = "block";
+		document.getElementById('contentthree').style.display = 'none';
+		document.getElementById('contentwidetwo').style.display = 'block';
+		document.getElementById('submitform').focus();
+		}
+	} 	
+}
+
+function info(div){
+	if(div != 'close'){
+		if(document.getElementById(div).style.display == 'block'){	
+		
+			document.getElementById(div).style.display = 'none';
+
+		} else {
+			document.getElementById('info').style.display = 'none';
+			document.getElementById('share').style.display = 'none';
+			document.getElementById('disclaimer').style.display = 'none';
+			document.getElementById(div).style.display = 'block';
+			document.getElementById(div).focus();
+		}
+	} else {
+		document.getElementById('info').style.display = 'none';
+		document.getElementById('share').style.display = 'none';
+		document.getElementById('disclaimer').style.display = 'none';
+	}
+}
+
+</script>
+
+     
+</head>
+
+<body id="index" class="homepage" onLoad="reloader();">
+<div id="pagewrap">
+	<div id="widgettitle">CDC Prevention Checklist</div>
+
+	<div id="contentwide">
+    
+    	<div class="cpst_tool_head">Get Preventive Health Care Resources<br>
+           <span class="headcaps">for You or Someone You Care About</span>
+    	</div>
+    </div>
+    
+	<div id="content">   
+  
+	<div id="contentone">
+     
+  	  <div class="cpst_section_box">
+	    	<div class="cpst_section_head">I want<br>information for </div>
+     
+     
+            
+            <ul class="radiogroupone" id="rg1" role="radiogroup" aria-labelledby="rg1_label">
+    			<li class="selected" id="r1" tabindex="0" role="radio" aria-checked="true">
+                    <div class="cpst_radio" id="selfbut" > 
+      					<img role="presentation"  alt="self" id="self" src="https://www.cdc.gov/prevention/widget/images/small_radio_button_dn.png">
+                    	<span class="typeface">Me, My Child,<br>&nbsp;&nbsp;&nbsp;&nbsp;Someone Else</span> 
+                    </div>
+    			</li>
+    			<li class="" id="r2" tabindex="-1" role="radio" aria-checked="false">
+                	<div class="cpst_radio" id="patientsbut" > 
+      					<img role="presentation"  alt="my patient" id="patients" src="https://www.cdc.gov/prevention/widget/images/small_radio_button_up.png">
+                    	<span class="typeface">My Patient</span>
+                    </div>
+    			</li>
+    		</ul>            
+
+        	
+      	</div>
+        <div id="alertMsgOne" style="display:none;"></div>
+        <div id="navone" ><span id="subone"><a href="javascript: switchpanel('one');"  tabindex="0"><img src="https://www.cdc.gov/prevention/widget/images/next_up_mobi.jpg"  alt="Next screen" height="20"></a></span>&nbsp;<span id="cdcone"><a href="../../index.html"  title="cdc.gov"  tabindex="0" target="_blank"><img src="https://www.cdc.gov/prevention/widget/images/CDCbugSm.png" alt="cdc.gov" width="40"></a></span></div>
+	</div>
+    
+    <div id="contenttwo"  style="display:none;">
+		<div class="cpst_section_box">
+            <div class="cpst_section_head_two">Sex</div>
+            <div class="cpst_gender">
+            
+            	<ul class="radiogrouptwo" id="rg2" role="radiogroup" aria-labelledby="rg2_label">
+    				<li class="selected" id="r3" tabindex="0" role="radio" aria-checked="true" title="male">
+            			<img src="https://www.cdc.gov/prevention/widget/images/mdn.png" alt="male" id="male" height="70" width="54">
+            			
+              		</li>
+    				<li class="" id="r4" tabindex="-1" role="radio" aria-checked="false" title="female">  
+            			<img src="https://www.cdc.gov/prevention/widget/images/fup.png" alt="female" id="female" height="70" width="54">
+            			   
+              		</li>
+    			</ul> 
+                              
+        	</div>
+             
+  		</div>
+        <div id="alertMsgTwo" style="display:none;"></div>
+        <div id="navtwo" ><span id="subtwo"><a href="javascript: switchpanel('two');"   tabindex="0"><img src="https://www.cdc.gov/prevention/widget/images/next_up_mobi.jpg" height="20"  alt="Next screen"></a></span>&nbsp;<span id="cdctwo"><a href="../../index.html"   tabindex="0" target="_blank"><img src="https://www.cdc.gov/prevention/widget/images/CDCbugSm.png" width="40" alt="cdc.gov"></a></span></div>
+	</div>
+        
+    <div id="contentthree"  style="display:none;">
+
+		<div class="cpst_section_box_three">
+             <div class="cpst_section_head_two"><label for="age">Age</label></div>
+             <input name="age" type="number" max="80" class="textinput" id="age" tabindex="0" onKeyUp="return evalPregnant();" min="0"  autocomplete="off" >
+        
+    
+      
+   <div id="isPregnant" class="pregnant_question">
+                           
+        
+        <div class="pregnant_text">Pregnant? </div>
+        <div class="pregnant_list">
+        	<ul class="radiogroupthree" id="rg3" role="radiogroup" aria-labelledby="rg3_label">
+    			<li class="" id="r5" tabindex="-1" role="radio" aria-checked="false">
+        
+        			<img src="https://www.cdc.gov/prevention/widget/images/small_radio_button_up.png" role="presentation"  alt="pregnant" id="pregnant" >&nbsp;Yes
+        			 
+                 
+                </li>
+    			<li class="selected" id="r6" tabindex="0" role="radio" aria-checked="true">                                
+       
+        			<img src="https://www.cdc.gov/prevention/widget/images/small_radio_button_dn.png" role="presentation" alt="not pregnant" id="not_pregnant" >&nbsp;No
+        			
+            
+            	</li>
+    		</ul>
+        </div>
+        
+    
+
+</div> 
+</div>    
+        <div id="alertMsgThree" style="display:none;"></div>
+	<div id="navthree" ><span id="subthree"><a href="javascript: switchpanel('three');" tabindex="0"><img src="https://www.cdc.gov/prevention/widget/images/next_up_mobi.jpg" height="20"  alt="Next screen" ></a></span>&nbsp;<span id="cdcthree"><a href="../../index.html" tabindex="0" target="_blank"><img src="https://www.cdc.gov/prevention/widget/images/CDCbugSm.png" width="40" alt="cdc.gov"></a></span></div>
+   </div>
+
+ 
+</div> 
+
+
+<div id="contentwidetwo"  style="display:none;">
+	<div class="cpst_footer_box">	
+		<div class="submit_row"><span id="subfour"><a href="javascript: submitForm();"  id="submitform" tabindex="0" ><img src="https://www.cdc.gov/prevention/widget/images/submit_up_mobi.jpg" width="110"  alt="Submit" height="40"></a></span></div>
+        <div class="cdc_bug"><span id="cdcfour"><a href="../../index.html" tabindex="0" target="_blank"><img src="https://www.cdc.gov/prevention/widget/images/CDCbug.png"  alt="CDC.gov" ></a></span></div>
+	</div>
+</div>
+<div id="share" class="info" style="display:none;" ><a href="javascript: info('close');"  tabindex="0"><img src="https://www.cdc.gov/prevention/widget/images/closeK.png" width="12" height="14" alt="Close Share-Info-Privacy" ></a><form><label for="preventionChecklistWidget"><strong>SHARE</strong></label><br><textarea id="preventionChecklistWidget"  class="codeCopy" onClick="javascript:this.focus();this.select();" rows="18" cols="15" name="text_area"   tabindex="0"><iframe scrolling="no" height="290" frameborder="0" width="176" src="index.html" title="CDC Prevention Checklist" style="overflow: hidden;"></iframe></textarea>
+</form><br><br>
+</div>
+<div id="info" class="info" style="display:none;"><a href="javascript: info('close');"  tabindex="0"><img src="https://www.cdc.gov/prevention/widget/images/closeK.png" width="12" height="14" alt="Close Share-Info-Privacy"></a><strong>INFORMATION</strong><br/><br/>This widget shows you  what preventive health care you and your loved ones need. The services featured here are free with many health plans—no copayments or deductible payments required. Don't miss out on important health benefits!<br><br/>Visit <a href="http://www.cdc.gov/prevention" target="_blank">www.cdc.gov/prevention</a> for more information.<br><br></div>
+<div id="disclaimer" class="info" style="display:none;"><a href="javascript: info('close');"  tabindex="0"><img src="https://www.cdc.gov/prevention/widget/images/closeK.png" width="12" height="14" alt="Close Share-Info-Privacy" ></a><strong>PRIVACY</strong><br><br>CDC does not store any personal information that you enter into this mobile application.<br><br><strong>DISCLAIMER</strong><br><br>THE MATERIALS EMBODIED IN THIS SOFTWARE ARE PROVIDED TO YOU "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE CENTERS FOR DISEASE CONTROL AND PREVENTION (CDC) OR THE UNITED STATES (U.S.) GOVERNMENT BE LIABLE TO YOU OR ANYONE ELSE FOR ANY DIRECT, SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER, INCLUDING WITHOUT LIMITATION, LOSS OF PROFIT, LOSS OF USE, SAVINGS OR REVENUE, OR THE CLAIMS OF THIRD PARTIES, WHETHER OR NOT CDC OR THE U.S. GOVERNMENT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE POSSESSION, USE OR PERFORMANCE OF THIS SOFTWARE.<br><br></div>
+
+<div class="icons"><div id="sharebut" class="clearnone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript: info('share');"  tabindex="0" >Share</a>&nbsp;&nbsp;|&nbsp;&nbsp;</div><div id="infobut" class="clearnone"><a href="javascript: info('info');" tabindex="0" >Info</a>&nbsp;&nbsp;|&nbsp;&nbsp;</div><div id="disclaimerbut" class="clearnone"><a href="javascript: info('disclaimer');" tabindex="0" >Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;</div></div> 
+</div><!-- /#pagewrap -->
+
+
+<script type="text/javascript">
+
+
+
+$(document).ready(function() {
+
+	var group1 = new radioGroup('rg1');
+	var group2 = new radioGroup('rg2');
+	var group3 = new radioGroup('rg3');
+
+}); 
+
+function keyCodes () {
+ 
+  this.enter      = 13;
+  this.space      = 32;
+
+  this.left       = 37;
+  this.up         = 38;
+  this.right      = 39;
+  this.down       = 40;
+} 
+
+
+function radioGroup(id) {
+
+	var thisObj = this;
+
+	
+
+	this.$id = $('#' + id);
+	
+
+	
+	this.$buttons = this.$id.find('li').filter('[role=radio]');
+
+	
+	this.$checked = this.$buttons.filter('[aria-checked=true]');
+
+	this.checkButton = true; 
+
+	this.$active = null; 
+	
+	this.keys = new keyCodes();
+
+	
+
+	this.$buttons.click(function(e) {
+		return thisObj.handleClick(e, $(this));
+	});
+
+	this.$buttons.keydown(function(e) {
+		return thisObj.handleKeyDown(e, $(this));
+	});
+
+	this.$buttons.keypress(function(e) {
+		return thisObj.handleKeyPress(e, $(this));
+	});
+
+	this.$buttons.focus(function(e) {
+		return thisObj.handleFocus(e, $(this));
+	});
+
+	this.$buttons.blur(function(e) {
+		return thisObj.handleBlur(e, $(this));
+	});
+}
+
+
+radioGroup.prototype.selectButton = function($id) {
+
+	var but = $id.find('img').attr('id');
+
+	
+	if (this.checkButton == true) {
+		
+		
+		if(but == "male"){
+		
+			this.$checked.find('img').attr('src', 'images/fup.png');
+			$id.find('img').attr('src', 'images/mdn.png');
+		
+		} else if(but == "female"){
+		
+			this.$checked.find('img').attr('src', 'images/mup.png');
+			$id.find('img').attr('src', 'images/fdn.png');
+		
+		} else {
+			
+			this.$checked.find('img').attr('src', 'images/small_radio_button_up.png');
+			$id.find('img').attr('src', 'images/small_radio_button_dn.png');
+		}
+
+		
+
+		if (this.$checked.length == 0) { 
+			
+			this.$buttons.first().attr('tabindex', '-1');
+
+			this.$buttons.last().attr('tabindex', '-1');
+		}
+		else {
+			
+			this.$checked.attr('tabindex', '-1').attr('aria-checked', 'false');
+		}
+
+		
+		$id.attr('tabindex', '0').attr('aria-checked', 'true');
+
+		
+		this.$checked = $id;
+	}
+
+	
+	this.$active = $id;
+
+	
+	$id.addClass('selected');
+
+	
+	this.checkButton = true;
+
+} 
+
+
+radioGroup.prototype.handleClick = function(e, $id) {
+
+	if (e.altKey || e.ctrlKey || e.shiftKey) {
+		
+		return true;
+	}
+
+	
+
+	e.stopPropagation();
+	return false;
+
+} 
+
+
+radioGroup.prototype.handleKeyDown = function(e, $id) {
+
+	if (e.altKey) {
+		
+		return true;
+	}
+
+	switch (e.keyCode) {
+		case this.keys.space:
+		case this.keys.enter: {
+			if (e.ctrlkey || e.shiftKey) {
+				
+				return true;
+			}
+
+			
+			this.selectButton($id);
+
+			e.stopPropagation();
+			return false;
+		}
+		case this.keys.left:
+		case this.keys.up: {
+
+			var $prev = $id.prev(); 
+
+			if (e.shiftKey) {
+				
+				return true;
+			}
+
+			
+			if ($id.index() == 0) {
+				$prev = this.$buttons.last();
+			}
+
+			if (e.ctrlKey) {
+				
+				this.checkButton = false;
+			}
+
+			
+			$prev[0].focus();
+
+			e.preventDefault();
+			e.stopPropagation();
+			return false;
+		}
+		case this.keys.right:
+		case this.keys.down: {
+
+			var $next = $id.next(); 
+
+			if (e.shiftKey) {
+				
+				return true;
+			}
+
+			
+			if ($id.index() == this.$buttons.length - 1) {
+				$next = this.$buttons.first();
+			}
+
+			if (e.ctrlKey) {
+				
+				this.checkButton = false;
+			}
+
+			
+			$next[0].focus();
+
+			e.preventDefault();
+			e.stopPropagation();
+			return false;
+		}
+	} 
+
+	return true;
+
+} 
+
+radioGroup.prototype.handleKeyPress = function(e, $id) {
+
+	if (e.altKey) {
+		
+		return true;
+	}
+
+	switch (e.keyCode) {
+		case this.keys.space:
+		case this.keys.enter: {
+			if (e.ctrlKey || e.shiftKey) {
+				
+				return true;
+			}
+		}
+		case this.keys.left:
+		case this.keys.up:
+		case this.keys.right:
+		case this.keys.down: {
+			if (e.shiftKey) {
+				
+				return true;
+			}
+			e.stopPropagation();
+			return false;
+		}
+	} 
+	return true;
+
+} 
+
+radioGroup.prototype.handleFocus = function(e, $id) {
+
+	
+	this.selectButton($id);
+
+	return true;
+} 
+
+
+radioGroup.prototype.handleBlur = function(e, $id) {
+
+	
+	$id.removeClass('selected');
+
+	return true;
+} 
+ 
+	
+</script>
+</body>
+</html>

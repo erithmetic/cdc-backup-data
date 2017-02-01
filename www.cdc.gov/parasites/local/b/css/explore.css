@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#exploreMenu {
+	padding:0;
+}
+
+#exploreMenu ul li {
+	max-width:100%;
+	min-width:97%;
+	height:80px;
+}
+
+
+#exploreMenu li span {
+	background:none;
+	display:block;
+	position:relative;
+	left:75px;
+	top:-30px;
+	width:75%;
+	z-index:0;
+}
+
+#exploreMenu a span {
+	position:relative;
+	top:0;
+	left:0;
+	display:block;
+	margin:10px 0 0 5px;
+	padding:0 0 0 70px;
+	min-height:60px;
+	font-weight:bold;
+	cursor:pointer;
+	z-index:1;
+}
+;

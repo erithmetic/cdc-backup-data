@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+@import url("../../TemplatePackage/css/B/theme-purple.css");/**/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/.indent-text {
+	padding-left: 20px;
+	padding-bottom: 0px;
+	padding-top: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+.small-text {
+	font-size: 10px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+.small-text-noindent {
+	font-size: 11px;
+}
+
+.linkdisclaimer {
+	font-size: 0.9em;
+	color: #696969;
+	line-height: 1.2em;
+
+}
+
+.smallGray {
+	font-size: 0.9em;
+	color: #333;
+	line-height: 1.2em;
+}
+
+
+.redtext {
+	color:#FF0000;
+}
+
+/* Used for dates in feature elements on pressroom page 2014*/
+.featdate {
+	font-size: 0.7em;
+	color: #999;
+	line-height: 2em;
+}
+
+.dkpurple {
+	font-weight: bold;
+	color: #5f4ea2;
+}
+
+/*Used for numbers in success stories */
+.orangeNumbers {
+	font-weight: bold;
+	color: #cc6633;
+}
+
+/*Used for large year text in pressroom archives page 2014*/
+.archiveyear {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #c3bed6;
+}
+
+.lines {
+	border-right-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-color: #cdcdcd;
+	height: auto;
+}
+
+.lines2 {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	height: auto;
+	border-left-width: 1px;
+	border-left-color: #cdcdcd;
+	padding-left: 6px;
+}
+
+.blockquote {
+	padding-left: 20px;
+}
+
+/*img {max-width:100%;height:auto;}  This code caused a PDF icon display error in IE8*/
+
+img.liquid {max-width:100%;height:auto;} 
+
+.contactus-wide {font-style:normal;
+            color:#999;
+			font-size:9px;
+}
+
+#content .module li.bulleted-links a {
+display:inline-block;
+}
+
+.inline {display:inline;}
+.inlineblock {display:inline-block;}
+
+.pr-date { /*pressroom date*/
+	font-size: 10px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.mtop5 {margin-top:5px;}
+.mtop10 {margin-top:10px;}
+.mtop15 {margin-top:15px;}
+.mtop20 {margin-top:20px;}
+.mtop25 {margin-top:25px;}
+.mtop30 {margin-top:30px;}
+.mtop40 {margin-top:40px;}
+.mtop50 {margin-top:50px;}
+.mtop100 {margin-top:100px;}
+.mtop-10 {margin-top:-10px;}
+
+.mbottom5 {margin-bottom:5px;}
+.mbottom10 {margin-bottom:10px;}
+.mbottom15 {margin-bottom:15px;}
+.mbottom20 {margin-bottom:20x;}
+.mbottom25 {margin-bottom:25px;}
+.mbottom30 {margin-bottom:30px;}
+.mbottom40 {margin-bottom:40px;}
+.mbottom50 {margin-bottom:50px;}
+.mbottom100 {margin-bottom:100px;}
+
+.mright5 {margin-right:5px;}
+.mright10 {margin-right:10px;}
+.mright15 {margin-right:15px;}
+
+.mleft5 {margin-left:5px; }
+.mleft10{margin-left:10px; }
+.mleft15 {margin-left:1px; }
+
+
+/*use the following for a right float image/module*. it adds a margin to the left and bottom*/
+.mleftbottom5 {margin-left:5px; margin-bottom:5px;}
+.mleftbottom10{margin-left:10px; margin-bottom:10px;}
+.mleftbottom15 {margin-left:1px; margin-bottom:15px;}
+
+/*use the following for a left float image/module*. it adds a margin to the right and bottom*/
+.mrightbottom5 {margin-right:5px; margin-bottom:5px;}
+.mrightbottom10 {margin-right:10px; margin-bottom:10px;}
+.mrightbottom15 {margin-right:15px; margin-bottom:15px;}
+
+.clear {clear:both;}
+
+/* Level 5 Nav */
+#nav ul ul ul ul ul li a{
+	display: block;
+	padding-right: 2px;
+	padding-left: 46px;
+}
+
+.ImgInlineMiddle {
+		display:inline-block; 
+		margin:0;
+		padding:0;
+		vertical-align:middle;
+}
+
+.super {
+	vertical-align:top;
+	font-size:.8em;
+}
+
+.rounders.grey .inner ol {
+	padding-left: .75em;
+}
+
+.module.rounders {
+	margin: 15px;
+}
+
+.quote {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.1em;
+                  color: #777;
+                  padding-left: 20px;
+}
+
+.c45r {width:45%; float:right;}
+.c45l {width:45%; float:left;}
+
+.c47r {width:47%; float:right;}
+.c47l {width:47%; float:left;}
+
+.c48r {width:48%; float:right;}
+.c48l {width:48%; float:left;}
+
+#index #wrapper #wrapper-inner #content #content-inner #content-main .main-inner #bottom-container #left-column .column-inner .rounders.top-blocks .inner .wraps .c1 dl dd a {
+	font-weight: normal; font-size: 1em; display:inline;
+}
+
+/*#undefined #wrapper #wrapper-inner #content #content-inner #content-main .main-inner .module.double-rule.bulleted-links .inner .subColumns .subc ul li a {display: inline;}
+
+#undefined #wrapper #wrapper-inner #content #content-inner #content-main .main-inner .rounders.grey .inner ol li a {
+display: inline;}*/
+
+#undefined #wrapper #wrapper-inner #content #content-inner #content-main .main-inner .module.page-curl .inner .subColumns .subc ul li a {display: inline;}
+
+.noLinking {} /*hides external link icon */ 
+
+.top-blocks .c1o3 {
+	display:inline;
+	float:left;
+	width: 33%;
+}
+.top-blocks .c2o3 {
+	display:inline;
+	float:left;
+	width: 33%;
+}
+.top-blocks .c3o3 {
+	display:inline;
+	float:right;
+	width: 33%;
+}
+
+/* Table No Border */
+
+table.noborder {
+	border-color:#ffffff;
+
+}
+table.noborder th {
+	border-color:#ffffff;
+}
+table.noborder td {
+	border-color:#ffffff;
+}
+
+/* Table grey Border */
+
+table.greyborder {
+	border-color:#f6f6f6;
+
+}
+table.greyborder th {
+	border-color:#f6f6f6;
+}
+table.greyborder td {
+	border-color:#f6f6f6;
+}
+
+/* Table grey Border */
+
+table.greyborder1 {
+	border-color:#cdcdcd;
+
+}
+table.greyborder1 th {
+	border-color:#cdcdcd;
+}
+table.greyborder1 td {
+	border-color:#cdcdcd;
+}
+	
+
+h3.sub_section_grey {font-weight:500 !important;font-size:145% !important;background:#f3f3f3;
+padding:0.2em 0.3em 0.2em 0.3em;margin:1.5em 0 1em 0 !important;border-top:0.05em solid #cdcdcd;border-bottom:0.05em solid #cdcdcd;}
+
+h3.sub_section_purple {font-weight:500 !important;font-size:145% !important;background:#f3f2f9;
+padding:0.2em 0.3em 0.2em 0.3em;margin:1.5em 0 1em 0 !important;border-top:0.05em solid #cdcdcd;border-bottom:0.05em solid #cdcdcd;}
+
+h4.sub_section_grey {background:#ebebeb;
+padding:0.2em 0.3em 0.2em 0.3em;margin:.5em 0 1em 0 !important;}
+
+h5.sub_section_grey {background:#ebebeb;
+padding:0.2em 0.3em 0.2em 0.3em;margin:.5em 0 1em 0;border-top:0.05em solid #cdcdcd;border-bottom:0.05em solid #cdcdcd;}
+
+h5.sub_section_purple {font-weight:500 !important;font-size:100% !important;background:#f3f2f9;
+padding:0.2em 0.3em 0.2em 0.3em;margin:.5em 0 1em 0 !important;border-top:0.05em solid #cdcdcd;border-bottom:0.05em solid #cdcdcd;}
+
+
+/*  BEGIN CUSTOM TABLE STYLING FOR ACCORDION TABLES 2014 */
+
+.td1 {background-color:#dad5eb} 	/*  (light purple) */
+.td2 {background-color:#f0eff7} 	/*  (lighter purple) */
+.tr2 {background-color:#f0eff7} 	/*  (lighter purple) */
+
+ 
+/* BEGIN CUSTOM ACCORDION SIZE 2014 */
+.ui-accordion .ui-accordion-content { 
+	height: autoHeight;
+} 
+/* END ACCORDION SIZE */
+
+/* BEGIN CUSTOM TAB SIZE 2014 */
+.ui-tab .ui-tab-content { 
+	height: 450; 
+	max-height: 450px; 
+} 
+/* END TAB SIZE */
+
+/* BEGIN STYLING FOR PRESS ROOM PAGES ARCHIVEBOX 2014 */
+.archivebox {
+	background-color:#f0eff7; 
+	border:solid 1px #dad5eb; 
+	float:right; 
+	width: 33%;
+	padding:5px;
+	}
+/* END ARCHIVEBOX */
+
+/* BEGIN STYLING FOR PRESS ROOM PAGES IMAGES 2014 */
+div.picboxr25 {width:30%; 
+					float:right;
+					margin:0px 0px 5px 5px;
+					}
+div.picboxr33 {width:40%; 
+					float:right;
+					margin:0px 0px 5px 5px;
+					}
+div.innerpicbox {background-color:#f3f2f9; text-align:center;
+					border: solid #cecece 1px;
+					padding:3px;}
+div.innerpicbox img { text-align:center;
+					margin-left: auto;
+					margin-right: auto;
+					width:100%;}
+div.innerpicbox p {font-size:smaller;
+					padding:4px;}	
+/* END PRESS ROOM PAGES IMAGES */
+
+/* Float Left styling for */
+.floatlft {
+	float: left;
+}

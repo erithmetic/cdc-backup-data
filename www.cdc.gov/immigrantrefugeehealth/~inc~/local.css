@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+#content .module li a
+{
+	text-decoration:underline;
+	
+	}
+	
+#content .module li a:hover
+{
+	text-decoration:none;
+	
+	}	
+ #content .underline-links ul li a
+{
+	text-decoration:underline;
+	
+	}
+
+ #content .underline-links ul li a:hover
+{
+	text-decoration:none;
+	
+	}
+
+#content .underline-links ul li a.noDecoration span.tp-label
+{
+	text-decoration:underline;
+	
+	}
+
+.action-item
+{
+	font-weight: bold;
+	color: #F00;
+}
+
+.blue-mid 
+{
+background-color:#98FB98;
+margin: 5px;
+height: 65px;
+padding-top:22px;
+}
+
+.blue-mid-big 
+{
+background-color: #98FB98;
+height: 95px;
+margin: 5px 2px 23px 2px;
+}
+
+.blue-mid p, .blue-mid-big p 
+{
+color: #000000;
+text-align: center;
+font-weight: bold;
+}
+.in-text-h4{
+	color:#000;
+	font-size:1.1em;
+	font-weight:bold;
+}
+.moduleSpacing {
+	margin-top: 40px;
+}
+.new-text {
+	font-weight: bold;
+	color: #F00;
+}
+.removeBottomLine p {
+	border-bottom: 1px solid #FFF !important;
+}
+
+div.floating-text-box-right {
+	float: right; 
+	clear: right; 
+	width: 200px;
+}
+
+div.right-rail-ad {
+	text-align: center; 
+	padding: 10px 0;
+}
+
+div.twoColumnContainer {
+	float: left !important;
+	width: 48% !important;
+}
+
+p.return-link a 
+
+{
+
+background-color: transparent;
+
+background-image: url("https://www.cdc.gov/TemplatePackage/images/arrow_back.gif");
+
+background-repeat: no-repeat;
+
+background-attachment: scroll;
+
+background-position: left center;
+
+padding-top: 3px;
+
+padding-right: 0pt;
+
+padding-bottom: 3px;
+
+padding-left: 9px;
+
+}
+
+p.return-link a:hover {
+text-decoration: underline;
+}
+
+/* =================================================
+	LISTS
+	================================================= */
+#checklist-form li.checkbox {
+	list-style-type: none;
+}
+#checklist-form input {
+	width: 1.2em;
+	height: 1.2em;
+}
+.list-decimal { /* integers (1, 2, 3, etc) */
+	list-style-type: decimal;
+}
+
+.list-lower-alpha { /* a, b, c, etc */
+	list-style-type: lower-alpha;
+}
+
+.list-upper-alpha { /* A, B, C, etc */
+	list-style-type: upper-alpha;
+}
+
+.list-upper-roman { /* I, II, III, etc */
+	list-style-type: upper-roman;
+}
+
+.list-no-bullets
+{list-style:none !important;
+list-style-position:outside !important;}
+
+#figure2, #figure3 {
+margin-top: 25px;	
+border-top: 1px dashed #666666;
+}
+#refugees-treatment-schedules {
+	width: 98%;
+	margin: 0 auto;	
+}
+#refugees-treatment-schedules thead th {
+	background: #C1D5B0;
+}
+#refugees-treatment-schedules .rows-altcolor td, #refugees-treatment-schedules .rows-altcolor th {
+	background: #D7E4CC;	
+}
+#refugees-treatment-schedules .rows-altcolorb td, #refugees-treatment-schedules .rows-altcolorb th {
+	background: #eeeeee;	
+}
+.table-notes {
+	font-size: 	11px;
+	color: #696969;
+}
+.in-link a {
+display: inline !important;
+}
+.alt-toc h5 {
+padding: 3px 0 !important;
+}
+.otable caption {
+width: 95%;
+}
+.otable table {
+width: 85%;
+}

@@ -1,0 +1,1068 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js nav theme-blue lt-ie10 lt-ie9 lt-ie8  " lang="en-us"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js nav theme-blue lt-ie10 lt-ie9  " lang="en-us"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js nav theme-blue lt-ie10  " lang="en-us"> <![endif]-->
+<!--[if !IE]><!-->     <html class="no-js nav theme-blue  " lang="en-us" > <!--<![endif]-->	
+    <head>
+        <meta charset="utf-8" />
+                		<title>SAS Program ( ages 0 to < 20 years ) | Resources | Growth Chart Training | Nutrition | DNPAO | CDC</title>
+        		
+        <meta name="description" content="The purpose of this SAS program is to calculate the percentiles and z-scores (standard deviations) for a child’s sex and age for BMI, weight, height, and head circumference based on the CDC growth charts. More..." />        <meta name="keywords" content="growth, chart, charts, growthcharts, BMI, Body Mass Indeas, child, children, teen, teens, teenager, teenagers, training, CDC" />		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../../TemplatePackage/3.0/images/cdc-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../../TemplatePackage/3.0/images/cdc-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../../TemplatePackage/3.0/images/cdc-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" href="../../../../TemplatePackage/3.0/images/cdc-touch-icon-57x57.png" />
+        <link rel="shortcut icon" href="../../../../TemplatePackage/3.0/images/favicon.ico" />	
+		
+		<meta name="robots" content="index,follow" />
+		<meta property="cdc:template_version" content="3.0" />
+		<meta property="cdc:content-id" content="812879"/>
+		<meta property="cdc:revision-id" content="17"/>
+				<link rel="canonical" href="sas.htm"/>
+				<!-- Internal Release Version # 3.7.2 -->
+                			<link rel="stylesheet" href="../../../../TemplatePackage/3.0/css/lib/bootstrap24.css" />
+	<link rel="stylesheet" href="../../../../TemplatePackage/3.0/css/app.css@3.2.1.7.css" />
+	<!--[if gt IE 9]><!--><!--<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/TemplatePackage/3.0/css/lib/font-awesome-ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/TemplatePackage/3.0/css/ie.css" />
+	<![endif]-->
+	<link rel="stylesheet" media="print" href="../../../../TemplatePackage/3.0/css/print.css@3.2.1.7.css" />
+	<script src="../../../../TemplatePackage/3.0/js/libs/modernizr-latest.js"></script>
+	<script>
+		if(!Date.now){Date.now=function now(){return new Date().getTime()}}
+		var page_timing = page_timing || {};
+		page_timing.page_start = Date.now();
+		function $$(e){if(window.$){e()}else{setTimeout(function(){$$(e)},50)}}
+		// (function(){function e(e,t){var n=e.length;while(n--){if(e[n].indexOf(t)>-1){return e[n]}}return false}var t=e(document.getElementsByTagName("html")[0].className.split(" "),"theme-");if(t){var n=document.createElement("link");n.rel="stylesheet";n.type="text/css";n.media="screen";n.href="/TemplatePackage/3.0/css/themes/"+t+".css";document.getElementsByTagName("head")[0].appendChild(n)}})();
+
+		var settings = {}, addthis = null;
+	</script>
+
+	<meta name="application-name" content="CDC.gov"/>
+	<meta property="cdc:template_version" content="3.2.1.7" />
+	<meta name="msapplication-TileColor" content="#0061aa" />
+	<meta name="msapplication-square70x70logo" content="/TemplatePackage/3.0/images/Win8_tile_70x70.png" />
+	<meta name="msapplication-square150x150logo" content="/TemplatePackage/3.0/images/Win8_tile_150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="/TemplatePackage/3.0/images/Win8_tile_310x150.png" />
+	<meta name="msapplication-square310x310logo" content="/TemplatePackage/3.0/images/Win8_tile_310x310.png" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">		        
+
+
+
+                
+	<link rel="stylesheet" type="text/css" href="../local/css/local.css"/>
+  		    </head>
+    <body>
+				
+
+
+
+				<div id="skipmenu">
+	<a href="sas.htm#searchTarget" class="skippy">Skip directly to search</a>
+	<a href="sas.htm#azTab" class="skippy">Skip directly to A to Z list</a>
+	<a href="sas.htm#nav-container" class="skippy">Skip directly to navigation</a>
+	<a href="sas.htm#share-bar" class="skippy">Skip directly to page options</a>
+	<a href="sas.htm#contentArea" class="skippy">Skip directly to site content</a>
+</div>		    	<div id="wrapper">
+    		
+<!-- references to this removed intentionally -->
+    		<header id="header">
+    			<div class="container">
+                    <div class="row">
+                    	<div id="logo" class="span14">
+                    		<!--iPad touch response and 508 voice reader issue currently under investigation -->
+<a href="../../../../index.html" title="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People">
+	<img src="../../../../TemplatePackage/3.0/images/masthead_subpage.svg" alt="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People" class="hidden-one" />
+	<img src="../../../../TemplatePackage/3.0/images/masthead_1-col.svg" alt="Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People" class="visible-one" />
+</a>
+
+<!-- IOS9 iPad bug work around - make sure screen readers have a readable version of the logo to read
+<a class="tp-sr-only" href="https://www.cdc.gov">Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People</a>
+ -->
+                    	</div>
+                    	<!-- search -->
+                    	<div id="searchArea" class="span10 hidden-one hidden-two">							
+							
+<div class="hidden"><a href="sas.htm#" name="searchTarget">Start of Search Controls</a></div>
+<form class="searchForm" method="get" action="https://search.cdc.gov/search">
+	<fieldset class="search-form-wrapper ">
+		<legend>Search Form Controls</legend>
+		<div class="search-form-checkbox">
+			<label class="subset"><input type="checkbox" name="subset" checked="checked" value="">Search The CDC</label>
+		</div>
+		<div class="search-input-wrapper">
+			<div class="search-buttons">
+				<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+				<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+				<input type="submit" value="Submit" style="display:none; visibility:hidden;" /> 
+			</div>
+			<div class="search-input">
+				<label><input type="text" placeholder="SEARCH" name="query" /><span class="hidden">Search The CDC</span></label>
+			</div>
+		</div>
+		<input type="hidden" name="utf8" value="&#x2713;" />
+					<input type="hidden" name="affiliate" value="cdc-main" />
+			</fieldset>
+</form>							<div class="a2z-button pull-right hidden-one hidden-two"><a href="sas.htm#" id="azTab">CDC A-Z Index <span class="icon-angle-down"></span></a></div>
+                    	</div>
+                    </div>
+                    	<div class="hidden-three hidden-four" id="mobile-menu">
+		<ul>
+			<li id="vp1-menu-button" class="border-bottom-white"><a href="sas.htm#" id="menu-nav"><span class="sprite-16-menu"></span>MENU</a></li>
+			<li id="vp1-a2z-button" class="border-bottom-white"><a href="sas.htm#" id="menu-az">CDC A-Z</a></li>
+			<li id="vp1-search-button" class="border-bottom-white"><a href="sas.htm#" id="menu-search"><span class="sprite-16-search-white"></span>SEARCH</a></li>
+		</ul>
+	</div>
+<script>if (typeof page_timing !== 'undefined') { page_timing.menu_load = Date.now(); }</script>
+                    <div class="a2z-bar hide">
+                    	<div>
+	<ul>
+		<li><a href="../../../../az/a.html">A</a></li>
+		<li><a href="../../../../az/b.html">B</a></li>
+		<li><a href="../../../../az/c.html">C</a></li>
+		<li><a href="../../../../az/d.html">D</a></li>
+		<li><a href="../../../../az/e.html">E</a></li>
+		<li><a href="../../../../az/f.html">F</a></li>
+		<li><a href="../../../../az/g.html">G</a></li>
+		<li><a href="../../../../az/h.html">H</a></li>
+		<li><a href="../../../../az/i.html">I</a></li>
+		<li><a href="../../../../az/j.html">J</a></li>
+		<li><a href="../../../../az/k.html">K</a></li>
+		<li><a href="../../../../az/l.html">L</a></li>
+		<li><a href="../../../../az/m.html">M</a></li>
+		<li><a href="../../../../az/n.html">N</a></li>
+		<li><a href="../../../../az/o.html">O</a></li>
+		<li><a href="../../../../az/p.html">P</a></li>
+		<li><a href="../../../../az/q.html">Q</a></li>
+		<li><a href="../../../../az/r.html">R</a></li>
+		<li><a href="../../../../az/s.html">S</a></li>
+		<li><a href="../../../../az/t.html">T</a></li>
+		<li><a href="../../../../az/u.html">U</a></li>
+		<li><a href="../../../../az/v.html">V</a></li>
+		<li><a href="../../../../az/w.html">W</a></li>
+		<li><a href="../../../../az/x.html">X</a></li>
+		<li><a href="../../../../az/y.html">Y</a></li>
+		<li><a href="../../../../az/z.html">Z</a></li>
+		<li><a href="../../../../az/0.html">#</a></li>
+	</ul>
+</div>
+<script>if (typeof page_timing !== 'undefined') { page_timing.a2z_load = Date.now(); }</script>                    </div>
+                    <div id="searchArea-two-column" class="span24 searchbar hide hidden-three hidden-four">
+						  
+<div class="hidden"><a href="sas.htm#" name="searchTarget">Start of Search Controls</a></div>
+<form class="searchForm" method="get" action="https://search.cdc.gov/search">
+	<fieldset class="search-form-wrapper ">
+		<legend>Search Form Controls</legend>
+		<div class="search-form-checkbox">
+			<label class="subset"><input type="checkbox" name="subset" checked="checked" value="">Search The CDC</label>
+		</div>
+		<div class="search-input-wrapper">
+			<div class="search-buttons">
+				<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+				<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+				<input type="submit" value="Submit" style="display:none; visibility:hidden;" /> 
+			</div>
+			<div class="search-input">
+				<label><input type="text" placeholder="SEARCH" name="query" /><span class="hidden">Search The CDC</span></label>
+			</div>
+		</div>
+		<input type="hidden" name="utf8" value="&#x2713;" />
+					<input type="hidden" name="affiliate" value="cdc-main" />
+			</fieldset>
+</form>					</div>
+                    <!--
+	See the noscript include for modifying the emergency message. DO NOT add it here.
+-->
+<script>if (typeof page_timing !== 'undefined') { page_timing.emergency_load = Date.now(); }</script>
+    				<div class="titlebar">
+					 						<h2>
+
+
+<a href="../../index.html">Division of Nutrition, Physical Activity, and Obesity </a> &gt; <a href="../../../../nutrition/index.html">Nutrition</a>
+
+</h2>
+					 					</div>
+    				<!-- emergency -->
+<div id="emergencyContainer">
+	<!--
+	<div class="alert alert-error en">
+		<b>Attention!</b> Uncomment this section and place the emergency message here.
+	</div>
+	<div class="alert alert-error esp">
+		<b>&#161;Atenci&#243;n!</b> Elimine el comentario de esta secci&#243;n y colocar el mensaje de emergencia aqu&#237;.
+	</div>	
+	-->
+</div>
+
+<!-- no script -->
+<noscript>
+	<div class="alert alert-block"> Note: Javascript is disabled or is not supported by your browser. For this reason, some items on this page will be unavailable. For more information about this message, please visit this page: <a href="../../../../other/about_cdcgov.html">About CDC.gov</a>.</div>
+</noscript>
+<script>if (typeof page_timing !== 'undefined') { page_timing.noscript_load = Date.now(); }</script>
+     			</div>
+    		</header>
+    		<div class="container">				
+                <div id="content">
+					<div class="row">
+        				<!-- left nav -->
+        				<div id="nav-container" class="hidden-one hidden-two span5">
+    						<nav id="left" class="hidden-one hidden-two">
+    							
+
+
+<h3><a href="../index.htm">Growth Chart Training</a></h3><ul id="nav-primary"><li><a href="../who/index.htm">Using the WHO Growth Charts</a> <ul><li><a href="../who/recommendations/index.htm">1. Recommendations and Rationale</a> <ul><li><a href="../who/recommendations/advantage.htm">Advantages</a></li><li><a href="../who/recommendations/development.htm">WHO Growth Standards</a></li><li><a href="../who/recommendations/test.htm">Test Your Knowledge</a></li></ul></li><li><a href="../who/creating/index.htm">2. Creating the WHO Growth Standard</a> <ul><li><a href="../who/creating/mgrs.htm">WHO Multicenter Growth Reference Study </a></li><li><a href="../who/creating/test.htm">Test Your Knowledge </a></li></ul></li><li><a href="../who/methodology/index.htm">3. Comparing Methodologies</a> <ul><li><a href="../who/methodology/differences.htm">Differences in Methodology </a></li><li><a href="../who/methodology/similarities.htm">Similarities in Methodology</a></li><li><a href="../who/methodology/test.htm">Test Your Knowledge</a></li></ul></li><li><a href="../who/breastfeeding/index.htm">4. Breastfeeding as the Norm</a> <ul><li><a href="../who/breastfeeding/advocacy.htm">Breastfeeding Advocacy</a></li><li><a href="../who/breastfeeding/test.htm">Test Your Knowledge </a></li></ul></li><li><a href="../who/using/index.htm">5. Using the WHO Growth Standard Charts</a> <ul><li><a href="../who/using/basic_info.htm">Basic Information</a></li><li><a href="../who/using/assessing_growth.htm">Assessing Growth </a></li><li><a href="../who/using/interpreting_growth.htm">Interpreting Growth Indicators</a></li><li><a href="../who/using/growth_patterns.htm">Infant Growth Patterns </a></li><li><a href="../who/using/transitioning.htm">Transitioning from WHO to CDC </a></li><li><a href="../who/using/test.htm">Test Your Knowledge </a></li></ul></li><li><a href="../who/summary/index.htm">6. Summary </a></li><li><a href="../who/examples/index.htm">7. Case Examples</a> <ul><li><a href="../who/examples/example1.htm">Low Weight-for-Length </a></li><li><a href="../who/examples/example2.htm">Inadequate Growth or Just Small</a></li><li><a href="../who/examples/example3.htm">Excess Weight Gain</a></li><li><a href="../who/examples/example4.htm">Transitioning from the WHO to CDC</a></li><li><a href="../who/examples/example5.htm">Early Lactation Difficulties</a></li></ul></li><li><a href="../who/sitemap.htm">Site Map</a></li><li><a href="../who/references/index.htm">References</a></li></ul></li><li><a href="../training/overview/index.html">Overview of the CDC Growth Charts</a> <ul><li><a href="../training/overview/about.html">About this Course</a></li><li><a href="../training/overview/page1.html">What Growth Charts Are Recommended for Use?</a></li><li><a href="../training/overview/page2.html">Clinical Growth Charts Available on the Web</a> <ul><li><a href="../training/overview/page2_quiz.html">Test Your Knowledge</a></li></ul></li><li><a href="../training/overview/page3.html">Features of the CDC Growth Charts</a> <ul><li><a href="../training/overview/page3_quiz.html">Test Your Knowledge</a></li></ul></li><li><a href="../training/overview/page4.html">The CDC Growth Chart Reference Population</a> <ul><li><a href="../training/overview/page4_quiz.html">Test Your Knowledge</a></li></ul></li><li><a href="../training/overview/page5.html">Using the CDC Growth Charts</a> <ul><li><a href="../training/overview/page5_1.html">Nutritional Status Indicators</a></li><li><a href="../training/overview/page5_quiz.html">Test Your Knowledge</a></li><li><a href="../training/overview/page5_2.html">Prevalence of Nutritional Status Indicators</a></li></ul></li><li><a href="../training/overview/summary.html">Summary</a></li><li><a href="../training/overview/references.html">References </a></li></ul></li><li><a href="../training/bmiage/index.html">Using BMI-for-Age Growth Charts</a> <ul><li><a href="../training/bmiage/page1.html">What is Body Mass Index (BMI)</a> <ul><li><a href="../training/bmiage/page1_quiz.html">Test Your Knowledge</a></li></ul></li><li><a href="../training/bmiage/page2.html">Using BMI-for-age as a Screening Tool</a> <ul><li><a href="../training/bmiage/page2_quiz.html">Test Your Knowledge</a></li><li><a href="../training/bmiage/page3.html">Using BMI to Assess Overweight</a></li><li><a href="../training/bmiage/page4.html">Recommended BMI-for-age Cutoffs</a></li><li><a href="../training/bmiage/page5_1.html">Calculating BMI Using the Metric System</a></li><li><a href="../training/bmiage/page5_2.html">Calculating BMI Using the English System</a></li><li><a href="../training/bmiage/page6.html">Other Methods to Obtain BMI</a></li><li><a href="../training/bmiage/page8.html">Visual Assessment vs. Calculation of BMI</a> <ul><li><a href="../training/bmiage/page8_example1.html">Example 1</a></li><li><a href="../training/bmiage/page8_example2.html">Example 2</a></li><li><a href="../training/bmiage/page8_example3.html">Example 3</a></li></ul></li><li><a href="../training/bmiage/page9.html">Accuracy of Measurements</a></li><li><a href="../training/bmiage/page9_1.html">Interpretation</a></li><li><a href="../training/bmiage/page10.html">Summary</a></li></ul></li><li><a href="../training/bmiage/page11.html">Steps to plot and interpret BMI-for-age</a> <ul><li><a href="../training/bmiage/page11_metric.html">Plotting and Interpreting BMI-for-age by Using the Metric System</a></li><li><a href="../training/bmiage/page11_english.html">Plotting and interpreting BMI-for-age by using the English system</a></li><li><a href="../training/bmiage/page11_metric_example.html">Case Study: Using the Metric system</a></li><li><a href="../training/bmiage/page11_english_example.html">Case Study: Using the English system</a></li></ul></li><li><a href="../training/bmiage/references.html">References and Resources</a></li><li><a href="../training/bmiage/glossary.html">Glossary</a></li></ul></li><li><a href="index.htm">Other Growth Chart Resources</a> <ul><li> <a href="sas.htm">A SAS Program for the 2000 CDC Growth Charts (ages 0 to &lt;20 years)</a></li><li> <a href="sas-who.htm">A SAS Program for the WHO  Growth Charts (ages 0 to &lt;2 years)</a></li></ul></li></ul>
+
+    						</nav>
+    						<div class="nav-related">
+							
+
+
+
+
+    						
+
+
+
+<div class="module-typeA">
+<h3>Related Links</h3>
+
+<ul class="list-block">
+<li>
+		<a href="../../index.html">Division Information</a>
+	</li>
+
+<li>
+<a href="../../../../nutrition/index.html">Nutrition</a></li>
+
+<li>
+<a href="../../../../physicalactivity/index.html">Physical Activity</a></li>
+
+<li>
+<a href="https://www.cdc.gov/obesity/index.html">Overweight &amp; Obesity</a></li>
+
+<li>
+<a href="../../../../healthyweight/index.html">Healthy Weight</a></li>
+
+<li>
+<a href="../../../../breastfeeding/index.htm">Breastfeeding</a></li>
+
+<li>
+		<a href="../../../../immpact/index.html">Micronutrient Malnutrition</a>
+	</li>
+
+<li class="last">
+		<a href="../../state-local-programs/index.html">State and Local Programs</a>
+	</li>
+</ul>
+</div>
+
+
+							
+
+
+
+							</div>    						    				
+        				</div>
+        				<div id="featureArea">
+    						<div class="span19">
+    							
+
+
+<h2><a href="../index.htm">Growth Chart Training</a></h2>
+
+    						</div>
+        				</div>						
+    					<div class="breadcrumbs hidden-one span19">
+    						
+
+<div class="bread-crumb hidden-one"></div>
+
+    					</div>
+						<div class="span19 pagetitle">	
+    						    							<div class='syndicate'>
+    						    						    							<div class='mSyndicate'>
+    																					<h1>A SAS Program for the 2000 CDC Growth Charts (ages 0 to &lt;20 years)</h1>
+															    						    							</div>
+    						    						    							</div>
+    												</div>
+						<div id="share-bar" class="span19">		
+    						<div class="socialmediabar">
+								<div class="row">
+            						<div class="hidden-one pull-right">
+        								            							            							            						</div>	
+    								<div class="span8">
+    									<div id="socialMediaShareContainer">
+	<div class="share_container noLinking">
+	 	<a class="share_button_facebook" title="Facebook" href="sas.htm#"><span class="tp-sr-only">Recommend on Facebook</span><span id="share_facebook" class="facebookRecommend"> </span></a>
+	 	<a class="share_button_twitter" title="Twitter" href="sas.htm#"><span class="tp-sr-only">Tweet</span><span id="share_twitter" class="twitterTweet"> </span></a>
+		<a class="share_button" href="sas.htm#socialMediaShareContainer" ><img src="../../../../TemplatePackage/3.0/images/social/addthis-32.png" alt="Share" /><span class="shareButtonEn tp-sr-only" aria-label="Share">Share</span><span class="shareButtonEs tp-sr-only" aria-label="Compartir">Compartir</span></a>
+	</div>
+</div>
+
+<!-- target anchor for return to top feature in VP1 -->
+<a id="content-start" tabindex="-1"></a>
+    								</div>
+								</div>
+    						</div>
+    					</div>	
+    					<!-- body -->
+    					<div id="body" class="span19">
+    						<div id="contentArea" >								
+        						        														
+			<div class="span6 pull-right">
+    		<div id="onthispage2" class="module-typeF">
+				    			<h4>On this Page</h4>				    			<ul class="list-bullet">
+    				    				<li><a href="sas.htm#instructions">Instructions for SAS users</a></li>    				    				<li><a href="sas.htm#values">Extreme or Biologically Implausible Values</a></li>    				    				<li><a href="sas.htm#change">2016 Change to BIV cut-points: Rationale</a></li>    				    				<li><a href="sas.htm#dataerrors">BIVs vs. Data Errors</a></li>    				    				<li><a href="sas.htm#defining">Defining Severe Obesity</a></li>    				    				<li><a href="sas.htm#reference">References</a></li>    				    			</ul>
+    		</div>
+		</div>
+	  								        						                                                                                            					            						<div class='syndicate'>
+            					            					            						<div class='mSyndicate'>
+            					            					        							
+
+				    <div class="module-typeC" >
+				<div>
+		
+<p class="margin-top-twenty">Note that the BIV cut points were changed in 2016. These changes did not affect the calculation of any of the z-scores or percentiles, or the subsequent calculation of overweight or obesity.</p>
+				</div>
+	</div>
+	  
+
+<p>The purpose of this SAS program is to calculate the percentiles and z-scores (standard deviations) for a child’s sex and age for BMI, weight, height, and head circumference based on the <a href="http://www.ncbi.nlm.nih.gov/pubmed/12043359">CDC growth charts</a>. Weight-for-height percentiles and z-scores are also calculated. Observations that contain extreme values are flagged as being biologically implausible. These extreme values, however, are not necessarily incorrect.</p>
+
+<p>Although the SAS program can be used to calculate z-scores and percentiles for children up to 20 years of age, the World Health Organization (WHO) growth charts are <a href="../../../../mmwr/preview/mmwrhtml/rr5909a1.htm@s_cid=rr5909a1_w.html">recommended</a> for children &#60;24 months of age. There are several computer programs available on the <a href="http://www.who.int/childgrowth/software/en">WHO</a> and <a href="sas-who.htm">CDC</a> sites that use the WHO growth charts; the latter follows the same steps as does this SAS program for the CDC growth charts.</p>
+
+<p>The SAS program, <a href="cdc-source-code.sas" target="_blank">cdc-source-code.sas [SAS - 8KB]</a> (files are below, in step #1), calculates these z-scores and percentiles for children in your data based on reference data in <a href="cdcref_d.sas7bdat" target="_blank">cdc_ref.sas7bdat</a>. If you’re not using SAS, you can download <a href="cdcref_d.csv" target="_blank">CDCref_d.csv [CVS -160KB]</a>, and create a program based on <a href="cdc-source-code.sas" target="_blank">cdc-source-code.sas [SAS-8KB]</a> to do the calculations.</p>
+
+<h3><a class="onThisPageAnchor" id="instructions" name="instructions" title="Instructions for SAS users"><!-- --></a>Instructions for SAS users</h3>
+
+<p><strong>Step 1</strong>: Download the SAS program (<a href="cdc-source-code.sas" target="_blank">cdc-source-code.sas [SAS -8KB]</a>) and the reference data file (<a href="cdcref_d.sas7bdat">CDCref_d.sas7bdat</a>). Do not alter these files, but move them to a folder (directory) that SAS can access.</p>
+
+<p>For the following example, the files have been saved in c:\sas\growth charts\cdc\data.</p>
+
+<p><strong>Step 2</strong>: Create a libname statement in your SAS program to point at the folder location of ‘CDCref_d.sas7bdat’. An example would be:<br />
+libname refdir 'c:\sas\growth charts\cdc\data';</p>
+
+<p>Note the SAS code expects this name to be <em>refdir</em>; do not change this name.</p>
+
+<p><strong>Step 3</strong>: Set your existing dataset containing height, weight, sex, age and other variables into a temporary dataset, named <em>mydata</em>. Variables in your dataset should be renamed and coded as follows:</p>
+
+<p><strong>Table 1</strong></p>
+
+<table class="opt-in table table-bordered"><tbody>
+<tr>
+<th scope="col" style=" vertical-align: top; width: 15%;"><strong>Variable</strong></th>
+<th scope="col" style=" vertical-align: top;"><strong>Description</strong></th>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;">agemos</th>
+<td style=" vertical-align: top;">Child's age in months; must be present. The program assumes you know the number of months to the nearest day based on the dates of birth and examination. For example, if a child was born on Oct 1, 2007 and was examined on Nov 15, 2011, the child’s age would be 1506 days or 49.48 months. In everyday usage, this age would be stated as 4 years or as 49 months. However, if 49 months were used as the age of all children who were between 49.0 and &#60;50 months in your data, the estimated z-scores would be slightly too high because, on average, these children would be taller, weigh more, and have a higher BMI than children who are exactly 49.0 months of age. This bias would be greater if only completed years of age were known, and the age of all children between 4 and &#60;5 years was represented as 48 months.<br />
+If age is known only as the completed number of months (as is data from NHANES 1988-1994 and 1999-2010), consider adding 0.5 so that the maximum error would be 15 days. If age is given as the completed number of years, multiply by 12 and consider adding 6.</td>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;">sex</th>
+<td style=" vertical-align: top;">Coded as 1 for boys and 2 for girls.</td>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;">height</th>
+<td style=" vertical-align: top;">Height in cm. This is either standing height (for children who are ≥ 24 months of age or recumbent length (for children &#60; 24 months of age); both are input as height. If standing height was measured for some children less than 24 months of age, you should add 0.8 cm to these values (see page 8 of <a href="../../../../nchs/data/series/sr_11/sr11_246.pdf" target="_blank">http://www.cdc.gov/nchs/data/series/sr_11/sr11_246.pdf [PDF-5.4MB]</a>). If recumbent length was measured for some children who are ≥ 24 months of age, subtract 0.8 cm.</td>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;">weight</th>
+<td style=" vertical-align: top;">Weight (kg)</td>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;">bmi</th>
+<td style=" vertical-align: top;">BMI (Weight (kg) /Height (m)<strong><sup>2</sup></strong>). If your data doesn’t contain BMI, the program calculates it. If BMI is present in your data, the program will not overwrite it.</td>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;">headcir</th>
+<td style=" vertical-align: top;">Head circumference (cm)</td>
+</tr>
+
+</tbody></table>
+
+<p>Z-scores and percentiles for variables that are not in <em>mydata</em> will be coded as missing (.) in the output dataset (named <em>_cdcdata</em>). Sex (coded as 1 for boys and 2 for girls) and agemos must be in <em>mydata</em>. It’s unlikely that the SAS code will overwrite other variables in your dataset, but you should avoid having variable names that begin with an underscore, such as _bmi.</p>
+
+<p><strong>Step 4</strong>: Copy and paste the following line into your SAS program after the line (or lines) in step #3<em>.</em><br />
+%include 'c:\sas\growth charts\cdc\data\CDC-source-code.sas'; run;</p>
+
+<p>If necessary, change this statement to point at the folder containing the downloaded ‘CDC-source-code.sas’ file. This tells your SAS program to run the statements in ‘CDC-source-code.sas’.</p>
+
+<p><strong>Step 5</strong>: Submit the %include statement. This will create a dataset, named <em>_cdcdata</em>, which contains all of your original variables along with z-scores, percentiles, and flags for extreme values. The names and descriptions of these new variables in <em>_cdcdata</em> are in Table 2. Additional information on the extreme z-scores is given in a separate section that follows the “Example SAS Code”.</p>
+
+<p class="topOPage"><span class="toTop"><span class="icon-angle-up"><!-- --></span>&#160;<a href="sas.htm#">Top of Page</a></span></p>
+
+<p><strong>Table 2:</strong> Z-Scores, percentiles, and extreme (biologically implausible, BIV) values in output dataset, _<em>cdcdata</em></p>
+
+<table class="opt-in table table-bordered"><tbody>
+<tr>
+<th rowspan="2" scope="row"><strong>Description</strong></th>
+<th colspan="4" style=" vertical-align: top;">
+<p style=" text-align: center;"><strong>Variable</strong></p>
+</th>
+<th colspan="2" style=" vertical-align: top;">
+<p style=" text-align: center;"><strong>Cutoff for Extreme Z-Scores</strong></p>
+</th>
+</tr>
+
+<tr style=" background-color: #E6EED5;">
+<th scope="col">
+<p style=" text-align: center;">Percentile</p>
+</th>
+<th scope="col">
+<p style=" text-align: center;">Z-score</p>
+</th>
+<th scope="col">
+<p style=" text-align: center;">Modified Z-score to Identify Extreme Values</p>
+</th>
+<th scope="col">
+<p style=" text-align: center;">Flag for Extreme<br />
+Values</p>
+</th>
+<th scope="col">
+<p style=" text-align: center;">Low z-score (Flag coded as -1)</p>
+</th>
+<th scope="col">
+<p style=" text-align: center;">High z-score (Flag coded<br />
+as +1)</p>
+</th>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;"><strong>Weight-for-age for children between 0 and 239 (inclusive) months of age</strong></th>
+<td>
+<p style=" text-align: center;">wapct</p>
+</td>
+<td>
+<p style=" text-align: center;">waz</p>
+</td>
+<td>
+<p style=" text-align: center;">_Fwaz</p>
+</td>
+<td>
+<p style=" text-align: center;">_bivwt</p>
+</td>
+<td>
+<p style=" text-align: center;">&#60; -5</p>
+</td>
+<td>
+<p style=" text-align: center;">&#62; 8*</p>
+</td>
+</tr>
+
+<tr class="limegrnback">
+<th scope="row" style=" vertical-align: top;"><strong>Height-for-age for children between 0 and 239 (inclusive) months of age.</strong></th>
+<td>
+<p style=" text-align: center;">hapct</p>
+</td>
+<td>
+<p style=" text-align: center;">haz</p>
+</td>
+<td>
+<p style=" text-align: center;">_Fhaz</p>
+</td>
+<td>
+<p style=" text-align: center;">_bivht</p>
+</td>
+<td>
+<p style=" text-align: center;">&#60; -5</p>
+</td>
+<td>
+<p style=" text-align: center;">&#62;4*</p>
+</td>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;"><strong>Weight-for-height for children with heights between 45 and 121 cm (this height range approximately covers ages 0 to 6 y)</strong></th>
+<td>
+<p style=" text-align: center;">whpct</p>
+</td>
+<td>
+<p style=" text-align: center;">whz</p>
+</td>
+<td>
+<p style=" text-align: center;">_Fwhz</p>
+</td>
+<td>
+<p style=" text-align: center;">_bivwh</p>
+</td>
+<td>
+<p style=" text-align: center;">&#60; -4</p>
+</td>
+<td>
+<p style=" text-align: center;">&#62;8*</p>
+</td>
+</tr>
+
+<tr class="limegrnback">
+<th scope="row" style=" vertical-align: top;"><strong>BMI-for-age for children between 24 and 239 months of age</strong></th>
+<td>
+<p style=" text-align: center;">bmipct</p>
+</td>
+<td>
+<p style=" text-align: center;">bmiz</p>
+</td>
+<td>
+<p style=" text-align: center;">_Fbmiz</p>
+</td>
+<td>
+<p style=" text-align: center;">_bivbmi</p>
+</td>
+<td>
+<p style=" text-align: center;">&#60; -4</p>
+</td>
+<td>
+<p style=" text-align: center;">&#62;8*</p>
+</td>
+</tr>
+
+<tr>
+<th scope="row" style=" vertical-align: top;"><strong>Head circumference-for-age for children between 0 and 35 (inclusive) months of age</strong></th>
+<td>
+<p style=" text-align: center;">headcpct</p>
+</td>
+<td>
+<p style=" text-align: center;">headcz</p>
+</td>
+<td>
+<p style=" text-align: center;">_Fheadcz</p>
+</td>
+<td>
+<p style=" text-align: center;">_bivhc</p>
+</td>
+<td>
+<p style=" text-align: center;">&#60; -5</p>
+</td>
+<td>
+<p style=" text-align: center;">&#62;5</p>
+</td>
+</tr>
+
+</tbody></table>
+
+<p class="smallFontSize">* Changed in 2016. Additional information is below</p>
+
+<p><strong>Step 6:</strong> Examine the new dataset, <em>_cdcdata</em>, with PROC MEANS or some other procedure to verify that the z-scores and other variables have been created. If a variable in Table 1 was not in your original dataset (e.g., head circumference), the output dataset will indicate that all values for the percentiles and z-scores of this variable are missing. If values for other variables are unexpectedly missing, make sure that you’ve renamed and recoded variables as indicated in Table 1 and that your SAS dataset is named <em>mydata</em>. The program should not modify your original data, but will add new variables to your original dataset.</p>
+
+<p><strong>Example SAS code corresponding to steps 2 to 6</strong>. You can simply cut and paste these lines into a SAS program, but you’ll need to change the libname and %include statements to point at the folders containing the downloaded files.</p>
+
+<p>libname refdir 'c:\sas\growth charts\cdc\data';<br />
+data mydata; set whatever-your-original-dataset-is-named;<br />
+%include 'c:\sas\growth charts\cdc\data\CDC-source-code.sas';<br />
+proc means data=_cdcdata; run<em>;</em></p>
+
+<p><strong>Additional Information</strong></p>
+
+<p>Z-scores are calculated as =</p>
+
+<p>Z = [ ((value / M)**L) – 1] / (S * L) ,</p>
+
+<p>in which ‘value’ is the child’s BMI, weight, height, etc. The L, M, and S values are in CDCref_d.sas7bdat and vary according to the child’s sex and age or according to the child’s sex and height. Percentiles are then calculated from the z-scores (for example, a z-score of 1.96 would be equal to the 97.5 percentile). For more information on the LMS method, see <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC27365" target="_blank">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC27365/</a></p>
+
+<p class="topOPage"><span class="toTop"><span class="icon-angle-up"><!-- --></span>&#160;<a href="sas.htm#">Top of Page</a></span></p>
+
+<h4><a class="onThisPageAnchor" id="values" name="values" title="Extreme or Biologically Implausible Values"><!-- --></a>Extreme or Biologically implausible Values</h4>
+
+<p>As explained in the
+  	        <a href="biv-cutoffs.pdf">Modified z-scores documentation [PDF - 367KB]
+</a>
+	  , the SAS code also calculates modified z-scores that can be used to identify extreme values that may be errors. These modified z-scores are based on extrapolating one-half of the distance between 0 and +2 z-scores to the tails of the distribution. The output from the SAS program contains BIV flag variables that are coded as -1 (modified z-score is extremely low), +1 (modified z-score is extremely high), or 0 (modified z-score is between these 2 cut-points). These BIVs flags (e.g., _bivbmi), along with other variables that are in the output dataset, <em>_cdcdata</em>, are shown in Table 2. A biologically implausible value is not necessarily incorrect, but the value should be further examined, possibly in conjunction with other characteristics of the child.</p>
+
+<p class="topOPage"><span class="toTop"><span class="icon-angle-up"><!-- --></span>&#160;<a href="sas.htm#">Top of Page</a></span></p>
+
+<h4><a class="onThisPageAnchor" id="change" name="change" title="2016 Change to BIV cut-points: Rationale"><!-- --></a>2016 Change to BIV cut-points: Rationale</h4>
+
+<p>The modified z-scores used for the upper range of valid values was changed in 2016 for a number of the growth chart parameters. Previously, the cut-points for extremely high values were based on recommendations from a 1995 WHO publication (<a href="sas.htm#reference">1</a>), but several papers (<a href="sas.htm#reference">2–6</a>) have since indicated that these cut-points were probably too restrictive. The WHO cut-points identified many values that were extremely high, but were probably not errors.</p>
+
+<p>On the basis of an analyses of 2- to 18-year-olds in NHANES 1999-2000 through 2011-2012 (<a href="sas.htm#reference">3</a>) and 2- to 4-year-olds in CDC’s Pediatric Nutrition Surveillance System (PedNSS) (<a href="sas.htm#reference">6</a>), we now suggest that the upper BIV cut points be increased from<br />
+(1) +5 to +8 for modified z-scores for weight and BMI, and<br />
+(2) +3 to +4 for modified z-scores for height.<br />
+These new z-score cut-points roughly correspond to the modified z-scores for the maximum values of the body size measures among 2- to 18-year-olds in NHANES. We are not making changes to the cut-points for the extremely low values of the body size measurements.</p>
+
+<p>If BIV cut-points are used to exclude data, this change would likely affect comparisons of data calculated and cleaned using these new BIV cut-points with data that used the older (WHO 1995) values. The effects of these changes will likely differ across datasets depending upon the true prevalence of extreme values and the accuracy of the recorded data. In an analysis (<a href="sas.htm#reference">3</a>) of NHANES 1999-2012 data, for example, as compared with estimates obtained using the WHO 1995 cut-points, the use of the 2016 cut-points increased the prevalence of obesity and extreme obesity (120% of the 95th percentile of BMI-for-age) by about 0.5 percentage points. (Because of the extensive data cleaning in NHANES, published estimates from these surveys do not exclude any of the extremely high values.) In an analysis of PedNSS (<a href="sas.htm#reference">6</a>), compared with the WHO 1995 cut-points, the use of the 2016 cut points increased the prevalence of both obesity and extreme obesity by 0.9 percentage points. Because of the relatively low prevalence of extreme obesity among children, particularly pre-school children, a 0.5% to 0.9% increase results in a large proportional change in prevalence.</p>
+
+<h4><a class="onThisPageAnchor" id="dataerrors" name="dataerrors" title="BIVs vs. Data Errors"><!-- --></a>BIVs vs. Data Errors</h4>
+
+<p>These BIVs can be used to flag potentially problematic data points, and the 2016 cut-points were chosen to balance the inclusion of extreme values that are likely to be correct and the exclusion of those that are likely to be incorrect. However, other cut-points can be used and may be more appropriate based on other information specific to your data. If desired, the modified z-scores (3rd column of Table 2) can be used to construct other cut-points for extreme (or biologically implausible) values rather than relying on the BIV flag variables. For example, if you feel that use of the BMI-for-age cut-point of +8 would result in the inclusion of many values that are likely to be errors, you could use F_bmiz &#62; 6 as the definition of a high BMI BIV. This could be re-coded in the output dataset as:</p>
+
+<p>if -5 &#60;= _Fbmiz &#60;= 6 then _bivbmi=0; *plausible;<br />
+<span class="margin-left-twenty">else if _Fbmiz &#62; 6 then _bivbmi=1; *high BIV;</span><br />
+<span class="margin-left-twenty">else if . &#60; _Fbmiz &#60; -5 then _bivbmi= -1; *low BIV;</span></p>
+
+<p>It would also be possible to use the modified z-scores to identify children who would have been flagged with the older WHO cut-points.</p>
+
+<p>Once a data point has been flagged as a potential problem, other information from the child, if available, could be used to help identify errors and help in the decision to include or exclude the value. For example, if a child with an extremely high BMI also has a high skinfold thickness or arm circumference, the BMI value is more likely to be correct than if the other measure is low. Similarly, in a longitudinal study, one could assess whether a child with an extreme value at 1 time point also has a high value at other examinations. If only weight and height are available at a single examination, one might consider whether a child who has an extremely high weight is also very tall, and if there are other children who weigh nearly as much.</p>
+
+<p class="topOPage"><span class="toTop"><span class="icon-angle-up"><!-- --></span>&#160;<a href="sas.htm#">Top of Page</a></span></p>
+
+<h4><a class="onThisPageAnchor" id="defining" name="defining" title="Defining Severe Obesity"><!-- --></a>Defining Severe Obesity and BMI Metrics Among Children with Very High BMIs</h4>
+
+<p>The use of the LMS parameters of the CDC growth charts for children with very high BMIs has been shown to result in percentiles that differ from those that are estimated from the data <a href="http://www.ajcn.org/content/90/5/1314.full.pdf" target="_blank">http://www.ajcn.org/content/90/5/1314.full.pdf [PDF-153KB]</a>. Therefore, rather than using the BMI percentiles (and z-scores) to identify and characterize children with severe (or extreme) obesity, it is recommended that these high BMI values be expressed relative to the 95<sup>th</sup>percentile. A BMI value that is 120% of the 95<sup>th</sup> percentile in the CDC growth charts is approximately equal to the empirical 99<sup>th</sup> percentile. This cut-point (120%) is recommended for the classification of extreme (or severe) obesity among 2- to 19-year-olds [7]. The variables <strong>bmiz</strong> and <strong>bmipct</strong> in the SAS output should not be used in the classification of this subset of children with very high BMIs because the highest percentile that was estimated in the CDC growth charts was the 97<sup>th</sup> <a href="../../../../nchs/data/series/sr_11/sr11_246.pdf">https://www.cdc.gov/nchs/data/series/sr_11/sr11_246.pdf [PDF-5.31MB]</a>, <a href="../../../../nchs/data/nhsr/nhsr063.pdf">https://www.cdc.gov/nchs/data/nhsr/nhsr063.pdf [PDF-87KB]</a>.</p>
+
+<p>The drawbacks of expressing very high BMIs as z-scores (or percentiles) have been emphasized by several investigators [8-12]. The SAS code creates 2 variables, <strong>bmipct95</strong> and <strong>bmidif95</strong>, that express a child's BMI relative to the 95<sup>th</sup> percentile either as a percentage (bmipct95) or as a difference (bmidif95). These 2 variables are likely to be better measures of adiposity among children who have very high BMIs than are z-scores and percentiles. Bmipct95 can range from below 50 to over 220, and a child with a bmipct95 of 140 would have a BMI that is equal to 1.4 times the 95th percentile. Bmidif95 is the difference (in kg/m<strong><sup>2</sup></strong>) between the child's BMI and the CDC 95<sup>th</sup> percentile for that sex/age. For example, the CDC 95<sup>th</sup> percentile for a 20-month-old boy is 18.0 kg/m<strong><sup>2</sup></strong>; if this boy had a BMI of 21.3kg/m<strong><sup>2</sup></strong>, his bmidif95 would be 3.3 kg/m<strong><sup>2</sup></strong> (21.3 - 18.0) and his bmipct95 would be 118% (100 × 21.3/18.0). A negative value for bmidif95 (or a bmipct95 &#60; 100) would indicate that the child does not have obesity.&#160; In addition to these 2 variables, the SAS program also outputs the CDC 50th (<strong>bmi50</strong>) and 95<sup>th</sup> (<strong>bmi95</strong>) percentiles for the child's sex and age.</p>
+
+<p>If a large proportion of children in an analysis have severe obesity (bmipct95 ≥ 120), you should consider expressing all BMIs relative to the 95<sup>th</sup> percentile and using bmipct95 or bmidif95 in analyses. The limitations of expressing extremely high BMIs as z-scores apply to both cross-sectional and longitudinal studies, including those that evaluate obesity interventions.</p>
+
+<p class="topOPage"><span class="toTop"><span class="icon-angle-up"><!-- --></span> <a href="sas.htm#">Top of Page</a></span></p>
+
+<a class="onThisPageAnchor" id="reference" name="reference" title="References"><!-- --></a>             					            					            						</div>
+            					            					            						</div>
+            													        						                                                    				                                                                        				                                                    <div class="row">
+                                                                                <div class="span19">
+                                                                
+			<div class="syndicate">
+<div class="mSyndicate">
+	    <div class="module-typeF" >
+		<h3>References</h3>
+		<div>
+		
+<div class="margin-left-twenty">
+<ol>
+<li>WHO Expert Committee. Physical status: the use and interpretation of anthropometry. <em>WHO Tech. Rep. Ser</em>. 1995;pages 217 to 250.</li>
+
+<li>Lawman HG, Ogden CL, Hassink S, et al. Comparing methods for identifying biologically implausible values in height,weight, and Body Mass Index among youth. <em>Am. J. Epidemiol</em>. 2015;182(4):359–65.</li>
+
+<li>Freedman DS, Lawman HG, Skinner AC, et al. Validity of the WHO cutoffs for biologically implausible values of weight, height, and BMI in children and adolescents in NHANES from 1999 through 2012. <em>Am. J. Clin. Nutr.</em> 2015;102(5):1000–6.</li>
+
+<li>Lo JC, Maring B, Chandra M, et al. Prevalence of obesity and extreme obesity in children aged 3-5 years. <em>Pediatr. Obes.</em> 2014;9(3):167–75.</li>
+
+<li>Dennison BA, Edmunds LS, Stratton HH, et al. Rapid infant weight gain predicts childhood overweight. <em>Obesity (Silver Spring).</em> 2006;14(3):491–9.</li>
+
+<li>Freedman DS, Lawman HG, Pan L, et al. The prevalence and validity of high, biologically implausible values of weight, height and BMI among 8.8 million children. <em>Obes. (Silver Spring).</em> 2016;Mar 17. &#160;PMID 26991694.</li>
+
+<li>
+<p>Kelly AS, Barlow SE, Rao G, Inge TH, Hayman LL, Steinberger J, et al. Severe obesity in children and adolescents: identification, associated health risks, and treatment approaches: A Scientific Statement from the American Heart Association. Circulation. 2013;128(15):1689–712. <a href="http://www.ncbi.nlm.nih.gov/pubmed/24016455">http://www.ncbi.nlm.nih.gov/pubmed/24016455</a></p>
+</li>
+
+<li>
+<p>Woo JG. Using body mass index Z-score among severely obese adolescents: a cautionary note. Int J Pediatr Obes. 2009;4(4):405–10.</p>
+</li>
+
+<li>Paluch RA, Epstein LH, Roemmich JN. Comparison of methods to evaluate changes in relative body mass index in pediatric weight control. Am J Hum Biol. 2007;19(4):487–94. <a href="http://www.ncbi.nlm.nih.gov/pubmed/17546615">http://www.ncbi.nlm.nih.gov/pubmed/17546615</a></li>
+
+<li>Cole TJ, Faith MS, Pietrobelli A, Heo M. What is the best measure of adiposity change in growing children: BMI, BMI%, BMI z-score or BMI centile? Eur J Clin Nutr. 2005/01/28. 2005;59(3):419–25.</li>
+
+<li>Berkey CS, Colditz GA. Adiposity in adolescents: change in actual BMI works better than change in BMI z score for longitudinal studies. Ann Epidemiol. 2007;17(1):44–50. <a href="http://www.ncbi.nlm.nih.gov/pubmed/17140812">http://www.ncbi.nlm.nih.gov/pubmed/17140812</a></li>
+
+<li>Kakinami L, Henderson M, Chiolero A, Cole TJ, Paradis G. Identifying the best body mass index metric to assess adiposity change in children. Arch Dis Child. 2014;99(11):1020–4. <a href="http://adc.bmj.com/content/early/2014/05/19/archdischild-2013-305163">http://adc.bmj.com/content/early/2014/05/19/archdischild-2013-305163</a>
+<p>&#160;</p>
+</li>
+</ol>
+</div>
+				</div>
+	</div>
+	</div>
+</div>
+                                                                      </div>
+                    </div>
+                				                                                						                                                                								<!-- Related Nav Area -->
+								<div class="nav-related hidden-three hidden-four">
+									
+
+
+
+
+									
+
+
+
+<div class="module-typeA">
+<h3>Related Links</h3>
+
+<ul class="list-block">
+<li>
+		<a href="../../index.html">Division Information</a>
+	</li>
+
+<li>
+<a href="../../../../nutrition/index.html">Nutrition</a></li>
+
+<li>
+<a href="../../../../physicalactivity/index.html">Physical Activity</a></li>
+
+<li>
+<a href="https://www.cdc.gov/obesity/index.html">Overweight &amp; Obesity</a></li>
+
+<li>
+<a href="../../../../healthyweight/index.html">Healthy Weight</a></li>
+
+<li>
+<a href="../../../../breastfeeding/index.htm">Breastfeeding</a></li>
+
+<li>
+		<a href="../../../../immpact/index.html">Micronutrient Malnutrition</a>
+	</li>
+
+<li class="last">
+		<a href="../../state-local-programs/index.html">State and Local Programs</a>
+	</li>
+</ul>
+</div>
+
+
+								</div>
+    							<!-- Persistent Content Area -->
+    							<div id="content-secondary">
+                                    
+
+
+
+            						
+
+
+
+    							</div><!-- /end #content-secondary -->
+    						</div><!-- /end #contentArea -->
+    					</div><!-- /end body -->	
+					</div>
+					<div class="row">
+						<div class="span24 visible-one">
+																											</div>
+					</div>
+					<div class="row">
+						<div class="span24">
+                            <div id="plugin-legend" class="pluginOff">
+	<h5>File Formats Help:</h5><span><a href="../../../../Other/plugins/index.html">How do I view different file formats (PDF, DOC, PPT, MPEG) on this site?</a></span>
+	<ul>
+		<li class="plugin-pdf"><a href="../../../../Other/plugins/index.html#pdf"><span class="sprite-16-pdf">Adobe PDF file</span></a></li>
+		<li class="plugin-ppt"><a href="../../../../Other/plugins/index.html#ppt"><span class="sprite-16-ppt">Microsoft PowerPoint file</span></a></li>
+		<li class="plugin-word"><a href="../../../../Other/plugins/index.html#doc"><span class="sprite-16-word">Microsoft Word file</span></a></li>
+		<li class="plugin-excel"><a href="../../../../Other/plugins/index.html#xls"><span class="sprite-16-excel">Microsoft Excel file</span></a></li>
+		<li class="plugin-wmv"><a href="../../../../Other/plugins/index.html#wmv"><span class="sprite-16-wmv">Audio/Video file</span></a></li>
+		<li class="plugin-qt"><a href="../../../../Other/plugins/index.html#qt"><span class="sprite-16-qt">Apple Quicktime file</span></a></li>
+		<li class="plugin-real"><a href="../../../../Other/plugins/index.html#ram"><span class="sprite-16-rp">RealPlayer file</span></a></li>
+		<li class="plugin-text"><a href="../../../../Other/plugins/index.html#text"><span class="sprite-16-txt">Text file</span></a></li>
+		<li class="plugin-zip"><a href="../../../../Other/plugins/index.html#zip"><span class="sprite-16-zip">Zip Archive file</span></a></li>
+		<li class="plugin-sas"><a href="../../../../Other/plugins/index.html#sas"><span class="sprite-16-sas">SAS file</span></a></li>
+		<li class="plugin-epub"><a href="../../../../Other/plugins/index.html#epub"><span class="sprite-16-ebook">ePub file</span></a></li>
+		<li class="plugin-ris"><a href="../../../../Other/plugins/index.html#ris"><span class="sprite-16-ris">RIS file</span></a></li>
+	</ul>
+</div>
+						</div>
+					</div>
+					<!-- date stamp -->
+					<div id="datestamp" class="row" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+						<div class="span24">
+    						<ul> 
+            					            						<li class="last-reviewed">Page last reviewed: <span itemprop="lastReviewed">December 16, 2016</span></li>
+            													            					            						<li class="last-updated">Page last updated: <span itemprop="dateModified">December 16, 2016</span></li>
+            					        							<li class="content-source">Content source:
+    									
+
+
+<ul><li itemprop="sourceOrganization" itemscope="itemscope" itemtype="http://schema.org/Organization"><a href="../../index.html">Division of Nutrition, Physical Activity, and Obesity</a>, <a href="../../../../chronicdisease.1.html">National Center for Chronic Disease Prevention and Health Promotion</a></li></ul>
+
+        							</li>
+									
+
+
+
+    						</ul>
+						</div>
+					</div>					
+				</div><!-- /end #content -->
+			</div><!-- /.container for content -->					
+			<!-- footer -->
+				<footer id="footer" class="cdcSlimFooter">
+	
+ <!-- include eng footerSubSocialMedia.html -->
+<div class="socialMedia">
+	<div class="container">
+		<nav class="followcdc">
+			<ul>
+				<li><a href="../../../../Other/emailupdates.1.html"><span class="sprite-24-govd"></span><span class="tp-sr-only">Email</span></a></li>
+				<li><a href="https://www.facebook.com/CDC" target="_blank"><span class="sprite-24-facebook"></span><span class="tp-sr-only">Recommend</span></a></li>
+				<li><a href="https://twitter.com/CDCgov" target="_blank"><span class="sprite-24-twitter"></span><span class="tp-sr-only">Tweet</span></a></li>
+				<li><a href="https://www.youtube.com/user/CDCstreamingHealth" target="_blank"><span class="sprite-24-youtube"></span><span class="tp-sr-only">YouTube</span></a></li>
+				<li><a href="https://www.instagram.com/CDCgov/" target="_blank"><span class="sprite-24-instagram"></span><span class="tp-sr-only">Instagram</span></a></li>
+			</ul>
+		</nav>
+		<nav class="cdcmedia">
+			<ul>
+				<li><a href="https://www2c.cdc.gov/podcasts"><span class="sprite-24-listen"></span><span class="tp-sr-only">Listen</span></a></li>
+				<li><a href="../../../../cdctv.1.html"><span class="sprite-24-watch"></span><span class="tp-sr-only">Watch</span></a></li>
+				<li><a href="https://www2c.cdc.gov/podcasts/rss.asp"><span class="sprite-24-rss"></span><span class="tp-sr-only">RSS</span></a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+ <!-- /include eng footerSubSocialMedia.html -->
+
+	<div class="container">
+		<div class="cdcLinks">
+			<div class="container">
+				<ul>
+					
+<!-- include eng footerSubCdcLinks.html-->
+<li>
+	<nav>
+		<h6 class="hidden-four hidden-three">ABOUT <span class="icon-plus visible-one pull-right"></span></h6>
+		<ul class="hidden-one">
+			<li><a href="../../../../about/default.htm">About CDC</a></li>
+			<li><a href="https://jobs.cdc.gov">Jobs</a></li>
+			<li><a href="../../../../funding.1.html">Funding</a></li>
+		</ul>
+	</nav>
+</li>
+<li>
+	<nav>
+		<h6 class="hidden-four hidden-three">LEGAL <span class="icon-plus visible-one pull-right"></span></h6>
+		<ul class="hidden-one">
+			<li><a href="../../../../Other/policies.html">Policies</a></li>
+			<li><a href="../../../../Other/privacy.html">Privacy</a></li>
+			<li><a href="../../../../od/foia.1.html">FOIA</a></li>
+			<li><a href="../../../../eeo/nofearact/index.htm">No Fear Act</a></li>
+			<li><a href="https://oig.hhs.gov" class="no-link">OIG</a></li>
+		</ul>
+	</nav>
+</li>
+<!--/ include eng footerSubCdcLinks.html-->
+
+				</ul>
+			</div>
+		</div>
+		<div class="cdcContact">
+			<div class="container">
+				<ul>
+					<li class="local-contact">
+						
+ <!-- include eng footerSubGlobalContact1.html -->
+<section>
+	<address class="address" itemscope="itemscope" itemtype="https://schema.org/Organization">
+		<span class="value" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+			<span itemprop="streetAddress">1600 Clifton Road</span>
+			<span itemprop="addressLocality">Atlanta</span>,
+			<span itemprop="addressRegion">GA</span>
+			<span itemprop="postalCode">30329-4027</span>
+			<span itemprop="addressCountry">USA</span>
+		</span><br />
+		<span class="value" itemprop="telephone">800-CDC-INFO (800-232-4636)</span>,
+		<span class="value" itemprop="telephone">TTY: 888-232-6348</span><br />
+		<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx" class=" default no-link">Email CDC-INFO</a></span>
+		</span>
+	</address>
+</section>
+ <!-- /include eng footerSubGlobalContact1.html -->
+
+					</li>
+					<li class="contact">
+						
+ <!-- include eng footerSubGlobalContact2.html -->
+<section>
+	<address class="address" itemscope="itemscope" itemtype="https://schema.org/Organization">
+		<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://www.hhs.gov" class="no-link">U.S. Department of Health & Human Services</a></span>
+		</span><br />
+        <span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+        	<span itemprop="url"><a href="https://www.hhs.gov/open" class="no-link">HHS/Open</a></span>
+        </span><br />
+        <span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+			<span itemprop="url"><a href="https://www.usa.gov/" class="no-link">USA.gov</a></span>
+		</span>
+	</address>
+</section>
+ <!-- /include eng footerSubGlobalContact2.html -->
+
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>			<!-- /#footer -->
+			<div id="totop" class="off visible-one">Top</div>
+        </div>
+		<script>page_timing.libs_start = Date.now();</script><script src="../../../../TemplatePackage/3.0/js/libs.min.js@3.2.1.7"></script><script>page_timing.libs_end = Date.now();page_timing.core_start = Date.now();</script><script src="../../../../TemplatePackage/3.0/js/core.min.js@3.2.1.7"></script><script>page_timing.core_end = Date.now();</script><!-- Start Site Settings Overrides -->
+<script>
+CDC.Constants.set("flexSliderVideoDomains", ['youtube.com','ytimg.com','vimeocdn.com'], 'es');
+</script>
+<!-- End Site Settings Overrides --><script>page_timing.app_start = Date.now();</script><script src="../../../../TemplatePackage/3.0/js/app.min.js@3.2.1.7"></script><script>page_timing.app_end = Date.now();</script>		
+		        			<!-- Begin Survey scripts -->
+<script src="../../../../JScript/foresee/foresee-trigger.js"></script>
+<script src="../../../../JScript/foresee-variables.js"></script>
+<!-- End Survey scripts -->
+			
+            <script>if (typeof page_timing !== 'undefined') { page_timing.metrics_start = Date.now(); }</script>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code begins here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<div id="metrics">
+
+<!-- Begin Google DAP inclusion -->
+<script type="text/javascript" id="_fed_an_ua_tag" src="../../../../JScript/metrics/google/Universal-Federated-Analytics-Min.js@agency=HHS&amp;subagency=CDC"></script>
+<!-- End Google DAP inclusion -->
+
+<!-- Begin Template Package Custom Interactions -->
+<script type="text/javascript" src="../../../../JScript/metrics/rd_custom_interactions.js"></script>
+<!-- End Template Package Custom Interactions -->
+
+<!-- SiteCatalyst code version: H.21. -->
+<script src="../../../../JScript/metrics/topic_levels.js"></script>
+<script src="../../../../JScript/metrics/s_code_v21_cdcgov.js"></script>
+<script>
+
+	enquire.register(CDC.Global.selectors.vp1, function() {
+		s.prop49 = 1;
+	});
+	enquire.register(CDC.Global.selectors.vp2, function() {
+		s.prop49 = 2;
+	});
+	enquire.register(CDC.Global.selectors.vp3, function() {
+		s.prop49 = 3;
+	});
+	enquire.register(CDC.Global.selectors.vp4, function() {
+		s.prop49 = 4;
+	});
+
+            
+            
+
+
+ s.pageName=document.title;
+ s.channel="Division of Nutrition, Physical Activity and Obesity DNPAO";
+    
+ siteCatalyst.setLevel1("Chronic"); 
+ siteCatalyst.setLevel2("Division of Nutrition, Physical Activity, and Obesity DNPAO"); 
+ siteCatalyst.setLevel3("Growth Chart Training"); 
+
+            
+                        
+            s.prop2=window.location.href;
+s.prop26=document.title;
+s.prop30=document.title;
+s.prop31=window.location.href;
+s.prop46=window.location.href;
+s.server=window.location.hostname;
+
+// Update the level variables here.
+updateVariables(s);
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();
+
+
+
+if(s_code) {
+	document.write(s_code);
+}
+
+
+
+if (document.location.protocol) {
+
+
+	var cookieManagment = {
+		getUuid : function (strPrefix) {
+			strPrefix = strPrefix || "";
+			var d = new Date();
+			var seconds = Math.round(d.getTime() / 1000);
+			return strPrefix + Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1) + "-" + seconds.toString();
+		},
+		setCookie : function (cname, cvalue, exdays, domain) {
+			domain = domain || ".cdc.gov";
+			var d = new Date();
+			d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			var expires = "expires="+ d.toUTCString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=" + domain + ";path=/";
+		},
+		getCookie : function (cname) {
+			var name = cname + "=";
+			var ca = document.cookie.split(';');
+			var i = ca.length;
+			while (i --) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length,c.length);
+				}
+			}
+			return "";
+		},
+		init : function () {
+
+
+
+			var currCookieVal = cookieManagment.getCookie('cdc_s_vi');
+
+			if (!currCookieVal.length || currCookieVal.indexOf('[CS]v1') != -1) {
+				var newCookieVal = cookieManagment.getUuid('[CS]v2') + "-" + cookieManagment.getUuid('');
+				cookieManagment.setCookie("cdc_s_vi", newCookieVal, 7);
+				return newCookieVal;
+			}
+			return currCookieVal;
+		}
+	};
+
+
+	var cdcSessionID = cookieManagment.init();
+
+	s3 = s_gi("cdcgovvistorid");
+
+	var sKey, override = {
+		fun: "cdcgovvistorid",
+		trackingServer: "cdc.112.2o7.net"
+	};
+
+	s3.visitorID = cdcSessionID;
+
+	for (sKey in s) {
+		if (s.hasOwnProperty(sKey)) {
+			if (override.hasOwnProperty(sKey)) {
+				s3[sKey] = override[sKey];
+
+			} else {
+
+			}
+		}
+	}
+	updateVariables(s3);
+
+
+	var s_code_uvid = s3.t();
+	if(s_code_uvid) {
+		document.write(s_code_uvid);
+	}
+}
+
+
+
+
+</script>
+<script type="text/javascript">
+if(navigator.appVersion.indexOf('MSIE')>=0) { document.write(unescape('%3C')+'\!-'+'-'); }
+</script>
+<noscript><a href="http://www.omniture.com"><img src="https://smtrics.cdc.gov/b/ss/cdcgov/1/H.21--NS/01/H.21--NS/0" height="1" width="1" alt="Web Analytics" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+<!-- Begin Template Package DigitalGov Search Support -->
+<script type="text/javascript" src="../../../../JScript/rd_search.js"></script>
+<!-- End Template Package DigitalGov Search Support -->
+</div>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code ends here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<script>if (typeof page_timing !== 'undefined') { page_timing.metrics_end = Date.now(); }</script>
+				
+
+<script>
+<!--//
+ $(document).ready(function () {
+  var cdcLeftNav = new CDC.LeftNav("nav-primary");
+  cdcLeftNav.render();
+ });
+//-->
+</script>
+
+    	
+
+
+
+						    </body>
+	</html>

@@ -1,0 +1,47 @@
+#content table {
+table-layout:auto;
+
+}
+
+#content th {
+text-align: left; background-color: #F5FAED;  ;
+}
+
+#content td {
+
+}
+
+#content table.noborder, 
+#content table.noborder tr, 
+#content table.noborder td, 
+#content table.noborder th { 
+     
+	padding: 0px; 
+}
+
+#sidebar_highlight	{
+float: right;
+position:relative;
+width: 200px;
+margin-left: 10px;
+}
+
+div.centered {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#content table.limegrn,
+#content table.limegrn tr,
+#content table.limegrn td,
+#content table.limegrn th {
+	 
+}
+
+#content th.limegrnback, #content tr.limegrnback {
+	background-color: #E6EED5;
+}
+#content th.rusty, #content tr.rusty {
+	background-color:#FFD8B0;
+}

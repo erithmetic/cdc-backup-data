@@ -1,0 +1,1334 @@
+@charset "UTF-8";
+/**
+ * CDC - (X)HTML/CSS Framework
+ *
+ * @package         TemplatePackage 'B'
+ * @version         2.8.2
+ * @builddate       2016-12-13
+ */
+
+/* Imports */
+@import url("https://www.cdc.gov/TemplatePackage/css/B/columns.css");
+@import url("https://www.cdc.gov/TemplatePackage/css/B/type.css");
+@import url("https://www.cdc.gov/TemplatePackage/css/B/grid.css");
+@import url("https://www.cdc.gov/TemplatePackage/css/B/leftNav.css");
+@import url("https://www.cdc.gov/TemplatePackage/css/B/widgets.css");
+@import url("https://www.cdc.gov/TemplatePackage/css/B/socialMedia.css");
+
+.top-blocks { position:relative;
+	margin:0;
+	border:none;
+	padding:0;
+	overflow:visible;
+}
+body .top-blocks .c1 {
+	display:inline;
+	float:left;
+	padding:0;
+	width:49.25%;
+}
+body .top-blocks .c2 {
+	display:inline;
+	float:right;
+	padding:0;
+	width:49.25%;
+}
+.top-blocks.roundem [class^="c"] {
+	margin-left:0 !important;
+	margin-right:0 !important;
+	width:50%;
+}
+.top-blocks dl:hover {
+	background-color:#fdf8da;
+	border-top:1px solid #cecfb5;
+	border-left:1px solid #cecfb5;
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	cursor:pointer;
+}
+.top-blocks dl {
+	background-color:rgb( 254, 254, 254);
+	display:block;
+	margin:5px 0;
+	border-top:1px solid #dfdfdf;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	border-left:1px solid #dfdfdf;
+	padding:10px 5px;
+	min-height:4.15em;
+	width:auto;
+	overflow:hidden;
+}
+.top-blocks div[class~=c50l] dl { margin: 5px 2.5px; }
+.top-blocks .group:hover {
+	background-color:#fdf8da;
+	border-top:1px solid #cecfb5;
+	border-left:1px solid #cecfb5;
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	cursor:pointer;
+}
+.top-blocks .group {
+	background-color:rgb( 254, 254, 254);
+	margin:5px 0;
+	border-top:1px solid #dfdfdf;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	border-left:1px solid #dfdfdf;
+	padding:3px 0;
+	position:relative;
+	min-height:6em;
+	/*height:6em;*/
+	width:auto;
+	overflow:hidden;
+}
+#content .top-blocks .group.subTwoCl {margin:2.5px 2.5px 2.5px 0;}
+#content .top-blocks .group.subTwoCr {margin:2.5px 0 2.5px 2.5px;}
+#content .top-blocks .group:hover h5 a {text-decoration:underline;}
+#content .top-blocks .group:hover a {text-decoration:underline;}
+.top-blocks .group dl:hover {
+	background-color:transparent;
+	border:none;
+	cursor:auto;
+}
+.top-blocks .group dl {
+	background-color:transparent;
+	display:block;
+	margin:0;
+	border:none;
+	padding:0;
+	height:auto;
+	min-height:100%;
+}
+.top-blocks .group div {padding:10px;}
+.top-blocks div .group img {
+	clear:both;
+	display:block;
+	float:left;
+	position:relative;
+	margin-right:5px;
+	margin-bottom:5px;
+	border:none;
+}
+#wrapper #content .top-blocks dl:hover a {
+	text-decoration:underline;
+	display:block;
+}
+#wrapper #content .top-blocks dl:hover a.external { text-decoration:none; }
+#wrapper #content .top-blocks dl a {
+	display:block;
+	font-size:1.1em;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.top-blocks dd {
+	display:inline;
+	font-size:0.9em;
+}
+.top-blocks p {font-size:0.9em;}
+.top-blocks h5 {
+	margin-bottom:0;
+	padding-bottom:0;
+	line-height:1;
+}
+
+/**
+ * = for future release ======= This will allow for the removal of ".column-inner" in future template versions =
+ */
+/* = This is currently causing issues with carousel on www.cdc.gov = */
+.double-rule {
+	background-color:#ebf5dd;
+	border:1px solid #cdcdcd;
+	padding:3px;
+}
+.double-rule > div {
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+
+.noBorder {
+	background-color:#fff; 
+	padding:4px;
+}
+.module, .double-rule, .page-curl, .noBorder,
+.module + .subColumns, .module + .subColumn,
+[class*="subColumn"], .rx-row, .syndicate, .mSyndicate {margin-top:10px}
+/*
+[class*="subColumn"] + .module,
+[class*="subColumn"] + .double-rule,
+[class*="subColumn"] + .page-curl,
+[class*="subColumn"] + .noBorder,
+[class*="subColumn"] + [class*="subColumn"] {margin-top:3px;}
+ */
+
+/* = testing to set first child to zero margin-top ======= */
+.module:first-child, .roundem:first-child, .double-rule:first-child,
+.page-curl:first-child, .noBorder:first-child, [class*="subColumn"]:first-child,
+.rx-row:first-child, .syndicate:first-child, .mSyndicate:first-child, .rounders:first-child {margin-top:0;} /* = v2.7.0.1 = */
+
+/* .subc .noBorder {padding:0;} Removed for testing requirs padding for module */ 
+.main-inner .subc .noBorder p:last-child {margin-bottom:0;}
+
+.noBorder > div {
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+.noBorder.noHeader .inner {margin-top:12px;}
+
+.module .noCorner {padding:5px;}
+.module .c1 .noCorner {margin-right:0.5em;}
+.module .c2 .noCorner {margin-left:0.5em;}
+.module .c1 .noCorner p {margin-bottom:0;}
+
+/**
+ * = Reset last paragraph to bottom padding smaller ===============================================
+ */
+/** T */	/*.module p:last-child,
+.module.blocklist .typeC p:last-child,
+.module.blocklist .typeD p:last-child {
+	margin:0;
+	padding-bottom:0.5em;
+}*/
+
+.typeD img, .typeD figure,
+.noCorner img, .noCorner figure,
+img.center, figure.center,
+#content .twoColumn img.center, #content .twoColumn figure.center,
+#content .twoColumns img.center, #content .twoColumns figure.center,
+#content .subTwoCol img.center, #content .subTwoCol figure.center {
+	float:none;
+	display:block;
+	margin:5px auto;
+}
+
+.page-curl {
+	background:#fff url('https://www.cdc.gov/TemplatePackage/images/bgPagecurlShadow.gif') right bottom no-repeat;
+	margin-bottom:/*-7px*/ 0;
+	padding:0 0 7px 0;
+}
+[class*="subColumn"] [class*="subColumn"] .page-curl {margin-bottom:auto;}
+.page-curl > div {
+	background-color:#fff;
+	margin:0;
+	border:1px solid #cdcdcd;
+	padding:3px;
+}
+
+.twoColumn, .twoColumns,
+[class*="subColumn"],
+.cdc-rows-columns {overflow:hidden;}
+.right + .twoColumn {padding:0 5px 0 0;}
+.left + .twoColumn {padding:0 0 0 5px;}
+div.top-blocks .twoColumn, div.top-blocks .twoColumns {
+	margin:0;
+	padding:0 7px;
+}
+.rounders .twoColumn {padding:0;}
+.module .twoColumn, .module .twoColumns, [id*='onthispage'] .roundem [class*='twoColumn'] {
+	padding-right:5px;
+	padding-left:5px;
+}
+
+#content .module h3,
+#content .rounders h3,
+#content #topList h3 {
+	color:#0c5205;
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0.5em 5px;
+	line-height:1;
+}
+#content .rounders h3,
+#content .roundem h3 {padding:2px 1px 6px 1px;}
+
+/* #content .noBorder h3, */
+#content .noBorder p,
+#content .noBorder ul,
+#content .noBorder ol,
+#content .noBorder code {
+	margin:auto 0;
+	padding:0.5em 0
+}
+
+.double-rule h3 {background:#eef7e3 url('https://www.cdc.gov/TemplatePackage/images/bgDoubleH2-noIcon.gif') right bottom repeat-x;}
+
+.page-curl h3 {background-color:#eef7e3;}
+.page-curl h5 {
+	display:block;
+	position:relative;
+}
+.page-curl > div > h3 + h5 {margin-top:0.75em;}
+
+.type2 p {margin:0.5em 0 0 !important;}
+
+.two-columns {
+	margin:0 0 10px 0;
+	padding:0;
+	width:auto;
+	overflow:hidden;
+}
+
+.module.underline {
+	clear:both;
+	width:auto;
+	overflow:visible;
+}
+
+.module .c1 {
+	display:inline;
+	float:left;
+	margin-left:0;
+	width:49%;
+}
+.module .c2 {
+	display:inline;
+	float:right;
+	margin-right:0;
+	width:49%;
+}
+
+.module ul,
+.module ol {
+	/*position:relative;*/
+	margin:0;
+	padding:0;
+}
+
+.module li,
+.rounders li {
+	margin:0;
+	display:list-item;
+	border-top:1px dotted #999;
+	padding:3px 2.5px;
+	list-style:none;
+}
+
+.module .menu {margin-bottom:1em;}
+.module .menu li,
+.rounders .menu li {border-bottom:none;}
+
+.module .inliner,
+.rounders .inliner {display:inline-block;}
+
+#content .module a:hover,
+#content .rounders li a:hover {text-decoration:underline;}
+
+#content .module li a,
+#content .rounders li a,
+#content div[id^="onthispage"] li a {
+	display:block;
+	padding-top:0;
+	padding-bottom:0;
+	text-decoration:none;
+}
+
+#content .module .menu li a,
+#content .rounders .menu li a {display:inline;}
+
+#content .module a.external:hover span.tp-label,
+#content .rounders a.external:hover span.tp-label {text-decoration:underline;}
+
+#content .module a.external:hover,
+#content .rounders a.external:hover,
+#content .module a.noDecoration:hover,
+#content .rounders a.noDecoration:hover,
+#content .module a,
+#wrapper #content .main-inner .module span.cdc-decorated a.noDecoration:hover,
+#wrapper #content .top-blocks dl a span[class] {text-decoration:none;}
+
+.blocklist p {
+	display:block;
+	border-top:1px dotted #999;
+	padding:0.5em 0 0 0;
+}
+:root * > .blocklist p {overflow:hidden;}
+.blocklist p:first-child {
+	margin-top:0;
+	border-top:none;
+}
+#content .blocklist .subc + p {
+	margin:-0.5em 5px 0;
+	padding:0.25em 0;
+}
+
+/* .main-inner .blocklist p {margin-bottom:0.5em;} */
+
+/** T */
+.module p.lastChild, 
+.module .lastChild { 
+	margin-bottom:0; 
+	border-bottom:none; 
+	/* padding-bottom:0.5em; */
+}
+
+.cdc-tabs .inner p + p:last-child,
+.cdc-tabs .inner p:last-child,
+.accordion .inner p + p:last-child,
+.accordion .inner p:last-child {
+	margin-bottom:0; 
+	padding-bottom: 0;
+}
+
+.nolines li, .nolines p {border:none;}
+
+.module .nolines li,
+.module.primaryBox li {border-bottom:1px solid transparent;}
+
+.module.bullet-list .nolines li,
+.module .bullet-list.nolines li,
+.module.primaryBox.bullet-list li {
+	border-bottom:1px solid transparent;
+	padding:3px 0 3px 1.25em;
+}
+.boldlinks a,
+.subc p a,
+.subcl p a,
+.subcr p a {font-weight:bold;}
+
+.clearLine {clear:both;}
+
+.bullets li,
+.bullet-list li { /** = this should never have links inside of the list = */ 
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/black_bullet.png') no-repeat 0.3em 0.65em;
+	margin:0;
+	border-top:1px solid transparent;
+	list-style:none;
+	padding:3px 0 3px 1.25em;
+}
+
+.bulleted-links li,
+.cdcForYou ul li {
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/blue_bullet.png') 0.3em 0.65em no-repeat;
+	display:block;
+	position:relative;
+	margin:0;
+	border-top:1px solid transparent !important;
+	padding:3px 0 3px 1.25em;
+	list-style:none;
+}
+
+.somemore, .module p.somemore,
+.module.blocklist .inner p + p.somemore {
+	clear:both;
+	color:#0061aa;
+	margin-top:0;
+	border-bottom:none;
+	padding:0;
+	text-align:right;
+}
+.module.blocklist .inner p + p.somemore {border-top:1px dotted #999;}
+
+.somemore a:hover {text-decoration:underline;}
+.somemore a {
+	background:transparent url('../../images/btn_dblArrows.gif') right 50% no-repeat;
+	clear:both;
+	display:block;
+	font-weight:bold;
+	margin:0 2px 0 0;
+	padding:2px 1em 0.3em 0;
+	text-align:right;
+	text-decoration:none;
+}
+
+#content .arrow a {
+	position:relative;
+	background:transparent url('../../images/btn_dblArrows.gif') right 0.55em no-repeat;
+	display:block;
+	font-weight:bold;
+	margin:0;
+	padding:3px 1em 3px 0;
+	text-align:left;
+	text-decoration:none;
+	width:auto;
+	clear:both;
+}
+
+#content .lastChild {
+	border-bottom:none;
+	margin-bottom:0;
+}
+
+.roundem {
+	background-color:#eef7e3/* #f6faec */;
+	margin:1em 0 0;
+	-webkit-border-radius:8px;
+	   -moz-border-radius:8px;
+		border-radius:8px;
+	padding:5px;
+}
+
+.roundem .inner {
+	padding:5px;
+	overflow:hidden;
+}
+.roundem p:last-child {
+	margin-bottom:0;
+	border-bottom:none;
+	padding-bottom: 0 !important;
+}
+.roundem.top-blocks {
+	background-color:#eef7e3;
+	border:none;
+}
+.roundem.top-blocks .inner {
+	margin:3px 0;
+	padding:0;
+}
+.roundem.top-blocks .inner a {margin:0 auto;}
+.roundem.top-blocks .inner .wraps > *,
+.roundem.top-blocks .inner .wraps .grid,
+.roundem.top-blocks .inner .wraps .group {margin-left:5px; margin-right:5px;}
+.roundem.top-blocks .inner > h3 {margin-left:5px !important; margin-right:5px !important;}
+
+.roundem.email {background-color:#fefbe9;}
+
+#content-secondary .roundem {
+	border:0 none;
+	margin:1rem 1rem 0 0;
+	position:relative;
+	width:auto;
+}
+
+#content-secondary .roundem .email form,
+#content-secondary .roundem .email fieldset {
+	border:0 none;
+	margin:0;
+	padding:0;
+}
+
+/** T */	.module .inner form + p {margin-top: 1em;}
+
+.rounders {
+	position:relative;
+	z-index:1;
+	margin-left:12px; /** = default, width of left corner = */
+	/** margin-bottom:10px; = spacing under rounders = */
+}
+
+.main-inner .rounders {
+	margin-left:22px;
+}
+.main-inner div > .rounders {
+	margin-left:12px;
+}
+:root * > .main-inner .rounders {
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.module.rounders { /* [disabled]margin-bottom:10px; */ }
+
+.rounders .inner,
+.rounders .t,
+.rounders .b,
+.rounders .b div {background:transparent url('https://www.cdc.gov/TemplatePackage/images/bg_twoBlocksGreen.gif') top right no-repeat;}
+
+#content-secondary #news-events .inner,
+#content-secondary #news-events .t,
+#content-secondary #news-events .b,
+#content-secondary #news-events .b div {background-image:url('https://www.cdc.gov/TemplatePackage/images/bg_twoBlocksGreen.gif');}
+
+#content #content-secondary #news-events.rounders h3 {color:#0c5307;}
+
+.rounders.top-blocks .inner,
+.rounders.top-blocks .t,
+.rounders.top-blocks .b,
+.rounders.top-blocks .b div {background-image:url('https://www.cdc.gov/TemplatePackage/images/bg_twoBlocksGreen.gif');}
+
+.rounders.grey .inner,
+.rounders.grey .t,
+.rounders.grey .b,
+.rounders.grey .b div {background-image:url('https://www.cdc.gov/TemplatePackage/images/bg_greyStroke.gif');}
+:root * > .rounders.grey .inner,
+:root * > .rounders.grey .t,
+:root * > .rounders.grey .b,
+:root * > .rounders.grey .b div {background-image:none;}
+
+.rounders.gold .inner,
+.rounders.gold .t,
+.rounders.gold .b,
+.rounders.gold .b div {background-image:url('https://www.cdc.gov/TemplatePackage/images/bg_roundersGold.gif');}
+
+.rounders.email .inner,
+.rounders.email .t,
+.rounders.email .b,
+.rounders.email .b div,
+#nav-container .rounders .inner,
+#nav-container .rounders .t,
+#nav-container .rounders .b,
+#nav-container .rounders .b div {background-image:url('https://www.cdc.gov/TemplatePackage/images/bg_emailUpdates.gif');}
+
+.rounders .inner {
+	position:relative;
+	margin:0;
+	padding:12px 12px 0 0;
+}
+:root * > .rounders .inner
+:root * > .rounders .t,
+:root * > .rounders .b,
+:root * > .rounders .b div {background-image:none;}
+
+:root * > .rounders .t,
+:root * > .rounders .b,
+:root * > .rounders .b div {display:none;}
+
+.rounders .t {
+	/** = top+left vertical slice = */
+	position:absolute;
+	left:0;
+	top:0;
+	width:12px; /** = top slice width = */
+	margin-left:-12px;
+	height:100%;
+	background-position:top left;
+	z-index:-10;
+}
+
+.rounders .b {
+	/** = bottom = */
+	position:relative;
+	width:100%;
+}
+
+.rounders .b,
+.rounders .b div {
+	background-color:transparent;
+	height:12px; /** = height of bottom cap/shade = */
+	font-size:1px;
+}
+
+.rounders .b {
+	background-position:bottom right;
+	background-color:transparent;
+}
+
+.rounders .b div {
+	position:relative;
+	width:12px; /** = bottom corner width = */
+	margin-left:-12px;
+	background-position:bottom left;
+}
+
+.rounders .hd,
+.rounders .bd,
+.rounders .ft,
+.multiPage-horiz .hd,
+.multiPage-horiz .bd,
+.multiPage-horiz .ft {position:relative;}
+
+.rounders .bd span,
+.roundem .bd span{display:block; margin-top:1em; padding-bottom:0.25em;}
+
+.rounders .wraps{
+	/** = extra rounders-inner protector - preventing vertical overflow (past background) = */
+	position:static;
+	max-height:1600px;
+	overflow:hidden; /** = note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. = */
+}
+
+div[class*="rounde"] h1,
+div[class*="rounde"] h4,
+div[class*="rounde"] h5,
+div[class*='rounde'] ul,
+div[class*='rounde'] ol {
+	position:relative;
+	margin:0; /** = margins will blow out backgrounds, leaving whitespace. = */
+	padding:0;
+}
+
+div[class*="rounde"] ol {padding:0;}
+.module.numbered-list ol li,
+div[class*="rounde"] ol li {
+	margin-left:2em;
+	border:none;
+	background:transparent;
+	list-style:decimal outside;
+}
+.rounders.grey li, 
+.module.rounders.grey li {border-top:1px solid #f6f6f6;}
+
+.module li:first-child,
+.rounders li:first-child,
+.rounders.grey li:first-child, 
+.module.rounders.grey li:first-child {border-top:none;}
+
+.module ol li.mySelection,
+.module ul li.mySelection,
+.rounders ol li.mySelection,
+.rounders ul li.mySelection,
+#multiPage ol li.mySelection {
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.rounders p {
+	position:relative;
+	margin:0 0 0.5em;
+	padding:0.5em 0 0;
+}
+.rounders p.lastChild, 
+.rounders p:last-child {
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+.rounders p.somemore { /** = margins will blow out backgrounds, leaving whitespace. = */
+	margin-bottom:-4px;
+	padding:0.5em 0 0.25em;
+}
+
+.rounders h3 {padding-bottom:0;}
+
+.rounders div img, .rounders div figure, 
+.roundem .inner img, .roundem .inner figure {
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	padding:3px;
+}
+
+#content-main a span.plugIns {display:inline-block;}
+
+#content a.external span.tp-label,
+#content a.noDecoration span.tp-label,
+#content .pageOptions-inner a.noDecoration:hover span.tp-label,
+#content div.cdc-caption .cdc-caption-text a.external span.tp-label,
+#content .cdc-tabs p a,
+#content .accordion p a {
+	text-decoration:underline;
+	display:inline;
+}
+
+#content .external img.externalImg,
+#content a .plugIns,
+#content a:hover span.plugIns,
+#content .module .external span.tp-label,
+#content .module .noDecoration span.tp-label,
+#content .relatedMaterial li .external span.tp-label,
+#content .relatedMaterial li .noDecoration span.tp-label,
+#content .rounders li .noDecoration,
+#content .rounders li .noDecoration:hover,
+#content .rounders li .noDecoration span.tp-label,
+#content .rounders li .external span.tp-label,
+#content ul li .external span.tp-label,
+#content ul li .external + .external:hover,
+#content ul li a.noDecoration span.tp-label,
+#content ul li a.noDecoration:hover,
+#content .relatedMaterial li a,
+#content .main-inner ul li a,
+#content .pageOptions-inner .noDecoration,
+#content .pageOptions-inner .noDecoration span.tp-label,
+#content .noDecoration:hover .tp-label,
+#content div.cdc-caption .cdc-caption-text .external:hover span.tp-label {text-decoration:none;}
+
+#content ul li a:hover,
+#content ul li a:hover span.tp-label,
+#content ul li .noDecoration:hover span.tp-label,
+#content .main-inner ul li a:hover,
+#content .module a:hover span.tp-label,
+#content div.module a[class]:hover span.tp-label,
+#content .relatedMaterial li a:hover,
+#content .relatedMaterial li a:hover span.tp-label,
+#content .rounders li a:hover span.tp-label {text-decoration:underline;}
+
+#content a .plugIns,
+#content .module a .plugIns,
+#content .relatedMaterial li .plugIns,
+#content .rounders li a .plugIns {
+	color:gray;
+	font-size:90%;
+}
+
+#content a:hover span.plugIns,
+#content a:hover span.tp-label {
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.email .inner img{margin:0 auto;}
+.rounders.email .inner a {display:block;}
+
+.inner p a {color:#0a29a5;}
+.inner p a:hover {text-decoration:underline;}
+
+.relatedMaterial.roundem {
+	border:1px solid #cecece;
+	background-color:#f6f6f6;
+}
+#onthispage, #onthispage2 {
+	float:right;
+	margin:0 10px;
+	padding:0;
+}
+#onthispage {width:33.33%;}
+
+div[id*='onthispage']:first-child {
+	margin-left:0 !important;
+	padding-left:10px !important;
+}
+
+#onthispage2 {width: 66.66% !important;}
+
+div[id*='onthispage'] > .roundem {border:1px solid #cdcdcd;}
+
+.subColumns #onthispage {margin:0;}
+
+[id*='multiPage'].roundem,
+.multiPage {
+	float:right;
+	position:relative;
+	margin-left:0.5em;
+	border:1px solid #cdcdcd;
+	padding:0;
+	width:45%;
+}
+
+#content-main .multiPage-horiz h4,
+#content-main .multiPage-horiz h5 { position:relative;
+	margin:0 auto;
+	border-bottom:1px solid #cdcdcd;
+	padding:4px 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1em;
+	text-align:center;
+	width:auto;
+}
+#multiPage .inner {
+	margin: 0;
+	padding: 5px;
+	width: auto;
+}
+#multiPage ol/*, .multiPage ol*/ {
+	padding:0/* 0 0 1em*/;
+	list-style:decimal;
+}
+#multiPage ol li {
+	display:list-item;
+	border-bottom:none;
+	padding:0;
+	list-style:decimal;
+	vertical-align:middle;
+}
+
+#content #multiPage ol li a {padding:3px 0;}
+
+.numbLinks li {color:#0a29a5;}
+.numbLinks li a {
+	display:block;
+	padding:3px 0;
+	z-index:10;
+}
+
+[id*="onthispage"] .bulleted-links li {
+	list-style:none;
+	overflow:hidden;
+}
+
+:root * > .page-curl > div,
+:root * > .double-rule > div,
+:root * > .noBorder > div {
+	background-color:#fff;
+	overflow:hidden;
+}
+
+:root * > .module .inner .subc {overflow:hidden;}
+
+.module .inner > .subc,
+.module .inner .subColumns .subc {margin:0 5px 0;}
+
+.module .inner .subc h5 {margin-top:0.5em;}
+
+.module.multiPage-horiz.border { /* = this is affecting IE6 it is inheriting the border = */
+	display:block;
+	float:none;
+	position:relative;
+	margin-bottom:1em;
+	border:1px solid #cdcdcd;
+	padding:0;
+	width:auto;
+	overflow:auto;
+}
+.multiPage-horiz {
+	position:relative;
+	width:auto;
+}
+
+.roundem.multiPage-horiz {
+	background-color: #f6f6f6;
+	border: 1px solid #cdcdcd;
+}
+.roundem.multiPage-horiz .inner a {display:inline;}
+
+#content-main .multiPage-horiz h4,
+#content-main .multiPage-horiz h5,
+#content-main .multiPage h5 {
+	display:block;
+	position:relative;
+	margin:0 auto;
+	font-size:1em;
+	font-weight:normal;
+	min-width:100%;
+	text-align:center;
+	overflow:hidden;
+}
+#content-main .multiPage-horiz h5 {border-bottom:none;}
+#content-main .multiPage-horiz h4 {
+	border-bottom:1px dashed #cdcdcd;
+	position:relative;
+	text-align:right;
+	margin:0;
+}
+.module.multiPage-horiz h4 span,
+.multiPage-horiz h4 span {
+	display:inline;
+	float:left;
+	text-align:left;
+	width:50%;
+}
+.multiPage-horiz h4 span.nextLink {
+	display:inline;
+	float:right;
+	text-align:right;
+	width:50%;
+}
+.module.multiPage-horiz h4 span a,
+.multiPage-horiz h4 span a {
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/arrow-blue-lt.png') 0 center no-repeat;
+	padding:0 0 0 1em;
+	text-align:left;
+}
+.multiPage-horiz h4 span.nextLink a {
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/arrow-blue-rt.png') right center no-repeat;
+	padding:0 1em 0 0;
+	float:none;
+}
+
+.module.multiPage-horiz.border .inner {
+	position:relative;
+	text-align:center;
+	margin-bottom:1em;
+	padding:0 12px;
+}
+.rounders.multiPage-horiz .inner,
+.roundem.multiPage-horiz .inner {
+	text-align:center;
+	margin-bottom:auto;
+}
+.multiPage-horiz ol { display:block;
+	position:relative;
+	margin:0.5em auto 0;
+	padding:0;
+	list-style:none;
+	width:auto;
+	text-align:center;
+}
+.multiPage-horiz ol li {
+	display:inline;
+	float:none;
+	margin:0 auto;
+	border:none;
+	padding:0;
+	width:12px;
+	text-align:center;
+}
+#content-main .multiPage-horiz ol li a {
+	display:inline;
+	float:none;
+	margin:0 auto;
+	padding:4px
+}
+
+/**
+ * = Blog Module Rules ===========================
+ */
+
+ /** 
+ * = new row type module ====================
+ */
+.module noBorder.rowBlock {margin-bottom:1em;}
+
+.rowBlock .twoColumn,
+.rowBlock .twoColumns {
+	background:transparent url(https://www.cdc.gov/TemplatePackage/images/modules/bg_rowBlock_dashed.jpg) center bottom repeat-x;
+	margin:0 3px;
+	padding:0 0 1px;
+}
+*:first-child+html .rowBlock .twoColumn,
+*:first-child+html .rowBlock .twoColumns {width:100%;}
+
+.rowBlock .twoColumn:last-child, .rowBlock .twoColumn.lastChild,
+.rowBlock .twoColumns:last-child, .rowBlock .twoColumns.lastChild {background-image:none;}
+
+.module.rowBlock .subc {padding:0;}
+.rowBlock .inner .twoColumn .subc,
+.rowBlock .inner .twoColumns .subc {padding:0;}
+
+.module.noBorder.rowBlock .inner .subc,
+.noBorder .inner .twoColumn .subc,
+.noBorder .inner .twoColumns .subc {padding:0 3px;}
+
+.module.rowBlock .subc:first-child {margin:0.5em 0 0;}
+
+.rowBlock p {
+	float:left;
+	margin:0 0.75%;
+	padding-bottom:0.5em;
+	width:48%;
+	min-width:48%;
+}
+
+.rowBlock p:first-child {
+	margin-left:0;
+	padding-right:0.25%;
+	width:49%;
+	min-width:49%;
+}
+.rowBlock p + p {
+	margin-right:0;
+	/*padding-left:0.25%;*/
+	width:49%;
+	min-width:49%;
+}
+
+.rowBlock p img {
+	float:left;
+	margin:3px 5px 0 0;
+	vertical-align:text-top;
+}
+
+.rowBlock p a {display:block;}
+
+/**
+ *================================================
+ * = Modules for content-secodary Right Rail
+ */
+
+#content-secondary .module {margin-right:12px;}
+
+#content-secondary .related {
+	background:transparent url('../../images/bgRelatedLinks.png') 0 0 no-repeat;
+	margin:12px 0;
+	position:relative;
+	width:169px;
+}
+
+:root * > #content-secondary .related,
+:root * > #content-secondary .related .bot {background-image:none;}
+
+/**
+ * = MODULES TAKEN FROM THEME-BLUEHOME.CSS =======
+ */
+#topList {
+	clear:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	width:100%;
+}
+#topList h3 {
+	color:#09316c;
+	font-size:1.4em;
+	margin:0 0 5px 0;
+	padding:0;
+	width:100%;
+}
+.listScroll {
+	height:115px;
+	width:98%;
+	background-color:#fff;
+	border:1px solid #000;
+	margin-bottom:10px;
+	font-size:0.95em;
+	overflow:auto;
+}
+ul.noBullet li {
+	background-color:#fff;
+	background-image:none;
+	display:block;
+	margin:0;
+	padding:5px;
+	list-style:none;
+	width:auto;
+	border-bottom:1px dotted #cdcdcd;
+}
+
+/**
+ * = HTML5 tags =======
+ */
+header, section, footer, aside, nav, article, figure {display:block;}
+
+/** 
+ * = New modules in development below =======
+ */
+.relatedMaterial.rounders li a, .relatedMaterial.roundem li a {
+	display:inline-block;
+	padding:0;
+}
+
+.relatedMaterial ul {padding:0;}
+
+.relatedMaterial li {
+	background:transparent url('https://www.cdc.gov/TemplatePackage/images/blue_bullet.png') 0.25em 0.65em no-repeat;
+	clear:both;
+	display:list-item;
+	list-style:none;
+	margin-left:0;
+	padding:0px 0 0px 1.25em;
+}
+
+.relatedMaterial.roundem {
+	background-color:#f6f6f6;
+	border:1px solid #cecece;
+	border-radius:10px;
+}
+div .grey {background-color:#f6f6f6 !important;}
+
+/*.azMenuList {display:none;}
+.homepage .azMenuList, .topicHome .azMenuList {display:block;}*/
+
+.rounders.azMenuList .inner, .rounders.azMenuList .t, .rounders.azMenuList .b, .rounders.azMenuList .b div {background-image:url('https://www.cdc.gov/TemplatePackage/images/bg_accent.gif');}
+.rounders.azMenuList .inner {padding:6px 12px 0 0;}
+.rounders.azMenuList .b {
+	background-color:transparent;
+	background-position:right bottom;
+	margin-top:-4px;
+	z-index:-10;
+}
+ 
+.module .groupBlock.btmDots {border-bottom:1px dotted #cdcdcd;}
+
+.twoColumn .subTwoCl, .twoColumns .subTwoCl {padding:0 0.5em 0 0;}
+.twoColumn .subTwoCr, .twoColumns .subTwoCr {padding:0 0 0 0.5em;}
+
+.twoColumn img.lefty, .twoColumn figure.lefty,
+.twoColumns img.lefty, .twoColumns figure.lefty {
+	float:left; 
+	margin:2px 10px 0 0; 
+}
+.twoColumn img.righty, .twoColumn figure.righty,
+.twoColumns img.righty, .twoColumns figure.righty {
+	float:right; 
+	margin:2px 0 0 10px; 
+}
+
+.module .one {padding-bottom:10px;}
+
+/** = Social Media module = */
+#socialMediaFeeds:after {content:"."; display:block; font-size:0; height:0; clear:left; visibility:hidden;}
+
+/*======= Social Media Module styles =======*/
+.cdc-mod {margin-top:10px;}
+.cdc-mod:first-child {margin-top:0;}
+
+.cdc-socialMedia {background-color:transparent;}
+.cdc-socialMedia #socialMediaFeeds {
+	background-color:#fff;
+	margin:0 10px;
+	border-top:1px dotted #000;
+	padding-top:10px;
+	padding-top:2rem;
+}
+
+.cdc-socialMedia #socialMediaFeeds h4,
+footer h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+}
+.cdc-socialMedia #socialMediaFeeds div h4 {
+	margin-top:0;
+	line-height:30px;
+}
+
+#tweet, #facebook {
+	background-color:#fff;
+	color:#000;
+	float:none;
+	margin:0 auto;
+	
+	width:94%
+}
+/*
+aside .socialMedia #socialMediaFeeds #tweet,
+aside .socialMedia #socialMediaFeeds #facebook {
+background-color:#ebf2f9;
+display:inline-block;
+float:none;
+margin:0 auto 2em;
+width:94%; }
+ */
+
+.socl-avatar {
+	float:left;
+	display:none;
+}
+.socl-user {
+	background-color:#e3edf6;
+	display:block;
+	margin-top:10px;
+	margin-top:1rem;
+	line-height:20px;
+	/* [disabled]margin-bottom:10px; */
+	text-decoration:none;
+	text-indent:3px;
+}
+.socl-comment-text .socl-user:nth-child(3) {margin-top:0;}
+
+.cdc-socialMedia {
+	background:transparent;
+	border:1px solid #ddd;
+	padding:0;
+}
+.cdc-socialMedia #socialMediaFeeds {
+	background-color:#ebf2f9;
+	margin:0 auto;
+	border:3px solid #fff;
+	padding-bottom:5px;
+	padding:0 0 0.5rem;
+}
+
+.cdc-socialMedia #socialMediaFeeds #tweet,
+.cdc-socialMedia #socialMediaFeeds #facebook {
+	background-color:#ebf2f9;
+	float:none;
+	margin-right:auto;
+	margin-left:auto;
+	width:97%;
+}
+.cdc-socialMedia #socialMediaFeeds > div {
+	margin-top:10px;
+	margin-top:1rem;
+}
+.cdc-socialMedia #socialMediaFeeds > div:first-child {margin-top:0.5rem;}
+
+.cdc-socialMedia #socialMediaFeedsFeeds div h4 {margin-top:0; margin-bottom:2px; line-height:30px; }
+
+#tweet h4 {background:transparent url(https://www.cdc.gov/TemplatePackage/images/icons/icon_lg-twitter.png) 0 0 no-repeat;}
+#facebook h4 {background:transparent url(https://www.cdc.gov/TemplatePackage/images/icons/icon_lg-facebook.png) -12px 0 no-repeat;}
+
+.cdc-socialMedia #tweet h4 a:hover,
+.cdc-socialMedia #facebook h4 a:hover {text-decoration:underline;}
+
+
+.cdc-socialMedia #tweet h4 a,
+.cdc-socialMedia #facebook h4 a {
+	color:#000;
+	display:block;
+	padding-left:2.5em;
+	text-decoration:none;
+}
+
+.js .cdc-socialMedia #socialMediaFeeds #tweet .socl-loader-graphic,
+.js .cdc-socialMedia #socialMediaFeeds #facebook .socl-loader-graphic {
+	background:url(https://www.cdc.gov/TemplatePackage/images/social_media_loader.gif) 50% 50% no-repeat;
+	display:block;
+	width:100%;
+	height:30px;
+	margin:5px auto;
+}
+.cdc-socialMedia #socialMediaFeeds .socl-user:hover {text-decoration:underline;}
+.cdc-socialMedia #socialMediaFeeds .socl-user {text-decoration:none;}
+
+.cdc-socialMedia #socialMediaFeeds #tweet .socl-user,
+.cdc-socialMedia #socialMediaFeeds #facebook .socl-user {background-color:#d1e2f0;}
+
+#tweet .socl-comment-text p, 
+#facebook .socl-comment-text p,
+#tweet .socl-comment-text a.failover,
+#facebook .socl-comment-text a.failover { display: none; }
+
+.cdc-socialMedia .feed-item {
+	margin:10px 3px 0;
+	margin:1rem 0.3rem 0;
+}
+.cdc-socialMedia .feed-item:first-child {margin-top:0;}
+
+/** = Future development for standard grid = */
+
+	.relatedMaterial {float:none; clear:left;}
+		:root * > .relatedMaterial {
+			margin-left:10px;
+			border:1px solid #cecece;
+			padding-left:12px;
+			border-radius:8px;
+		}
+		
+			.cdc-left {float:left; margin-right:10px;}
+			.cdc-right {float:right; margin-left:10px;}
+			
+			.oneZ {width:100px;}
+			.twoZ {width:200px;}
+			.threeZ {width:300px;}
+			.fourZ {width:400px;}
+			.fiveZ {width:500px;}
+			
+						.main-inner .cdc-caption.c25r, .main-inner img.pic.c25r {float:right; margin:0 0 0 1%; width:24%}
+						
+						.main-inner .cdc-caption.c25r .subc, .main-inner .cdc-caption.c25r .subc {margin:0;}
+						
+						.main-inner div.cdc-caption img, .module .inner img {max-width:100%;}
+						.main-inner div.cdc-caption img.externalImg, .main-inner div.cdc-caption img.plugin {width:auto;}
+			
+			div.oneZ img.pic, div.oneZ a {width:92px;}
+			div.twoZ img.pic, div.twoZ a {width:192px;}
+			div.threeZ img.pic, div.threeZ a {width:292px;}
+			div.fourZ img.pic, div.fourZ a {width:392px;}
+			div.fiveZ img.pic, div.fiveZ a {width:498px;}
+			
+			div.oneZ img.stroke, div.oneZ img.frame {margin:0 auto; width:84px !important;}
+			div.twoZ img.stroke, div.twoZ img.frame {margin:0 auto; width:184px !important;}
+			div.threeZ img.stroke, div.threeZ img.frame {margin:0 auto; width:284px !important;}
+			div.fourZ img.stroke, div.fourZ img.frame {margin:0 auto; width:384px !important;}
+			div.fiveZ img.stroke, div.fiveZ img.frame {margin:0 auto; width:484px !important;}
+			
+			.cdc-caption .frame, .frame {border:1px solid /*#ddd*/#b5ce9e;}
+			img.frame { border-width: 3px; }
+			
+			/*.pic.frame {margin-top:0.25em; padding:3px; width:95%;}*/
+
+			#content .module li span.cdc-decorated,
+			#content .rounders li span.cdc-decorated { display:block; }
+			
+			#wrapper #content .top-blocks dl span.cdc-decorated a,
+			div.cdc-caption span.cdc-decorated img, div.cdc-noCaption span.cdc-decorated img,
+			.rounders div span.cdc-decorated img, .roundem .inner span.cdc-decorated img,
+			#content .module li span.cdc-decorated a,
+			#content .rounders li span.cdc-decorated a { display: inline; }
+			
+			#wrapper #content .module span.cdc-decorated a.external:hover,
+			#wrapper #content .rounders span.cdc-decorated a.external:hover,
+			#content .module li span.cdc-decorated:hover a,
+			#content .rounders li span.cdc-decorated:hover a,
+			#wrapper #content .top-blocks dl:hover span.tp-label { text-decoration:underline; }
+			
+			
+			.clearLine {
+				position:relative;
+				top:-7px;
+				border-top: 1px dotted #999;
+				height:1px;
+				font-size:1px;
+			}
+			
+			.clearLine span { 
+				background-color:#fff; 
+				display:block; 
+				font-size:1px; 
+				top:-2px; 
+				left:49%; 
+				position:relative; 
+				height:3px; 
+				width:10px; 
+			}
+			/* temp for test	 
+				.module .twoColumn .c50l p { background-color:teal; }
+				.module .twoColumn .c50r p { background-color:orange; }
+			
+			.cdc-rows-columns .c50r:after {
+				content: "<div class='clearLine'><span>&nbsp;</span></div>";
+			}
+			*/
+html.enhanced body { visibility: visible; }
+/** = end development = */

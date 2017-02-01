@@ -1,0 +1,373 @@
+@charset "utf-8";
+/* =================================================
+	GLOBAL SYTLESHEET FOR NCEZID SITES
+	This global stylesheet is intended to share commonly used CSS identifiers
+	with other sites across the national center.
+	
+	Written by Marc F Ferguon
+	Version: 0.0.16
+	=================================================	*/
+
+/*	=================================================
+	GENERAL IDENTIFIERS
+	=================================================	*/
+/*	-------------------------------------------------------------
+	CLASS SPECIFIC
+	-------------------------------------------------------------	*/
+.cdc-caption-credit
+{
+	display: block;
+	font-size: 0.7em !important;
+	min-height: 1.5em;
+    padding: 0.25em 4px;
+    text-align: left;
+    text-transform: none;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.center {
+	text-align: center;
+}
+
+.clearBoth {
+	clear: both;	
+}
+
+.clearLeft {
+	clear: left;	
+}
+
+.clearRight {
+	clear: right;	
+}
+
+.dtstamp { /* date stamp for a module */
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.faqQuestion {
+	border-top: 1px solid #CCCCCC;
+	margin: 20px 10px 20px 0;
+	padding-top: 10px;
+	clear: none;
+}
+
+.figureWithCaptionLeft {
+	margin: 0 5px 5px 0;
+}
+
+.figureWithCaptionRight {
+	margin: 0 0 5px 5px;
+}
+
+.highlightedForReview {
+	background-color: #FFFFCC;
+}
+
+.imageWithCaption {
+	margin: 0 10px 10px 10px;
+}
+
+.imageWithCaption p {
+	font-size: 0.9em;
+	color: #666;
+}
+
+.marginTop10 {
+	margin-top: 10px !Important;
+}
+
+.marginTop20 {
+	margin-top: 20px !Important;
+}
+
+.marginTopNeg40 {
+	margin-top: -40px !Important;
+}
+
+.noWrap {
+	white-space: nowrap;
+}
+
+.spacingBottom {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.spacingTop {
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.topPage {
+	background: transparent url(https://www.cdc.gov/TemplatePackage/images/az/img_topPage.gif) no-repeat right 1.45em;
+	float: right;
+	padding: 1.5em 1.5em 1.5em 0;
+}
+
+.underlineLink a {
+	text-decoration: underline !important;
+}
+
+.underlineLink a:hover {
+	text-decoration: none !important;
+}
+
+.width200pxFloatRight {
+	width: 200px;
+	float: right;
+}
+
+.width300px {
+	width: 300px;
+}
+
+a em.italic_header 
+
+{
+
+font-style: italic;
+margin-top: 0pt;
+margin-right: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+position: relative;
+}
+
+/*	-------------------------------------------------------------
+	MODULE SPECIFIC
+	-------------------------------------------------------------	*/
+div.azBlock {
+	width: 260px;
+	float: right;
+	margin: 10px;
+}
+
+div.inlineLinks a {	/* forces text to wrap next to anchors */
+	display: inline !important;
+}
+
+div.noDecoration img.externalImg {
+	display: none !important;
+}
+
+
+/*	-------------------------------------------------------------
+	TAG SPECIFIC
+	-------------------------------------------------------------	*/
+span.newLink {	/* text representing the link to be a new addition to the web page */
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #F00;
+}
+
+table.verticalAlignTop td {
+	vertical-align: top;
+}
+
+table.verticalAlignTop th {
+	vertical-align: top;
+}
+
+ul.check-mark li {
+	background: url(https://www.cdc.gov/ncezid/images/icons/check-mark_10px.png) no-repeat scroll 0.2em 0.45em transparent;
+}
+
+ul.x-mark li {
+	background: url(https://www.cdc.gov/ncezid/images/icons/x-mark_10px.png) no-repeat scroll 0.2em 0.45em transparent;
+}
+
+
+/*	-------------------------------------------------------------------------
+	TABLE: BLUE (VERTICAL)
+	This set of identifiers will colorize the table to match the blue template
+	-------------------------------------------------------------------------	*/
+table.blueSchemeVertical {
+	border: 1px solid #C1DED5;
+	border-bottom: 3px solid #084239;
+}
+
+table.blueSchemeVertical tbody td, table.blueSchemeVertical tbody th {
+	background-color: #FFFDF7;
+	border: 1px solid #DEEEE9;
+	padding: 5px;
+}
+
+table.blueSchemeVertical tbody tr.center th, table.blueSchemeVertical tbody tr.center td  {
+	text-align: center;
+}
+
+table.blueSchemeVertical tbody th.left, table.blueSchemeVertical tbody td.left {
+	text-align: left !important;
+}
+
+ table.blueSchemeVertical tbody th {
+	 font-weight: normal;
+	 text-align: left;
+}
+ 
+table.blueSchemeVertical tbody td ul {
+	margin: 1px;
+	padding: 1px;
+}
+
+table.blueSchemeVertical thead th {
+	background-color: #084239;
+	color: #FFF;
+	border: 1px solid #C1DED5;
+	border-bottom: 3px solid #C1D5B0;
+	border-right: 1px solid #084239;
+	border-left: 1px solid #084239;
+	padding: 1em;
+}
+
+/*	-------------------------------------------------------------------------
+	TABLE: GREEN (HORIZONTAL)
+	This set of identifiers will colorize the table to match the green template
+	-------------------------------------------------------------------------	*/
+table.greenSchemeHorizontal {
+	border: 1px solid #467F3F;
+	border-right: 3px solid #467F3F;
+}
+
+table.greenSchemeHorizontal tbody td {
+	background-color: #FFFDF7;
+	border: 1px solid #467F3F;
+	padding: 5px;
+}
+
+table.greenSchemeHorizontal td ul {
+	margin: 1px;
+	padding: 1px;
+}
+
+table.greenSchemeHorizontal th {
+	background-color: #467F3F;
+	color: #FFF;
+	border: 1px solid #467F3F;
+	border-right: 3px solid #C1D5B0;
+	border-bottom: 1px solid #C1D5B0;
+	border-top: 1px solid #C1D5B0;
+	padding: 1em;
+}
+
+
+/*	-------------------------------------------------------------------------
+	TABLE: GREEN (VERTICAL)
+	This set of identifiers will colorize the table to match the green template
+	-------------------------------------------------------------------------	*/
+table.greenSchemeVertical {
+	border: 1px solid #467F3F;
+	border-bottom: 3px solid #467F3F;
+}
+
+table.greenSchemeVertical th {
+	background-color: #467F3F;
+	color: #FFF;
+	border: 1px solid #467F3F;
+	border-bottom: 3px solid #C1D5B0;
+	border-right: 1px solid #C1D5B0;
+	border-left: 1px solid #C1D5B0;
+	padding: 1em;
+}
+
+table.greenSchemeVertical tbody td, table.greenSchemeVertical tbody th {
+	background-color: #FFFDF7;
+	border: 1px solid #467F3F;
+	padding: 5px;
+	vertical-align: top;
+}
+
+table.greenSchemeVertical tbody th {
+	 font-weight: normal;
+	 text-align: left;
+}
+
+table.greenSchemeVertical tbody tr.center th, table.greenSchemeVertical tbody tr.center td  {
+	text-align: center;
+}
+
+table.greenSchemeVertical tbody th.left, table.greenSchemeVertical tbody td.left {
+	text-align: left !important;
+}
+
+table.greenSchemeVertical td ul {
+	margin: 1px;
+	padding: 1px;
+}
+
+table.centerData {
+	text-align: center;
+}
+
+
+/*	-------------------------------------------------------------------------
+	BACK TO TOP (Image)
+	These set of identifiers are outdated. The template supports this feature.
+	-------------------------------------------------------------------------	*/
+div.backToTop {
+        width: 100%;
+        height: 15px;
+        text-align: right;
+        background-image: url(https://www.cdc.gov/ncezid/images/icon_top.gif);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin: 0 0 10px 0;
+}
+div.backToTop a {
+        width: 100%;
+        height: 15px;
+        text-decoration: none;
+        display: inline-block;
+}
+div.backToTop a span {
+        display: none;
+}
+#content .module li a, #content .rounders li a.module-links
+{
+	display:inline !important;
+	/*text-decoration:underline;*/
+}
+	
+#content .module li a, #content .rounders li a:hover
+{
+	text-decoration:none;}
+	#content #content-inner #content-main .main-inner ul li a, #content .main-inner ul li a.module-links
+{
+	display:inline !important;
+	text-decoration:underline !important;
+}
+.cdc-decorated
+{
+	display:inline !important;
+	/*text-decoration:underline !important;*/
+}
+
+	
+#content #content-inner #content-main .main-inner ul li a:hover
+{
+	text-decoration:none !important;
+}
+
+#content #content-inner #content-main .main-inner ul li a {
+    text-decoration: none;
+}
+
+#content #content-inner #content-main .main-inner ul li a:hover, .main-inner ul li a:hover .external, #content a:hover span.tp-label, #content ul li a:hover, #content ul li a:hover span.tp-label, #content ul li a.noDecoration:hover span.tp-label, #content .module a:hover span.tp-label, #content .relatedMaterial li a:hover span.tp-label, #content .rounders li a:hover span.tp-label, #content .rounders li a:hover span.plugIns {
+    text-decoration: none;
+}
+
+#content #content-inner #content-main .main-inner ul li a span.tp-label {
+    text-decoration: underline;
+}
+
+#content #content-inner #content-main .main-inner ul li a:hover span.tp-label {
+    text-decoration: none;
+}
+
+#content #content-inner #content-main .main-inner ul li a.external img {
+    text-decoration: none;
+}

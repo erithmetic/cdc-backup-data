@@ -1,0 +1,353 @@
+@charset "UTF-8";
+/**
+ * CDC - (X)HTML/CSS Framework
+ *
+ * @package         TemplatePackage 'B'
+ * @version         2.8.2
+ * @builddate       2016-12-13
+ */
+
+html, body {
+	background: #fff !important;
+	color: #000 !important;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff !important;
+	color: #000 !important;
+	float: none !important;
+	margin: 0.25px !important;
+	padding: 0 !important;
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+}
+
+body #wrapper {width:auto !important; background:none; position:relative;}
+
+body div#wrapper .top {display:none !important; background-image:none;}
+
+#content h2, #content h3, #content h4, #content h5{
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:black !important;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+	letter-spacing:1px !important;
+}
+body h1 {
+	clear:both;
+	display:block;
+	margin-bottom:10px !important;
+	border-top:1px dotted black !important;
+	border-bottom:1px dotted black !important;
+	padding:8px !important;
+	font:18pt Georgia,"Times New Roman", Times,serif !important;
+	color:black !important;
+	letter-spacing:1px !important;
+	text-align:center;
+}
+
+body#index h1 {clear:both;}
+
+h2 {font-size:16pt; font-weight:normal;}
+h3 {font-size:15pt; font-weight:normal;}
+h4 {font-size:14pt; font-weight:normal;}
+h5 {font-size:12pt; font-weight:normal;}
+
+#content {
+	overflow:visible;
+	margin-bottom:12px;
+}
+
+#content-inner, .main-inner, #bottom-container, #content-main {
+	clear:both;
+	float:none;
+	position:relative;
+}
+
+#branding {
+	height:auto !important;
+	clear:both;
+}
+
+div#branding-logo {width:100%;}
+
+body.secondTier div#branding div#branding-logoImage span {
+	display:none;
+	float:none;
+	font-size:18px;
+	text-align:center;
+	width:auto;
+}
+
+div#branding div#branding-logoImage {
+	display:block;
+	width:auto;
+}
+
+#datestamp {font-size:11px}
+
+img {border:none;}
+/* testing for fixes/bugs */
+img { page-break-inside: avoid; }
+img { max-width: 100% !important; }
+
+a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+/* end testing */
+p {
+	margin:0 0 12px;
+	text-align:left;
+}
+
+.top-blocks .grid {display:inline;}
+
+.top-blocks dd {
+	display:inline;
+	font-size:1em;
+}
+.top-blocks dl, .top-blocks dt, .top-blocks dd {display:inline; margin: 0; padding:0; width:auto;}
+
+.module, .rounders {
+	display:block;
+	float:none;
+	margin:12px 0 12px 0;
+	padding:0;
+	height:auto;
+	clear:both;
+}
+*:first-child+html ul, *:first-child+html ol {overflow:hidden;}
+	*:first-child+html #content ol li {margin-left:2em; list-style-type:decimal;}
+
+	#content-main ul {display:table; padding-left:2em; overflow:hidden;}/* = testing for list items need to see bullets on print = */
+
+.module ul, .module ol {margin:0;}
+
+#content div ul li, #content ol li {
+	margin:2px 0;
+	line-height:16px;
+	background-image:none !important;
+}
+
+.blocklist li {list-style: none;}
+
+#content div .bulleted-links li, #content div .bullets li, #content div .bullet-list li, .cdcForYou ul li {display:list-item; list-style: disc inside; background-image:none !important; background-position:-999px top;}
+
+#AZlist-container,
+#branding span,
+#branding-pageheader,
+#branding-links,
+#searchForm,
+#branding-text,
+#branding-az,
+#breadBox,
+#section-header,
+#nav,
+#nav-container,
+#content-secondary,
+#siteinfo-nav,
+.module.multiPage,
+.multiPage-horiz,
+#multiPage,
+.pageOptions-horizontal,
+#skipmenu,
+a.skippy,
+.somemore,
+div.t, div.b,
+noscript,
+#onthispage,
+div#onthispage2,
+#flashALTcontent,
+#searchFormLocal,
+#plugin-legend,
+.secondTier #topic-title h2,
+body #linkPolicy,
+a.external img,
+.topOPage,
+.bottomContainer,
+.topContainer,
+#socialMediaContainer,
+#topic-intro .flexsliderbox, .flexslider,
+#content-main .cdc-tabs-widget > ul,
+.cdcSlider,
+.screenReaderOnly,
+.hideme {display:none;}
+
+#top-container {display:block; width:auto; position:relative; height:auto;}
+#topic-intro {clear:none; position:relative;}
+#bottom-container {display:block; width:auto; position:relative;}
+
+.preFoot {
+	clear:both;
+	display:block;
+	margin:0;
+	border-top:1px dotted black;
+	padding:3px 0;
+	font-size:10pt;
+}
+.preFoot ul {margin: 0; padding:0;}
+.preFoot li {list-style: none;}
+
+body#index div#branding div#branding-logo {display:block;}
+
+div.c1, div.c2 { position:relative;
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+	width:49%;
+}
+div.c2 {float:right;}
+
+div.module.two-columns .c1 > div {margin-right:0.25em; width:auto;}
+div.module.two-columns .c2 > div {margin-left:0.25em; width:auto;}
+
+.two-columns {
+	clear:both;
+	width:100%;
+}
+
+div#siteinfo {
+	border-top: 1px dotted black;
+	margin-top: 10px;
+	padding: 0;
+}
+
+#siteinfo-credits {
+	float: none;
+	margin: 6px 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+}
+
+#siteinfo-logos { position: relative;
+	right: 0;
+	float: right;
+	width: auto;
+	height: 44px;
+	white-space:nowrap;
+}
+#siteinfo-logos img#logo_dhhs {
+	border: none;
+	height: 44px;
+	width: 49px;
+	padding-top: 6px;
+}
+#siteinfo-logos img#logo_usagov {
+	border: none;
+	height: 44px;
+	width: 150px;
+}
+#siteinfo-credits address {
+	margin-top:5px;
+	font-size:10pt;
+	font-style:normal;
+}
+
+a,
+a:visited {
+	color:black !important;
+	text-decoration:underline;
+}
+
+body.secondTier #content-main a[href]:after {
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+}
+
+body.secondTier #content-main a[href^="/"]:after {
+	content: " (" attr(href) ") ";
+	clear:right;
+}
+
+
+.lefty, righty,
+.noCorner img {
+	position:relative;
+	margin-right:5px;
+	float:left;
+	clear:right;
+	vertical-align:baseline;
+}
+
+#plugin-legend li {display: inline;}
+
+#linkPolicy {margin-bottom:12px;}
+
+#linkPolicy ul {
+	margin-left:0;
+	list-style:none;
+}
+
+#content-main .cdc-caption .cdc-caption-text {font-size: 10px;}
+
+/**
+ * = External Linking Rules =================================
+ */
+#content .module li a.external,
+#content .rounders li a.external {display:inline;}
+
+#content a.external img {
+	display:inline-block;
+	float:none;
+	position:relative;
+	margin:0 0.25em 0 0;
+	padding:0 0 0 0.25em;
+	top:0;
+	vertical-align:baseline;
+}
+
+.noDecoration > * {display:inline !important;}
+
+.rounders div img.plugin, div img.plugin, .rounders div a img, #content-main a span.plugIns img {
+	display:inline-block;
+	position:relative;
+	margin:0 0.25em 0 0;
+	padding:0;
+	vertical-align:middle;
+}
+/*div.bulleted-links li a span, .relatedMaterial li a span {text-transform:uppercase;}*/
+
+#content-main a span.plugIns {
+	display: inline-block;
+	/*text-transform:uppercase;*/
+}
+
+.roundem {border:none;}
+
+sup {
+	bottom:0.33em;
+	font-size:smaller;
+	position:relative;
+	vertical-align:baseline;
+}
+
+/**
+ * = Gadgets = v2.7.1 =====
+ */
+.ui-tabs-panel {margin-bottom:1em;}
+
+#content-main .cdc-flex-viewport .slides {height:100%; display:block; width:100% !important;}
+
+#content-main .cdc-flex-viewport .slides li {margin:0 2px;}
+
+.cdc-flex-direction-nav li, .cdc-flex-direction-nav a, .cdc-flex-control-paging {display:none;}
+
+#content-main .ui-accordion-content {display:block !important; height:auto !important; margin-bottom:1em;}
+
+/**
+ ==========================================================
+ * = SUBGRIDS
+ ==========================================================
+ */
+
+.subColumns, .twoColumn, .subOneC, .inner {float:none; height:1%;}
+
+.c38l, .c66l, .c33r, .c66r {display:block;}
+
+.c50l, .c25l, .c33l, .c38l, .c66l, .c75l, .c62l {float:none; position:relative; margin-left:0;}
+.c50r, .c25r, .c33r, .c38r, .c66r, .c75r, .c62r {float:none; position:relative;}
+
+.subc, .subOneC {padding:0}
+.subcl {padding:0}
+.subcr {padding:0}

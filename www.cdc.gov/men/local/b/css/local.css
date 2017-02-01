@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+/*@import url("/TemplatePackage/css/B/theme-purple.css");*/
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/* min-height rule for topic blocks container */
+/*
+.top-blocks dl{
+	min-height: 50px;
+}
+*/
+/*.table_brown {
+	margin: 3px;
+	border-collapse: collapse;
+	border: 1px solid #CCBA8B;
+}
+.table_brown th {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid #796635;
+	color: #FFFFFF;
+	background-color: #503608;
+	font-weight: bold;
+	padding: 5px;
+}
+.table_brown td {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid #A79672;
+	padding: 5px;
+}
+.main_img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.ecard_box {
+	padding: 5px;
+	float: left;
+	width: 180px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	min-height:11em;
+}
+p.ecard_box {
+	margin-top: 0px;
+	padding-top: 0px;	
+}
+.border_black {
+	border: 1px solid #000;
+}
+
+a.border_black img.border_black,:link img.border_black,:visited img.border_black {
+	border: 1px solid #000;
+	}
+.clear_left {
+	clear:left;
+}
+.clear_both {
+	clear:both;
+}
+.centered_text {
+	text-align: center;
+}
+hr {
+	color: #704D25;
+}
+.pad_15_top_bot {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.pad_7_top_bot {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+#nho_badge {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#nho_badge img {
+	border:0;
+}
+.padding_left_10 {
+	padding-left: 10px;
+}
+.margin_bot_5px {
+	margin-bottom: 5px;
+}
+.more_top_space_5px {
+	margin-top:5px;
+	padding-top:5px;
+}*/
+.width_60 {
+	width: 60%;
+}
+/*.width_95 {
+	width: 95%;
+}
+.border_bot_grey_dot {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+#content-main table {
+	margin-left:10px;
+	margin-right:10px;
+}*/

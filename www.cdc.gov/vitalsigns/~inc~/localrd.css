@@ -1,0 +1,348 @@
+.dateStamp {
+	color: #999999;
+	font-size: 0.8em;
+}
+
+#datestamp ul li > ul li+li{
+	display: block;
+} 
+
+#wrapper [class*='module'] > img, #wrapper [class*='module'] > figure {
+	width: auto !important;
+	padding: 5px !important;
+	margin-top: 5px !important;
+}
+​  #wrapper [class*='module'] > ul.list-bullet, #wrapper [class*='module'] > ol.list-bullet {
+	margin-left: 35px !important;
+}
+#wrapper [class*='module'] > div ul.list-bullet, #wrapper [class*='module'] > div ol.list-bullet {
+	margin-left: 35px !important;
+}
+/* Feature Feeds - Home Page 1 Image */ 
+
+div#rss-featurefeedhome1 .cdc-caption img {
+	width: 100% !important;
+}
+div#rss-featurefeedhome1 .item-title {
+	font-size: 18px !important;
+	padding: 8px 5px 7px 10px !important;
+}
+div#rss-featurefeedhome1 a.item-title {
+	display: block;
+	color: #FFF;
+}
+div#rss-featurefeedhome1 ul {
+	list-style-type:none
+}
+div#rss-featurefeedhome1 .cdc-caption {
+	padding-right: 13px !important;
+	padding-left: 14px !important;
+}
+div#rss-featurefeedhome1 .mask {
+	position:relative;
+}
+div#rss-featurefeedhome1 .more-link {
+	font-size: 14px !important;
+	text-align:center;
+	text-transform: uppercase;
+	background-color: rgb(7, 82, 144);
+	padding: 10px 15px 10px 20px;
+	margin-bottom:30px;
+	color: #FFFFFF;
+	display: block;
+	/*margin-left: 72%;
+margin-top: 45%; */
+z-index:100;
+	bottom: 0;
+	right: 0;
+	position:absolute;
+	font-weight: bold;
+	width: 110px;
+}
+div#rss-featurefeedhome1 .mask {
+	position:relative;
+}
+div#rss-featurefeedhome1 a, div#rss-featurefeedhome1 a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+div#rss-featurefeedhome1 a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+/* Feature Feeds - Home Page 8 Images for VP 3 and VP 4 */ 
+div#rss-featurefeed-images .cdc-caption img {
+	margin: 0px !important;
+}
+div#rss-featurefeed-images a.item-title {
+	font-size: 15px !important;
+}
+div#rss-featurefeed-images {
+	margin-left: -15px !important;
+}
+div#rss-featurefeed-images ul {
+	list-style-type:none;
+	margin-top:5px;
+}
+div#rss-featurefeed-images li {
+	margin-bottom: 18px;
+}
+div#rss-featurefeed-images .item-image {
+	float: left;
+	width: 24%;
+	height: auto;
+	background-color:#fff;
+	margin-right:7px;
+	padding: 5px !important;
+}
+div#rss-featurefeed-images .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	display:block;
+	padding-left:10px;
+}
+/* Feature Feeds - Topics Feature 1 */ 
+
+div#rss-featurefeedtopic1 .cdc-caption img {
+	margin: 0px !important;
+}
+div#rss-featurefeedtopic1 .item-title {
+	font-size: 18px !important;
+}
+/* div#rss-featurefeedtopic1 a.item-title { display: block; } */
+div#rss-featurefeedtopic1 ul {
+	list-style-type:none
+}
+div#rss-featurefeedtopic1 .cdc-caption {
+	float: left;
+	width: 25%;
+	height: auto;
+	background-color:#fff;
+	margin-right:20px;
+	padding: 5px !important;
+}
+div#rss-featurefeedtopic1 .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	display:block;
+	padding-left:10px;
+}
+div#rss-featurefeedtopic1 .more-link {
+	text-align: right;
+}
+/* Feature Feeds - Feature Categories*/ 
+
+div#rss-vitalsigns-alcohol .cdc-caption img, 
+div#rss-vitalsigns-cancer .cdc-caption img, 
+div#rss-vitalsigns-cardiovascular-disease .cdc-caption img,   
+div#rss-vitalsigns-food-safety .cdc-caption img,  
+div#rss-vitalsigns-hai .cdc-caption img,  
+div#rss-vitalsigns-hiv .cdc-caption img, 
+div#rss-vitalsigns-motor-vehicle-safety .cdc-caption img,  
+div#rss-vitalsigns-obesity .cdc-caption img, 
+div#rss-vitalsigns-other .cdc-caption img,  
+div#rss-vitalsigns-prescription-drug-overdoses .cdc-caption img,  
+div#rss-vitalsigns-teen-pregnancy .cdc-caption img,  
+div#rss-vitalsigns-tobacco .cdc-caption img
+{
+	margin: 0px !important;
+}
+
+
+
+
+
+div#rss-vitalsigns-alcohol a.item-title, 
+div#rss-vitalsigns-cancer a.item-title, 
+div#rss-vitalsigns-cardiovascular-disease a.item-title,   
+div#rss-vitalsigns-food-safety a.item-title,  
+div#rss-vitalsigns-hai a.item-title,  
+div#rss-vitalsigns-hiv a.item-title, 
+div#rss-vitalsigns-latest a.item-title, 
+div#rss-vitalsigns-motor-vehicle-safety a.item-title,  
+div#rss-vitalsigns-obesity a.item-title, 
+div#rss-vitalsigns-other a.item-title,  
+div#rss-vitalsigns-prescription-drug-overdoses a.item-title,  
+div#rss-vitalsigns-teen-pregnancy a.item-title,  
+div#rss-vitalsigns-tobacco a.item-title  {
+	font-size: 15px !important;
+}
+
+div#rss-vitalsigns-alcohol, 
+div#rss-vitalsigns-cancer, 
+div#rss-vitalsigns-cardiovascular-disease,   
+div#rss-vitalsigns-food-safety,  
+div#rss-vitalsigns-hai,  
+div#rss-vitalsigns-hiv, 
+div#rss-vitalsigns-latest, 
+div#rss-vitalsigns-motor-vehicle-safety,  
+div#rss-vitalsigns-obesity, 
+div#rss-vitalsigns-other,  
+div#rss-vitalsigns-prescription-drug-overdoses,  
+div#rss-vitalsigns-teen-pregnancy,  
+div#rss-vitalsigns-tobacco
+{
+	margin-left: -15px !important;
+}
+
+div#rss-vitalsigns-alcohol ul, 
+div#rss-vitalsigns-cancer ul, 
+div#rss-vitalsigns-cardiovascular-disease ul,   
+div#rss-vitalsigns-food-safety ul,  
+div#rss-vitalsigns-hai ul,  
+div#rss-vitalsigns-hiv ul,
+div#rss-vitalsigns-latest ul,
+div#rss-vitalsigns-motor-vehicle-safety ul,  
+div#rss-vitalsigns-obesity ul, 
+div#rss-vitalsigns-other ul,  
+div#rss-vitalsigns-prescription-drug-overdoses ul,
+div#rss-vitalsigns-teen-pregnancy ul,
+div#rss-vitalsigns-tobacco  ul
+{
+	list-style-type:none;
+	margin-top:5px;
+}
+
+
+div#rss-vitalsigns-alcohol li, 
+div#rss-vitalsigns-cancer li, 
+div#rss-vitalsigns-cardiovascular-disease li,   
+div#rss-vitalsigns-food-safety li,  
+div#rss-vitalsigns-hai li,  
+div#rss-vitalsigns-hiv li,
+div#rss-vitalsigns-latest li,
+div#rss-vitalsigns-motor-vehicle-safety li,  
+div#rss-vitalsigns-obesity li, 
+div#rss-vitalsigns-other li,  
+div#rss-vitalsigns-prescription-drug-overdoses li,
+div#rss-vitalsigns-teen-pregnancy li,
+div#rss-vitalsigns-tobacco  li
+{
+	margin-bottom: 12px;
+}
+
+div#rss-vitalsigns-alcohol .item-image, 
+div#rss-vitalsigns-cancer .item-image, 
+div#rss-vitalsigns-cardiovascular-disease .item-image,   
+div#rss-vitalsigns-food-safety .item-image,  
+div#rss-vitalsigns-hai .item-image,  
+div#rss-vitalsigns-hiv .item-image,
+div#rss-vitalsigns-latest .item-image,
+div#rss-vitalsigns-motor-vehicle-safety .item-image,  
+div#rss-vitalsigns-obesity .item-image, 
+div#rss-vitalsigns-other .item-image,  
+div#rss-vitalsigns-prescription-drug-overdoses .item-image,
+div#rss-vitalsigns-teen-pregnancy .item-image,
+div#rss-vitalsigns-tobacco   .item-image
+{
+	float: left;
+	width: 25%;
+	height: auto;
+	background-color:#fff;
+	margin-right:7px;
+	padding: 5px !important;
+}
+
+div#rss-vitalsigns-alcohol .item-pubdate, 
+div#rss-vitalsigns-cancer .item-pubdate, 
+div#rss-vitalsigns-cardiovascular-disease .item-pubdate,   
+div#rss-vitalsigns-food-safety .item-pubdate,  
+div#rss-vitalsigns-hai .item-pubdate,  
+div#rss-vitalsigns-hiv .item-pubdate,
+div#rss-vitalsigns-latest .item-pubdate,
+div#rss-vitalsigns-motor-vehicle-safety .item-pubdate,  
+div#rss-vitalsigns-obesity .item-pubdate, 
+div#rss-vitalsigns-other .item-pubdate,  
+div#rss-vitalsigns-prescription-drug-overdoses .item-pubdate,
+div#rss-vitalsigns-teen-pregnancy .item-pubdate,
+div#rss-vitalsigns-tobacco   .item-pubdate
+{
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	display:block;
+	padding-left:10px;
+}
+
+
+/* Feature Feeds - Basic Feed for VP 1 - VP 2 */ 
+div#rss-featurefeed .cdc-caption img {
+	margin:5px !important;
+}
+div#rss-vitalsigns a.item-title {
+	font-size: 16px !important;
+}
+div#rss-vitalsigns .item-description, div#rss-featurefeed1 .item-description {
+	line-height: 20px;
+	padding-left:10px;
+}
+div#rss-vitalsigns .item-image {
+	float: left;
+	width: 15%;
+	height: auto;
+	background-color:#fff;
+	margin-right:10px;
+	padding-right:10px;
+}
+div#rss-vitalsigns .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	display:block;
+	padding-left:10px;
+}
+div#rss-vitalsigns ul {
+	list-style-type:none;
+	margin-left: 5px !important;
+}
+div#rss-vitalsigns li {
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 1em;
+	width:48%;
+}
+
+
+div#rss-featurefeedtopic1 a.item-title, 
+div#rss-featurefeedtopic2 a.item-title, 
+{
+	font-size: 14px !important;
+}
+
+
+div#rss-featurefeedtopic1 .item-description, 
+div#rss-featurefeedtopic2 .item-description, 
+ {
+	line-height: 20px;
+	padding-left:10px;
+}
+
+div#rss-featurefeedtopic1 li, 
+div#rss-featurefeedtopic2 li, 
+ {
+	margin-bottom: 5px;
+}
+
+div#rss-featurefeedtopic1 .item-pubdate, 
+div#rss-featurefeedtopic2 .item-pubdate, 
+ {
+	line-height: 20px;
+	font-size: 0.8em;
+	color: #666666;
+	display:block;
+padding-left:10px;
+}
+
+.item {
+    display: inline-table;
+    margin-top: 10px;
+    min-height: 50px;
+    padding: 5px 5px 0 20px;
+    width: 45%;
+}

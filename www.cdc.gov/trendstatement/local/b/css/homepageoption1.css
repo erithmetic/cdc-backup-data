@@ -1,0 +1,996 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hivMain-inner img { padding: 5%;}
+
+.newsContainer { width:100%;
+	float:left;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+	margin-top: 20px;
+}
+
+
+
+.newsContainer p{
+	font-size:13px;
+	padding: 15px 5px 0px 5px;;
+	text-align:left;
+}
+
+.newsCaption {
+	float:left;  
+	width: 100%;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	border-left: 1px solid #CCC; 
+	border-right: 1px solid #CCC;
+	background-color:#fefbe9;
+}
+.newsCaption h3{
+	font-size:14px;
+	padding: 10px;
+}
+
+.newsLeft { 
+	float:left;  
+	width: 50%;
+	height: 120px;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	border-left: 1px solid #CCC; 
+	border-right: 0px solid #CCC;
+	overflow-x: hidden; overflow-y: scroll; visibility: visible;;
+}
+.newsLeft h4{ padding: 1%; font-size:12px;}
+.newsLeft p{ padding: 1%;}
+.newsLeft img{ padding: 1%;}
+
+
+#content-inner .newsLeftFeed { padding: 0px;}
+.newsLeftFeed { 
+	float:left;  
+	width: 50%;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	border-left: 0px solid #CCC; 
+	border-right: 0px solid #CCC;visibility: visible;;
+}
+.newsLeftFeed h4{ padding: 0%; font-size:12px;}
+.newsLeftFeed h5{ padding: 2%; font-size:10px;}
+.newsLeftFeed p{ padding: 4%; margin-top: 25px;}
+.newsLeftFeed img{ padding: 0%;}
+#content-inner .newsLeftFeed ul li { padding: 1%; text-decoration:none; border:0px;}
+#content-inner .newsLeftFeed li a{ color: #085100; text-decoration:none;}
+
+#content-inner .newsLeftFull { padding: 0px;}
+.newsLeftFull { 
+	float:left;  
+	width: 100%;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	border-left: 0px solid #CCC; 
+	border-right: 0px solid #CCC;visibility: visible;;
+}
+.newsLeftFull h4{ padding: 0%; font-size:12px;}
+.newsLeftFull h5{ padding: 2%; font-size:10px;}
+#content-inner .newsLeftFull p{ padding: 0px 0px 0px 0px; margin-top: 0px;}
+.newsLeftFull img{ padding: 0%;}
+.newsLeftFull li{ padding: 0px 1% 0px 1%;}
+#content-inner .newsLeftFull li a{ color: #085100; padding: 0px; font-size:14px; font-weight:bold;}
+
+
+#content-inner .newsRight { 
+	float:right;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	width: 50%;
+	height: 150px; 
+	border-right: 1px solid #CCC;
+}
+#content-inner .newsRightFeed { padding: 0px;}
+.newsRightFeed { 
+	float:left;  
+	width: 50%;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	border-left: 1px solid #CCC; 
+	border-right: 0px solid #CCC;visibility: visible;;
+}
+.newsRightFeed h4{ padding: 0%; font-size:12px;}
+.newsRightFeed h5{ padding: 2%; font-size:10px;}
+.newsRightFeed p{ padding: 4%; margin-top: 25px;}
+.newsRightFeed img{ padding: 2%;}
+.newsRightFeed li a{ color: #085100;}
+
+#scroll {overflow-y: scroll;}
+.newsRight h4{ padding: 1%; font-size:12px;}
+.newsRight p{ padding: 1%;}
+.newsRight img{ padding: 5%;}
+.fltRight{ padding: 1%; float: right; color:#000;}
+
+.clr { 
+	clear:both;
+}
+
+#content-inner .featureContainer {
+	float:left; 
+	width:100%;
+	margin-top: 10px;
+}
+
+/*#content-inner .page-curl h3 {	background-color: #fefbe9;
+} commented by vjm8 - this was a line of code from Emergint - and it  creates a conflict with the CDC template */
+
+
+.featureContainerFull {
+	 float:left;
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	padding: 1%;
+	margin-top: 10px; 
+	width: 100%; 
+	border: 1px solid #CCC;
+	text-align:justify;
+}
+.featureContainerFull h4{ padding: 1%; font-size:12px;}
+#content-inner .featureContainerFull p{ padding: 2%;}
+.featureContainerFull a{ padding: 2%; text-align:left;}
+.featureContainerFull img{ padding: 1%;}
+
+#content-inner .featureContainerFull a#more{
+	font-size:12px;
+	padding: 0px 20px 5px 5px;
+	color:#000;
+	float:right;
+}
+
+
+.pageCurlFull { width:100%;
+	float:left;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+	background: url(https://www.cdc.gov/TemplatePackage/images/bgPagecurlShadow.gif) no-repeat scroll right bottom rgb(255,255,255);
+	margin: 0pt 0pt 3px;
+	padding: 0pt 0pt 7px;
+}
+.pageCurlLeft { width:48%;
+	float:left;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+	background: url(https://www.cdc.gov/TemplatePackage/images/bgPagecurlShadow.gif) no-repeat scroll right bottom rgb(255,255,255);
+	margin: 0pt 0pt 3px;
+	padding: 0pt 0pt 7px;
+}
+.pageCurlRight { width:48%;
+	float:right;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+	background: url(https://www.cdc.gov/TemplatePackage/images/bgPagecurlShadow.gif) no-repeat scroll right bottom rgb(255,255,255);
+	margin: 0pt 0pt 3px;
+	padding: 0pt 0pt 7px;
+}
+.pageCurlFull { width:100%;
+	float:right;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+	background: url(https://www.cdc.gov/TemplatePackage/images/bgPagecurlShadow.gif) no-repeat scroll right bottom rgb(255,255,255);
+	margin: 0pt 0pt 3px;
+	padding: 0pt 0pt 7px;
+}
+
+
+.featureLeft { float:left;
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	padding: 1%; 
+	width: 100%; 
+	border: 1px solid #CCC;
+}
+.featureLeft h4{ padding: 1%; font-size:12px;}
+.featureLeft p{ padding: 1%;}
+.featureLeft img{ padding: 1%;}
+
+
+#content-inner .moreLink{
+	font-size:12px;
+	padding: 0px 20px 5px 5px;
+	color:#000;
+	float:right;
+}
+.featureLeftFull { float:left;
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	padding: 1%; 
+	width: 50%; 
+	border-right: 1px solid #CCC;
+}
+#content-inner .featureLeftFull h4{
+	font-size:12px;
+	padding: 0px 0px 5px 5px;
+}
+#content-inner .featureLeftFull a{
+	font-size:12px;
+	padding: 0px 20px 5px 5px;
+	color:#000;
+	float:right;
+}
+
+.featureRight { float:right;
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	padding: 1%; 
+	width: 100%; 
+	border: 1px solid #CCC;
+}
+.featureRight h4{ padding: 1%; font-size:12px;}
+.featureRight p{ padding: 1%;}
+.featureRight img{ padding: 1%;}
+
+
+#content-inner .featureRight a{
+	font-size:12px;
+	padding: 0px 20px 5px 5px;
+	float:right;
+}
+.featureRightFull { float:right;
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	padding: 1%; 
+	width: 50%; 
+	border: 0px solid #CCC; 
+}
+#content-inner .featureRightFull h4{
+	font-size:12px;
+	padding: 0px 0px 5px 5px;
+}
+#content-inner .featureRightFull a{
+	font-size:12px;
+	padding: 0px 20px 5px 5px;
+	color:#000;
+	float:right;
+}
+	
+.featureHeader {
+	float:left;  
+	width: 100%;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; 
+	border-left: 0px solid #CCC; 
+	border-right: 0px solid #CCC;
+	background-color:#F6FAEC;
+}
+#content-main .featureHeader h4{
+	padding: 5px;
+	color: #0C5205;
+}
+
+#content-main h4 {color: #0C5205;}
+
+.videoThumb { position:relative; width:100%; float:left; padding-left: 2%}
+.videoText {display: none; position: absolute; text-align:right; Top: 5%; right:5%; color:#fff; font-size:14px; font-weight:bold;}
+.videoThumb:hover .videoText { display: block; color:#fff;}
+#content-inner .videoThumb:hover .videoText a{color:#fff;}
+/* ---Wrap your image in a <div class="videoThumb">
+Add position: relative to videoThumb.
+Add <div class="videoText"> inside videoThumb.
+Add display: none; position: absolute; bottom: 0 to .videoText.
+Use .videoThumb:hover .videoText { display: block } to make the text visible on hover. ---*/
+	
+/* ---------------TABBED FEATURES -------------------- */
+
+
+/* ------------------------ END TABBED FEATURES ---------------------------- */
+
+
+
+/* ------------------------ START Slider FEATURES ---------------------------- */
+.slideContainer { width:97%;}
+.slides {}
+.slides img{ padding: 0%}
+
+.fl{ float:left;}
+
+.slidepart{ width:100%; height:320px; overflow:hidden; position:relative;}
+.slidepart img{position:absolute; width:100% }
+.slidepart p{position:absolute;height: 100%; opacity: .5%;  }
+.sl_paginationpart{ background:url(https://www.cdc.gov/img/slide_paginationbg.png) no-repeat left; width:auto; height:15px; display:block; position:absolute; right:0%; top:5%; padding:6px;}
+
+ul.slpagination{ margin:0px; padding:0px; list-style:none; font-family:arial; }
+ul.slpagination li{ margin:0px; padding:0px; list-style:none; float:left; }
+ul.slpagination li a.prev{background:url(https://www.cdc.gov/img/sl_prev_Blank.gif) no-repeat; width:14px; height:15px; display:block; margin-top: 2px;}
+ul.slpagination li a.next{background:url(https://www.cdc.gov/img/sl_next_Blank.gif) no-repeat; width:14px; height:15px; display:block; margin-top: 2px; }
+ul.slpagination li a.number{background:url(https://www.cdc.gov/img/sl_nobg.png) no-repeat; width:20px; height:20px ; display:block; text-align:center; margin:0px 3px; font-size:12px; font-weight:bold; color:#fff; text-decoration:none; text-indent: -1px; line-height: 19px; }
+ul.slpagination li a.select{background:url(https://www.cdc.gov/img/select_sl.png) no-repeat;color:#fff; }
+#content-inner ul.slpagination li a:active{color:#fff;}
+#content-inner ul.slpagination li a:visited{color:#fff;}
+
+div.description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width: 100%;
+	background-image:url(https://www.cdc.gov/img/captionBG.png);
+	font-family: 'tahoma';
+	font-weight:bold;
+	font-size:15px;
+	color:white;
+}
+div.description_content{
+	padding:18px 0px 8px 10px ;
+	opacity:1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* ------------------------ END Slider FEATURES ---------------------------- */
+
+/* ------------------------ Start Widget FEATURES ---------------------------- */
+
+.widgets {float:right; padding: 25px;}
+.widg { float:left; margin: 0px;}
+.widg p{ text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;}
+
+.feedbackButton h2 { position:relative; width:100%; height:150px;}
+.feedbackButton img {position:absolute; width: 300px; height:300px;}
+
+#showButton {top:0;left:0}
+#showButton:hover {top:-150; left:0;}
+
+#podcast {
+    position:relative;
+    top:0px;
+    left:0px;
+    width:150px;
+    height:65px;
+	overflow:hidden;
+}
+#podcastItem a {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:150px;
+    height:150px;
+}
+#podcastItem a:hover {
+    position:absolute;
+    top:-93px;
+    left:0px;
+    width:150px;
+    height:75px;
+}
+#webinar {
+    position:relative;
+    top:0px;
+    left:0px;
+    width:150px;
+    height:65px;
+	overflow:hidden;
+}
+#webinarItem a {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:150px;
+    height:150px;
+}
+#webinarItem a:hover {
+    position:absolute;
+    top:-93px;
+    left:0px;
+    width:150px;
+    height:75px;
+}
+#testing{
+    top:0px;
+    left:0px;
+    width:150px;
+    height:180px;
+	overflow:hidden;
+}
+#feedback {
+    position:relative;
+    top:0px;
+    left:0px;
+    width:150px;
+    height:65px;
+	overflow:hidden;
+}
+#feedbackItem a {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:150px;
+    height:150px;
+}
+#feedbackItem a:hover {
+    position:absolute;
+    top:-93px;
+    left:0px;
+    width:150px;
+    height:75px;
+}
+
+
+
+
+#hivTestingWidget {
+	width:100%;
+	}
+#hivTestingWidget img{ border: 0px; padding: 0px; margin: 0px; border-spacing:0px;}
+#content-main #hivTestingWidget table, table td, table th, table a, table img { border: 0px; padding: 0px; margin: 0px;}
+#content-inner .featureRight #hivTestingWidget a{ border: 0px; padding: 0px; margin: 0px; border-spacing:0px;}
+
+
+
+
+/* ------------------------ END Widget FEATURES ---------------------------- */
+
+/* ------------------------ Start MegaDropDown FEATURES ---------------------------- */
+
+/*#topic-title { height:120px;}*/
+.homeTitle { float:left; width: 20%}
+.dropMenuWrap {width:175px; float:right; padding: 15px 0px 0px 0px;}
+.dropMenuWrap ul,.dropMenuWrap li {
+	font-size:14px; 
+	line-height:21px;
+	text-align:left;
+}
+#topic-title .dropMenu a { color: #0C5205; padding:0px 35px 0px 0px;}
+.dropMenu {float:right; width: 100%; height: 25px; list-style:none; background-color: #f5faed; border: 1px solid #b5ce9e; border-right: 0px;}
+.dropMenu ul { float:right; width: 100%;margin:0px 0px 0px 5px; padding: 0px 0px 0px 5px;}
+.dropMenu li{
+	float:right;
+	display: inline;
+	text-align:center;
+	position:relative;
+	margin: 1px;
+	border:none;;
+	padding-left: 20px;
+	cursor:pointer; 
+}
+/* ------------------------ END MegaDropDown FEATURES ---------------------------- */
+
+/* ------------------------ START.relatedHIVTopics Module Search Results FEATURES ---------------------------- */
+
+/*#result-holder { width: 140px; padding: 0px 18px 10px 10px; overflow:hidden;}*/
+#result-holder { width: 160px; padding: 0px 5px 10px 5px; overflow:hidden;}
+
+
+#search-results {}
+#search-results .results{}
+/*#search-results .result{ border-bottom: 1px solid #000; height: 30px; margin: 0px -20px 0px -10px; overflow:hidden; padding: 10px 10px 0 10px;}*/
+#search-results .result{width: 160px;   border-bottom: 1px solid #fff; height:40px; margin: 0px 0px 0px  0px; overflow:hidden; padding: 10px 0px 10px 0px;}
+
+#homePage_search-results .result{width: 160px;   border-bottom: 1px solid #fff;  margin: 0px 0px 0px  0px; overflow:hidden; padding: 10px 0px 10px 0px;}
+
+
+
+#search-results .title{}
+#search-results .title a{}
+#search-results .title span{}
+#search-results .snippet{ visibility:hidden;}
+#search-results .snippet span{ visibility:hidden; height: 0px; overflow:hidden;}
+#search-results .url-cache{ visibility:hidden;}
+
+#search-results .pagination ul li { display:inline-block; width: 5px; padding: 10px 5px 10px 0; border:none;}
+#search-results .pagination .news_item:hover,
+#search-results .pagination .selected  { background-color: #FFF; padding: 10px 5px 10px 0; border:none;}
+#search-results .pagination ul li.next { width: 140px; padding: 0px 5px 0px 0; display:block;}
+#search-results .pagination ul li.prev { width: 140px; padding: 0px 5px 0px 0; display:block;}
+
+
+
+
+
+
+
+
+#nav-container .relatedHIVTopics {background:transparent url('https://www.cdc.gov/hiv/local/B/img/bgRelatedLinksHIV.png') 0 0 no-repeat}
+#nav-container .relatedHIVTopics h4 a, 
+#content-secondary .relatedHIVTopics h4 a {
+display: block;
+/*background-color: #0C5205; commented by vjm8*/
+color: #fff;
+margin: 0;
+padding: 7px 10px 4px 10px;
+}
+#nav-container .relatedHIVTopics h4 a:visited, 
+#content-secondary .relatedHIVTopics h4 a:visited {
+display: block;
+background-color: #0C5205;
+color: #fff;
+margin: 0;
+padding: 2px 10px 4px 10px;
+}
+#nav-container .relatedHIVTopics .bot, #content-secondary .relatedHIVTopics .bot {
+position: relative;
+background: transparent url('https://www.cdc.gov/hiv/local/B/img/bgRelatedLinks.png') bottom left no-repeat;
+margin: 0;
+height: 9px;
+width: auto;
+}
+#nav-container .relatedHIVTopics a { color:#000;
+}
+#nav-container .relatedHIVTopics a:hover { color:#dad31d;/*666 vjm8*/
+}
+
+#nav-container .relatedHIVTopics .results a:hover { color:#006600; /* for each result line  vjm8*/
+}
+
+#nav-container .relatedHIVTopics .relatedMore  a:hover { color:#006600 !important; /* for more line  vjm8*/
+}
+
+#nav-container .relatedHIVTopics a:visited { color:#333;
+}
+#nav-container #readMore .relatedHIVTopicsMore {
+ color: #000; font-size:12px; font-weight:bold; text-decoration:underline ;
+}
+#nav-container #readMore .relatedHIVTopicsMore:hover {
+ color: #666; font-size:12px; font-weight:bold; text-decoration:none ;
+}
+
+/* ------------------------ END.relatedHIVTopics Module Search Results FEATURES ---------------------------- */
+
+#content-inner #leftColumn{
+float: left;
+margin: 0;
+border: none;
+padding: 0;
+width:100%;   
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+}
+
+#content-inner #leftColumn h2{ padding:10px;}
+
+#newsBOX { padding: 2% 1% 2% 1%; width: 50%; float:left;  
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box; } 
+
+#newsIMG img{ float:left; border:0;
+margin-right: auto;
+margin-left: auto;
+padding: 0px;
+width:30%;
+background-color: #fff;  
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+
+}
+
+#newsHEAD h4{ width: 70%; padding: 0px 0% 5px 2%; float:left; color: #0C5205;  
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+}
+#newsLINK a{ width: 70%; padding: 30px 0% 5px 2%; float:left; cursor:pointer;  
+	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+}
+#newsMORE {width:100%; float:left;}
+#newsMORE a{ float:right; color: #0C5205; padding: 10px 20px 5px 0; font-size: 14; font-weight:bold;}
+
+
+#readMore {width:100%; float:left;}
+#readMore a{ float:right; color: #0C5205; padding: 0px 20px 5px 0; margin:0px; font-size: 14; font-weight:bold;}
+
+
+
+
+/*-------------------Tooltip--------------*/
+/*#content-inner #tooltip {
+position:absolute;
+left:-2000px;
+background-color:#C1D5B0;
+padding:5px;
+border:1px solid #0C5205;
+width:100px;
+}*/
+#content-inner .tooltipshow{
+position:absolute;
+left:-112px;
+background-color:#C1D5B0;
+padding:5px;
+border:1px solid #0C5205;
+width:100px;
+}
+#content-inner .tooltiphide{
+position:absolute;
+left:-2000px;
+background-color:#C1D5B0;
+padding:5px;
+border:1px solid #0C5205;
+width:100px;
+}
+
+#content-inner #tooltip p{
+margin:0;
+padding:5px;
+color:#000;
+background-color:#D7E4CC;
+}
+/*-------------------Tooltip--------------*/
+
+/*-------------------Section Pages--------------*/
+
+.topic img{
+border: 1px solid #CCC;padding:0px;margin:0px 10px 10px 0px;
+}
+
+.topic p{ text-align:justify;}
+
+#return{ font-weight:bolder; padding: 10px; margin-bottom:10px;}
+
+
+
+/*-------------------Section Pages--------------*/
+
+/*-------------------Data Center Modules--------------*/
+
+.dataHeader {
+	padding:6px 2% 0% 2%;/* 24px top -added by vjm8*/
+	width: 96%;
+	margin-bottom:24px;/*added by vjm8*/
+}
+
+.dataHeader img {padding: 0% 1.5% 0% 1.5%; float:left; width: 30%}
+.dataGallery img {padding: 0% 1.5% 0% 1.5%; float:left; width: 30%}
+.dataImageDescription {padding: 10px 1.5% 0% 1.5%; float:left; width: 30%; text-align:center;}
+.dataImageDescription p{text-align:center;}
+.reportGallery { padding: 40px 0px 0px 0px;}
+.reportGallery img {padding: 0% 1.5% 0% 1.5%; float:left; width: 30%}
+
+/*-------------------End Data Center Modules--------------*/
+
+
+/*-------------------Library Modules--------------*/
+
+	/*---- Slideshow 1 -------*/
+	#dhtmlgoodies_slideshow{
+		width:100%;	/* Total width of slideshow */
+
+
+	}
+	
+	#previewPane{
+		border:1px solid #CCCCCC;
+		margin-bottom:10px;	
+		text-align:center;
+		vertical-align:middle;
+		padding-top:10px;
+
+		position:relative;
+		
+		/* CSS HACK */
+		height: 432px;	/* IE 5.x */
+		height/* */:/**/420px;	/* Other browsers */
+		height: /**/420px;
+				
+	}
+	#previewPane img{
+		line-height:400px;
+	}
+	#previewPane #largeImageCaption{	/* CSS styling of image caption below large image */
+		font-style:italic;
+		text-align:center;
+		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font to use */
+		font-size:0.9em;
+	}
+	#galleryContainer{
+		
+		height:141px;	/* Height of the images + 2 */
+		border:1px solid #CCCCCC;
+		position:relative;
+		overflow:hidden;
+		padding:1px;
+		
+		/* CSS HACK */
+		height: 143px;	/* IE 5.x - Added 2 pixels for border left and right */
+		height/* */:/**/143px;	/* Other browsers */
+		height: /**/143px;
+				
+	}	#arrow_left{
+		position:absolute;
+		left:0px;
+		z-index:10;
+		background-color: #FFF;
+		padding:1px;
+	}
+	#arrow_right{
+		position:absolute;
+		right:0px;
+		z-index:10;
+		background-color: #FFF;
+		padding:1px;		
+	}
+	#theImages{
+		position:absolute;
+		height:100px;
+		left:40px;
+		width:100000px;
+		
+	}
+	#theImages #slideEnd{
+		float:left;
+	}
+	#theImages img{
+		float:left;
+		padding:15px;
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+		cursor:pointer;
+		border:0px;
+	}
+
+	#waitMessage{
+		display:none;
+		position:absolute;
+		left:200px;
+		top:150px;
+		background-color:#FFF;
+		border:3px double #000;
+		padding:4px;
+		color:#555;
+		font-size:0.9em;
+		font-family:arial;	
+	}
+	
+	#theImages .imageCaption{
+		display:none;
+	}
+	
+	/*---- End Slideshow 1 -------*/
+	
+	.linkBOXLeft {float:left;width:50%;}
+	.linkBOXLeft a { padding: 15px;}
+	
+	
+	
+	/*---- Slideshow 2 -------*/
+	
+		#dhtmlgoodies_slideshow2{
+		width:100%;	}
+	
+	#previewPane2{
+		border:1px solid #CCCCCC;
+		margin-bottom:10px;	
+		text-align:center;
+		vertical-align:middle;
+		padding-top:10px;
+
+		position:relative;
+		
+		/* CSS HACK */
+		height: 432px;	/* IE 5.x */
+		height/* */:/**/420px;	/* Other browsers */
+		height: /**/420px;
+				
+	}
+	#previewPane2 img{
+		line-height:400px;
+	}
+	#previewPane2 #largeImageCaption2{	/* CSS styling of image caption below large image */
+		font-style:italic;
+		text-align:center;
+		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font to use */
+		font-size:0.9em;
+	}
+	#galleryContainer2{
+		
+		height:141px;	/* Height of the images + 2 */
+		border:1px solid #CCCCCC;
+		position:relative;
+		overflow:hidden;
+		padding:1px;
+		
+		/* CSS HACK */
+		height: 143px;	/* IE 5.x - Added 2 pixels for border left and right */
+		height/* */:/**/143px;	/* Other browsers */
+		height: /**/143px;
+				
+	}
+	#arrow_left2{
+		position:absolute;
+		left:0px;
+		z-index:10;
+		background-color: #FFF;
+		padding:1px;
+	}
+	#arrow_right2{
+		position:absolute;
+		right:0px;
+		z-index:10;
+		background-color: #FFF;
+		padding:1px;		
+	}
+	#theImages2{
+		position:absolute;
+		height:100px;
+		left:40px;
+		width:100000px;
+		
+	}
+	#theImages2 #slideEnd2{
+		float:left;
+	}
+	#theImages2 img{
+		float:left;
+		padding:15px;
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+		cursor:pointer;
+		border:0px;
+	}
+	#clr {clear:both;}
+	#slideCaption{
+		float:left;
+		width:150px;
+		text-align:center;
+		margin-top: -15px;
+		padding: 0px 15px 0px 15px;
+		font-size:10px;
+		cursor:pointer;
+		border:0px;
+	}
+
+	#waitMessage2{
+		display:none;
+		position:absolute;
+		left:200px;
+		top:150px;
+		background-color:#FFF;
+		border:3px double #000;
+		padding:4px;
+		color:#555;
+		font-size:0.9em;
+		font-family:arial;	
+	}
+	
+	#theImages2 .imageCaption2{
+		display:none;
+	}
+	
+	/*--- End slideshow 2 -----/
+	
+	
+		/*---- Slideshow 3 -------*/
+	
+		#dhtmlgoodies_slideshow3{
+		width:100%;	}
+	
+	#previewPane3{
+		border:1px solid #CCCCCC;
+		margin-bottom:10px;	
+		text-align:center;
+		vertical-align:middle;
+		padding-top:10px;
+
+		position:relative;
+		
+		/* CSS HACK */
+		height: 432px;	/* IE 5.x */
+		height/* */:/**/420px;	/* Other browsers */
+		height: /**/420px;
+				
+	}
+	#previewPane3 img{
+		line-height:400px;
+	}
+	#previewPane3 #largeImageCaption3{	/* CSS styling of image caption below large image */
+		font-style:italic;
+		text-align:center;
+		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font to use */
+		font-size:0.9em;
+	}
+	#galleryContainer3{
+		
+		height:141px;	/* Height of the images + 2 */
+		border:1px solid #CCCCCC;
+		position:relative;
+		overflow:hidden;
+		padding:1px;
+		
+		/* CSS HACK */
+		height: 143px;	/* IE 5.x - Added 2 pixels for border left and right */
+		height/* */:/**/143px;	/* Other browsers */
+		height: /**/143px;
+				
+	}
+	#arrow_left3{
+		position:absolute;
+		left:0px;
+		z-index:10;
+		background-color: #FFF;
+		padding:1px;
+	}
+	#arrow_right3{
+		position:absolute;
+		right:0px;
+		z-index:10;
+		background-color: #FFF;
+		padding:1px;		
+	}
+	#theImages3{
+		position:absolute;
+		height:100px;
+		left:40px;
+		width:100000px;
+		
+	}
+	#theImages3 #slideEnd3{
+		float:left;
+	}
+	#theImages3 img{
+		float:left;
+		padding:15px;
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+		cursor:pointer;
+		border:0px;
+	}
+
+	#waitMessage3{
+		display:none;
+		position:absolute;
+		left:200px;
+		top:150px;
+		background-color:#FFF;
+		border:3px double #000;
+		padding:4px;
+		color:#555;
+		font-size:0.9em;
+		font-family:arial;	
+	}
+	
+	#theImages3 .imageCaption3{
+		display:none;
+	}
+	
+	/*--- End slideshow 3 -----/
+
+/*-------------------End Library Modules--------------*/
+	

@@ -1,0 +1,27 @@
+/* This is a WYSIWYG specific style sheet.
+
+Either: 
+1) reference this with an absolute link and overwrite it with a root relative link underneath for browsers
+
+2) use design time in DW CS3 to attach this for the site profile
+
+*/
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/wysiwyg/reset.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/wysiwyg/threeColumnGrid.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/wysiwyg/leftNav.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/wysiwyg/widgets.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/wysiwyg/type.css';
+
+/* instead of attaching modules.css, 
+see about attaching a specific wysiwyg css just for content page
+modules
+*/
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/wysiwyg/modules.css';
+
+@import 'https://www.cdc.gov/TemplatePackage/css/A/wysiwyg/dialog.css';
