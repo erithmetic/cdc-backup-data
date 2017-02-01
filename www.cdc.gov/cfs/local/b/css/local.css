@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Diagnostics File */
+/*@import url("/TemplatePackage/css/B/diagnostics.css");*/
+
+/* COLOR THEME -- ORANGE */
+/*@import url("/TemplatePackage/css/B/theme-orange.css");*/
+
+/* COLOR THEME -- PURPLE */
+@import url("../../../../TemplatePackage/css/B/theme-purple.css");
+
+/* COLOR THEME -- ROSE */
+/*@import url("/TemplatePackage/css/B/theme-rose.css");*/
+
+/* COLOR THEME -- TAN */
+/*@import url("/TemplatePackage/css/B/theme-tan.css");*/
+
+/* COLOR THEME -- TEAL */
+/*@import url("/TemplatePackage/css/B/theme-teal.css");*/
+
+/*** PHM Blog button sytling ***/
+#phm_Blog {
+	color: #000000;
+	font-size: .9em;
+	margin: 1em 0;
+	padding: 0 0.5em 0 0;
+	position: relative;
+	width: 169px;
+}
+#phm_Blog img {
+	display: block;
+	margin: 0 auto;
+}
+/* End PHM Blog button styling */
+
+/*** List styles ***/
+/*"Center" ordered/unordered lists*/
+.listcenter {
+	display: block;
+	margin: 0 auto 15px;
+	width: 450px;
+}
+/* CME references - additional space between lis */
+#refer li {
+	margin-top: 15px;
+}
+/*Specific list type (lower-alpha-numeric letters)*/
+.lowal {
+	list-style-type: lower-alpha;
+}
+.noblt, .noblt li {
+	list-style-type: none;
+}
+/* Specific list type (upper-alpha-numeric letters) */
+.qtions {
+	list-style-type: upper-alpha;
+}
+/* End List styles */
+
+/*** Specific table styles ***/
+table#ebrp, table#all_ebrp, table#speakers_ebrp {
+	border: 1px solid #9999;
+	border-collapse: collapse;
+	margin: 0 auto 1em;
+	max-width: 100%;
+}
+table#ebrp caption {
+	text-align: left;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 1em 0 .5em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+table#ebrp p, table#all_ebrp p, table#speakers_ebrp p {
+	margin-left: 1.5em;
+	margin-right: 1em;
+}
+table#ebrp ol, table#all_ebrp ol, table#speakers_ebrp ol {
+	padding-left: 0;
+	margin-right: 1em;
+}
+/* End Specific table styles */
+
+/*** Positioning for module on /cfs/toolkit/diagnosis.html ***/
+#toolkit-a {
+	position: relative;
+	top: -80px;
+}
+#toolkit-a ol {
+	padding-left: 1em;
+}
+#toolkit-a ol li {
+	border-bottom: none;
+	list-style-type: decimal;
+	margin-bottom: 0.7em;
+	margin-top: 0.7em;
+	margin-left: 1.5em;
+}
+#toolkit-a ul li {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+/* End Positioning for module on /cfs/toolkit/diagnosis.html */
+
+/*** Misc ***/
+/* Text underline */
+.under {
+	text-decoration: underline;	
+}
+/* Reference text and other misc, with italic */
+.smit {
+	color: #333333;
+	font-style: italic;
+	font-size: .9em;
+}
+/* Reference text */
+.smallertxt {
+	font-size: .9em;
+	color: #333333;
+}
+/*Publications Authors/Journal Information h2s*/
+.pubtop {
+	font-size: 1.3em !important;
+}
+/* text centered */
+.centertxt {
+	text-align: center;
+}
+/* CME course content link */
+.cc_link {
+	font-size: 1.4em;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	display: block;
+}
+/* Additional margin for some h2s */
+.buffer {
+	margin-bottom: 10px;
+}
+/* Mailing Request Form */
+#print-request-form p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#english {
+	margin-bottom: 10px;
+}
+#submit {
+	margin-top: 3em;
+}
+/* End Misc */
+#local-languages {
+	border-top: 1px solid #CDCDCD;
+	margin-top: 3px;
+}
+.subbullet li {
+	background: url("https://www.cdc.gov/cfs/images/sub-bullet.png") no-repeat scroll 0.3em 0.65em transparent;
+	display: block;
+	list-style: none outside none;
+	margin: 0;
+	padding: 3px 0 3px 1.25em;
+	position: relative;
+}
+.subbullet li a {
+	display: inline !important;
+}
+.new {
+	color: #FF0000;
+}
+#archival {
+	background: url("https://www.cdc.gov/cfs/images/historical_archive_watermark.gif") repeat scroll 0 0 transparent;	
+}
+#archivedbox {
+	background: none repeat scroll 0 0 #FFF9B2;
+	border: 1px solid #000000;
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 10px;	
+}
+.c50c {
+	width: 50%;
+	margin: 0 auto;	
+}
+.c75c {
+	width: 75%;
+	margin: 0 auto;	
+}
+.c90c {
+	width: 90%;
+	margin: 0 auto;	
+}
+.number-list {
+	background: none !important;
+	list-style-type: decimal !important;
+	list-style-position: inside !important;
+	padding-left: 1.25em !important;
+	padding-right: 1.25em !important;
+}
+table#pcoca th, table#pcoca td {
+	padding: 7px;
+	border-color: #3D316A;
+}
+table#pcoca thead {
+	background: #F0EFF7;	
+	color: #3D316A;
+	font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1.3em;
+}
+table#pcoca tbody th {
+	color: #3D316A;
+	font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1.3em;
+}
+table#pcoca caption {
+	color: #3D316A;
+	font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1.6em;
+}
+.bullet-list ol li {
+	/*list-style-type:decimal;	*/
+}

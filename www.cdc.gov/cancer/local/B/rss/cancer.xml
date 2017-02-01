@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="cancer.xsl"?>-->
+<rss version="2.0">
+    <channel>
+        <title>CDC Cancer News</title>
+        <description>News from CDC's Division of Cancer Prevention and Control</description>
+        <link>http://www.cdc.gov/cancer/</link>
+        <language>en-us</language>
+        <webMaster>nccdcpcinfo@cdc.gov</webMaster>
+        <category>Chronic Diseases</category>
+        <category>Public Health</category>
+        <category>Prevention</category>
+        <category>Publications</category>
+        <category>Funding Announcements</category>
+        <category>Surveillance</category>
+        <category>Research</category>
+
+<item>
+		<title>NPCR Public Use Databases</title>
+		<description>The databases include cancer incidence and population data for 45 states and the District of Columbia, providing information on 94.5% of the U.S. population.</description>
+		<link>https://www.cdc.gov/cancer/npcr/public-use/</link>
+		<pubDate>Tue, 25 Jan 2017 15:00 EST</pubDate>		
+</item>
+
+<!--item>
+		<title>New Hampshire Colorectal Cancer Screening Program Patient Navigation Model</title>
+		<description>This manual provides specific information and tools to replicate the NHCRCSP patient navigation model. Any organization that conducts colorectal cancer screening or administers a colonoscopy program may benefit from implementing this intervention.</description>
+		<link>https://www.cdc.gov/cancer/crccp/pn-replication-manual.htm</link>
+		<pubDate>Thu, 12 Jan 2017 09:00 EST</pubDate>		
+</item-->
+<item>
+		<title>2017 CDC National Cancer Conference</title>
+		<description>The 2017 CDC National Cancer Conference will be held on August 14-16, 2017, in Atlanta. Co-sponsored by the National Association of Chronic Disease Directors, the conference is an excellent opportunity to network with cancer control partners from around the country.</description>
+		<link>https://www.cdc.gov/cancer/conference/</link>
+		<pubDate>Tue, 10 Jan 2017 08:00 EST</pubDate>		
+</item>
+<item>
+		<title>State of the Science on Melanoma Prevention and Screening</title>
+		<description>This monograph provides information on the costs of running cancer registries in five of the low- and middle-income countries in which CDC's International Registry Costing Tool was tested.</description>
+		<link>https://www.cdc.gov/cancer/dcpc/research/articles/melanoma_rise.htm</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Policies and Practices for Cancer Prevention and Survivorship: Physical Activity</title>
+		<description>Strong evidence suggests that physical activity reduces the risk of several cancers. In addition to helping prevent cancer, physical activity is also important for cancer survivors. This promising practices brief lists strategies that work for increasing physical activity.</description>
+		<link>https://www.cdc.gov/cancer/dcpc/prevention/policies_practices/physical_activity/</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Costing Tool for International Cancer Registries Podcast</title>
+		<description>Health economist Dr. Florence Tangka talks about a new tool for estimating how much it costs to run cancer registries in developing countries.</description>
+		<link>https://www2c.cdc.gov/podcasts/player.asp?f=8644276</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Updated: Screening for Colorectal Cancer: Optimizing Quality (CME)</title>
+		<description>This continuing education activity provides guidance and tools for clinicians on the optimal ways to implement screening for colorectal cancer to help ensure that patients receive maximum benefit. It has been revised to reflect the U.S. Preventive Services Task Force's 2016 Recommendation Statement for colorectal cancer screening.</description>
+		<link>https://www.cdc.gov/cancer/colorectal/quality/</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Developing a Cost Data Collection Tool for Cancer Registry Planning</title>
+		<description>This monograph provides information on the costs of running cancer registries in five of the low- and middle-income countries in which CDC's International Registry Costing Tool was tested.</description>
+		<link>https://www.cdc.gov/cancer/dcpc/research/articles/collection_tool_registry_planning.htm</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Blog Post: Tribal Policies Help Set Smoke-Free Standard</title>
+		<description>Smoke-free spaces help people quit abusing tobacco—a particularly important outcome in Fond du Lac, where more than half of tribal members smoke cigarettes. This project helped create a community norm that celebrates healthy environments.</description>
+		<link>http://blogs.cdc.gov/cancer/2016/11/16/tribal-policies-help-set-smoke-free-standard/</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Vital Signs: Cancer and Tobacco Use</title>
+		<description>Tobacco use is the leading preventable cause of cancer and cancer deaths. It can cause not only lung cancer, but also cancers of the mouth and throat, voice box, esophagus, stomach, kidney, pancreas, liver, bladder, cervix, colon and rectum, and a type of leukemia.</description>
+		<link>https://www.cdc.gov/vitalsigns/cancerandtobacco/</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Tobacco and Cancer</title>
+		<description>Smoking tobacco products (including cigarettes and cigars) causes almost nine of every ten cases of lung cancer, and can cause cancer almost anywhere in your body.</description>
+		<link>https://www.cdc.gov/cancer/tobacco/</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Caring for Cancer Survivors Who Use Tobacco</title>
+		<description>Cigarette smoking not only causes cancer, but also can negatively impact cancer treatment and survival.</description>
+		<link>https://www.cdc.gov/cancer/survivorship/basic_info/health-care-pros/tobacco-use.htm</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Lung Cancer Survivorship Podcast</title>
+		<description>A non-smoker shares her story about diagnosis, treatment, and community support.</description>
+		<link>https://www2c.cdc.gov/podcasts/player.asp?f=8643967</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>CDC Expert Commentary on Medscape: Early Detection Means It's a Promising Time for Lung Cancer</title>
+		<description>Dr. Lisa Richardson, director of CDC's Division of Cancer Prevention and Control, talks about yearly lung cancer screening for people who have a high risk.</description>
+		<link>http://www.medscape.com/viewarticle/870462</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Anxiety and Depression Medicine Use Among Cancer Survivors</title>
+		<description>Cancer survivors in the United States take medicine for anxiety or depression at about twice the rate of people without a history of cancer.</description>
+		<link>https://www.cdc.gov/cancer/dcpc/research/articles/anxiety_dep_med_survivors.htm</link>
+		<pubDate>Mon, 28 Nov 2016 13:00 EST</pubDate>		
+</item>
+<item>
+		<title>Cancer Prevention During Early Life</title>
+		<description>CDC sponsored a journal supplement about factors from before birth through early childhood that may affect a person’s chance of getting cancer. Research suggests that we can take steps today to protect the health of babies and young children, and reduce their chances of getting cancer in the future.</description>
+		<link>https://www.cdc.gov/cancer/dcpc/prevention/childhood.htm</link>
+		<pubDate>Tue, 1 Nov 2016 10:00 EDT</pubDate>		
+</item>
+<item>
+		<title>New CDC Study Shows Changes in Breast Cancer Death Rates by Age Group</title>
+		<description>Breast cancer death rates among women decreased during 2010-2014, but racial differences persisted, according to a study by the Centers for Disease Control and Prevention (CDC) in this week’s Morbidity and Mortality Weekly Report.</description>
+		<link>https://www.cdc.gov/media/releases/2016/p1013-breast-cancer-death-rates.html</link>
+		<pubDate>Thu, 13 Oct 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>A Young Breast Cancer Survivor Shares Her Story in a Blog Post</title>
+		<description>When Pam Bryant was diagnosed with breast cancer at only 43 years old, she was disappointed, but not surprised. Several close family members had been diagnosed with breast cancer at an early age.</description>
+		<link>http://blogs.cdc.gov/cancer/2016/09/27/breast-cancer-survivorship-pams-story/</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>A Young Breast Cancer Survivor Talks About Her Journey Through Treatment and Survivorship in a Podcast</title>
+		<description>"Because of my family history, I'm at high risk." Breast cancer survivor Pam Bryant shares her story.</description>
+		<link>https://www2c.cdc.gov/podcasts/player.asp?f=8643571</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Social Media Images Invite Your Followers to Learn About Breast Cancer</title>
+		<description>You can share these fun new images through social media or on your Web site, social network profile, or blog to invite your followers to visit CDC's Breast Cancer Web site to learn about breast cancer.</description>
+		<link>https://www.cdc.gov/cancer/breast/buttons.htm</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Matte Article About Breast Cancer</title>
+		<description>This article (PDF) is ready to give to any media outlet.</description>
+		<link>http://www.cdc.gov/cancer/breast/pdf/matte-article-breast-cancer.pdf</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Test Your Inside Knowledge with a Quiz About Gynecologic Cancers</title>
+		<description>How much do you know about gynecologic cancers? Take this quick quiz from CDC's Inside Knowledge campaign to find out!</description>
+		<link>https://www.cdc.gov/cancer/knowledge/quiz/</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Gynecologic Cancer Symptoms Posters</title>
+		<description>CDC's Inside Knowledge: Get the Facts About Gynecologic Cancer campaign has posters highlighting an updated gynecologic cancer symptoms chart.</description>
+		<link>https://www.cdc.gov/cancer/knowledge/publications/posters.htm</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Shareable Images Quote Gynecologic Cancer Survivors</title>
+		<description>CDC's Inside Knowledge: Get the Facts About Gynecologic Cancer campaign offers six images to share on your Web site or social media. They feature quotes from gynecologic cancer survivors.</description>
+		<link>https://www.cdc.gov/cancer/knowledge/buttons.htm</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Lung Cancer Survivors May Feel Blame</title>
+		<description>People with lung cancer who used to or still smoke often feel that others see their smoking as a weakness, and that the smoker should have stopped sooner or never started. Some lung cancer survivors may also blame themselves and feel guilty about smoking.</description>
+		<link>https://www.cdc.gov/cancer/dcpc/research/articles/lung_cancer_surv.htm</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Schools Can Help Prevent Skin Cancer</title>
+		<description>This article summary explains how schools can play an important part in protecting children and teens from sun exposure that can lead to skin cancer in the future.</description>
+		<link>https://www.cdc.gov/cancer/dcpc/research/articles/skin_prev_schools.htm</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>A Rural Community Overcomes Barriers to Colorectal Cancer Screening</title>
+		<description>"As a personal champion for screening colonoscopies, I used my own story, along with stories of people under the age of 50 in our community who had gone through colonoscopies, in order to encourage our patients to get screened," write Dr. Van S. Breeding in this blog post.</description>
+		<link>http://blogs.cdc.gov/cancer/2016/09/07/community-overcomes-screening-barriers/</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Study of Women's Perceived and Actual Risk of Getting Cancer</title>
+		<description>Researchers wanted to understand the factors that influence a woman's beliefs about her risk of getting cancer and how they may affect the decisions she makes about her health care.</description>
+		<link>https://www.cdc.gov/cancer/dcpc/research/articles/perceived-actual-risk.htm</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>CDC Helps "Shoot for the Moon"</title>
+		<description>Dr. Lisa Richardson, Director of CDC's Division of Cancer Prevention and Control, explains the part CDC will play in the Cancer Moonshot in this blog post.</description>
+		<link>http://blogs.cdc.gov/cancer/2016/08/03/cdc-helps-shoot-for-the-moon/</link>
+		<pubDate>Wed, 28 Sep 2016 13:00 EDT</pubDate>		
+</item>
+<item>
+		<title>Colorectal Cancer Control Program: Increasing Screening to Save Lives fact sheet</title>
+		<description>CDC's Colorectal Cancer Control Program (CRCCP) works with health systems, including clinics, hospitals, and other health care organizations, to use and strengthen strategies that have been shown to work to improve quality screening.</description>
+		<link>https://www.cdc.gov/cancer/crccp/pdf/crccp_factsheet_savinglives.pdf</link>
+		<pubDate>Mon, 2 Aug 2016 10:00 EDT</pubDate>		
+</item>
+
+<item>
+		<title>2016 Skin Cancer Prevention Progress Report</title>
+		<description>The second annual Skin Cancer Prevention Progress Report provides a comprehensive summary of the most recent data available and highlights developments and success stories following the Call to Action and since the release of the 2015 Progress Report.</description>
+		<link>https://www.cdc.gov/cancer/skin/what_cdc_is_doing/progress_report.htm</link>
+		<pubDate>Mon, 11 Jul 2016 15:00 EDT</pubDate>		
+</item>
+
+<item>
+		<title>HPV Prevention podcast</title>
+		<description>Human papillomavirus, or HPV, is a virus that can cause certain cancers and is the most commonly sexually transmitted infection in the U.S. In this podcast, Dr. Laura Viens discusses the importance of getting vaccinated against HPV.</description>
+		<link>https://www2c.cdc.gov/podcasts/player.asp?f=8642724</link>
+		<pubDate>Thu, 07 Jul 2016 15:00 EDT</pubDate>		
+</item>
+
+<item>
+		<title>United States Cancer Statistics 2013 Data Released</title>
+		<description>The 2016 United States Cancer Statistics report indicates in 2013 (the most recent year of incidence data available), 1,536,119 Americans received a new diagnosis of invasive cancer† and 584,872 Americans died from this disease.</description>
+		<link>https://nccd.cdc.gov/uscs/</link>
+		<pubDate>Thu, 7 Jul 2016 14:00 EDT</pubDate>
+</item>
+<item>
+		<title>HPV-Associated Cancer Statistics Updated</title>
+		<description>Based on data from 2008 to 2012, about 38,793 HPV-associated cancers occur in the United States each year: about 23,000 among women, and about 15,793 among men.</description>
+		<link>https://www.cdc.gov/cancer/hpv/statistics/</link>
+		<pubDate>Thu, 7 Jul 2016 14:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Cervical Cancer Survivor Stories</title>
+		<description>Janna, Kristina, and Rose share their stories with CDC's Inside Knowledge: Get the Facts About Gynecologic Cancer campaign.</description>
+		<link>http://www.cdc.gov/cancer/knowledge/survivor_stories/cervical_stories.htm</link>
+		<pubDate>Tue, 28 Jun 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Cheat Sheet for Men's Cancer Screenings and Good Health</title>
+		<description>Overwhelmed by too many health tips? CDC's Dr. Lisa Richardson provides a "cheat sheet" for men's cancer screenings.</description>
+		<link>http://blogs.cdc.gov/cancer/2016/06/13/mens-cancer-screening-cheat-sheet/</link>
+		<pubDate>Mon, 13 Jun 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Article summary: Women's Perceived and Actual Risk of Getting Cancer</title>
+		<description>Researchers wanted to understand the factors that influence a woman's beliefs about her risk of getting cancer and how they may affect the decisions she makes about her health care.</description>
+		<link>http://www.cdc.gov/cancer/dcpc/research/articles/perceived-actual-risk.htm</link>
+		<pubDate>Wed, 8 Jun 2016 08:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Article summary: Colorectal Cancer Screening Capacity in the United States</title>
+		<description>This study found that the U.S. health care system has the capacity to screen 80% of adults between ages 50 and 74 for colorectal cancer by 2024.</description>
+		<link>http://www.cdc.gov/cancer/dcpc/research/articles/crc_screening_model.htm</link>
+		<pubDate>Wed, 8 Jun 2016 08:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Screening for Prostate Cancer (PDF)</title>
+		<description>Provides an overview of prostate cancer screening tests and treatment options.</description>
+		<link>http://www.cdc.gov/cancer/prostate/pdf/prostate_screening.pdf</link>
+		<pubDate>Wed, 8 Jun 2016 08:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Preventing Skin Cancer Podcast</title>
+		<description>Two people talk about how they've learned to protect their skin from the sun.</description>
+		<link>http://www2c.cdc.gov/podcasts/player.asp?f=8642077</link>
+		<pubDate>Thu, 26 May 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>The Great Outdoors 30-Second Public Service Announcement</title>
+		<description>A man and a woman are getting ready for a hike. The woman reminds him about sun protection.</description>
+		<link>http://www2c.cdc.gov/podcasts/player.asp?f=8642075</link>
+		<pubDate>Thu, 26 May 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>An Ounce of Protection is Worth a Pound of Cure 60-Second Public Service Announcement</title>
+		<description>A man and a woman are talking about being outside, and the woman reminds him to protect his skin to keep from getting burned again.</description>
+		<link>http://www2c.cdc.gov/podcasts/player.asp?f=8642074</link>
+		<pubDate>Thu, 26 May 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Friends Look Out for Each Other Podcast</title>
+		<description>Two women talk about how cancer screening affects their lives.</description>
+		<link>http://www2c.cdc.gov/podcasts/player.asp?f=8642076</link>
+		<pubDate>Thu, 26 May 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Preventing Cancer for CDC – and for Me Matte Article</title>
+		<description>This article is free to use in any publication. CDC's Dr. Lisa Richardson talks about the cancer screening tests she had recently, and other ways she lowers her cancer risk. (PDF)</description>
+		<link>http://www.cdc.gov/media/pdf/subtopic/matte/diseases-conditions/preventing-cancer-cdc.pdf</link>
+		<pubDate>Thu, 26 May 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Cheat Sheet for Women's Cancer Screenings and Good Health</title>
+		<description>Overwhelmed by too much health advice? CDC's Dr. Lisa Richardson provides a "cheat sheet" for women's cancer screenings.</description>
+		<link>http://blogs.cdc.gov/cancer/2016/05/16/womens-cancer-screening-cheat-sheet/</link>
+		<pubDate>Thu, 26 May 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Sun Safety Tips for Men</title>
+		<description>Men, especially those with lighter skin, are more likely than anybody else to get skin cancer. You can have fun and prevent skin cancer, too.</description>
+		<link>http://www.cdc.gov/cancer/skin/tips-for-men.htm</link>
+		<pubDate>Mon, 16 May 2016 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Share Your Story App</title>
+		<description>CDC's Share Your Story app lets you create badges to share on social media.</description>
+		<link>https://nccd.cdc.gov/DCPC_SYS/</link>
+		<pubDate>Mon, 16 May 2016 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Take Action to Lower Your Breast and Ovarian Cancer Risk Infographics</title>
+		<description>Knowing your cancer risk and being proactive about your health may help you take steps to lower your risk for getting breast or ovarian cancer, or find it at an early stage.</description>
+		<link>http://www.cdc.gov/cancer/breast/young_women/bringyourbrave/resources/infographics/</link>
+		<pubDate>Mon, 16 May 2016 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>What Are the Benefits and Risks of Cancer Screening?</title>
+		<description>Every screening test has benefits and risks, which is why it's important to talk to your doctor before getting any screening test.</description>
+		<link>http://www.cdc.gov/cancer/breast/basic_info/benefits-risks.htm</link>
+		<pubDate>Mon, 16 May 2016 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Frequently Asked Questions About Cancer for Native Americans and Alaska Natives (PDF)</title>
+		<description>Native Americans and Alaska Natives get most kinds of cancer at lower rates than white people. But rates of stomach, liver, cervix, kidney, and gallbladder cancers are higher among these groups.</description>
+		<link>http://www.cdc.gov/cancer/healthdisparities/pdf/cancer-aian.pdf</link>
+		<pubDate>Wed, 20 Apr 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Public Health Grand Rounds: Cancer and Family History: Using Genomics for Prevention</title>
+		<description>In this session of Public Health Grand Rounds, you will hear how public health agencies and organizations are evolving in the face of the rapidly growing field of genomics. You will also hear how one woman's personal experience with a hereditary cancer syndrome led her to become an advocate for patient and provider education.</description>
+		<link>http://www.cdc.gov/cdcgrandrounds/archives/2016/april2016.htm</link>
+		<pubDate>Tue, 19 Apr 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Health Tips for Men about Prostate Cancer: What You Can Do (PDF)</title>
+		<description>Most prostate cancers grow slowly and don't cause any health problems in men who have them. This tip sheet describes prostate cancer screening tests, lists treatment options and possible side effects, and provides questions to ask your doctor.</description>
+		<link>http://www.cdc.gov/cancer/prostate/pdf/prostate_health_tips.pdf</link>
+		<pubDate>Mon, 11 Apr 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Video: Cancer Incidence and Mortality Through 2020</title>
+		<description>In this video abstract, CDC epidemiologist Dr. Hannah Weir talks about her work to project the number of new cancer cases and deaths to the year 2020. Cancer rates are decreasing or stabilizing, but the number of cancer cases and deaths will continue to increase. Dr. Weir discusses why we still have work to do to prevent, screen, and treat cancers.</description>
+		<link>https://youtu.be/MJp4IfboItw</link>
+		<pubDate>Mon, 14 Mar 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Annual Report to the Nation on the Status of Cancer, 1975-2012</title>
+		<description>Death rates continued to decline for all cancers combined, as well as for most cancer sites for men and women of all major racial and ethnic populations. In contrast, death rates due to liver cancer have increased the most compared with all cancer sites, and liver cancer incidence rates have also increased sharply.</description>
+		<link>http://www.cdc.gov/cancer/dcpc/research/articles/arn_7512.htm</link>
+		<pubDate>Wed, 9 Mar 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: I Have Liver Cancer, But You Don't Have To</title>
+		<description>Gary didn't know he had hepatitis C until he was diagnosed with liver cancer.</description>
+		<link>http://blogs.cdc.gov/cancer/2016/03/09/liver-cancer/</link>
+		<pubDate>Wed, 9 Mar 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Cancer: Planning for the Future Video</title>
+		<description>Cancer will soon become the leading cause of death in the United States. As we plan for the future, we have to ask some hard questions.</description>
+		<link>https://youtu.be/h7GBxZ9oSPI</link>
+		<pubDate>Wed, 24 Feb 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: The Global Challenge of Cancer</title>
+		<description>CDC's Hilda Razzaghi shares some of her experiences helping to set up a cancer registry in the U.S. Virgin Islands. "Many of the patients who were diagnosed with cancer left the islands for treatment due to cultural stigma as well as limited financial resources," she writes.</description>
+		<link>http://blogs.cdc.gov/cancer/2016/02/02/the-global-challenge-of-cancer/</link>
+		<pubDate>Tue, 2 Feb 2016 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>CDC Responds to Broad Challenges Facing U.S. Cancer Survivors</title>
+		<description>A supplement to the American Journal of Preventive Medicine, "Addressing Cancer Survivorship through Public Health Research, Surveillance, and Programs," concludes that concrete plans are needed to ensure that the U.S. health care system can meet survivors' future needs.</description>
+		<link>http://www.cdc.gov/media/releases/2015/p1118-cancer-survivors.html</link>
+		<pubDate>Wed, 18 Nov 2015 17:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: My Personal Prescription for Surviving Cancer</title>
+		<description>George Hilliard had already survived two kinds of cancer when his doctor told him he had prostate cancer. He began his journey back to health by relying on his support network and positive attitude.</description>
+		<link>http://blogs.cdc.gov/cancer/2015/11/18/my-prescription-for-surviving-cancer/</link>
+		<pubDate>Wed, 18 Nov 2015 13:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Cancer and Alcohol Infographic</title>
+		<description>Drinking alcohol raises the risk of some cancers.</description>
+		<link>http://www.cdc.gov/cancer/dcpc/resources/infographic-alcohol.htm</link>
+		<pubDate>Tue, 17 Nov 2015 10:00 EST</pubDate>
+</item>
+
+<item>
+		<title>CDC Researchers Link Cancer Cells from Tapeworm to Human Tumors</title>
+		<description>CDC scientists have discovered cancer cells originating in a common tapeworm may take root in people with weakened immune systems, causing cancer-like tumors. It is the first known case of a person becoming ill from cancer cells that arose in a parasite.</description>
+		<link>http://www.cdc.gov/media/releases/2015/p1104-parasite-tumors.html</link>
+		<pubDate>Thu, 5 Nov 2015 10:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: Chemotherapy's Most Serious Side Effect</title>
+		<description>Dr. Lisa Richardson, director of CDC's Division of Cancer Prevention and Control, shares what she tells her patients and friends when they ask about the side effects of chemotherapy.</description>
+		<link>http://blogs.cdc.gov/cancer/2015/11/04/chemotherapy-most-serious-side-effect/</link>
+		<pubDate>Thu, 5 Nov 2015 10:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Provider Continuing Education (CE) on Preventing Infections in Cancer Patients</title>
+		<description>Strategies for Improving Infection Control During Cancer Care is a continuing education course for providers who care for patients undergoing cancer treatment.</description>
+		<link>http://www.medscape.org/viewarticle/846397</link>
+		<pubDate>Wed, 4 Nov 2015 10:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Provider Continuing Education (CE) on Gynecologic Cancers</title>
+		<description>The Gynecologic Cancer Curriculum was developed to provide information and recommendations for symptom identification, screening and referral practices, and related care to primary health care providers.</description>
+		<link>http://www.cdc.gov/cancer/knowledge/provider-education/</link>
+		<pubDate>Wed, 28 Oct 2015 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: Being a Cancer Survivor Reminds Me Life Is Precious</title>
+		<description>Traci Ramirez, breast cancer survivor: "It hasn't been easy. I've gone through bouts of fear, anxiety, and disappointment on my way back to wellness. ... On the other hand, I have been able to regain my happy life. My diagnosis has given me a greater appreciation for life."</description>
+		<link>http://blogs.cdc.gov/cancer/2015/10/15/breast-cancer-survivor/</link>
+		<pubDate>Thu, 15 Oct 2015 17:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Survivorship Stories for Bring Your Brave Campaign</title>
+		<description>Learn more about breast cancer in young women and understanding your risk for breast cancer by hearing from eight women whose lives have been deeply affected by breast cancer.</description>
+		<link>http://www.cdc.gov/cancer/breast/young_women/bringyourbrave/stories/</link>
+		<pubDate>Thu, 15 Oct 2015 17:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Inside Knowledge Campaign Public Service Announcements</title>
+		<description>Actress Cote de Pablo was busy and delayed getting a Pap test. She talks about what happened when she was finally tested. "Are You Listening?" PSAs focus on why it's important to listen when your body tells you something may be wrong.</description>
+		<link>http://www.cdc.gov/cancer/knowledge/psa.htm</link>
+		<pubDate>Wed, 7 Oct 2015 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>CDC Awards $22,800,000 to Increase Colorectal Cancer Screening</title>
+		<description>CDC awarded $22,800,000 to 24 state health departments, six universities, and one American Indian tribe to increase colorectal screening rates among men and women aged 50 to 75 years.</description>
+		<link>http://www.cdc.gov/media/releases/2015/p0930-cancer-screening.html</link>
+		<pubDate>Wed, 30 Sep 2015 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>United States Cancer Statistics 2012 Data Released</title>
+		<description>The most recent release of the United States Cancer Statistics: 1999-2012 Incidence and Mortality Web-based Report (USCS) is available. The current report includes cancer cases diagnosed (incidence) and cancer deaths (mortality) that occurred from 1999 through 2012.</description>
+		<link>http://www.cdc.gov/uscs</link>
+		<pubDate>Mon, 24 Aug 2015 16:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Policies and Practices for Cancer Prevention: Reducing Excessive Alcohol Use</title>
+		<description>Alcohol use increases the risk of several cancers. This publication provides information about alcohol use among young people and adults and potential strategies for reducing excessive alcohol use in your community.</description>
+		<link>http://www.cdc.gov/cancer/dcpc/prevention/policies_practices/alcohol/</link>
+		<pubDate>Mon, 24 Aug 2015 16:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Many Teens Are Not Getting the HPV Vaccine</title>
+		<description>4 out of 10 adolescent girls and 6 out of 10 adolescent boys have not started the recommended HPV vaccine series, leaving them vulnerable to cancers caused by HPV infections.</description>
+		<link>http://www.cdc.gov/media/releases/2015/p0730-hpv.html</link>
+		<pubDate>Thu, 30 Jul 2015 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Skin Cancer Prevention Progress Report</title>
+		<description>This report summarizes recent prevention efforts and highlights new data, developments, and success stories during the year following publication of the Surgeon General's Call to Action to Prevent Skin Cancer.</description>
+		<link>http://www.cdc.gov/cancer/skin/what_cdc_is_doing/progress_report.htm</link>
+		<pubDate>Thu, 30 Jul 2015 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Injection Safety Reminders for Oncology Providers</title>
+		<description>Clinicians must arm themselves with not only knowledge of the treatment regimens, but they must also possess the knowledge, skill, and critical thinking surrounding safe injection and administration practices.</description>
+		<link>http://blogs.cdc.gov/safehealthcare/2015/07/16/point-on-protection-safety-first-for-oncology-health-care-professionals-and-our-patients/</link>
+		<pubDate>Mon, 20 Jul 2015 15:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Vital Signs: Communities Play a Vital Role in Preventing Melanoma</title>
+		<description>Skin cancer is the most common kind of cancer in the United States, and melanoma is the deadliest kind of skin cancer. Between 1982 and 2011, the rate of getting melanoma doubled. Community skin cancer prevention programs could prevent about 21,000 melanoma skin cancers and save about $250 million in treatment costs each year.</description>
+		<link>http://www.cdc.gov/VitalSigns/melanoma/</link>
+		<pubDate>Tue, 2 Jun 2015 13:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Many People Are Not Getting Recommended Cancer Screening Tests</title>
+		<description>Among adults in the age groups recommended for screening, about 1 in 5 women reported not being up-to-date with cervical cancer screening, about 1 in 4 women reported not being up-to-date with breast cancer screening, and about 2 in 5 adults reported not being up-to-date with colorectal cancer screening.</description>
+		<link>http://www.cdc.gov/media/releases/2015/p0507-cancer-screening.html</link>
+		<pubDate>Thu, 7 May 2015 13:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Bring Your Brave Campaign Launched</title>
+		<description>Bring Your Brave tells real stories about young women whose lives have been affected by breast cancer. The campaign's focus is to educate women between ages 18 and 44 about breast health and breast cancer risk. It also aims to encourage women to learn their family history of cancer so they can have an informed understanding of ways to manage their risk. Young women who believe that they may be at a higher risk for getting breast cancer are encouraged to speak to their health care provider.</description>
+		<link>http://www.cdc.gov/bringyourbrave/</link>
+		<pubDate>Tue, 5 May 2015 14:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: "A Tan Is Not a Sign of Health"</title>
+		<description>"I learned the hard way," writes Sharon McKenna, a melanoma survivor and sun safety manager with the Arizona Department of Health Services. "To date, I've undergone 28 biopsies and had three melanomas surgically removed. ... I still had a visible tan line two months after my first melanoma surgery. I was embarrassed and viewed my tan as a badge of shame. I apologized to the melanoma surgical team during anesthesia. But I learned that knowledge is power."</description>
+		<link>http://blogs.cdc.gov/cancer/2015/04/28/a-tan-is-not-a-sign-of-health/</link>
+		<pubDate>Tue, 28 Apr 2015 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Public Health Grand Rounds: Prevention and Control of Skin Cancer</title>
+		<description>On April 21, a panel of experts discussed how health care providers, community partners, and business and government leaders can work together to help people protect their skin and their lives while enjoying the outdoors.</description>
+		<link>http://www.cdc.gov/cdcgrandrounds/archives/2015/april2015.htm</link>
+		<pubDate>Tue, 21 Apr 2015 13:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Puerto Rico Has Lower Rates of New Cases of Lung and Breast Cancer Than the Rest of the U.S.</title>
+		<description>Puerto Rico has the lowest incidence rate of new lung cancer compared with all other races and ethnic groups in the United States, according to a CDC study. The report also shows that Puerto Rico has a lower incidence rate of female breast cancer compared with U.S. non-Hispanic white and black women.</description>
+		<link>http://www.cdc.gov/media/releases/2015/p0416-puerto-rico-breast-cancer.html</link>
+		<pubDate>Thu, 16 Apr 2015 13:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Analysis of Breast Cancer Subtypes Could Lead to Better Risk Stratification</title>
+		<description>For the first time, researchers have used national data to determine the incidence of the four major molecular subtypes of breast cancer by age, race/ethnicity, poverty level, and several other factors.</description>
+		<link>http://www.cdc.gov/media/releases/2015/p0330-breast-cancer.html</link>
+		<pubDate>Mon, 30 Mar 2015 16:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Two Out of Three People with Invasive Cancer Survive Five Years or More</title>
+		<description>A report found that the most common cancer sites continue to be the prostate, female breast, lung, and colon and rectum. Among these common cancer sites, five-year relative survival was 97% for prostate cancer, 88% for breast cancer, 63% for colorectal cancer, and 18% for lung cancer.</description>
+		<link>http://www.cdc.gov/media/releases/2015/p0312-cancer-survivors.html</link>
+		<pubDate>Thu, 12 Mar 2015 13:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Screening for Colorectal Cancer: Optimizing Quality (CME)</title>
+		<description>These continuing education courses provide guidance and tools for clinicians on the optimal ways to implement screening for colorectal cancer to help ensure that patients receive maximum benefit. There are two versions of this course: one for primary care providers and one for clinicians who perform colonoscopy. Continuing education is available for both versions.</description>
+		<link>http://www.cdc.gov/cancer/colorectal/quality/</link>
+		<pubDate>Mon, 9 Mar 2015 13:00 EST</pubDate>
+</item>
+
+<item>
+		<title>International Cancer Control Site Launched</title>
+		<description>Cancer is the second leading cause of death worldwide. In 2012, more than 14 million new cases of cancer were diagnosed around the world. That number is expected to reach 19 million by 2025. We could prevent at least one-third of the 8 million annual cancer deaths through screening tests, vaccinations, and lifestyle changes such as quitting smoking. CDC is working with partners to improve coordination of cancer prevention and control programs globally and reduce the cancer burden in low- and middle- income countries.</description>
+		<link>http://www.cdc.gov/cancer/international/</link>
+		<pubDate>Thu, 29 Jan 2015 11:00 EST</pubDate>
+</item>
+
+<item>
+		<title>U.S. Skin Cancer Costs Rise from 2002 Through 2011</title>
+		<description>The costs associated with skin cancer increased five times as fast as treatments for other cancers between 2002 and 2011, according to a new CDC study.</description>
+		<link>http://www.cdc.gov/media/releases/2014/p1110-skin-cancer.html</link>
+		<pubDate>Mon, 10 Nov 2014 00:01 EST</pubDate>
+</item>
+
+<item>
+		<title>Vital Signs: Cervical Cancer Is Preventable</title>
+		<description>More than 12,000 women in the United States get cervical cancer every year, even though up to 93% of these cancers could be prevented by screening and HPV (human papillomavirus) vaccination. Learn what can be done to reduce the burden of cervical cancer.</description>
+		<link>http://www.cdc.gov/vitalsigns/cervical-cancer/</link>
+		<pubDate>Tue, 5 Nov 2014 13:00 EST</pubDate>
+</item>
+
+<item>
+		<title>United States Cancer Statistics: 1999-2011 Released</title>
+		<description>Each year of data includes more than 1 million cases of invasive cancer, including about 14,000 cases among children younger than 20 years, and more than 500,000 deaths from cancer. In the United States in 2011, ﻿1,532,066 people were diagnosed with cancer, and ﻿576,685 people died from it.</description>
+		<link>http://nccd.cdc.gov/uscs/</link>
+		<pubDate>Tue, 2 Sep 2014 15:30 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: Family Trees and Family Ties: Can Family Communication Increase Breast Cancer Screening and Monitoring?</title>
+		<description>"This story shows key issues about the role of family ties in breast cancer monitoring and risk assessment. Do family members share important health information with each other? Do family members encourage each other to be screened for breast cancer as recommended?"</description>
+		<link>http://blogs.cdc.gov/cancer/2014/08/25/family_trees/</link>
+		<pubDate>Wed, 26 Aug 2014 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Promising Practices Brief: Indoor Tanning Among Minors</title>
+		<description>Skin cancer is the most common form of cancer in the United States. Indoor tanning increases skin cancer risk. The risk of skin cancer increases with each indoor tanning session and is highest among those who start tanning at a younger age.</description>
+		<link>http://www.cdc.gov/cancer/dcpc/prevention/policies_practices/indoor_tanning/</link>
+		<pubDate>Tue, 12 Aug 2014 09:35 EDT</pubDate>
+</item>
+
+<item>
+		<title>Journal Supplement: "National Breast and Cervical Cancer Early Detection Program: Two Decades of Service to Underserved Women"</title>
+		<description>The Cancer supplement contains 13 new papers evaluating aspects of the NBCCEDP. They describe outreach, education, and health care collaboration activities, as well as data quality, evaluation, cost estimates, and suggestions for future programming.</description>
+		<link>http://www.cdc.gov/cancer/nbccedp/supplement.htm</link>
+		<pubDate>Tue, 12 Aug 2014 09:30 EDT</pubDate>
+</item>
+
+<item>
+		<title>Millions of Underserved Women in the U.S. Have Benefited from CDC's Breast and Cervical Cancer Screening Program</title>
+		<description>More than 4.3 million women with limited access to health care received breast and cervical cancer screening and diagnostic services in the first 20 years of the CDC’s National Breast and Cervical Cancer Early Detection Program (NBCCEDP).</description>
+		<link>http://www.cdc.gov/media/releases/2014/p0806-cancer-screening.html</link>
+		<pubDate>Wed, 6 Aug 2014 09:30 EDT</pubDate>
+</item>
+
+<item>
+		<title>The Surgeon General's Call to Action to Prevent Skin Cancer</title>
+		<description>Individuals, communities, policymakers, and state and federal governments all have a role to play in preventing skin cancer. </description>
+		<link>http://www.cdc.gov/cancer/skin/call_to_action/</link>
+		<pubDate>Tue, 29 Jul 2014 07:30 EDT</pubDate>
+</item>
+
+<item>
+		<title>Safe and Effective Vaccine That Prevents Many Kinds of Cancer Continues to Be Underused</title>
+		<description>The number of girls and boys aged 13 to 17 years receiving human papillomavirus (HPV) vaccine remains unacceptably low despite a slight increase in vaccination coverage since 2012.</description>
+		<link>http://www.cdc.gov/media/releases/2014/p0724-NIS-teen.html</link>
+		<pubDate>Thu, 24 Jul 2014 13:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>U.S. Cancer Survivors Face Significant Economic Burden</title>
+		<description>U.S. cancer survivors face significant economic burdens due to growing medical costs, missed work, and reduced productivity, according to a CDC study.</description>
+		<link>http://www.cdc.gov/media/releases/2014/p0612-cancer-survivors.html</link>
+		<pubDate>Mon, 16 Jun 2014 08:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Journal Supplement: Increasing Clinical Trial Enrollment Among Adolescents with Cancer</title>
+		<description>The articles in this Pediatrics journal supplement discuss the challenges of clinical trial enrollment among teens with cancer and offer recommendations to address this issue.</description>
+		<link>http://www.cdc.gov/cancer/survivorship/what_cdc_is_doing/research/clinical_trials_supplement.htm</link>
+		<pubDate>Thu, 12 Jun 2014 13:30 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: Knowing BRCA Changed My Life</title>
+		<description>Guest blogger Rep. Debbie Wasserman Schultz writes, "Despite the perception that breast cancer is only something older women need to worry about, young women can and do get breast cancer. I myself was a young woman at high risk, but didn’t know it. Just months after a clean mammogram, in late 2007, I heard those terrible words, 'You have breast cancer.'"</description>
+		<link>http://blogs.cdc.gov/cancer/2014/06/10/knowing-brca-changed-my-life/</link>
+		<pubDate>Wed, 11 Jun 2014 10:30 EDT</pubDate>
+</item>
+
+<item>
+		<title>Radon Promising Practices Brief</title>
+		<description>Radon is a radioactive gas that occurs naturally in the environment and can cause cancer. Every year, radon is estimated to cause about 21,000 lung cancer deaths in the United States. Most radon exposure occurs in the home. States can play a vital role in protecting the public from exposure to radon.</description>
+		<link>http://www.cdc.gov/cancer/dcpc/prevention/policies_practices/radon/</link>
+		<pubDate>Tue, 13 May 2014 14:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Know:BRCA Tool Available</title>
+		<description>The Know:BRCA tool can help women learn about BRCA genes and assess their risk of having a BRCA mutation (change). There is also a Know:BRCA tool for clinicians. Women who have a BRCA gene mutation can take important steps to reduce their risk for breast and ovarian cancers.</description>
+		<link>http://www.cdc.gov/cancer/breast/young_women/knowbrca.htm</link>
+		<pubDate>Thu, 8 May 2014 12:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: Melanoma: A Surgeon and Survivor's Perspective</title>
+		<description>Guest blogger Travis Kidner, MD writes, "I began using indoor tanning beds in my early teens to acquire that 'healthy' base tan before heading to the beach for summer vacations. ... the damage eventually surfaced as a small pink dot in the middle of my back. ... Exposure to UV radiation from either the sun or artificial tanning lamps is the leading cause of skin cancers worldwide."</description>
+		<link>http://blogs.cdc.gov/cancer/2014/04/29/melanoma-a-surgeon-and-survivor%E2%80%99s-perspective/</link>
+		<pubDate>Tue, 29 Apr 2014 18:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>American Indian/Alaska Native Death Rates Nearly 50% Higher Than Those of Non-Hispanic Whites</title>
+		<description>A supplement, led by CDC, found that death rates are 50% higher among AI/AN people than non-Hispanic whites, and cancer is the leading cause of death.</description>
+		<link>http://www.cdc.gov/cancer/healthdisparities/what_cdc_is_doing/aian_causes_of_death.htm</link>
+		<pubDate>Tue, 22 Apr 2014 16:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>CDC Foundation and George W. Bush Institute to Partner in $3.6 Million Grant to Address Global Cervical Cancer</title>
+		<description>The CDC Foundation and the George W. Bush Institute announced a new partnership to help stem the tide of cervical cancer in low- and middle-income countries based on a $3.6 million grant from the Bill &amp; Melinda Gates Foundation. The grant, managed by the CDC Foundation, will enable the George W. Bush Institute, the U.S. Centers for Disease Control and Prevention, and the World Health Organization to work with the Pink Ribbon Red Ribbon initiative to improve the monitoring and evaluation of cervical cancer screening and treatment programs.</description>
+		<link>http://www.cdcfoundation.org/pr/2014/cdc-foundation-bush-institute-partnership-to-address-global-cervical-cancer</link>
+		<pubDate>Wed, 16 Apr 2014 17:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: The Surprising Link Between Alcohol and Cancer</title>
+		<description>Alcohol is an important, though often overlooked, risk factor for cancer. Studies have shown that alcohol was responsible for about 20,000 cancer deaths in the United States in 2009.</description>
+		<link>http://blogs.cdc.gov/cancer/2014/04/14/the-surprising-link-between-alcohol-and-cancer/</link>
+		<pubDate>Mon, 14 Apr 2014 09:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Breast Cancer in Young Women Education Initiative Launched</title>
+		<description>On April 7, CDC launched the Know:BRCA education initiative to build awareness about how BRCA gene mutations affect risk for breast and ovarian cancer, and increase knowledge of breast health and breast cancer among women, particularly among those under age 40 and those at higher risk for developing the disease.</description>
+		<link>http://www.cdc.gov/cancer/breast/young_women/</link>
+		<pubDate>Mon, 7 Apr 2014 14:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>"The Burning Truth" Initiative Launched</title>
+		<description>On March 24, CDC launched the Burning Truth communication initiative to encourage young people to keep their skin healthy and beautiful for life by protecting themselves from too much exposure to ultraviolet rays from the sun and tanning beds. Posters and Web buttons are provided.</description>
+		<link>http://www.cdc.gov/cancer/skin/burningtruth/</link>
+		<pubDate>Tue, 25 Mar 2014 12:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>80% by 2018 Initiative Launched</title>
+		<description>On March 17, CDC joined dozens of groups at the National Press Club in Washington, DC to launch an effort to increase the nation's colorectal cancer screening rate to 80% by 2018. The event was organized by the National Colorectal Cancer Roundtable, cofounded by the American Cancer Society and CDC.</description>
+		<link>http://www.cdc.gov/cancer/colorectal/</link>
+		<pubDate>Mon, 17 Mar 2014 13:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: We're Increasing Colorectal Cancer Screening; You Can, Too!</title>
+		<description>In this blog post, guest blogger Dr. Frank Colangelo shares that he became a very strong champion for colorectal cancer screening several years ago after one of his patients died from this terrible disease in his early 50s. His practice has increased colorectal cancer screening rates from the low 60% range to nearly 75%. He challenges other medical practices to commit to increasing colorectal cancer screening rates and saving more lives from this largely preventable disease.</description>
+		<link>http://blogs.cdc.gov/cancer/2014/03/10/were-increasing-colorectal-cancer-screening-you-can-too/</link>
+		<pubDate>Mon, 17 Mar 2014 13:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: The Bright Side of Going Dark</title>
+		<description>In this blog post, Dawn Holman, a behavioral scientist in CDC's Division of Cancer Prevention and Control, explains the surprising connection between a lack of sleep and certain kinds of cancer. She offers several tips for reducing your exposure to light at night, and challenges you to give just one of them a try!</description>
+		<link>http://blogs.cdc.gov/cancer/2014/02/24/the-bright-side-of-going-dark/</link>
+		<pubDate>Mon, 24 Feb 2014 13:30 EST</pubDate>
+</item>
+
+<item>
+		<title>Rates of Indoor Tanning Among Female High School Students Lowest in States with Multiple Restrictions on Youth Access</title>
+		<description>Female high school students in states with indoor tanning laws, particularly those with parental permission laws and age restrictions, were less likely to engage in indoor tanning compared to students in states without such laws, a new study finds.</description>
+		<link>http://www.cdc.gov/media/releases/2014/p0213-indoor-tanning.html</link>
+		<pubDate>Thu, 13 Feb 2014 16:00 EST</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: The Power of the Pap</title>
+		<description>In this blog post, Cynthia Gelb, Director of CDC's Inside Knowledge: Get the Facts About Gynecologic Cancer campaign, explains why we owe so much to Dr. Georgios Papanikolaou, who invented the Pap test.</description>
+		<link>http://blogs.cdc.gov/cancer/2014/01/28/the-power-of-the-pap/</link>
+		<pubDate>Tue, 28 Jan 2014 11:30 EST</pubDate>
+</item>
+
+<item>
+		<title>Blog Post: Lung Cancer--Why the Numbers Are Personal</title>
+		<description>In this blog post, Jane Henley, an epidemiologist in CDC's Division of Cancer Prevention and Control, shares her story of the dangers of smoking. Her mother was 67 when she was diagnosed with lung cancer, even though she tried to quit smoking almost every day of her life.</description>
+		<link>http://blogs.cdc.gov/cancer/2014/01/09/lung-cancer%E2%80%94why-the-numbers-are-personal/</link>
+		<pubDate>Thu, 9 Jan 2014 15:47 EST</pubDate>
+</item>
+
+<item>
+		<title>Rates of New Lung Cancer Cases Drop in U.S. Men and Women</title>
+		<description>Tobacco control efforts are having a major impact on Americans' health, a new analysis of lung cancer data suggests.</description>
+		<link>http://www.cdc.gov/media/releases/2014/p0109-lung-cancer.html</link>
+		<pubDate>Thu, 9 Jan 2014 13:00 EST</pubDate>
+</item>
+
+<item>
+		<title>AMIGAS: A Cervical Cancer Prevention Trial Among Mexican-American Women</title>
+		<description>The purpose of this study was to see whether AMIGAS increased cervical cancer screening within six months.</description>
+		<link>http://www.cdc.gov/cancer/dcpc/research/articles/amigas.htm</link>
+		<pubDate>Tue, 3 Dec 2013 14:30 EST</pubDate>
+</item>
+
+<item>
+		<title>United States Cancer Statistics: 1999-2010 Incidence and Mortality Web-based Report Released</title>
+		<description>The current report includes cancer cases diagnosed and cancer deaths that occurred from 1999 through 2010. Each year of data includes more than 1 million cases of invasive cancer.</description>
+		<link>http://nccd.cdc.gov/uscs/</link>
+		<pubDate>Thu, 24 Oct 2013 13:30 EDT</pubDate>
+</item>
+
+<item>
+		<title>Prostate Cancer Infographic</title>
+		<description>"Take Time to Decide" lists some questions you should ask your doctor before you decide to get tested or treated for prostate cancer.</description>
+		<link>http://www.cdc.gov/cancer/prostate/basic_info/infographic.htm</link>
+		<pubDate>Tue, 17 Sep 2013 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Colorectal Cancer Poster Presentation</title>
+		<description>This poster presentation explains how CDC's <em>Screen for Life: National Colorectal Cancer Action Campaign</em> addresses common misconceptions about colorectal cancer screening through audience research.</description>
+		<link>http://www.cdc.gov/cancer/colorectal/sfl/poster.htm</link>
+		<pubDate>Tue, 17 Sep 2013 9:55 EDT</pubDate>
+</item>
+
+<item>
+		<title>Cancer Registries' Value for You</title>
+		<description>Learn what a cancer registry is, how cancer registries work, and how the data they collect is used by comprehensive cancer control coalitions, scientists, and others to help fight cancer.</description>
+		<link>http://www.cdc.gov/cancer/npcr/value/index.htm</link>
+		<pubDate>Mon, 9 Sep 2013 14:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>New Directions: The Future of Cancer Screening</title>
+		<description>The Affordable Care Act will increase access to breast and cervical cancer screening for many underserved women. However, many women will still face substantial barriers to screening. CDC's National Breast and Cervical Cancer Early Detection Program can help.</description>
+		<link>http://www.cdc.gov/cancer/new_directions.htm</link>
+		<pubDate>Fri, 6 Sep 2013 10:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>Journal Supplement Evaluates CDC's Colorectal Cancer Screening Demonstration Program</title>
+		<description>13 articles in this supplement to Cancer document the full experience and evaluation of the CRCSDP.</description>
+		<link>http://www.cdc.gov/cancer/crccp/supplement.htm</link>
+		<pubDate>Thu, 5 Sep 2013 21:00 EDT</pubDate>
+</item>
+
+<item>
+		<title>CDC's Stories of Survivorship</title>
+		<description>Many words of wisdom are shared in this tribute to members of the CDC family whose lives have been touched by cancer.</description>
+		<link>http://www.cdc.gov/cancer/survivorship/stories/index.htm</link>
+		<pubDate>Wed, 4 Sep 2013 21:00 EDT</pubDate>
+</item>
+
+      </channel>
+</rss>

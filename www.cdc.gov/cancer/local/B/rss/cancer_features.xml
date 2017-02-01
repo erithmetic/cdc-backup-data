@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="cancer.xsl"?>-->
+<rss version="2.0">
+<channel>
+	<title>Cancer Features</title>
+	<description>An RSS feed of features from CDC's Division of Cancer Prevention and Control.</description>
+	<link>https://www.cdc.gov/</link>
+	<language>en-US</language>
+	<webMaster>nccdcpcinfo@cdc.gov</webMaster>
+	<category>Health</category>
+	<category>Public Health</category>
+
+<item>
+	<title>Cervical Cancer Awareness</title>
+	<description>Most cases of cervical cancer are easily preventable with regular screening tests and follow-up. It also is highly curable when found and treated early. Vaccines are available to protect against the most common cause of cervical cancer.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/CervicalCancer/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/CervicalCancer/</guid>
+	<pubDate>Fri, 13 Jan 2016 09:30:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/cervicalcancer/images/cervicalcancer_355px.jpg" length="16952" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Cancer, the Flu, and You</title>
+	<description>Living with cancer increases your risk for complications from the flu. People with cancer or a history of cancer, and people who live with or care for cancer patients and survivors, should get a flu shot every year.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/CancerFlu/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/CancerFlu/</guid>
+	<pubDate>Mon, 19 Dec 2016 10:00:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/CancerFlu/images/CancerFlu_355px.jpg" length="12497" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Preventing Infections in Cancer Patients</title>
+	<description>Cancer patients receiving chemotherapy are more likely to get an infection. For these people, any type of infection may become serious quickly. If you have cancer and are receiving chemotherapy, learn the facts about infection.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/PreventInfections/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/PreventInfections/</guid>
+	<pubDate>Mon, 5 Dec 2016 12:00:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/preventinfections/images/preventinfections_355px.jpg" length="49861" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Using Science to Prevent Cancer</title>
+	<description>Recent publications including findings on liver cancer, tobacco-related cancers, the potential impact of the human papillomavirus (HPV) vaccine on cancers in the United States, and prevention of cancer starting before birth.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/CancerResearch/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/CancerResearch/</guid>
+	<pubDate>Thu, 1 Dec 2016 12:00:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/CancerResearch/images/Research.jpg" length="97966" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Lung Cancer Awareness</title>
+	<description>To lower your lung cancer risk, quit smoking, avoid secondhand smoke and get your home tested for radon.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/LungCancer/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/LungCancer/</guid>
+	<pubDate>Tue, 1 Nov 2016 10:00:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/lungcancer/images/lung-350x361.jpg" length="128638" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Breast Cancer in Young Women</title>
+	<description>Most breast cancers are found in women who are 50 years old or older, but breast cancer also affects younger women. Some young women are at a higher risk for getting breast cancer at an early age compared with other women their age. Find out if you may have risk factors.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/breastcanceryoungwomen/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/breastcanceryoungwomen/</guid>
+	<pubDate>Wed, 19 Oct 2016 11:30:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/flexslider/images/BYB_925x350.jpg" length="225400" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Breast Cancer Awareness</title>
+	<description>The best way to find breast cancer early is with a mammogram. If you are 50 to 74 years old, be sure to have a screening mammogram every two years. If you are 40 to 49 years old, talk to your doctor about when to start and how often to get a screening mammogram.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/BreastCancerAwareness/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/BreastCancerAwareness/</guid>
+	<pubDate>Fri, 30 Sep 2016 10:00:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/breastcancerawareness/images/women_350.jpg" length="85621" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Gynecologic Cancer Awareness</title>
+	<description>Learn about the symptoms and risk factors for cervical, ovarian, uterine, vaginal, and vulvar cancers. When gynecologic cancers are found early, treatment works best.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/GynecologicCancers/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/GynecologicCancers/</guid>
+	<pubDate>Mon, 12 Sep 2016 11:00:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/flexslider/images/gyn_925x350.jpg" length="36510" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Prostate Cancer Awareness</title>
+	<description>Prostate cancer is the most non-skin common cancer in men. Most prostate cancers grow slowly, and don't cause any health problems in men who have them. Learn about prostate cancer and talk to your doctor before you decide to get tested or treated.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/ProstateCancer/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/ProstateCancer/</guid>
+	<pubDate>Thu, 1 Sep 2016 10:00:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/prostatecancer/images/prostatecancer_355px.jpg" length="16251" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Cancer Prevention Starts in Childhood</title>
+	<description>Reduce your children's risk of getting many types of cancer later in life.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/CancerAndChildren/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/CancerAndChildren/</guid>
+	<pubDate>Thu, 21 Jul 2016 10:00:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/cancerandchildren/images/cancerandchildren_355px.jpg" length="19008" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Cancer and Men</title>
+	<description>Every year, cancer claims the lives of nearly 300,000 men in America. Men can reduce their risk for several of the most common kinds of cancer.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/CancerAndMen/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/CancerAndMen/</guid>
+	<pubDate>Fri, 10 Jun 2016 16:30:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/CancerAndMen/images/cancerandmen_355px.jpg" length="72796" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Improving Health and Quality of Life After Cancer</title>
+	<description>At least one-third of the more than 14 million survivors in the United States face physical, mental, social, job, or financial problems related to their cancer experience. Learn what can be done.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/CancerSurvivorship/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/CancerSurvivorship/</guid>
+	<pubDate>Fri, 3 Jun 2016 11:00:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/cancersurvivorship/images/cancersurvivorship_456px.jpg" length="97966" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Skin Cancer Awareness</title>
+	<description>While you enjoy the outdoors this summer, protect yourself from skin cancer.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/SkinCancer/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/SkinCancer/</guid>
+	<pubDate>Thu, 26 May 2016 10:00:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/skincancer/images/skincancer_355px.jpg" length="65416" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Cancer and Women</title>
+	<description>Women can reduce their cancer risk by adopting a healthy lifestyle and getting the right cancer screening tests for their stage of life.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/WomenAndCancer/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/WomenAndCancer/</guid>
+	<pubDate>Mon, 9 May 2016 09:00:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/womenandcancer/images/WomenAndCancer_456_257.jpg" length="77669" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Health Disparities in Cancer</title>
+	<description>Increasing early cancer detection, promoting healthy lifestyles, and expanding access to health care help reduce inequalities in cancer among groups at greatest risk.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/CancerHealthDisparities/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/CancerHealthDisparities/</guid>
+	<pubDate>Wed, 30 Mar 2016 11:30:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/cancerhealthdisparities/images/cancerhealthdisparities_456px.jpg" length="7819" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Colorectal Cancer Awareness</title>
+	<description>Among cancers that affect both men and women, colorectal cancer is the second leading cause of cancer deaths in the United States.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/ColorectalAwareness/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/ColorectalAwareness/</guid>
+	<pubDate>Tue, 1 Mar 2016 10:00:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/colorectalawareness/images/colorectalawareness_355px.jpg" length="8656" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Cancer Prevention in the Workplace</title>
+	<description>Making sure that workers are safe on the job and creating a culture that supports healthy behaviors can improve employee health, safety, and well-being.</description>
+	<link>https://www.cdc.gov/cancer/dcpc/resources/features/cancerpreventioninworkplace/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/dcpc/resources/features/cancerpreventioninworkplace/</guid>
+	<pubDate>Mon, 8 Dec 2014 10:00:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/resources/features/cancerpreventioninworkplace/images/cancer_workplace_456_297.jpg" length="122925" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>CDC Vital Signs: Cervical Cancer Is Preventable</title>
+	<description>More than 12,000 women in the United States get cervical cancer every year, even though up to 93% of these cancers could be prevented by screening and HPV (human papillomavirus) vaccination. Learn what can be done to reduce the burden of cervical cancer.</description>
+	<link>https://www.cdc.gov/vitalsigns/cervical-cancer/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/vitalsigns/cervical-cancer/</guid>
+	<pubDate>Wed, 5 Nov 2014 13:00:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/images/flash/vs_1114_328a.jpg" length="59013" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>The Surgeon General's Call to Action to Prevent Skin Cancer</title>
+	<description>Individuals, communities, policymakers, and state and federal governments all have a role to play in preventing skin cancer.</description>
+	<link>https://www.cdc.gov/cancer/skin/call_to_action/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/skin/call_to_action/</guid>
+	<pubDate>Tue, 29 Jul 2014 10:00:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/skin/images/cta_report_150_194.jpg" length="26712" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>Know:BRCA</title>
+	<description>The Know:BRCA tool can help you learn about BRCA genes and assess your risk of having a BRCA mutation.</description>
+	<link>https://www.cdc.gov/cancer/breast/young_women/knowbrca.htm</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/breast/young_women/knowbrca.htm</guid>
+	<pubDate>Thu, 8 May 2014 12:10:00 EDT</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/images/know_brca_456_257.jpg" length="117575" type="image/jpeg"></enclosure>
+</item>
+<item>
+	<title>The Burning Truth</title>
+	<description>Avoiding indoor tanning and protecting yourself from the sun when outdoors are the best ways to reduce your chance of getting skin cancer.</description>
+	<link>https://www.cdc.gov/cancer/skin/burningtruth/</link>
+	<guid isPermaLink="true">https://www.cdc.gov/cancer/skin/burningtruth/</guid>
+	<pubDate>Mon, 10 Mar 2014 16:30:00 EST</pubDate>
+	<enclosure url="https://www.cdc.gov/cancer/dcpc/images/burningtruth_tanned_skin_456px.jpg" length="26082" type="image/jpeg"></enclosure>
+</item>
+</channel>
+</rss>

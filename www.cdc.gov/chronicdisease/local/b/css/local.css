@@ -1,0 +1,405 @@
+@charset "UTF-8";
+ 
+/* =================================================
+LOCAL STYLE SHEET
+Use this to overwrite any of the global styles or add customized elements
+================================================= */
+
+/* Edit to Feature Modules on Home page - CSS */
+
+.module-typeP {
+box-shadow: 0px 0px 8px rgba(0,0,0,0.13) !important;
+padding: 0px !important;
+}
+
+
+/* Other */
+
+#raw
+ {
+ display:inline;
+ }
+
+.top-blocks dl{
+	min-height: 50px;
+}
+
+
+#imageleft
+{
+ float:left;
+ position: relative;
+ padding-right:10px;
+ clear:both;
+}
+
+#imageright
+{
+ float:right;
+ position: relative;
+ padding-left:10px;
+ clear:both;
+}
+
+.inline
+ {
+	display:inline;
+ }
+
+img.plugin {
+
+display:inline-block;
+margin:0 0.25em 0 0;
+padding:0;
+position:relative;
+top:-1px;
+vertical-align:top;
+}
+ 
+.centered {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pdfPolicy {
+color:#696969;
+font-family:Trebuchet MS,Arial,sans-serif;
+font-size:0.9em;
+font-weight:normal;
+padding:0.5em 0; 
+}
+
+#content .rounders li.with-image {
+    background-position-y: 1em;
+}
+#content .rounders li.with-image a {
+    display: inline;
+}
+#content .rounders li.with-image img {
+    display: inline;
+    padding: 0px 3px;
+}
+
+#aag
+
+{width:207px;
+float:right;
+clear:both;}
+
+table.noborder, table.noborder tr, table.noborder td {
+	border: none;
+	margin: 0;
+	padding: 6px;
+	}
+img.center {
+	text-align: center;
+	}
+
+th.left, .left {
+	text-align: left;
+	}
+
+.right {
+                  text-align: right;
+}
+
+/* NEW STYLES */
+
+#raw
+ {
+ display:inline;
+ }
+
+.c1 dl, .c2 dl {
+	height: 70px;
+	}
+	
+.c1 ul li, .c2 ul li {
+	padding-bottom: 12px;
+	}
+
+td.centeralign {
+	text-align: center;
+}
+
+h3.extrabelow {
+	padding-bottom: 10px;
+}
+
+.highlight-box {
+	background: #CC9;
+	border: 4px solid #990;
+	padding: 10px;
+}
+
+.highlight-box-rounded {
+                  background-color: #eef7e3;
+                  border-radius: 8px;
+                  padding-top: 0px;
+                  padding-bottom: 10px;
+                  padding-left: 10px;
+                  padding-right: 10px;      
+}
+
+.smalltext {
+	font-size: .8em;
+}
+
+div.features {display:block; padding-top: 10px; padding-bottom:10px;}
+
+p.dashedline {border-bottom:dashed 1px #999; padding-top: 16px; padding-bottom: 0;}
+
+div.features div.imageplaceholder {width: 20%; float: left; margin-bottom: 9px;}
+
+div.features div.featuretext p a.sub {font-size:1.2em; font-weight:bold; padding-bottom:0; margin-bottom:0; text-decoration:none;}
+
+div.features div.featuretext p {padding-top:0; padding-left: 12px; margin-top:0;}
+
+p.postdate {font-style: italic;}
+
+.hideme{display: none;}
+
+div.c1 img.topic, div.c2 img.topic {float:left; padding-right: 6px; margin-bottom: 10px;}
+
+#tblHeadCtr, #tblHeadCtr th, #tblHeadCtr td {border: none; text-align: left; padding: 6px;}
+
+div.c2 dd {width: 400px;}
+
+
+
+
+/* Starts  Mayela Jackson - Table CSS */
+
+table.gray-border{
+border: 1px solid #CCCCCC !important;
+}
+
+table.gray-border th{
+border: 1px solid #006633 !important;
+}
+
+table.gray-border td{
+border: 1px solid #CCCCCC !important;
+}
+
+table.dark-green-table td{
+padding: .5em;
+vertical-align: top;
+}
+
+.dark-green-table th{
+background-color: #C1D5B0;
+color: black;
+padding: .5em;
+}
+
+
+.dark-green-table th.rowHeader{
+background-color: #ffffff !important;
+color: black;
+padding: .5em;
+border: 1px solid #CCCCCC !important;
+font-weight:normal !important;
+text-align: left;
+align: left;
+}
+
+
+
+p.big {line-height:200%;}
+
+.evenRow{
+	background-color: #e5e5e5;
+}
+
+.oddRow{
+	background-color: #f4f4f4;
+}
+
+/*for the six boxes module home page*/
+
+table.no-border{
+border: 0px  !important;
+}
+
+table.no-border td{
+border: 0px 0 !important;
+}
+
+
+.smallTextReferences {
+    font-size: 0.9em !important;
+    margin-top: 0px !important;
+}
+
+/* 2.7 Flexslider Fix - Bethany Saucier */
+
+#content #top-container .flexsliderbox {
+    width: auto;
+}
+
+#content #top-container .flexsliderbox .flexslider {
+    height: 178px;
+}
+
+/* Starts  Bethany Saucier - CSS  */
+
+
+.odd {
+    background-color: #c0d4b0;
+}
+
+.state {
+    width: 30% !important;
+}
+
+table {
+    width: 100%;
+} 
+
+th {
+    width: 23%;
+}
+
+
+td {
+    width: 23%;
+}
+
+
+.third {
+    width: 33%;
+    text-align: left;
+}
+
+/* Starts Table on Budget Page - CSS  */
+
+th.col1 {
+    font-weight:normal !important;
+    width: 30%;
+}
+
+.sub {
+    width: 14% !important;
+    text-align: right !important;
+    line-height: 1.3em !important;
+}
+
+/* Ends Table on Budget Page - CSS  */
+
+.module h3 {
+    border-bottom: 0px !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+}
+
+.cdc-socialMedia {
+    margin-top: 0px;
+}
+
+.cdc-socialMedia #socialMediaFeeds, .cdc-socialMedia .socialMediaFeeds {
+    padding: 10px 10px 2px;
+}
+
+.indexNav {
+     margin-left: -15px;
+     margin-bottom: 0px !important; 
+}
+
+.standard-slider .flex-caption span:first-child {
+    font-size: 1em;
+}
+
+.slidelft {
+    margin: 0px;
+}
+
+.module-typeL div h3, .module-typeP div h3 {
+    line-height: 25px !important;
+}
+
+.headertext {
+     padding-top: 5px;
+}
+
+.module {
+	padding: 0px !important;
+       margin-bottom: 10px !important;
+}
+
+
+.module h2 {
+    font-size: 22px !important;
+}
+
+.module h1, h2, h3, h4, h5, h6 {
+    border-bottom: 0px !important;
+}
+
+
+/* Edit to Go Button on dropdown State Snapshots page - CSS */
+
+input {
+    vertical-align: top !important;
+}
+
+/* Edit to Twitter Feed Box Index page - CSS */
+
+.socialMediaFeeds {
+    margin-left: 15px !important;
+}
+
+/* Commented out for removal
+
+ .socialMediaFeeds {
+    min-height: 360px;
+} */
+
+
+/* Edit to Twitter Feed Module - CSS */
+
+.post {
+     border-bottom:1px dashed #AAC2D3; 
+     padding: 5px;
+     line-height: 18px;
+}
+
+#wrapper [class*="module"] > ul, #wrapper [class*="module"] > ol {
+    margin-left: 20px !important;
+    margin-bottom: 25px !important;
+}
+
+#wrapper [class*="module"] > h1, #wrapper [class*="module"] > h2, #wrapper [class*="module"] > h3, #wrapper [class*="module"] > h4, #wrapper [class*="module"] .title {
+    padding: 5px 15px !important;
+}
+
+.sidemargin15 {
+     margin-left: 15px;
+     margin-right: 15px;
+}
+
+.smallFontSize {
+    line-height: 18px;
+}
+
+.imgborder {
+    border: 1px solid #cccccc;
+}
+
+.margintop30 {
+    margin-top: 30px;
+}
+
+.margintop20 {
+    margin-top: 20px;
+}
+
+.captionimg {
+border: 1px solid #cccccc !important;
+margin-top: 10px !important;
+}
+
+.tp-link-policy h3 {
+line-height: 20px !important;
+}
